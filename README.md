@@ -51,7 +51,7 @@ Lets look what the lines of a trainer mean and what possibilities we have:
             {
             .species = SPECIES_VULPIX, 
             
- >Gender gets assigned here
+ >Gender gets assigned here, either TRAINER_MON_MALE, TRAINER_MON_FEMALE or TRAINER_MON_RANDOM_GENDER
  
             .gender = TRAINER_MON_RANDOM_GENDER, 
             
@@ -91,7 +91,8 @@ Lets look what the lines of a trainer mean and what possibilities we have:
 
 >Here is an example how to insert a new Pokemon
 
-              | Start from here
+Start from here
+
             { 
             .species = SPECIES_POOCHYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -104,5 +105,6 @@ Lets look what the lines of a trainer mean and what possibilities we have:
                 MOVE_GROWL,
             },
             },
-            | And End here
-            | You can copy this and use it as a blueprint. Adjust the values as written up there and you're good to go
+            
+And End here
+You can copy this and use it as a blueprint. Adjust the values as written up there and you're good to go
