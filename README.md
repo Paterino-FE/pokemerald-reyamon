@@ -15,74 +15,73 @@ Important File Paths, where you can adjust or find necessary values
 
 Lets look what the lines of a trainer mean and what possibilities we have:
 
+ >This is a unique name, dont change at all cost
+
     [TRAINER_PATERINO] = 
     
- #This is a unique name, dont change at all cost
+ >Here you must change the name in "" to the actual trainer name. It can be "Paterino", "Bob" or "Dirkling". Anything
  
     {
         .trainerName = _("PATERINO"), 
         
- #Here you must change the name in "" to the actual trainer name. It can be "Paterino", "Bob" or "Dirkling". Anything
+ >Here the class of the trainer will be defined > Look into trainer_class_lookups.h
  
         .trainerClass = TRAINER_CLASS_RIVAL, 
         
- #Here the class of the trainer will be defined > Look into trainer_class_lookups.h
+ >Here the picture/sprite of the trainer will be defined > Look into trainer_class_lookups.h
  
         .trainerPic = TRAINER_PIC_WALLY, 
         
- #Here the picture/sprite of the trainer will be defined > Look into trainer_class_lookups.h
+ >Here the battle music can be adjusted, its recommened to leave it at base
  
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE, 
         
- #Here the battle music can be adjusted, its recommened to leave it at base
+ >False = No double battle, True = This is a double battle
  
         .doubleBattle = FALSE, 
         
- #False = No double battle, True = This is a double battle
+ >Here the number pokemon in the trainers party are defined. They need to be the exact same to the number of pokemon he should have
  
         .partySize = 1, 
         
- #Here the number pokemon in the trainers party are defined. They need to be the exact same to the number of pokemon he should have
+ >The species of the Pokemon get defined here. Check src/data/pokemon/species_info/gen_*_families, if you dont find the right species ID
  
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_VULPIX, 
             
- #The species of the Pokemon get defined here. Check src/data/pokemon/species_info/gen_*_families, if you dont find the right species ID
+ >Gender gets assigned here
  
             .gender = TRAINER_MON_RANDOM_GENDER, 
             
- #Gender gets assigned here
+ >IVs can be adjusted here, leave them to what is already written inside there
  
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0), 
             
- #IVs can be adjusted here, leave them to what is already written inside there
+ >Level of the Pokemon
  
             .lvl = 5, 
             
- #Level of the Pokemon
+ >Pokemon Nature, it's exactly written as the nature. NATURE_MODEST = Modest
  
             .nature = NATURE_HARDY, 
             
- #Pokemon Nature, it's exactly written as the nature. NATURE_MODEST = Modest
+ >We dont use this. Leave it as it is
  
             .dynamaxLevel = MAX_DYNAMAX_LEVEL, 
             
- #We dont use this. Leave it as it is
+ >This value sets a trainer pokemon to be shiny. Only insert this, if the community member specified that his pokemon is shiny
  
             .isShiny = 1, 
             
- #This value sets a trainer pokemon to be shiny. Only insert this, if the community member specified that his pokemon is shiny
+>Here you can set the ability of the pokemon. They are usually written exactly how they are, but if you feel unsure, then check the pokemon in src/data/pokemon/species_info/gen_*_families
  
             .ability = ABILITY_DROUGHT, 
             
- #Here you can set the ability of the pokemon. They are usually written exactly how they are, but if you feel unsure, then check the pokemon in src/data/pokemon/species_info/gen_*_families
+ > .moves needs to be set to have a customized moveset, instead of a level up moveset. You find all defined moves in here include/constants/moves.h. There can only be 4 moves.
  
             .moves = { 
-            
- #.moves needs to be set to have a customized moveset, instead of a level up moveset. You find all defined moves in here include/constants/moves.h. There can only be 4 moves.
- 
                 MOVE_POUND,
                 MOVE_GROWL,
             },
@@ -90,7 +89,7 @@ Lets look what the lines of a trainer mean and what possibilities we have:
         },
     },
 
-Here is an example how to insert a new Pokemon
+>Here is an example how to insert a new Pokemon
 
               | Start from here
             { 
