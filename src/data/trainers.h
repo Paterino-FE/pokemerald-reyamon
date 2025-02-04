@@ -39627,11 +39627,11 @@ F_TRAINER_FEMALE |
     [TRAINER_DARIUS] =
     {
 #line 15850
-        .trainerName = _("DARIUS"),
+        .trainerName = _("Felixr2"),
 #line 15851
-        .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
+        .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 15852
-        .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender = 
 #line 15854
             TRAINER_ENCOUNTER_MUSIC_COOL,
@@ -39639,19 +39639,55 @@ F_TRAINER_FEMALE |
         .doubleBattle = FALSE,
 #line 15856
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 3,
         .party = (const struct TrainerMon[])
         {
             {
 #line 15858
-            .species = SPECIES_TROPIUS,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+            .species = SPECIES_BRAIXEN,
+            .gender = TRAINER_MON_FEMALE,
 #line 15860
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 15859
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_MAGICIAN,
+            .moves = {
+                MOVE_FIRE_SPIN,
+                MOVE_PSYBEAM,
+                MOVE_SHOCK_WAVE,
+                MOVE_PROTECT,
+            },
+            },
+            { 
+            .species = SPECIES_SYLVEON,
+            .gender = TRAINER_MON_MALE,
+            .iv = TRAINER_PARTY_IVS(12, 12, 9, 10, 9, 12),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .isShiny = 1,
+            .moves = {
+                MOVE_SWIFT,
+                MOVE_HIDDEN_POWER,
+                MOVE_QUICK_ATTACK,
+                MOVE_PROTECT,
+            },
+            },
+            { 
+            .species = SPECIES_GARDEVOIR,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_DRAINING_KISS,
+                MOVE_LIGHT_SCREEN,
+                MOVE_DISABLE,
+                MOVE_WILL_O_WISP,
+            },
             },
         },
     },
