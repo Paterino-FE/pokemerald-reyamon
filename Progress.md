@@ -14,10 +14,9 @@ Gym 2
 
 Gym 3
 
->Trainers -> Not Done
+>Trainers -> Done (Except Guitarist Shawn)
 
->Dialogue -> Not Done
-
+>Dialogue -> Done (Except Guitarist Shawn/TM Stuff)
 Gym 4
 
 >Trainers -> Not Done
@@ -34,7 +33,7 @@ Gym 6
 
 >Trainers -> Done
 
->Dialogue -> Not Done | Missing lemonmeringuespy dialogue
+>Dialogue -> Not Done | Missing lemonmeringuespy dialogue | TM Stuff
 
 Gym 7
 
