@@ -9070,9 +9070,9 @@ F_TRAINER_FEMALE |
 #line 3590
         .trainerName = _("Four"),
 #line 3591
-        .trainerClass = TRAINER_CLASS_COOLTRAINER,
+        .trainerClass = TRAINER_CLASS_HEX_MANIAC,
 #line 3592
-        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        .trainerPic = TRAINER_PIC_HEX_MANIAC,
         .encounterMusic_gender = 
 #line 3594
             TRAINER_ENCOUNTER_MUSIC_HIKER,
