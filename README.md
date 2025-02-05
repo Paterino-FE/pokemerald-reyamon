@@ -55,6 +55,10 @@ Lets look what the lines of a trainer mean and what possibilities we have:
  
             .gender = TRAINER_MON_RANDOM_GENDER, 
             
+ >Held item can be inserted here. Only add this if the pokemon has a held item.
+
+            .heldItem = ITEM_ORAN_BERRY,
+ 
  >IVs can be adjusted here, leave them to what is already written inside there
  
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0), 
