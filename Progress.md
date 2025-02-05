@@ -17,11 +17,12 @@ Gym 3
 >Trainers -> Done (Except Guitarist Shawn)
 
 >Dialogue -> Done (Except Guitarist Shawn/TM Stuff)
+
 Gym 4
 
->Trainers -> Not Done
+>Trainers -> Done (Except Keegan/Danielle)
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Keegan/Danielle/Four/TM Stuff)
 
 Gym 5
 
