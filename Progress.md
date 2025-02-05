@@ -26,7 +26,7 @@ Gym 4
 
 Gym 5
 
->Trainers -> Not Done
+>Trainers -> Edit OtterMadness trainer class/sprite (Otherwise Done)
 
 >Dialogue -> Not Done
 

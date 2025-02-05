@@ -4137,7 +4137,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JODY] =
     {
 #line 1686
-        .trainerName = _("OtterMad"), //placeholder, replace if OtterMadness wants something else
+        .trainerName = _("OtterMad"),
 #line 1687
         .trainerClass = TRAINER_CLASS_COOLTRAINER, //change to burglar
 #line 1688
@@ -4155,7 +4155,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 1695
-            .species = SPECIES_ROTOM, //make rotom wash
+            .species = SPECIES_ROTOM_WASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 1697
             .heldItem = ITEM_LAGGING_TAIL,
@@ -4174,7 +4174,7 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_ROTOM, //make rotom frost
+            .species = SPECIES_ROTOM_FROST,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_LAGGING_TAIL,
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -4190,7 +4190,7 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_ROTOM, //make rotom heat
+            .species = SPECIES_ROTOM_HEAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_LAGGING_TAIL,
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
