@@ -19863,7 +19863,7 @@ F_TRAINER_FEMALE |
                 MOVE_WATER_GUN,
                 MOVE_MUD_SHOT,
                 MOVE_SLAM,
-                MOVE_ROCK_SLAM,
+                MOVE_ROCK_SMASH,
             },
             },
             {
@@ -26882,11 +26882,11 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDEN] =
     {
 #line 10578
-        .trainerName = _("Goh"),
+        .trainerName = _("Barry"),
 #line 10579
-        .trainerClass = TRAINER_CLASS_BATTLE_MAN,
+        .trainerClass = TRAINER_CLASS_BUG_CATCHER,
 #line 10580
-        .trainerPic = TRAINER_PIC_BATTLE_MAN,
+        .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender = 
 #line 10582
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -26953,9 +26953,9 @@ F_TRAINER_FEMALE |
 #line 10591
         .trainerName = _("Wilson"),
 #line 10592
-        .trainerClass = TRAINER_CLASS_BATTLE_BOY,
+        .trainerClass = TRAINER_CLASS_BLACK_BELT,
 #line 10593
-        .trainerPic = TRAINER_PIC_BATTLE_BOY,
+        .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender = 
 #line 10594
 F_TRAINER_FEMALE | 
@@ -26979,7 +26979,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_STURDY,
-            .move = {
+            .moves = {
                 MOVE_WATER_GUN,
                 MOVE_BITE,
                 MOVE_ROLLOUT,
