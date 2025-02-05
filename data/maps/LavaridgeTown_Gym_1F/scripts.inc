@@ -266,17 +266,13 @@ LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
 	.string "TRAINER just like FLANNERY.$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
-	.string "Come on, get with it!\n"
-	.string "Let's go before my feelings cool!$"
+	.string "Your past haunts you!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "It's so hot, and yet my heart is\n"
-	.string "clutched by ice…$"
+	.string "Ermm... I guess it doesn´t anymore.$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
-	.string "The way the battling spirit burns\n"
-	.string "within you, you may stand a chance\l"
-	.string "against our LEADER.$"
+	.string "U aint being haunted anymore, u can go$"
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
 	.string "Us dirklings will crush\n"
