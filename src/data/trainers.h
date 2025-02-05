@@ -12661,6 +12661,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SERENE_GRACE,
+            .friendship = 255,
             .moves = {
 #line 5014
                 MOVE_HORN_LEECH,
@@ -12680,6 +12681,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_CUTE_CHARM,
+            .friendship = 255,
             .moves = {
 #line 5022
                 MOVE_DAZZLING_GLEAM,
@@ -12700,6 +12702,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_OWN_TEMPO,
+            .friendship = 255,
             .moves = {
 #line 5030
                 MOVE_GIGA_DRAIN,
@@ -12717,6 +12720,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SNOW_WARNING,
+            .friendship = 255,
             .moves = {
                 MOVE_FREEZE_DRY,
                 MOVE_DAZZLING_GLEAM,
