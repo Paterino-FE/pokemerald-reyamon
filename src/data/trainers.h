@@ -14394,7 +14394,7 @@ F_TRAINER_FEMALE |
 #line 5656
         .trainerClass = TRAINER_CLASS_RICH_BOY,
 #line 5657
-        .trainerPic = TRAINER_CLASS_RICH_BOY,
+        .trainerPic = TRAINER_PIC_RICH_BOY,
         .encounterMusic_gender = 
 #line 5658
 F_TRAINER_FEMALE | 

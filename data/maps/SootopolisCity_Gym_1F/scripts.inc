@@ -208,7 +208,7 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
 	.string "{PLAYER} received the SANCTUARY\n"
-	.string "BADGEfrom LUMI.$"
+	.string "BADGE from LUMI.$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "You have proven yourself worthy.\n"
@@ -218,7 +218,7 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "Discord channel.\p"
 	.string "I hope we will battle again\n"
 	.string "one day when I'm stronger. But\p"
-	.string "first I will be taking Nanami Bear$"
+	.string "first I will be taking Nanami Bear\n"
 	.string "to Malaysia like he has always wanted.$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
