@@ -84,6 +84,10 @@ Lets look what the lines of a trainer mean and what possibilities we have:
  >This sets the friendship value
  
             .friendship = 255, 
+
+ >This sets a nickname (needs the COMPOUND_STRING around it)
+ 
+            .nickname = COMPOUND_STRING("Dragonite HM")
             
 >Here you can set the ability of the pokemon. They are usually written exactly how they are, but if you feel unsure, then check the pokemon in src/data/pokemon/species_info/gen_*_families
  
