@@ -1,6 +1,8 @@
 ﻿# pokemerald-reyamon
 
-How to edit Trainers:
+ Here are some written guides, how to do edits on trainers and dialogue
+
+# How to edit Trainers:
 
 Important File Paths, where you can adjust or find necessary values
 >src/data/trainers.h | The file where trainers will be adjusted, including their teams
@@ -112,3 +114,37 @@ Start from here
             
 And End here
 You can copy this and use it as a blueprint. Adjust the values as written up there and you're good to go
+
+# How to edit trainer dialogues
+
+First and foremost, use this tool to check for textbox issues https://meejle.github.io/
+
+File Path: /data/maps/
+
+1st. You check in what town the gym resides, as an example GYM 4 is in lavaridge town, so you got into the folder /data/maps/LavaridgeTown_GYM_** (It has multiple floors)
+
+2nd. Open the scripts.inc file in that folder
+
+3rd. In there you have to locate the original trainer name and its intro/defeat/postbattle quote
+
+Here is an example with Gerald from the LavaridgeTown_Gym_1F file
+
+>LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
+
+	.string "The temperature of magma is\n"
+
+	.string "392 degrees.\p"
+
+	.string "Your POKéMON beat me, so they should\n"
+
+	.string "easily survive in magma.$"
+
+The text "LavaridgeTown_Gym_1F_Text_GeraldPostBattle:" you dont alter at all, please always leave it as it is. This also goes for Postbattle and Intros text.
+
+For every sentence you have to start with ".string", please check out https://meejle.github.io/ how the text would interact with the textbox of emerald.
+
+The "\n" split the sentence in a textbox.
+
+The "\p" is a pause and will be used after every second sentence. This demands an input like A Button from the player to continue with dialogue.
+
+The "$" at the end declares the end of the dialogue. This has to be placed at the end of the last sentence.
