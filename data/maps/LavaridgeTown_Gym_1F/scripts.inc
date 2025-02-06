@@ -269,7 +269,7 @@ LavaridgeTown_Gym_B1F_Text_JaceIntro:
 	.string "Your past haunts you!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "Ermm... I guess it doesn´t anymore.$"
+	.string "Ermm... I guess it doesn't anymore.$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 	.string "U aint being haunted anymore, u can go$"

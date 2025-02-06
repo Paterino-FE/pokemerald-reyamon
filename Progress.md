@@ -44,9 +44,9 @@ Gym 7
 
 Gym 8
 
->Trainers -> Not Done
+>Trainers -> Done
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except TM Stuff)
 
 Team Magma
 

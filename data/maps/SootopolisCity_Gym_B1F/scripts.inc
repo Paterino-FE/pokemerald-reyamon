@@ -63,33 +63,31 @@ SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
 	.string "the floor tiles.$"
 
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
-	.string "You came all the way here, but you won't\n"
-	.string "get to see JUAN.\p"
-	.string "Not if you lose to me, you won't!$"
+	.string "I am here to win, this isn't just a game\n"
+	.string "to me...$"
 
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
-	.string "You're strong!\n"
-	.string "I was fooled by your cute looks!$"
+	.string "I've left behind my family, my friends -\n"
+	.string "everything...\p"
+	.string "The only thing for me is this -\n"
+	.string "the battlefield...$"
 
 SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
-	.string "You might be good enough to avoid\n"
-	.string "being wiped out in one hit by JUAN.$"
+	.string "I lost... can even go back to my wife and\n"
+	.string "kids?$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-	.string "The sight of JUAN conducting\n"
-	.string "a battle…\p"
-	.string "The very beauty of it compelled me to\n"
-	.string "become a TRAINER.$"
+	.string "Vier: Its all 4!!!!!! AHAHHAHAHHA\n"
+	.string "Pengwynn: Shut up!$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-	.string "You battled with more beauty than\n"
-	.string "I could muster…$"
+	.string "Vier: We lost FOUReal FOURreal\n"
+	.string "Pengwynn: Please never talk again...$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
-	.string "The grace you bring to battle is\n"
-	.string "fabulous.\p"
-	.string "Oh… I'm so fortunate to have found\n"
-	.string "POKéMON.$"
+	.string "Vier: Fou-\n"
+	.string "Pengwynn: Im seriously going to tape\p"
+	.string "your mouth!$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
 	.string "I should teach you how harsh battles\n"
@@ -105,55 +103,48 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle:
 	.string "need to walk on each floor tile once.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
-	.string "The POKéMON GYM of the highest level\n"
-	.string "in the HOENN region…\p"
-	.string "That's the SOOTOPOLIS GYM.$"
+	.string "They're finally here performing for you,\n"
+	.string " if you know the words you can join in too.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:
-	.string "What a high level you are!$"
+	.string "He may move slow, he can't jump high...$"
 
 SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
-	.string "Rather than being satisfied by being\n"
-	.string "in a strong GYM, I imagine training in\l"
-	.string "other places will make you stronger.\l"
-	.string "But above all, it looks more fun.$"
+	.string "But this Kong's one hell of a guy!$"
 
 SootopolisCity_Gym_B1F_Text_OliviaIntro:
-	.string "I train my POKéMON together with\n"
-	.string "JUAN.\p"
-	.string "Don't think I'm a pushover.$"
+	.string "Hi hi, the greatest Sunflower Expert Kohaku\n"
+	.string "is here! Ready to taste my\p"
+	.string "sunflower lasers?$"
 
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
-	.string "I was beaten…$"
+	.string "Aw... at least they were pretty, right?$"
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
-	.string "I think you have potential.\n"
-	.string "Why don't you stay and train with us?$"
+	.string "When I asked Shiki-sama if he was available,\n"
+	.string "he ran away so I guess I will have to wait...$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
-	.string "A graceful glide across the ice while\n"
-	.string "crossing no lines…\p"
-	.string "A TRAINER putting on that performance\n"
-	.string "would be elegantly beautiful!$"
+	.string "Is that Reya?! I need to say something\n"
+	.string "cool. Himabigfan$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
-	.string "Well, excuse me?!$"
+	.string "Thanks for the battle!$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
-	.string "This is really obvious, but how strong\n"
-	.string "you are as a TRAINER has nothing to do\l"
-	.string "with how young or old you are.$"
+	.string "You think I can get your autograph?$"
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
-	.string "When I'm with my POKéMON, the time\n"
-	.string "flies by before you can say, “Oops!”$"
+	.string "A trustworthy guy just sold me amazing\n"
+	.string "Pokemon! Wait, you CAUGHT your Pokemon?\p"
+	.string "What are you, poor?$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
-	.string "Oops!$"
+	.string "I saw it! You cheated! I saw you use\n"
+	.string "rare candies!$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
-	.string "I wish I could forget about lost causes\n"
-	.string "before I can manage an “Oops!”$"
+	.string "Don't ever talk to me or my Arbok again!$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaIntro:
 	.string "I can battle with really rare POKéMON\n"
@@ -170,14 +161,14 @@ SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
 	.string "when I was younger…$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
-	.string "Giggle…\n"
-	.string "Your grim look is so charming.$"
+	.string "Doesn't playing this game make you\n"
+	.string "nosetalgic?$"
 
 SootopolisCity_Gym_B1F_Text_BriannaDefeat:
-	.string "Oh, dear.\n"
-	.string "I went much too easy on you.$"
+	.string "I guess that me losing was a nose\n"
+	.string "brainer!$"
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
-	.string "You couldn't lay a finger on JUAN,\n"
-	.string "I'm sure. Giggle…$"
+	.string "I guess that me losing was a nose\n"
+	.string "brainer!$"
 
