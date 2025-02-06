@@ -80,6 +80,10 @@ Lets look what the lines of a trainer mean and what possibilities we have:
  >This value sets a trainer pokemon to be shiny. Only insert this, if the community member specified that his pokemon is shiny
  
             .isShiny = 1, 
+
+ >This sets the friendship value
+ 
+            .friendship = 255, 
             
 >Here you can set the ability of the pokemon. They are usually written exactly how they are, but if you feel unsure, then check the pokemon in src/data/pokemon/species_info/gen_*_families
  
