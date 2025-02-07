@@ -116,9 +116,9 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
+	.string "ATSUI, the GYM LEADER, is a user\n"
+	.string "of 34-type POKéMON.\p"
+	.string "The 34-type is very durable, but\n"
 	.string "it can't stand WATER-type and\l"
 	.string "GRASS-type moves.\p"
 	.string "Come see me afterwards, if you beat\n"
@@ -130,7 +130,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "My cheering must've worked!\p"
 	.string "Great!\n"
 	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
+	.string "The 34 BADGE you got should be\n"
 	.string "properly recorded on it.\p"
 	.string "In other words…\p"
 	.string "You've climbed the first step on\n"
@@ -161,7 +161,8 @@ RustboroCity_Gym_Text_TommyDefeat:
 
 RustboroCity_Gym_Text_TommyPostBattle:
 	.string "TEAM ROCKET is currently seeking GRUNTs to\n"
-	.string "help carry out our dream to steal POKEMON.$"
+	.string "help carry out our dream to steal POKEMON.\p"
+	.string "Apply at our HEADQUARTERS please.$"
 
 RustboroCity_Gym_Text_MarcIntro:
 	.string "Be very afraid!$"
@@ -211,15 +212,15 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
+	.string "ATSUI'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
-	.string "This is ROXANNE of RUSTBORO CITY.\p"
-	.string "I heard from BRAWLY that you're\n"
+	.string "ATSUI: Oh, hello, {PLAYER}?\n"
+	.string "This is ATSUI of RUSTBORO CITY.\p"
+	.string "I heard from HAMS that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "TRAINERS at an incredible clip.\p"
 	.string "Well, I'd rather not think that\n"
@@ -232,7 +233,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ROXANNE\n"
+	.string "Registered GYM LEADER ATSUI\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:

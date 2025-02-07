@@ -10,7 +10,7 @@ Gym 2
 
 >Trainers -> Done
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Clumsykumquat/Hams&Clor post battle)
 
 Gym 3
 
