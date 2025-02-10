@@ -11697,7 +11697,7 @@ F_TRAINER_FEMALE |
 #line 4589
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
 #line 4590
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_ARLECCHINO, 
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_SIDNEY, 
         .encounterMusic_gender = 
 #line 4592
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
