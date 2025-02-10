@@ -11693,11 +11693,11 @@ F_TRAINER_FEMALE |
     [TRAINER_SIDNEY] =
     {
 #line 4588
-        .trainerName = _("SIDNEY"),
+        .trainerName = _("ARLECCHINO"),
 #line 4589
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
 #line 4590
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_SIDNEY,
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_ARLECCHINO, 
         .encounterMusic_gender = 
 #line 4592
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
@@ -11710,12 +11710,12 @@ F_TRAINER_FEMALE |
 #line 4596
         .mugshotEnabled = TRUE,
         .mugshotColor = MUGSHOT_COLOR_PURPLE,
-        .partySize = 5,
+        .partySize = 6,
         .party = (const struct TrainerMon[])
         {
             {
 #line 4598
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_TALONFLAME,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4600
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
@@ -11723,53 +11723,57 @@ F_TRAINER_FEMALE |
             .lvl = 46,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLAME_BODY,
             .moves = {
 #line 4601
-                MOVE_ROAR,
-                MOVE_DOUBLE_EDGE,
-                MOVE_SAND_ATTACK,
-                MOVE_CRUNCH,
+                MOVE_BRAVE_BIRD,
+                MOVE_FLARE_BLITZ,
+                MOVE_QUICK_ATTACK,
+                MOVE_ROOST,
             },
             },
             {
 #line 4606
-            .species = SPECIES_SHIFTRY,
+            .species = SPECIES_MAROWAK_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4608
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4607
-            .lvl = 48,
-            .nature = NATURE_HARDY,
+            .lvl = 49,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CURSED_BODY,
+            .helditem = ITEM_PASSHO_BERRY,
             .moves = {
 #line 4609
-                MOVE_TORMENT,
-                MOVE_DOUBLE_TEAM,
-                MOVE_SWAGGER,
-                MOVE_EXTRASENSORY,
+                MOVE_SHADOW_BONE,
+                MOVE_FLARE_BLITZ,
+                MOVE_WILL_O_WISP,
+                MOVE_STOMPING_TANTRUM,
             },
             },
             {
 #line 4614
-            .species = SPECIES_CACTURNE,
+            .species = SPECIES_ARCANINE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4616
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4615
-            .lvl = 46,
+            .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INTIMIDATE
             .moves = {
 #line 4617
-                MOVE_LEECH_SEED,
-                MOVE_FEINT_ATTACK,
-                MOVE_NEEDLE_ARM,
-                MOVE_COTTON_SPORE,
+                MOVE_EXTREME_SPEED,
+                MOVE_FLARE_BLITZ,
+                MOVE_ROAR,
+                MOVE_CRUNCH,
             },
             },
             {
 #line 4622
-            .species = SPECIES_CRAWDAUNT,
+            .species = SPECIES_TYPHLOSION,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4624
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
@@ -11777,32 +11781,51 @@ F_TRAINER_FEMALE |
             .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLASH_FIRE,
             .moves = {
 #line 4625
-                MOVE_SURF,
-                MOVE_SWORDS_DANCE,
-                MOVE_STRENGTH,
-                MOVE_FACADE,
+                MOVE_FLAMETHROWER,
+                MOVE_FOCUS_BLAST,
+                MOVE_QUICK_ATTACK,
+                MOVE_SMOKESCREEN,
             },
             },
             {
 #line 4630
-            .species = SPECIES_ABSOL,
+            .species = SPECIES_CHANDELURE,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 4630
-            .heldItem = ITEM_SITRUS_BERRY,
 #line 4632
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4631
-            .lvl = 49,
+            .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLAME_BODY,
             .moves = {
 #line 4633
-                MOVE_AERIAL_ACE,
-                MOVE_ROCK_SLIDE,
-                MOVE_SWORDS_DANCE,
-                MOVE_SLASH,
+                MOVE_FLAMETHROWER,
+                MOVE_SHADOW_BALL,
+                MOVE_ENERGY_BALL,
+                MOVE_CALM_MIND,
+            },
+            },
+            {
+#line 4634
+            .species = SPECIES_HOUNDOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 4635
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 4636
+            .lvl = 46,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_EARLY_BIRD,
+            .moves = {
+#line 4637   
+                MOVE_FLAMETHROWER,
+                MOVE_DARK_PULSE,
+                MOVE_NASTY_PLOT,
+                MOVE_SLUDGE_BOMB,
             },
             },
         },
