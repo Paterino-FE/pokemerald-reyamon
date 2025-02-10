@@ -11743,7 +11743,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_CURSED_BODY,
-            .helditem = ITEM_PASSHO_BERRY,
+            .heldItem = ITEM_PASSHO_BERRY,
             .moves = {
 #line 4609
                 MOVE_SHADOW_BONE,
@@ -11762,7 +11762,7 @@ F_TRAINER_FEMALE |
             .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_INTIMIDATE
+            .ability = ABILITY_INTIMIDATE,
             .moves = {
 #line 4617
                 MOVE_EXTREME_SPEED,
