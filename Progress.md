@@ -48,6 +48,13 @@ Gym 8
 
 >Dialogue -> Done (Except TM Stuff)
 
+Victory Road
+
+> Trainers -> Not done (done up to Swordficsh)
+
+> Dialogue -> Not done
+
+
 Team Magma
 
 >Trainers -> Not Done
