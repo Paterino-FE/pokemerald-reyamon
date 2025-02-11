@@ -120,6 +120,11 @@ VictoryRoad_1F_EventScript_Katelynn::
 	msgbox VictoryRoad_1F_Text_KatelynnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+VictoryRoad_1F_EventScript_TheaLumi::
+	trainerbattle_double TRAINER_THEALUMI_VICROAD, VictoryRoad_1F_Text_TheaLumiIntro, VictoryRoad_1F_Text_TheaLumiDefeat, VictoryRoad_1F_Text_TheaLumiNotEnoughMons
+	msgbox VictoryRoad_1F_Text_TheaLumiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "WALLY: Hi! {PLAYER}!\p"
 	.string "I bet you're surprised to see me here!\p"
@@ -218,3 +223,16 @@ VictoryRoad_1F_Text_KatelynnDefeat:
 VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "Humph, go right on ahead.\n"
 	.string "See if I care.$"
+
+VictoryRoad_1F_Text_TheaLumiIntro:
+	.string "PLACEHOLDER!$"
+
+VictoryRoad_1F_Text_TheaLumiDefeat:
+	.string "PLACEHOLDER!$"
+
+VictoryRoad_1F_Text_TheaLumiPostBattle:
+	.string "PLACEHOLDER!$"
+
+VictoryRoad_1F_Text_TheaLumiNotEnoughMons:
+	.string "Oh, you don't have two POKéMON?\n"
+	.string "YOU ARE SUCH A PATHETIC LOSER!$"

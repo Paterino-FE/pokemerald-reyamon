@@ -50,7 +50,7 @@ Gym 8
 
 Victory Road
 
-> Trainers -> Not done (done up to Swordficsh)
+> Trainers -> Done (Except Thea/Lumi integration)
 
 > Dialogue -> Not done
 
