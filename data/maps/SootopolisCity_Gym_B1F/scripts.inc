@@ -63,18 +63,18 @@ SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
 	.string "the floor tiles.$"
 
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
-	.string "I am here to win, this isn't just a game\n"
-	.string "to me...$"
+	.string "I am here to win, this isn't just a\n"
+	.string "game to me...$"
 
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
-	.string "I've left behind my family, my friends -\n"
-	.string "everything...\p"
+	.string "I've left behind my family, my friends\n"
+	.string "- everything...\p"
 	.string "The only thing for me is this -\n"
 	.string "the battlefield...$"
 
 SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
-	.string "I lost... can even go back to my wife and\n"
-	.string "kids?$"
+	.string "I lost... can even go back to my wife\n"
+	.string "and kids?$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
 	.string "Vier: Its all 4!!!!!! AHAHHAHAHHA\n"
@@ -103,8 +103,9 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle:
 	.string "need to walk on each floor tile once.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
-	.string "They're finally here performing for you,\n"
-	.string " if you know the words you can join in too.$"
+	.string "They're finally here performing\n"
+	.string "for you, if you know the words\l"
+	.string "you can join in too.$"
 
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:
 	.string "He may move slow, he can't jump high...$"
@@ -113,16 +114,17 @@ SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
 	.string "But this Kong's one hell of a guy!$"
 
 SootopolisCity_Gym_B1F_Text_OliviaIntro:
-	.string "Hi hi, the greatest Sunflower Expert Kohaku\n"
-	.string "is here! Ready to taste my\p"
+	.string "Hi hi, the greatest Sunflower Expert\n"
+	.string "Kohaku is here! Ready to taste my\p"
 	.string "sunflower lasers?$"
 
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
 	.string "Aw... at least they were pretty, right?$"
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
-	.string "When I asked Shiki-sama if he was available,\n"
-	.string "he ran away so I guess I will have to wait...$"
+	.string "When I asked Shiki-sama if he was\n"
+	.string "available, he ran away so I guess\l"
+	.string "I will have to wait...$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
 	.string "Is that Reya?! I need to say something\n"
@@ -135,8 +137,8 @@ SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 	.string "You think I can get your autograph?$"
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
-	.string "A trustworthy guy just sold me amazing\n"
-	.string "Pokemon! Wait, you CAUGHT your Pokemon?\p"
+	.string "A trustworthy guy just sold me\n"
+	.string "amazing Pokemon! Wait, you CAUGHT yours?\p"
 	.string "What are you, poor?$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
