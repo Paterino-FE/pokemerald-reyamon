@@ -180,63 +180,71 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 	.string "CHAMPION! If anyone can, it's you!$"
 
 VictoryRoad_1F_Text_AlbertIntro:
-	.string "I didn't come all this way to lose now.\n"
-	.string "That possibility doesn't exist!$"
+	.string "Losing a battle isn't going to slow\n"
+	.string "my roll. I'll take you down this\l"
+	.string "time, TRAINER! Let's exchange\l"
+	.string "superhot moves in another battle!$"
 
 VictoryRoad_1F_Text_AlbertDefeat:
-	.string "Impossible…\n"
-	.string "I lost?$"
+	.string "Whew!\n"
+	.string "On the verge of eruption!$"
 
 VictoryRoad_1F_Text_AlbertPostBattle:
-	.string "I lost here…\p"
-	.string "That means I lack the qualifications\n"
-	.string "to become the CHAMPION…$"
+	.string "I lost the match, but I still\n"
+	.string "had fun giving it my all.\p"
+	.string "I don't often I get to enjoy\n"
+	.string "a battle this heated.\p"
+	.string "Let's have another one like\n"
+	.string "this sometime!$"
 
 VictoryRoad_1F_Text_HopeIntro:
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of VICTORY.$"
+	.string "Ok I have it this time!\p"
+	.string "Himastillahugefan!$"
 
 VictoryRoad_1F_Text_HopeDefeat:
-	.string "Your battle style is fantastic…$"
+	.string "Maybe I will just go back\n"
+	.string "to playing Dota.$"
 
 VictoryRoad_1F_Text_HopePostBattle:
-	.string "You seem to have the potential for\n"
-	.string "becoming the CHAMPION.$"
+	.string "You think I can get your\n"
+	.string "autograph?$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
-	.string "I'll tell you if you win!$"
+	.string "Ahaha, after experimenting on my lovely\n"
+	.string "assistant, I now have mastered the\l"
+	.string "sunflower lasers! Ready for a rematch?$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "Guh...\n"
+	.string "oh no, I will have to experiment more...$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
-	.string "to become the POKéMON CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "When I asked Shiki-sama if he was\n"
+	.string "available, he ran away so I guess\l"
+	.string "I will have to wait...$"   
 
 VictoryRoad_1F_Text_KatelynnIntro:
-	.string "I have nothing to say to anyone\n"
-	.string "that's come this far. Come on!$"
+	.string "If not friend, why friend shaped?$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "This is a disgrace…$"
+	.string "my peepo...my bwethwen...\n"
+	.string "my fwiends...$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
-	.string "Humph, go right on ahead.\n"
-	.string "See if I care.$"
+	.string "my peepo...my bwethwen...\n"
+	.string "my fwiends...$"
 
 VictoryRoad_1F_Text_TheaIntro:
-	.string "THEA:THIS IS BEFORE THE BATTLE!$"
+	.string "Thea: It's time to sink\n"
+	.string "this Friendship.$"
 
 VictoryRoad_1F_Text_TheaDefeat:
-	.string "THEA:THIS IS AFTER DEFEAT!$"
+	.string "Thea: I am genuinely ....\n"
+	.string "empressed!$"
 
 VictoryRoad_1F_Text_TheaPostBattle:
-	.string "THEA:THIS IS AFTER BATTLE!$"
+	.string "Thea: Go away, you made\n"
+	.string "Lumi cry!$"
 
 VictoryRoad_1F_Text_LumiIntro:
 	.string "LUMI:THIS IS BEFORE THE BATTLE!$"

@@ -50,9 +50,9 @@ Gym 8
 
 Victory Road
 
-> Trainers -> Done (Except Thea/Lumi integration)
+> Trainers -> Done
 
-> Dialogue -> Not done
+> Dialogue -> Done (Except Lyra/Hatsoome/Lumi)
 
 
 Team Magma
