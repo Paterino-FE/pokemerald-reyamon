@@ -43639,80 +43639,122 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_THEALUMI] =
+    
+    #line 16915
+    [TRAINER_THEA] =
     {
-        .trainerName = _("THEA&LUMI"),
+#line 16916
+        .trainerName = _("Thea"),
+#line 16917
         .trainerClass = TRAINER_CLASS_LEADER,
-        .trainerPic = TRAINER_PIC_OLD_COUPLE,
+#line 16918
+        .trainerPic = TRAINER_PIC_LEADER_WINONA,
         .encounterMusic_gender = 
+#line 16920
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doubleBattle = TRUE,
-        .partySize = 6,
+#line 16921
+        .doubleBattle = FALSE,
+        .partySize = 3,
         .party = (const struct TrainerMon[])
         {
-            { // thea
+            {
+#line 16923
             .species = SPECIES_NINETALES_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16925
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 16926
+#line 16924
             .lvl = 47,
             .nature = NATURE_HARDY,
+#line 16927
+            .isShiny = TRUE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_SNOW_WARNING,
             .heldItem = ITEM_LIGHT_CLAY,
-            .moves = { MOVE_BLIZZARD, MOVE_MOONBLAST, MOVE_AURORA_VEIL, MOVE_PROTECT },
+            .ability = ABILITY_SNOW_WARNING,
+            .moves = {
+#line 16928
+                MOVE_BLIZZARD, MOVE_MOONBLAST, MOVE_AURORA_VEIL, MOVE_PROTECT
             },
-            { // lumi
+            },
+            {
+                .species = SPECIES_LOPUNNY,
+                .gender = TRAINER_MON_RANDOM_GENDER,
+                .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+                .lvl = 47,
+                .nature = NATURE_JOLLY,
+                .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+                .ability = ABILITY_CUTE_CHARM,
+                .friendship = 255,
+                .moves = { MOVE_RETURN, MOVE_GRASS_KNOT, MOVE_BOUNCE, MOVE_AFTER_YOU },
+            },
+            { 
+                .species = SPECIES_LILLIGANT,
+                .gender = TRAINER_MON_RANDOM_GENDER,
+                .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+                .lvl = 47,
+                .nature = NATURE_HARDY,
+                .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+                .ability = ABILITY_OWN_TEMPO,
+                .moves = { MOVE_PETAL_DANCE, MOVE_SLEEP_POWDER, MOVE_QUIVER_DANCE, MOVE_SYNTHESIS },
+            },
+        },
+    },
+#line 16931
+    [TRAINER_LUMI] =
+    {
+#line 16932
+        .trainerName = _("Lumi"),
+#line 16933
+        .trainerClass = TRAINER_CLASS_LEADER,
+#line 16934
+        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .encounterMusic_gender = 
+#line 16936
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 16937
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16939
             .species = SPECIES_BEARTIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16941
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 47,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16942
             .ability = ABILITY_SNOW_CLOAK,
+#line 16940
+            .lvl = 47,
+            .nature = NATURE_HARDY,
+#line 16943
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_CHESTO_BERRY,
-            .moves = { MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST },
+            .moves = {
+#line 16944
+                MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST 
             },
-            { // thea
-            .species = SPECIES_LOPUNNY,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 47,
-            .nature = NATURE_JOLLY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_CUTE_CHARM,
-            .friendship = 255,
-            .moves = { MOVE_RETURN, MOVE_GRASS_KNOT, MOVE_BOUNCE, MOVE_AFTER_YOU },
             },
-            { // lumi
-            .species = SPECIES_HERACROSS,
-            .gender = TRAINER_MON_MALE,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 47,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_SWARM,
-            .moves = { MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB, MOVE_RETURN },
+            { 
+                .species = SPECIES_HERACROSS,
+                .gender = TRAINER_MON_MALE,
+                .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+                .lvl = 47,
+                .nature = NATURE_HARDY,
+                .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+                .ability = ABILITY_SWARM,
+                .moves = { MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB, MOVE_RETURN },
             },
-            { // thea
-            .species = SPECIES_LILLIGANT,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 47,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_OWN_TEMPO,
-            .moves = { MOVE_PETAL_DANCE, MOVE_SLEEP_POWDER, MOVE_QUIVER_DANCE, MOVE_SYNTHESIS },
+            {
+                .species = SPECIES_LAPRAS,
+                .gender = TRAINER_MON_RANDOM_GENDER,
+                .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+                .lvl = 47,
+                .nature = NATURE_HARDY,
+                .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+                .ability = ABILITY_SHELL_ARMOR,
+                .moves = { MOVE_SURF, MOVE_ICE_BEAM, MOVE_SING, MOVE_PROTECT },
             },
-            { // lumi
-            .species = SPECIES_LAPRAS,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 47,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_SHELL_ARMOR,
-            .moves = { MOVE_SURF, MOVE_ICE_BEAM, MOVE_SING, MOVE_PROTECT },
-            },
-
         },
     },

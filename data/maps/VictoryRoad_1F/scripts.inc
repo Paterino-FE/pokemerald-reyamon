@@ -120,9 +120,14 @@ VictoryRoad_1F_EventScript_Katelynn::
 	msgbox VictoryRoad_1F_Text_KatelynnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-VictoryRoad_1F_EventScript_TheaLumi::
-	trainerbattle_double TRAINER_THEALUMI, VictoryRoad_1F_Text_TheaLumiIntro, VictoryRoad_1F_Text_TheaLumiDefeat, VictoryRoad_1F_Text_TheaLumiNotEnoughMons
-	msgbox VictoryRoad_1F_Text_TheaLumiPostBattle, MSGBOX_AUTOCLOSE
+VictoryRoad_1F_EventScript_Thea::
+	trainerbattle_single TRAINER_THEA, VictoryRoad_1F_Text_TheaIntro, VictoryRoad_1F_Text_TheaDefeat
+	msgbox VictoryRoad_1F_Text_TheaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_1F_EventScript_Lumi::
+	trainerbattle_single TRAINER_LUMI, VictoryRoad_1F_Text_LumiIntro, VictoryRoad_1F_Text_LumiDefeat
+	msgbox VictoryRoad_1F_Text_LumiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
@@ -224,15 +229,20 @@ VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "Humph, go right on ahead.\n"
 	.string "See if I care.$"
 
-VictoryRoad_1F_Text_TheaLumiIntro:
-	.string "THIS IS BEFORE THE BATTLE!$"
+VictoryRoad_1F_Text_TheaIntro:
+	.string "THEA:THIS IS BEFORE THE BATTLE!$"
 
-VictoryRoad_1F_Text_TheaLumiDefeat:
-	.string "THIS IS AFTER DEFEAT!$"
+VictoryRoad_1F_Text_TheaDefeat:
+	.string "THEA:THIS IS AFTER DEFEAT!$"
 
-VictoryRoad_1F_Text_TheaLumiPostBattle:
-	.string "THIS IS AFTER BATTLE!$"
+VictoryRoad_1F_Text_TheaPostBattle:
+	.string "THEA:THIS IS AFTER BATTLE!$"
 
-VictoryRoad_1F_Text_TheaLumiNotEnoughMons:
-	.string "Oh, you don't have two POKéMON?\n"
-	.string "YOU ARE SUCH A PATHETIC LOSER!$"
+VictoryRoad_1F_Text_LumiIntro:
+	.string "LUMI:THIS IS BEFORE THE BATTLE!$"
+
+VictoryRoad_1F_Text_LumiDefeat:
+	.string "LUMI:THIS IS AFTER DEFEAT!$"
+
+VictoryRoad_1F_Text_LumiPostBattle:
+	.string "LUMI:THIS IS AFTER BATTLE!$"
