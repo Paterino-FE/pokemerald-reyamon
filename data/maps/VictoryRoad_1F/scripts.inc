@@ -225,13 +225,13 @@ VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "See if I care.$"
 
 VictoryRoad_1F_Text_TheaLumiIntro:
-	.string "PLACEHOLDER!$"
+	.string "THIS IS BEFORE THE BATTLE!$"
 
 VictoryRoad_1F_Text_TheaLumiDefeat:
-	.string "PLACEHOLDER!$"
+	.string "THIS IS AFTER DEFEAT!$"
 
 VictoryRoad_1F_Text_TheaLumiPostBattle:
-	.string "PLACEHOLDER!$"
+	.string "THIS IS AFTER BATTLE!$"
 
 VictoryRoad_1F_Text_TheaLumiNotEnoughMons:
 	.string "Oh, you don't have two POKéMON?\n"
