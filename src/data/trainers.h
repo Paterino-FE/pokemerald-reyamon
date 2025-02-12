@@ -12265,7 +12265,7 @@ F_TRAINER_FEMALE |
             .lvl = 51,
             .nature = NATURE_ADAMANT,
             .ability = ABILITY_POISON_HEAL,
-            .helditem = ITEM_TOXIC_ORB,
+            .heldItem = ITEM_TOXIC_ORB,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4660
@@ -12433,7 +12433,7 @@ F_TRAINER_FEMALE |
                 MOVE_AIR_SLASH,
                 MOVE_AURA_SPHERE,
                 MOVE_WATER_PULSE,
-                MOVE_SHOCKWAVE,
+                MOVE_SHOCK_WAVE,
             },
             },
             {
@@ -12618,7 +12618,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 4783
-            .species = SPECIES_ENTEI, #Entei 	55	Extreme Speed	Sacred Fire	Facade	Stone Edge	Inner Focus	Adamant	Assault Vest
+            .species = SPECIES_ENTEI, //Entei 	55	Extreme Speed	Sacred Fire	Facade	Stone Edge	Inner Focus	Adamant	Assault Vest
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4783
             .heldItem = ITEM_ASSAULT_VEST,
@@ -43639,7 +43639,7 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_THEALUMI_VICROAD] =
+    [TRAINER_THEALUMI] =
     {
         .trainerName = _("THEA&LUMI"),
         .trainerClass = TRAINER_CLASS_LEADER,

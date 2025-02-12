@@ -121,7 +121,7 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_EventScript_TheaLumi::
-	trainerbattle_double TRAINER_THEALUMI_VICROAD, VictoryRoad_1F_Text_TheaLumiIntro, VictoryRoad_1F_Text_TheaLumiDefeat, VictoryRoad_1F_Text_TheaLumiNotEnoughMons
+	trainerbattle_double TRAINER_THEALUMI, VictoryRoad_1F_Text_TheaLumiIntro, VictoryRoad_1F_Text_TheaLumiDefeat, VictoryRoad_1F_Text_TheaLumiNotEnoughMons
 	msgbox VictoryRoad_1F_Text_TheaLumiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
