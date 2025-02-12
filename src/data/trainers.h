@@ -31169,7 +31169,7 @@ F_TRAINER_FEMALE |
 #line 11888
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
 #line 11889
-        .trainerPic = TRAINER_CLASS_YOUNGSTER,
+        .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender = 
 #line 11890
 F_TRAINER_FEMALE | 
