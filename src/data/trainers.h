@@ -11322,7 +11322,7 @@ F_TRAINER_FEMALE |
 #line 4289
         .trainerClass = TRAINER_CLASS_PSYCHIC,
 #line 4290
-        .trainerPic = TRAINER_PIC_PSYCHIC_F, ###We will need to add Frieren's sprite to a unique - Psychic F is used by otheers
+        .trainerPic = TRAINER_PIC_PSYCHIC_F, // will need to add Frieren's sprite to a unique - Psychic F is used by otheers
         .encounterMusic_gender = 
 #line 4291
 F_TRAINER_FEMALE | 
@@ -28520,7 +28520,7 @@ F_TRAINER_FEMALE |
 #line 10835
         .trainerName = _("QUATTUOR"),
 #line 10836
-        .trainerClass = TRAINER_CLASS_RANGER,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
 #line 10837
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
         .encounterMusic_gender = 
@@ -28546,7 +28546,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SHARPNESS,
-            .helditem = ITEM_COLBUR_BERRY,
+            .heldItem = ITEM_COLBUR_BERRY,
             .moves = {MOVE_PSYCHO_CUT, MOVE_FURY_CUTTER, MOVE_NIGHT_SLASH, MOVE_SWORDS_DANCE},
             },
             {
