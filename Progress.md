@@ -28,7 +28,7 @@ Gym 5
 
 >Trainers -> Edit OtterMadness trainer class/sprite (Otherwise Done)
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Ange/TM Stuff)
 
 Gym 6
 
