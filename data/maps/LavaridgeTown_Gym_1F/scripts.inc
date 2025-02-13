@@ -225,21 +225,17 @@ LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 	.string "hot sand, it tuckers you out…$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
-	.string "You must be getting tired by now.\n"
-	.string "You'd like to rest in the hot sand,\l"
-	.string "wouldn't you?\p"
-	.string "But you should know that maintaining\n"
-	.string "your willpower is an important ability\l"
-	.string "for all TRAINERS.$"
+	.string "You look really good! Kinda reminds me\n"
+	.string "of Rosuuri's drawings. That's weird.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-	.string "Play with fire, and be burned…$"
+	.string "Okay, that was fun. But I'm gonna\n"
+	.string "bake some more buns now.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
-	.string "Your skill is real…\n"
-	.string "But our LEADER Gabe is strong.\p"
-	.string "If you don't watch yourself, you'll be\n"
-	.string "burned seriously.$"
+	.string "Why am I not wearing merch?\p"
+	.string "The apparel sold out before\n"
+	.string "it was even announced on Twitter...$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
 	.string "Can your POKéMON withstand\n"

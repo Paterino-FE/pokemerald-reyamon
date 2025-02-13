@@ -22,7 +22,7 @@ Gym 4
 
 >Trainers -> Done
 
->Dialogue -> Done (Except Keegan/TM Stuff)
+>Dialogue -> Done (Except TM Stuff)
 
 Gym 5
 
