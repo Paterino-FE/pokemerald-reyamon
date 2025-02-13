@@ -284,17 +284,18 @@ MauvilleCity_Gym_Text_KirkPostBattle:
 	.string "You never keep a good duck down.$"
 
 MauvilleCity_Gym_Text_ShawnIntro:
-	.string "I trained under Daleks!\n"
-	.string "There ain't no way I'll lose easily!$"
+	.string "I have a really talented friend\n"
+	.string "who lent me some pokemon.$"
 
 MauvilleCity_Gym_Text_ShawnDefeat:
-	.string "Unplugged and turned off…$"
+	.string "Guess I'm not smart enough to\n"
+	.string "use them...$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle:
-	.string "Daleks, our GYM LEADER, has been\n"
-	.string "around for a long, long time.\p"
-	.string "He was battling even before your\n"
-	.string "daddy was born, that tough coot.$"
+	.string "My Rattata is a lot like other\n"
+	.string "Rattata.\p"
+	.string "You could say it's your average\n"
+	.string "Rattata.$"
 
 MauvilleCity_Gym_Text_BenIntro:
 	.string "Love the streams! Hope there\n"

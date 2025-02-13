@@ -14,15 +14,15 @@ Gym 2
 
 Gym 3
 
->Trainers -> Done (Except Guitarist Shawn)
+>Trainers -> Done
 
->Dialogue -> Done (Except Guitarist Shawn/TM Stuff)
+>Dialogue -> Done (Except TM Stuff)
 
 Gym 4
 
->Trainers -> Done (Except Keegan/Danielle)
+>Trainers -> Done
 
->Dialogue -> Done (Except Keegan/Danielle/TM Stuff)
+>Dialogue -> Done (Except Keegan/TM Stuff)
 
 Gym 5
 

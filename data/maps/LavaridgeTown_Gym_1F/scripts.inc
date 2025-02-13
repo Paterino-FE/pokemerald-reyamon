@@ -255,15 +255,14 @@ LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "easily survive in magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "Um…\n"
-	.string "Okay, I'll battle with you.$"
+	.string "Cheesed to meet you!$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
-	.string "Oh, but you're too strong.$"
+	.string "Wow, you are SQUEAKING strong!$"
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
-	.string "I'm going to be a pretty and strong\n"
-	.string "TRAINER just like Gabe.$"
+	.string "I will build a mouse-oleum\n"
+	.string "for my dead Pokemon...$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
 	.string "Your past haunts you!$"
