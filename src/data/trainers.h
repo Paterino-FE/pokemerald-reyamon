@@ -24911,7 +24911,7 @@ F_TRAINER_FEMALE |
             .lvl = 41,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_RAIN_DISH
+            .ability = ABILITY_RAIN_DISH,
             .moves = {
 #line 9483
                 MOVE_RAIN_DANCE,
@@ -24930,7 +24930,7 @@ F_TRAINER_FEMALE |
             .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TECHNICIAN
+            .ability = ABILITY_TECHNICIAN,
             .moves = {
 #line 9491
                 MOVE_SEED_BOMB,
@@ -28785,7 +28785,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_ORAN_BERRY,
-            .moves = {MOVE_EMBER, SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
+            .moves = {MOVE_EMBER, MOVE_SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
             },
         },
     },
@@ -28842,7 +28842,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_ORAN_BERRY,
-            .moves = {MOVE_EMBER, SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
+            .moves = {MOVE_EMBER, MOVE_SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
             },
         },
     },
@@ -29131,7 +29131,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_ORAN_BERRY,
-            .moves = {MOVE_EMBER, SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
+            .moves = {MOVE_EMBER, MOVE_SMOKESCREEN, MOVE_GROWL, MOVE_POUND,},
             },
         },
     },
@@ -32430,7 +32430,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_CRUCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
+            .moves = {MOVE_CRUNCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
             },
             {
 #line 12271
@@ -32456,7 +32456,7 @@ F_TRAINER_FEMALE |
             .lvl = 36,
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = HELD_ITEM_SITRUS_BERRY,
+            .heldItem = ITEM_SITRUS_BERRY,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
@@ -32504,7 +32504,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_CRUCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
+            .moves = {MOVE_CRUNCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
             },
             {
 #line 12296
@@ -32530,7 +32530,7 @@ F_TRAINER_FEMALE |
             .lvl = 36,
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = HELD_ITEM_SITRUS_BERRY,
+            .heldItem = ITEM_SITRUS_BERRY,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
@@ -32578,7 +32578,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_CRUCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
+            .moves = {MOVE_CRUNCH, MOVE_SWAGGER, MOVE_DIG, MOVE_TORMENT},
             },
             {
 #line 12321
@@ -32604,7 +32604,7 @@ F_TRAINER_FEMALE |
             .lvl = 36,
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = HELD_ITEM_SITRUS_BERRY,
+            .heldItem = ITEM_SITRUS_BERRY,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
@@ -41441,7 +41441,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 15907
                 MOVE_PSYCHIC,
-                MOVE_FLAME_THROWER,
+                MOVE_FLAMETHROWER,
                 MOVE_THUNDERBOLT,
                 MOVE_ENERGY_BALL,
             },
@@ -41451,7 +41451,6 @@ F_TRAINER_FEMALE |
             .species = SPECIES_SAMUROTT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15912
-            .heldItem = ITEM_SITRUS_BERRY,
 #line 15914
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 15913
