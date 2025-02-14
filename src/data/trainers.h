@@ -10997,7 +10997,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_NATURAL_CURE,
-            .moves = {MOVE_HIDDEN_POWER, MOVE_POWER_GEM},,
+            .moves = {MOVE_HIDDEN_POWER, MOVE_POWER_GEM},
             },
         },
     },
@@ -11423,7 +11423,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_CALM,
             .friendship = 255, 
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .helditem = ITEM_IRON,
+            .heldItem = ITEM_IRON,
             .ability = ABILITY_VITAL_SPIRIT,
             .moves = {MOVE_COUNTER, MOVE_TAUNT, MOVE_BEAT_UP, MOVE_REFLECT},
             },
@@ -28283,7 +28283,7 @@ F_TRAINER_FEMALE |
 #line 10718
         .trainerName = _("CIARAN"),
 #line 10719
-        .trainerClass = TRAINER_CLASS_POKEMON_RANGER,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
 #line 10720
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
         .encounterMusic_gender = 
