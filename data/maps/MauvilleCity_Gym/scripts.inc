@@ -262,10 +262,7 @@ MauvilleCity_Gym_Text_GymGuideAdvice:
 	.string "Agdaleks, the LEADER of MAUVILLE\n"
 	.string "GYM, uses PLUSHIE POKéMON.\p"
 	.string "If you challenge him with ANY-type\n"
-	.string "POKéMON, he'll hug them! Uwu!\p"
-	.string "And, he's put in switch-controlled\n"
-	.string "doors all over his GYM! Eccentric!\p"
-	.string "Hey, go for it!$"
+	.string "POKéMON, he'll hug them! Uwu!$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory:
 	.string "Whoa, you're cuddly!\n"
