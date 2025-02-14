@@ -152,9 +152,11 @@ RustboroCity_Gym_Text_TommyIntro:
 	.string "To protect the world from devastation!\p"
 	.string "To unite all peoples within our nation!\n"
 	.string "To denounce the evils of truth and love!\p"
-	.string "To extend our reach to the stars above!\n"
-	.string "Team Rocket blasts off at the speed of light!\p"
+	.string "To extend our reach to the stars above!\p"
+	.string "Team Rocket blasts off at the speed\n"
+	.string "of light!\p"
 	.string "Surrender now, or prepare to fight!$"
+
 
 RustboroCity_Gym_Text_TommyDefeat:
 	.string "Team Rocket Blasts Off Again!$"
