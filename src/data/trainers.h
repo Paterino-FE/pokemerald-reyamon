@@ -6353,9 +6353,9 @@ F_TRAINER_FEMALE |
 #line 2359
         .trainerName = _("DonkeyKong"),
 #line 2360
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_BLACK_BELT,
 #line 2361
-        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender = 
 #line 2362
 F_TRAINER_FEMALE | 

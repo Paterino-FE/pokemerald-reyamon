@@ -180,12 +180,12 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "bound {PLAYER}?\p"
 	.string "SOOTOPOLIS's GYM LEADER LUMI is\n"
 	.string "a master of BEAR-type POKéMON.\p"
-	.string "And, to get to LUMI, a LUMI floor\n"
-	.string "will hamper your progress...\p"
-	.string "Listen, I'm sorry, but that's all the\n"
-	.string "LUMI that I have for you.\p"
-	.string "The rest of the way, you have to\n"
-	.string "go for it yourself!$"
+	.string "As you can see, access to the ice\n"
+	.string "floor is blocked for safety reasons.\p"
+	.string "Imagine if someone fell through the\n"
+	.string "ice and got seriously hurt!!!\p"
+	.string "No, we cannot have that because that\n"
+	.string "would be fu... I mean, dangerous!$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! You've beaten even LUMI, who\n"
