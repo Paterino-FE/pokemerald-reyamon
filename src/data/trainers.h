@@ -10971,7 +10971,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_CARBINK, 
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4139
-            .iv = TRAINER_PARTY_IVS(12, 12, 12, 11, 12, 12), //E/E/E/O/E/E - NEED TO TEST
+            .iv = TRAINER_PARTY_IVS(11, 12, 11, 10, 12, 11),
 #line 4138
             .lvl = 36,
             .nature = NATURE_HARDY,
@@ -10982,7 +10982,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_SABLEYE,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(11, 11, 13, 13, 11, 13), //O/O/O/O/O/O - NEED TO TEST
+            .iv = TRAINER_PARTY_IVS(11, 11, 13, 13, 11, 13),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -10992,7 +10992,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_STARMIE,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(12, 11, 13, 11, 13, 12), //E/O/O/O/O/E - NEED TO TEST
+            .iv = TRAINER_PARTY_IVS(13, 12, 13, 13, 11, 12),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
