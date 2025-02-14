@@ -69,13 +69,13 @@ Team Aqua
 
 Rival Vyral
 
->Trainers -> Not Done
+>Trainers -> Done
 
 >Dialogue -> Not Done
 
 Rival Lilypad
 
->Trainers -> Not Done
+>Trainers -> Done
 
 >Dialogue -> Not Done
 
