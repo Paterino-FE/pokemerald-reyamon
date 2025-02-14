@@ -3128,7 +3128,7 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_WIGGLYTUFF,
+            .species = SPECIES_CHANSEY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_EVIOLITE,
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
