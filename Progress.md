@@ -38,7 +38,7 @@ Gym 6
 
 Gym 7
 
->Trainers -> Not Done
+>Trainers -> Done
 
 >Dialogue -> Not Done
 
@@ -81,6 +81,6 @@ Rival Lilypad
 
 Elite Four
 
->Trainers -> Not Done
+>Trainers -> Done
 
 >Dialogue -> Not Done
