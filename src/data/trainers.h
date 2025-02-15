@@ -13422,7 +13422,7 @@ F_TRAINER_FEMALE |
 #line 5041
         .items = { ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION },
 #line 5042
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
 #line 5043
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 6,
