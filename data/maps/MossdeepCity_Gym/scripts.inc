@@ -372,15 +372,15 @@ MossdeepCity_Gym_EventScript_RedFloorSwitch::
 MossdeepCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-bound\n"
 	.string "{PLAYER}?\p"
-	.string "The GYM LEADERS here use\n"
-	.string "PSYCHIC-type POKéMON.\p"
-	.string "If you go up against them with\n"
-	.string "FIGHTING- or POISON-type POKéMON,\l"
-	.string "they'll inflict horrible damage!\p"
-	.string "Plus, they'll come at you with\n"
+	.string "SKYWARD here uses\n"
+	.string "MIMIC-type POKéMON.\p"
+	.string "If you go up against him with\n"
+	.string "ANY-type POKéMON,\l"
+	.string "they'll just copy you!\p"
+	.string "Plus, he'll come at you with\n"
 	.string "outstanding combination attacks.\p"
 	.string "If you want to win, you'll need to show\n"
-	.string "them how tight you are with your\l"
+	.string "him how tight you are with your\l"
 	.string "POKéMON. Go for it!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
@@ -431,19 +431,18 @@ MossdeepCity_Gym_Text_BlakePostBattle:
 	.string "I didn't blow on it! Honestly!$"
 
 MossdeepCity_Gym_Text_HannahIntro:
-	.string "When you lose to me, don't be too hard\n"
-	.string "on yourself.\p"
-	.string "It's not that you're weak--I'm just\n"
-	.string "too strong!$"
+	.string "I was told that the Boss of this\n"
+	.string "dungeon carries a rare Grimoire...$"
 
 MossdeepCity_Gym_Text_HannahDefeat:
-	.string "You're just too strong!$"
+	.string "Hmm...\n"
+	.string "I hadn't lost in hundreds of years...\p"
+	.string "Oh well!$"
 
 MossdeepCity_Gym_Text_HannahPostBattle:
-	.string "I'm not going to get down on myself for\n"
-	.string "losing. I just need to train harder.\p"
-	.string "Positive thinking--that's my strong\n"
-	.string "point!$"
+	.string "Maybe I'll stay here for a couple\n"
+	.string "of centuries.....\p"
+	.string "ZzZzZ..........$"
 
 MossdeepCity_Gym_Text_SamanthaIntro:
 	.string "I see it…\n"
@@ -477,30 +476,24 @@ MossdeepCity_Gym_Text_MauraPostBattle:
 	.string "What goes around comes around…$"
 
 MossdeepCity_Gym_Text_SylviaIntro:
-	.string "Even at the risk of life, I will win\n"
-	.string "this battle!$"
+	.string "Always make sure you're well armed\n"
+	.string "for the road!$"
 
 MossdeepCity_Gym_Text_SylviaDefeat:
-	.string "What you do…\n"
-	.string "It horrifies me…$"
+	.string "Guess I'm getting a bit rusty...$"
 
 MossdeepCity_Gym_Text_SylviaPostBattle:
-	.string "How dare you beat me…\p"
-	.string "It won't be my fault if something\n"
-	.string "horrible befalls you…$"
+	.string "Guess I'm getting a bit rusty...$"
 
 MossdeepCity_Gym_Text_NateIntro:
-	.string "Hohoho.\p"
-	.string "You need me to show you how tenacious\n"
-	.string "the PSYCHIC type can be.$"
+	.string "Oh my god, is that the streamer\n"
+	.string "formerly known as sheepo?$"
 
 MossdeepCity_Gym_Text_NateDefeat:
-	.string "Oh! My, my!\n"
-	.string "Your battle style is fantastic!$"
+	.string "EZ Clap$"
 
 MossdeepCity_Gym_Text_NatePostBattle:
-	.string "I… I don't let defeat rattle m-me,\n"
-	.string "however b-badly.$"
+	.string "EZ Clap$"
 
 MossdeepCity_Gym_Text_KathleenIntro:
 	.string "Let me show you a perfectly awful,\n"
@@ -526,17 +519,17 @@ MossdeepCity_Gym_Text_CliffordPostBattle:
 	.string "your youthful energy.$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
-	.string "You're not getting through to the end!\n"
-	.string "Not if I can help it!$"
+	.string "Ive been looking for something all over,\n"
+	.string "a gem thats said to be hidden somewhere\l"
+	.string "in this world...$"
 
 MossdeepCity_Gym_Text_MaceyDefeat:
-	.string "How could you be so ludicrously\n"
-	.string "strong?$"
+	.string "The hidden gem ive been looking for...\n"
+	.string "could it be you?$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
-	.string "The way you battle is somehow brutal!$"
+	.string "Unbelievable! After all these years,\n"
+	.string "Ive found the hidden gem.$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
 	.string "Wroooar! Have a taste of my super\n"

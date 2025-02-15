@@ -38,9 +38,9 @@ Gym 6
 
 Gym 7
 
->Trainers -> Done
+>Trainers -> Done (Except Clifford)
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Clifford, Virgil, Tate&Liza)
 
 Gym 8
 
