@@ -12472,12 +12472,11 @@ F_TRAINER_FEMALE |
 #line 4690
         .trainerName = _("CYNTHIA"),
 #line 4691
-        .trainerClass = TRAINER_CLASS_ELITE_FOUR,
+        .trainerClass = TRAINER_CLASS_CYNTHIA,
 #line 4692
         .trainerPic = TRAINER_PIC_ELITE_FOUR_GLACIA,
         .encounterMusic_gender = 
 #line 4693
-F_TRAINER_FEMALE | 
 #line 4694
             TRAINER_ENCOUNTER_MUSIC_CYNTHIA,
 #line 4695
