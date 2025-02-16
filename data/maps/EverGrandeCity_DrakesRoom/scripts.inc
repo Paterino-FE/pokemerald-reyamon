@@ -62,31 +62,27 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-	.string "I am the last of the POKéMON LEAGUE\n"
-	.string "ELITE FOUR, DRAKE the DRAGON master!\p"
-	.string "In their natural state, POKéMON are\n"
+	.string "Fear is freedom! Subjugation is\n"
+	.string "liberation! Contradiction is truth!\p"
+	.string "These are the truths of this world!\p"
 	.string "wild living things. They are free.\p"
-	.string "At times, they hinder us.\n"
-	.string "At times, they help us.\p"
-	.string "For us to battle with POKéMON as\n"
-	.string "partners, do you know what it takes?\p"
-	.string "Do you know what is needed?\p"
-	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
+	.string "But... you certainly have some\n"
+	.string "distinguished style.\p"
+	.string "A worthy opponent!$"     
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
-	.string "Superb, it should be said.$"
+	.string "The Lioness will use all her\n"
+	.string "strength even when hunting a rabbit.\p"
+	.string "You showed your qualities today, Reya.\n"
+	.string "You are a remakable trainer and\l"
+	.string "person. Now stride onwards to face\l"
+	.string "your final challenge.$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
-	.string "You deserve every credit for coming\n"
-	.string "this far as a TRAINER of POKéMON.\p"
-	.string "You do seem to know what is needed.\p"
-	.string "Yes, what a TRAINER needs is a\n"
-	.string "virtuous heart.\p"
-	.string "POKéMON touch the good hearts of\n"
-	.string "TRAINERS and learn good from wrong.\p"
-	.string "They touch the good hearts of\n"
-	.string "TRAINERS and grow strong.\p"
-	.string "Go! Go onwards!\n"
-	.string "The CHAMPION is waiting!$"
+	.string "My actions are utterly pure and so\n"
+	.string "must be yours.\p"
+	.string "The other Elite Four members and\n"
+	.string "I root for your success.$"
 
+
+   

@@ -83,4 +83,4 @@ Elite Four
 
 >Trainers -> Done
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Sidney, Phoebe)
