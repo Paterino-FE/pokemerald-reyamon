@@ -401,9 +401,8 @@ DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "and CLOR in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!$"
+	.string "Hams: By the skin of my teeth!\n"
+	.string "Clor: Looks like I got taken out.$"
 
 DewfordTown_Gym_Text_GymStatue:
 	.string "DEWFORD TOWN POKéMON GYM$"
