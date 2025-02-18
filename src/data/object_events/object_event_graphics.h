@@ -39,6 +39,7 @@ const u32 gObjectEventPic_RubySapphireMayRunning[] = INCBIN_U32("graphics/object
 const u16 gObjectEventPal_RubySapphireMay[] = INCBIN_U16("graphics/object_events/palettes/ruby_sapphire_may.gbapal");
 const u16 gUnusedObjectEventPalette[] = INCBIN_U16("graphics/object_events/palettes/unused_palette.gbapal");
 const u16 gObjectEventPal_Sidney[] = INCBIN_U16("graphics/object_events/palettes/sidney.gbapal");
+const u16 gObjectEventPal_Glacia[] = INCBIN_U16("graphics/object_events/palettes/glacia.gbapal");
 const u16 gObjectEventPal_Null16[16] = {};
 const u16 gObjectEventPal_Null17[16] = {};
 const u16 gObjectEventPal_Null18[16] = {};
