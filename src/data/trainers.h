@@ -31873,6 +31873,35 @@ F_TRAINER_FEMALE |
             },
         },
     },
+
+    [TRAINER_WALLY_PETALBURG_GYM] =
+    {
+        .trainerName = _("Lilypad"),
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .trainerPic = TRAINER_PIC_WALLY,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_OSHAWOTT,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 5,
+            .nature = NATURE_HASTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_TORRENT,
+            .moves = {
+                MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_WATER_GUN,
+            },
+            },
+        },
+    },
+
+
 #line 12041
     [TRAINER_WALLY_MAUVILLE] =
     {
