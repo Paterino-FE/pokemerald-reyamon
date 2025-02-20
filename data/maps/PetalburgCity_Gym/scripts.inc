@@ -165,7 +165,6 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_FaceNormanNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_FaceNormanWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_FaceNormanEast
-	delay 16
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	setvar VAR_PETALBURG_CITY_STATE, 3
@@ -1196,10 +1195,6 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "Ange: What are you waiting for?$"
 
-PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-	.string "LILYPAD: Oh, wow!\n"
-	.string "LET'S PLAY!$"
-
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 	.string "Ange: Did you enjoy your little fight?$"
 
@@ -1449,7 +1444,7 @@ PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "skilled at offense.$"
 
 PetalburgCity_Gym_Text_WallyIntro:
-	.string "Let's play, {PLAYER}!$"
+	.string "LILYPAD: Let's play, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_WallyDefeat:
 	.string "Wow, you are so strong!$"
