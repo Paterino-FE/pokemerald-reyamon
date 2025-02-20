@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
@@ -39,6 +39,19 @@
       "trainer_sight_or_berry_tree_id": "ITEM_ESCAPE_ROPE",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(MAKUHITA)",
+      "x": 19,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_MAKUHITA"
     }
   ],
   "warp_events": [
@@ -71,6 +84,27 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_MAKUHITA_GRANITE_CAVE_1F",
+      "var_value": "0",
+      "script": "GraniteCave_1F_Top_EventScript_Makuhita"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_MAKUHITA_GRANITE_CAVE_1F",
+      "var_value": "1",
+      "script": "GraniteCave_1F_Top_EventScript_MakuhitaBattle"
+    }
+  ],
+  "bg_events": [
+
+  ]
 }
