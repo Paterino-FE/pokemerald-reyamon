@@ -148,9 +148,9 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	special InitBirchState
 
 	lockall
-	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanAddressPlayerNorth
-	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressPlayerWest
-	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressPlayerEast
+	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanAddressPlayerNorthPostBattle
+	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressPlayerWestPostBattle
+	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressPlayerEastPostBattle
 
 	msgbox PetalburgCity_Gym_Text_DadSoDidItWorkOut, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouBye, MSGBOX_DEFAULT
@@ -294,10 +294,27 @@ PetalburgCity_Gym_EventScript_NormanAddressPlayerEast::
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressWallySouth::
+PetalburgCity_Gym_EventScript_NormanAddressPlayerNorthPostBattle::
 	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
+
+PetalburgCity_Gym_EventScript_NormanAddressPlayerWestPostBattle::
+	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterRight
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	return
+
+PetalburgCity_Gym_EventScript_NormanAddressPlayerEastPostBattle::
+	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterLeft
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	return
+
 
 PetalburgCity_Gym_EventScript_NormanAddressWallyNorth::
 	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterRight
