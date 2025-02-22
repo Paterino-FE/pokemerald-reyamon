@@ -59,8 +59,8 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Hello, my name is Astarion, and\n"
-	.string "you you must be the....\p"
+	.string "Hello, my name is Astarion, and you\n"
+	.string "must be the....\p"
 	.string "vtuber LongLiveReya.\p"
 	.string "Well done, I guess...\p"
 	.string "Here's the thing:\n"

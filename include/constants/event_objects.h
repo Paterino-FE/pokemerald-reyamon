@@ -381,6 +381,9 @@
 #define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
 #define OBJ_EVENT_PAL_TAG_SIDNEY                  0x1125
 #define OBJ_EVENT_PAL_TAG_GLACIA                  0x1126
+#define OBJ_EVENT_PAL_TAG_DRAKE                   0x1127
+#define OBJ_EVENT_PAL_TAG_PHOEBE                  0x1128
+#define OBJ_EVENT_PAL_TAG_WINONA                  0x1129
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
