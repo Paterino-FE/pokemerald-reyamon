@@ -10,7 +10,7 @@ Gym 2
 
 >Trainers -> Done
 
->Dialogue -> Done (Except Clumsykumquat/TM Stuff)
+>Dialogue -> Done (Except TM Stuff)
 
 Gym 3
 
