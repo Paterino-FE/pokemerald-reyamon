@@ -18,12 +18,14 @@
 .set LOCALID_GRUNT_9, 31
 .set LOCALID_GRUNT_11, 33
 .set LOCALID_SCOTT, 35
+.set LOCALID_CROAGUNK, 37
 
 @ Note: LOCALID_SLATEPORT_ENERGY_GURU is a local id for this map used elsewhere. It's defined in event_objects.h
 
 SlateportCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_OnFrame
+	map_script MAP_SCRIPT_ON_LOAD, SlateportCity_EventScript_Croagunk_Setup
 	.byte 0
 
 SlateportCity_OnTransition:
@@ -55,6 +57,124 @@ SlateportCity_EventScript_MovePeopleForSternInterview::
 	setobjectmovementtype LOCALID_FAT_MAN, MOVEMENT_TYPE_FACE_UP
 	setobjectmovementtype LOCALID_MAN_1, MOVEMENT_TYPE_FACE_LEFT
 	return
+
+SlateportCity_Movement_Croagunk_Appears::
+	walk_slow_down
+	walk_slow_down
+	walk_slow_down
+	walk_slow_down
+	walk_slow_down
+	walk_slow_down
+	step_end
+
+SlateportCity_Movement_Croagunk_Leaves::
+	face_player
+	delay_16
+	delay_16
+	emote_heart
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	face_left
+	jump_left
+	delay_16
+	jump_2_left
+	jump_2_left
+	face_down
+	step_end
+
+
+SlateportCity_Movement_Croagunk_Retreats::
+	face_down
+	slide_up
+	slide_up
+	step_end
+
+SlateportCity_Movement_Croagunk_Attacks::
+	jump_down
+	step_end
+
+SlateportCity_EventScript_Croagunk_Setup_1::
+	addobject LOCALID_CROAGUNK
+	setobjectxy LOCALID_CROAGUNK, 2, 35
+	setobjectxyperm LOCALID_CROAGUNK, 2, 35
+	setobjectmovementtype LOCALID_CROAGUNK, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+SlateportCity_EventScript_Croagunk_Setup_2::
+	addobject LOCALID_CROAGUNK
+	setobjectxy LOCALID_CROAGUNK, 2, 33
+	setobjectxyperm LOCALID_CROAGUNK, 2, 33
+	setobjectmovementtype LOCALID_CROAGUNK, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+SlateportCity_EventScript_Croagunk_Setup::
+	call_if_eq VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY, 2, SlateportCity_EventScript_Croagunk_Setup_1
+	call_if_eq VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY, 3, SlateportCity_EventScript_Croagunk_Setup_2
+	return
+
+SlateportCity_EventScript_Croagunk_Retreats::
+	lockall
+	setobjectmovementtype LOCALID_CROAGUNK, MOVEMENT_TYPE_FACE_DOWN
+	applymovement LOCALID_CROAGUNK, SlateportCity_Movement_Croagunk_Retreats
+	waitmovement 0
+	playse SE_FLEE
+	waitse
+	setvar VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY, 3
+	releaseall
+	end
+
+SlateportCity_EventScript_Croagunk_Attacks::
+	lockall
+	applymovement LOCALID_CROAGUNK, SlateportCity_Movement_Croagunk_Attacks
+	waitmovement 0
+	setwildbattle SPECIES_CROAGUNK, 16
+	playmoncry SPECIES_CROAGUNK, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	dowildbattle
+	setvar VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY, 4
+	fadescreen FADE_TO_WHITE
+	removeobject LOCALID_CROAGUNK
+	setflag FLAG_HIDE_CROAGUNK
+	fadescreen FADE_FROM_WHITE
+	releaseall
+	end
+
+SlateportCity_EventScript_Croagunk_Walk_Down::
+	applymovement LOCALID_CROAGUNK, Common_Movement_WalkSlowDown
+	waitmovement 0
+	return
+
+SlateportCity_EventScript_Croagunk_Appears::
+	lockall
+	fadeoutbgm 0
+	addobject LOCALID_CROAGUNK
+	clearflag FLAG_HIDE_CROAGUNK
+	
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_QuestionMark
+	waitmovement 0
+	waitse
+	applymovement LOCALID_CROAGUNK, SlateportCity_Movement_Croagunk_Appears
+	waitmovement 0
+	getplayerxy VAR_TEMP_1, VAR_TEMP_2
+	call_if_eq VAR_TEMP_2, 28, SlateportCity_EventScript_Croagunk_Walk_Down
+	playmoncry SPECIES_CROAGUNK, CRY_MODE_NORMAL
+	applymovement LOCALID_CROAGUNK, SlateportCity_Movement_Croagunk_Leaves
+	waitmovement 0
+
+	setobjectxyperm LOCALID_CROAGUNK, 2, 35
+	setobjectxy LOCALID_CROAGUNK, 2, 35
+	setobjectmovementtype LOCALID_CROAGUNK, MOVEMENT_TYPE_FACE_DOWN
+	setvar VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY, 2
+	fadeinbgm 0
+	releaseall
+	end
 
 SlateportCity_EventScript_SetReadyForScottScene::
 	setflag FLAG_HIDE_MAP_NAME_POPUP

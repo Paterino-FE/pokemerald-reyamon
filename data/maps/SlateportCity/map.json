@@ -497,6 +497,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_EventScript_Paterino",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(CROAGUNK)",
+      "x": 18,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_CROAGUNK"
     }
   ],
   "warp_events": [
@@ -587,6 +600,42 @@
       "var": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
       "var_value": "2",
       "script": "SlateportCity_EventScript_ScottBattleTentScene"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 28,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY",
+      "var_value": "1",
+      "script": "SlateportCity_EventScript_Croagunk_Appears"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY",
+      "var_value": "1",
+      "script": "SlateportCity_EventScript_Croagunk_Appears"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 37,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY",
+      "var_value": "2",
+      "script": "SlateportCity_EventScript_Croagunk_Retreats"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 35,
+      "elevation": 0,
+      "var": "VAR_ENCOUNTER_CROAGUNK_SLATEPORT_CITY",
+      "var_value": "3",
+      "script": "SlateportCity_EventScript_Croagunk_Attacks"
     }
   ],
   "bg_events": [
