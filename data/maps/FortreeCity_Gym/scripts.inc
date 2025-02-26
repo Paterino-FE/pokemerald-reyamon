@@ -21,7 +21,6 @@ FortreeCity_Gym_EventScript_Winona::
 	trainerbattle_single TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, FortreeCity_Gym_EventScript_WinonaRematch
-	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -35,8 +34,6 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	setflag FLAG_BADGE06_GET
 	setvar VAR_0x8008, 6
 	call Common_EventScript_SetGymTrainers
-	call FortreeCity_Gym_EventScript_GiveAerialAce
-	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
 	msgbox FortreeCity_Gym_Text_RegisteredWinona, MSGBOX_DEFAULT
@@ -47,6 +44,78 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	setvar VAR_SCOTT_FORTREE_CALL_STEP_COUNTER, 0
 	setflag FLAG_SCOTT_CALL_FORTREE_GYM
 	release
+	end
+
+FortreeCity_Gym_EventScript_RioluNotInterested::
+	playmoncry SPECIES_RIOLU, CRY_MODE_ENCOUNTER
+	waitmoncry
+	msgbox Fortree_Gym_Text_RioluNotInterested, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+FortreeCity_Gym_EventScript_RioluWantsToJoin::
+	playmoncry SPECIES_RIOLU, CRY_MODE_ENCOUNTER
+	waitmoncry
+	msgbox Fortree_Gym_Text_RioluWantsToJoin, MSGBOX_DEFAULT
+	closemessage
+	givemon SPECIES_RIOLU, 32, ITEM_SOOTHE_BELL
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, FortreeCity_Gym_EventScript_ReceiveRioluParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, FortreeCity_Gym_EventScript_ReceiveRioluPC
+	release
+	end
+
+FortreeCity_Gym_EventScript_ReceiveRioluParty::
+	call FortreeCity_Gym_EventScript_ReceivedRioluFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FortreeCity_Gym_EventScript_HideRiolu
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	call FortreeCity_Gym_EventScript_HideRiolu
+	end
+
+FortreeCity_Gym_EventScript_ReceiveRioluPC::
+	call FortreeCity_Gym_EventScript_ReceivedRioluFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FortreeCity_Gym_EventScript_EventScript_SendRioluToPC
+	call Common_EventScript_NameReceivedBoxMon
+	call FortreeCity_Gym_EventScript_EventScript_SendRioluToPC
+	end
+
+FortreeCity_Gym_EventScript_EventScript_SendRioluToPC::
+	call Common_EventScript_TransferredToPC
+	goto FortreeCity_Gym_EventScript_HideRiolu
+	end
+
+FortreeCity_Gym_EventScript_ReceivedRioluFanfare::
+	playfanfare MUS_OBTAIN_ITEM
+	message FortreeCity_Gym_Text_PlayerReceivedRiolu
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_RIOLU
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_RIOLU
+	return
+
+.set LOCALID_RIOLU, 9
+
+FortreeCity_Gym_EventScript_HideRiolu::
+	lockall  
+	playmoncry SPECIES_RIOLU, CRY_MODE_ENCOUNTER
+	fadescreen FADE_TO_BLACK
+	setflag FLAG_HIDE_RIOLU
+	removeobject LOCALID_RIOLU
+	waitmoncry
+	delay 16
+	fadescreen FADE_FROM_BLACK
+	release
+	return
+
+FortreeCity_Gym_Text_PlayerReceivedRiolu:
+	.string "{PLAYER} received RIOLU!$"
+
+FortreeCity_Gym_EventScript_Riolu::
+	goto_if_unset FLAG_DEFEATED_FORTREE_GYM, FortreeCity_Gym_EventScript_RioluNotInterested
+	goto_if_set FLAG_DEFEATED_FORTREE_GYM, FortreeCity_Gym_EventScript_RioluWantsToJoin
 	end
 
 FortreeCity_Gym_EventScript_GiveAerialAce2::
@@ -134,6 +203,13 @@ FortreeCity_Gym_EventScript_GymStatue::
 	releaseall
 	end
 
+Fortree_Gym_Text_RioluNotInterested:
+	.string "Riolu seems to be a bit sceptical\n"
+	.string "of you...$"
+
+Fortree_Gym_Text_RioluWantsToJoin:
+	.string "Riolu wants to join your team!$"
+
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
@@ -220,21 +296,21 @@ FortreeCity_Gym_Text_DariusPostBattle:
 	.string "than mine.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "AAAAAAAAAAAH! Why are you here?!$"
+	.string "AAAAAAAAAAAH!\p"
+	.string "Why are you here?!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "To be honest, i didn't think\n"
-	.string "you would make it this far AYAYA$"
+	.string "you would make it this far AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the\n"
 	.string "FRIENDSHIP BADGE from Thea.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "Leave now, before i start\n"
-	.string "talking about Armenia\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+	.string "You have not just impressed me,\n"
+	.string "Riolu there also seems to have\l"
+	.string "taken a liking to you!$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "TM40 contains AERIAL ACE.\p"
@@ -248,7 +324,7 @@ FortreeCity_Gym_Text_RegisteredWinona:
 
 FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "Leave now, before i start\n"
-	.string "talking about Armenia$"
+	.string "talking about Armenia!$"
 
 FortreeCity_Gym_Text_GymStatue:
 	.string "FORTREE CITY POKéMON GYM$"
