@@ -57,11 +57,20 @@ FortreeCity_Gym_EventScript_RioluNotInterested::
 FortreeCity_Gym_EventScript_RioluWantsToJoin::
 	playmoncry SPECIES_RIOLU, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox Fortree_Gym_Text_RioluWantsToJoin, MSGBOX_DEFAULT
+	msgbox Fortree_Gym_Text_RioluWantsToJoin, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Fortree_Gym_EventScript_RioluRejected
 	closemessage
 	givemon SPECIES_RIOLU, 32, ITEM_SOOTHE_BELL
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, FortreeCity_Gym_EventScript_ReceiveRioluParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, FortreeCity_Gym_EventScript_ReceiveRioluPC
+	release
+	end
+
+Fortree_Gym_EventScript_RioluRejected::
+	playmoncry SPECIES_RIOLU, CRY_MODE_FAINT
+	msgbox Fortree_Gym_Text_RioluRejected, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
 	release
 	end
 
@@ -208,7 +217,13 @@ Fortree_Gym_Text_RioluNotInterested:
 	.string "of you...$"
 
 Fortree_Gym_Text_RioluWantsToJoin:
-	.string "Riolu wants to join your team!$"
+	.string "Riolu wants to join you on you\n"
+	.string "on your adventure!\p"
+	.string "Do you accept it?$"
+
+Fortree_Gym_Text_RioluRejected:
+	.string "Riolu is saddened by your rejection.\n"
+	.string "How can you be so heartless?$"
 
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
