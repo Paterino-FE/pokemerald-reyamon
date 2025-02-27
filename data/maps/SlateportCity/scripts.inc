@@ -1203,66 +1203,59 @@ SlateportCity_Text_VisitedMuseumOften:
 
 SlateportCity_Text_QuitPushing:
 	.string "Hey, there! Quit pushing!\n"
-	.string "This is the line, can't you see?$"
+	.string "This is a line, not a mosh pit!$"
 
 SlateportCity_Text_AquaHasPolicy:
-	.string "TEAM AQUA has a policy of\n"
-	.string "assembling and dispersing at\l"
-	.string "the operation site.$"
+	.string "I'm just here for a debt collection.$"
 
 SlateportCity_Text_BossIsBrilliant:
-	.string "Our BOSS is brilliant.\p"
-	.string "What would he want to do with\n"
-	.string "a MUSEUM now?$"
+	.string "Our boss is brilliant.\p"
+	.string "She's always got so many good ideas!$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
-	.string "What's the new scheme, I wonder?\p"
-	.string "Our BOSS is scary when he's mad, so\n"
-	.string "I'd better not screw things up…$"
+	.string "What’s the new scheme, I wonder?\p"
+	.string "Our boss gets really pathetic\n"
+	.string "when she’s sad, so I’d better\l"
+	.string "not screw things up…$"
 
 SlateportCity_Text_ShouldTakeItAll:
-	.string "If there's something we need in\n"
-	.string "the MUSEUM, we should take it all!$"
+	.string "I love museums, I can't believe\n"
+	.string "the boss is hosting an event here!$"
 
 SlateportCity_Text_DontButtIn:
-	.string "Hey, you there!\n"
-	.string "Don't butt in!$"
+	.string "Excuse me, please don’t cut.$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
 	.string "A long line, huh?\p"
-	.string "It reminds me of the times I lined up to\n"
-	.string "buy smash-hit games…$"
+	.string "Just like when I used to get new\n"
+	.string "games at midnight…$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
-	.string "Why are we even lining up and paying?\n"
-	.string "We should just march in!$"
+	.string "I knew I should have left home earlier!$"
 
 SlateportCity_Text_WhatDoYouWant:
 	.string "What?\n"
 	.string "What do you want?$"
 
 SlateportCity_Text_IllReadSignForYou:
-	.string "You want to read this sign?\n"
-	.string "I'll read it for you!$"
+	.string "What? Oh the sign? You want to read\n"
+	.string "this sign?$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-	.string "Let's see…\p"
-	.string "Um… I think it says something like\n"
-	.string "“the life in the sea is endless.”\p"
-	.string "Yup, I'm pretty sure that's what\n"
-	.string "it says.$"
+	.string "Let's see...\p"
+	.string "Um, I think it says something like:\n"
+	.string "Whale Cove to late parts moss ummm.\p"
+	.string "Yeah, no, that’s what it says. Trust\n"
+	.string "me, I definitely know how to read.$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-	.string "Grumble…\p"
-	.string "I should've brought my Game Boy\n"
-	.string "Advance so I wouldn't get bored in line…\p"
-	.string "Grumble…$"
+	.string "Grumble...\p"
+	.string "I knew I should have brought my 3DS.\n"
+	.string "Grumble...$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
-	.string "When this operation's over, I'll take\n"
-	.string "you to a hot spring spa!\p"
-	.string "That's what our leader said.\n"
-	.string "I can't wait!$"
+	.string "The boss said she'd take us\n"
+	.string "snorkeling once this is all over!$"
 
 SlateportCity_Text_SeaIsSoWet:
 	.string "The sea is just so vast…\p"

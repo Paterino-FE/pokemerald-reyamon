@@ -327,15 +327,16 @@ PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "called SHROOMISH around here?\p"
 	.string "I really love that POKéMON.$"
 
-PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
+PetalburgWoods_Text_IWasGoingToAmbushYou:         
+	.string "I’ve been trying to catch up to you\n"
+	.string "for miles, but I lost you in\l"
+	.string "Petalburg Woods.\p"
+	.string "I didn’t think I’d run into you\n"
+	.string "again, but here you are!$"
 
 PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
+	.string "Could you hand over those forms\n"
+	.string "you signed?$"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "Aiyeeeh!\p"
@@ -343,24 +344,24 @@ PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "You've got to help me, please!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "Excuse me, who are you? I’m trying\n"
+	.string "to handle this paperwork, but I’d\l"
+	.string "be happy to deal with you in\l"
+	.string "a second.\p"
+	.string "Oh, a battle? I guess I can\n"
+	.string "take my break early...$"
 
 PetalburgWoods_Text_YoureKiddingMe:
-	.string "You're kidding me! You're tough!$"
+	.string "Wow, strong team you’ve got there!$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "I bet a strong trainer like you\n"
+	.string "would totally be interested in\l"
+	.string "hearing more about Tentacool\l"
+	.string "Cruiseline’s new timeshare program.\p"
+	.string "Oh shoot! That battle took longer\n"
+	.string "than I thought, I’m running late\l"
+	.string "for my meeting in Rustboro!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "Whew…\n"

@@ -425,33 +425,31 @@ RusturfTunnel_EventScript_Mike::
 	end
 
 RusturfTunnel_Text_ComeAndGetSome:
-	.string "What, are you coming?\n"
-	.string "Come and get some, then!$"
+	.string "Oh hello there, would you like\n"
+	.string "to hear more about our luxurious\l"
+	.string "new timeshares?$" 
 
 RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_GruntIntro:
-	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
-	.string "In this tunnel to nowhere!\p"
-	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "I seem to have mistaken this Wingull\n"
+	.string "for a stack of brochures...\p"
+	.string "I guess that’s why I need to get\n"
+	.string "glasses.\p"
+	.string "Steal?!? Oh, I hope not!$"
 
 RusturfTunnel_Text_GruntDefeat:
-	.string "Urrrggh! My career in crime comes to\n"
-	.string "a dead end!$"
+	.string "Well this isn’t a great look for me...$"
 
 RusturfTunnel_Text_GruntTakePackage:
-	.string "This is plain not right…\p"
-	.string "The BOSS told me this would be a\n"
-	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
-	.string "from DEVON.\p"
-	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "Well I guess you better take that\n"
+	.string "Wingull back, and I’ll go grab some\l"
+	.string "more brochures from the office.\p"
+	.string "Remember to check us out!\p"
+	.string "Tencacool Cruises: We put the taco\n"
+	.string "in Tentacool!\p"
+	.string "...who wrote this?$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "PEEKO!\n"

@@ -283,71 +283,69 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 	.string "We can prepare for our expedition now.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
-	.string "Hehehe, hold it!\n"
-	.string "We'll take those parts!$"
+	.string "Excuse me there! It seems there was\n"
+	.string "a mix-up, and you have our parts!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
 	.string "CAPT. STERN: Wh-what?\n"
 	.string "Who are you people?$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're TEAM AQUA!\p"
-	.string "Our BOSS wants those parts!\n"
-	.string "Shut your yap and fork them over!$"
+	.string "We're from Tentacool Cruises!\p"
+	.string "You might have heard of us!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
-	.string "Awaaaah!\n"
-	.string "A kid beat me!$"
+	.string "Well this isnLt going to get\n"
+	.string "you any special deals.$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-	.string "Oh, man, what a disaster…\n"
-	.string "The BOSS is going to be furious…$"
+	.string "I don't know why people are so\n"
+	.string "aggressive these days.$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
-	.string "Humph, sniveling wimp!\n"
-	.string "Let me take care of this!$"
+	.string "I guess I'd be willing to offer you\n"
+	.string "a special offer if you give us our\l"
+	.string "package.$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
-	.string "What?!\n"
-	.string "I lost, too!$"
+	.string "Well you're not getting the special\n"
+	.string "offer now!$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-	.string "Now what? If we don't get the parts,\n"
-	.string "we're in for it!\p"
-	.string "Arrgh, I didn't count on being meddled\n"
-	.string "with by some meddling kid!$"
+	.string "Now what? The boss is not going to\n"
+	.string "be happy if we don’t get her parts!\p"
+	.string "Arrgh, I didn't count on someone\n"
+	.string "taking it from us!$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-	.string "I came to see what was taking so\n"
-	.string "long to snatch some parts, and you\l"
-	.string "simps are held up by a mere child?$"
+	.string "Hi, I just let myself on up because\n"
+	.string "some of my lovely workers were sup-\l"
+	.string "posed to be up here getting our parts.$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "We are TEAM AQUA,\n"
-	.string "and we love the sea!\p"
-	.string "And I am TEAM AQUA's leader,\n"
-	.string "ARCHIE!\p"
-	.string "What makes you interfere with us?\p"
-	.string "…No! You can't be!\n"
-	.string "You're not one of TEAM MAGMA?\p"
-	.string "Wait, that can't be right.\n"
-	.string "You're not dressed for the part.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "POKéMON, people… All life depends on\n"
-	.string "the sea.\p"
-	.string "So, TEAM AQUA is dedicated to\n"
-	.string "the expansion of the sea.\p"
-	.string "Don't you agree? What we are doing\n"
-	.string "is a magnificent undertaking.\p"
-	.string "Ah, fine…\n"
-	.string "You're still too young to understand\l"
-	.string "our noble objective.\p"
-	.string "But, I warn you, don't even consider\n"
-	.string "interfering with our plans again.\p"
-	.string "The consequences will cost you\n"
-	.string "dearly!\p"
-	.string "And don't you forget it!$"
+	.string "I’m Hatzoome and I am the spokeswoman\n"
+	.string "of Tentacool Cruises new timeshare\l"
+	.string "program!\p"
+	.string "But... why would you steal our\n"
+	.string "part... that's not very nice.\p"
+	.string "Are you with Dragon Gang?\p"
+	.string "No that isn't it, you're not\n"
+	.string "dressed correctly.\p"
+	.string "Well then, let me tell you about\n"
+	.string "our new seasonal offer!\p"
+	.string "Tentacool Cruises are not only giving\n"
+	.string "you their amazing low rates on prime\l"
+	.string "real estate on their amazing cruise\l"
+	.string "line, but each new timeshare also\l"
+	.string "comes with your very own Pikachew!\p"
+	.string "You're… you're not interested?\p"
+	.string "Well, that’s okay, you just need some\n"
+	.string "time to sleep on it is all.\p"
+	.string "But, I promise, you’re going to be\n"
+	.string "begging to sign one of these\l"
+	.string "contracts soon. Trust me, I\l"
+	.string "should know!\p"
+	.string "Bye forever!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
 	.string "CAPT. STERN: You're…\n"
