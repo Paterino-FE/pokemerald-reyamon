@@ -549,138 +549,132 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
+	.string "The power contained in the meteorite…\p"
 	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
-	.string "activity will instantly intensify…\p"
-	.string "Its energy will grow deep inside\n"
-	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "machine I will feed the beast via\l"
+	.string "Mount Chimney.\p"
+	.string "Hehe, not even Vyral would be smart\n"
+	.string "or strong enough for a plan lik-$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
-	.string "Who are you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
-	.string "who's been meddling in TEAM AQUA's\l"
-	.string "affairs.\p"
-	.string "It must be you he meant.\p"
-	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, TEAM MAGMA?\p"
-	.string "Now you listen.\n"
-	.string "Long ago, living things used the\l"
-	.string "land to live and grow.\p"
-	.string "That is why land is all important!\n"
-	.string "It is the cradle of all!\p"
-	.string "That is why TEAM MAGMA is dedicated\n"
-	.string "to the expansion of the land mass.\p"
-	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
-	.string "And for that, we need the power of\n"
-	.string "what sleeps within this mountain…\p"
-	.string "Oh! There was no need for you to\n"
-	.string "learn that much.\p"
-	.string "But, no matter!\n"
-	.string "I'll teach you the consequences of\l"
-	.string "meddling in our grand design!$"
+	.string "LYRA: Hm? Ah yes.\n"
+	.string "The pitiful Empress Reya.\p"
+	.string "I've heard you've been giving\n"
+	.string "Hatzoome grief. Certainly an\l"
+	.string "opponent befitting your lack\l"
+	.string "of stature. Oh.\p"
+	.string "You mean to strike above your\l"
+	.string "station, little Empress?\p"
+	.string "Bullying my real daughter (real)\n"
+	.string "wasn't enough for you.\p"
+	.string "Now you intend to interrupt our\n"
+	.string "noble goal of creating more land\l"
+	.string "with which to restore the dragon\l"
+	.string "empire, create more shinies to hoard.\p"
+	.string "Causes very near and dear to my\n"
+	.string "heart of course.\p"
+	.string "Very well, I'll allow you to\p"
+	.string "amuse me.$"
 
 MtChimney_Text_MaxieDefeat:
-	.string "What?!\p"
-	.string "I, MAXIE, was caught off guard?!$"
+	.string "I! What!\p"
+	.string "You must have… you can't have…$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
-	.string "I will back off this time.\p"
-	.string "But don't think that this is the last\n"
-	.string "you've seen of TEAM MAGMA.\p"
-	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "LYRA: Ahem. Well, you certainly did\n"
+	.string "a fine job overcoming this trial I\l"
+	.string "devised to test your worth.\p"
+	.string "Take the pathetic rock. I have an\n"
+	.string "even shinier one in my sight.\p"
+	.string "Next time I won’t be so forgiving,\n"
+	.string "little Empress. Sleep with one\l"
+	.string "eye open.$"
 
 MtChimney_Text_TabithaIntro:
-	.string "Hehehe!\p"
-	.string "So you've come all the way here!\p"
-	.string "But you're too late!\n"
-	.string "I've already delivered the METEORITE\l"
-	.string "from METEOR FALLS to the BOSS!$"
+	.string "Hahaha! I gave mummy shiny rock and\n"
+	.string "she will make me more shinies.\p"
+	.string "So I beat you up now, pretty lady,\n"
+	.string "sowwy.$"
 
 MtChimney_Text_TabithaDefeat:
-	.string "Hehehe…\p"
-	.string "Even though I've lost, if our leader\n"
-	.string "awakens that thing…$"
+	.string "Waaaaaaa!\n"
+	.string "Mummy! Pretty lady mean!$"
 
 MtChimney_Text_TabithaPostBattle:
-	.string "BOSS, hurry!\n"
-	.string "Give it the METEORITE's energy!\p"
-	.string "Hehehe…$"
+	.string "Mummy going to give you hurties now.\n"
+	.string "She's the stronkest ever!$"
 
 MtChimney_Text_Grunt2Intro:
-	.string "We of TEAM MAGMA are working hard for\n"
-	.string "everyone's sake.\p"
-	.string "Like, if that thing's power made more\n"
-	.string "land, there'd be more places to live.\p"
-	.string "Everyone'd be happy!$"
+	.string "Hey. I thought I was signing up to be\n"
+	.string "under Vyral and have her bark orders\l"
+	.string "at me, but I’ll still do my best to\l"
+	.string "defeat you.$"
 
 MtChimney_Text_Grunt2Defeat:
-	.string "Hunh?\n"
-	.string "What do you mean I lost?$"
+	.string "I wish Vyral was the one who\n"
+	.string "defeated me.$"
 
 MtChimney_Text_Grunt2PostBattle:
-	.string "Our BOSS says, “It will make everyone\n"
-	.string "happy.”\p"
-	.string "But why does everyone keep getting\n"
-	.string "in our way?$"
+	.string "Our glorious leader is pretty cool\n"
+	.string "and her daughter (real) is fun to\l"
+	.string "have around but I really wish Vyral\l"
+	.string "were here…$"
 
 MtChimney_Text_Grunt1Intro:
-	.string "If there were more land, I'd be able\n"
-	.string "to get a big house of my own!\p"
-	.string "I'm going to build it on hardened lava!$"
+	.string "With more land us Dragons will all\n"
+	.string "be able to have a mountain\l"
+	.string "hoard each!$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "My dream of a big house…$"
+	.string "Oh what, just because we're dragons\n"
+	.string "you thought we'd all use dragon\l"
+	.string "pokemon. Wow.$"
 
 MtChimney_Text_Grunt1PostBattle:
-	.string "A kid like you, you ought to be\n"
-	.string "splashing about in the waves!$"
+	.string "People like you and your assumptions\n"
+	.string "make me sick.$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
-	.string "That annoying TEAM AQUA…\n"
-	.string "They always mess with our plans!$"
+	.string "So, how much are these timeshares\n"
+	.string "exactly?$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "METEORITES pack amazing power!$"
+	.string "Dealing with you Tentacool Cruiseline\n"
+	.string "whelps is beneath our glorious\l"
+	.string "leader, so it's up to us.$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
-	.string "You'd better not mess with us!\p"
-	.string "We're trying to awaken that thing\n"
-	.string "for the benefit of everyone!$"
+	.string "Dragon Gang: Timeshares? Dragons\n"
+	.string "don't share anything, especially\l"
+	.string "not time!$"
 
 MtChimney_Text_AquasNameSimilar:
-	.string "We're TEAM MAGMA!\p"
-	.string "They're TEAM AQUA!\p"
-	.string "It totally annoys me that they'd\n"
-	.string "use a name like ours!$"
+	.string "We're Dragon Gang! A tax-exempt\n"
+	.string "charitable organization!\p"
+	.string "They're Tentacool Cruises!\n"
+	.string "They're just in it for money.$"
 
 MtChimney_Text_DouseThemInFire:
 	.string "Yeah!\n"
 	.string "Douse them in fire!$"
 
 MtChimney_Text_KeepMakingMoreLand:
-	.string "We're going to keep making more land!$"
+	.string "Cuteness has no place in a world of\n"
+	.string "power run by dragons.$"
 
 MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "ARCHIE: Grr, {PLAYER}!\n"
-	.string "I should've guessed you'd show up!\p"
-	.string "See for yourself what the fanatics\n"
-	.string "of TEAM MAGMA are up to!\p"
-	.string "They're trying to inject the stolen\n"
-	.string "METEORITE's power into the volcano!\p"
-	.string "Doing something like that will cause\n"
-	.string "the volcano's eruption!$"
+	.string "Hatzoome: Oh hey, {PLAYER}!\n"
+	.string "I should’ve known you'd sniff me\l"
+	.string "out once you grabbed your checkbook!\p"
+	.string "These hooligans started harassing me!\n"
+	.string "I'm not sure they even care about our\l"
+	.string "timeshares! They're trying to inject\l"
+	.string "the stolen meteorite's power into\l"
+	.string "the volcano, which would be really\l"
+	.string "bad for the timeshare program!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
 	.string "ARCHIE: Grrr…\p"
@@ -690,30 +684,31 @@ MtChimney_Text_ArchieIHaveMyHandsFull:
 	.string "three opponents at once!$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "ARCHIE: {PLAYER}!\n"
+	.string "Hatzoome: {PLAYER}!\n"
 	.string "Thank you!\p"
-	.string "With your help, we thwarted TEAM\n"
-	.string "MAGMA's destructive plan!\p"
-	.string "But… You…\n"
-	.string "Whose side are you on?\p"
-	.string "Ah, it doesn't matter.\p"
-	.string "We will remain vigilant and keep up\n"
-	.string "our pursuit of TEAM MAGMA.\p"
-	.string "{PLAYER}, we shall meet again!$"
+	.string "Thank you! I'm really glad you were\n"
+	.string "here to thwart Lyra's awful plan!\p"
+	.string "Oh, and I see you brought your\n"
+	.string "checkbook! Oh… you still don't want\l"
+	.string "to buy a timeshare. \p"
+	.string "Well, it doesn’t matter. I know\n"
+	.string "you'll be ready to invest once you've\l"
+	.string "had a chance to fully read the\l"
+	.string "brochures. {PLAYER}, bye forever!$"
 
 MtChimney_Text_MagmaOutnumbersUs:
-	.string "Darn… TEAM MAGMA outnumbers us!\n"
+	.string "Darn… Dragon Gang outnumbers us!\n"
 	.string "We can't keep up with them!$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-	.string "If they expand the land, there'll be\n"
-	.string "less habitats for WATER POKéMON!$"
+	.string "You can't expand the land, think of\n"
+	.string "the cute lil' fish!$"
 
 MtChimney_Text_MagmasNameSimilar:
-	.string "We're TEAM AQUA!\p"
-	.string "They're TEAM MAGMA!\p"
-	.string "It burns me up that they'd use such\n"
-	.string "a confusing name!$"
+	.string "We're Tentacool Cruises!\p"
+	.string "They're Dragon Gang!\p"
+	.string "They’re not even an actual\n"
+	.string "business!$"
 
 MtChimney_Text_Bushaa:
 	.string "Bushaa!$"

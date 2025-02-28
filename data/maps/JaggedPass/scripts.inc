@@ -223,21 +223,23 @@ JaggedPass_Text_EthanPostRematch:
 	.string "in MAUVILLE CITY…$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Wah!\n"
-	.string "What are you doing here?\p"
-	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+	.string "Right, so the first part of the\n"
+	.string "password is the glorious leader's\l"
+	.string "Girafarig’s nickname, it's not even\l"
+	.string "a horse what is she on?\p$"
+	.string "Huh! I’m not suspicious, you are!\n"
+	.string "Go away!$"
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
-	.string "I should've ducked into our HIDEOUT\n"
+	.string "I should’ve ducked into our hideout\n"
 	.string "right away…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "Surely it will be fine without a\n"
+	.string "password. After all our glorious\l"
+	.string "leader is supposedly strong enough\l"
+	.string "to beat anyone who enters.$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"
