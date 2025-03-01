@@ -372,7 +372,7 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
+	.string "Didn't that Tentacrook say\n"
 	.string "they were after something in\l"
 	.string "RUSTBORO, too?$"
 

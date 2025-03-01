@@ -591,9 +591,8 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "Well, that, too, is fine…$"
 
 MtPyre_Summit_Text_MaxieSilence:
-	.string "MAXIE: {PLAYER}…\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "Lyra: I miss my wife {PLAYER}.\p"
+	.string "I miss her a lot.$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "It is my role to pass on the legends\n"

@@ -168,16 +168,29 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "And challenge the POKéMON LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "You again? I... ... ...\n"
+	.string "Greetings, insert customer name,\l"
+	.string "honorific or title here.\p"
+	.string "Whomst I have definitely never met\n"
+	.string "before. I hope you are having a\l"
+	.string "wonderful day. I am Joan Mcdonalds.\p"
+	.string "Not a former eco terrorist in hiding.\p"
+	.string "and this is your remote McDonald’s\n"
+	.string "pitstop. Can I take your order today?\p"
+	.string "A battle? Really? Do we have to?\n"
+	.string "Fine, let’s get this over with.$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-	.string "My dream ends here again…$"
+	.string "Yeah, that went about how I expected.$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
+	.string "It’s not easy being a single mother\n"
+	.string "you know. It just really gets to you\l"
+	.string "sometimes, and before you know it,\l"
+	.string "you’ve almost caused an apocalypse.\p"
+	.string "Hey Reya? Kick Vyral’s ass for me \n"
+	.string "when you see her. And thanks for that\l"
+	.string "whole saving the world thing I guess.$"
 
 VictoryRoad_1F_Text_AlbertIntro:
 	.string "Losing a battle isn't going to slow\n"

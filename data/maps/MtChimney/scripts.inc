@@ -557,7 +557,7 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "or strong enough for a plan lik-$"
 
 MtChimney_Text_MaxieIntro:
-	.string "LYRA: Hm? Ah yes.\n"
+	.string "Lyra: Hm? Ah yes.\n"
 	.string "The pitiful Empress Reya.\p"
 	.string "I've heard you've been giving\n"
 	.string "Hatzoome grief. Certainly an\l"
@@ -581,7 +581,7 @@ MtChimney_Text_MaxieDefeat:
 	.string "You must have… you can't have…$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "LYRA: Ahem. Well, you certainly did\n"
+	.string "Lyra: Ahem. Well, you certainly did\n"
 	.string "a fine job overcoming this trial I\l"
 	.string "devised to test your worth.\p"
 	.string "Take the pathetic rock. I have an\n"

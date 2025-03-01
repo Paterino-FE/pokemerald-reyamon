@@ -193,7 +193,7 @@ MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "nice, can I eat your hair?$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "LYRA: GROUDON…\p"
+	.string "Lyra: GROUDON…\p"
 	.string "Nothing could awaken you from your\n"
 	.string "sleep. What a magnificently red\l"
 	.string "pokemon, perfect for controlling\l"
@@ -201,7 +201,7 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "red orb.$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "LYRA: Haha.. Hahahaha..HAHAHAHAHA.\p"
+	.string "Lyra: Haha.. Hahahaha..HAHAHAHAHA.\p"
 	.string "That loser Hatzoome is going to\n"
 	.string "get a wonderful surprise.$"
 

@@ -12,25 +12,25 @@ SeafloorCavern_Room4_EventScript_Grunt4::
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro:
-	.string "Who are you?\n"
-	.string "Where did you come in from?$"
+	.string "If you’re here, do you want to hear\n"
+	.string "my new sales pitch?$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat:
-	.string "Lost it…$"
+	.string "Maybe it needs some more work…$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
-	.string "I can't find the way out!\p"
-	.string "I'm not afraid. Don't get me wrong!$"
+	.string "Well how about this pitch:\p"
+	.string "Tentacool Cruises:\n"
+	.string "Wrap yourself in luxury!$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro:
-	.string "Who are you?\n"
-	.string "Where do you think you're going?$"
+	.string "Hey, I’m sorry but you’re not\n"
+	.string "allowed back this way!$"
 
 SeafloorCavern_Room4_Text_Grunt4Defeat:
-	.string "I failed to win!$"
+	.string "Nobody ever listens to me!$"
 
 SeafloorCavern_Room4_Text_Grunt4PostBattle:
-	.string "My partner forgot the map in that\n"
-	.string "submarine!\p"
-	.string "How's that for being useless?$"
+	.string "I can’t believe we already\n"
+	.string "lost the map to get back…$"
 

@@ -325,13 +325,13 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 	.string "its meteor showers for a long time.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-	.string "TEAM MAGMA can't be allowed to steal\n"
+	.string "Dragon Gang can't be allowed to steal\n"
 	.string "the rocket fuel.\p"
 	.string "Oh, by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-	.string "With TEAM MAGMA around, I guess\n"
+	.string "With Dragon Gang around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
@@ -339,9 +339,10 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
 	.string "from space. Could it be true?$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-	.string "TEAM AQUA should take care of\n"
-	.string "TEAM MAGMA!\p"
-	.string "But if they did that, TEAM AQUA will\n"
+	.string "Tentacool Cruises should take care\n"
+	.string "of Dragon Gang!\p"
+	.string "But if they did that,\n"
+	.string "Tentacool Cruises will\l"
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
@@ -352,14 +353,14 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "A giant chunk of metal bursts through\n"
 	.string "the skies and flies into space…\p"
-	.string "But TEAM MAGMA wants to spoil\n"
+	.string "But Dragon Gang wants to spoil\n"
 	.string "that dream of mine!\p"
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
+	.string "Lilypad: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
+	.string "Dragon Gang is coming after the rocket\n"
 	.string "fuel on this island.\p"
 	.string "I don't know what they'd need it for,\n"
 	.string "but they can't be allowed to take it.\p"
@@ -369,27 +370,33 @@ MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 	.string "check out the town?$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
-	.string "As promised, we've come for\n"
-	.string "the rocket fuel!$"
+	.string "Hey, me again. You know I thought\n"
+	.string "we’d caused so much trouble Vyral\l"
+	.string "would be the one who beat us\l"
+	.string "to a pulp.$" 
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat:
-	.string "Ran out of fuel…$"
+	.string "You know, I’m starting to get\n"
+	.string "what she sees in you.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle:
-	.string "Don't think you're on a roll just\n"
-	.string "because you've beaten me!$"
+	.string "She’s out of my league isn’t she.\n"
+	.string "But that just makes it a much better\l"
+	.string "Yuri storyline! I’ll win her over yet!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
-	.string "We gave you fair warning!\n"
-	.string "There's nothing sneaky about us!$"
+	.string "Oh jeez, oh buddy oh pal, that notice\n"
+	.string "was so embarrassing please I’m going\l"
+	.string "to beat you so you can’t tell anybody\l"
+	.string "you saw me here.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat:
-	.string "Grrr…\n"
-	.string "We should've used sneaky treachery…$"
+	.string "We have to put up with this stupidity\n"
+	.string "just because she’s the glorious\l"
+	.string "leader’s kid (real).$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
-	.string "Okay, I get it already! The next time,\n"
-	.string "we'll come unannounced.$"
+	.string "I really need a change in career path.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
 	.string "The rocket fuel the SPACE CENTER has\n"
@@ -402,21 +409,24 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
 	.string "What are we going to do with\n"
-	.string "the rocket fuel?\p"
-	.string "How would I know?\n"
-	.string "Ask our leader upstairs!$"
+	.string "the rocket fuel? I don’t know.\p"
+	.string "Dragons don’t need fuel to fly but\l"
+	.string "our glorious leader is a genius so\l"
+	.string "I’m sure it’s important.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
-	.string "Our leader said no one, but no one,\n"
-	.string "gets past me!$"
+	.string "I have to defeat you. For the\n"
+	.string "glorious future our glorious leader\l"
+	.string "wants to bring about. Gloriously!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
-	.string "Ack! Ack! Aaack!$"
+	.string "Ahhhh, a glorious defeat.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
-	.string "Please, tell our leader that\n"
-	.string "I never abandoned my post.\l"
-	.string "That I stayed to the bitter end…$"
+	.string "Please, tell our glorious leader that\n"
+	.string "I never abandoned my glorious post.\p"
+	.string "That I stayed to the bitter,\n"
+	.string "glorious end…gloriously.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "To Spays senter peepill: Helo stinkee\n"

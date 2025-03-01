@@ -861,7 +861,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_1] =
     {
 #line 415
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 416
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 417
@@ -1146,7 +1146,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MATT] =
     {
 #line 527
-        .trainerName = _("MATT"),
+        .trainerName = _("Hastings"),
 #line 528
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
 #line 529
@@ -1223,7 +1223,7 @@ F_TRAINER_FEMALE |
     [TRAINER_SHELLY_WEATHER_INSTITUTE] =
     {
 #line 558
-        .trainerName = _("SHELLY"),
+        .trainerName = _("DP"),
 #line 559
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
 #line 560
@@ -1268,7 +1268,7 @@ F_TRAINER_FEMALE |
     [TRAINER_SHELLY_SEAFLOOR_CAVERN] =
     {
 #line 575
-        .trainerName = _("SHELLY"),
+        .trainerName = _("DP"),
 #line 576
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
 #line 577
@@ -5800,7 +5800,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_2] =
     {
 #line 2157
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 2158
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 2159
@@ -7158,7 +7158,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_CHIMNEY_1] =
     {
 #line 2669
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 2670
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 2671
@@ -27674,7 +27674,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_UNUSED] =
     {
 #line 10510
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10511
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10512
@@ -27764,7 +27764,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_JAGGED_PASS] =
     {
 #line 10544
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10545
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10546
@@ -28237,7 +28237,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_CHIMNEY_2] =
     {
 #line 10679
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10680
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10681
@@ -28488,7 +28488,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_3] =
     {
 #line 10770
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10771
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10772
@@ -28537,7 +28537,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_4] =
     {
 #line 10787
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10788
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10789
@@ -28570,7 +28570,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_5] =
     {
 #line 10800
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10801
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10802
@@ -28602,7 +28602,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_6] =
     {
 #line 10813
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10814
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10815
@@ -28635,7 +28635,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SPACE_CENTER_7] =
     {
 #line 10825
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 10826
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10827
@@ -35018,7 +35018,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_1] =
     {
 #line 13277
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13278
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13279
@@ -35051,7 +35051,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_2] =
     {
 #line 13290
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13291
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13292
@@ -35084,7 +35084,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_3] =
     {
 #line 13303
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13304
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13305
@@ -35117,7 +35117,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_4] =
     {
 #line 13316
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13317
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13318
@@ -35162,7 +35162,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_5] =
     {
 #line 13333
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13334
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13335
@@ -35206,7 +35206,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_6] =
     {
 #line 13350
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13351
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13352
@@ -35239,7 +35239,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_7] =
     {
 #line 13363
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13364
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13365
@@ -35272,7 +35272,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_8] =
     {
 #line 13376
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13377
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13378
@@ -35305,7 +35305,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_9] =
     {
 #line 13389
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13390
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13391
@@ -35337,7 +35337,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_10] =
     {
 #line 13402
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13403
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13404
@@ -35369,7 +35369,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_11] =
     {
 #line 13415
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13416
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13417
@@ -35402,7 +35402,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_12] =
     {
 #line 13428
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13429
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13430
@@ -35436,7 +35436,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_13] =
     {
 #line 13441
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13442
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13443
@@ -35468,7 +35468,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_14] =
     {
 #line 13454
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13455
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13456
@@ -35503,7 +35503,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_15] =
     {
 #line 13467
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13468
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13469
@@ -35538,7 +35538,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MAGMA_HIDEOUT_16] =
     {
 #line 13480
-        .trainerName = _("GRUNT"),
+        .trainerName = _("MINION"),
 #line 13481
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13482

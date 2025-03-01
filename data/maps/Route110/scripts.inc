@@ -921,10 +921,10 @@ Route110_Text_CyclingRoadSign:
 	.string "SEASIDE CYCLING ROAD$"
 
 Route110_Text_AquaWasHere:
-	.string "“TEAM AQUA was here!”\p"
+	.string "“Tentacool Cruises was here!”\p"
 	.string "Someone painted that onto this sign,\n"
 	.string "but then someone else painted over it.\p"
-	.string "“TEAM MAGMA rules!” is what it\n"
+	.string "“Dragon Gang rules!” is what it\n"
 	.string "says now.$"
 
 Route110_Text_Route103Sign:

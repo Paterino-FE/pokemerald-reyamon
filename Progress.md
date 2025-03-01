@@ -52,20 +52,20 @@ Victory Road
 
 > Trainers -> Done
 
-> Dialogue -> Done (Except Lyra/Hatsoome/Lumi)
+> Dialogue -> Done (Except Lumi)
 
 
 Team Magma
 
 >Trainers -> Not Done
 
->Dialogue -> Not Done
+>Dialogue -> Done (Except Svelte Epilogue somewhere)
 
 Team Aqua
 
 >Trainers -> Not Done
 
->Dialogue -> Not Done
+>Dialogue -> Done
 
 Rival Vyral
 

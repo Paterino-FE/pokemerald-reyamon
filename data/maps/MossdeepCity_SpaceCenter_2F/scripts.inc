@@ -359,7 +359,7 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
 	.string "rockets.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-	.string "Why would TEAM MAGMA want to steal\n"
+	.string "Why would Dragon Gang want to steal\n"
 	.string "our rocket fuel in the first place?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
@@ -369,7 +369,7 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "I can and will try!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If TEAM MAGMA takes the rocket fuel,\n"
+	.string "If Dragon Gang takes the rocket fuel,\n"
 	.string "I won't be able to go to space!\p"
 	.string "They can't be allowed to get away\n"
 	.string "with such an outrage!$"
@@ -379,121 +379,123 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 	.string "space one day…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-	.string "TEAM MAGMA…\n"
+	.string "Dragon Gang…\n"
 	.string "Do they want to go to space, too?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
-	.string "What's wrong with you?\p"
-	.string "You're outnumbered three to one,\n"
-	.string "but you still want to take us on?$"
+	.string "What’s wrong with you?\p"
+	.string "You’re outnumbered three to one, but\n"
+	.string "you still want to take us on?$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
 	.string "Good answer!\n"
 	.string "That's what a smart person'll do!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
-	.string "A reckless go-getter, are you?\n"
-	.string "Okay, I'll go first!$"
+	.string "Only our glorious leader could pull\n"
+	.string "off such a feat!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
-	.string "I lost!\n"
-	.string "But!$"
+	.string "Oooo we got a bigshot here!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
-	.string "It's too soon to be relieved!\n"
-	.string "I'm up next!$"
+	.string "Svelte still believes in her mother\n"
+	.string "(real). So, I have to as well.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
-	.string "I lost, too!\n"
-	.string "But!$"
+	.string "I never had my own daughter…$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "I bet you want to take a break.\n"
-	.string "But I'm not about to let you do that!$"
+	.string "Hey, me again. Do you think Vyral’s\n"
+	.string "and I’s children would look more like\l"
+	.string "me or her.\p"
+	.string "I suppose her genes are pretty\n"
+	.string "dominant if you know what I mean?$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
-	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "Our glorious leader secretly thinks\n"
+	.string "she’s better than Vyral.\p"
+	.string "But come on. You see what I see,\n"
+	.string "right, {PLAYER}?$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
-	.string "Three of us here, and look at the sorry\n"
-	.string "mess we got ourselves into.$"
+	.string "If you defeat our glorious leader and\n"
+	.string "we call go to prison, please find a\l"
+	.string "decent parent (real) for Svelte.\p"
+	.string "She’s just a kid.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
-	.string "We three losing like this…\n"
-	.string "We look worse than usual by triple!$"
+	.string "Our glorious leader secretly thinks\n"
+	.string "she’s better than Vyral.\p"
+	.string "But come on. You see what I see,\n"
+	.string "right, {PLAYER}?$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
-	.string "Are we being useful to our leader\n"
-	.string "at all?$"
+	.string "Are we being useful to our glorious\n"
+	.string "leader at all?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
-	.string "Hehehe!\p"
-	.string "We come all the way here to get some\n"
-	.string "fuel, and we're interfered with again!\p"
-	.string "If you're going to mess with us too,\n"
-	.string "we'll take care of you at the same time!$"
+	.string "I fight with mummy!\p"
+	.string "She good and can be trusted! Sorry\n"
+	.string "pretty lady and tasty otter!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
-	.string "MAXIE: Clear out of the way!\n"
-	.string "Don't you dare interfere!$"
+	.string "Lyra: You! YOU are going to stop me?\n"
+	.string "What an adorably naive little rat.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-	.string "STEVEN: TEAM MAGMA…\p"
+	.string "LILYPAD: Dragon Gang…\p"
 	.string "What's the point of stealing rocket\n"
 	.string "fuel?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
-	.string "MAXIE: Fufufu… Since you're so\n"
-	.string "curious, you deserve an explanation.\p"
-	.string "We're going to jettison the entire\n"
-	.string "load into MT. CHIMNEY!\p"
-	.string "With GROUDON gone, we have no need\n"
-	.string "for that slag heap of a mountain!\p"
-	.string "So we'll use the fuel's power to make\n"
-	.string "the volcano erupt!\p"
-	.string "It will be savage!$"
+	.string "Lyra: We will use the fuel to power a\n"
+	.string "magnificent machine that will be\l"
+	.string "capable of creating land and shinies\l"
+	.string "for us dragons of course.\p"
+	.string "I’m definitely not going to use it as\n"
+	.string "a weapon to prove my strength by\l"
+	.string "defeating Groudon, what a ridiculous\l"
+	.string "accusation.\p"
+	.string "I won’t be stopped by a Little\n"
+	.string "Empress and her little rat.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
-	.string "STEVEN: {PLAYER}{KUN}!\n"
+	.string "LILYPAD: {PLAYER}{KUN}!\n"
 	.string "You're going to help me?\p"
 	.string "Let's go into battle together!\n"
 	.string "Are you ready?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
-	.string "STEVEN: Then, hurry!\n"
+	.string "LILYPAD: Then, hurry!\n"
 	.string "Get ready quickly!$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
-	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "All I wanted was to prove I’m not\n"
+	.string "weaker than her…$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-	.string "I'm with our leader…$"
+	.string "I hungry… I wanted eat otter…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-	.string "MAXIE: We failed to make the volcano\n"
-	.string "erupt…\p"
-	.string "We failed to control GROUDON after\n"
-	.string "we had awoken it…\p"
-	.string "Is our goal to expand the land\n"
-	.string "misguided?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "If…\n"
-	.string "If we, TEAM MAGMA, are wrong…\l"
-	.string "… … … … … …\p"
-	.string "Then might TEAM AQUA's goal to expand\n"
-	.string "the sea also be equally misguided?$"
+	.string "Lyra: If I’ve failed to defeat you\n"
+	.string "this many times. Then I have no\l"
+	.string "chance of defeating Groudon.\p"
+	.string "And now… it will rampage out of\n"
+	.string "control putting the world, including\l"
+	.string "my real daughter (real) at risk…\p"
+	.string "And if Hatzoome uses the wrong orb on\n"
+	.string "that fish… then there will be nothing\l"
+	.string "I can do. I’m not.$"
+	.string "I’m not strong enough. Reya. Lilypad.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
-	.string "MAXIE: All right…\n"
-	.string "We will give up on the fuel…\p"
-	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "We will take our leave of you for\n"
+	.string "now. Come Sveltessa, I have some\l"
+	.string "important lessons to teach you.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-	.string "STEVEN: Whew, that was too tense.\n"
+	.string "LILYPAD: Whew, that was too tense.\n"
 	.string "{PLAYER}{KUN}, thank you.\p"
 	.string "I have something to give you as\n"
 	.string "thanks for your support.\p"

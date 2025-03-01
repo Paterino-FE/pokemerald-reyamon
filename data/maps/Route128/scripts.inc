@@ -246,43 +246,46 @@ Route128_EventScript_Carlee::
 	end
 
 Route128_Text_ArchieWhatHappened:
-	.string "ARCHIE: What happened…\n"
-	.string "What is this wretched scene…\p"
-	.string "Did I…make a horrible mistake?$"
+	.string "Hatzoome: Oh no…oh no no no no no…\n"
+	.string "This is not what I meant to do…$"
+	.string "$"
 
 Route128_Text_ArchieIOnlyWanted:
-	.string "I…\n"
-	.string "I only wanted…$"
+	.string "Why do I always fail like this?$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
-	.string "MAXIE: Do you understand now,\n"
-	.string "ARCHIE?\p"
-	.string "Do you finally see how disastrous\n"
-	.string "your dream turned out to be?\p"
-	.string "We have to hurry! We have to do\n"
-	.string "something before the situation goes\l"
-	.string "completely out of control!$"
-
+	.string "Lyra: Do you understand now,\n"
+	.string "Hatzoome?\p"
+	.string "Do you finally see how doubling down\n"
+	.string "on your lost investment is a sunk cost\l"
+	.string "fallacy. And now the world will be\l"
+	.string "sunk too! We have to hurry!\p"
+	.string "We have to do something before the\n"
+	.string "situation gets completely out of\l"
+	.string "control!$"
+	
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
-	.string "MAXIE: {PLAYER}, don't say anything.\p"
+	.string "Lyra: {PLAYER}, don’t say anything…\p"
 	.string "I know that I have no right to be\n"
-	.string "critical of ARCHIE…\p"
-	.string "But the way things are now, I doubt\n"
-	.string "that we humans will be capable of\l"
-	.string "doing anything about it.\p"
-	.string "But neither can we stand by and\n"
-	.string "just watch helplessly.\p"
-	.string "The responsibility for putting an end\n"
-	.string "to this falls to ARCHIE and me…$"
+	.string "critical of Hatzoome… But the way\l"
+	.string "things are now, can’t let this\l"
+	.string "tragedy befall my daughter, no…\p"
+	.string "Not just my daughter. Anybody.\p"
+	.string "Being powerful and saying ‘real’ for\n"
+	.string "the bit doesn’t matter right now, the\l"
+	.string "responsibility for putting an end to\l"
+	.string "this falls to Hatzoome and me…$"
 
 Route128_Text_MaxieThisDefiesBelief:
-	.string "MAXIE: This defies belief…\p"
-	.string "Those super-ancient POKéMON…\p"
+	.string "Lyra: This defies belief…\p"
+	.string "Those super-ancient Pokémon…\p"
 	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "They’ve upset the very balance of\n"
+	.string "nature and more importantly,\l"
+	.string "competitive pokemon.$"
 
 Route128_Text_StevenWhatIsHappening:
-	.string "STEVEN: {PLAYER}{KUN}!\n"
+	.string "Lilypad: {PLAYER}{KUN}!\n"
 	.string "What is happening?$"
 
 Route128_Text_StevenWholeWorldWillDrown:

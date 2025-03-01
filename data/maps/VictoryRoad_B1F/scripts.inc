@@ -52,15 +52,27 @@ VictoryRoad_B1F_Text_ShannonPostBattle:
 	.string "- / -.-- --- ..-$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the POKéMON LEAGUE.$"
+	.string "Oh hey, it’s {PLAYER} again!\n"
+	.string "Guess what! I don’t have to pitch you\l"
+	.string "that stupid timeshare anymore!\p"
+	.string "I’m finally free! I even sold off\n"
+	.string "some of some of Tentacool Cruise’s\l"
+	.string "equipment to settle my debt!\p"
+	.string "Now I get to focus on Pokémon\n"
+	.string "contests again!\p"
+	.string "Well, and battling trainers like you!$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
-	.string "That's the way!$"
+	.string "I’m used to losing now.\n"
+	.string "This does nothing to me!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle:
-	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "You should join me on my upcoming\n"
+	.string "trip to Sinnoh. The travel and hotel\l"
+	.string "are free!\p"
+	.string "All we have to do is sit through some\n"
+	.string "business pitch, but I won’t fall for\l"
+	.string "that one again! I hope…$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
 	.string "Oh, hi again! I look forward to\n"
