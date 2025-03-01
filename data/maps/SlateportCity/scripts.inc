@@ -1357,15 +1357,16 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "that's said to have been long extinct.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\n"
-	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
-	.string "control of your submarine!\p"
-	.string "Your objections are meaningless!\n"
-	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
-	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!$"
+	.string "Hatzoome: Heyyyyyy…\n"
+	.string "Captain Stern, right?\p"
+	.string "So, this is a little awkward, but\n"
+	.string "I’m just going to need that submarine\l"
+	.string "of yours.\p"
+	.string "No, it’s okay, you don’t need to\n"
+	.string "object! It’s not like I’m going to\l"
+	.string "listen to your objections anyway.\p"
+	.string "Well, time to go and save this\n"
+	.string "investment! …$"
 
 SlateportCity_Text_SternWhatWasAllThat:
 	.string "CAPT. STERN: What was that all about?\p"

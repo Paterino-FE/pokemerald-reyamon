@@ -22,57 +22,64 @@ MagmaHideout_2F_2R_EventScript_Grunt8::
 	end
 
 MagmaHideout_2F_2R_Text_Grunt15Intro:
-	.string "I don't have a bone to pick with you.\n"
-	.string "I'm just following orders!$"
+	.string "Hey. Me again. Do you happen to know\n"
+	.string "Vyral’s training routine?\p"
+	.string "I bet it’s really intense. Do you\n"
+	.string "think she could bench press me.$"
 
 MagmaHideout_2F_2R_Text_Grunt15Defeat:
-	.string "I may have lost, but…$"
+	.string "I lost because I was distracted\n"
+	.string "thinking about Vyral…$"
 
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
-	.string "We dug up something beyond belief!\n"
-	.string "And, we got the BLUE ORB!\p"
-	.string "All that's left is for our leader to…\n"
-	.string "Fufufu… Fwahahaha!$"
+	.string "All this digging was hard work but\n"
+	.string "I bet Vryal could have had it done\l"
+	.string "in minutes. I could have sat\p"
+	.string "and watched instead of being\n"
+	.string "yelled at by our glorious leader.$"
 
 MagmaHideout_2F_2R_Text_Grunt6Intro:
-	.string "I can't stand heat. Maybe I should've\n"
-	.string "joined TEAM AQUA instead…$"
+	.string "I can’t stand all this dragon\n"
+	.string "grandstanding. Maybe buying a\l"
+	.string "lucrative timeshare and settling\l"
+	.string "down is for the best.$"
 
 MagmaHideout_2F_2R_Text_Grunt6Defeat:
-	.string "Yeah, I really may not be right for\n"
-	.string "TEAM MAGMA…$"
+	.string "Hatzoome seems like a much nicer\n"
+	.string "gal than our glorious leader...$"
 
 MagmaHideout_2F_2R_Text_Grunt6PostBattle:
-	.string "Don't you get lonely for the sea\n"
+	.string "Don’t you get lonely for the sea\n"
 	.string "being in a place like this?$"
 
 MagmaHideout_2F_2R_Text_Grunt7Intro:
 	.string "You can hear tremors here sometimes.\p"
-	.string "Could it be the volcano rattling?\n"
-	.string "Or is it GROU…\p"
-	.string "Whoops!\n"
-	.string "No, no, never mind!$"
+	.string "Somebody must have had a real\n"
+	.string "nasty curry!$"
 
 MagmaHideout_2F_2R_Text_Grunt7Defeat:
-	.string "You're a fiery battler.\n"
-	.string "Just like a volcano!$"
+	.string "Flatulence jokes are funny.$"
 
 MagmaHideout_2F_2R_Text_Grunt7PostBattle:
-	.string "You just happened to win this time,\n"
-	.string "but that doesn't matter.\p"
-	.string "TEAM MAGMA's goal is about to be\n"
-	.string "reached!$"
+	.string "to be fair you have to have a very\n"
+	.string "high IQ in order to understand\l"
+	.string "toilet humour…\p"
+	.string "I wouldn’t expect a human to get it.$"
 
 MagmaHideout_2F_2R_Text_Grunt8Intro:
 	.string "One of our guys was freaking out that\n"
-	.string "he lost his MAGMA EMBLEM…\p"
+	.string "he lost his FIRE EMBLEM…\p"
 	.string "Wait a minute!\n"
 	.string "Was it you who found it?$"
 
 MagmaHideout_2F_2R_Text_Grunt8Defeat:
-	.string "I'm having trouble believing this…$"
+	.string "Was it Fates? Or Three Houses?$"
 
 MagmaHideout_2F_2R_Text_Grunt8PostBattle:
-	.string "I'm getting this feeling that our plan\n"
-	.string "is going to end in failure…$"
+	.string "Our glorious leader is kind of like\n"
+	.string "Edelgard, if Edelgard was a dangerous\l"
+	.string "lunatic and not a misguided…\p"
+	.string "Oh sorry, we don’t need another 5\n"
+	.string "years of Three Houses discourse for\l"
+	.string "some reason.$"
 

@@ -90,73 +90,63 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-	.string "Hehehe…\p"
-	.string "Got here already, did you?\n"
-	.string "We underestimated you!\p"
-	.string "But this is it!\p"
-	.string "I'm a cut above the GRUNTS you've seen\n"
-	.string "so far.\p"
-	.string "I'm not stalling for time.\n"
-	.string "I'm going to pulverize you!$"
+	.string "Hastings: Hello there!\p"
+	.string "You’re new, a new face!\n"
+	.string "Ain’t no better way ta get to know\l"
+	.string "each other than with a lil battle!$"
 
 AquaHideout_B2F_Text_MattDefeat:
-	.string "Hehehe…\n"
-	.string "So, I lost, too…$"
+	.string "Yippiee! That was soo fun!\n"
+	.string "Well done!$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "Hehehe!\p"
-	.string "While I was toying with you, our BOSS\n"
-	.string "got through his preparations!$"
+	.string "While I was talking with you, Hatzoome\n"
+	.string "got through with her preparations!$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "Hehehe!\p"
-	.string "Our BOSS has already gone on his way to\n"
-	.string "some cave under the sea!\p"
-	.string "If you're going to give chase, you'd\n"
-	.string "better search the big, wide sea beyond\l"
-	.string "LILYCOVE.\p"
-	.string "But will you find it then?\n"
-	.string "Hehehe!$"
+	.string "You know, when Hatzoome approached me\n"
+	.string "about this time-share business, I was\l"
+	.string "kinda uncertain.\p"
+	.string "But now that I’ve shared so many fun\n"
+	.string "moments with so many different people,\l"
+	.string "I’m glad I agreed! Wait…\p"
+	.string "time-share doesn’t mean sharing\n"
+	.string "time with others? Oh…$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
-	.string "Wahahah, I grew weary of waiting!\n"
-	.string "You owe me a battle, too!$"
+	.string "Nobody wants to battle me anymore!\n"
+	.string "Do you want to battle?$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
-	.string "Tired of waiting…\n"
-	.string "Lost and dazed…$"
+	.string "Well, now I don’t want to battle\n"
+	.string "you anymore… $"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-	.string "BOSS…\n"
-	.string "Is this good enough?$"
+	.string "Losing sucks…$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
-	.string "Warp panels, the HIDEOUT's pride\n"
-	.string "and joy!\p"
-	.string "You're clueless about where you are,\n"
-	.string "aren't you?\p"
-	.string "Fluster and tire out the enemy, then\n"
-	.string "lower the boom! That's our plan!$"
+	.string "This guy won’t leave. He just keeps\n"
+	.string "saying he’s here to collect\l"
+	.string "Hatzoome’s debt but she’s too\l"
+	.string "business savvy to have debt!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-	.string "What's wrong with you?\n"
-	.string "You're not tired at all!$"
+	.string "Miss Hatzoome would have won\n"
+	.string "this battle…$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-	.string "That reminds me… I can't remember\n"
-	.string "where I put the MASTER BALL.\p"
-	.string "If I fail to guard it, our BOSS will\n"
-	.string "chew me out…$"
+	.string "I think Hatzoome is really smart!$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-	.string "When I joined TEAM AQUA, the first\n"
-	.string "thing I had to learn was how these\l"
-	.string "warp panels connected.$"
+	.string "I don’t know how to use these warp\n"
+	.string "panels. I just need to find Hatzoome\l"
+	.string "on behalf of the debt collection\l"
+	.string "agency.$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
-	.string "I was too occupied thinking about\n"
-	.string "the warp panels…$"
+	.string "Can you just mention that I’m\n"
+	.string "looking for her…$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
-	.string "I'll have to learn about how I can\n"
-	.string "battle more effectively…$"
+	.string "Do you remember which warp panel\n"
+	.string "gets me out of here…?$"

@@ -677,11 +677,10 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "bad for the timeshare program!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "ARCHIE: Grrr…\p"
-	.string "I want to stop that MAXIE,\n"
+	.string "Hatzoome: Oh hey, {PLAYER}!\p"
+	.string "I want to stop that LYRA,\n"
 	.string "but I can't!\p"
-	.string "Not when I have my hands full battling\n"
-	.string "three opponents at once!$"
+	.string "These hooligans started harassing me!$"
 
 MtChimney_Text_ArchieThankYou:
 	.string "Hatzoome: {PLAYER}!\n"

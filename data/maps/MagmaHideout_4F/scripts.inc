@@ -134,9 +134,9 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see GROUDON, too, but they\n"
-	.string "won't let me see even its tail…\p"
-	.string "It's got me feeling really frustrated.\p"
+	.string "I want to see Groudon, too, but they\n"
+	.string "won’t let me see even its tail…\p"
+	.string "It’s got me feeling really frustrated.\p"
 	.string "Oh, no!\n"
 	.string "I blabbed about GROUDON!$"
 
@@ -148,85 +148,103 @@ MagmaHideout_4F_Text_Grunt11PostBattle:
 	.string "I wonder if GROUDON even has a tail?$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
-	.string "Fuhahaha!\n"
-	.string "Soon! Very soon!\l"
-	.string "Our grand objective will be achieved!$"
+	.string "What’s up chat. It’s your boy here!\n"
+	.string "Here to break the fourth wall and\l"
+	.string "kick your Oshi’s butt!$"
 
 MagmaHideout_4F_Text_Grunt12Defeat:
-	.string "Grrr…\n"
-	.string "I've come so far, but now this?$"
+	.string "Chat am I cooked?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "MAXIE, sir!\n"
-	.string "An intruder is headed your way!$"
+	.string "If you have amazon prime you get a\n"
+	.string "free prime gaming sub once a month\l"
+	.string "to use on twitch dot television\l"
+	.string "forward slash LongLiveReya.\p"
+	.string "Use it now!$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
-	.string "You're not finished yet!\n"
-	.string "You're not getting by me easily!$"
+	.string "Soon we will have enough land to\n"
+	.string "fairly split amongst dragons instead\l"
+	.string "of fighting for territory all\l"
+	.string "the time.$"
 
 MagmaHideout_4F_Text_Grunt13Defeat:
-	.string "Was I that easy to knock down?$"
+	.string "I’m so weak I’m a disgrace\n"
+	.string "to dragonkind!$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "C-come on, one more match…$"
+	.string "Will more land really stop the\n"
+	.string "fighting or will people like Lyra\l"
+	.string "and Vyral continue to wage war?$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "My mummy wake up sleepy mr godon and\n"
+	.string "then she win because she’s the\l"
+	.string "strongest!\p"
+	.string "She say you die now, pretty lady!$"
 
 MagmaHideout_4F_Text_TabithaDefeat:
-	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "Mummy is scary sometimes, but she’ll\n"
+	.string "get me shinies soon…\p"
+	.string "Right, pretty lady?$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
-	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "I glad you no die pretty lady, you\n"
+	.string "nice, can I eat your hair?$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "MAXIE: GROUDON…\p"
+	.string "LYRA: GROUDON…\p"
 	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This BLUE ORB is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the BLUE ORB.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+	.string "sleep. What a magnificently red\l"
+	.string "pokemon, perfect for controlling\l"
+	.string "with this obviously blue and not\l"
+	.string "red orb.$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "MAXIE: GROUDON!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+	.string "LYRA: Haha.. Hahahaha..HAHAHAHAHA.\p"
+	.string "That loser Hatzoome is going to\n"
+	.string "get a wonderful surprise.$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "Ah Little Empress. Why must you oppose\n"
+	.string "our great and noble goal of expanding\l"
+	.string "the land so we can distribute it more\l"
+	.string "equally amongst dragon kind.\p"
+	.string "Think of the glorious bounty of\n"
+	.string "shinies deep within its rocks.\p"
+	.string "Hahahaha. HAHAHAHAHAH\n"
+	.string "Enough of this degrading charade.\p"
+	.string "As you can plainly see, Groudon has\n"
+	.string "been driven mad out of control.\p"
+	.string "Oh no you must say. How horrible,\n"
+	.string "won’t it cause a drought that will\l"
+	.string "kill billions. Yes indeed it will.\p"
+	.string "Unless a great hero swoops in to\n"
+	.string "defeat it and earn the adoration of\l"
+	.string "the masses!\p"
+	.string "I’m tired of being compared to that\n"
+	.string "(redacted) Vyral. Her beautiful tail.\p"
+	.string "Magnificent scales. Wonderful claws\n"
+	.string "and finely chiselled abdominal\l"
+	.string "muscles.\p"
+	.string "All of those are superficial and\n"
+	.string "worthless. She’s not smarter than me.\p"
+	.string "She’s not more powerful than me. And\n"
+	.string "by defeating Groudon I’ll prove it.\p"
+	.string "I’m better than her. I’m better than\n"
+	.string "all of dragon gang.\p"
+	.string "I’M BETTER THAN YOU. I’M BETTER THAN\n"
+	.string "EVERYONE. I AM PERFECTION AND YOU WILL\l"
+	.string "FALL BEFORE ME! EN GARDE!$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
-	.string "What makes you so adept at handling\n"
-	.string "POKéMON?$"
+	.string "Am I… not strong enough?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "MAXIE: There has to be some reason\n"
-	.string "why GROUDON fled…\p"
-	.string "That's what you're trying to say,\n"
-	.string "aren't you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Humph…\n"
-	.string "You think I didn't know that?\p"
-	.string "With GROUDON gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after GROUDON, so this\n"
-	.string "is where we part!$"
+	.string "If I can’t defeat you then Groudon…\p"
+	.string "No. Don’t be ridiculous. THIS WASN’T\n"
+	.string "EVEN MY FINAL FORM. I’M STRONGER\l"
+	.string "THAN VYRAL. I’M THE BEST DRAGON.\p"
+	.string "I AM. I AM. I’M NOT INFERIOR. YOU’LL\n"
+	.string "SEE. YOU’LL ALL SEE!$"
+

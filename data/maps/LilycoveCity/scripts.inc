@@ -546,39 +546,37 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
-	.string "Fufufu…\p"
-	.string "We moved more loot into our secret\n"
-	.string "HIDEOUT today…\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string "I just really need to talk to\n"
+	.string "Miss Hatzoome.\p"
+	.string "She can’t avoid debt collection\n"
+	.string "forever!$"
 
 LilycoveCity_Text_ChanceToDoBigThings:
-	.string "I'm just a GRUNT, so I don't know what\n"
-	.string "the BOSS is thinking…\p"
-	.string "But being on TEAM AQUA, I know I'll get\n"
-	.string "the chance to do big things!\p"
-	.string "Wh-who are you?!\n"
-	.string "I was just talking to myself!$"
+	.string "I know I’m just a low level\n"
+	.string "employee…\p"
+	.string "but I think these timeshares might\n"
+	.string "be a scam.\p"
+	.string "What idiot would actually invest\n"
+	.string "in one of these?$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-	.string "Hey, you!\p"
-	.string "Don't go near the cave in the cove!\p"
-	.string "Why? You don't need a reason why!\n"
-	.string "I'm an adult, so you just listen to me!$"
+	.string "I’ve heard that the cave in the cove\p"
+	.string "is dangerous, so I’d stay away!\p"
+	.string "Want to hear what else is dangerous?\n"
+	.string "Passing on these timeshares!$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
-	.string "If this whole wide world becomes ours,\n"
-	.string "TEAM AQUA's, it will be a happier\l"
-	.string "place for POKéMON, too.$"
+	.string "I’m really glad I bought a timeshare\n"
+	.string "before the value skyrockets.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "There! WAILMER!\n"
-	.string "Leap out of the water now!$"
+	.string "Great job Wailmer! That was such a\n"
+	.string "good leap!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
-	.string "Hunh? What do you want?\p"
-	.string "You're messing up our training,\n"
-	.string "so can you, like, get lost?$"
+	.string "Oh, sorry. I’m really\n"
+	.string "focused on our training.\p"
+	.string "I only get so many breaks.$"
 
 LilycoveCity_Text_ContestHallInTown:
 	.string "There's a POKéMON CONTEST HALL\n"
@@ -606,14 +604,14 @@ LilycoveCity_Text_ImFromKanto:
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM AQUA's been training their\n"
-	.string "WAILMER in the cove.\p"
+	.string "Tentacool Cruises have been training\n"
+	.string "their WAILMER in the cove.\p"
 	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
-	.string "Someone punted TEAM AQUA out of\n"
+	.string "Someone punted Tentacrooks out of\n"
 	.string "the way for us!\p"
 	.string "That got the WAILMER out of the cove,\n"
 	.string "so we can get our boats out again.$"
@@ -622,8 +620,8 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "I was taking a relaxing snooze at the\n"
 	.string "seaside inn to the sound of waves…\p"
 	.string "When someone stole my POKéMON!\p"
-	.string "Who's the abductor?\n"
-	.string "TEAM AQUA? Is it TEAM AQUA?$"
+	.string "Who's the abductor? Dragon Gang?\n"
+	.string "Is it Tentacool Cruises?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
 	.string "My missing POKéMON…\n"
@@ -652,19 +650,19 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "Hm, you know of the peculiar cavern\n"
 	.string "in this cove?\p"
 	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
+	.string "but then that Tentacool lot came\l"
 	.string "along and made their renovations.\p"
 	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
-	.string "But what they do and what they say\n"
-	.string "don't match at all!$"
+	.string "the “Tentacool Cruises”!\p"
+	.string "But I have not seen any Tacos, it\n"
+	.string "doesn't make sense at all!$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
-	.string "That TEAM AQUA lot, they must\n"
-	.string "have gone away for good.$"
+	.string "That Tentacool Cruises lot, they\n"
+	.string "must have gone away for good.$"
 
 LilycoveCity_Text_CitySign:
 	.string "LILYCOVE CITY\p"

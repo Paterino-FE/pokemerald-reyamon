@@ -419,13 +419,8 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 	.string "That I stayed to the bitter end…$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-	.string "This is…\n"
-	.string "An intent-to-steal notice?\p"
-	.string "“To the staff of the SPACE CENTER:\n"
-	.string "How are you? We are doing fine.\p"
-	.string "“We will soon visit you to take your\n"
-	.string "rocket fuel.\p"
-	.string "“Please don't try to stop us.\n"
-	.string "We will take the fuel no matter what.\p"
-	.string "“Let there be more land!\n"
-	.string "                                          TEAM MAGMA”$"
+	.string "To Spays senter peepill: Helo stinkee\n"
+	.string "humans. We com take yur fool now\l"
+	.string "heeheehee. We stronk, you week.\p"
+	.string "All the shynees wil be ares!\n"
+	.string "My mummy told me!- Dragon Gang$"

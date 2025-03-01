@@ -430,74 +430,73 @@ MtPyre_Summit_EventScript_Grunt4::
 	end
 
 MtPyre_Summit_Text_Grunt1Intro:
-	.string "No! Those TEAM MAGMA goons got\n"
-	.string "here ahead of us!\p"
-	.string "We can't fall behind!$"
+	.string "I can’t believe this Dragon Gang\n"
+	.string "is always ahead of us.\p"
+	.string "Are… are we bad at our jobs?$"
 
 MtPyre_Summit_Text_Grunt1Defeat:
-	.string "I thought you were one of the MAGMAS\n"
-	.string "who happened to come back…$"
+	.string "Yeah,\n"
+	.string "I'm pretty sure we're bad at this…$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
-	.string "Yeah, so you are strong…\n"
-	.string "But there're a lot of us!$"
+	.string "Maybe I should have went into\n"
+	.string "finance…$"
 
 MtPyre_Summit_Text_Grunt2Intro:
-	.string "Hah!\n"
-	.string "Too bad for you!\p"
-	.string "If you came earlier, you only would've\n"
-	.string "had to battle the wimpy TEAM MAGMA.\p"
-	.string "But since you arrived now, you have\n"
-	.string "to take on us toughies!$"
+	.string "I’m out of my element with this new\n"
+	.string "assignment, but I think I can handle\l"
+	.string "this. However, I have to stop you,\l"
+	.string "Tentacool Cruise staff only.$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
-	.string "Urgh… I should've let you take on\n"
-	.string "TEAM MAGMA first…$"
+	.string "Hmmm…maybe you should deal with\n"
+	.string "Dragon Gang…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
-	.string "You don't know anything!\n"
-	.string "So why are you messing with us?$"
+	.string "I guess I let you pass now?\p"
+	.string "They didn’t cover this in my\n"
+	.string "safety training.$"
 
 MtPyre_Summit_Text_Grunt3Intro:
-	.string "You…\n"
-	.string "We saw you at MT. CHIMNEY.\p"
-	.string "You don't belong to either TEAM,\n"
-	.string "so why would you be here?$"
+	.string "You’re the trainer…\n"
+	.string "the impossible sale from Mt. Chimney.\p"
+	.string "Have you finally decided to\n"
+	.string "make a wise investment?$"
 
 MtPyre_Summit_Text_Grunt3Defeat:
-	.string "If you're going to mess with anyone,\n"
-	.string "let it be TEAM MAGMA…$"
+	.string "You really are a tough sale…$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
-	.string "Heh, it doesn't matter!\n"
-	.string "We bought ourselves some time!\p"
-	.string "The BOSS should have snatched what\n"
-	.string "he was after!$"
+	.string "Well, it doesn’t matter!\p"
+	.string "The boss will convince you soon\n"
+	.string "enough anyway, now that she got\l"
+	.string "what she needs.$"
 
 MtPyre_Summit_Text_Grunt4Intro:
-	.string "Oh, I know!\n"
-	.string "You tried to join TEAM MAGMA,\l"
-	.string "but they wouldn't have you!\p"
-	.string "Well, don't think that we'll let you\n"
-	.string "join our TEAM AQUA!$"
+	.string "You really shouldn't consider joining\n"
+	.string "those dragon girls, they're nothing\l"
+	.string "but trouble.\p"
+	.string "Just like the trouble you'll be in\n"
+	.string "if you pass up this great offer!$"
 
 MtPyre_Summit_Text_Grunt4Defeat:
-	.string "If you want to join TEAM AQUA that\n"
-	.string "badly, we can consider it…$"
+	.string "Are you positive you don't want\n"
+	.string "the oceanview suite?$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
-	.string "We have a great combination going\n"
-	.string "with us members and our leader.$"
+	.string "You should talk to our spokeswoman,\n"
+	.string "she'll know how to sell you on\l"
+	.string "this suite.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
-	.string "Okay, TEAM!\n"
-	.string "We're pulling out!$"
+	.string "Hatzoome: Lyra beat me to it again,\n"
+	.string "but it doesn’t matter this time.\p"
+	.string "This Red Orb is all mine now…\n"
+	.string "I, Hatzoome, can finally make my\l"
+	.string "money back!\p"
+	.string "Oh… I wasn’t supposed to say that\n"
+	.string "last part aloud… Awkward.\p"
+	.string "… That's probably my cue to leave!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, no…\n"
@@ -510,7 +509,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "the two ORBS?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Oh, yes. Was it TEAM MAGMA who came\n"
+	.string "Oh, yes. Was it DRAGON GANG who came\n"
 	.string "and took the BLUE ORB first?\p"
 	.string "Well, in their haste, they left this\n"
 	.string "behind.\p"

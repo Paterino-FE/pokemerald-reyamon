@@ -12,32 +12,36 @@ MagmaHideout_3F_1R_EventScript_Grunt16::
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro:
-	.string "What did I do to deserve this guard\n"
-	.string "posting?\p"
-	.string "My left ear is burning up!$"
+	.string "I mention Vyral once and I get this\n"
+	.string "guard posting?\p"
+	.string "I’m an ice dragon, my left ear is\n"
+	.string "burning up!$"
 
 MagmaHideout_3F_1R_Text_Grunt9Defeat:
-	.string "I'm getting heat exhaustion…$"
+	.string "I’m melting…$"
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle:
-	.string "Do you think it's odd that we're wearing\n"
-	.string "hoods in this magma-filled volcano?$"
+	.string "I just had to be the one dragon who\n"
+	.string "doesn’t enjoy being in volcanos huh?$"
 
 MagmaHideout_3F_1R_Text_Grunt16Intro:
-	.string "We joined so we can help our leader\n"
-	.string "achieve his fantastic vision.\p"
-	.string "I don't care if you're with TEAM AQUA\n"
-	.string "or if you're just some kid passing by.\p"
-	.string "No one interferes with us and gets\n"
-	.string "away with it!$"
+	.string "We joined so we can help our glorious\n"
+	.string "leader achieve her fantastic vision.\p"
+	.string "Shes’s given us dragons the first bit\n"
+	.string "of hope in at least three weeks.\p"
+	.string "I don’t care if you’re with Tentacool\n"
+	.string "Cruises or if you’re just some\l"
+	.string "stuffed up Empress.\p"
+	.string "No one interferes with my girlboss!$"
 
 MagmaHideout_3F_1R_Text_Grunt16Defeat:
-	.string "Oh, no!\n"
-	.string "You're not to be trusted at all!$"
+	.string "Hahaha, oh you poor thing,\n"
+	.string "you think you can beat her?$"
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
 	.string "Listen to me.\n"
-	.string "TEAM MAGMA is right!\p"
-	.string "Don't listen to TEAM AQUA.\n"
-	.string "Don't believe their lies!$"
+	.string "Dragon Gang offers real change.\p"
+	.string "Tentacool cruises are just a bunch\n"
+	.string "of fatcats gaming the system!\p"
+	.string "They don’t even have any tacos!$"
 

@@ -452,19 +452,19 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 	.string "the DEVON GOODS at the MUSEUM.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-	.string "ARCHIE: Oh?\n"
-	.string "Not you again…\p"
-	.string "You are tenacious to track us here,\n"
-	.string "that much I will give you.\p"
-	.string "But now…\n"
-	.string "No one can stop us! No one!\p"
-	.string "Or, will you follow us back to our\n"
-	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
+	.string "Hatzoome: Oh?\n"
+	.string "I didn’t see you there…\p"
+	.string "You really have to stop sneaking up\n"
+	.string "on a girl like this.\p"
+	.string "Regardless, I have to go take care\n"
+	.string "of some business but if you stop by\l"
+	.string "our place in Lilycove, you can still\l"
+	.string "invest before the prices go up!\p"
+	.string "Bye forever!$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "CAPT. STERN: Why…\p"
-	.string "Why would TEAM AQUA steal my\n"
+	.string "Why would Tentacool Cruises steal my\n"
 	.string "SUBMARINE EXPLORER 1?\p"
 	.string "They can't be after the slumbering\n"
 	.string "POKéMON at the bottom of the sea…\p"
@@ -473,8 +473,8 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
-	.string "Okay… So TEAM AQUA left before you\n"
-	.string "could stop them…\p"
+	.string "Okay… So Tentacool Cruises left\n"
+	.string "before you could stop them…\p"
 	.string "Oh, no, don't blame yourself.\n"
 	.string "You're not responsible for this.\p"
 	.string "Trying to catch a submarine…\n"

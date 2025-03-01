@@ -107,53 +107,50 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-	.string "If you want to know the secret about\n"
-	.string "our HIDEOUT, you have me to beat!$"
+	.string "I’m not supposed to tell anybody about\n"
+	.string "our secret.$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
-	.string "I can't win at all…$"
+	.string "I shouldn’t have mentioned a secret…$"
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
-	.string "Our HIDEOUT's secret?\p"
-	.string "Well, let's just say…\n"
-	.string "There's a submarine at the far end!\p"
-	.string "But, by now…\n"
-	.string "Kekekeke…$"
+	.string "Our hideout’s secret? Fine…\p"
+	.string "There’s a submarine in the back!\n"
+	.string "Please don’t tell anyone I told you!$"
+
 
 AquaHideout_B1F_Text_Grunt3Intro:
-	.string "Fuel supply loaded A-OK!\n"
-	.string "In-cruise snacks loaded A-OK!\p"
-	.string "Nothing left to do but KO a pesky\n"
-	.string "meddler!$"
+	.string "Okay, fuel is filled up! The submarine\n"
+	.string "is filled with fruit sandwiches!\l"
+	.string "There is a random trainer here!\p"
+	.string "Wait… random trainer?$"
 
 AquaHideout_B1F_Text_Grunt3Defeat:
-	.string "I took a serious licking!$"
+	.string "Okay, you can have ONE sandwich!$"
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-	.string "Humph!\n"
-	.string "This was supposed to happen!\p"
-	.string "My mission was to just hold you up!$"
+	.string "I just hope I put enough bottles\n"
+	.string "of melon milk in there…$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
-	.string "Yawn… Keeping watch over the\n"
-	.string "HIDEOUT bores me. I'll take you on.$"
+	.string "Yawn…I really need a nap. Can I\n"
+	.string "just escort you out before I go\l"
+	.string "take a break?$"
 
 AquaHideout_B1F_Text_Grunt5Defeat:
 	.string "Yawn…\n"
-	.string "Oh, I lost…$"
+	.string "Well, I guess I’ll nap anyway…$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-	.string "If you scurry too much, other TEAM\n"
-	.string "AQUA members might get you.$"
+	.string "Please don’t tell Steve about my nap.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-	.string "Hey!\n"
-	.string "You there!\p"
-	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "Do you think my outfit is cool?\p"
+	.string "I can throw one in if you invest\n"
+	.string " in a timeshare!$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
-	.string "I lost in a cool way…$"
+	.string "So is that a no on the timeshare?$"
 
 AquaHideout_B1F_Text_Grunt7PostBattle:
 	.string "If you have a cool uniform, you look\n"
