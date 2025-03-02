@@ -61,7 +61,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_1] =
     {
 #line 98
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 99
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 100
@@ -78,7 +78,7 @@
         {
             {
 #line 106
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_BARBOACH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 108
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -86,6 +86,8 @@
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_HYDRATION, 
+            .moves = {MOVE_MUD_SLAP, MOVE_MUD_SPORT, MOVE_WATER_SPORT, MOVE_AMNESIA}
             },
         },
     },
@@ -93,7 +95,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_2] =
     {
 #line 111
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 112
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 113
@@ -110,7 +112,7 @@
         {
             {
 #line 119
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 121
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -118,10 +120,12 @@
             .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_REST, MOVE_SNORE, MOVE_ROUND}
             },
             {
 #line 123
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 125
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -129,6 +133,9 @@
             .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .ability = ABILITY_STATIC, 
+            .moves = {MOVE_TAIL_WHIP, MOVE_GROWL, MOVE_PLAY_NICE, MOVE_PAY_DAY}
             },
         },
     },
@@ -136,7 +143,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_3] =
     {
 #line 128
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 129
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 130
@@ -153,7 +160,7 @@
         {
             {
 #line 136
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_CLAMPERL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 138
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -161,6 +168,8 @@
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHELL_ARMOR,
+            .moves = {MOVE_CLAMP, MOVE_IRON_DEFENSE, MOVE_WATER_GUN, MOVE_WHIRLPOOL}
             },
         },
     },
@@ -168,7 +177,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_4] =
     {
 #line 141
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 142
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 143
@@ -185,7 +194,7 @@
         {
             {
 #line 149
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_SHELLDER,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 151
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -193,6 +202,8 @@
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_OVERCOAT,
+            .moves = {MOVE_ICE_SHARD, MOVE_CONFIDE, MOVE_PROTECT, MOVE_WITHDRAW}
             },
         },
     },
@@ -200,7 +211,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_1] =
     {
 #line 154
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 155
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 156
@@ -217,7 +228,7 @@
         {
             {
 #line 162
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 164
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -225,6 +236,9 @@
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_STATIC, 
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .moves = {MOVE_PAY_DAY, MOVE_QUICK_ATTACK, MOVE_PLAY_NICE, MOVE_TAIL_WHIP}
             },
         },
     },
@@ -232,7 +246,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_2] =
     {
 #line 167
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 168
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 169
@@ -249,7 +263,7 @@
         {
             {
 #line 175
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_INKAY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 177
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -257,6 +271,8 @@
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INFILTRATOR,
+            .moves = {MOVE_SWAGGER, MOVE_SWITCHEROO, MOVE_PAYBACK, MOVE_TOPSY_TURVY}
             },
         },
     },
@@ -264,7 +280,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_3] =
     {
 #line 180
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 181
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 182
@@ -281,7 +297,7 @@
         {
             {
 #line 188
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_TENTACOOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 190
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -289,6 +305,8 @@
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_RAIN_DISH,
+            .moves = {MOVE_WRAP, MOVE_WHIRLPOOL, MOVE_CONSTRICT}
             },
         },
     },
@@ -385,7 +403,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_PETALBURG_WOODS] =
     {
 #line 226
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 227
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 228
@@ -402,7 +420,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 234
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 236
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -410,6 +428,8 @@ F_TRAINER_FEMALE |
             .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_DEFENSE_CURL, MOVE_WATER_GUN, MOVE_GROWL, MOVE_POWDER_SNOW}
             },
         },
     },
@@ -548,7 +568,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_4] =
     {
 #line 291
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 292
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 293
@@ -567,7 +587,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 299
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_SANDYGAST,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 301
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -575,6 +595,8 @@ F_TRAINER_FEMALE |
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAND_VEIL,
+            .moves = {MOVE_ABSORB, MOVE_SAND_TOMB, MOVE_SAND_ATTACK, MOVE_ASTONISH}
             },
         },
     },
@@ -614,7 +636,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_RUSTURF_TUNNEL] =
     {
 #line 317
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 318
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 319
@@ -631,7 +653,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 325
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 327
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -639,6 +661,9 @@ F_TRAINER_FEMALE |
             .lvl = 11,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .ability = ABILITY_STATIC,
+            .moves = {MOVE_TAIL_WHIP, MOVE_PAY_DAY, MOVE_GROWL, MOVE_PLAY_NICE}
             },
         },
     },
@@ -646,7 +671,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_1] =
     {
 #line 330
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 331
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 332
@@ -663,7 +688,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 338
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SLOWPOKE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 340
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -671,10 +696,12 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_OWN_TEMPO, 
+            .moves = {MOVE_PAY_DAY, MOVE_YAWN, MOVE_GROWL, MOVE_WATER_GUN}
             },
             {
 #line 342
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_SWABLU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 344
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -682,6 +709,8 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CLOUD_NINE,
+            .moves = {MOVE_REFRESH, MOVE_MIST, MOVE_DISARMING_VOICE, MOVE_SAFEGUARD}
             },
         },
     },
@@ -689,7 +718,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_2] =
     {
 #line 347
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 348
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 349
@@ -706,7 +735,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 355
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 357
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -714,10 +743,13 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .ability = ABILITY_STATIC,
+            .moves = {MOVE_PAY_DAY, MOVE_QUICK_ATTACK, MOVE_FEINT, MOVE_THUNDER_WAVE}
             },
             {
 #line 359
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_WINGULL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 361
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -725,6 +757,8 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_HYDRATION, 
+            .moves = {MOVE_PURSUIT, MOVE_AIR_CUTTER, MOVE_QUICK_ATTACK, MOVE_MIST}
             },
         },
     },
@@ -732,7 +766,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_3] =
     {
 #line 364
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 365
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 366
@@ -749,7 +783,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 372
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_SUNFLORA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 374
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -757,10 +791,12 @@ F_TRAINER_FEMALE |
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SOLAR_POWER,
+            .moves = {MOVE_BULLET_SEED, MOVE_WORRY_SEED, MOVE_LEECH_SEED}
             },
             {
 #line 376
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 378
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -768,10 +804,12 @@ F_TRAINER_FEMALE |
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY, 
+            .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_ICE_BALL}
             },
             {
 #line 380
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 382
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -779,6 +817,9 @@ F_TRAINER_FEMALE |
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .ability = ABILITY_STATIC, 
+            .moves = {MOVE_TAIL_WHIP, MOVE_PLAY_NICE, MOVE_GROWL, MOVE_THUNDER_WAVE}
             },
         },
     },
@@ -786,7 +827,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MUSEUM_1] =
     {
 #line 385
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 386
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 387
@@ -803,7 +844,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 393
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_TIRTOUGA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 395
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -811,6 +852,8 @@ F_TRAINER_FEMALE |
             .lvl = 15,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SWIFT_SWIM,
+            .moves = {MOVE_WITHDRAW, MOVE_AQUA_JET, MOVE_PROTECT}
             },
         },
     },
@@ -818,7 +861,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MUSEUM_2] =
     {
 #line 398
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 399
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 400
@@ -835,7 +878,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 406
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 408
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -843,10 +886,12 @@ F_TRAINER_FEMALE |
             .lvl = 14,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_ICE_BALL}
             },
             {
 #line 410
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_SEEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 412
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -854,6 +899,8 @@ F_TRAINER_FEMALE |
             .lvl = 14,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_HYDRATION,
+            .moves = {MOVE_PAY_DAY, MOVE_ICY_WIND, MOVE_ENCORE, MOVE_GROWL}
             },
         },
     },
@@ -894,7 +941,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_1] =
     {
 #line 428
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 429
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 430
@@ -911,7 +958,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 436
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_BERGMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 438
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -919,6 +966,8 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_ICE_FANG, MOVE_SHARPEN, MOVE_TACKLE, MOVE_HARDEN}
             },
         },
     },
@@ -926,7 +975,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_2] =
     {
 #line 441
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 442
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 443
@@ -943,7 +992,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 449
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_REMORAID,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 451
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -951,6 +1000,8 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_HUSTLE,
+            .moves = {MOVE_LOCK_ON, MOVE_WATER_GUN}
             },
         },
     },
@@ -958,7 +1009,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_3] =
     {
 #line 454
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 455
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 456
@@ -975,7 +1026,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 462
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 464
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -983,10 +1034,13 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Pikachew"),
+            .ability = ABILITY_STATIC,
+            .moves = {MOVE_NUZZLE, MOVE_PAY_DAY, MOVE_FEINT, MOVE_PLAY_NICE}
             },
             {
 #line 466
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 468
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -994,6 +1048,8 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY, 
+            .moves = {MOVE_ROLLOUT, MOVE_ICE_BALL, MOVE_DEFENSE_CURL, MOVE_ROUND}
             },
         },
     },
@@ -1001,7 +1057,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_4] =
     {
 #line 471
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 472
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 473
@@ -1020,7 +1076,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 479
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_HORSEA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 481
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -1028,6 +1084,8 @@ F_TRAINER_FEMALE |
             .lvl = 28,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SWIFT_SWIM,
+            .moves = {MOVE_BUBBLE_BEAM, MOVE_TWISTER, MOVE_LEER, MOVE_FOCUS_ENERGY}
             },
         },
     },
@@ -1035,7 +1093,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_5] =
     {
 #line 484
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 485
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 486
@@ -1054,7 +1112,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 492
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_TANGELA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 494
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -1062,6 +1120,8 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CHLOROPHYLL,
+            .moves = {MOVE_ABSORB, MOVE_GROWTH, MOVE_VINE_WHIP, MOVE_INGRAIN}
             },
         },
     },
@@ -1069,7 +1129,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_6] =
     {
 #line 497
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 498
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 499
@@ -1088,7 +1148,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 505
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_MUNCHLAX,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 507
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -1096,6 +1156,8 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_GLUTTONY,
+            .moves = {MOVE_AMNESIA, MOVE_STOCKPILE, MOVE_SWALLOW, MOVE_LICK}
             },
         },
     },
@@ -8997,7 +9059,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_7] =
     {
 #line 3382
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 3383
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3384
@@ -9016,7 +9078,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3390
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_PSYDUCK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3392
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9024,10 +9086,12 @@ F_TRAINER_FEMALE |
             .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SWIFT_SWIM,
+            .moves = {MOVE_AMNESIA, MOVE_STOCKPILE, MOVE_SWALLOW, MOVE_LICK}
             },
             {
 #line 3394
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_INKAY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3396
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9035,6 +9099,8 @@ F_TRAINER_FEMALE |
             .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INFILTRATOR,
+            .moves = {MOVE_SWAGGER, MOVE_SWITCHEROO, MOVE_PAYBACK}
             },
         },
     },
@@ -9042,7 +9108,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_8] =
     {
 #line 3399
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 3400
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3401
@@ -9059,7 +9125,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3407
-            .species = SPECIES_CARVANHA,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3409
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9067,6 +9133,8 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_ROLLOUT, MOVE_ICE_BALL, MOVE_DEFENSE_CURL, MOVE_ROUND}
             },
         },
     },
@@ -27631,7 +27699,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_5] =
     {
 #line 10493
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 10494
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10495
@@ -27648,7 +27716,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 10501
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10503
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -27656,10 +27724,12 @@ F_TRAINER_FEMALE |
             .lvl = 35,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_ROLLOUT, MOVE_ICE_BALL, MOVE_DEFENSE_CURL, MOVE_ROUND}
             },
             {
 #line 10505
-            .species = SPECIES_GOLBAT,
+            .species = SPECIES_QUAGSIRE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10507
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -27667,6 +27737,8 @@ F_TRAINER_FEMALE |
             .lvl = 35,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_UNAWARE,
+            .moves = {MOVE_MUD_BOMB, MOVE_MUD_SHOT, MOVE_MUD_SPORT}
             },
         },
     },
@@ -27719,7 +27791,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_4] =
     {
 #line 10527
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 10528
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10529
@@ -27746,10 +27818,12 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_WATER_VEIL,
+            .moves = {MOVE_GROWL, MOVE_WATER_GUN, MOVE_MIST}
             },
             {
 #line 10539
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_WINGULL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10541
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -27757,6 +27831,8 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_RAIN_DISH,
+            .moves = {MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_MIST}
             },
         },
     },
@@ -28926,7 +29002,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_5] =
     {
 #line 10916
-        .trainerName = _("GRUNT"),
+        .trainerName = _("Friend"),
 #line 10917
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10918
@@ -28945,7 +29021,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 10924
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_TENTACOOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10926
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -28953,10 +29029,12 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_RAIN_DISH,
+            .moves = {MOVE_BUBBLE_BEAM, MOVE_WRAP, MOVE_ACID_SPRAY, MOVE_TOXIC_SPIKES}
             },
             {
 #line 10928
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_SPHEAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10930
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -28964,6 +29042,8 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ICE_BODY,
+            .moves = {MOVE_ROLLOUT, MOVE_ICE_BALL, MOVE_DEFENSE_CURL, MOVE_ROUND}
             },
         },
     },

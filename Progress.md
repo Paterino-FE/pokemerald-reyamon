@@ -63,7 +63,7 @@ Team Magma
 
 Team Aqua
 
->Trainers -> Not Done
+>Trainers -> Grunts done (Admins&Leader missing)
 
 >Dialogue -> Done
 
