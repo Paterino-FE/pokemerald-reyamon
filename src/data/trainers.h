@@ -3907,9 +3907,9 @@ F_TRAINER_FEMALE |
 #line 1499
         .trainerName = _("OtterMad"),
 #line 1500
-        .trainerClass = TRAINER_CLASS_COOLTRAINER,
+        .trainerClass = TRAINER_CLASS_BURGLAR,
 #line 1501
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        .trainerPic = TRAINER_PIC_BURGLAR,
         .encounterMusic_gender = 
 #line 1503
             TRAINER_ENCOUNTER_MUSIC_COOL,
@@ -4461,9 +4461,9 @@ F_TRAINER_FEMALE |
 #line 1686
         .trainerName = _("OtterMad"),
 #line 1687
-        .trainerClass = TRAINER_CLASS_COOLTRAINER, //change to burglar
+        .trainerClass = TRAINER_CLASS_BURGLAR, //change to burglar
 #line 1688
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F, //change to burglar
+        .trainerPic = TRAINER_PIC_BURGLAR, //change to burglar
         .encounterMusic_gender = 
 #line 1689
 F_TRAINER_FEMALE | 
@@ -5014,9 +5014,9 @@ F_TRAINER_FEMALE |
 #line 1840
         .trainerName = _("Pudzian"),
 #line 1841
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
 #line 1842
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
         .encounterMusic_gender = 
 #line 1843
 F_TRAINER_FEMALE | 
@@ -16002,9 +16002,9 @@ F_TRAINER_FEMALE |
 #line 5988
         .trainerName = _("PUDZIAN"),
 #line 5989
-        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
 #line 5990
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
         .encounterMusic_gender = 
 #line 5992
             TRAINER_ENCOUNTER_MUSIC_MALE,

@@ -162,9 +162,10 @@ RustboroCity_Gym_Text_TommyDefeat:
 	.string "Team Rocket Blasts Off Again!$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-	.string "TEAM ROCKET is currently seeking GRUNTs to\n"
-	.string "help carry out our dream to steal POKEMON.\p"
-	.string "Apply at our HEADQUARTERS please.$"
+	.string "TEAM ROCKET is currently seeking\n"
+	.string "GRUNTs to help carry out our\l"
+	.string "dream to steal POKEMON.\p"
+	.string "Apply at our HEADQUARTERS Pls$"
 
 RustboroCity_Gym_Text_MarcIntro:
 	.string "Be very afraid!$"
