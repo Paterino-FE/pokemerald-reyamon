@@ -59,7 +59,7 @@ Team Magma
 
 >Trainers -> Not Done
 
->Dialogue -> Done (Except Svelte Epilogue somewhere)
+>Dialogue -> Done
 
 Team Aqua
 

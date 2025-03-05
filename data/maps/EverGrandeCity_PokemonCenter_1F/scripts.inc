@@ -77,10 +77,14 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 	step_end
 
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
-	.string "The POKéMON LEAGUE is only a short\n"
-	.string "distance after the VICTORY ROAD.\p"
-	.string "If you've come this far, what choice\n"
-	.string "do you have but to keep going?$"
+	.string "Hi pretty lady! My other mummy is\n"
+	.string "looking after me now and she gave\l"
+	.string "me some of her pokmons!\p"
+	.string "I came to find my mummy, people say\n"
+	.string "she is a bad meanie, but she’s still\l"
+	.string "my mummy… she still loves me and\l"
+	.string "I love her.\p"
+	.string "Right, pretty lady?$"
 
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
 	.string "The long and harrowing VICTORY ROAD…\p"
