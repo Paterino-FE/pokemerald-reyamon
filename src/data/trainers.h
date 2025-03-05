@@ -11509,9 +11509,9 @@ F_TRAINER_FEMALE |
 #line 4288
         .trainerName = _("FRIEREN"),
 #line 4289
-        .trainerClass = TRAINER_CLASS_PSYCHIC,
+        .trainerClass = TRAINER_CLASS_FRIEREN,
 #line 4290
-        .trainerPic = TRAINER_PIC_PSYCHIC_F, // will need to add Frieren's sprite to a unique - Psychic F is used by otheers
+        .trainerPic = TRAINER_PIC_FRIEREN, // will need to add Frieren's sprite to a unique - Psychic F is used by otheers
         .encounterMusic_gender = 
 #line 4291
 F_TRAINER_FEMALE | 
