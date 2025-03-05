@@ -5962,6 +5962,7 @@ F_TRAINER_FEMALE |
             .lvl = 28,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {MOVE_WATER_GUN, MOVE_DOUBLE_TEAM, MOVE_CAMOUFLAGE, MOVE_POISON_TAIL}
             },
             {
 #line 2173
@@ -24749,7 +24750,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MOSSDEEP] =
     {
 #line 9366
-        .trainerName = _("TABITHA"),
+        .trainerName = _("Svelte"),
 #line 9367
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 9368
@@ -24766,7 +24767,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9374
-            .species = SPECIES_CAMERUPT,
+            .species = SPECIES_GABITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9376
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -24774,10 +24775,12 @@ F_TRAINER_FEMALE |
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAND_VEIL,
+            .moves = {MOVE_ROAR, MOVE_SWAGGER, MOVE_DUAL_CHOP, MOVE_SCARY_FACE}
             },
             {
 #line 9378
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_ALTARIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9380
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -24785,10 +24788,12 @@ F_TRAINER_FEMALE |
             .lvl = 38,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_NATURAL_CURE,
+            .moves = {MOVE_HEAL_BELL, MOVE_SWAGGER, MOVE_DRAGON_BREATH, MOVE_ROAR}
             },
             {
 #line 9382
-            .species = SPECIES_GOLBAT,
+            .species = SPECIES_DRAGONAIR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9384
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -24796,6 +24801,8 @@ F_TRAINER_FEMALE |
             .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHED_SKIN,
+            .moves = {MOVE_AQUA_JET, MOVE_DRAGON_TAIL, MOVE_BIND, MOVE_DRAGON_BREATH}
             },
         },
     },
@@ -28734,6 +28741,7 @@ F_TRAINER_FEMALE |
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {MOVE_TOXIC_SPIKES, MOVE_HELPING_HAND, MOVE_HORN_ATTACK, MOVE_FURY_ATTACK}
             },
         },
     },
@@ -28802,7 +28810,7 @@ F_TRAINER_FEMALE |
             .moves = {MOVE_FIRE_FANG, MOVE_SCARY_FACE, MOVE_SMOKESCREEN, MOVE_EMBER},
             },
             {
-            .species = SPECIES_CHARMANDER,
+            .species = SPECIES_DEINO,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 31,
@@ -29114,7 +29122,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MT_CHIMNEY] =
     {
 #line 10933
-        .trainerName = _("TABITHA"),
+        .trainerName = _("Svelte"),
 #line 10934
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 10935
@@ -29131,7 +29139,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 10941
-            .species = SPECIES_NUMEL,
+            .species = SPECIES_AXEW,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10943
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29139,10 +29147,12 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_UNNERVE,
+            .moves = {MOVE_ENDEAVOR, MOVE_SWAGGER, MOVE_DUAL_CHOP, MOVE_FOCUS_ENERGY}
             },
             {
 #line 10945
-            .species = SPECIES_POOCHYENA,
+            .species = SPECIES_DRATINI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10947
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29150,10 +29160,12 @@ F_TRAINER_FEMALE |
             .lvl = 20,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHED_SKIN,
+            .moves = {MOVE_AQUA_JET, MOVE_DRAGON_TAIL, MOVE_CONFIDE, MOVE_ATTRACT}
             },
             {
 #line 10949
-            .species = SPECIES_NUMEL,
+            .species = SPECIES_GIBLE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10951
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29161,17 +29173,21 @@ F_TRAINER_FEMALE |
             .lvl = 22,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAND_VEIL,
+            .moves = {MOVE_ROAR, MOVE_FACADE, MOVE_METAL_CLAW, MOVE_ATTRACT}
             },
             {
 #line 10953
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SWABLU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10955
-            .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
 #line 10954
             .lvl = 22,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_NATURAL_CURE, 
+            .iv = TRAINER_PARTY_IVS(0, 0, 1, 3, 3, 1),
+            .moves = {MOVE_DISARMING_VOICE, MOVE_ECHOED_VOICE, MOVE_ATTRACT, MOVE_HIDDEN_POWER}
             },
         },
     },
@@ -29326,7 +29342,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MAGMA_HIDEOUT] =
     {
 #line 11010
-        .trainerName = _("MAXIE"),
+        .trainerName = _("Lyra"),
 #line 11011
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 11012
@@ -29345,7 +29361,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11019
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_INCINEROAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11021
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29353,10 +29369,12 @@ F_TRAINER_FEMALE |
             .lvl = 37,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_BLAZE,
+            .moves = {MOVE_SWAGGER, MOVE_U_TURN, MOVE_BITE, MOVE_FLAME_CHARGE}
             },
             {
 #line 11023
-            .species = SPECIES_CROBAT,
+            .species = SPECIES_WHIMSICOTT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11025
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29364,10 +29382,12 @@ F_TRAINER_FEMALE |
             .lvl = 38,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_PRANKSTER,
+            .moves = {MOVE_TAILWIND, MOVE_U_TURN, MOVE_DAZZLING_GLEAM, MOVE_MEGA_DRAIN}
             },
             {
 #line 11027
-            .species = SPECIES_CAMERUPT,
+            .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11029
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29375,6 +29395,9 @@ F_TRAINER_FEMALE |
             .lvl = 39,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAP_SIPPER,
+            .nickname = COMPOUND_STRING("HORSE"),
+            .moves = {MOVE_AGILITY, MOVE_BATON_PASS, MOVE_PSYCHIC, MOVE_SIGNAL_BEAM}
             },
         },
     },
@@ -29382,7 +29405,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MT_CHIMNEY] =
     {
 #line 11032
-        .trainerName = _("MAXIE"),
+        .trainerName = _("Lyra"),
 #line 11033
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 11034
@@ -29401,7 +29424,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11041
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_TORRACAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11043
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29409,10 +29432,12 @@ F_TRAINER_FEMALE |
             .lvl = 24,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_BLAZE,
+            .moves = {MOVE_BITE, MOVE_U_TURN, MOVE_SWAGGER, MOVE_FLAME_CHARGE}
             },
             {
 #line 11045
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_WHIMSICOTT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11047
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29420,10 +29445,12 @@ F_TRAINER_FEMALE |
             .lvl = 24,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_PRANKSTER,
+            .moves = {MOVE_U_TURN, MOVE_TICKLE, MOVE_MEGA_DRAIN, MOVE_TAILWIND}
             },
             {
 #line 11049
-            .species = SPECIES_CAMERUPT,
+            .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11051
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -29431,6 +29458,9 @@ F_TRAINER_FEMALE |
             .lvl = 25,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAP_SIPPER,
+            .nickname = COMPOUND_STRING("HORSE"),
+            .moves = {MOVE_SIGNAL_BEAM, MOVE_AGILITY, MOVE_BATON_PASS, MOVE_PSYBEAM}
             },
         },
     },
@@ -35178,7 +35208,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13285
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_VENIPEDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13287
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35277,7 +35307,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13324
-            .species = SPECIES_BALTOY,
+            .species = SPECIES_CUBONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13326
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35473,6 +35503,7 @@ F_TRAINER_FEMALE |
             .lvl = 29,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {MOVE_RAPID_SPIN, MOVE_BIDE, MOVE_NATURAL_GIFT, MOVE_SPIKES}
             },
         },
     },
@@ -35505,6 +35536,7 @@ F_TRAINER_FEMALE |
             .lvl = 29,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {MOVE_AGILITY, MOVE_SLAM, MOVE_DRAGON_RAGE, MOVE_TWISTER}
             },
         },
     },
@@ -35562,7 +35594,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13436
-            .species = SPECIES_NUMEL,
+            .species = SPECIES_TRUBBISH,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13438
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35604,6 +35636,7 @@ F_TRAINER_FEMALE |
             .lvl = 29,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {MOVE_WORK_UP, MOVE_HEADBUTT, MOVE_SCARY_FACE, MOVE_DRAGON_TAIL}
             },
         },
     },
@@ -35716,7 +35749,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MAGMA_HIDEOUT] =
     {
 #line 13493
-        .trainerName = _("TABITHA"),
+        .trainerName = _("Svelte"),
 #line 13494
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 13495
@@ -35733,7 +35766,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13501
-            .species = SPECIES_NUMEL,
+            .species = SPECIES_AXEW,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13503
             .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
@@ -35741,10 +35774,12 @@ F_TRAINER_FEMALE |
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_UNNERVE,
+            .moves = {MOVE_FACADE, MOVE_SWAGGER, MOVE_DUAL_CHOP, MOVE_FOCUS_ENERGY}
             },
             {
 #line 13505
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_GIBLE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13507
             .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
@@ -35752,10 +35787,12 @@ F_TRAINER_FEMALE |
             .lvl = 28,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAND_VEIL,
+            .moves = {MOVE_ROAR, MOVE_BODY_SLAM, MOVE_METAL_CLAW, MOVE_BULLDOZE}
             },
             {
 #line 13509
-            .species = SPECIES_ZUBAT,
+            .species = SPECIES_SWABLU,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13511
             .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
@@ -35763,10 +35800,12 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_NATURAL_CURE,
+            .moves = {MOVE_DISARMING_VOICE, MOVE_ROOST, MOVE_CONFIDE, MOVE_DRAGON_PULSE}
             },
             {
 #line 13513
-            .species = SPECIES_CAMERUPT,
+            .species = SPECIES_DRAGONAIR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13515
             .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
@@ -35774,6 +35813,8 @@ F_TRAINER_FEMALE |
             .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHED_SKIN,
+            .moves = {MOVE_DRAGON_TAIL, MOVE_AQUA_JET, MOVE_SLAM, MOVE_AGILITY}
             },
         },
     },
@@ -35828,7 +35869,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MOSSDEEP] =
     {
 #line 13536
-        .trainerName = _("MAXIE"),
+        .trainerName = _("Lyra"),
 #line 13537
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 13538
@@ -35845,7 +35886,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13544
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_INCINEROAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13546
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -35853,10 +35894,12 @@ F_TRAINER_FEMALE |
             .lvl = 42,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_BLAZE, 
+            .moves = {MOVE_SCARY_FACE, MOVE_U_TURN, MOVE_BITE, MOVE_FLAME_CHARGE}
             },
             {
 #line 13548
-            .species = SPECIES_CROBAT,
+            .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13550
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -35864,10 +35907,13 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SAP_SIPPER,
+            .nickname = COMPOUND_STRING("HORSE"),
+            .moves = {MOVE_AGILITY, MOVE_BATON_PASS, MOVE_PSYCHIC, MOVE_THUNDERBOLT}
             },
             {
 #line 13552
-            .species = SPECIES_CAMERUPT,
+            .species = SPECIES_WHIMSICOTT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13554
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -35875,6 +35921,8 @@ F_TRAINER_FEMALE |
             .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_PRANKSTER,
+            .moves = {MOVE_TICKLE, MOVE_U_TURN, MOVE_DAZZLING_GLEAM, MOVE_GIGA_DRAIN}
             },
         },
     },

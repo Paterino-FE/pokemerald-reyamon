@@ -57,7 +57,7 @@ Victory Road
 
 Team Magma
 
->Trainers -> Not Done
+>Trainers -> Done
 
 >Dialogue -> Done
 
