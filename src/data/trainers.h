@@ -1477,6 +1477,8 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("Sold for AD"),
+            .ability = ABILITY_UNAWARE,
             .moves = {MOVE_MEMENTO}
             },
             {
@@ -1486,6 +1488,8 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("BuyTimeshare"),
+            .ability = ABILITY_UNAWARE,
             .moves = {MOVE_MEMENTO}
             },
         },
