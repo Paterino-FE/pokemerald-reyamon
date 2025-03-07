@@ -4,7 +4,7 @@ Gym 1
 
 >Trainers -> Done
 
->Dialogue -> Done
+>Dialogue -> Done (Except TM Stuff)
 
 Gym 2
 
@@ -34,13 +34,13 @@ Gym 6
 
 >Trainers -> Done
 
->Dialogue -> Not Done | Missing lemonmeringuespy dialogue | TM Stuff
+>Dialogue -> Not Done | Missing lemonmeringuespy dialogue
 
 Gym 7
 
->Trainers -> Done (Except Clifford)
+>Trainers -> Done
 
->Dialogue -> Done (Except Clifford, Tate&Liza)
+>Dialogue -> Done (Except Skyward, TM Stuff)
 
 Gym 8
 

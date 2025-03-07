@@ -508,16 +508,19 @@ MossdeepCity_Gym_Text_KathleenPostBattle:
 	.string "Get away from me quickly!$"
 
 MossdeepCity_Gym_Text_CliffordIntro:
-	.string "I may be past my prime, but I suggest\n"
-	.string "you not patronize me.$"
+	.string "We were at a party\n"
+	.string "His earlobe fell in the deep.\p"
+	.string "Someone reached in and grabbed it.\n"
+	.string "It was a...$"
 
 MossdeepCity_Gym_Text_CliffordDefeat:
-	.string "Ah, you overflow with the power\n"
-	.string "of youth!$"
+	.string "It wasn't a rock...$"
 
 MossdeepCity_Gym_Text_CliffordPostBattle:
-	.string "It seems that I could not overcome\n"
-	.string "your youthful energy.$"
+	.string "Boys in bikinis.\n"
+	.string "Girls in surfboards.\p"
+	.string "Everybody's rockin'\n"
+	.string "Everybody's fruggin'.$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
 	.string "Ive been looking for something all over,\n"

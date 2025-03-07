@@ -28609,7 +28609,7 @@ F_TRAINER_FEMALE |
              .lvl = 36,
              .nature = NATURE_HARDY,
              .ability = ABILITY_HYPER_CUTTER,
-             .moves = {MOVE_AQUA_JET, MOVE_ROCK_SLIDE, MOVE_ROCK_TOMB, MOVE_HONE_CLAWS}
+             .moves = {MOVE_AQUA_JET, MOVE_ROCK_SLIDE, MOVE_ROCK_TOMB, MOVE_HONE_CLAWS},
              .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             }
         },
