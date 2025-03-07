@@ -28574,11 +28574,11 @@ F_TRAINER_FEMALE |
     [TRAINER_CLIFFORD] =
     {
 #line 10744
-        .trainerName = _("CLIFFORD"),
+        .trainerName = _("B-52s"),
 #line 10745
-        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+        .trainerClass = TRAINER_CLASS_GUITARIST,
 #line 10746
-        .trainerPic = TRAINER_PIC_GENTLEMAN,
+        .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender = 
 #line 10748
             TRAINER_ENCOUNTER_MUSIC_RICH,
@@ -28586,20 +28586,32 @@ F_TRAINER_FEMALE |
         .doubleBattle = FALSE,
 #line 10750
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
 #line 10752
-            .species = SPECIES_GIRAFARIG,
+            .species = SPECIES_CRUSTLE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10754
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 10753
             .lvl = 36,
             .nature = NATURE_HARDY,
+            .ability = ABILITY_STURDY,
+            .moves = {MOVE_ROCK_BLAST, MOVE_ROCK_POLISH, MOVE_STEALTH_ROCK, MOVE_ROCK_TOMB},
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
+            {
+             .species = SPECIES_CRAWDAUNT,
+             .gender = TRAINER_MON_RANDOM_GENDER,
+             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+             .lvl = 36,
+             .nature = NATURE_HARDY,
+             .ability = ABILITY_HYPER_CUTTER,
+             .moves = {MOVE_AQUA_JET, MOVE_ROCK_SLIDE, MOVE_ROCK_TOMB, MOVE_HONE_CLAWS}
+             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            }
         },
     },
 #line 10756
