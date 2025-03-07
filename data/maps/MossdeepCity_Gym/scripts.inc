@@ -400,16 +400,17 @@ MossdeepCity_Gym_Text_PrestonPostBattle:
 	.string "That's my warning to you.$"
 
 MossdeepCity_Gym_Text_VirgilIntro:
-	.string "Let me see your talent!$"
+	.string "I've been looking for something all\n"
+	.string "over, a gem that's said to be hidden\l"
+	.string "somewhere in this world.$"
 
 MossdeepCity_Gym_Text_VirgilDefeat:
-	.string "You possess spectacular talent!$"
+	.string "The hidden gem I've been looking\n"
+	.string "for... could it be you?$"
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
-	.string "If there are prodigies in the world,\n"
-	.string "then our GYM LEADERS are them!\p"
-	.string "However, you may be even more talented\n"
-	.string "than them…$"
+	.string "Unbelievable, after all these years,\n"
+	.string "I've found the hidden gem!$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
 	.string "Fufufufu… Watch me levitate a POKé\n"
