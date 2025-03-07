@@ -40,7 +40,7 @@ Gym 7
 
 >Trainers -> Done (Except Clifford)
 
->Dialogue -> Done (Except Clifford, Virgil, Tate&Liza)
+>Dialogue -> Done (Except Clifford, Tate&Liza)
 
 Gym 8
 
