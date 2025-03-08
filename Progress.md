@@ -52,7 +52,7 @@ Victory Road
 
 > Trainers -> Done
 
-> Dialogue -> Done (Except Lumi)
+> Dialogue -> Done
 
 
 Team Magma

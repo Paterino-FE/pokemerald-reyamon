@@ -44332,6 +44332,7 @@ F_TRAINER_FEMALE |
 #line 16943
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_CHESTO_BERRY,
+            .nickname = COMPOUND_STRING("Nanami Bear"),
             .moves = {
 #line 16944
                 MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST 

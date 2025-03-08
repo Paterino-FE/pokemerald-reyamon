@@ -260,10 +260,13 @@ VictoryRoad_1F_Text_TheaPostBattle:
 	.string "Lumi cry!$"
 
 VictoryRoad_1F_Text_LumiIntro:
-	.string "LUMI:THIS IS BEFORE THE BATTLE!$"
+	.string "Lumi: WE'RE BACK!\p"
+	.string "Wanna see photos of a drunken\n"
+	.string "NanamiBear scaring tourists?$"
 
 VictoryRoad_1F_Text_LumiDefeat:
-	.string "LUMI:THIS IS AFTER DEFEAT!$"
+	.string "Lumi: I can't believe Thea threw\n"
+	.string "the match.$"
 
 VictoryRoad_1F_Text_LumiPostBattle:
-	.string "LUMI:THIS IS AFTER BATTLE!$"
+	.string "Lumi: Thea? More like Theaiga...Heh$"
