@@ -132,13 +132,28 @@ DewfordTown_Gym_EventScript_CheckLilith::
 DewfordTown_Gym_EventScript_StopCountingTrainers::
 	return
 
-DewfordTown_Gym_EventScript_Brawly::
-	trainerbattle_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
+DewfordTown_Gym_EventScript_Hams::
+	goto_if_not_defeated TRAINER_BRAWLY_1, DewfordTown_Gym_EventScript_DoBattle
 	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
-	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
+	msgbox DewfordTown_Gym_Text_HamsPostBattle, MSGBOX_DEFAULT
 	release
+	end
+
+DewfordTown_Gym_EventScript_Clor::
+	goto_if_not_defeated TRAINER_BRAWLY_1, DewfordTown_Gym_EventScript_DoBattle
+	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
+	msgbox DewfordTown_Gym_Text_ClorPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Gym_EventScript_DoBattle::
+	msgbox DewfordTown_Gym_Text_BrawlyIntro, MSGBOX_DEFAULT
+	trainerbattle_two_trainers TRAINER_BRAWLY_1, DewfordTown_Gym_Text_HamsDefeat, TRAINER_CLOR, DewfordTown_Gym_Text_ClorDefeat
+	goto DewfordTown_Gym_EventScript_BrawlyDefeated
+	release
+	end
+
+DewfordTown_Gym_EventScript_Brawly::
 	end
 
 DewfordTown_Gym_EventScript_BrawlyDefeated::
@@ -155,13 +170,6 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveBulkUp
 	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox DewfordTown_Gym_Text_RegisteredBrawly, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_BRAWLY_MATCH_CALL
 	setvar VAR_ROXANNE_CALL_STEP_COUNTER, 0
 	setflag FLAG_ENABLE_ROXANNE_FIRST_CALL
 	release
@@ -371,8 +379,10 @@ DewfordTown_Gym_Text_BrawlyIntro:
 	.string "Hams: The dentist is in!\n"
 	.string "Clor: It's in the bag... The trash bag!$"
 
-DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Hams: By the skin of my teeth!\n"
+DewfordTown_Gym_Text_HamsDefeat:
+	.string "Hams: By the skin of my teeth!$"
+
+DewfordTown_Gym_Text_ClorDefeat:
 	.string "Clor: Looks like I got taken out.$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
@@ -398,8 +408,10 @@ DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "Registered GYM LEADERS HAMS\n"
 	.string "and CLOR in the POKéNAV.$"
 
-DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "Hams: By the skin of my teeth!\n"
+DewfordTown_Gym_Text_HamsPostBattle:
+	.string "Hams: By the skin of my teeth!$"
+
+DewfordTown_Gym_Text_ClorPostBattle:
 	.string "Clor: Looks like I got taken out.$"
 
 DewfordTown_Gym_Text_GymStatue:

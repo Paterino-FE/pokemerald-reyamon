@@ -12970,7 +12970,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRAWLY_1] =
     {
 #line 4826
-        .trainerName = _("HAMS&CLOR"),
+        .trainerName = _("HAMS"),
 #line 4827
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4828
@@ -12981,10 +12981,10 @@ F_TRAINER_FEMALE |
 #line 4831
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
 #line 4832
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
 #line 4833
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 6,
+        .partySize = 3,
         .party = (const struct TrainerMon[])
         {
             {
@@ -13002,20 +13002,6 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_TRUBBISH,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-            .lvl = 16,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_ACID_SPRAY,
-                MOVE_POISON_GAS,
-                MOVE_INFESTATION,
-                MOVE_POUND,
-            },
-            },
-            {
             .species = SPECIES_SCRAGGY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -13026,20 +13012,6 @@ F_TRAINER_FEMALE |
                 MOVE_PAYBACK,
                 MOVE_HEADBUTT,
                 MOVE_SAND_ATTACK,
-            },
-            },
-            {
-            .species = SPECIES_GRIMER,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-            .lvl = 16,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_SLUDGE,
-                MOVE_DISABLE,
-                MOVE_POISON_GAS,
-                MOVE_MUD_SLAP,
             },
             },
             {
@@ -13054,6 +13026,50 @@ F_TRAINER_FEMALE |
                 MOVE_ASTONISH,
                 MOVE_SPLASH,
                 MOVE_WATER_PULSE,
+            },
+            },
+        },
+    },
+
+    [TRAINER_CLOR] =
+    {
+        .trainerName = _("CLOR"),
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerPic = TRAINER_PIC_LEADER_CLOR,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_TRUBBISH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_ACID_SPRAY,
+                MOVE_POISON_GAS,
+                MOVE_INFESTATION,
+                MOVE_POUND,
+            },
+            },
+            {
+            .species = SPECIES_GRIMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_SLUDGE,
+                MOVE_DISABLE,
+                MOVE_POISON_GAS,
+                MOVE_MUD_SLAP,
             },
             },
             {
