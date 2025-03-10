@@ -1,9 +1,15 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
+	.string "Heyho! Sorry to keep you waiting!\p"
+	.string "Welcome to ReyaMon!\p"
 	.string "My name is PATERINO.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "I am just a humble viewer\n"
+	.string "known to overwork himself.\p"
+	.string "This hack has been made by many\n
+	.string	"community members from Discord.\p"
+	.string	"It was an incredible experience\n"
+	.string	"to work with the community!\p"
+	.string "But lets continue with the\n"
+	.string "introdcution of the game...\p"
 	.string "$"
 
 gText_Birch_Pokemon::
