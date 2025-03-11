@@ -4,7 +4,7 @@ gText_Birch_Welcome::
 	.string "My name is PATERINO.\p"
 	.string "I am just a humble viewer\n"
 	.string "known to overwork himself.\p"
-	.string "This hack has been made by many\n
+	.string "This hack has been made by many\n"
 	.string	"community members from Discord.\p"
 	.string	"It was an incredible experience\n"
 	.string	"to work with the community!\p"
@@ -62,5 +62,5 @@ gText_Birch_AreYouReady::
 	.string "world of POKéMON where dreams,\l"
 	.string "adventure, and friendships await!\p"
 	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
-	.string "$"
+	.string "Come see me in my POKéMON LAB.$"
+
