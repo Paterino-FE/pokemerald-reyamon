@@ -34,7 +34,7 @@ Gym 6
 
 >Trainers -> Done
 
->Dialogue -> Not Done | Missing lemonmeringuespy dialogue
+>Dialogue -> Done
 
 Gym 7
 

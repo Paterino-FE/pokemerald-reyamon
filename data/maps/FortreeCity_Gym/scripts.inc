@@ -267,18 +267,20 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string "WOWEEZ$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
-	.string "LEADER, to deal with you!\p"
-	.string "I'm plenty good enough for you!$"
+	.string "Brat Vyral was not a dream!\n"
+	.string "Brat Vyral is cannon!!!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
-	.string "I lost!$"
+	.string "When life gives you lemons -\n"
+	.string "you really stomp the hell out of\l"
+	.string "them to make lemonade…$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
-	.string "Blush…$"
+	.string "Fun Fact No.1: Lemon trees can produce\n"
+	.string "up to 600lbs of lemons every year.\p"
+	.string "Fun Fact No.2: Lemon’s tree,\n"
+	.string "Sudowoodo, was brutally murdered by\l"
+	.string "Reya during the nuzlock.$"
 
 FortreeCity_Gym_Text_AshleyIntro:
 	.string "If not friend, why friend shaped?$"
