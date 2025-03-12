@@ -4414,7 +4414,7 @@
     {
       "id": "LAYOUT_LIAM_CAVE_R1",
       "name": "LiamCave_R1_Layout",
-      "width": 10,
+      "width": 15,
       "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_MauvilleGameCorner",

@@ -18,11 +18,11 @@
   ],
   "warp_events": [
     {
-      "x": 9,
-      "y": 4,
+      "x": 8,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_LIAM_CAVE_R1",
-      "dest_warp_id": "2"
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
