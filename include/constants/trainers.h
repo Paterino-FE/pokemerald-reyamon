@@ -112,7 +112,8 @@
 #define TRAINER_PIC_BURGLAR               94
 #define TRAINER_PIC_FRIEREN               95
 #define TRAINER_PIC_LEADER_CLOR           96
-#define TRAINER_PIC_COUNT                 97
+#define TRAINER_PIC_BLAINE                97
+#define TRAINER_PIC_COUNT                 98
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

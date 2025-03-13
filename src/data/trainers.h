@@ -27992,7 +27992,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("FORTY"),
         .trainerClass = TRAINER_CLASS_EXPERT,
-        .trainerPic = TRAINER_PIC_EXPERT_M,
+        .trainerPic = TRAINER_PIC_BLAINE,
         .encounterMusic_gender = 
 #line 10561
             TRAINER_ENCOUNTER_MUSIC_HIKER,
