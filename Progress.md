@@ -63,7 +63,7 @@ Team Magma
 
 Team Aqua
 
->Trainers -> Grunts done (Admin Matt(Hastings) missing)
+>Trainers -> Done
 
 >Dialogue -> Done
 

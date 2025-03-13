@@ -1222,12 +1222,12 @@ F_TRAINER_FEMALE |
         .doubleBattle = FALSE,
 #line 534
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 2,
+        .partySize = 3,
         .party = (const struct TrainerMon[])
         {
             {
 #line 536
-            .species = SPECIES_MIGHTYENA,
+            .species = SPECIES_PHANTUMP,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 538
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -1235,10 +1235,13 @@ F_TRAINER_FEMALE |
             .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_NATURAL_CURE,
+            .heldItem = ITEM_BIG_NUGGET,
+            .moves = {MOVE_LEECH_SEED, MOVE_CURSE, MOVE_WILL_O_WISP, MOVE_SHADOW_CLAW}
             },
             {
 #line 540
-            .species = SPECIES_GOLBAT,
+            .species = SPECIES_HONCHKROW,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 542
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -1246,6 +1249,20 @@ F_TRAINER_FEMALE |
             .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SUPER_LUCK, 
+            .heldItem = ITEM_BIG_NUGGET,
+            .moves = {MOVE_PURSUIT, MOVE_TAUNT, MOVE_PLUCK, MOVE_SPITE}
+            },
+            {
+            .species = SPECIES_HOUNDOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLASH_FIRE, 
+            .heldItem = ITEM_BIG_NUGGET,
+            .moves = {MOVE_BITE, MOVE_FIRE_FANG, MOVE_HOWL, MOVE_SNARL}
             },
         },
     },
