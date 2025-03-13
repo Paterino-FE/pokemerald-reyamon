@@ -452,7 +452,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	end
 
 PetalburgCity_Gym_EventScript_GiveFacade::
-	giveitem ITEM_TM_FACADE
+	giveitem ITEM_TM_TORMENT
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM_FACADE
 	msgbox PetalburgCity_Gym_Text_ExplainFacade, MSGBOX_DEFAULT
@@ -1270,52 +1270,77 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
 	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "Ange: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
-	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
-	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
-	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
-	.string "{PLAYER}, you'd better give it your\n"
-	.string "best shot, too!$"
+	.string "Ange: Hi my name is Ebony Dark'ness\n"
+	.string "Dementia Raven Way and I have long\p"
+	.string "ebony black hair (that’s how I got\n"
+	.string "my name) with purple streaks and red\p"
+	.string "tips that reaches my mid-back and icy\n"
+	.string "blue eyes like limpid tears and a lot\p"
+	.string "of people tell me I look like Amy Lee\n"
+	.string "(AN: if u don’t know who she is get\l"
+	.string "da hell out of here!).\p"
+	.string "I’m not related to Gerard Way but I\n"
+	.string "wish I was because he’s a major\l"
+	.string "fucking hottie.\p"
+	.string "I’m a vampire but my teeth are\n"
+	.string "straight and white. I have pale white\l"
+	.string "skin. I’m also a witch, and I go to a\l"
+	.string "magic school called Hogwarts in\l"
+	.string "England where I’m in the seventh year\l"
+	.string "(I’m seventeen).\p"
+	.string "I’m a goth (in case you couldn’t tell)\n"
+	.string "and I wear mostly black.\p"
+	.string "I love Hot Topic and I buy all my\n"
+	.string "clothes from there.$"
+
 
 PetalburgCity_Gym_Text_NormanDefeat:
-	.string "…\p"
-	.string "I… I can't…\p"
-	.string "I can't believe it. {PLAYER}…\p"
-	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "Losing drives me crazy...$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
 	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+	.string "from Ange!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-	.string "Ange: With that BADGE, the DEFENSE\n"
-	.string "of all your POKéMON will increase.\p"
-	.string "POKéMON that know the HM move SURF\n"
-	.string "will be able to travel over water.\p"
-	.string "This is my gift to you. {PLAYER}, I'm\n"
-	.string "sure you can use it correctly.$"
+	.string "Crazy? I was crazy once.\p"
+	.string "They put me in a room.\n"
+	.string "A rubber room.\p"
+	.string "A rubber room with rats. They\n"
+	.string "put me in a rubber room with rats.\p"
+	.string "Rats? I hate rats.\n"
+	.string "They make me crazy.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "Ange: TM42 contains FACADE.\p"
-	.string "It doubles the power of moves if\n"
-	.string "the POKéMON is poisoned, paralyzed,\l"
-	.string "or burned.\p"
-	.string "It might be able to turn a bad\n"
-	.string "situation into an advantage.$"
+	.string "Crazy? I was crazy once.\p"
+	.string "They put me in a room.\n"
+	.string "A rubber room.\p"
+	.string "A rubber room with rats. They\n"
+	.string "put me in a rubber room with rats.\p"
+	.string "Rats? I hate rats.\n"
+	.string "They make me crazy.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "Ange: As the GYM LEADER, I can't\n"
-	.string "express how upset I am…\p"
-	.string "But as a daddy, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+	.string "Crazy? I was crazy once.\p"
+	.string "They put me in a room.\n"
+	.string "A rubber room.\p"
+	.string "A rubber room with rats. They\n"
+	.string "put me in a rubber room with rats.\p"
+	.string "Rats? I hate rats.\n"
+	.string "They make me crazy.\p"
+	.string "Crazy? I was crazy once.\p"
+	.string "They put me in a room.\n"
+	.string "A rubber room.\p"
+	.string "A rubber room with rats. They\n"
+	.string "put me in a rubber room with rats.\p"
+	.string "Rats? I hate rats.\n"
+	.string "They make me crazy.\p"
+	.string "Crazy? I was crazy once.\p"
+	.string "They put me in a room.\n"
+	.string "A rubber room.\p"
+	.string "A rubber room with rats. They\n"
+	.string "put me in a rubber room with rats.\p"
+	.string "Rats? I hate rats.\n"
+	.string "They make me crazy.$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"

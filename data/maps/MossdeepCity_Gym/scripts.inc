@@ -95,7 +95,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind2::
-	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_TM_TOXIC
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -103,7 +103,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind::
-	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_TM_TOXIC
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -565,12 +565,12 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 	.string "You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "That TM04 contains…\n"
-	.string "CALM MIND!\p"
-	.string "It raises SP. ATK and…\n"
-	.string "It raises SP. DEF!\p"
-	.string "It's a move that's perfect…\n"
-	.string "For PSYCHIC POKéMON!\p"
+	.string "That TM06 contains…\n"
+	.string "TOXIC!\p"
+	.string "...\n"
+	.string "..\p"
+	.string "..\n"
+	.string "...\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:

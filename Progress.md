@@ -28,7 +28,7 @@ Gym 5
 
 >Trainers -> Done
 
->Dialogue -> Done (Except Ange/TM Stuff)
+>Dialogue -> Done
 
 Gym 6
 
@@ -83,4 +83,4 @@ Elite Four
 
 >Trainers -> Done
 
->Dialogue -> Done (Except Sidney)
+>Dialogue -> Done

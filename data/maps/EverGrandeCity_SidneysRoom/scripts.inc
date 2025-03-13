@@ -65,23 +65,26 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
-	.string "That's good! Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!$"
+	.string "It is my pleasure to make your\n"
+	.string "acquaintance, {PLAYER}\p"
+	.string "I have heard much of your\n"
+	.string "accomplishments.\p"
+	.string "I am The Knave, one of the\n"
+	.string "eleven Fatui Harbingers.$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "I believe we can end things here.\p"
+	.string "It's not often that I get to enjoy\n$"
+	.string "the company of guests, after all.\p"
+	.string "I wouldn't want things to get too\n"
+	.string "out of hand.$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "Children always think they can hide\n"
+	.string "things from the grown-ups.\p"
+	.string "But, nothing get past me, least of\n"
+	.string "all the amount of merch you've\l"
+	.string "been buying.\p"
+	.string "I think I'll let you have at it\n"
+	.string "a little longer.$"
 
