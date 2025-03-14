@@ -38,7 +38,7 @@ VictoryRoad_1F_EventScript_WallyBattleTrigger2::
 	end
 
 VictoryRoad_1F_EventScript_WallyEntranceBattle::
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLY_VR_1, VictoryRoad_1F_Text_WallyEntranceDefeat
@@ -47,6 +47,15 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 	copyobjectxytoperm LOCALID_WALLY_ENTRANCE
 	setflag FLAG_DEFEATED_WALLY_VICTORY_ROAD
 	copyvar VAR_VICTORY_ROAD_1F_STATE, VAR_0x8008
+	goto VictoryRoad_1F_EventScript_WallyMoveAside
+	end
+
+VictoryRoad_1F_EventScript_WallyMoveAside::
+	lockall
+	applymovement LOCALID_WALLY_ENTRANCE, VictoryRoad_1F_Movement_WallyMoveAside
+	waitmovement 0
+	applymovement LOCALID_WALLY_ENTRANCE, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
 	releaseall
 	end
 
@@ -73,6 +82,10 @@ VictoryRoad_1F_Movement_WallyApproachPlayer2:
 	walk_left
 	walk_left
 	walk_down
+	step_end
+
+VictoryRoad_1F_Movement_WallyMoveAside:
+	walk_up
 	step_end
 
 @ This Wally appears near the entrance once his battle is triggered and remains there until the Hall of Fame is entered
