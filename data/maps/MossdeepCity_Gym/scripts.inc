@@ -523,17 +523,22 @@ MossdeepCity_Gym_Text_CliffordPostBattle:
 	.string "Everybody's fruggin'.$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
-	.string "Ive been looking for something all over,\n"
-	.string "a gem thats said to be hidden somewhere\l"
-	.string "in this world...$"
+	.string "I will show you that it really\n"
+	.string "was skill issue!$"
 
 MossdeepCity_Gym_Text_MaceyDefeat:
-	.string "The hidden gem ive been looking for...\n"
-	.string "could it be you?$"
+	.string "I've never said who it was...$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-	.string "Unbelievable! After all these years,\n"
-	.string "Ive found the hidden gem.$"
+	.string "01010101 00100000 01101010 01110101\n"
+	.string "01110011 01110100 00100000 01101100\p"
+	.string "01101111 01110011 01110100 00100000\n"
+	.string "01110101 01110010 00100000 01110100\p"
+	.string "01101001 01101101 01100101 00100000\n"
+	.string "01100100 01100101 01100011 01101111\p"
+	.string "01100100 01101001 01101110 01100111\n"
+	.string "00100000 01110100 01101000 01101001\l"
+	.string "01110011.$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
 	.string "Wroooar! Have a taste of my super\n"

@@ -93,6 +93,13 @@ VictoryRoad_B1F_Text_HalleDefeat:
 	.string "this time...$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-	.string "NO way I'm including all this\n"
-	.string "lmao...$"
+	.string "01010101 00100000 01101010 01110101\n"
+	.string "01110011 01110100 00100000 01101100\p"
+	.string "01101111 01110011 01110100 00100000\n"
+	.string "01110101 01110010 00100000 01110100\p"
+	.string "01101001 01101101 01100101 00100000\n"
+	.string "01100100 01100101 01100011 01101111\p"
+	.string "01100100 01101001 01101110 01100111\n"
+	.string "00100000 01110100 01101000 01101001\l"
+	.string "01110011.$"
 
