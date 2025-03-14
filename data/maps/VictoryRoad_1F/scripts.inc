@@ -59,7 +59,6 @@ VictoryRoad_1F_Movement_WallyApproachPlayer1:
 	walk_left
 	walk_left
 	walk_left
-	walk_left
 	walk_down
 	step_end
 

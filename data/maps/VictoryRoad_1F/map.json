@@ -200,7 +200,7 @@
       "type": "trigger",
       "x": 31,
       "y": 5,
-      "elevation": 4,
+      "elevation": 0,
       "var": "VAR_VICTORY_ROAD_1F_STATE",
       "var_value": "0",
       "script": "VictoryRoad_1F_EventScript_WallyBattleTrigger1"
