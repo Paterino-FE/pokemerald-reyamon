@@ -44,6 +44,7 @@ const u16 gObjectEventPal_Drake[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Phoebe[] = INCBIN_U16("graphics/object_events/palettes/phoebe.gbapal");
 const u16 gObjectEventPal_Winona[] = INCBIN_U16("graphics/object_events/palettes/winona.gbapal");
 const u16 gObjectEventPal_Mom[] = INCBIN_U16("graphics/object_events/palettes/mom.gbapal");
+const u16 gObjectEventPal_BlobBird[] = INCBIN_U16("graphics/object_events/palettes/blobbird.gbapal");
 const u16 gObjectEventPal_Null16[16] = {};
 const u16 gObjectEventPal_Null17[16] = {};
 const u16 gObjectEventPal_Null18[16] = {};
