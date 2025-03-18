@@ -40,7 +40,7 @@ Gym 7
 
 >Trainers -> Done
 
->Dialogue -> Done (Except Skyward, TM Stuff)
+>Dialogue -> Done (Except TM Stuff)
 
 Gym 8
 

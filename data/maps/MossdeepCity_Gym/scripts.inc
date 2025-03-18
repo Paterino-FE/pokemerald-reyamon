@@ -553,10 +553,12 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
 	.string "invincible POKéMON power next.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-	.string "THIS IS SKYWARD INTRO$"
+	.string "My NAME'S SKYWARD... Just Skyward.$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
-	.string "SKYWARD DEAD$"
+	.string "Aw man, I lost, guess I'll have to\n"
+	.string "go home to my big house, and smoking\l"
+	.string "hot wife.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
 	.string "{PLAYER} received the MIND BADGE\n"
@@ -583,11 +585,8 @@ MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 	.string "in the POKéNAV.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
-	.string "TATE: Looks like the bond between you\n"
-	.string "and your POKéMON is far stronger than\l"
-	.string "the bond that we share as twins.\p"
-	.string "LIZA: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "Damn, I got this shit on fr tho.\n"
+	.string "Peep the fit.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "TATE: Hehehe… Were you surprised?\p"
