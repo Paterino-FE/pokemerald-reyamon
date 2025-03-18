@@ -386,6 +386,7 @@
 #define OBJ_EVENT_PAL_TAG_DRAKE                   0x1127
 #define OBJ_EVENT_PAL_TAG_PHOEBE                  0x1128
 #define OBJ_EVENT_PAL_TAG_WINONA                  0x1129
+#define OBJ_EVENT_PAL_TAG_MOM                     0x1130
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
