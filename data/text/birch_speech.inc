@@ -9,7 +9,7 @@ gText_Birch_Welcome::
 	.string	"It was an incredible experience\n"
 	.string	"to work with the community!\p"
 	.string "But lets continue with the\n"
-	.string "introdcution of the game...\p"
+	.string "introduction of the game...\p"
 	.string "$"
 
 gText_Birch_Pokemon::
