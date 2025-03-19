@@ -21,22 +21,19 @@ Route101_EventScript_HideMapNamePopup::
 
 Route101_EventScript_StartBirchRescue::
 	lockall
-	playbgm MUS_HELP, TRUE
-	msgbox Route101_Text_HelpMe, MSGBOX_DEFAULT
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	closemessage
-	setobjectxy LOCALID_BIRCH, 0, 15
-	setobjectxy LOCALID_ZIGZAGOON, 0, 16
+	setobjectxy LOCALID_BIRCH, 5, 13
+	setobjectxy LOCALID_ZIGZAGOON, 10, 13
 	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_EnterScene
-	applymovement LOCALID_BIRCH, Route101_Movement_BirchRunAway1
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonChase1
 	waitmovement 0
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonChaseInCircles
-	applymovement LOCALID_BIRCH, Route101_Movement_BirchRunInCircles
 	waitmovement 0
 	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonFaceBirch
-	applymovement LOCALID_BIRCH, Route101_Movement_BirchFaceZigzagoon
 	waitmovement 0
 	msgbox Route101_Text_PleaseHelp, MSGBOX_DEFAULT
 	closemessage
@@ -86,60 +83,68 @@ Route101_Movement_PreventExitNorth:
 Route101_Movement_ZigzagoonChaseInCircles:
 	walk_fast_up
 	walk_fast_up
-	walk_fast_up
 	walk_fast_right
 	walk_fast_right
-	walk_fast_right
+	jump_down
 	walk_fast_down
-	walk_fast_down
-	walk_fast_left
 	walk_fast_left
 	walk_fast_left
 	walk_fast_up
 	walk_fast_up
-	walk_fast_right
-	walk_fast_right
+	jump_right
 	walk_fast_right
 	walk_fast_down
 	walk_fast_down
 	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_up
+	jump_left
+	jump_up
 	walk_fast_up
 	walk_fast_right
-	walk_fast_right
-	walk_fast_right
+	jump_right
 	walk_fast_down
 	walk_fast_down
 	walk_fast_left
 	walk_fast_left
+	jump_up
+	walk_fast_up
+	walk_fast_right
+	jump_right
+	walk_fast_down
+	walk_in_place_fast_left
+	walk_in_place_fast_up
+	walk_in_place_fast_right
+	walk_in_place_fast_down
 	step_end
 
 Route101_Movement_ZigzagoonChase1:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	walk_fast_up
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_down
+	walk_fast_down
 	step_end
 
 @ Leftover data? This command is unused.
 	step_end
 
 Route101_Movement_ZigzagoonFaceBirch:
-	walk_in_place_fast_left
-	walk_in_place_fast_left
-	walk_in_place_fast_left
-	walk_in_place_fast_left
+	walk_in_place_fast_down
+	walk_in_place_fast_down
+	walk_in_place_fast_down
+	walk_in_place_fast_down
 	step_end
 
 Route101_Movement_EnterScene:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
-	walk_fast_up
+	walk_fast_left
+	walk_up
+	walk_up
 	walk_in_place_faster_left
 	step_end
 
@@ -226,12 +231,12 @@ Route101_EventScript_BirchsBag::
 	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_ZIGZAGOON
 	setobjectxy OBJ_EVENT_ID_PLAYER, 6, 13
+	setobjectxy LOCALID_BIRCH, 5, 13
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
+
 	special ChooseStarter
 	waitstate
-	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
-	waitmovement 0
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
 	special HealPlayerParty
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
@@ -264,25 +269,33 @@ Route101_Text_HelpMe:
 	.string "H-help me!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "My lady! I was given the task to\n"
+	.string "train you in the art of POKéMON\l"
+	.string "battles!\p"
+	.string "As a first step, please take one\n"
+	.string "of the Turtwigs from that bag.\p"
+	.string "I will then face you with this\n"
+	.string "Zigzagoon that I just tamed.$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "My lady!\p"
+	.string "It is of great importance that you\n"
+	.string "learn to defend yourself in this\l"
+	.string "strange land!\p"
+	.string "I implore you to stay for this\n"
+	.string "important lesson!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "Your majesty!\p"
+	.string "Of course, you are as capable\n"
+	.string "as I expected you to be.\p"
+	.string "You will not have any problems\n"
+	.string "going forward!\p"
+	.string "The one who provided me with these\n"
+	.string "Turtwigs is PROF. PATERINO.\p"
+	.string "It would be most gracious of you if\n"
+	.string "you honoured him with your presence\l"
+	.string "in his LAB.$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If POKéMON get tired, take them to\n"

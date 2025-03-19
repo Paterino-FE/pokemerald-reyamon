@@ -1001,8 +1001,10 @@ static void CB2_StartFirstBattle(void)
 
     if (IsBattleTransitionDone() == TRUE)
     {
-        gBattleTypeFlags = BATTLE_TYPE_FIRST_BATTLE;
+        gBattleTypeFlags = BATTLE_TYPE_TRAINER;
         gMain.savedCallback = CB2_EndFirstBattle;
+        gTrainerBattleOpponent_A = TRAINER_EMILIA;
+        
         FreeAllWindowBuffers();
         SetMainCallback2(CB2_InitBattle);
         RestartWildEncounterImmunitySteps();

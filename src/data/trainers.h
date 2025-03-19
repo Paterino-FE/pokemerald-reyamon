@@ -44393,3 +44393,25 @@ F_TRAINER_FEMALE |
             },
         },
     },
+
+    [TRAINER_EMILIA] =
+    {
+        .trainerName = _("Emilia"),
+        .trainerClass = TRAINER_CLASS_EMILIA,
+        .trainerPic = TRAINER_PIC_EMILIA,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_ZIGZAGOON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 2,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },

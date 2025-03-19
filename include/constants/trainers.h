@@ -113,7 +113,8 @@
 #define TRAINER_PIC_FRIEREN               95
 #define TRAINER_PIC_LEADER_CLOR           96
 #define TRAINER_PIC_BLAINE                97
-#define TRAINER_PIC_COUNT                 98
+#define TRAINER_PIC_EMILIA                98
+#define TRAINER_PIC_COUNT                 99
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -360,7 +361,8 @@
 #define TRAINER_CLASS_TEAM_ROCKET    0x43
 #define TRAINER_CLASS_BURGLAR        0x44
 #define TRAINER_CLASS_FRIEREN        0x45
-#define TRAINER_CLASS_COUNT          0x46
+#define TRAINER_CLASS_EMILIA        0x46
+#define TRAINER_CLASS_COUNT          0x47
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
