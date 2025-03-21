@@ -13042,7 +13042,7 @@ F_TRAINER_FEMALE |
             .moves = {
                 MOVE_ASTONISH,
                 MOVE_SPLASH,
-                MOVE_WATER_PULSE,
+                MOVE_WATER_GUN,
             },
             },
         },
@@ -13066,10 +13066,10 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 16,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_MILD,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-                MOVE_ACID_SPRAY,
+                MOVE_TOXIC_SPIKES,
                 MOVE_POISON_GAS,
                 MOVE_INFESTATION,
                 MOVE_POUND,
@@ -13080,7 +13080,7 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 16,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
                 MOVE_SLUDGE,
