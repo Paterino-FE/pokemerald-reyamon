@@ -30,6 +30,32 @@ Route119_EventScript_MoveInstituteWorkersDownstairs::
 	setvar VAR_WEATHER_INSTITUTE_STATE, 2
 	return
 
+Route119_EventScript_Butterfree::
+	lock
+	faceplayer
+	playmoncry SPECIES_BUTTERFREE, CRY_MODE_ENCOUNTER
+	waitmoncry
+	release
+	end
+
+Route119_EventScript_Felixr2::
+	lock
+	faceplayer
+	msgbox Route119_Text_Felixr2Intro, MSGBOX_DEFAULT
+	msgbox Route119_Text_Felixr2WantToSolarBeam, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route119_EventScript_Felixr2_Solarbeamdeclined
+	msgbox Route119_Text_Felixr2_SolarbeamWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_SOLAR_BEAM
+	call MoveTutor_EventScript_OpenPartyMenu
+	msgbox Route119_Text_Felixr2Outro, MSGBOX_DEFAULT
+	release
+	end
+
+Route119_EventScript_Felixr2_Solarbeamdeclined::
+	msgbox Route119_Text_Felixr2Outro, MSGBOX_DEFAULT
+	release
+	end
+
 Route119_EventScript_RivalTrigger1::
 	setvar VAR_TEMP_1, 1
 	goto Route119_EventScript_RivalEncounter
@@ -478,6 +504,23 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	addvar VAR_SCOTT_STATE, 1
 	releaseall
 	end
+
+Route119_Text_Felixr2Intro:
+	.string "Felixr2: Hey {PLAYER}! Up ahead is\n"
+	.string "a lot of trouble, so I will help\l"
+	.string "you a bit.$"
+
+Route119_Text_Felixr2WantToSolarBeam:
+	.string "Want me to teach your Pokemon\n"
+	.string "Solar Beam?$"
+
+Route119_Text_Felixr2_SolarbeamWhichMon:
+	.string "Which Pokemon should I teach\n"
+	.string "Solar Beam to?$"
+
+Route119_Text_Felixr2Outro:
+	.string "Good luck, I will see you again\n"
+	.string "very soon!$"
 
 Route119_Text_MayIntro:
 	.string "MAY: {PLAYER}{KUN}!\n"
