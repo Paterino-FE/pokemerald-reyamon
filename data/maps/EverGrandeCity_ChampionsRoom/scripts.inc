@@ -281,7 +281,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 	.string "You've beaten the CHAMPION?$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-	.string "PROF. BIRCH: See?\n"
+	.string "PROF. PAT: See?\n"
 	.string "What did I tell you, {RIVAL}?\p"
 	.string "Didn't I tell you that you don't need\n"
 	.string "to worry about {PLAYER}{KUN}?\p"
@@ -297,7 +297,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "Here, let me see.$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
-	.string "PROF. BIRCH: Anyways,\n"
+	.string "PROF. PAT: Anyways,\n"
 	.string "congratulations!\p"
 	.string "Now, go proudly into the final room!$"
 
@@ -312,7 +312,7 @@ EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
 	.string "From here on, only those TRAINERS who\n"
 	.string "have become CHAMPIONS may enter.\p"
 	.string "You'll have to wait outside with\n"
-	.string "PROF. BIRCH.$"
+	.string "PROF. PAT.$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 	.string "MAY: Groan…\p"

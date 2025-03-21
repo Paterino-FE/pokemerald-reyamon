@@ -54,7 +54,7 @@ VictoryRoad_B2F_Text_OwenDefeat:
 
 VictoryRoad_B2F_Text_OwenPostBattle:
 	.string "I may have ma-choked,\n"
-	.string "but you can be ma-champ.$"
+	.string "but you can be ma-champ!$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
 	.string "Prepare for trouble!\p"
@@ -77,7 +77,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 	.string "TEAM ROCKET is currently seeking\n"
 	.string "GRUNTs to help carry out our\l"
 	.string "dream to steal POKEMON.\p"
-	.string "Apply at our HEADQUARTERS Pls$"
+	.string "Apply at our HEADQUARTERS please.$"
 
 VictoryRoad_B2F_Text_JulieIntro:
 	.string "Sorry Reya, but I'm team Vyral\n"
@@ -113,6 +113,6 @@ VictoryRoad_B2F_Text_DianneDefeat:
 	.string "FABULOUS. FABULOUS. FABULOUSLY DONE.$"
 
 VictoryRoad_B2F_Text_DiannePostBattle:
-	.string "Your fabulousness will shine through\n"
-	.string "out the world.$"
+	.string "Your fabulousness will shine\n"
+	.string "throughout the world.$"
 

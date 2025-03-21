@@ -142,7 +142,7 @@ VictoryRoad_1F_EventScript_Lumi::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "LILYPAD: Hi! {PLAYER}!\p"
 	.string "I bet you're surprised to see me here!\p"
 	.string "I made it all the way here, and it's\n"
 	.string "all thanks to you!\p"
@@ -158,12 +158,12 @@ VictoryRoad_1F_Text_WallyEntranceDefeat:
 	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-	.string "WALLY: I couldn't beat you today,\n"
+	.string "LILYPAD: I couldn't beat you today,\n"
 	.string "{PLAYER}, but one of these days, I'll\l"
 	.string "catch up to you!$"
 
 VictoryRoad_1F_Text_WallyIntro:
-	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "LILYPAD: Hi! {PLAYER}!\p"
 	.string "I've gotten stronger since that last\n"
 	.string "time! I wanted to show you, {PLAYER}!\p"
 	.string "Okay… Here I come!$"
@@ -173,9 +173,9 @@ VictoryRoad_1F_Text_WallyDefeat:
 	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostBattle:
-	.string "WALLY: I couldn't beat you this time,\n"
-	.string "too… But one of these days, {PLAYER},\l"
-	.string "I'm going to catch up to you…\p"
+	.string "LILYPAD: I couldn't beat you this\n"
+	.string "time, too… But one of these days,\l"
+	.string "{PLAYER}, I'm going to catch up...\p"
 	.string "And challenge the POKéMON LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
@@ -251,12 +251,12 @@ VictoryRoad_1F_Text_KatelynnIntro:
 	.string "If not friend, why friend shaped?$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "my peepo...my bwethwen...\n"
-	.string "my fwiends...$"
+	.string "My peepo... My bwethwen...\n"
+	.string "My fwiends...$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
-	.string "my peepo...my bwethwen...\n"
-	.string "my fwiends...$"
+	.string "My peepo... My bwethwen...\n"
+	.string "My fwiends...$"
 
 VictoryRoad_1F_Text_TheaIntro:
 	.string "Thea: It's time to sink\n"

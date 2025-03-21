@@ -958,8 +958,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "Which of these POKéMON was used\n"
+	.string "by EMILIA?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"

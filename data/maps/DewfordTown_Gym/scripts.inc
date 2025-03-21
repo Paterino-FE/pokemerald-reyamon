@@ -346,7 +346,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "Quick chat, throw something at Reya!$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "I swear he's not a slave!$"
+	.string "I swear, he's not a slave!$"
 
 DewfordTown_Gym_Text_LilithDefeat:
 	.string "I pay him in food...$"

@@ -320,7 +320,7 @@ FortreeCity_Gym_Text_WinonaIntro:
 
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "To be honest, i didn't think\n"
-	.string "you would make it this far AYAYA!$"
+	.string "you would make it this far, AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the\n"

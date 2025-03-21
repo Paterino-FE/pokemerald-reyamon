@@ -77,17 +77,17 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
 	.string "and kids?$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-	.string "Vier: Its all 4!!!!!! AHAHHAHAHHA\n"
+	.string "Vier: It's all 4!!!!!! AHAHHAHAHHA\n"
 	.string "Pengwynn: Shut up!$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-	.string "Vier: We lost FOUReal FOURreal\n"
+	.string "Vier: We lost FOUR real, FOUR real!\n"
 	.string "Pengwynn: Please never talk again...$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
 	.string "Vier: Fou-\n"
-	.string "Pengwynn: Im seriously going to tape\p"
-	.string "your mouth!$"
+	.string "Pengwynn: Im seriously going to tape\l"
+	.string "your mouth shut!$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
 	.string "I should teach you how harsh battles\n"

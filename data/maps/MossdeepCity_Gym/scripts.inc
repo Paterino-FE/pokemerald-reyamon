@@ -523,8 +523,8 @@ MossdeepCity_Gym_Text_CliffordPostBattle:
 	.string "Everybody's fruggin'.$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
-	.string "I will show you that it really\n"
-	.string "was skill issue!$"
+	.string "I will show you that someone here has\n"
+	.string "a skill issue!$"
 
 MossdeepCity_Gym_Text_MaceyDefeat:
 	.string "I've never said who it was...$"

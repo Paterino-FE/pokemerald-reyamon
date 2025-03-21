@@ -85,11 +85,11 @@ VictoryRoad_B1F_Text_MitchellPostBattle:
 	.string "WOWEEZ$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Now I mean it, it was your\n"
+	.string "Now I mean it, you have the\n"
 	.string "skill issue!$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "RNG gods were on ur side\n"
+	.string "RNG gods were on your side\n"
 	.string "this time...$"
 
 VictoryRoad_B1F_Text_HallePostBattle:

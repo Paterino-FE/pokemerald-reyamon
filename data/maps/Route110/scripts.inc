@@ -965,7 +965,7 @@ Route110_Text_ThereIsNoRecord:
 	.string "challenge. There is no record…$"
 
 Route110_Text_ImagineSeeingYouHere:
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
+	.string "PROF. PAT: Oh, {PLAYER}{KUN}!\n"
 	.string "Imagine seeing you here!\p"
 	.string "And where might my Vyral be?$"
 
@@ -982,12 +982,12 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
-	.string "Registered PROF. BIRCH\n"
+	.string "Registered PROF. PAT\n"
 	.string "in the POKéNAV.$"
 
 Route110_Text_KeepAnEyeOutForRival:
-	.string "PROF. BIRCH: {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for my Vyral.\n"
+	.string "PROF. PAT: {PLAYER}{KUN}…\p"
+	.string "Please keep an eye out for Vyral.\n"
 	.string "… … … … … …\p"
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"

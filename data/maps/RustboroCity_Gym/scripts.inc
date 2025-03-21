@@ -145,7 +145,7 @@ RustboroCity_Gym_Text_JoshDefeat:
 
 RustboroCity_Gym_Text_JoshPostBattle:
 	.string "I may have ma-choked,\n"
-	.string "but you can be ma-champ$"
+	.string "but you can be ma-champ!$"
 
 RustboroCity_Gym_Text_TommyIntro:
 	.string "Prepare for trouble!\n"
@@ -165,7 +165,7 @@ RustboroCity_Gym_Text_TommyPostBattle:
 	.string "TEAM ROCKET is currently seeking\n"
 	.string "GRUNTs to help carry out our\l"
 	.string "dream to steal POKEMON.\p"
-	.string "Apply at our HEADQUARTERS Pls$"
+	.string "Apply at our HEADQUARTERS please.$"
 
 RustboroCity_Gym_Text_MarcIntro:
 	.string "Be very afraid!$"
@@ -208,7 +208,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 
 RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "Your fabulousness will\n"
-	.string "shine through out the world.$"
+	.string "shine throughout the world.$"
 
 RustboroCity_Gym_Text_GymStatue:
 	.string "RUSTBORO CITY POKéMON GYM$"

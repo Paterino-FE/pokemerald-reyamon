@@ -1349,12 +1349,12 @@ PetalburgCity_Gym_Text_PleaseComeWithMe:
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 	.string "Ange, you don't mind, do you?\p"
-	.string "Let me borrow your {PLAYER}{KUN} for\n"
+	.string "Let me borrow {PLAYER}{KUN} for\n"
 	.string "a minute or two.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "Ange: {PLAYER}, you should go visit\n"
-	.string "your mother every so often.\p"
+	.string "Emilia every so often.\p"
 	.string "I'm going to stay here and redouble\n"
 	.string "my training.\p"
 	.string "It would bother me as a TRAINER to\n"
@@ -1506,13 +1506,15 @@ PetalburgCity_Gym_Text_JodyDefeat:
 	.string "3. Consult the Necronomicon...$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "Reya you're the very best like no\n"
-	.string "one ever was, please give Lilypad\l"
+	.string "Reya, you're the very best, like\n"
+	.string "no one ever was.\p"
+	.string "Please give Lilypad\n"
 	.string "a real good snuggle from me <3$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-	.string "Reya you're the very best like no\n"
-	.string "one ever was, please give Lilypad\l"
+	.string "Reya, you're the very best, like\n"
+	.string "no one ever was.\p"
+	.string "Please give Lilypad\n"
 	.string "a real good snuggle from me <3$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
@@ -1563,7 +1565,7 @@ PetalburgCity_Gym_Text_GymStatue:
 
 PetalburgCity_Gym_Text_GymStatueCertified:
 	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "Ange'S CERTIFIED TRAINERS:\n"
+	.string "Ange's CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:

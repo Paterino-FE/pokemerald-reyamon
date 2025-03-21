@@ -2587,19 +2587,19 @@ MatchCall_Text_Brendan15::
 	.string "envious!$"
 
 MatchCall_Text_Wally1::
-	.string "WALLY: Oh, {PLAYER}!\p"
+	.string "LILYPAD: Oh, {PLAYER}!\p"
 	.string "I've been getting healthier and\n"
 	.string "more physically fit.\p"
 	.string "I hope I can become a TRAINER like\n"
 	.string "you soon, {PLAYER}!$"
 
 MatchCall_Text_Wally2::
-	.string "WALLY: {PLAYER}, hello!\p"
+	.string "LILYPAD: {PLAYER}, hello!\p"
 	.string "After RUSTURF TUNNEL went\n"
 	.string "through, WANDA's been very happy!$"
 
 MatchCall_Text_Wally3::
-	.string "WALLY: Oh, {PLAYER}!\p"
+	.string "LILYPAD: Oh, {PLAYER}!\p"
 	.string "I… I left my uncle's place in\n"
 	.string "VERDANTURF without telling anyone.\p"
 	.string "I wonder if he's furious with me…\p"
@@ -2607,7 +2607,7 @@ MatchCall_Text_Wally3::
 	.string "I feel, don't you?$"
 
 MatchCall_Text_Wally4::
-	.string "WALLY: {PLAYER}?\n"
+	.string "LILYPAD: {PLAYER}?\n"
 	.string "It's me, WALLY!\p"
 	.string "The world of TRAINERS is amazing!\p"
 	.string "When I have my POKéMON with me,\n"
@@ -2616,7 +2616,7 @@ MatchCall_Text_Wally4::
 	.string "connected through POKéMON!$"
 
 MatchCall_Text_Wally5::
-	.string "WALLY: {PLAYER}? It's awesome!\n"
+	.string "LILYPAD: {PLAYER}? It's awesome!\n"
 	.string "That RALTS we caught together?\l"
 	.string "It evolved, {PLAYER}!\p"
 	.string "Maybe I'm talented…\p"
@@ -2628,11 +2628,11 @@ MatchCall_Text_Wally5::
 MatchCall_Text_Wally6::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "WALLY appears to be out of\n"
+	.string "LILYPAD appears to be out of\n"
 	.string "the POKéNAV's service area…$"
 
 MatchCall_Text_Wally7::
-	.string "WALLY: Oh, {PLAYER}!\p"
+	.string "LILYPAD: Oh, {PLAYER}!\p"
 	.string "Before I met you, I hardly ever\n"
 	.string "left my house…\p"
 	.string "But now, I'm on an adventure with\n"
@@ -2832,7 +2832,7 @@ MatchCall_Text_Steven7::
 	.string "somewhere!$"
 
 MatchCall_Text_BirchRegisterCall:
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
+	.string "PROF. PAT: Oh, {PLAYER}{KUN}!\n"
 	.string "I've already heard about you!\p"
 	.string "It seems your POKéNAV's been\n"
 	.string "upgraded with MATCH CALL.\p"
@@ -2843,11 +2843,11 @@ MatchCall_Text_BirchRegisterCall:
 	.string "… … … … … …$"
 
 MatchCall_Text_RegisteredBirch:
-	.string "Registered PROF. BIRCH\n"
+	.string "Registered PROF. PAT\n"
 	.string "in the POKéNAV.$"
 
 MatchCall_Text_UnusedProfBirch:
-	.string "PROF. BIRCH: When one has both\n"
+	.string "PROF. PAT: When one has both\n"
 	.string "the POKéDEX and POKéNAV, studying\l"
 	.string "POKéMON becomes more fun, eh?$"
 
