@@ -372,6 +372,14 @@ const u8 gItemEffect_XSpeed[8] = {
     STAT_BOOST_FRIENDSHIP_CHANGE,
 };
 
+const u8 gItemEffect_XTrash[10] = {
+    [1] = ITEM1_X_SPEED,
+    [5] = ITEM5_FRIENDSHIP_ALL,
+    [7] = -10, // Friendship change, low
+    [8] = -10, // Friendship change, mid
+    [9] = -15, // Friendship change, high
+};
+
 const u8 gItemEffect_XAccuracy[8] = {
     [1] = ITEM1_X_ACCURACY,
     [5] = ITEM5_FRIENDSHIP_LOW | ITEM5_FRIENDSHIP_MID,

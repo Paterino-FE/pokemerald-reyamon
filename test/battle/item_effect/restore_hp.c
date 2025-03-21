@@ -4,6 +4,7 @@
 SINGLE_BATTLE_TEST("Items can restore a battler's HP by a fixed amount")
 {
     u32 item, hp;
+    PARAMETRIZE { item = ITEM_MOUTH_WASH; hp = 30; }
     PARAMETRIZE { item = ITEM_POTION; hp = 20; }
     PARAMETRIZE { item = ITEM_SUPER_POTION; hp = I_HEALTH_RECOVERY >= GEN_7 ? 60 : 50; }
     PARAMETRIZE { item = ITEM_HYPER_POTION; hp = I_HEALTH_RECOVERY >= GEN_7 ? 120 : 200; }

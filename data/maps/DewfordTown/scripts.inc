@@ -65,6 +65,34 @@ DewfordTown_EventScript_SailBackToPetalburg::
 	goto DewfordTown_EventScript_SailToPetalburg
 	end
 
+DewfordTown_EventScript_HamsShop::
+	msgbox DewfordTown_Text_HamsShop, MSGBOX_NPC
+	end
+
+DewfordTown_EventScript_ClorShop::
+	msgbox DewfordTown_Text_ClorShop, MSGBOX_NPC
+	end
+
+DewfordTown_EventScript_TrubbishShop::
+	lock
+	faceplayer
+	playmoncry SPECIES_TRUBBISH CRY_MODE_ENCOUNTER
+	waitmoncry
+	msgbox DewfordTown_Text_TrubbishShop, MSGBOX_DEFAULT
+	pokemart DewfordTown_Mart_TrubbishPokemart
+	msgbox DewfordTown_Text_TrubbishShop, MSGBOX_DEFAULT
+	playmoncry SPECIES_TRUBBISH CRY_MODE_ENCOUNTER
+	waitmoncry
+	releaseall
+	end
+
+	.align 2
+DewfordTown_Mart_TrubbishPokemart:
+	.2byte ITEM_BITS_OF_TRASH
+	.2byte ITEM_MOUTH_WASH
+	pokemartlistend
+
+
 DewfordTown_EventScript_Woman::
 	msgbox DewfordTown_Text_TinyIslandCommunity, MSGBOX_NPC
 	end
@@ -638,6 +666,17 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	msgbox DewfordTown_Text_XHuhIThinkYIsCool, MSGBOX_DEFAULT
 	release
 	end
+
+DewfordTown_Text_HamsShop:
+	.string "Hams: Surpised to see us out here?\n"
+	.string "We used a secret exit from the gym!$"
+
+DewfordTown_Text_ClorShop:
+	.string "Clor: Please buy our trash...\n"
+	.string "We really need the money!$"
+
+DewfordTown_Text_TrubbishShop:
+	.string "Trubbish: Trubbish!$"
 
 DewfordTown_Text_TinyIslandCommunity:
 	.string "DEWFORD is a tiny island community.\n"

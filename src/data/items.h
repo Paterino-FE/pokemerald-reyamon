@@ -14093,4 +14093,41 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    [ITEM_BITS_OF_TRASH] =
+    {
+        .name = _("Bits of trash"),
+        .price = 50,
+        .description = COMPOUND_STRING(
+            "Looks like a strinky\n"
+            "Clown might have\n"
+            "lost this."),
+            .pocket = POCKET_ITEMS,
+            .type = ITEM_USE_BAG_MENU,
+            .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+            .battleUsage = EFFECT_ITEM_INCREASE_STAT,
+            .effect = gItemEffect_XTrash,
+            .flingPower = 30,
+        .iconPic = gItemIcon_BlackSludge,
+        .iconPalette = gItemIconPalette_BlackSludge,
+    },
+
+    [ITEM_MOUTH_WASH] =
+    {
+        .name = _("Mouthwash"),
+        .price = 75,
+        .holdEffectParam = 80,
+        .description = COMPOUND_STRING(
+            "4 out of 5 dentists\n"
+            "recommend this!\n"
+            "It's off-brand..."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = EFFECT_ITEM_RESTORE_HP,
+        .effect = gItemEffect_Potion,
+        .flingPower = 30,
+        .iconPic = gItemIcon_ThroatSpray,
+        .iconPalette = gItemIconPalette_ThroatSpray,
+    },
 };
