@@ -28102,7 +28102,7 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_GEODUDE,
+            .species = SPECIES_PUMPKABOO,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 13,
