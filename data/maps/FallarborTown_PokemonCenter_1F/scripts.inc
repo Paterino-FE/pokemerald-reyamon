@@ -32,9 +32,12 @@ FallarborTown_PokemonCenter_1F_EventScript_Lanette::
 	faceplayer
 	msgbox FallarborTown_PokemonCenter_1F_Text_LanetteGreeting, MSGBOX_DEFAULT
 	closemessage
-	switch VAR_FACING
-	case DIR_NORTH, FallarborTown_PokemonCenter_1F_EventScript_LanetteExitNorth
-	case DIR_WEST, FallarborTown_PokemonCenter_1F_EventScript_LanetteExitWest
+	fadescreen FADE_TO_WHITE
+	playse SE_WARP_OUT
+	removeobject LOCALID_LANETTE
+	clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+	waitse
+	fadescreen FADE_FROM_WHITE
 	end
 
 FallarborTown_PokemonCenter_1F_EventScript_LanetteExitNorth::
@@ -85,21 +88,20 @@ FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest:
 	step_end
 
 FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
-	.string "Oh, hello.\n"
-	.string "You are?\p"
-	.string "Okay, your name's {PLAYER}{KUN}.\n"
-	.string "I can see that you're a TRAINER.\p"
-	.string "So that means you use the POKéMON\n"
-	.string "Storage System I developed.\p"
-	.string "How I arrived at that conclusion is\n"
-	.string "a simple deductive process.\p"
-	.string "You spoke to me because you wanted\n"
-	.string "to access something on this PC.\p"
-	.string "Oh, I'm sorry. I'm LANETTE.\p"
-	.string "Honestly, I'm glad to meet you--it's\n"
-	.string "great you're using the Storage System.\p"
-	.string "If you could, please visit me at home.\n"
-	.string "My house is on ROUTE 114.$"
+	.string "Forty: Oh, hi!\n"
+	.string "Remember me from the first gym?\p"
+	.string "I was just fixing some bugs in\n"
+	.string "the code of the storage system.\p"
+	.string "I hope you have been enjoying\n"
+	.string "yourself thus far.\p"
+	.string "But enough of that.\p"
+	.string "You probably talked to me because\n"
+	.string "you wanted to use this PC.\p"
+	.string "If you want, you can visit me in\n"
+	.string "my house on ROUTE 114.\p"
+	.string "I might have something very cool\n"
+	.string "for you if you do.\p"
+	.string "Time for me to teleport home!$"
 
 FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
 	.string "I wonder what POKéMON looked like\n"

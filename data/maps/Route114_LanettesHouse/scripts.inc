@@ -12,8 +12,8 @@ Route114_LanettesHouse_EventScript_Lanette::
 	goto_if_set FLAG_RECEIVED_DOLL_LANETTE, Route114_LanettesHouse_EventScript_OfferAdvice
 	setflag FLAG_SYS_PC_LANETTE
 	msgbox Route114_LanettesHouse_Text_EverythingClutteredKeepThis, MSGBOX_DEFAULT
-	givedecoration DECOR_LOTAD_DOLL
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowNoRoomForDecor
+	giveitem ITEM_TM_ICE_BEAM
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_DOLL_LANETTE
 	release
 	end
@@ -46,21 +46,22 @@ Route114_LanettesHouse_EventScript_PC::
 	end
 
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
-	.string "LANETTE: Oh! {PLAYER}{KUN}!\p"
-	.string "I'm sorry everything is so cluttered…\n"
-	.string "When I get engrossed in research,\l"
-	.string "things end up this way…\p"
-	.string "This is embarrassing… Please keep\n"
-	.string "this a secret in exchange for this.$"
+	.string "Forty: Oh Wow! {PLAYER}{KUN}!\p"
+	.string "You actually came!\n"
+	.string "... ... ... ... ... ... ... ...\p"
+	.string "This house is a cluttered mess!\p"
+	.string "Please don't tell anyone how I live…\p"
+	.string "In exchange I will give you this!$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
-	.string "May I offer advice about my POKéMON\n"
-	.string "Storage System?\p"
-	.string "You should organize your BOXES so you\n"
-	.string "can tell which POKéMON are in them.$"
+	.string "TM13 contains Ice Beam!\p"
+	.string "I did promise something really\n"
+	.string "cool, didn't I? Hehehehehe!\p"
+	.string "I might be a Dirkling, but I still\n"
+	.string "support you!$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage1:
-	.string "It's LANETTE's research notes.\n"
+	.string "It's Forty's research notes.\n"
 	.string "There's information about BOXES.\p"
 	.string "Design BOXES to hold 30 POKéMON each.\p"
 	.string "Each TRAINER should be able to store\n"

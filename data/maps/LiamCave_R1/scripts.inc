@@ -132,5 +132,3 @@ LiamCave_GameCorner_Text_NeedCoinCaseForCoins:
 	.string "But you don't have a COIN CASE for\n"
 	.string "stowing the COINS.$"
 
-
-	
