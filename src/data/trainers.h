@@ -32112,7 +32112,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_OSHAWOTT,
             .gender = TRAINER_MON_FEMALE,
             .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-            .lvl = 5,
+            .lvl = 9,
             .nature = NATURE_HASTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_TORRENT,
