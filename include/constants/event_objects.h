@@ -388,6 +388,9 @@
 #define OBJ_EVENT_PAL_TAG_WINONA                  0x1129
 #define OBJ_EVENT_PAL_TAG_MOM                     0x1130
 #define OBJ_EVENT_PAL_TAG_BLOBBIRD                0x1131
+#define OBJ_EVENT_PAL_TAG_CLOWN                   0x1132
+#define OBJ_EVENT_PAL_TAG_PROFBIRCH               0x1133
+#define OBJ_EVENT_PAL_TAG_WALLY                   0x1134
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
