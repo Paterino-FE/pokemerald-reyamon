@@ -1663,8 +1663,8 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 
 SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "Lilypad: Okay, here we are!\p"
-	.string "Inside here you'll find someone named\n"
-	.string "WALLACE.\p"
+	.string "Inside here you'll find\n"
+	.string "VYRAL.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 
@@ -1689,7 +1689,7 @@ SootopolisCity_Text_MaxieArchieLeft:
 	.string "return those ORBS…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
-	.string "WALLACE: Oh?\n"
+	.string "VYRAL: Oh?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "Haven't you scaled the SKY PILLAR\n"
 	.string "yet?\p"
@@ -1697,7 +1697,7 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "the top of the SKY PILLAR…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
-	.string "WALLACE: {PLAYER}{KUN}…\p"
+	.string "VYRAL: {PLAYER}{KUN}…\p"
 	.string "The leaders of Tentacool Cruises\n"
 	.string "and Dragon Gang,\l"
 	.string "I don't think they meant harm.\p"
@@ -1705,7 +1705,7 @@ SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "have to say for themselves.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
-	.string "WALLACE: {PLAYER}{KUN}…\n"
+	.string "VYRAL: {PLAYER}{KUN}…\n"
 	.string "My eyes didn't deceive me.\p"
 	.string "Thanks to your help, SOOTOPOLIS…\n"
 	.string "No, all of HOENN was saved.\p"
@@ -1727,6 +1727,6 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "that door.$"
 
 SootopolisCity_Text_DazzledByMentor:
-	.string "WALLACE: I'm sure that you will be\n"
+	.string "VYRAL: I'm sure that you will be\n"
 	.string "dazzled by my mentor's breathtakingly\l"
 	.string "elegant battle style.$"

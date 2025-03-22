@@ -335,7 +335,7 @@ MauvilleCity_Gym_Text_WattsonIntro:
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "MY PLUSHIES!!!!!!!!!!!!!\n"
-	.string " How could you destroy them\p"
+	.string "How could you destroy them\p"
 	.string "like that?!?!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
@@ -359,11 +359,11 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 	.string "You don't get anything else \n"
-	.string "talking to me. Stop wasting my time.\p"
+	.string "talking to me. Stop wasting my time.$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "You don't get anything else \n"
-	.string "talking to me. Stop wasting my time.\p"
+	.string "talking to me. Stop wasting my time.$"
 
 MauvilleCity_Gym_Text_GymStatue:
 	.string "MAUVILLE CITY POKéMON GYM$"
