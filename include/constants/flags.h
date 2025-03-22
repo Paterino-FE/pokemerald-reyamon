@@ -1226,7 +1226,7 @@
 #define FLAG_HIDE_CROAGUNK                                          0x494 
 #define FLAG_HIDE_RIOLU                                             0x495 
 #define FLAG_HIDE_TRUBBISH_SHOP                                     0x496 
-#define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
+#define FLAG_HIDE_SLOWPOKE                                          0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag

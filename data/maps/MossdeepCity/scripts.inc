@@ -4,6 +4,7 @@
 .set LOCALID_GRUNT_4, 13
 .set LOCALID_MAXIE, 14
 .set LOCALID_SCOTT, 16
+.set LOCALID_SLOWPOKE, 18
 
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
@@ -15,6 +16,93 @@ MossdeepCity_OnTransition:
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_3
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_4
 	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
+	end
+
+
+MossdeepCity_EventScript_Slowpoke::
+	lock
+	delay 32
+	goto_if_eq VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 0, MossdeepCity_EventScript_Slowpoke_FirstPoke
+	goto_if_eq VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 1, MossdeepCity_EventScript_Slowpoke_SecondPoke
+	goto_if_eq VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 2, MossdeepCity_EventScript_Slowpoke_ThirdPoke
+	goto_if_eq VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 3, MossdeepCity_EventScript_Slowpoke_FourthPoke
+	delay 64
+	faceplayer
+	playmoncry SPECIES_SLOWPOKE, CRY_MODE_ENCOUNTER
+	waitmoncry
+	setwildbattle SPECIES_SLOWPOKE, 35, ITEM_LAGGING_TAIL
+	dowildbattle
+	fadescreen FADE_TO_WHITE
+	setflag FLAG_HIDE_SLOWPOKE
+	removeobject LOCALID_SLOWPOKE
+	fadescreen FADE_FROM_WHITE
+	release
+	end
+
+MossdeepCity_EventScript_Slowpoke_FirstPoke::
+	playse SE_M_SNORE
+	waitse
+	delay 64
+	msgbox MossdeepCity_Text_SlowPoke_FirstPoke, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_ByeSlowpoke
+	delay 16
+	playse SE_WALL_HIT
+	waitse
+	playse SE_WALL_HIT
+	waitse
+	addvar VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 1
+	goto MossdeepCity_EventScript_Slowpoke
+	end
+
+MossdeepCity_EventScript_Slowpoke_SecondPoke::
+	playse SE_M_SNORE
+	waitse
+	delay 64
+	msgbox MossdeepCity_Text_SlowPoke_SecondPoke, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_ByeSlowpoke
+	delay 16
+	playse SE_WALL_HIT
+	waitse
+	playse SE_WALL_HIT
+	waitse
+	addvar VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 1
+	goto MossdeepCity_EventScript_Slowpoke
+	end
+
+MossdeepCity_EventScript_Slowpoke_ThirdPoke::
+	playse SE_M_SNORE
+	waitse
+	delay 64
+	msgbox MossdeepCity_Text_SlowPoke_ThirdPoke, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_ByeSlowpoke
+	delay 16
+	playse SE_WALL_HIT
+	waitse
+	playse SE_WALL_HIT
+	waitse
+	addvar VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 1
+	goto MossdeepCity_EventScript_Slowpoke
+	end
+
+MossdeepCity_EventScript_Slowpoke_FourthPoke::
+	playse SE_M_SNORE
+	waitse
+	delay 64
+	msgbox MossdeepCity_Text_SlowPoke_FourthPoke, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_ByeSlowpoke
+	delay 16
+	playse SE_WALL_HIT
+	waitse
+	playse SE_WALL_HIT
+	waitse
+	addvar VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 1
+	goto MossdeepCity_EventScript_Slowpoke
+	end
+
+MossdeepCity_EventScript_ByeSlowpoke::
+	msgbox MossdeepCity_Text_SlowPoke_ByeSlowpoke, MSGBOX_DEFAULT
+	setvar VAR_ENCOUNTER_SLOWPOKE_MOSSDEEP_CITY, 0
+	release
 	end
 
 MossdeepCity_EventScript_PokefanF::
@@ -37,6 +125,29 @@ MossdeepCity_EventScript_Sailor::
 	msgbox MossdeepCity_Text_MossdeepTargetedByMagma, MSGBOX_DEFAULT
 	release
 	end
+
+MossdeepCity_Text_SlowPoke_FirstPoke:
+	.string "It's fast asleep.\n"
+	.string "Do you want to poke it slowly?$"
+
+MossdeepCity_Text_SlowPoke_SecondPoke:
+	.string "It has not woken up, yet...\n"
+	.string "Do you want to poke it again?$"
+
+MossdeepCity_Text_SlowPoke_ThirdPoke:
+	.string "You should better stop this!\n"
+	.string "Or do you REALLY want to\l"
+	.string "poke it again?$"
+
+MossdeepCity_Text_SlowPoke_FourthPoke:
+	.string "Its sleep is restless!\n"
+	.string "If it wakes up, it might be angry!\p"
+	.string "Do you poke it anyway?$"
+
+MossdeepCity_Text_SlowPoke_ByeSlowpoke:
+	.string "That's right, better to let\n"
+	.string "this one sleep...$"
+
 
 MossdeepCity_EventScript_SailorMagmaGone::
 	msgbox MossdeepCity_Text_FeelReliefOnLand, MSGBOX_DEFAULT
