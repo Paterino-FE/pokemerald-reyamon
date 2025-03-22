@@ -13171,7 +13171,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_TAUROS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4887
-            .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 4886
             .lvl = 22,
             .nature = NATURE_HARDY,
@@ -13191,9 +13191,8 @@ F_TRAINER_FEMALE |
             .species = SPECIES_DRAGONITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4893
-            .heldItem = ITEM_SITRUS_BERRY,
 #line 4895
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 4894
             .lvl = 24,
             .nature = NATURE_QUIRKY,
