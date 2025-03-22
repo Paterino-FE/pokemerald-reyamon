@@ -560,16 +560,16 @@ MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … Click!$"
 
 MauvilleCity_Text_RegisteredWally:
-	.string "Registered WALLY\n"
+	.string "Registered LILYPAD\n"
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "SCOTT: Hehe…\n"
 	.string "I was watching that match!\p"
-	.string "You're friends with that boy WALLY,\n"
+	.string "You're friends with LILYPAD,\n"
 	.string "aren't you?\p"
 	.string "But you didn't hold anything back\n"
-	.string "and beat him impressively.\p"
+	.string "and beat her impressively.\p"
 	.string "Yeah! That's what a real POKéMON\n"
 	.string "battle is all about!\p"
 	.string "I idolize TRAINERS like that!\p"

@@ -133,10 +133,10 @@ VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "lively since she came here.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
-	.string "WANDA: Don't worry about WALLY.\n"
-	.string "He'll be just fine.\p"
-	.string "I know my little cousin, and he has\n"
-	.string "POKéMON with him, too.$"
+	.string "WANDA: Don't worry about LILYPAD.\n"
+	.string "She'll be just fine.\p"
+	.string "I know my little cousin, and she has\n"
+	.string "POKéMON with her, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
 	.string "Thanks to you, I can see my girlfriend\n"
@@ -157,8 +157,8 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
 	.string "It's so incredible!$"
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
-	.string "If anything were to happen to WALLY,\n"
-	.string "I would never be able to look his\l"
+	.string "If anything were to happen to LILYPAD,\n"
+	.string "I would never be able to look her\l"
 	.string "parents in PETALBURG in the eye…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
