@@ -1585,7 +1585,7 @@
     },
     {
       "map_section": "MAPSEC_AQUA_HIDEOUT",
-      "name": "AQUA HIDEOUT",
+      "name": "TENTACOOL CENTRAL",
       "x": 19,
       "y": 3,
       "width": 1,
@@ -1593,7 +1593,7 @@
     },
     {
       "map_section": "MAPSEC_MAGMA_HIDEOUT",
-      "name": "MAGMA HIDEOUT",
+      "name": "DRAGONS' LAIR",
       "x": 6,
       "y": 3,
       "width": 1,
