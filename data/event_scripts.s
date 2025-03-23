@@ -1156,3 +1156,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LiamCave_R2/scripts.inc"
 
 	.include "data/maps/LiamCave_R3/scripts.inc"
+
+	.include "data/maps/MagmaHideout_Sleep/scripts.inc"

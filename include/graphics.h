@@ -3352,6 +3352,8 @@ extern const u16 gObjectEventPal_BlobBird[];
 extern const u16 gObjectEventPal_ProfBirch[];
 extern const u16 gObjectEventPal_Clown[];
 extern const u16 gObjectEventPal_Wally[];
+extern const u16 gObjectEventPal_Juan[];
+extern const u16 gObjectEventPal_Wattson[];
 
 // Mail
 extern const u16 gMailPalette_Orange[];

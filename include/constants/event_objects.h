@@ -391,6 +391,8 @@
 #define OBJ_EVENT_PAL_TAG_CLOWN                   0x1132
 #define OBJ_EVENT_PAL_TAG_PROFBIRCH               0x1133
 #define OBJ_EVENT_PAL_TAG_WALLY                   0x1134
+#define OBJ_EVENT_PAL_TAG_JUAN                    0x1135
+#define OBJ_EVENT_PAL_TAG_WATTSON                 0x1136
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
