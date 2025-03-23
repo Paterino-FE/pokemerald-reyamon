@@ -13605,7 +13605,7 @@ F_TRAINER_FEMALE |
             .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
             {
@@ -13617,7 +13617,7 @@ F_TRAINER_FEMALE |
             .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
             {
@@ -13630,7 +13630,7 @@ F_TRAINER_FEMALE |
             .lvl = 41,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
             {
@@ -13643,7 +13643,7 @@ F_TRAINER_FEMALE |
             .lvl = 41,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
             {
@@ -13656,7 +13656,7 @@ F_TRAINER_FEMALE |
             .lvl = 41,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
             {
@@ -13669,7 +13669,7 @@ F_TRAINER_FEMALE |
             .lvl = 41,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_LIMBER,
+            .ability = ABILITY_IMPOSTER,
             .moves = {MOVE_TRANSFORM},
             },
         },
