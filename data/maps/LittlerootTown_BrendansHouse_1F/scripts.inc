@@ -301,9 +301,9 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "set, yet.$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "EMILIA: Well, {PLAYER}?\p"
-	.string "Aren't you interested in seeing your\n"
-	.string "very own room?$"
+	.string "EMILIA: Lady {PLAYER}?\p"
+	.string "Are you not interested in seeing\n"
+	.string "your chambers?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
 	.string "EMILIA: Lady {PLAYER}.\p"
