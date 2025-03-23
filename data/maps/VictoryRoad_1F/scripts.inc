@@ -59,6 +59,17 @@ VictoryRoad_1F_EventScript_WallyMoveAside::
 	releaseall
 	end
 
+VictoryRoad_1F_EventScript_Nurse::
+	lockall
+	faceplayer
+	msgbox VictoryRoad_1F_Text_Nurse, MSGBOX_DEFAULT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	releaseall
+	end
+
 VictoryRoad_1F_Movement_WallyApproachPlayer1:
 	walk_left
 	walk_left
@@ -140,6 +151,11 @@ VictoryRoad_1F_EventScript_Lumi::
 	trainerbattle_single TRAINER_LUMI, VictoryRoad_1F_Text_LumiIntro, VictoryRoad_1F_Text_LumiDefeat
 	msgbox VictoryRoad_1F_Text_LumiPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+VictoryRoad_1F_Text_Nurse:
+	.string "Your POKéMON deserve rest.\n"
+	.string "Let me heal them.$"
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "LILYPAD: Hi! {PLAYER}!\p"

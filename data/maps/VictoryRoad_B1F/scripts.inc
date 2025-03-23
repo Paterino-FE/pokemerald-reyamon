@@ -26,6 +26,22 @@ VictoryRoad_B1F_EventScript_Halle::
 	msgbox VictoryRoad_B1F_Text_HallePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+VictoryRoad_B1F_EventScript_Nurse::
+	lockall
+	faceplayer
+	msgbox VictoryRoad_B1F_Text_Nurse, MSGBOX_DEFAULT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	releaseall
+	end
+
+VictoryRoad_B1F_Text_Nurse:
+	.string "Your POKéMON deserve rest.\n"
+	.string "Let me heal them.$"
+
+
 VictoryRoad_B1F_Text_SamuelIntro:
 	.string "Vyral game me some tips on how\n"
 	.string "to improve my team!$"

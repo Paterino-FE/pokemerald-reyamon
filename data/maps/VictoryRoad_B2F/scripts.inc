@@ -31,6 +31,21 @@ VictoryRoad_B2F_EventScript_Dianne::
 	msgbox VictoryRoad_B2F_Text_DiannePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+VictoryRoad_B2F_EventScript_Nurse::
+	lockall
+	faceplayer
+	msgbox VictoryRoad_B2F_Text_Nurse, MSGBOX_DEFAULT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	releaseall
+	end
+
+VictoryRoad_B2F_Text_Nurse:
+	.string "Your POKéMON deserve rest.\n"
+	.string "Let me heal them.$"
+
 VictoryRoad_B2F_Text_VitoIntro:
 	.string "Vyral told me to invest in antiques,\n"
 	.string "now you stand no chance!$"
