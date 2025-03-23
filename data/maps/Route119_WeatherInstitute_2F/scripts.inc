@@ -262,7 +262,7 @@ Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "you are.$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat:
-	.string "Huh, guess I should'’'ve used more\n"
+	.string "Huh, guess I should've used more\n"
 	.string "than 1 percent of my power.$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:

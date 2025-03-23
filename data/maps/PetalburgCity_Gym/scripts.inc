@@ -1196,7 +1196,7 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "LILYPAD: I'm going to go stay with my\n"
 	.string "relatives in VERDANTURF TOWN.\p"
 	.string "I thought I would be lonely by myself,\n"
-	.string "so I caught a pokemon POKéMON to keep.\l"
+	.string "so I caught a POKéMON to keep\l"
 	.string "me company.\p"
 	.string "But we'd like to fight....$"
 
@@ -1234,7 +1234,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Head for RUSTBORO CITY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
+	.string "the GYM LEADER, Atsui.\p"
 	.string "After her, go on to other POKéMON\n"
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
