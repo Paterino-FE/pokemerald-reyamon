@@ -325,37 +325,34 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "… … … … … … … … …\n"
 	.string "… … … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
-	.string "neighbor! Hi!\p"
-	.string "We have a {STR_VAR_1} about the same\n"
-	.string "age as you.\p"
-	.string "Our {STR_VAR_1} was excited about making\n"
-	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "neighbor!\p"
+	.string "I am but a humble servant of the\n"
+	.string "great Vyral.\p"
+	.string "She should be in her lair upstairs.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "Like child, like father.\p"
-	.string "My husband is as wild about POKéMON\n"
-	.string "as our child.\p"
+	.string "PROF. PAT is as wild about POKéMON\n"
+	.string "as anyone.\p"
 	.string "If he's not at his LAB, he's likely\n"
 	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
-	.string "That Vyral!\p"
-	.string "I guess our child is too busy with\n"
-	.string "POKéMON to notice that you came\l"
-	.string "to visit, {PLAYER}{KUN}.$"
+	.string "Vyral was not present?\p"
+	.string "I deeply apologize. I am a terrible\n"
+	.string "servant who does not even know the\l"
+	.string "whereabouts of her master.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
 	.string "Oh, Vyral went out to ROUTE 103\n"
 	.string "just a little while ago.\p"
-	.string "Like father, like child.\n"
-	.string "Vyral can't stay quietly at home.$"
+	.string "My master is very adventurous.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "I think it's wonderful for people to\n"
 	.string "travel with POKéMON.\p"
 	.string "But you should go home every so often\n"
-	.string "to let your mother know you're okay.\p"
+	.string "to let your servant know you're okay.\p"
 	.string "She might not say it, but I'm sure she\n"
 	.string "worries about you, {PLAYER}{KUN}.$"
 

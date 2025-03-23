@@ -1931,7 +1931,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 # 966 "data/maps/LittlerootTown/scripts.pory"
 	.string "If anything happens, you can come home.\p"
 # 967 "data/maps/LittlerootTown/scripts.pory"
-	.string "Go on, go get them, honey!$"
+	.string "But I expect that you will succeed!$"
 # 968 "data/maps/LittlerootTown/scripts.pory"
 
 # 969 "data/maps/LittlerootTown/scripts.pory"
@@ -1997,9 +1997,9 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 # 999 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_Text_YouSavedBirch:
 # 1000 "data/maps/LittlerootTown/scripts.pory"
-	.string "You saved PROF. PAT!\n"
+	.string "I watched your battle with the cool\n"
 # 1001 "data/maps/LittlerootTown/scripts.pory"
-	.string "I'm so glad!$"
+	.string "maid! You are really cool, too!$"
 # 1002 "data/maps/LittlerootTown/scripts.pory"
 
 # 1003 "data/maps/LittlerootTown/scripts.pory"
@@ -2033,7 +2033,7 @@ LittlerootTown_Text_PlayersHouse:
 # 1017 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_Text_ProfBirchsHouse:
 # 1018 "data/maps/LittlerootTown/scripts.pory"
-	.string "PROF. PAT'S HOUSE$"
+	.string "Vyral's HOUSE$"
 # 1019 "data/maps/LittlerootTown/scripts.pory"
 
 # 1020 "data/maps/LittlerootTown/scripts.pory"

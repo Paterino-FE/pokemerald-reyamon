@@ -288,18 +288,17 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "EMILIA: See, {PLAYER}?\n"
+	.string "EMILIA: See, lady {PLAYER}?\n"
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
-	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
-	.string "Don't forget to set it!$"
+	.string "My lady, your chambers are upstairs.\n"
+	.string "Please see if they are to your liking!\p"
+	.string "The clock on the wall has not been\n"
+	.string "set, yet.$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "EMILIA: Well, {PLAYER}?\p"
@@ -307,58 +306,62 @@ PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "very own room?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "EMILIA: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "EMILIA: Lady {PLAYER}.\p"
+	.string "I must ask you to stay put until\n"
+	.string "the moving work is finished.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "EMILIA: Oh! {PLAYER}, {PLAYER}!\n"
-	.string "Quick! Come quickly!$"
+	.string "EMILIA: Lady {PLAYER}!\n"
+	.string "There is word of your homeland!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "EMILIA: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "EMILIA: It is terrible!\n"
+	.string "Dirklings are rioting...$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "EMILIA: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "The riots were already calmed down.\n"
+	.string "There is no need for us to go back\l"
+	.string "and save the empire after all.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
-	.string "One of our friends lives in town.\p"
-	.string "PROF. PAT is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "We have a neighbour.\p"
+	.string "Vyral is her name.\p"
+	.string "She lives right next door, so if your\n"
+	.string "majesty does not mind my advice, it\l"
+	.string "would be good to build relations by\l"
+	.string "paying her a visit.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "EMILIA: See you, honey!$"
+	.string "EMILIA: I will be waiting, my lady!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "EMILIA: Did you introduce yourself to\n"
 	.string "PROF. PAT?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "EMILIA: How are you doing, {PLAYER}?\n"
-	.string "You look a little tired.\p"
-	.string "I think you should rest a bit.$"
+	.string "EMILIA: How is my lady faring?\n"
+	.string "You look exhausted.\p"
+	.string "It would be best if you rested.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "EMILIA: Take care, honey!$"
+	.string "EMILIA: I will be waiting, my lady!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
-	.string "EMILIA: Oh? Did DAD give you that BADGE?\p"
-	.string "Then here's something from your MOM!$"
+	.string "EMILIA: My lady already has 5 badges?\p"
+	.string "Please take this humble gift, then.$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
-	.string "Don't push yourself too hard, dear.\n"
+	.string "Don't push yourself too hard, my lady.\n"
 	.string "You can always come home.\p"
-	.string "Go for it, honey!$"
+	.string "Everyone believes in you!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "EMILIA: What is that, honey? A POKéNAV?\n"
-	.string "Someone from DEVON gave it to you?\p"
-	.string "Well, honey, how about registering\n"
-	.string "your mom?\p"
+	.string "EMILIA: My lady acquired a POKéNAV?\n"
+	.string "It was gifted by the DEVON company?\p"
+	.string "Would my lady mind registering\n"
+	.string "her loyal servant?\p"
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom::
@@ -372,13 +375,14 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "REPORTER: …We brought you this\n"
+	.string "report from the empire.\p"
+	.string "Everything has been resolved!$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "There is a movie on TV.\p"
-	.string "Two men are dancing on a big piano\n"
-	.string "keyboard.\p"
+	.string "Two girls are holding hands\n"
+	.string "in a cafe.\p"
 	.string "Better get going!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
