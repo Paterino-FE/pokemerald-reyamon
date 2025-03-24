@@ -12996,7 +12996,7 @@ F_TRAINER_FEMALE |
 #line 4830
             TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 4831
-        .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
+        .items = { ITEM_SUPER_POTION },
 #line 4832
         .doubleBattle = FALSE,
 #line 4833
@@ -13034,7 +13034,6 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .heldItem = ITEM_SITRUS_BERRY,
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
             .lvl = 18,
             .nature = NATURE_RELAXED,
@@ -13055,7 +13054,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_LEADER_CLOR,
         .encounterMusic_gender = 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
+        .items = { ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
@@ -13069,7 +13068,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MILD,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-                MOVE_TOXIC_SPIKES,
+                MOVE_ACID_SPRAY,
                 MOVE_POISON_GAS,
                 MOVE_INFESTATION,
                 MOVE_POUND,
@@ -13092,7 +13091,6 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_KOFFING,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .heldItem = ITEM_SITRUS_BERRY,
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
             .lvl = 18,
             .nature = NATURE_HARDY,
