@@ -295,7 +295,7 @@ SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
 	.string "You might have heard of us!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
-	.string "Well this isnLt going to get\n"
+	.string "Well, this isn't going to get\n"
 	.string "you any special deals.$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
@@ -308,7 +308,7 @@ SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
 	.string "package.$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
-	.string "Well you're not getting the special\n"
+	.string "Well, you're not getting the special\n"
 	.string "offer now!$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:

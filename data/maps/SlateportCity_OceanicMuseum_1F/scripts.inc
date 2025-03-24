@@ -252,8 +252,8 @@ SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
 	.string "How much do you think this stuff is\n"
-	.string "worth? Is this get out of debt type\l$"
-	.string "of money?$"
+	.string "worth? Is this some get out of debt\l"
+	.string "type of money?$"
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
 	.string "Can you believe water has all this\n"
