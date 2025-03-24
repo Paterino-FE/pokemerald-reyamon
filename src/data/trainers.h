@@ -19613,9 +19613,9 @@ F_TRAINER_FEMALE |
             .species = SPECIES_TOUCANNON,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 7375
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
 #line 7374
-            .lvl = 33,
+            .lvl = 31,
             .nature = NATURE_HASTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SKILL_LINK,
