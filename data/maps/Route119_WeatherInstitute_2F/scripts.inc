@@ -256,7 +256,7 @@ Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "even need my strongest Pokemon\n"
 	.string "for this. Gearing up to challenge\l"
 	.string "Hatzoome is admirable, but you'll\l"
-	.string "have to get through me first.\p$"
+	.string "have to get through me first.\p"
 	.string "And I will make short work of you,\n"
 	.string "which is funny seeing how short\l"
 	.string "you are.$"

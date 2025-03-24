@@ -1451,7 +1451,7 @@ PetalburgCity_Gym_Text_MaryIntro:
 	.string "If anyone who criticizes my way of\n"
 	.string "life were to come forward, I'd turn\p"
 	.string "around and kill every single one of\n"
-	.string "their loved ones, so that they too\p$"
+	.string "their loved ones, so that they too\p"
 	.string "can grasp what it's like...\n"
 	.string "to experience this hatred of mine.$"
 

@@ -74,7 +74,7 @@ EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
 	.string "I believe we can end things here.\p"
-	.string "It's not often that I get to enjoy\n$"
+	.string "It's not often that I get to enjoy\n"
 	.string "the company of guests, after all.\p"
 	.string "I wouldn't want things to get too\n"
 	.string "out of hand.$"

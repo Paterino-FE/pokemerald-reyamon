@@ -272,7 +272,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "probably just need to grab your\l"
 	.string "checkbook from home, I get it.\p"
 	.string "Just be careful around the Dragon\n"
-	.string "Gang. As you can see, they're always\l$"
+	.string "Gang. As you can see, they're always\l"
 	.string "doing reckless things to increase\l"
 	.string "their power.\p"
 	.string "Couldn't be me though, am I right?$"
