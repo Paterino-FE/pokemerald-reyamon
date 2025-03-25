@@ -125,6 +125,18 @@ BattleFrontier_Lounge7_EventScript_SwordsDance::
 	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
 	end
 
+BattleFrontier_Lounge7_EventScript_DracoMeteor::
+	setvar VAR_0x8008, 48
+	setvar VAR_0x8005, MOVE_DRACO_METEOR
+	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
+	end
+
+BattleFrontier_Lounge7_EventScript_SolarBeam::
+	setvar VAR_0x8008, 48
+	setvar VAR_0x8005, MOVE_SOLAR_BEAM
+	goto BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection
+	end
+
 BattleFrontier_Lounge7_EventScript_RightMoveTutor::
 	lock
 	faceplayer
