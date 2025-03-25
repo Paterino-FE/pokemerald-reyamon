@@ -99,7 +99,7 @@
 #line 112
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 113
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
         .encounterMusic_gender = 
 #line 115
             TRAINER_ENCOUNTER_MUSIC_AQUA,
@@ -675,7 +675,7 @@ F_TRAINER_FEMALE |
 #line 331
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 332
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
         .encounterMusic_gender = 
 #line 334
             TRAINER_ENCOUNTER_MUSIC_AQUA,
@@ -715,7 +715,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 346
-    [TRAINER_GRUNT_WEATHER_INST_2] =
+    [TRAINER_GRUNT_WEATHER_INST_1] =
     {
 #line 347
         .trainerName = _("Friend"),
@@ -1054,14 +1054,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 470
-    [TRAINER_GRUNT_WEATHER_INST_2] =
+    [TRAINER_GRUNT_WEATHER_INST_3] =
     {
 #line 471
         .trainerName = _("Friend"),
 #line 472
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 473
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender = 
 #line 474
 F_TRAINER_FEMALE | 
@@ -1097,7 +1097,7 @@ F_TRAINER_FEMALE |
 #line 485
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 486
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender = 
 #line 487
 F_TRAINER_FEMALE | 
@@ -1133,7 +1133,7 @@ F_TRAINER_FEMALE |
 #line 498
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 499
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender = 
 #line 500
 F_TRAINER_FEMALE | 
@@ -9148,7 +9148,7 @@ F_TRAINER_FEMALE |
 #line 3383
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3384
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender = 
 #line 3385
 F_TRAINER_FEMALE | 
@@ -9197,7 +9197,7 @@ F_TRAINER_FEMALE |
 #line 3400
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3401
-        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
         .encounterMusic_gender = 
 #line 3403
             TRAINER_ENCOUNTER_MUSIC_AQUA,
@@ -28684,7 +28684,7 @@ F_TRAINER_FEMALE |
 #line 10771
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 10772
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender = 
 #line 10773
 F_TRAINER_FEMALE | 
@@ -35307,7 +35307,7 @@ F_TRAINER_FEMALE |
 #line 13304
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13305
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
         .encounterMusic_gender = 
 #line 13307
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
@@ -35462,7 +35462,7 @@ F_TRAINER_FEMALE |
 #line 13364
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13365
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
         .encounterMusic_gender = 
 #line 13367
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
@@ -35694,7 +35694,7 @@ F_TRAINER_FEMALE |
 #line 13455
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13456
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender = 
 #line 13457
 F_TRAINER_FEMALE | 
@@ -35764,7 +35764,7 @@ F_TRAINER_FEMALE |
 #line 13481
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 13482
-        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender = 
 #line 13483
 F_TRAINER_FEMALE | 
