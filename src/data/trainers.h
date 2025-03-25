@@ -58,7 +58,7 @@
         },
     },
 #line 97
-    [TRAINER_GRUNT_AQUA_HIDEOUT_1] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_1] = 
     {
 #line 98
         .trainerName = _("Friend"),
@@ -92,7 +92,7 @@
         },
     },
 #line 110
-    [TRAINER_GRUNT_AQUA_HIDEOUT_2] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_5] = // 5
     {
 #line 111
         .trainerName = _("Friend"),
@@ -140,7 +140,7 @@
         },
     },
 #line 127
-    [TRAINER_GRUNT_AQUA_HIDEOUT_3] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_7] = // 7
     {
 #line 128
         .trainerName = _("Friend"),
@@ -174,7 +174,7 @@
         },
     },
 #line 140
-    [TRAINER_GRUNT_AQUA_HIDEOUT_4] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_2] = // 2
     {
 #line 141
         .trainerName = _("Friend"),
@@ -668,7 +668,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 329
-    [TRAINER_GRUNT_WEATHER_INST_1] =
+    [TRAINER_GRUNT_WEATHER_INST_4] =
     {
 #line 330
         .trainerName = _("Friend"),
@@ -763,7 +763,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 363
-    [TRAINER_GRUNT_WEATHER_INST_3] =
+    [TRAINER_GRUNT_WEATHER_INST_2] =
     {
 #line 364
         .trainerName = _("Friend"),
@@ -905,7 +905,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 414
-    [TRAINER_GRUNT_SPACE_CENTER_1] =
+    [TRAINER_GRUNT_SPACE_CENTER_3] = // 3
     {
 #line 415
         .trainerName = _("MINION"),
@@ -938,7 +938,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 427
-    [TRAINER_GRUNT_MT_PYRE_1] =
+    [TRAINER_GRUNT_MT_PYRE_2] = // 2
     {
 #line 428
         .trainerName = _("Friend"),
@@ -972,7 +972,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 440
-    [TRAINER_GRUNT_MT_PYRE_2] =
+    [TRAINER_GRUNT_MT_PYRE_1] = //1
     {
 #line 441
         .trainerName = _("Friend"),
@@ -1054,7 +1054,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 470
-    [TRAINER_GRUNT_WEATHER_INST_4] =
+    [TRAINER_GRUNT_WEATHER_INST_2] =
     {
 #line 471
         .trainerName = _("Friend"),
@@ -1090,7 +1090,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 483
-    [TRAINER_GRUNT_AQUA_HIDEOUT_5] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_4] = // 4
     {
 #line 484
         .trainerName = _("Friend"),
@@ -1126,7 +1126,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 496
-    [TRAINER_GRUNT_AQUA_HIDEOUT_6] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_3] = // 3
     {
 #line 497
         .trainerName = _("Friend"),
@@ -5943,7 +5943,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 2156
-    [TRAINER_GRUNT_SPACE_CENTER_2] =
+    [TRAINER_GRUNT_SPACE_CENTER_1] = // 1
     {
 #line 2157
         .trainerName = _("MINION"),
@@ -9141,7 +9141,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 3381
-    [TRAINER_GRUNT_AQUA_HIDEOUT_7] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_8] = // 8
     {
 #line 3382
         .trainerName = _("Friend"),
@@ -9190,7 +9190,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 3398
-    [TRAINER_GRUNT_AQUA_HIDEOUT_8] =
+    [TRAINER_GRUNT_AQUA_HIDEOUT_6] = // 6
     {
 #line 3399
         .trainerName = _("Friend"),
@@ -28677,7 +28677,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 10769
-    [TRAINER_GRUNT_SPACE_CENTER_3] =
+    [TRAINER_GRUNT_SPACE_CENTER_4] = // 4
     {
 #line 10770
         .trainerName = _("MINION"),
@@ -28726,7 +28726,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 10786
-    [TRAINER_GRUNT_SPACE_CENTER_4] =
+    [TRAINER_GRUNT_SPACE_CENTER_2] = // 2
     {
 #line 10787
         .trainerName = _("MINION"),
@@ -35234,7 +35234,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13276
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_1] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_2] = // 2
     {
 #line 13277
         .trainerName = _("MINION"),
@@ -35267,7 +35267,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13289
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_2] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_3] = // 3
     {
 #line 13290
         .trainerName = _("MINION"),
@@ -35300,7 +35300,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13302
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_3] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_14] = // 14
     {
 #line 13303
         .trainerName = _("MINION"),
@@ -35422,7 +35422,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13349
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_6] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_9] = // 9
     {
 #line 13350
         .trainerName = _("MINION"),
@@ -35455,7 +35455,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13362
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_7] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_16] = // 16
     {
 #line 13363
         .trainerName = _("MINION"),
@@ -35488,7 +35488,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13375
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_8] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_11] = // 11
     {
 #line 13376
         .trainerName = _("MINION"),
@@ -35521,7 +35521,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13388
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_9] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_12] = // 12
     {
 #line 13389
         .trainerName = _("MINION"),
@@ -35554,7 +35554,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13401
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_10] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_13] = // 13
     {
 #line 13402
         .trainerName = _("MINION"),
@@ -35587,7 +35587,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13414
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_11] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_10] = // 10
     {
 #line 13415
         .trainerName = _("MINION"),
@@ -35620,7 +35620,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13427
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_12] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_7] = // 7
     {
 #line 13428
         .trainerName = _("MINION"),
@@ -35654,7 +35654,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13440
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_13] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_8] = // 8
     {
 #line 13441
         .trainerName = _("MINION"),
@@ -35687,7 +35687,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13453
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_14] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_6] = // 6
     {
 #line 13454
         .trainerName = _("MINION"),
@@ -35757,7 +35757,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 13479
-    [TRAINER_GRUNT_MAGMA_HIDEOUT_16] =
+    [TRAINER_GRUNT_MAGMA_HIDEOUT_1] = // 1
     {
 #line 13480
         .trainerName = _("MINION"),
