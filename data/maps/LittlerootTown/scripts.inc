@@ -1925,7 +1925,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 # 963 "data/maps/LittlerootTown/scripts.pory"
 	.string "POKéMON now…\l"
 # 964 "data/maps/LittlerootTown/scripts.pory"
-	.string "Your father will be overjoyed.\p"
+	.string "Your father would have been proud.\p"
 # 965 "data/maps/LittlerootTown/scripts.pory"
 	.string "…But please be careful.\n"
 # 966 "data/maps/LittlerootTown/scripts.pory"

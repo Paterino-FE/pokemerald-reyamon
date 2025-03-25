@@ -282,7 +282,7 @@ FortreeCity_Gym_Text_FlintPostBattle:
 	.string "up to 600lbs of lemons every year.\p"
 	.string "Fun Fact No.2: Lemon’s tree,\n"
 	.string "Sudowoodo, was brutally murdered by\l"
-	.string "Reya during the nuzlock.$"
+	.string "Reya during the Nuzlocke.$"
 
 FortreeCity_Gym_Text_AshleyIntro:
 	.string "If not friend, why friend shaped?$"
@@ -297,10 +297,10 @@ FortreeCity_Gym_Text_HumbertoIntro:
 	.string "Nigma invited me here!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
-	.string "Oh no...ill....get....banned.$"
+	.string "Oh no...I'll....get....banned.$"
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
-	.string "Oh no...ill....get....banned.$"
+	.string "Oh no...I'll....get....banned.$"
 
 FortreeCity_Gym_Text_DariusIntro:
 	.string "Oh man, it's Reya! Time to show\n"

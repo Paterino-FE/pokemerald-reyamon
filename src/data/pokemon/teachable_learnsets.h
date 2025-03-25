@@ -6314,6 +6314,7 @@ static const u16 sKingdraTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -8256,6 +8257,7 @@ static const u16 sDratiniTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -8293,6 +8295,7 @@ static const u16 sDragonairTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -8354,6 +8357,7 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DRATINI
@@ -15560,6 +15564,7 @@ static const u16 sTrapinchTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SWAGGER,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -15594,6 +15599,7 @@ static const u16 sVibravaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -15635,6 +15641,7 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TRAPINCH
@@ -15747,6 +15754,7 @@ static const u16 sSwabluTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -15784,6 +15792,7 @@ static const u16 sAltariaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SWABLU
@@ -17259,6 +17268,7 @@ static const u16 sBagonTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SWAGGER,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -17292,6 +17302,7 @@ static const u16 sShelgonTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SWAGGER,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 
@@ -17331,6 +17342,7 @@ static const u16 sSalamenceTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_BAGON
@@ -17618,6 +17630,7 @@ static const u16 sLatiasTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIAS
@@ -17670,6 +17683,7 @@ static const u16 sLatiosTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LATIOS
@@ -17824,6 +17838,7 @@ static const u16 sRayquazaTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_WAVE,
+    MOVE_DRACO_METEOR,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_RAYQUAZA

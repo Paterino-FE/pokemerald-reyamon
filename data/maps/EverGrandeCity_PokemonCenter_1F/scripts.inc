@@ -25,8 +25,24 @@ EverGrandeCity_PokemonCenter_1F_EventScript_Nurse::
 	end
 
 EverGrandeCity_PokemonCenter_1F_EventScript_Woman::
-	msgbox EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad, MSGBOX_NPC
+	lock
+	faceplayer
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_WantToDracoMeteor, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EverGrandeCity_PokemonCenter_1F_EventScript_DeclineDracoMeteor
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_WhichMonDracoMeteor, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_DRACO_METEOR
+	call MoveTutor_EventScript_OpenPartyMenu
+	goto_if_eq VAR_RESULT, 0, EverGrandeCity_PokemonCenter_1F_EventScript_DeclineDracoMeteor
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_SvelteOutro, MSGBOX_DEFAULT
+	release
 	end
+
+EverGrandeCity_PokemonCenter_1F_EventScript_DeclineDracoMeteor::
+	msgbox EverGrandeCity_PokemonCenter_1F_Text_DeclineDracoMeteor, MSGBOX_DEFAULT
+	release
+	end
+
 
 EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM::
 	msgbox EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon, MSGBOX_NPC
@@ -77,14 +93,26 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 	step_end
 
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
-	.string "Hi pretty lady! My other mummy is\n"
-	.string "looking after me now and she gave\l"
-	.string "me some of her pokmons!\p"
-	.string "I came to find my mummy, people say\n"
-	.string "she is a bad meanie, but she’s still\l"
-	.string "my mummy… she still loves me and\l"
-	.string "I love her.\p"
-	.string "Right, pretty lady?$"
+	.string "Hi pretty lady! I practised real hard\n"
+	.string "to come find my mummy out here.\p"
+	.string "People say she is a bad meanie but\n"
+	.string "she still loves me right?\p"
+	.string "I can show you what I learned because\l"
+	.string "you nice lady who saved us!$"
+
+EverGrandeCity_PokemonCenter_1F_Text_WantToDracoMeteor:
+	.string "Want me to teach DRACO METEOR,\n"
+	.string "pretty lady?$"
+
+EverGrandeCity_PokemonCenter_1F_Text_WhichMonDracoMeteor:
+	.string "Which pokman i teach?$"
+
+EverGrandeCity_PokemonCenter_1F_Text_DeclineDracoMeteor:
+	.string "I wanted to be helpful....$"
+
+EverGrandeCity_PokemonCenter_1F_Text_SvelteOutro:
+	.string "Now you nearly as strong as dragon\n"
+	.string "but dragon still stronker!$"
 
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
 	.string "The long and harrowing VICTORY ROAD…\p"
