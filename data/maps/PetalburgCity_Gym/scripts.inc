@@ -1298,7 +1298,7 @@ PetalburgCity_Gym_Text_NormanDefeat:
 	.string "Losing drives me crazy...$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
+	.string "{PLAYER} received the CURSED BADGE\n"
 	.string "from Ange!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:

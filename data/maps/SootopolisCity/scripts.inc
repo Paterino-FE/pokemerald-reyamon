@@ -1715,12 +1715,12 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "That HIDDEN MACHINE contains\n"
-	.string "WATERFALL.\p"
-	.string "If you have the RAIN BADGE, a POKéMON\n"
+	.string "WATERFALL. If you have\l"
+	.string " the SANCTUARY BADGE, a POKéMON\l"
 	.string "that has learned that HM move can\l"
 	.string "force its way up waterfalls.\p"
-	.string "And where does one get the RAIN BADGE?\n"
-	.string "You know, don't you?\p"
+	.string "And where does one get the SANCTUARY\n"
+	.string "BADGE? You know, don't you?\p"
 	.string "That's right! You have to beat\n"
 	.string "the SOOTOPOLIS GYM LEADER.\p"
 	.string "When you're all set to go, step through\n"

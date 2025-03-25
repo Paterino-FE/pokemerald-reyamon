@@ -13410,7 +13410,7 @@ F_TRAINER_FEMALE |
             },
             },
             {
-            .species = SPECIES_AMOONGUSS,
+            .species = SPECIES_CRABOMINABLE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_CHESTO_BERRY,
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),

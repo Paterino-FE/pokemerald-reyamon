@@ -562,7 +562,7 @@ MtChimney_Text_MaxieIntro:
 	.string "I've heard you've been giving\n"
 	.string "Hatzoome grief. Certainly an\l"
 	.string "opponent befitting your lack\l"
-	.string "of stature. Oh.\p"
+	.string "of stature. Oh?\p"
 	.string "You mean to strike above your\l"
 	.string "station, little Empress?\p"
 	.string "Bullying my real daughter (real)\n"
@@ -570,7 +570,8 @@ MtChimney_Text_MaxieIntro:
 	.string "Now you intend to interrupt our\n"
 	.string "noble goal of creating more land\l"
 	.string "with which to restore the dragon\l"
-	.string "empire, create more shinies to hoard.\p"
+	.string "empire and create more shinies\l"
+	.string "to hoard.\p"
 	.string "Causes very near and dear to my\n"
 	.string "heart of course.\p"
 	.string "Very well, I'll allow you to\p"
@@ -655,8 +656,8 @@ MtChimney_Text_AquasNameSimilar:
 	.string "They're just in it for money.$"
 
 MtChimney_Text_DouseThemInFire:
-	.string "Yeah!\n"
-	.string "Douse them in fire!$"
+	.string "Dragon strong and smart,\n"
+	.string "Dragon smash!$"
 
 MtChimney_Text_KeepMakingMoreLand:
 	.string "Cuteness has no place in a world of\n"

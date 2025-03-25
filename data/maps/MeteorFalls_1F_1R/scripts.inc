@@ -238,8 +238,7 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
-	.string "Svelte: Hello pretty lady!\n"
-	.string "I have the shiny rock!\p"
+	.string "I have the shiny rock!\n"
 	.string "I have the shiny rock!$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
