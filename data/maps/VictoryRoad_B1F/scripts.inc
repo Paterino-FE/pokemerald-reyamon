@@ -43,7 +43,7 @@ VictoryRoad_B1F_Text_Nurse:
 
 
 VictoryRoad_B1F_Text_SamuelIntro:
-	.string "Vyral game me some tips on how\n"
+	.string "Vyral gave me some tips on how\n"
 	.string "to improve my team!$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
