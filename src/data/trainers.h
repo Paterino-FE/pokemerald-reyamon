@@ -35950,7 +35950,7 @@ F_TRAINER_FEMALE |
 #line 13550
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 13549
-            .lvl = 43,
+            .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SAP_SIPPER,
@@ -35964,7 +35964,7 @@ F_TRAINER_FEMALE |
 #line 13554
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 13553
-            .lvl = 44,
+            .lvl = 43,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_PRANKSTER,
