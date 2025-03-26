@@ -20216,7 +20216,7 @@ F_TRAINER_FEMALE |
 #line 7609
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 7610
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
+        .trainerPic = TRAINER_PIC_SALON_MAIDEN_ANABEL,
         .encounterMusic_gender = 
 #line 7611
 F_TRAINER_FEMALE | 
