@@ -425,10 +425,8 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
 	.string "She’s just a kid.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
-	.string "Our glorious leader secretly thinks\n"
-	.string "she’s better than Vyral.\p"
-	.string "But come on. You see what I see,\n"
-	.string "right, {PLAYER}?$"
+	.string "I just want to rest my head on\n"
+	.string "her abs...$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
 	.string "Are we being useful to our glorious\n"
@@ -486,7 +484,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "my real daughter (real) at risk…\p"
 	.string "And if Hatzoome uses the wrong orb on\n"
 	.string "that fish… then there will be nothing\l"
-	.string "I can do. I’m not.$"
+	.string "I can do. I’m not.\n"
 	.string "I’m not strong enough. Reya. Lilypad.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:

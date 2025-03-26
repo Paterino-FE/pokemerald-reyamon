@@ -268,7 +268,7 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "Lyra: {PLAYER}, don’t say anything…\p"
 	.string "I know that I have no right to be\n"
 	.string "critical of Hatzoome… But the way\l"
-	.string "things are now, can’t let this\l"
+	.string "things are now, I can’t let this\l"
 	.string "tragedy befall my daughter, no…\p"
 	.string "Not just my daughter. Anybody.\p"
 	.string "Being powerful and saying ‘real’ for\n"
