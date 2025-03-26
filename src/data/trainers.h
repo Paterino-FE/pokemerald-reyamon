@@ -3809,16 +3809,6 @@ F_TRAINER_FEMALE |
             .moves = {MOVE_ROCK_SLIDE, MOVE_CRUNCH, MOVE_STEALTH_ROCK, MOVE_ACCELEROCK},
             },
             {
-            .species = SPECIES_LYCANROC,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-            .lvl = 43,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_KEEN_EYE,
-            .moves = {MOVE_ROCK_SLIDE, MOVE_CRUNCH, MOVE_STEALTH_ROCK, MOVE_ACCELEROCK},
-            },
-            {
             .species = SPECIES_TALONFLAME,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
