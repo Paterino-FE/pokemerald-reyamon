@@ -121,7 +121,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
       "x": 5,
-      "y": 16,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -204,14 +204,14 @@
       "y": 32,
       "elevation": 3,
       "dest_map": "MAP_VICTORY_ROAD_B1F",
-      "dest_warp_id": "5"
+      "dest_warp_id": "4"
     },
     {
       "x": 42,
       "y": 38,
       "elevation": 4,
       "dest_map": "MAP_VICTORY_ROAD_B1F",
-      "dest_warp_id": "2"
+      "dest_warp_id": "1"
     },
     {
       "x": 9,
