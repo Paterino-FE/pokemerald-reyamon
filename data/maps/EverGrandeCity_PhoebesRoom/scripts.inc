@@ -69,7 +69,7 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 EverGrandeCity_PhoebesRoom_Text_Defeat:
 	.string "Gather your party, venture forth,\n"
 	.string "much love to you, darling!\p"
-	.string "You have truly become a shiny gem!$"
+	.string "You have truly become a shining gem!$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
 	.string "You're still mesmerized by my beauty?\n"
