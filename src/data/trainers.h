@@ -12342,7 +12342,7 @@ F_TRAINER_FEMALE |
 #line 4594
         .doubleBattle = FALSE,
 #line 4595
-        .aiFlags = AI_FLAG_BASIC_TRAINER | AI_FLAG_FORCE_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
 #line 4596
         .mugshotEnabled = TRUE,
         .mugshotColor = MUGSHOT_COLOR_PURPLE,
@@ -12356,7 +12356,7 @@ F_TRAINER_FEMALE |
 #line 4600
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4599
-            .lvl = 46,
+            .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_FLAME_BODY,
@@ -12375,7 +12375,7 @@ F_TRAINER_FEMALE |
 #line 4608
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4607
-            .lvl = 49,
+            .lvl = 51,
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_CURSED_BODY,
@@ -12395,7 +12395,7 @@ F_TRAINER_FEMALE |
 #line 4616
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4615
-            .lvl = 48,
+            .lvl = 50,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
@@ -12414,7 +12414,7 @@ F_TRAINER_FEMALE |
 #line 4624
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4623
-            .lvl = 48,
+            .lvl = 50,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_FLASH_FIRE,
@@ -12433,7 +12433,7 @@ F_TRAINER_FEMALE |
 #line 4632
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4631
-            .lvl = 48,
+            .lvl = 50,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_FLAME_BODY,
@@ -12452,7 +12452,7 @@ F_TRAINER_FEMALE |
 #line 4635
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4636
-            .lvl = 46,
+            .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_EARLY_BIRD,
@@ -12499,7 +12499,7 @@ F_TRAINER_FEMALE |
 #line 4651
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4650
-            .lvl = 48,
+            .lvl = 49,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_PRESSURE,
@@ -12518,7 +12518,7 @@ F_TRAINER_FEMALE |
 #line 4659
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4658
-            .lvl = 51,
+            .lvl = 52,
             .nature = NATURE_ADAMANT,
             .ability = ABILITY_POISON_HEAL,
             .heldItem = ITEM_TOXIC_ORB,
@@ -12538,7 +12538,7 @@ F_TRAINER_FEMALE |
 #line 4667
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4666
-            .lvl = 50,
+            .lvl = 51,
             .nature = NATURE_HARDY,
             .ability = ABILITY_INNER_FOCUS,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -12557,7 +12557,7 @@ F_TRAINER_FEMALE |
 #line 4675
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4674
-            .lvl = 50,
+            .lvl = 51,
             .nature = NATURE_HARDY,
             .ability= ABILITY_INNER_FOCUS,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -12576,7 +12576,7 @@ F_TRAINER_FEMALE |
 #line 4678
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 4679
-            .lvl = 49,
+            .lvl = 50,
             .nature = NATURE_HARDY,
             .ability = ABILITY_SUPER_LUCK,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -12595,7 +12595,7 @@ F_TRAINER_FEMALE |
 #line 4683
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4682
-            .lvl = 49,
+            .lvl = 50,
             .nature = NATURE_HARDY,
             .ability = ABILITY_CORROSION,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -25030,7 +25030,7 @@ F_TRAINER_FEMALE |
 #line 9466
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 9465
-            .lvl = 44,
+            .lvl = 49,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .friendship = 200,
@@ -25050,7 +25050,7 @@ F_TRAINER_FEMALE |
 #line 9474
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 9473
-            .lvl = 43,
+            .lvl = 48,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_LEVITATE,
@@ -25069,7 +25069,7 @@ F_TRAINER_FEMALE |
 #line 9482
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 9481
-            .lvl = 41,
+            .lvl = 46,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_RAIN_DISH,
@@ -25088,7 +25088,7 @@ F_TRAINER_FEMALE |
 #line 9490
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 9489
-            .lvl = 44,
+            .lvl = 49,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_TECHNICIAN,
@@ -25107,7 +25107,7 @@ F_TRAINER_FEMALE |
 #line 9498
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 9497
-            .lvl = 45,
+            .lvl = 50,
             .nature = NATURE_HASTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_TORRENT,
