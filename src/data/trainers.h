@@ -16718,11 +16718,11 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLACE] =
     {
 #line 6244
-        .trainerName = _("WALLACE"),
+        .trainerName = _("Vyral"),
 #line 6245
         .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 6246
-        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender = 
 #line 6248
             TRAINER_ENCOUNTER_MUSIC_MALE,
