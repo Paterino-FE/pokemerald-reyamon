@@ -101,12 +101,12 @@ VictoryRoad_B1F_Text_MitchellPostBattle:
 	.string "WOWEEZ$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Now I mean it, you have the\n"
-	.string "skill issue!$"
+	.string "Our battle has FOURever been in my\n"
+	.string "heart, I've been FOURgetting to\l"
+	.string "sleep out of excitement!"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "RNG gods were on your side\n"
-	.string "this time...$"
+	.string "I guess my defeat was FOURtold...$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
 	.string "01010101 00100000 01101010 01110101\n"

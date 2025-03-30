@@ -26736,15 +26736,14 @@ F_TRAINER_FEMALE |
             .moves = {MOVE_TOXIC, MOVE_PROTECT, MOVE_ENCORE, MOVE_BRINE}
             },
             {
-            .species = SPECIES_SYLVEON,
+            .species = SPECIES_BANETTE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 46,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_CUTE_CHARM,
-            .isShiny= 1,
-            .moves = {MOVE_SWIFT, MOVE_DRAINING_KISS, MOVE_PROTECT, MOVE_WISH}
+            .ability = ABILITY_INSOMNIA,
+            .moves = {MOVE_HEX, MOVE_FEINT_ATTACK, MOVE_PHANTOM_FORCE, MOVE_WILL_O_WISP}
             },
             {
             .species = SPECIES_CHANDELURE,
@@ -28892,15 +28891,14 @@ F_TRAINER_FEMALE |
             .moves = {MOVE_PSYCHO_CUT, MOVE_FURY_CUTTER, MOVE_NIGHT_SLASH, MOVE_SWORDS_DANCE},
             },
             {
-            .species = SPECIES_SYLVEON, 
+            .species = SPECIES_BANETTE, 
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
-            .nature = NATURE_BOLD,
+            .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .isShiny = 1, 
-            .ability = ABILITY_CUTE_CHARM,
-            .moves = {MOVE_SWIFT, MOVE_DAZZLING_GLEAM, MOVE_PROTECT, MOVE_WISH},
+            .ability = ABILITY_INSOMNIA,
+            .moves = {MOVE_HEX, MOVE_FEINT_ATTACK, MOVE_SHADOW_SNEAK, MOVE_WILL_O_WISP},
             },
             {
             .species = SPECIES_CHANDELURE, 
