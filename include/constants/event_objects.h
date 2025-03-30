@@ -395,6 +395,7 @@
 #define OBJ_EVENT_PAL_TAG_JUAN                    0x1135
 #define OBJ_EVENT_PAL_TAG_WATTSON                 0x1136
 #define OBJ_EVENT_PAL_TAG_SVELTE                  0x1137
+#define OBJ_EVENT_PAL_TAG_ARCHIE                  0x1138
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
