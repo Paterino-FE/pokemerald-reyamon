@@ -50,6 +50,7 @@ const u16 gObjectEventPal_Wally[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Juan[] = INCBIN_U16("graphics/object_events/palettes/juan.gbapal");
 const u16 gObjectEventPal_Wattson[] = INCBIN_U16("graphics/object_events/palettes/wattson.gbapal");
 const u16 gObjectEventPal_BlobBird[] = INCBIN_U16("graphics/object_events/palettes/blobbird.gbapal");
+const u16 gObjectEventPal_Svelte[] = INCBIN_U16("graphics/object_events/palettes/svelte.gbapal");
 const u16 gObjectEventPal_Null16[16] = {};
 const u16 gObjectEventPal_Null17[16] = {};
 const u16 gObjectEventPal_Null18[16] = {};
