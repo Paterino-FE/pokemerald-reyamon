@@ -216,7 +216,7 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 	.string "you know. It just really gets to you\l"
 	.string "sometimes, and before you know it,\l"
 	.string "you’ve almost caused an apocalypse.\p"
-	.string "Hey Reya? Kick Vyral’s ass for me \n"
+	.string "Hey Reya? Kick VYRAL’s ass for me \n"
 	.string "when you see her. And thanks for that\l"
 	.string "whole saving the world thing I guess.$"
 
@@ -276,25 +276,25 @@ VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "My fwiends...$"
 
 VictoryRoad_1F_Text_TheaIntro:
-	.string "Thea: It's time to sink\n"
+	.string "THEA: It's time to sink\n"
 	.string "this Friendship.$"
 
 VictoryRoad_1F_Text_TheaDefeat:
-	.string "Thea: I am genuinely ....\n"
+	.string "THEA: I am genuinely ....\n"
 	.string "empressed!$"
 
 VictoryRoad_1F_Text_TheaPostBattle:
-	.string "Thea: Go away, you made\n"
-	.string "Lumi cry!$"
+	.string "THEA: Go away, you made\n"
+	.string "LUMI cry!$"
 
 VictoryRoad_1F_Text_LumiIntro:
-	.string "Lumi: WE'RE BACK!\p"
+	.string "LUMI: WE'RE BACK!\p"
 	.string "Wanna see photos of a drunken\n"
 	.string "NanamiBear scaring tourists?$"
 
 VictoryRoad_1F_Text_LumiDefeat:
-	.string "Lumi: I can't believe Thea threw\n"
+	.string "LUMI: I can't believe THEA threw\n"
 	.string "the match.$"
 
 VictoryRoad_1F_Text_LumiPostBattle:
-	.string "Lumi: Thea? More like Theaiga...Heh$"
+	.string "LUMI: THEA? More like THEAiga...Heh$"

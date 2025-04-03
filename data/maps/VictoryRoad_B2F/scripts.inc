@@ -47,7 +47,7 @@ VictoryRoad_B2F_Text_Nurse:
 	.string "Let me heal them.$"
 
 VictoryRoad_B2F_Text_VitoIntro:
-	.string "Vyral told me to invest in antiques,\n"
+	.string "VYRAL told me to invest in antiques,\n"
 	.string "now you stand no chance!$"
 
 VictoryRoad_B2F_Text_VitoDefeat:
@@ -57,7 +57,7 @@ VictoryRoad_B2F_Text_VitoDefeat:
 VictoryRoad_B2F_Text_VitoPostBattle:
 	.string "Reya you're the very best like\n"
 	.string "no one ever was!\p"
-	.string "Please give Lilypad a real good\n"
+	.string "Please give LILYPAD a real good\n"
 	.string "snuggle from me <3.$"
 
 VictoryRoad_B2F_Text_OwenIntro:
@@ -95,7 +95,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 	.string "Apply at our HEADQUARTERS please.$"
 
 VictoryRoad_B2F_Text_JulieIntro:
-	.string "Sorry Reya, but I'm team Vyral\n"
+	.string "Sorry Reya, but I'm team VYRAL\n"
 	.string "until the end!$"
 
 VictoryRoad_B2F_Text_JulieDefeat:

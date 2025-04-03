@@ -944,7 +944,7 @@ gText_MonsHealed::
 	.string "We hope you excel!$"
 
 gText_HadQuiteAnExperienceTakeRest::
-	.string "Emilia: Lady {PLAYER}!\n"
+	.string "EMILIA: Lady {PLAYER}!\n"
 	.string "Welcome home.\p"
 	.string "It sounds like you had quite\n"
 	.string "an experience.\p"
@@ -952,7 +952,7 @@ gText_HadQuiteAnExperienceTakeRest::
 	.string "rest.$"
 
 gText_MomExplainHPGetPotions::
-	.string "Emilia: Oh, good! You and your\n"
+	.string "EMILIA: Oh, good! You and your\n"
 	.string "POKéMON are looking great.\p"
 	.string "I just heard from PROF. PAT.\p"
 	.string "He said that POKéMON's energy is\n"

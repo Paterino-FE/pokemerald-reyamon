@@ -548,7 +548,7 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
 	.string "invincible POKéMON power next.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-	.string "My NAME'S SKYWARD... Just Skyward.$"
+	.string "My NAME'S SKYWARD... Just SKYWARD.$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "Aw man, I lost, guess I'll have to\n"

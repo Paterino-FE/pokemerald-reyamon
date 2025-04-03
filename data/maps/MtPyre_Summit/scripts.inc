@@ -489,10 +489,10 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "this suite.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "Hatzoome: Lyra beat me to it again,\n"
+	.string "HATZOOME: LYRA beat me to it again,\n"
 	.string "but it doesn’t matter this time.\p"
 	.string "This Red Orb is all mine now…\n"
-	.string "I, Hatzoome, can finally make my\l"
+	.string "I, HATZOOME, can finally make my\l"
 	.string "money back!\p"
 	.string "Oh… I wasn’t supposed to say that\n"
 	.string "last part aloud… Awkward.\p"
@@ -591,7 +591,7 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "Well, that, too, is fine…$"
 
 MtPyre_Summit_Text_MaxieSilence:
-	.string "Lyra: I miss my wife {PLAYER}.\p"
+	.string "LYRA: I miss my wife {PLAYER}.\p"
 	.string "I miss her a lot.$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:

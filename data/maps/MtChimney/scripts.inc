@@ -553,14 +553,14 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "By amplifying its power with this\n"
 	.string "machine I will feed the beast via\l"
 	.string "Mount Chimney.\p"
-	.string "Hehe, not even Vyral would be smart\n"
+	.string "Hehe, not even VYRAL would be smart\n"
 	.string "or strong enough for a plan lik-$"
 
 MtChimney_Text_MaxieIntro:
-	.string "Lyra: Hm? Ah yes.\n"
+	.string "LYRA: Hm? Ah yes.\n"
 	.string "The pitiful Empress Reya.\p"
 	.string "I've heard you've been giving\n"
-	.string "Hatzoome grief. Certainly an\l"
+	.string "HATZOOME grief. Certainly an\l"
 	.string "opponent befitting your lack\l"
 	.string "of stature. Oh?\p"
 	.string "You mean to strike above your\l"
@@ -582,7 +582,7 @@ MtChimney_Text_MaxieDefeat:
 	.string "You must have… you can't have…$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "Lyra: Ahem. Well, you certainly did\n"
+	.string "LYRA: Ahem. Well, you certainly did\n"
 	.string "a fine job overcoming this trial I\l"
 	.string "devised to test your worth.\p"
 	.string "Take the pathetic rock. I have an\n"
@@ -607,18 +607,18 @@ MtChimney_Text_TabithaPostBattle:
 
 MtChimney_Text_Grunt2Intro:
 	.string "Hey. I thought I was signing up to be\n"
-	.string "under Vyral and have her bark orders\l"
+	.string "under VYRAL and have her bark orders\l"
 	.string "at me, but I’ll still do my best to\l"
 	.string "defeat you.$"
 
 MtChimney_Text_Grunt2Defeat:
-	.string "I wish Vyral was the one who\n"
+	.string "I wish VYRAL was the one who\n"
 	.string "defeated me.$"
 
 MtChimney_Text_Grunt2PostBattle:
 	.string "Our glorious leader is pretty cool\n"
 	.string "and her daughter (real) is fun to\l"
-	.string "have around but I really wish Vyral\l"
+	.string "have around but I really wish VYRAL\l"
 	.string "were here…$"
 
 MtChimney_Text_Grunt1Intro:
@@ -667,7 +667,7 @@ MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "Hatzoome: Oh hey, {PLAYER}!\n"
+	.string "HATZOOME: Oh hey, {PLAYER}!\n"
 	.string "I should’ve known you'd sniff me\l"
 	.string "out once you grabbed your checkbook!\p"
 	.string "These hooligans started harassing me!\n"
@@ -678,16 +678,16 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "bad for the timeshare program!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "Hatzoome: Oh hey, {PLAYER}!\p"
+	.string "HATZOOME: Oh hey, {PLAYER}!\p"
 	.string "I want to stop that LYRA,\n"
 	.string "but I can't!\p"
 	.string "These hooligans started harassing me!$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "Hatzoome: {PLAYER}!\n"
+	.string "HATZOOME: {PLAYER}!\n"
 	.string "Thank you!\p"
 	.string "Thank you! I'm really glad you were\n"
-	.string "here to thwart Lyra's awful plan!\p"
+	.string "here to thwart LYRA's awful plan!\p"
 	.string "Oh, and I see you brought your\n"
 	.string "checkbook! Oh… you still don't want\l"
 	.string "to buy a timeshare. \p"

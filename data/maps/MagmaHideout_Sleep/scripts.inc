@@ -6,7 +6,7 @@ MagmaHideout_Sleep_EventScript_Gal::
 	end
 
 MagmaHideout_Sleep_Text_Svelte_Bed:
-	.string "This is Svelte's room that we\n"
+	.string "This is SVELTE's room that we\n"
 	.string "had to build in a day.\p"
 	.string "She mentioned you can use\n"
 	.string "her bed to heal up!$"

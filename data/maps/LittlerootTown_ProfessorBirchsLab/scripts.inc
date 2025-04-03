@@ -69,7 +69,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_PokemonStarter::
 ProfessorBirchsLab_Text_Pokemon_Starter:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "Prof. Pat: Oh, hello, {PLAYER}?\n"
+	.string "PROF. PAT: Oh, hello, {PLAYER}?\n"
 	.string "Here is Pat!\p"
 	.string "I just wanted to inform you\n"
 	.string "that I have some HOENN starters\p"
@@ -709,7 +709,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "PROF. PAT is studying the habitats\n"
 	.string "and distribution of POKéMON.\p"
-	.string "The PROF enjoys Vyral's help, too.\n"
+	.string "The PROF enjoys VYRAL's help, too.\n"
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
@@ -731,15 +731,15 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "PROF. PAT: If you work at POKéMON\n"
 	.string "and gain experience, I think you'll make\l"
 	.string "an extremely good TRAINER.\p"
-	.string "Vyral is also studying\n"
+	.string "VYRAL is also studying\n"
 	.string "POKéMON while helping me out.\p"
 	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see Vyral?$"
+	.string "a good idea to go see VYRAL?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. PAT: Great!\n"
-	.string "Vyral should be happy, too.\p"
-	.string "Get Vyral to teach you what it\n"
+	.string "VYRAL should be happy, too.\p"
+	.string "Get VYRAL to teach you what it\n"
 	.string "means to be a TRAINER.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
@@ -747,7 +747,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "You should go meet her.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-	.string "PROF. PAT: Vyral?\n"
+	.string "PROF. PAT: VYRAL?\n"
 	.string "Gone home, I think.\p"
 	.string "Or maybe that kid's scrabbling around\n"
 	.string "in tall grass again somewhere…\p"
@@ -756,11 +756,11 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "PROF. PAT: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat Vyral on\n"
+	.string "I heard you beat VYRAL on\n"
 	.string "your first try. That's excellent!\p"
-	.string "Vyral's been helping with my research\n"
+	.string "VYRAL's been helping with my research\n"
 	.string "for a long time.\p"
-	.string "Vyral has an extensive history as\n"
+	.string "VYRAL has an extensive history as\n"
 	.string "a TRAINER already.\p"
 	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
 	.string "research, but I think you should have\l"
@@ -773,11 +773,11 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. PAT: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, Vyral, goes everywhere\n"
+	.string "My kid, VYRAL, goes everywhere\n"
 	.string "with it.\p"
 	.string "Whenever my kid catches a rare POKéMON\n"
 	.string "and records its data in the POKéDEX,\l"
-	.string "why, Vyral looks for me while I'm out\l"
+	.string "why, VYRAL looks for me while I'm out\l"
 	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
@@ -844,7 +844,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "PROF. PAT: Now…\p"
-	.string "{PLAYER}{KUN} and Vyral, I've had the two\n"
+	.string "{PLAYER}{KUN} and VYRAL, I've had the two\n"
 	.string "of you help me study POKéMON.\p"
 	.string "Thanks to your help, new facts\n"
 	.string "are coming to light.\p"

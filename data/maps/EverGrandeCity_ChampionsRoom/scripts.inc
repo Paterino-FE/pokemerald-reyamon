@@ -282,7 +282,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "PROF. PAT: See?\n"
-	.string "What did I tell you, Vyral?\p"
+	.string "What did I tell you, VYRAL?\p"
 	.string "Didn't I tell you that you don't need\n"
 	.string "to worry about {PLAYER}{KUN}?\p"
 	.string "… … … … … … … …\n"

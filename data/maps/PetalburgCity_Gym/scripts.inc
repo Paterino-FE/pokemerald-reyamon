@@ -1173,7 +1173,7 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-	.string "Ange: Hm?\p"
+	.string "ANGE: Hm?\p"
 	.string "Well, if it isn't {PLAYER}!\n"
 	.string "So you're all finished moving in?\p"
 	.string "I'm surprised that you managed to\n"
@@ -1190,7 +1190,7 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "I'd like a POKéMON fight, please…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-	.string "Ange: Hm? You're… Uh… Oh, right.\n"
+	.string "ANGE: Hm? You're… Uh… Oh, right.\n"
 	.string "You're LILYPAD, right?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
@@ -1202,19 +1202,19 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "But we'd like to fight....$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "Ange: Hm. I see.$"
+	.string "ANGE: Hm. I see.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-	.string "Ange: {PLAYER}, you heard that,\n"
+	.string "ANGE: {PLAYER}, you heard that,\n"
 	.string "right?\p"
 	.string "Why don't you train with LILYPAD,\n"
 	.string "you should be evenly matched!$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "Ange: What are you waiting for?$"
+	.string "ANGE: What are you waiting for?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "Ange: Did you enjoy your little fight?$"
+	.string "ANGE: Did you enjoy your little fight?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "LILYPAD: Yes, it was great!\n"
@@ -1229,13 +1229,13 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Bye, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-	.string "Ange: Now…\p"
+	.string "ANGE: Now…\p"
 	.string "{PLAYER}, if you want to become a\n"
 	.string "strong TRAINER, here's my advice.\p"
 	.string "Head for RUSTBORO CITY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, Atsui.\p"
+	.string "the GYM LEADER, ATSUI.\p"
 	.string "After her, go on to other POKéMON\n"
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
@@ -1246,7 +1246,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "stronger.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "Ange: Hm? Aren't you going to the\n"
+	.string "ANGE: Hm? Aren't you going to the\n"
 	.string "POKéMON GYM in RUSTBORO CITY?\p"
 	.string "There's no challenge for me to\n"
 	.string "battle a greenhorn TRAINER.\p"
@@ -1256,7 +1256,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "can show me four GYM BADGES, okay?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-	.string "Ange: I see… So, you've beaten\n"
+	.string "ANGE: I see… So, you've beaten\n"
 	.string "the GYM LEADER in RUSTBORO CITY.\p"
 	.string "But there are many more TRAINERS\n"
 	.string "who are stronger than you, {PLAYER}.\p"
@@ -1265,13 +1265,13 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "You should go challenge 'em.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-	.string "Ange: Hm… {PLAYER}, you have gotten\n"
+	.string "ANGE: Hm… {PLAYER}, you have gotten\n"
 	.string "stronger.\p"
 	.string "I can tell by the number of BADGES\n"
 	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "Ange: Hi my name is Ebony Dark'ness\n"
+	.string "ANGE: Hi my name is Ebony Dark'ness\n"
 	.string "Dementia Raven Way and I have long\p"
 	.string "ebony black hair (that’s how I got\n"
 	.string "my name) with purple streaks and red\p"
@@ -1349,20 +1349,20 @@ PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "I have something I want you to have.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
-	.string "Ange, you don't mind, do you?\p"
+	.string "ANGE, you don't mind, do you?\p"
 	.string "Let me borrow {PLAYER}{KUN} for\n"
 	.string "a minute or two.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "Ange: {PLAYER}, you should go visit\n"
-	.string "Emilia every so often.\p"
+	.string "ANGE: {PLAYER}, you should go visit\n"
+	.string "EMILIA every so often.\p"
 	.string "I'm going to stay here and redouble\n"
 	.string "my training.\p"
 	.string "It would bother me as a TRAINER to\n"
 	.string "not avenge my loss to you, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
-	.string "Ange: {PLAYER}, how are things going?\p"
+	.string "ANGE: {PLAYER}, how are things going?\p"
 	.string "The world of POKéMON is deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
@@ -1509,13 +1509,13 @@ PetalburgCity_Gym_Text_JodyDefeat:
 PetalburgCity_Gym_Text_JodyPostBattle:
 	.string "Reya, you're the very best, like\n"
 	.string "no one ever was.\p"
-	.string "Please give Lilypad\n"
+	.string "Please give LILYPAD\n"
 	.string "a real good snuggle from me <3$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
 	.string "Reya, you're the very best, like\n"
 	.string "no one ever was.\p"
-	.string "Please give Lilypad\n"
+	.string "Please give LILYPAD\n"
 	.string "a real good snuggle from me <3$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
@@ -1566,11 +1566,11 @@ PetalburgCity_Gym_Text_GymStatue:
 
 PetalburgCity_Gym_Text_GymStatueCertified:
 	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "Ange's CERTIFIED TRAINERS:\n"
+	.string "ANGE's CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
-	.string "Ange: {PLAYER}…\n"
+	.string "ANGE: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
 	.string "a challenge from you.\p"
@@ -1586,14 +1586,14 @@ PetalburgCity_Gym_Text_NormanRematchDefeat:
 	.string "Maybe that was going too hard…$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
-	.string "Ange: {PLAYER}…\n"
+	.string "ANGE: {PLAYER}…\n"
 	.string "What is your dream?\p"
 	.string "My dream…\n"
 	.string "Hahaha…\l"
 	.string "It has already come true, actually.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-	.string "Ange: {PLAYER}…\n"
+	.string "ANGE: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
 	.string "a challenge from you.\p"

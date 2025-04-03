@@ -246,7 +246,7 @@ Route128_EventScript_Carlee::
 	end
 
 Route128_Text_ArchieWhatHappened:
-	.string "Hatzoome: Oh no…oh no no no no no…\n"
+	.string "HATZOOME: Oh no…oh no no no no no…\n"
 	.string "This is not what I meant to do…$"
 	.string "$"
 
@@ -254,8 +254,8 @@ Route128_Text_ArchieIOnlyWanted:
 	.string "Why do I always fail like this?$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
-	.string "Lyra: Do you understand now,\n"
-	.string "Hatzoome?\p"
+	.string "LYRA: Do you understand now,\n"
+	.string "HATZOOME?\p"
 	.string "Do you finally see how doubling down\n"
 	.string "on your lost investment is a sunk cost\l"
 	.string "fallacy. And now the world will be\l"
@@ -265,19 +265,19 @@ Route128_Text_MaxieDoYouUnderstandNow:
 	.string "control!$"
 	
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
-	.string "Lyra: {PLAYER}, don’t say anything…\p"
+	.string "LYRA: {PLAYER}, don’t say anything…\p"
 	.string "I know that I have no right to be\n"
-	.string "critical of Hatzoome… But the way\l"
+	.string "critical of HATZOOME… But the way\l"
 	.string "things are now, I can’t let this\l"
 	.string "tragedy befall my daughter, no…\p"
 	.string "Not just my daughter. Anybody.\p"
 	.string "Being powerful and saying ‘real’ for\n"
 	.string "the bit doesn’t matter right now, the\l"
 	.string "responsibility for putting an end to\l"
-	.string "this falls to Hatzoome and me…$"
+	.string "this falls to HATZOOME and me…$"
 
 Route128_Text_MaxieThisDefiesBelief:
-	.string "Lyra: This defies belief…\p"
+	.string "LYRA: This defies belief…\p"
 	.string "Those super-ancient Pokémon…\p"
 	.string "Their power is unbelievable.\n"
 	.string "They’ve upset the very balance of\n"
@@ -285,7 +285,7 @@ Route128_Text_MaxieThisDefiesBelief:
 	.string "competitive pokemon.$"
 
 Route128_Text_StevenWhatIsHappening:
-	.string "Lilypad: {PLAYER}{KUN}!\n"
+	.string "LILYPAD: {PLAYER}{KUN}!\n"
 	.string "What is happening?$"
 
 Route128_Text_StevenWholeWorldWillDrown:

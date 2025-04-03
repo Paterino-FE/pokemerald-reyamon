@@ -72,12 +72,12 @@ FallarborTown_Text_Azurill:
 	.string "AZURILL: Rooreelooo.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
-	.string "Have you already challenged Gabe,\n"
+	.string "Have you already challenged GABE,\n"
 	.string "the LEADER of LAVARIDGE GYM?\p"
-	.string "The Gabe's grandfather was famous.\n"
+	.string "The GABE's grandfather was famous.\n"
 	.string "He was one of the ELITE FOUR in the\l"
 	.string "POKéMON LEAGUE at one point.\p"
-	.string "It wouldn't surprise me to see Gabe\n"
+	.string "It wouldn't surprise me to see GABE\n"
 	.string "become a great TRAINER in his own\l"
 	.string "right.$"
 

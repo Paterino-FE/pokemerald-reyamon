@@ -259,7 +259,7 @@ MauvilleCity_Gym_EventScript_GymStatue::
 MauvilleCity_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "Agdaleks, the LEADER of MAUVILLE\n"
+	.string "AGDALEKS, the LEADER of MAUVILLE\n"
 	.string "GYM, uses PLUSHIE POKéMON.\p"
 	.string "If you challenge him with ANY-type\n"
 	.string "POKéMON, he'll hug them! Uwu!$"
@@ -340,7 +340,7 @@ MauvilleCity_Gym_Text_WattsonDefeat:
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
 	.string "{PLAYER} received the PLUSHIE BADGE\n"
-	.string "from Agdaleks.$"
+	.string "from AGDALEKS.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 	.string "You don't get anything else \n"
@@ -354,7 +354,7 @@ MauvilleCity_Gym_Text_ExplainShockWave:
 	.string "… … … … … …$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
-	.string "Registered GYM LEADER Agdaleks\n"
+	.string "Registered GYM LEADER AGDALEKS\n"
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
@@ -370,11 +370,11 @@ MauvilleCity_Gym_Text_GymStatue:
 
 MauvilleCity_Gym_Text_GymStatueCertified:
 	.string "MAUVILLE CITY POKéMON GYM\p"
-	.string "Agdaleks'S CERTIFIED TRAINERS:\n"
+	.string "AGDALEKS'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:
-	.string "Daleks: Ah-ha! Here at last!\n"
+	.string "DALEKs: Ah-ha! Here at last!\n"
 	.string "I know what you want.\l"
 	.string "You want to battle my POKéMON!\p"
 	.string "Wahahahaha!\p"

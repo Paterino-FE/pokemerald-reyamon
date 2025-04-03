@@ -668,11 +668,11 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_HamsShop:
-	.string "Hams: Surpised to see us out here?\n"
+	.string "HAMS: Surpised to see us out here?\n"
 	.string "We used a secret exit from the gym!$"
 
 DewfordTown_Text_ClorShop:
-	.string "Clor: Please buy our trash...\n"
+	.string "CLOR: Please buy our trash...\n"
 	.string "We really need the money!$"
 
 DewfordTown_Text_TrubbishShop:

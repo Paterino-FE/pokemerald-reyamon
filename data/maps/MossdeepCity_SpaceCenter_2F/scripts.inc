@@ -399,14 +399,14 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
 	.string "Oooo we got a bigshot here!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
-	.string "Svelte still believes in her mother\n"
+	.string "SVELTE still believes in her mother\n"
 	.string "(real). So, I have to as well.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
 	.string "I never had my own daughter…$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "Hey, me again. Do you think Vyral’s\n"
+	.string "Hey, me again. Do you think VYRAL’s\n"
 	.string "and I’s children would look more like\l"
 	.string "me or her.\p"
 	.string "I suppose her genes are pretty\n"
@@ -414,14 +414,14 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 	.string "Our glorious leader secretly thinks\n"
-	.string "she’s better than Vyral.\p"
+	.string "she’s better than VYRAL.\p"
 	.string "But come on. You see what I see,\n"
 	.string "right, {PLAYER}?$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
 	.string "If you defeat our glorious leader and\n"
 	.string "we call go to prison, please find a\l"
-	.string "decent parent (real) for Svelte.\p"
+	.string "decent parent (real) for SVELTE.\p"
 	.string "She’s just a kid.$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
@@ -438,7 +438,7 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
 	.string "pretty lady and tasty otter!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
-	.string "Lyra: You! YOU are going to stop me?\n"
+	.string "LYRA: You! YOU are going to stop me?\n"
 	.string "What an adorably naive little rat.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
@@ -447,7 +447,7 @@ MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
 	.string "fuel?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
-	.string "Lyra: We will use the fuel to power a\n"
+	.string "LYRA: We will use the fuel to power a\n"
 	.string "magnificent machine that will be\l"
 	.string "capable of creating land and shinies\l"
 	.string "for us dragons of course.\p"
@@ -476,20 +476,20 @@ MossdeepCity_SpaceCenter_Text_TabithaDefeat:
 	.string "I hungry… I wanted eat otter…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-	.string "Lyra: If I’ve failed to defeat you\n"
+	.string "LYRA: If I’ve failed to defeat you\n"
 	.string "this many times. Then I have no\l"
 	.string "chance of defeating Groudon.\p"
 	.string "And now… it will rampage out of\n"
 	.string "control putting the world, including\l"
 	.string "my real daughter (real) at risk…\p"
-	.string "And if Hatzoome uses the wrong orb on\n"
+	.string "And if HATZOOME uses the wrong orb on\n"
 	.string "that fish… then there will be nothing\l"
 	.string "I can do. I’m not.\n"
-	.string "I’m not strong enough. Reya. Lilypad.$"
+	.string "I’m not strong enough. Reya. LILYPAD.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "We will take our leave of you for\n"
-	.string "now. Come Sveltessa, I have some\l"
+	.string "now. Come SVELTESSA, I have some\l"
 	.string "important lessons to teach you.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:

@@ -1597,7 +1597,7 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "Lyra: G… GROUDON…\n"
+	.string "LYRA: G… GROUDON…\n"
 	.string "I DEMAND YOU STOP THIS BEHAVIOUR AT\l"
 	.string "ONCE YOUNG… girl? man? Enby?\p"
 	.string "Oh who cares. YOU WILL BE GROUNDED\n"
@@ -1606,18 +1606,18 @@ SootopolisCity_Text_GroudonPleaseStop:
 	.string "INTENDED.$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-	.string "Lyra: So neither Vyral nor I are the\n"
+	.string "LYRA: So neither VYRAL nor I are the\n"
 	.string "strongest after all. There is a\l"
 	.string "dragon that’s stronger still.\p"
 	.string "Do you think they have a humanoid\n"
 	.string "form? Are they single?\p"
 	.string "I’m probably going to lose child\n"
-	.string "custody and Sveltessa’s child support\l"
+	.string "custody and SVELTESSA'S child support\l"
 	.string "payments after this so it might be\l"
 	.string "time to start shopping around…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "Hatzoome: Kyogre!\n"
+	.string "HATZOOME: Kyogre!\n"
 	.string "Look over here honey!\l"
 	.string "I got your favorite orb!\p"
 	.string "Remember you love red not blue!\n"
@@ -1626,7 +1626,7 @@ SootopolisCity_Text_KyogreCalmDown:
 	.string "with sprinkles on top…$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "Hatzoome: KYOGRE and GROUDON both\n"
+	.string "HATZOOME: KYOGRE and GROUDON both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in HOENN has returned\n"
 	.string "to its normal state…\p"
@@ -1638,7 +1638,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "me, they’re ruthless.$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-	.string "Lilypad: Those POKéMON fighting…\n"
+	.string "LILYPAD: Those POKéMON fighting…\n"
 	.string "GROUDON… And KYOGRE…\p"
 	.string "The two super-ancient POKéMON\n"
 	.string "were awakened from a long sleep…\p"
@@ -1653,7 +1653,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "Come with me, please.$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-	.string "Lilypad: Listen, {PLAYER}{KUN}.\p"
+	.string "LILYPAD: Listen, {PLAYER}{KUN}.\p"
 	.string "Does seeing GROUDON and KYOGRE make\n"
 	.string "you think POKéMON are to be feared?\p"
 	.string "But that's not true.\n"
@@ -1662,29 +1662,29 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "You already know.$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-	.string "Lilypad: Okay, here we are!\p"
+	.string "LILYPAD: Okay, here we are!\p"
 	.string "Inside here you'll find\n"
 	.string "VYRAL.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-	.string "Lilypad: I think you have what's\n"
+	.string "LILYPAD: I think you have what's\n"
 	.string "needed to help him…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "Lilypad: The SKY PILLAR…\p"
+	.string "LILYPAD: The SKY PILLAR…\p"
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "Lilypad: So that's RAYQUAZA…\p"
+	.string "LILYPAD: So that's RAYQUAZA…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "POKéMON would flee from it in fear…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "Lilypad: It looks like both Lyra and\n"
-	.string "Hatzoome have gone away somewhere.\p"
+	.string "LILYPAD: It looks like both LYRA and\n"
+	.string "HATZOOME have gone away somewhere.\p"
 	.string "Perhaps they've gone to MT. PYRE to\n"
 	.string "return those ORBS…$"
 

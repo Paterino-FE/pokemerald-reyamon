@@ -174,8 +174,8 @@ MagmaHideout_4F_Text_Grunt13Defeat:
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
 	.string "Will more land really stop the\n"
-	.string "fighting or will people like Lyra\l"
-	.string "and Vyral continue to wage war?$"
+	.string "fighting or will people like LYRA\l"
+	.string "and VYRAL continue to wage war?$"
 
 MagmaHideout_4F_Text_TabithaIntro:
 	.string "My mummy wake up sleepy mr godon and\n"
@@ -193,7 +193,7 @@ MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "nice, can I eat your hair?$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "Lyra: GROUDON…\p"
+	.string "LYRA: GROUDON…\p"
 	.string "Nothing could awaken you from your\n"
 	.string "sleep. What a magnificently red\l"
 	.string "pokemon, perfect for controlling\l"
@@ -201,8 +201,8 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "red orb.$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "Lyra: Haha.. Hahahaha..HAHAHAHAHA.\p"
-	.string "That loser Hatzoome is going to\n"
+	.string "LYRA: Haha.. Hahahaha..HAHAHAHAHA.\p"
+	.string "That loser HATZOOME is going to\n"
 	.string "get a wonderful surprise.$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
@@ -223,7 +223,7 @@ MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "defeat it and earns the adoration of\l"
 	.string "the masses!\p"
 	.string "I’m tired of being compared to that\n"
-	.string "(redacted) Vyral. Her beautiful tail.\p"
+	.string "(redacted) VYRAL. Her beautiful tail.\p"
 	.string "Magnificent scales. Wonderful claws\n"
 	.string "and finely chiselled abdominal\l"
 	.string "muscles.\p"

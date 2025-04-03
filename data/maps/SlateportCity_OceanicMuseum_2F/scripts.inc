@@ -323,7 +323,7 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 	.string "posed to be up here getting our parts.$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "I’m Hatzoome and I am the spokeswoman\n"
+	.string "I’m HATZOOME and I am the spokeswoman\n"
 	.string "of Tentacool Cruises new timeshare\l"
 	.string "program!\p"
 	.string "But... why would you steal our\n"

@@ -547,7 +547,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
 	.string "I just really need to talk to\n"
-	.string "Miss Hatzoome.\p"
+	.string "Miss HATZOOME.\p"
 	.string "She can’t avoid debt collection\n"
 	.string "forever!$"
 

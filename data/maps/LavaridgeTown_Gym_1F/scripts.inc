@@ -205,7 +205,7 @@ LavaridgeTown_Gym_1F_Text_AxleIntro:
 	.string "Don't come along and stress me out!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat:
-	.string "I hope Gabe flames you good!$"
+	.string "I hope GABE flames you good!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 	.string "Haaah… Whew…\p"
@@ -262,10 +262,10 @@ LavaridgeTown_Gym_B1F_Text_JeffIntro:
 	.string "the false empress!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
-	.string "Oh man, Vyral's going to kill me!$"
+	.string "Oh man, VYRAL's going to kill me!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
-	.string "Oh man, Vyral's going to kill me!$"
+	.string "Oh man, VYRAL's going to kill me!$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
 	.string "You're about to burn down!$"

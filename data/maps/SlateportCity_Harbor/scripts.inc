@@ -452,7 +452,7 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 	.string "the DEVON GOODS at the MUSEUM.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-	.string "Hatzoome: Oh?\n"
+	.string "HATZOOME: Oh?\n"
 	.string "I didn’t see you there…\p"
 	.string "You really have to stop sneaking up\n"
 	.string "on a girl like this.\p"

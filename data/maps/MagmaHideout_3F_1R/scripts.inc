@@ -12,7 +12,7 @@ MagmaHideout_3F_1R_EventScript_Grunt16::
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro:
-	.string "I mention Vyral once and I get this\n"
+	.string "I mention VYRAL once and I get this\n"
 	.string "guard posting?\p"
 	.string "I’m an ice dragon, my left ear is\n"
 	.string "burning up!$"

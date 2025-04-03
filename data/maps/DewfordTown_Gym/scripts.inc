@@ -377,14 +377,14 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "you really whipped me good there.$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "Hams: The dentist is in!\n"
-	.string "Clor: It's in the bag... The trash bag!$"
+	.string "HAMS: The dentist is in!\n"
+	.string "CLOR: It's in the bag... The trash bag!$"
 
 DewfordTown_Gym_Text_HamsDefeat:
-	.string "Hams: By the skin of my teeth!$"
+	.string "HAMS: By the skin of my teeth!$"
 
 DewfordTown_Gym_Text_ClorDefeat:
-	.string "Clor: Looks like I got taken out.$"
+	.string "CLOR: Looks like I got taken out.$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
 	.string "{PLAYER} received the GAR BADGE\n"
@@ -410,10 +410,10 @@ DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "and CLOR in the POKéNAV.$"
 
 DewfordTown_Gym_Text_HamsPostBattle:
-	.string "Hams: By the skin of my teeth!$"
+	.string "HAMS: By the skin of my teeth!$"
 
 DewfordTown_Gym_Text_ClorPostBattle:
-	.string "Clor: Looks like I got taken out.$"
+	.string "CLOR: Looks like I got taken out.$"
 
 DewfordTown_Gym_Text_GymStatue:
 	.string "DEWFORD TOWN POKéMON GYM$"

@@ -2725,7 +2725,7 @@ MatchCall_Text_Norman2::
 	.string "This feeling is hard to explain.$"
 
 MatchCall_Text_Norman3::
-	.string "DAD: I see…\n"
+	.string "ANGE: I see…\n"
 	.string "You've collected four GYM BADGES…\p"
 	.string "There's no avoiding it now.\n"
 	.string "We will battle like I promised.\p"
@@ -2734,7 +2734,7 @@ MatchCall_Text_Norman3::
 
 MatchCall_Text_Norman4::
 	.string "ANGE: {PLAYER}! You'd better go visit\n"
-	.string "Emilia every so often.\p"
+	.string "EMILIA every so often.\p"
 	.string "I'm going to remain here and\n"
 	.string "redouble my training.\p"
 	.string "The way of battling is deep\n"

@@ -90,7 +90,7 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-	.string "Hastings: Hello there!\p"
+	.string "HASTINGS: Hello there!\p"
 	.string "You’re new, a new face!\n"
 	.string "Ain’t no better way ta get to know\l"
 	.string "each other than with a lil battle!$"
@@ -100,11 +100,11 @@ AquaHideout_B2F_Text_MattDefeat:
 	.string "Well done!$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "While I was talking with you, Hatzoome\n"
+	.string "While I was talking with you, HATZOOME\n"
 	.string "got through with her preparations!$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "You know, when Hatzoome approached me\n"
+	.string "You know, when HATZOOME approached me\n"
 	.string "about this time-share business, I was\l"
 	.string "kinda uncertain.\p"
 	.string "But now that I’ve shared so many fun\n"
@@ -127,19 +127,19 @@ AquaHideout_B2F_Text_Grunt4PostBattle:
 AquaHideout_B2F_Text_Grunt6Intro:
 	.string "This guy won’t leave. He just keeps\n"
 	.string "saying he’s here to collect\l"
-	.string "Hatzoome’s debt but she’s too\l"
+	.string "HATZOOME’s debt but she’s too\l"
 	.string "business savvy to have debt!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-	.string "Miss Hatzoome would have won\n"
+	.string "Miss HATZOOME would have won\n"
 	.string "this battle…$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-	.string "I think Hatzoome is really smart!$"
+	.string "I think HATZOOME is really smart!$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
 	.string "I don’t know how to use these warp\n"
-	.string "panels. I just need to find Hatzoome\l"
+	.string "panels. I just need to find HATZOOME\l"
 	.string "on behalf of the debt collection\l"
 	.string "agency.$"
 

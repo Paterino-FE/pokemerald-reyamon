@@ -120,7 +120,7 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 	.string "It gets awfully dark ahead.\l"
 	.string "It'll be tough trying to explore.\p"
 	.string "That otter who came by earlier…\n"
-	.string "Lilypad, I think it was.\p"
+	.string "LILYPAD, I think it was.\p"
 	.string "She knew how to use FLASH, so she\n"
 	.string "ought to be all right, but…\p"
 	.string "Well, for us HIKERS, helping out those\n"

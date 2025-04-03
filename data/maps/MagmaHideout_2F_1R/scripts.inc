@@ -22,18 +22,18 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-	.string "Hey, me again. I hear you know Vyral.\p"
+	.string "Hey, me again. I hear you know VYRAL.\p"
 	.string "Training under our glorious leader\n"
 	.string "will hopefully one day make me win\l"
-	.string "Vyral’s gaze.\p"
+	.string "VYRAL’s gaze.\p"
 	.string "Beating you is the next step!$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-	.string "Vyral… I’m sorry I failed you!$"
+	.string "VYRAL… I’m sorry I failed you!$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
 	.string "Hey, I don’t suppose you have any\n"
-	.string "pictures of Vyral. I’d be willing\l"
+	.string "pictures of VYRAL. I’d be willing\l"
 	.string "to pay you for them.$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
@@ -54,7 +54,7 @@ MagmaHideout_2F_1R_Text_Grunt3PostBattle:
 	.string "Oh nevermind me you can continue on.$"
 
 MagmaHideout_2F_1R_Text_Grunt4Intro:
-	.string "I won’t let you anywhere near Svelte.\n"
+	.string "I won’t let you anywhere near SVELTE.\n"
 	.string "She’s like a daughter to me.$"
 
 MagmaHideout_2F_1R_Text_Grunt4Defeat:

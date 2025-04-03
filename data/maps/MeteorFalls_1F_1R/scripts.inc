@@ -246,12 +246,12 @@ MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 	.string "You can’t have the shiny rock!$"
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
-	.string "Hatzoome: Sttaaaaahhhhhhpppppp!\p"
+	.string "HATZOOME: Sttaaaaahhhhhhpppppp!\p"
 	.string "You're going to ruin my plan!\n"
 	.string "It was a really good one this time!$"
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
-	.string "Svelte: Ah! Scary bad strangers!\p"
+	.string "SVELTE: Ah! Scary bad strangers!\p"
 	.string "My mummy says I no play with you,\n"
 	.string "you take my shinies. I take shiny\l"
 	.string "rock to mummy at mo- mo-\l"
@@ -259,7 +259,7 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 	.string "Super secret dragon escape technique.$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
-	.string "Hatzoome: Oh hey, you’re the one\n"
+	.string "HATZOOME: Oh hey, you’re the one\n"
 	.string "from Slateport! Remember?\p"
 	.string "I was that lovely trainer trying\n"
 	.string "to get you in on the ground floor\l"
@@ -281,12 +281,12 @@ MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
 	.string "should follow them...$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
-	.string "Hatzoome: That’s a smart idea!\p"
+	.string "HATZOOME: That’s a smart idea!\p"
 	.string "Well, I’ve got to go. You know,\n"
 	.string "Dragon Gang, Mt. Chimney, all that.$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
-	.string "Hatzoome: {PLAYER}, we'll talk about\n"
+	.string "HATZOOME: {PLAYER}, we'll talk about\n"
 	.string "which suite level you want when you\l"
 	.string "bring your checkbook next time.\p"
 	.string "Bye forever!$"

@@ -327,7 +327,7 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
 	.string "neighbor!\p"
 	.string "I am but a humble servant of the\n"
-	.string "great Vyral.\p"
+	.string "great VYRAL.\p"
 	.string "She should be in her lair upstairs.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
@@ -338,13 +338,13 @@ RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
-	.string "Vyral was not present?\p"
+	.string "VYRAL was not present?\p"
 	.string "I deeply apologize. I am a terrible\n"
 	.string "servant who does not even know the\l"
 	.string "whereabouts of her master.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
-	.string "Oh, Vyral went out to ROUTE 103\n"
+	.string "Oh, VYRAL went out to ROUTE 103\n"
 	.string "just a little while ago.\p"
 	.string "My master is very adventurous.$"
 

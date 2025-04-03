@@ -226,21 +226,21 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "Hatzoome: Oh, you did come to invest!$"
+	.string "HATZOOME: Oh, you did come to invest!$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "Hatzoome: Fufufu…\n"
+	.string "HATZOOME: Fufufu…\n"
 	.string "So it was you, after all.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "Hatzoome: You… you still don’t want\n"
+	.string "HATZOOME: You… you still don’t want\n"
 	.string "to invest? That’s it! I’m done!\p"
 	.string "I am so sick of these stupid\n"
 	.string "timeshares and I’m so tired of you\l"
 	.string "making me feel even dumber.$"
  
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "Hatzoome: How was I supposed to know\n"
+	.string "HATZOOME: How was I supposed to know\n"
 	.string "the timeshares were a scam and the\l"
 	.string "cruise ship sucks!\p"
 	.string "But Kyogre can finally help me fix\n"
@@ -264,17 +264,17 @@ SeafloorCavern_Room9_Text_RedOrbShinesByItself:
 	.string "by itself!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "Hatzoome: What?!\p"
+	.string "HATZOOME: What?!\p"
 	.string "I didn’t do that. I didn’t touch\n"
 	.string "anything. Why did the Red Orb…\p"
 	.string "Where’s Kyogre?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "Hatzoome: Uhhhhhh? Oh, it’s from an\n"
+	.string "HATZOOME: Uhhhhhh? Oh, it’s from an\n"
 	.string "employee outside…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "Hatzoome: What do you want?\p"
+	.string "HATZOOME: What do you want?\p"
 	.string "Oh…\n"
 	.string "It’s raining heavily? Finally!\p"
 	.string "I finally did something RIGHT!!!.\n"
@@ -289,7 +289,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Save Keith and I’ll be right out!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "Hatzoome: The Dragon Gang must have\n"
+	.string "HATZOOME: The Dragon Gang must have\n"
 	.string "done something…\p"
 	.string "The Red Orb should have controlled\n"
 	.string "Kyogre…But…Why? Why is Kyogre doing\l"
@@ -297,7 +297,7 @@ SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 	.string "Why?!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "Lyra: Hatzoome no!\p"
+	.string "LYRA: HATZOOME no!\p"
 	.string "You’re using the wrong orb! You\n"
 	.string "imbecile! You’ve unleashed Kyogre!?\p"
 	.string "It will bring down rainstorms until\n"
@@ -307,7 +307,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 	.string "What have you done?$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "Hatzoome: I didn’t do anything wrong!\p"
+	.string "HATZOOME: I didn’t do anything wrong!\p"
 	.string "You’re the ones that upset Groudon!\p"
 	.string "This has to be the right orb! You’re\n"
 	.string "just trying to trick me like always!\p"
@@ -317,7 +317,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "everything will be fine…$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "Lyra: IT’S THE WRONG ORB. KYOGRE IS\n"
+	.string "LYRA: IT’S THE WRONG ORB. KYOGRE IS\n"
 	.string "BLUE. BLUE. AND YOU USED A RED ORB\l"
 	.string "ON IT? Are you stupid?\p"
 	.string "How would any supposedly dangerous,\n"
@@ -330,5 +330,5 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 	.string "mostly you) have wrought.$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "Lyra: {PLAYER}, come on, you have\n"
+	.string "LYRA: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"

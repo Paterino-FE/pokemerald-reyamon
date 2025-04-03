@@ -2033,7 +2033,7 @@ LittlerootTown_Text_PlayersHouse:
 # 1017 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_Text_ProfBirchsHouse:
 # 1018 "data/maps/LittlerootTown/scripts.pory"
-	.string "Vyral's HOUSE$"
+	.string "VYRAL's HOUSE$"
 # 1019 "data/maps/LittlerootTown/scripts.pory"
 
 # 1020 "data/maps/LittlerootTown/scripts.pory"

@@ -314,7 +314,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "are exclusively desert-dwellers.\l"
 	.string "You might look around for those.\p"
 	.string "As for me…\n"
-	.string "I'm considering challenging Ange,\l"
+	.string "I'm considering challenging ANGE,\l"
 	.string "the GYM LEADER of PETALBURG.\p"
 	.string "Unlike you, {PLAYER}, your dad looks like\n"
 	.string "he really is tough.\p"

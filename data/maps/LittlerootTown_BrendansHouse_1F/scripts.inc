@@ -327,7 +327,7 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
 	.string "We have a neighbour.\p"
-	.string "Vyral is her name.\p"
+	.string "VYRAL is her name.\p"
 	.string "She lives right next door, so if your\n"
 	.string "majesty does not mind my advice, it\l"
 	.string "would be good to build relations by\l"
@@ -394,7 +394,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
 	.string "the road running!”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-	.string "Ange: Hm?\p"
+	.string "ANGE: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
 	.string "It's crazy to meet you here.\p"
 	.string "Crazy?\n"
@@ -404,7 +404,7 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "MR. BRINEY.$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
-	.string "Ange: Hm, a TICKET for a ferry?\p"
+	.string "ANGE: Hm, a TICKET for a ferry?\p"
 	.string "If I recall, there are ferry ports in\n"
 	.string "SLATEPORT and LILYCOVE.$"
 
@@ -412,7 +412,7 @@ PlayersHouse_1F_Text_BetterGetBackToGym:
 	.string "I'd better get back to PETALBURG GYM.$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-	.string "EMILIA: That Ange…\p"
+	.string "EMILIA: That ANGE…\p"
 	.string "He visits for the first time in a\n"
 	.string "while, but all he talks about is Rats.\p"
 	.string "He should relax and stay a little longer.$"

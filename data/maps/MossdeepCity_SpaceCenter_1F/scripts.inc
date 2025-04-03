@@ -358,7 +358,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "Lilypad: {PLAYER}{KUN}, have you read that\n"
+	.string "LILYPAD: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
 	.string "Dragon Gang is coming after the rocket\n"
 	.string "fuel on this island.\p"
@@ -371,7 +371,7 @@ MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "Hey, me again. You know I thought\n"
-	.string "we’d caused so much trouble Vyral\l"
+	.string "we’d caused so much trouble VYRAL\l"
 	.string "would be the one who beat us\l"
 	.string "to a pulp.$" 
 

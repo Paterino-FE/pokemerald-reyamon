@@ -269,8 +269,8 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 	.string "WOWEEZ$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "Brat Vyral was not a dream!\n"
-	.string "Brat Vyral is cannon!!!$"
+	.string "Brat VYRAL was not a dream!\n"
+	.string "Brat VYRAL is cannon!!!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
 	.string "When life gives you lemons -\n"
@@ -307,11 +307,11 @@ FortreeCity_Gym_Text_DariusIntro:
 	.string "off my cutest Pokemon!$"
 
 FortreeCity_Gym_Text_DariusDefeat:
-	.string "Thea's Pokemon are even cuter\n"
+	.string "THEA's Pokemon are even cuter\n"
 	.string "than mine.$"
 
 FortreeCity_Gym_Text_DariusPostBattle:
-	.string "Thea's Pokemon are even cuter\n"
+	.string "THEA's Pokemon are even cuter\n"
 	.string "than mine.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
@@ -324,7 +324,7 @@ FortreeCity_Gym_Text_WinonaDefeat:
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the\n"
-	.string "FRIENDSHIP BADGE from Thea.$"
+	.string "FRIENDSHIP BADGE from THEA.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "You have not just impressed me,\n"

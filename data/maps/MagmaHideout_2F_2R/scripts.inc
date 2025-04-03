@@ -23,13 +23,13 @@ MagmaHideout_2F_2R_EventScript_Grunt8::
 
 MagmaHideout_2F_2R_Text_Grunt15Intro:
 	.string "Hey. Me again. Do you happen to know\n"
-	.string "Vyral’s training routine?\p"
+	.string "VYRAL’s training routine?\p"
 	.string "I bet it’s really intense. Do you\n"
 	.string "think she could bench press me.$"
 
 MagmaHideout_2F_2R_Text_Grunt15Defeat:
 	.string "I lost because I was distracted\n"
-	.string "thinking about Vyral…$"
+	.string "thinking about VYRAL…$"
 
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 	.string "All this digging was hard work but\n"
@@ -45,7 +45,7 @@ MagmaHideout_2F_2R_Text_Grunt6Intro:
 	.string "down is for the best.$"
 
 MagmaHideout_2F_2R_Text_Grunt6Defeat:
-	.string "Hatzoome seems like a much nicer\n"
+	.string "HATZOOME seems like a much nicer\n"
 	.string "gal than our glorious leader...$"
 
 MagmaHideout_2F_2R_Text_Grunt6PostBattle:
