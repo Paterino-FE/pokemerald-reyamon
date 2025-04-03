@@ -61,7 +61,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_1] = 
     {
 #line 98
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 99
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 100
@@ -95,7 +95,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_5] = // 5
     {
 #line 111
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 112
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 113
@@ -133,7 +133,7 @@
             .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .ability = ABILITY_STATIC, 
             .moves = {MOVE_TAIL_WHIP, MOVE_GROWL, MOVE_PLAY_NICE, MOVE_PAY_DAY}
             },
@@ -143,7 +143,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_7] = // 7
     {
 #line 128
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 129
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 130
@@ -177,7 +177,7 @@
     [TRAINER_GRUNT_AQUA_HIDEOUT_2] = // 2
     {
 #line 141
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 142
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 143
@@ -211,7 +211,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_1] =
     {
 #line 154
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 155
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 156
@@ -237,7 +237,7 @@
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_STATIC, 
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .moves = {MOVE_PAY_DAY, MOVE_QUICK_ATTACK, MOVE_PLAY_NICE, MOVE_TAIL_WHIP}
             },
         },
@@ -246,7 +246,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_2] =
     {
 #line 167
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 168
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 169
@@ -280,7 +280,7 @@
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_3] =
     {
 #line 180
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 181
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 182
@@ -403,7 +403,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_PETALBURG_WOODS] =
     {
 #line 226
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 227
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 228
@@ -568,7 +568,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_4] =
     {
 #line 291
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 292
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 293
@@ -636,7 +636,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_RUSTURF_TUNNEL] =
     {
 #line 317
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 318
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 319
@@ -661,7 +661,7 @@ F_TRAINER_FEMALE |
             .lvl = 11,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .ability = ABILITY_STATIC,
             .moves = {MOVE_TAIL_WHIP, MOVE_PAY_DAY, MOVE_GROWL, MOVE_PLAY_NICE}
             },
@@ -671,7 +671,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_4] =
     {
 #line 330
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 331
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 332
@@ -718,7 +718,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_1] =
     {
 #line 347
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 348
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 349
@@ -743,7 +743,7 @@ F_TRAINER_FEMALE |
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .ability = ABILITY_STATIC,
             .moves = {MOVE_PAY_DAY, MOVE_QUICK_ATTACK, MOVE_FEINT, MOVE_THUNDER_WAVE}
             },
@@ -766,7 +766,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_2] =
     {
 #line 364
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 365
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 366
@@ -817,7 +817,7 @@ F_TRAINER_FEMALE |
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .ability = ABILITY_STATIC, 
             .moves = {MOVE_TAIL_WHIP, MOVE_PLAY_NICE, MOVE_GROWL, MOVE_THUNDER_WAVE}
             },
@@ -827,7 +827,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MUSEUM_1] =
     {
 #line 385
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 386
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 387
@@ -861,7 +861,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MUSEUM_2] =
     {
 #line 398
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 399
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 400
@@ -941,7 +941,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_2] = // 2
     {
 #line 428
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 429
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 430
@@ -975,7 +975,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_1] = //1
     {
 #line 441
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 442
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 443
@@ -1009,7 +1009,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_3] =
     {
 #line 454
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 455
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 456
@@ -1034,7 +1034,7 @@ F_TRAINER_FEMALE |
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Pikachew"),
+            .nickname = COMPOUND_STRING("PIKACHEW"),
             .ability = ABILITY_STATIC,
             .moves = {MOVE_NUZZLE, MOVE_PAY_DAY, MOVE_FEINT, MOVE_PLAY_NICE}
             },
@@ -1057,7 +1057,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_3] =
     {
 #line 471
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 472
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 473
@@ -1093,7 +1093,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_4] = // 4
     {
 #line 484
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 485
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 486
@@ -1129,7 +1129,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_3] = // 3
     {
 #line 497
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 498
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 499
@@ -1208,7 +1208,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MATT] =
     {
 #line 527
-        .trainerName = _("Hastings"),
+        .trainerName = _("HASTINGS"),
 #line 528
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
 #line 529
@@ -1356,7 +1356,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_LIGHTNING_ROD,
             .heldItem = ITEM_BIG_NUGGET,
-            .nickname = COMPOUND_STRING("Raichew"),
+            .nickname = COMPOUND_STRING("RAICHEW"),
             .moves = {MOVE_PAY_DAY, MOVE_SPARK, MOVE_SWAGGER, MOVE_QUICK_ATTACK}
             },
         },
@@ -1408,7 +1408,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_LIGHTNING_ROD,
             .heldItem = ITEM_BIG_NUGGET,
-            .nickname = COMPOUND_STRING("Raichew"),
+            .nickname = COMPOUND_STRING("RAICHEW"),
             .moves = {MOVE_PAY_DAY, MOVE_THUNDER_PUNCH, MOVE_SWAGGER, MOVE_QUICK_ATTACK}
             },
             {
@@ -1428,7 +1428,7 @@ F_TRAINER_FEMALE |
     [TRAINER_ARCHIE] =
     {
 #line 592
-        .trainerName = _("Hatzoome"),
+        .trainerName = _("HATZOOME"),
 #line 593
         .trainerClass = TRAINER_CLASS_AQUA_LEADER,
 #line 594
@@ -1470,7 +1470,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_BIG_NUGGET,
-            .nickname = COMPOUND_STRING("Raichew"),
+            .nickname = COMPOUND_STRING("RAICHEW"),
             .moves = {MOVE_NUZZLE, MOVE_SHOCK_WAVE, MOVE_FLASH, MOVE_PAY_DAY}
             },
             {
@@ -1494,7 +1494,7 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("Sold for AD"),
+            .nickname = COMPOUND_STRING("SOLD FOR AD"),
             .ability = ABILITY_UNAWARE,
             .moves = {MOVE_MEMENTO}
             },
@@ -1505,7 +1505,7 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("BuyTimeshare"),
+            .nickname = COMPOUND_STRING("BUYTIMESHARE"),
             .ability = ABILITY_UNAWARE,
             .moves = {MOVE_MEMENTO}
             },
@@ -1650,7 +1650,7 @@ F_TRAINER_FEMALE |
     [TRAINER_FELIX] =
     {
 #line 665
-        .trainerName = _("Felixr2"),
+        .trainerName = _("FELIXR2"),
 #line 666
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 667
@@ -1734,7 +1734,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_SYLVEON,
             .gender = TRAINER_MON_MALE,
-            .nickname = COMPOUND_STRING("Sylvado"),
+            .nickname = COMPOUND_STRING("SYLVADO"),
             .iv = TRAINER_PARTY_IVS(12, 12, 9, 10, 9, 12), 
             .lvl = 45,
             .nature = NATURE_HARDY,
@@ -3169,7 +3169,7 @@ F_TRAINER_FEMALE |
     [TRAINER_RANDALL] =
     {
 #line 1262
-        .trainerName = _("Heaven"),
+        .trainerName = _("HEAVEN"),
 #line 1263
         .trainerClass = TRAINER_CLASS_LADY,
 #line 1264
@@ -3239,7 +3239,7 @@ F_TRAINER_FEMALE |
     [TRAINER_PARKER] =
     {
 #line 1279
-        .trainerName = _("Joy"),
+        .trainerName = _("JOY"),
 #line 1280
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
 #line 1281
@@ -3295,7 +3295,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GEORGE] =
     {
 #line 1296
-        .trainerName = _("Reynya"),
+        .trainerName = _("REYNYA"),
 #line 1297
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 1298
@@ -3675,7 +3675,7 @@ F_TRAINER_FEMALE |
     [TRAINER_EDGAR] =
     {
 #line 1441
-        .trainerName = _("Lyra"),
+        .trainerName = _("LYRA"),
 #line 1442
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 1443
@@ -3765,7 +3765,7 @@ F_TRAINER_FEMALE |
     [TRAINER_ALBERT] =
     {
 #line 1459
-        .trainerName = _("Gabe"),
+        .trainerName = _("GABE"),
 #line 1460
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 1461
@@ -3854,7 +3854,7 @@ F_TRAINER_FEMALE |
     [TRAINER_SAMUEL] =
     {
 #line 1477
-        .trainerName = _("Fire"),
+        .trainerName = _("FIRE"),
 #line 1478
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 1479
@@ -3916,7 +3916,7 @@ F_TRAINER_FEMALE |
     [TRAINER_VITO] =
     {
 #line 1499
-        .trainerName = _("OtterMad"),
+        .trainerName = _("OTTERMAD"),
 #line 1500
         .trainerClass = TRAINER_CLASS_BURGLAR,
 #line 1501
@@ -3990,7 +3990,7 @@ F_TRAINER_FEMALE |
     [TRAINER_OWEN] =
     {
 #line 1525
-        .trainerName = _("Console"),
+        .trainerName = _("CONSOLE"),
 #line 1526
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
 #line 1527
@@ -4354,7 +4354,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MARY] =
     {
 #line 1653
-        .trainerName = _("Sasuke"),
+        .trainerName = _("SASUKE"),
 #line 1654
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
 #line 1655
@@ -4470,7 +4470,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JODY] =
     {
 #line 1686
-        .trainerName = _("OtterMad"),
+        .trainerName = _("OTTERMAD"),
 #line 1687
         .trainerClass = TRAINER_CLASS_BURGLAR, //change to burglar
 #line 1688
@@ -4764,7 +4764,7 @@ F_TRAINER_FEMALE |
     [TRAINER_HOPE] =
     {
 #line 1790
-        .trainerName = _("Ursu"),
+        .trainerName = _("URSU"),
 #line 1791
         .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
 #line 1792
@@ -4838,7 +4838,7 @@ F_TRAINER_FEMALE |
     [TRAINER_SHANNON] =
     {
 #line 1804
-        .trainerName = _("Agdaleks"),
+        .trainerName = _("AGDALEKS"),
 #line 1805
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 1806
@@ -4919,7 +4919,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_QUIRKY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_MULTISCALE, 
-            .nickname = COMPOUND_STRING("Dragonite HM"),
+            .nickname = COMPOUND_STRING("DRAGONITE HM"),
             .moves = {MOVE_CUT, MOVE_SURF, MOVE_WATERFALL, MOVE_FLY}
             },
         },
@@ -4928,7 +4928,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MICHELLE] =
     {
 #line 1818
-        .trainerName = _("Hatzoome"),
+        .trainerName = _("HATZOOME"),
 #line 1819
         .trainerClass = TRAINER_CLASS_AQUA_LEADER,
 #line 1820
@@ -4984,7 +4984,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SURGE_SURFER,
-            .nickname = COMPOUND_STRING("Raichew"),
+            .nickname = COMPOUND_STRING("RAICHEW"),
             .moves = {MOVE_NUZZLE, MOVE_SHOCK_WAVE, MOVE_FLASH, MOVE_CHARM}
             },
             {
@@ -5023,7 +5023,7 @@ F_TRAINER_FEMALE |
     [TRAINER_CAROLINE] =
     {
 #line 1840
-        .trainerName = _("Pudzian"),
+        .trainerName = _("PUDZIAN"),
 #line 1841
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
 #line 1842
@@ -5108,7 +5108,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JULIE] =
     {
 #line 1858
-        .trainerName = _("G.Raven"),
+        .trainerName = _("G.RAVEN"),
 #line 1859
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
 #line 1860
@@ -5842,7 +5842,7 @@ F_TRAINER_FEMALE |
     [TRAINER_DAPHNE] =
     {
 #line 2131
-        .trainerName = _("Vier&Gwynn"),
+        .trainerName = _("VIER&GWYNN"),
 #line 2132
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
 #line 2133
@@ -6037,7 +6037,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRIANNA] =
     {
 #line 2194
-        .trainerName = _("Nesbit"),
+        .trainerName = _("NESBIT"),
 #line 2195
         .trainerClass = TRAINER_CLASS_POKEFAN,
 #line 2196
@@ -6488,7 +6488,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRIDGET] =
     {
 #line 2359
-        .trainerName = _("DonkeyKong"),
+        .trainerName = _("DONKEYKONG"),
 #line 2360
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
 #line 2361
@@ -6544,7 +6544,7 @@ F_TRAINER_FEMALE |
     [TRAINER_OLIVIA] =
     {
 #line 2372
-        .trainerName = _("Kohaku"),
+        .trainerName = _("KOHAKU"),
 #line 2373
         .trainerClass = TRAINER_CLASS_PSYCHIC,
 #line 2374
@@ -6624,7 +6624,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TIFFANY] =
     {
 #line 2404
-        .trainerName = _("Ursu"),
+        .trainerName = _("URSU"),
 #line 2405
         .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
 #line 2406
@@ -8541,7 +8541,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TAKAO] =
     {
 #line 3166
-        .trainerName = _("Clumquats"),
+        .trainerName = _("CLUMQUATS"),
 #line 3167
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
 #line 3168
@@ -9063,7 +9063,7 @@ F_TRAINER_FEMALE |
     [TRAINER_KIRK] =
     {
 #line 3358
-        .trainerName = _("AlfredKwak"),
+        .trainerName = _("ALFREDKWAK"),
 #line 3359
         .trainerClass = TRAINER_CLASS_GUITARIST,
 #line 3360
@@ -9134,7 +9134,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_8] = // 8
     {
 #line 3382
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 3383
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3384
@@ -9183,7 +9183,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_AQUA_HIDEOUT_6] = // 6
     {
 #line 3399
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 3400
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 3401
@@ -9217,7 +9217,7 @@ F_TRAINER_FEMALE |
     [TRAINER_SHAWN] =
     {
 #line 3412
-        .trainerName = _("Bozo"),
+        .trainerName = _("BOZO"),
 #line 3413
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
 #line 3414
@@ -9608,7 +9608,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JEFF] =
     {
 #line 3560
-        .trainerName = _("G.Raven"),
+        .trainerName = _("G.RAVEN"),
 #line 3561
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
 #line 3562
@@ -9694,7 +9694,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JACE] =
     {
 #line 3590
-        .trainerName = _("Four"),
+        .trainerName = _("FOUR"),
 #line 3591
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
 #line 3592
@@ -9745,7 +9745,7 @@ F_TRAINER_FEMALE |
     [TRAINER_KEEGAN] =
     {
 #line 3603
-        .trainerName = _("Rosubun"),
+        .trainerName = _("ROSUBUN"),
 #line 3604
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
 #line 3605
@@ -12470,7 +12470,7 @@ F_TRAINER_FEMALE |
     [TRAINER_PHOEBE] =
     {
 #line 4639
-        .trainerName = _("Astarion"),
+        .trainerName = _("ASTARION"),
 #line 4640
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
 #line 4641
@@ -13098,7 +13098,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WATTSON_1] =
     {
 #line 4860
-        .trainerName = _("Agdaleks"),
+        .trainerName = _("AGDALEKS"),
 #line 4861
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4862
@@ -13186,7 +13186,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_QUIRKY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INNER_FOCUS,
-            .nickname = COMPOUND_STRING("Dragonite HM"),
+            .nickname = COMPOUND_STRING("DRAGONITE HM"),
             .moves = {
 #line 4896
                 MOVE_CUT,
@@ -13201,7 +13201,7 @@ F_TRAINER_FEMALE |
     [TRAINER_FLANNERY_1] =
     {
 #line 4902
-        .trainerName = _("Gabe"),
+        .trainerName = _("GABE"),
 #line 4903
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4904
@@ -13303,7 +13303,7 @@ F_TRAINER_FEMALE |
     [TRAINER_NORMAN_1] =
     {
 #line 4944
-        .trainerName = _("Ange"),
+        .trainerName = _("ANGE"),
 #line 4945
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4946
@@ -13421,7 +13421,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WINONA_1] =
     {
 #line 4986
-        .trainerName = _("Thea"),
+        .trainerName = _("THEA"),
 #line 4987
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4988
@@ -13666,7 +13666,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_1] =
     {
 #line 5078
-        .trainerName = _("Lumi"),
+        .trainerName = _("LUMI"),
 #line 5079
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 5080
@@ -13792,7 +13792,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SNOW_CLOAK,
-            .nickname = COMPOUND_STRING("Nanami Bear"),
+            .nickname = COMPOUND_STRING("NANAMI BEAR"),
             .moves = {
                 MOVE_ICICLE_CRASH,
                 MOVE_BRICK_BREAK,
@@ -15133,7 +15133,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BETHANY] =
     {
 #line 5655
-        .trainerName = _("Jeff"),
+        .trainerName = _("JEFF"),
 #line 5656
         .trainerClass = TRAINER_CLASS_RICH_BOY,
 #line 5657
@@ -16117,7 +16117,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BEN] =
     {
 #line 6018
-        .trainerName = _("shelldude"),
+        .trainerName = _("SHELLDUDE"),
 #line 6019
         .trainerClass = TRAINER_CLASS_COLLECTOR,
 #line 6020
@@ -16191,7 +16191,7 @@ F_TRAINER_FEMALE |
     [TRAINER_QUINCY] =
     {
 #line 6043
-        .trainerName = _("Kohaku"),
+        .trainerName = _("KOHAKU"),
 #line 6044
         .trainerClass = TRAINER_CLASS_PSYCHIC,
 #line 6045
@@ -16258,7 +16258,7 @@ F_TRAINER_FEMALE |
     [TRAINER_KATELYNN] =
     {
 #line 6069
-        .trainerName = _("HeiSe"),
+        .trainerName = _("HEISE"),
 #line 6070
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 6071
@@ -16718,7 +16718,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLACE] =
     {
 #line 6244
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 6245
         .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 6246
@@ -19521,7 +19521,7 @@ F_TRAINER_FEMALE |
     [TRAINER_JARED] =
     {
 #line 7344
-        .trainerName = _("Corney"),
+        .trainerName = _("CORNEY"),
 #line 7345
         .trainerClass = TRAINER_CLASS_BATTLE_GIRL,
 #line 7346
@@ -19581,7 +19581,7 @@ F_TRAINER_FEMALE |
     [TRAINER_HUMBERTO] =
     {
 #line 7365
-        .trainerName = _("Minivan"),
+        .trainerName = _("MINIVAN"),
 #line 7366
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
 #line 7367
@@ -19659,7 +19659,7 @@ F_TRAINER_FEMALE |
     [TRAINER_EDWARDO] =
     {
 #line 7395
-        .trainerName = _("Swordficsh"),
+        .trainerName = _("SWORDFICSH"),
 #line 7396
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 7397
@@ -20212,7 +20212,7 @@ F_TRAINER_FEMALE |
     [TRAINER_DIANNE] =
     {
 #line 7608
-        .trainerName = _("Atsui"),
+        .trainerName = _("ATSUI"),
 #line 7609
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 7610
@@ -20842,7 +20842,7 @@ F_TRAINER_FEMALE |
     [TRAINER_LAURA] =
     {
 #line 7848
-        .trainerName = _("Rik"),
+        .trainerName = _("RIK"),
 #line 7849
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 7850
@@ -24205,7 +24205,7 @@ F_TRAINER_FEMALE |
     [TRAINER_ELI] =
     {
 #line 9147
-        .trainerName = _("Fire"),
+        .trainerName = _("FIRE"),
 #line 9148
         .trainerClass = TRAINER_CLASS_LADY,
 #line 9149
@@ -24774,7 +24774,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MOSSDEEP] =
     {
 #line 9366
-        .trainerName = _("Svelte"),
+        .trainerName = _("SVELTE"),
 #line 9367
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 9368
@@ -25006,7 +25006,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_VR_1] =
     {
 #line 9455
-        .trainerName = _("Lilypad"),
+        .trainerName = _("LILYPAD"),
 #line 9456
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9457
@@ -25126,7 +25126,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_103_MUDKIP] =
     {
 #line 9505
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9506
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9507
@@ -25159,7 +25159,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_110_MUDKIP] =
     {
 #line 9518
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9519
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9520
@@ -25219,7 +25219,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_119_MUDKIP] =
     {
 #line 9539
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9540
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9541
@@ -25279,7 +25279,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_103_TREECKO] =
     {
 #line 9560
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9561
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9562
@@ -25312,7 +25312,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_110_TREECKO] =
     {
 #line 9573
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9574
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9575
@@ -25372,7 +25372,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_119_TREECKO] =
     {
 #line 9594
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9595
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9596
@@ -25432,7 +25432,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_103_TORCHIC] =
     {
 #line 9615
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9616
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9617
@@ -25465,7 +25465,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_110_TORCHIC] =
     {
 #line 9628
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9629
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9630
@@ -25525,7 +25525,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_ROUTE_119_TORCHIC] =
     {
 #line 9649
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 9650
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9651
@@ -26157,7 +26157,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MITCHELL] =
     {
 #line 9887
-        .trainerName = _("Swordficsh"),
+        .trainerName = _("SWORDFICSH"),
 #line 9888
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
 #line 9889
@@ -26670,7 +26670,7 @@ F_TRAINER_FEMALE |
     [TRAINER_HALLE] =
     {
 #line 10077
-        .trainerName = _("Quattuor"),
+        .trainerName = _("QUATTUOR"),
 #line 10078
         .trainerClass = TRAINER_CLASS_PKMN_RANGER, 
 #line 10079
@@ -27792,7 +27792,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_SEAFLOOR_CAVERN_5] =
     {
 #line 10493
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 10494
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10495
@@ -27884,7 +27884,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_MT_PYRE_4] =
     {
 #line 10527
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 10528
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10529
@@ -28039,7 +28039,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDEN] =
     {
 #line 10578
-        .trainerName = _("Barry"),
+        .trainerName = _("BARRY"),
 #line 10579
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
 #line 10580
@@ -28108,7 +28108,7 @@ F_TRAINER_FEMALE |
     [TRAINER_LILITH] =
     {
 #line 10591
-        .trainerName = _("Wilson"),
+        .trainerName = _("WILSON"),
 #line 10592
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
 #line 10593
@@ -28163,7 +28163,7 @@ F_TRAINER_FEMALE |
     [TRAINER_CRISTIAN] =
     {
 #line 10604
-        .trainerName = _("Crazy Caz"),
+        .trainerName = _("CRAZY CAZ"),
 #line 10605
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 10606
@@ -28593,7 +28593,7 @@ F_TRAINER_FEMALE |
     [TRAINER_CLIFFORD] =
     {
 #line 10744
-        .trainerName = _("B-52s"),
+        .trainerName = _("B-52S"),
 #line 10745
         .trainerClass = TRAINER_CLASS_GUITARIST,
 #line 10746
@@ -28916,7 +28916,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_RUSTBORO_TREECKO] =
     {
 #line 10852
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 10853
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10854
@@ -28973,7 +28973,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_RUSTBORO_MUDKIP] =
     {
 #line 10869
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 10870
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10871
@@ -29107,7 +29107,7 @@ F_TRAINER_FEMALE |
     [TRAINER_GRUNT_WEATHER_INST_5] =
     {
 #line 10916
-        .trainerName = _("Friend"),
+        .trainerName = _("FRIEND"),
 #line 10917
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
 #line 10918
@@ -29156,7 +29156,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MT_CHIMNEY] =
     {
 #line 10933
-        .trainerName = _("Svelte"),
+        .trainerName = _("SVELTE"),
 #line 10934
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 10935
@@ -29274,7 +29274,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_RUSTBORO_TORCHIC] =
     {
 #line 10976
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 10977
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10978
@@ -29376,7 +29376,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MAGMA_HIDEOUT] =
     {
 #line 11010
-        .trainerName = _("Lyra"),
+        .trainerName = _("LYRA"),
 #line 11011
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 11012
@@ -29439,7 +29439,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MT_CHIMNEY] =
     {
 #line 11032
-        .trainerName = _("Lyra"),
+        .trainerName = _("LYRA"),
 #line 11033
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 11034
@@ -29997,7 +29997,7 @@ F_TRAINER_FEMALE |
     [TRAINER_CRISSY] =
     {
 #line 11241
-        .trainerName = _("Adam"),
+        .trainerName = _("ADAM"),
 #line 11242
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
 #line 11243
@@ -31651,7 +31651,7 @@ F_TRAINER_FEMALE |
     [TRAINER_VIVIAN] =
     {
 #line 11887
-        .trainerName = _("C. Robin"),
+        .trainerName = _("C. ROBIN"),
 #line 11888
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
 #line 11889
@@ -31679,7 +31679,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_LAX,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_PICKUP,
-            .nickname = COMPOUND_STRING("Pooh"),
+            .nickname = COMPOUND_STRING("POOH"),
             .moves = {
 #line 11898
                 MOVE_REST,
@@ -31699,7 +31699,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_OWN_TEMPO,
-            .nickname = COMPOUND_STRING("Eeyore"),
+            .nickname = COMPOUND_STRING("EEYORE"),
             .moves = {
 #line 11906
                 MOVE_CURSE,
@@ -31719,7 +31719,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_NAIVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_BLAZE,
-            .nickname = COMPOUND_STRING("Piglet"),
+            .nickname = COMPOUND_STRING("PIGLET"),
             .moves = {
 #line 11906
                 MOVE_FLAME_CHARGE,
@@ -31734,7 +31734,7 @@ F_TRAINER_FEMALE |
     [TRAINER_DANIELLE] =
     {
 #line 11912
-        .trainerName = _("R. Odent"),
+        .trainerName = _("R. ODENT"),
 #line 11913
         .trainerClass = TRAINER_CLASS_COLLECTOR,
 #line 11914
@@ -31964,7 +31964,7 @@ F_TRAINER_FEMALE |
     [TRAINER_FLINT] =
     {
 #line 12004
-        .trainerName = _("LemonMSpy"),
+        .trainerName = _("LEMONMSPY"),
 #line 12005
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
 #line 12006
@@ -32021,7 +32021,7 @@ F_TRAINER_FEMALE |
     [TRAINER_ASHLEY] =
     {
 #line 12021
-        .trainerName = _("HeiSe"),
+        .trainerName = _("HEISE"),
 #line 12022
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 12023
@@ -32083,7 +32083,7 @@ F_TRAINER_FEMALE |
 
     [TRAINER_WALLY_PETALBURG_GYM] =
     {
-        .trainerName = _("Lilypad"),
+        .trainerName = _("LILYPAD"),
         .trainerClass = TRAINER_CLASS_RIVAL,
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
@@ -32113,7 +32113,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_MAUVILLE] =
     {
 #line 12042
-        .trainerName = _("Lilypad"),
+        .trainerName = _("LILYPAD"),
 #line 12043
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12044
@@ -32626,7 +32626,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_LILYCOVE_MUDKIP] =
     {
 #line 12255
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 12256
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12257
@@ -32700,7 +32700,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_LILYCOVE_TREECKO] =
     {
 #line 12280
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 12281
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12282
@@ -32774,7 +32774,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_LILYCOVE_TORCHIC] =
     {
 #line 12305
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 12306
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12307
@@ -35783,7 +35783,7 @@ F_TRAINER_FEMALE |
     [TRAINER_TABITHA_MAGMA_HIDEOUT] =
     {
 #line 13493
-        .trainerName = _("Svelte"),
+        .trainerName = _("SVELTE"),
 #line 13494
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
 #line 13495
@@ -35903,7 +35903,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MAXIE_MOSSDEEP] =
     {
 #line 13536
-        .trainerName = _("Lyra"),
+        .trainerName = _("LYRA"),
 #line 13537
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
 #line 13538
@@ -41513,7 +41513,7 @@ F_TRAINER_FEMALE |
     [TRAINER_DARIUS] =
     {
 #line 15850
-        .trainerName = _("Felixr2"),
+        .trainerName = _("FELIXR2"),
 #line 15851
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
 #line 15852
@@ -41581,7 +41581,7 @@ F_TRAINER_FEMALE |
     [TRAINER_STEVEN] =
     {
 #line 15863
-        .trainerName = _("Lilypad"),
+        .trainerName = _("LILYPAD"),
 #line 15864
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 15865
@@ -44163,7 +44163,7 @@ F_TRAINER_FEMALE |
     [TRAINER_BRENDAN_PLACEHOLDER] =
     {
 #line 16860
-        .trainerName = _("Vyral"),
+        .trainerName = _("VYRAL"),
 #line 16861
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
 #line 16862
@@ -44263,7 +44263,7 @@ F_TRAINER_FEMALE |
     [TRAINER_THEA] =
     {
 #line 16916
-        .trainerName = _("Thea"),
+        .trainerName = _("THEA"),
 #line 16917
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 16918
@@ -44323,7 +44323,7 @@ F_TRAINER_FEMALE |
     [TRAINER_LUMI] =
     {
 #line 16932
-        .trainerName = _("Lumi"),
+        .trainerName = _("LUMI"),
 #line 16933
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 16934
@@ -44350,7 +44350,7 @@ F_TRAINER_FEMALE |
 #line 16943
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_CHESTO_BERRY,
-            .nickname = COMPOUND_STRING("Nanami Bear"),
+            .nickname = COMPOUND_STRING("NANAMI BEAR"),
             .moves = {
 #line 16944
                 MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST 
@@ -44381,7 +44381,7 @@ F_TRAINER_FEMALE |
 
     [TRAINER_EMILIA] =
     {
-        .trainerName = _("Emilia"),
+        .trainerName = _("EMILIA"),
         .trainerClass = TRAINER_CLASS_EMILIA,
         .trainerPic = TRAINER_PIC_EMILIA,
         .encounterMusic_gender = 
