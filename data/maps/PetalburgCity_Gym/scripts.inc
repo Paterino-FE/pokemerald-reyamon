@@ -446,6 +446,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	delay 10
 	addobject LOCALID_WALLYS_DAD
 	switch VAR_FACING
+	setflag FLAG_ENABLE_PATERINO_STARTER
 	case DIR_NORTH, PetalburgCity_Gym_EventScript_WallysDadArrivesNorth
 	case DIR_WEST, PetalburgCity_Gym_EventScript_WallysDadArrivesWest
 	case DIR_EAST, PetalburgCity_Gym_EventScript_WallysDadArrivesEast

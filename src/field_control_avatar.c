@@ -680,6 +680,11 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
             ScriptContext_SetupScript(EventScript_VsSeekerChargingDone);
             return TRUE;
         }
+        if (ShouldDoPaterinoStarterCall() == TRUE)
+        {
+            ScriptContext_SetupScript(LittlerootTown_ProfessorBirchsLab_EventScript_PokemonStarter);
+            return TRUE;
+        }
     }
 
     if (SafariZoneTakeStep() == TRUE)
