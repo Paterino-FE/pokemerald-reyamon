@@ -445,8 +445,8 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	playse SE_DOOR
 	delay 10
 	addobject LOCALID_WALLYS_DAD
-	switch VAR_FACING
 	setflag FLAG_ENABLE_PATERINO_STARTER
+	switch VAR_FACING
 	case DIR_NORTH, PetalburgCity_Gym_EventScript_WallysDadArrivesNorth
 	case DIR_WEST, PetalburgCity_Gym_EventScript_WallysDadArrivesWest
 	case DIR_EAST, PetalburgCity_Gym_EventScript_WallysDadArrivesEast
@@ -492,10 +492,6 @@ PetalburgCity_Gym_EventScript_WallysDadArrives::
 	msgbox PetalburgCity_Gym_Text_LetMeBorrowPlayer, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_DONT_TRANSITION_MUSIC
-	playbgm MUS_FOLLOW_ME, FALSE
-	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadNorth
-	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadEast
-	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadWest
 	removeobject LOCALID_WALLYS_DAD
 	setvar VAR_PETALBURG_CITY_STATE, 4
 	clearflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
@@ -523,7 +519,7 @@ PetalburgCity_Gym_EventScript_WallysDadApproachPlayerNorth::
 	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerNorth
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
@@ -636,40 +632,34 @@ PetalburgCity_Gym_Movement_PlayerExitWithWallysDadWest:
 	step_end
 
 PetalburgCity_Gym_Movement_WallysDadEnterGym:
-	walk_up
-	delay_8
-	walk_in_place_faster_right
-	delay_8
-	walk_in_place_faster_left
-	delay_16
 	walk_in_place_faster_up
 	step_end
 
 PetalburgCity_Gym_Movement_WallysDadApproachPlayerNorth:
-	walk_right
-	walk_right
 	walk_up
 	walk_up
+	walk_up
+	walk_left
 	walk_up
 	walk_in_place_faster_right
 	step_end
 
 PetalburgCity_Gym_Movement_WallysDadApproachPlayerEast:
-	walk_right
-	walk_right
 	walk_up
 	walk_up
 	walk_up
+	walk_up
+	walk_left
+	walk_in_place_faster_up
 	step_end
 
 PetalburgCity_Gym_Movement_WallysDadApproachPlayerWest:
-	walk_right
-	walk_right
+	walk_up
+	walk_up
 	walk_up
 	walk_up
 	walk_right
-	walk_right
-	walk_up
+	walk_in_place_faster_up
 	step_end
 
 PetalburgCity_Gym_Movement_Unused:
