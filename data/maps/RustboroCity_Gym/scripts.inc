@@ -174,7 +174,8 @@ RustboroCity_Gym_Text_MarcDefeat:
 	.string "A victory, but at what cost!$"
 
 RustboroCity_Gym_Text_MarcPostBattle:
-	.string "I hope you lost nothing too precious!$"
+	.string "Come visit me at my home near\n"
+	.string "Fallarbor town.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Let see if u can fight.\n"
