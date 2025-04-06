@@ -280,7 +280,7 @@ Route128_Text_MaxieThisDefiesBelief:
 	.string "LYRA: This defies belief…\p"
 	.string "Those super-ancient Pokémon…\p"
 	.string "Their power is unbelievable.\n"
-	.string "They’ve upset the very balance of\n"
+	.string "They’ve upset the very balance of\l"
 	.string "nature and more importantly,\l"
 	.string "competitive pokemon.$"
 
