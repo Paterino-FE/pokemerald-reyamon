@@ -3357,6 +3357,7 @@ extern const u16 gObjectEventPal_Wattson[];
 extern const u16 gObjectEventPal_Svelte[];
 extern const u16 gObjectEventPal_ARCHIE[];
 extern const u16 gObjectEventPal_Pouria[];
+extern const u16 gObjectEventPal_Flannery[];
 
 // Mail
 extern const u16 gMailPalette_Orange[];

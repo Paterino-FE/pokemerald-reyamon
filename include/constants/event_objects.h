@@ -398,6 +398,7 @@
 #define OBJ_EVENT_PAL_TAG_SVELTE                  0x1137
 #define OBJ_EVENT_PAL_TAG_ARCHIE                  0x1138
 #define OBJ_EVENT_PAL_TAG_POURIA                  0x1139
+#define OBJ_EVENT_PAL_TAG_FLANNERY                0x1140
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

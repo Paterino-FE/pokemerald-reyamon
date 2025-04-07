@@ -13186,7 +13186,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_QUIRKY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INNER_FOCUS,
-            .heldItem = ITEM_FLAME_ORB
+            .heldItem = ITEM_FLAME_ORB,
             .nickname = COMPOUND_STRING("DRAGONITE HM"),
             .moves = {
 #line 4896
