@@ -165,6 +165,10 @@ static const struct SpriteFrameImage sPicTable_Svelte[] = {
     overworld_ascending_frames(gObjectEventPic_Svelte, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_Hastings[] = {
+    overworld_ascending_frames(gObjectEventPic_Hastings, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_Pouria[] = {
     overworld_ascending_frames(gObjectEventPic_Pouria, 2, 4),
 };
