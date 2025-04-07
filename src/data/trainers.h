@@ -13186,13 +13186,14 @@ F_TRAINER_FEMALE |
             .nature = NATURE_QUIRKY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INNER_FOCUS,
+            .heldItem = ITEM_FLAME_ORB
             .nickname = COMPOUND_STRING("DRAGONITE HM"),
             .moves = {
 #line 4896
                 MOVE_CUT,
                 MOVE_FLASH,
                 MOVE_ROCK_SMASH,
-                MOVE_SURF,
+                MOVE_FLY,
             },
             },
         },
@@ -13496,8 +13497,8 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 5014
                 MOVE_HORN_LEECH,
-                MOVE_JUMP_KICK,
-                MOVE_HIGH_HORSEPOWER,
+                MOVE_LEECH_SEED,
+                MOVE_GRASS_KNOT,
                 MOVE_FACADE,
             },
             },
@@ -13690,7 +13691,7 @@ F_TRAINER_FEMALE |
 #line 5089
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 5088
-            .lvl = 41,
+            .lvl = 43,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SNOW_CLOAK,
@@ -13710,7 +13711,7 @@ F_TRAINER_FEMALE |
 #line 5097
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 5096
-            .lvl = 41,
+            .lvl = 43,
             .nature = NATURE_NAUGHTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_QUICK_FEET,
@@ -13757,7 +13758,7 @@ F_TRAINER_FEMALE |
 #line 5114
                 MOVE_THUNDER,
                 MOVE_NUZZLE,
-                MOVE_VOLT_SWITCH,
+                MOVE_GRASS_KNOT,
                 MOVE_LIGHT_SCREEN,
             },
             },
@@ -13770,7 +13771,7 @@ F_TRAINER_FEMALE |
 #line 5121
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5120
-            .lvl = 43,
+            .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SWARM,
