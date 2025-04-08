@@ -2836,9 +2836,8 @@ MatchCall_Text_BirchRegisterCall:
 	.string "It seems your POKéNAV's been\n"
 	.string "upgraded with MATCH CALL.\p"
 	.string "Well, I should register, too!\p"
-	.string "That way, I'd be able to examine\n"
-	.string "your POKéDEX even while you're\l"
-	.string "out in the field.\p"
+	.string "You got no choice, but to accept...\n"
+	.string "hehehehe...\p"
 	.string "… … … … … …$"
 
 MatchCall_Text_RegisteredBirch:

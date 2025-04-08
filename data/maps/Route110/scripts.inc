@@ -977,8 +977,8 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "had the MATCH CALL system installed.\p"
 	.string "Well, then, I should register you in\n"
 	.string "my POKéNAV as well.\p"
-	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.\p"
+	.string "Please only DM me if it's urgent,\n"
+	.string "but memes are fine anytime.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
@@ -987,8 +987,9 @@ Route110_Text_RegisteredBirchInPokenav:
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "PROF. PAT: {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for VYRAL.\n"
-	.string "… … … … … …\p"
+	.string "Have a wonderful stream,\n"
+	.string "also could we get 5 gifted subs???\p"
+	.string "GIGACHAD.gif\p"
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 

@@ -929,10 +929,10 @@ LittlerootTown_Text_WaitPlayer:
 LittlerootTown_Text_WearTheseRunningShoes:
 	.string "EMILIA: My Lady! {PLAYER}! Did you\n"
 	.string "introduce yourself to PROF. PAT?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "PROF. PAT gifted it to you? How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
+	.string "I hope his TURTWIG is a great\n"
+	.string "ally for your upcoming battles!\p"
+	.string "As usual, you are looking great.\n"
+	.string "Especially with your POKéMON by your side!\p"
 	.string "If you're going out on an adventure,\n"
 	.string "you best wear these RUNNING SHOES.\p"
 	.string "They'll put a zip in your step!$"
@@ -973,10 +973,10 @@ LittlerootTown_Text_CanUsePCToStoreItems:
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. PAT spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
+	.string "working, then he'll suddenly crash out\l"
+	.string "and falls asleep on his desk…\p"
 	.string "When does PROF. PAT spend time\n"
-	.string "at home?$"
+	.string "outside of projects and work?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
