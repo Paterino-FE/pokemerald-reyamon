@@ -703,7 +703,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 	.string "like this!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
-	.string "PROF. PAT is studying romhacking\n"
+	.string "PROF. PAT has been studying romhacking\n"
 	.string "for POKéMON, since january.\p"
 	.string "With the help of other community\n"
 	.string "members like Forty, Thea, Felix\l"
@@ -713,7 +713,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "PROF. PAT: So, {PLAYER}{KUN}.\p"
 	.string "I've heard so much about you from\n"
-	.string "Emilia and stubmled upon your stream.\p"
+	.string "Emilia and stumbled upon your stream.\p"
 	.string "I've heard that you don't have your\n"
 	.string "own POKéMON yet.\p"
 	.string "Oh, yes. You can have {STR_VAR_1}\n"
@@ -737,7 +737,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. PAT: Great!\n"
 	.string "VYRAL would like to have a battle.\p"
-	.string "Teach VYRAL s lesson what it\n"
+	.string "Teach VYRAL a lesson what it\n"
 	.string "means to be a TRAINER.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
@@ -747,7 +747,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. PAT: VYRAL?\n"
 	.string "Gone home, I think.\p"
-	.string "Or maybe she burns a city or two.\n"
+	.string "Or maybe she's burning a city or two.\n"
 	.string "I hope that's not the case…\p"
 	.string "If you or your POKéMON get tired,\n"
 	.string "you should get some rest at home.$"
@@ -771,7 +771,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. PAT: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
-	.string "VYRAL, goes everywhere with it.\n"
+	.string "VYRAL goes everywhere with it.\n"
 	.string "It's quite useful!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
@@ -904,7 +904,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Yes, there's no doubt about it.\p"
-	.string "You really have defeated Ange's\n"
+	.string "You really have defeated ANGE's\n"
 	.string "gym?\p"
 	.string "That's more than just impressive.\p"
 	.string "As promised.\n"
@@ -961,7 +961,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "PROF. PAT: Listen, {PLAYER}{KUN}.\n"
-	.string "You're doing a splendid job',\l"
+	.string "You're doing a splendid job,\l"
 	.string "but your POKéMON journey isn't over.\p"
 	.string "There is no end to the road\n"
 	.string "to become a POKéMON champion.\p"

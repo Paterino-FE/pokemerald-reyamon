@@ -932,7 +932,8 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "I hope his TURTWIG is a great\n"
 	.string "ally for your upcoming battles!\p"
 	.string "As usual, you are looking great.\n"
-	.string "Especially with your POKéMON by your side!\p"
+	.string "Especially with your POKéMON by\l"
+	.string "your side!\p"
 	.string "If you're going out on an adventure,\n"
 	.string "you best wear these RUNNING SHOES.\p"
 	.string "They'll put a zip in your step!$"
@@ -974,7 +975,7 @@ LittlerootTown_Text_CanUsePCToStoreItems:
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. PAT spends days in his LAB\n"
 	.string "working, then he'll suddenly crash out\l"
-	.string "and falls asleep on his desk…\p"
+	.string "and fall asleep on his desk…\p"
 	.string "When does PROF. PAT spend time\n"
 	.string "outside of projects and work?$"
 

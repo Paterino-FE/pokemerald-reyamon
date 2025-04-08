@@ -43,7 +43,7 @@ gText_Birch_SoItsPlayer::
 gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
 	.string "You're {PLAYER}{KUN} who's moving to\n"
-	.string "small of village of LITTLEROOT.\l"
+	.string "the small village of LITTLEROOT.\l"
 	.string "I get it now!\p"
 	.string "$"
 
