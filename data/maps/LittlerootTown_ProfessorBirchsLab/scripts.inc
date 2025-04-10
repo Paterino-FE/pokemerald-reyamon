@@ -703,8 +703,8 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 	.string "like this!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
-	.string "PROF. PAT has been studying romhacking\n"
-	.string "for POKéMON, since january.\p"
+	.string "PROF. PAT has been studying ROM\n"
+	.string "hacking for POKéMON since january.\p"
 	.string "With the help of other community\n"
 	.string "members like Forty, Thea, Felix\l"
 	.string "and Kohaku, he was able to make this\l"
