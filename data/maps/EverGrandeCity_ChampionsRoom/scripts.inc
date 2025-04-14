@@ -55,6 +55,12 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	special DrawWholeMapView
 	msgbox EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	closemessage
+	fadescreen FADE_TO_WHITE
+	playse SE_FLEE
+	removeobject LOCALID_WALLACE
+	setflag FLAG_HIDE_CHAMP_VYRAL
+	waitse
+	fadescreen FADE_FROM_WHITE
 	goto EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF
 	end
 
@@ -102,27 +108,27 @@ EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 	msgbox EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex, MSGBOX_DEFAULT
 	call ProfBirch_EventScript_RatePokedex
 	msgbox EverGrandeCity_ChampionsRoom_Text_BirchCongratulations, MSGBOX_DEFAULT
-	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
-	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe, MSGBOX_DEFAULT
 	closemessage
 	delay 30
-	applymovement LOCALID_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart
+	applymovement LOCALID_BIRCH, EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExitStart
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExit
+	applymovement LOCALID_BIRCH, EverGrandeCity_ChampionsRoom_Movement_WallaceExit
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExit
 	waitmovement 0
 	setflag FLAG_HIDE_PETALBURG_GYM_GREETER
+	clearflag FLAG_HIDE_CHAMP_VYRAL
 	warp MAP_EVER_GRANDE_CITY_HALL_OF_FAME, 7, 16
 	waitstate
 	releaseall
@@ -191,6 +197,8 @@ EverGrandeCity_ChampionsRoom_Movement_RivalFollows:
 EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart:
 	walk_up
 	walk_up
+	walk_up
+	walk_left
 	walk_in_place_faster_down
 	step_end
 
@@ -281,16 +289,15 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 	.string "You've beaten the CHAMPION?$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-	.string "PROF. PAT: See?\n"
-	.string "What did I tell you, VYRAL?\p"
-	.string "Didn't I tell you that you don't need\n"
-	.string "to worry about {PLAYER}{KUN}?\p"
-	.string "… … … … … … … …\n"
-	.string "{PLAYER}{KUN}, you've finally done it.\p"
-	.string "When I heard that you defeated your\n"
-	.string "own father at the PETALBURG GYM,\l"
-	.string "I thought perhaps you had a chance…\p"
-	.string "But to think you've actually become\n"
+	.string "PROF. PAT: Amazing...\n"
+	.string "You did it, you defeated VYRAL!\p"
+	.string "Without your courageous actions,\n"
+	.string "all of Hoenn would have been enslaved,\l"
+	.string "by this tyrannical dragon!\p"
+	.string "I had lived in fear of VYRAL for a\n"
+	.string "long time, but you never gave her\l"
+	.string "an inch. We are all indebted to you!\p"
+	.string "And to think you've actually become\n"
 	.string "the CHAMPION!\p"
 	.string "Ah, yes!\p"
 	.string "What became of your POKéDEX?\n"
@@ -302,17 +309,17 @@ EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
 	.string "Now, go proudly into the final room!$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
-	.string "VYRAL: {PLAYER}{KUN}…\p"
+	.string "PROF. PAT: {PLAYER}{KUN}…\p"
 	.string "No, let me rephrase that properly.\p"
 	.string "The new CHAMPION!\p"
 	.string "Come with me.$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
-	.string "VYRAL: I'm sorry, but…\p"
-	.string "From here on, only those TRAINERS who\n"
-	.string "have become CHAMPIONS may enter.\p"
-	.string "You'll have to wait outside with\n"
-	.string "PROF. PAT.$"
+	.string "PROF. PAT: I'm sorry, but…\p"
+	.string "I am still shook that you\n"
+	.string "saved us all. Again.\p"
+	.string "Now, let us continue on to the\n"
+	.string "HALL OF FAME!$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 	.string "MAY: Groan…\p"
