@@ -1442,7 +1442,7 @@ F_TRAINER_FEMALE |
         .doubleBattle = FALSE,
 #line 599
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 5,
+        .partySize = 6,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1486,6 +1486,27 @@ F_TRAINER_FEMALE |
             .heldItem = ITEM_TOXIC_ORB,
             .ability = ABILITY_GUTS,
             .moves = {MOVE_FIRE_FANG, MOVE_QUICK_ATTACK, MOVE_YAWN, MOVE_PAY_DAY}
+            },
+            {
+            .species = SPECIES_AMPHAROS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 43,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_STATIC,
+            .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_MEGA_PUNCH}
+            },
+            {
+            .species = SPECIES_PYUKUMUKU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 43,
+            .nature = NATURE_JOLLY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("SOLD FOR AD"),
+            .ability = ABILITY_UNAWARE,
+            .moves = {MOVE_MEMENTO}
             },
             {
             .species = SPECIES_PYUKUMUKU,
@@ -13490,7 +13511,7 @@ F_TRAINER_FEMALE |
             .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
 #line 5012
             .lvl = 30,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_RELAXED,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SERENE_GRACE,
             .friendship = 255,
@@ -13510,7 +13531,7 @@ F_TRAINER_FEMALE |
             .iv = TRAINER_PARTY_IVS(26, 26, 26, 26, 26, 26),
 #line 5020
             .lvl = 31,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_SASSY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_CUTE_CHARM,
             .friendship = 255,
@@ -13531,7 +13552,7 @@ F_TRAINER_FEMALE |
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 5028
             .lvl = 32,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_SASSY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_OWN_TEMPO,
             .friendship = 255,
@@ -13731,10 +13752,11 @@ F_TRAINER_FEMALE |
 #line 5105
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
 #line 5104
-            .lvl = 42,
+            .lvl = 44,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_IRON_FIST,
+            .heldItem = ITEM_SITRUS_BERRY,
             .moves = {
 #line 5106
                 MOVE_NIGHT_SLASH,
