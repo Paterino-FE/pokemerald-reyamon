@@ -303,16 +303,15 @@ FortreeCity_Gym_Text_HumbertoPostBattle:
 	.string "Oh no...I'll....get....banned.$"
 
 FortreeCity_Gym_Text_DariusIntro:
-	.string "Oh man, it's Reya! Time to show\n"
-	.string "off my cutest Pokemon!$"
+	.string "We meet again, {PLAYER}! Have you\n"
+	.string "been making good use of Solar Beam?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
-	.string "THEA's Pokemon are even cuter\n"
-	.string "than mine.$"
+	.string "Oh man, you're better than I thought!$"
 
 FortreeCity_Gym_Text_DariusPostBattle:
-	.string "THEA's Pokemon are even cuter\n"
-	.string "than mine.$"
+	.string "I only use cute Pokémon here,\n"
+	.string "just like THEA!$"
 
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "AAAAAAAAAAAH!\p"

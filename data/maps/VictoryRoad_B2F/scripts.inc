@@ -107,19 +107,18 @@ VictoryRoad_B2F_Text_JuliePostBattle:
 	.string "pretty great, too.$"
 
 VictoryRoad_B2F_Text_FelixIntro:
-	.string "I remember you! You beat up\n"
-	.string "my cute pokemon in Fortree City.\p"
-	.string "You won't win as easily this time!$"
+	.string "This time, I'll show YOU the\n"
+	.string "power of Solar Beam!$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
-	.string "Wow, you're really strong actually!\n"
-	.string "You might just have what it takes to\l"
-	.string "beat the champion.\p"
-	.string "I've heard she's pretty scary!$"
+	.string "My Solar Beam... \n"
+	.string "wasn't strong enough?\p"
+	.string "How could this be?$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
-	.string "You're really cool! Hopefully I can\n"
-	.string "be as strong as you one day.$"
+	.string "I can't teach your Pokémon Solar Beam\n"
+	.string "here, sorry. You need to go all the\l"
+	.string "way back for that.$"
 
 VictoryRoad_B2F_Text_DianneIntro:
 	.string "FABULOUS. I see you made it here.$"
