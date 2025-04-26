@@ -231,11 +231,11 @@ LiamCave_GameCorner_EventScript_NoCoinCase::
 	end
 
 LiamCave_GameCorner_Text_CantPlayWithNoCoinCase:
-	.string "LIAM: You can't play {PLAYER}, \n"
+	.string "LIAM: You can't play, {PLAYER}, \n"
 	.string "if you don't have a COIN CASE...\p"
 	.string "You can get one in MAUVILLE CITY.\p"
 	.string "There was a girl in one of the\n"
-	.string "houses, who stopped to gamba.$"
+	.string "houses who stopped to gamba.$"
 
 LiamCave_GameCorner_Text_ExchangeCoinsForPrizes:
 	.string "LIAM: Hey {PLAYER}!\p"
