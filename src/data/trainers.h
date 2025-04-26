@@ -1515,17 +1515,6 @@ F_TRAINER_FEMALE |
             .lvl = 43,
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .nickname = COMPOUND_STRING("SOLD FOR AD"),
-            .ability = ABILITY_UNAWARE,
-            .moves = {MOVE_MEMENTO}
-            },
-            {
-            .species = SPECIES_PYUKUMUKU,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-            .lvl = 43,
-            .nature = NATURE_JOLLY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .nickname = COMPOUND_STRING("BUYTIMESHARE"),
             .ability = ABILITY_UNAWARE,
             .moves = {MOVE_MEMENTO}
