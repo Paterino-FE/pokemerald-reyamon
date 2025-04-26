@@ -3712,7 +3712,7 @@ F_TRAINER_FEMALE |
             .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_BLAZE,
+            .ability = ABILITY_INTIMIDATE,
             .moves = {MOVE_SWAGGER, MOVE_U_TURN, MOVE_DARKEST_LARIAT, MOVE_FLAME_CHARGE}
             },
             {
@@ -29415,7 +29415,7 @@ F_TRAINER_FEMALE |
             .lvl = 37,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_BLAZE,
+            .ability = ABILITY_INTIMIDATE,
             .moves = {MOVE_SWAGGER, MOVE_U_TURN, MOVE_BITE, MOVE_FLAME_CHARGE}
             },
             {
@@ -29478,7 +29478,7 @@ F_TRAINER_FEMALE |
             .lvl = 24,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_BLAZE,
+            .ability = ABILITY_INTIMIDATE,
             .moves = {MOVE_BITE, MOVE_U_TURN, MOVE_SWAGGER, MOVE_FLAME_CHARGE}
             },
             {
@@ -35940,7 +35940,7 @@ F_TRAINER_FEMALE |
             .lvl = 42,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_BLAZE, 
+            .ability = ABILITY_INTIMIDATE, 
             .moves = {MOVE_SCARY_FACE, MOVE_U_TURN, MOVE_BITE, MOVE_FLAME_CHARGE}
             },
             {
