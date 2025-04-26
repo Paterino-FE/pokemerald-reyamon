@@ -5,9 +5,11 @@ MauvilleCity_House2_EventScript_Woman::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_COIN_CASE, MauvilleCity_House2_EventScript_ReceivedCoinCase
-	msgbox MauvilleCity_House2_Text_BuyHarborMailAtSlateport, MSGBOX_DEFAULT
-	checkitem ITEM_HARBOR_MAIL
-	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_House2_EventScript_AskToTradeForHarborMail
+	msgbox MauvilleCity_House2_Text_TradeHarborMailForCoinCase, MSGBOX_DEFAULT
+	giveitem ITEM_COIN_CASE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_COIN_CASE
+	msgbox MauvilleCity_House2_Text_UseCoinCaseAtGameCorner, MSGBOX_DEFAULT
 	release
 	end
 
@@ -26,7 +28,6 @@ MauvilleCity_House2_EventScript_AcceptTrade::
 	msgbox MauvilleCity_House2_Text_IllTradeYouCoinCase, MSGBOX_DEFAULT
 	giveitem ITEM_COIN_CASE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	removeitem ITEM_HARBOR_MAIL
 	setflag FLAG_RECEIVED_COIN_CASE
 	goto MauvilleCity_House2_EventScript_ReceivedCoinCase
 	end
@@ -48,12 +49,12 @@ MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
 	.string "POKéMON MART in SLATEPORT…$"
 
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
-	.string "Oh! You have HARBOR MAIL?\n"
-	.string "Will you trade it for a COIN CASE?$"
+	.string "Gambling is wrong...\n"
+	.string "Take this COIN CASE please.$"
 
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
 	.string "Oh, I'm so happy!\n"
-	.string "Okay, I'll trade you a COIN CASE!$"
+	.string "Okay, I'll give you a COIN CASE!$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
 	.string "That COIN CASE can be used\n"
