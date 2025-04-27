@@ -299,26 +299,20 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "See you again!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-	.string "VYRAL: {PLAYER}, hey, it's been a while.\n"
-	.string "How's it going?\p"
-	.string "Hmm…\n"
-	.string "That's a decent collection of BADGES.\p"
-	.string "All right, then.\n"
-	.string "You may as well have this.$"
+	.string "VYRAL: Oh hey, princess, it's been\n"
+	.string "a while.\p"
+	.string "If you were hoping to sneak a peek of\n"
+	.string "my perfect form in the hot springs,\l"
+	.string "I'm already on my way to beat up the\l"
+	.string "next one of these GYM LEADERs.\p"
+	.string "The desert? Hah, you think you can\n"
+	.string "handle those conditions? Cute.$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-	.string "VYRAL: Keep those with you if you're\n"
-	.string "planning on going into that desert near\l"
-	.string "ROUTE 111.\p"
-	.string "There should be some POKéMON that\n"
-	.string "are exclusively desert-dwellers.\l"
-	.string "You might look around for those.\p"
-	.string "As for me…\n"
-	.string "I'm considering challenging ANGE,\l"
-	.string "the GYM LEADER of PETALBURG.\p"
-	.string "Unlike you, {PLAYER}, your dad looks like\n"
-	.string "he really is tough.\p"
-	.string "See you around!$"
+	.string "VYRAL: Here, take those.\p"
+	.string "I'd hate for something other than me\n"
+	.string "to make you cry.\p"
+	.string "Good Luck, your majesty!$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "I have here an EGG.\p"

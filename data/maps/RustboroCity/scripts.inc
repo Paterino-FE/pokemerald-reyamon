@@ -1182,50 +1182,42 @@ RustboroCity_Text_MayMrBrineyHint:
 	.string "was once a revered seafarer.$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
-	.string "VYRAL: Oh, hey, {PLAYER}!\p"
-	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV! Cool!\p"
-	.string "Let's register each other so we can\n"
-	.string "get in touch anytime!\p"
-	.string "… … … … … …$"
+	.string "VYRAL: Hey Princess, nice watch you\n"
+	.string "got there.\p"
+	.string "Sadly, it doesn't tell when it’s\n"
+	.string "time to give up!\p"
+	.string "If you ever figure it out, feel free\n"
+	.string "to call me.$"
 
 RustboroCity_Text_RegisteredBrendan:
 	.string "Registered VYRAL\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
-	.string "VYRAL: By the way, {PLAYER}, I walked\n"
-	.string "by MR. BRINEY in PETALBURG WOODS.\p"
-	.string "I bet he was on his way home to his\n"
-	.string "cottage by the sea.\p"
-	.string "{PLAYER}, how's your POKéDEX?\n"
-	.string "Have you filled in any pages yet?\p"
-	.string "Mine rules.\p"
-	.string "Want to have a battle to test how\n"
-	.string "far you've progressed?$"
+	.string "VYRAL: Why don't you show me right\n"
+	.string "here what you are made of?!$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
-	.string "VYRAL: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "VYRAL: Pathetic!$"
 
 RustboroCity_Text_BrendanWantToBattle:
-	.string "VYRAL: What's up?\n"
-	.string "Want to have a battle with me?$"
+	.string "VYRAL: Why don't you show me right\n"
+	.string "here what you are made of?!$"
 
 RustboroCity_Text_BrendanIWontGoEasy:
-	.string "VYRAL: I know you just became\n"
-	.string "a TRAINER, but I won't go easy!$"
+	.string "VYRAL: Maybe I will actually try\n"
+	.string "this time…$"
 
 RustboroCity_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "Hmm… maybe\n"
+	.string "this won't be as boring as I thought.$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
-	.string "VYRAL: By the way, you know\n"
-	.string "MR. BRINEY? The guy I just passed?\p"
-	.string "I bet you didn't know this, since you\n"
-	.string "just moved here, {PLAYER}, but\l"
-	.string "MR. BRINEY was once a great sailor.$"
+	.string "VYRAL: Wait, you actually wasted time\n"
+	.string "on helping that old geezer MR. BRINEY?\p"
+	.string "I plundered his house earlier while\n"
+	.string "he was gone, but all he had was this\l"
+	.string "old boat. Useless!$"
 
 RustboroCity_Text_TunnelNearingCompletion:
 	.string "“Timesaving tunnel nearing\n"

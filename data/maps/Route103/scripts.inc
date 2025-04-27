@@ -321,29 +321,26 @@ Route103_Text_MayTimeToHeadBack:
 	.string "the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "VYRAL: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "VYRAL: Tch! Only pathetic weaklings\n"
+	.string "to catch here!$"
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!$"
+	.string "Oh, look at you catching up!\n"
+	.string "Finally found the courage, huh?\p"
+	.string "A battle? Aren't you adorable!\n"
+	.string "But sure, I will indulge you...$"
 
 Route103_Text_BrendanDefeated:
-	.string "Huh, {PLAYER}, you're not too shabby.$"
+	.string "Good girl! It's so much more fun\n"
+	.string "if you put up a fight…$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "VYRAL: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "VYRAL: I'm out of here, I need to\n"
+	.string "find some Pokemon that are not\l"
+	.string "completely useless.\p"
+	.string "You should go back to that lab and\n"
+	.string "get your little green friend\l"
+	.string "patched up before it croaks.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My POKéMON is staggeringly tired…\n"

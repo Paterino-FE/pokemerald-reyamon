@@ -483,67 +483,49 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
 	.string "See you!$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
-	.string "VYRAL: Oh, hey, it's {PLAYER}.\p"
-	.string "I'm running an errand for my dad.\n"
-	.string "No, I'm not buying any DOLLS.\p"
-	.string "Anyways, it's been a while.\p"
-	.string "Want to have a battle to see who's been\n"
-	.string "raising POKéMON better?$"
+	.string "VYRAL: You made it this far?\p"
+	.string "I am almost impressed. I guess you\n"
+	.string "are as persistent as you are pathetic.\p"
+	.string "Be a good girl and give me a nice\n"
+	.string "warm up before I challenge for the\l"
+	.string "throne, will you?$"
 
 LilycoveCity_Text_BrendanNoConfidence:
-	.string "VYRAL: Oh, what's the matter?\n"
-	.string "Don't have the confidence?$"
+	.string "VYRAL: Pathetic, as I said.$"
 
 LilycoveCity_Text_BrendanBattleMe:
-	.string "VYRAL: Want to battle to see who's\n"
-	.string "been raising POKéMON better?$"
+	.string "Be a good girl and give me a nice\n"
+	.string "warm up before I challenge for the\l"
+	.string "throne, will you?$"
 
 LilycoveCity_Text_BrendanWontBeBeaten:
-	.string "VYRAL: Aww, but you know I'm not\n"
-	.string "going to lose to no {PLAYER}.$"
+	.string "VYRAL: That’s the spirit, princess!$"
 
 LilycoveCity_Text_BrendanDefeat:
-	.string "Humph…\n"
-	.string "You've done a lot of raising.\p"
-	.string "That stings a bit--I had a head start\n"
-	.string "on you as a TRAINER…$"
+	.string "Yeees. Channel that anger!\p"
+	.string "This is much more entertaining than\n"
+	.string "your goody two-shoes act!$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
-	.string "VYRAL: I…\n"
-	.string "I plan on going home to LITTLEROOT.\p"
-	.string "You know I'm helping out my dad on his\n"
-	.string "POKéDEX. It's coming together pretty\l"
-	.string "decently, so I should go show him.$"
+	.string "Time to take the throne for myself.$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Maybe I'll do that, too…\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Feel free to swing by and pay me the\n"
+	.string "respect I deserve.\p"
+	.string "You look so much better on your\n"
+	.string "knees anyway.$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Since you're that strong, are you\n"
-	.string "taking the POKéMON LEAGUE challenge?\p"
-	.string "Heh, even me--if I trained my POKéMON\n"
-	.string "a bit more, I should be stronger than\l"
-	.string "you, {PLAYER}.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Feel free to swing by and pay me the\n"
+	.string "respect I deserve.\p"
+	.string "You look so much better on your\n"
+	.string "knees anyway.$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Are you taking the BATTLE FRONTIER\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "POKéDEX?\p"
-	.string "Since you're that strong, you should\n"
-	.string "consider the BATTLE FRONTIER.\p"
-	.string "Heh, if I train my POKéMON a bit more,\n"
-	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the BATTLE\n"
-	.string "FRONTIER.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Feel free to swing by and pay me the\n"
+	.string "respect I deserve.\p"
+	.string "You look so much better on your\n"
+	.string "knees anyway.$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
 	.string "I just really need to talk to\n"

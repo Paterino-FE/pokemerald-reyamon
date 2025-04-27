@@ -143,30 +143,26 @@ SkyPillar_Outside_Text_DoorIsClosed:
 	.string "The door is closed.$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-	.string "VYRAL: Oh, my, I'm terribly sorry!\p"
-	.string "In my haste, I didn't notice that\n"
-	.string "I'd left you behind!\p"
-	.string "I've opened the locked door of\n"
-	.string "the SKY PILLAR.\p"
-	.string "{PLAYER}{KUN}, let's be on our way!$"
+	.string "EMILIA: There you are,\n"
+	.string "Mistress {PLAYER}.\p"
+	.string "I have acquired a key to the tower\n"
+	.string "from one of the village elders of\l"
+	.string "SOOTOPOLIS and opened the door to\l"
+	.string "the SKY PILLAR. We can enter it now.$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
-	.string "VYRAL: It's an earthquake!\p"
+	.string "EMILIA: It's an earthquake!\p"
 	.string "There's not a moment to waste!\n"
-	.string "We've got to hurry!$"
+	.string "We've got to hurry, my Lady!$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-	.string "VYRAL: Hmm…\n"
+	.string "EMILIA: Hmm…\n"
 	.string "The situation is getting worse…$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-	.string "VYRAL: This isn't good…\p"
-	.string "The weather distortion is spreading\n"
-	.string "even here…\p"
-	.string "{PLAYER}{KUN}.\p"
-	.string "RAYQUAZA should be farther up\n"
-	.string "from here.\p"
-	.string "I'm worried about SOOTOPOLIS.\n"
-	.string "I've got to go back.\p"
+	.string "EMILIA: Perhaps I am needed elsewhere\n"
+	.string "to help the people of SOOTOPOLIS.\p"
+	.string "I will go back there. I would only be\n"
+	.string "in your Majesty’s way, anyway.\p"
 	.string "Everything is in your hands now.\n"
-	.string "Don't fail us!$"
+	.string "I know that you will not let us down!$"

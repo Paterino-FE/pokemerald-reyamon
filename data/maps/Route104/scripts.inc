@@ -1128,11 +1128,12 @@ Route104_Text_MayPostBattle:
 	.string "POKéMON, too.$"
 
 Route104_Text_BrendanWeShouldRegister:
-	.string "VYRAL: Oh, hey, {PLAYER}!\p"
-	.string "Cool, you had DEVON install the MATCH\n"
-	.string "CALL system on your POKéNAV!\p"
-	.string "Let's register each other in our\n"
-	.string "POKéNAVS so we can keep in touch.$"
+	.string "VYRAL: Hey Princess, nice watch you\n"
+	.string "got there.\p"
+	.string "Sadly, it doesn't tell when it’s\n"
+	.string "time to give up!\p"
+	.string "If you ever figure it out, feel free\n"
+	.string "to call me.$"
 
 Route104_Text_RegisteredBrendan:
 	.string "{PLAYER} registered VYRAL\n"
@@ -1143,30 +1144,27 @@ Route104_Text_BrendanHowsYourPokedex:
 	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
-	.string "Me, I'm doing great!\p"
-	.string "Want to check out how good I am with\n"
-	.string "a battle?$"
+	.string "VYRAL: Why don't you show me right\n"
+	.string "here what you are made of?!$"
 
 Route104_Text_BrendanNoConfidence:
-	.string "VYRAL: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "VYRAL: Pathetic!$"
 
 Route104_Text_BrendanLetsBattle:
-	.string "VYRAL: What's up?\n"
-	.string "Want to have a battle with me?$"
+	.string "VYRAL: Why don't you show me right\n"
+	.string "here what you are made of?!$"
 
 Route104_Text_BrendanIntro:
-	.string "VYRAL: I know you just became\n"
-	.string "a TRAINER, but I won't go easy!$"
+	.string "VYRAL: Maybe I will actually try\n"
+	.string "this time…$"
 
 Route104_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "Hmm… maybe\n"
+	.string "this won't be as boring as I thought.$"
 
 Route104_Text_BrendanPostBattle:
-	.string "VYRAL: You've gotten pretty decent\n"
-	.string "at handling POKéMON.\p"
-	.string "But, you know, you shouldn't just be\n"
-	.string "making POKéMON battle.\p"
-	.string "Like MR. BRINEY, it's important to\n"
-	.string "become friends with your POKéMON.$"
+	.string "VYRAL: Wait, you actually wasted time\n"
+	.string "on helping that old geezer MR. BRINEY?\p"
+	.string "I plundered his house earlier while\n"
+	.string "he was gone, but all he had was this\l"
+	.string "old boat. Useless!$"

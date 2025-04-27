@@ -786,30 +786,26 @@ Route110_Text_MayExplainItemfinder:
 	.string "harder for the next time.$"
 
 Route110_Text_BrendanLetsBattle:
-	.string "VYRAL: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+	.string "VYRAL: GRRRR!\p"
+	.string "I swear, if these blue dorks ever try\n"
+	.string "to sell me this Ti...\p"
+	.string "Oh, if it isn't my little princess...\n"
+	.string "you have perfect timing.\p"
+	.string "I am livid and need someone to\n"
+	.string "release all this pent-up anger on!$"
 
 Route110_Text_BrendanDefeated:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "Turns out the ones actually deserving\n"
+	.string "punishment were these pathetic\l"
+	.string "wretches in my team.$"
 
 Route110_Text_BrendanTakeThis:
-	.string "VYRAL: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take this.$"
+	.string "VYRAL: Get lost now, I have some\n"
+	.string "disciplining to do.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "VYRAL: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
-	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.$"
+	.string "VYRAL: Go play with this and stop\p"
+	.string "bothering me!$"
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"

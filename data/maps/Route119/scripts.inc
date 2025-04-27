@@ -555,30 +555,30 @@ Route119_Text_MayExplainFly:
 	.string "Well, let's meet again somewhere!$"
 
 Route119_Text_BrendanIntro:
-	.string "VYRAL: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
-	.string "Let me see how good you got.\n"
-	.string "I'll test you!\p"
-	.string "Now!\n"
-	.string "It's a battle, so battle!$"
+	.string "VYRAL: Princess! Look at you all wet\n"
+	.string "and exhausted.\p"
+	.string "If I wasn't so busy I'd take in the\n"
+	.string "sight even longer, but I have a\l"
+	.string "GYM LEADER to defeat.\p"
+	.string "No?! YOU want to stop me?\n"
+	.string "Fine. LET’S GO!$"
 
 Route119_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You've gotten pretty darn decent.$"
+	.string "I guess it's impossible to not take\n"
+	.string "pity on you looking like a drowned\l"
+	.string "rat. Don't think that I gave it\l"
+	.string "my all!$"
 
 Route119_Text_BrendanIllGiveYouThis:
-	.string "VYRAL: I'd say you're good enough\n"
-	.string "to search for POKéMON anywhere.\p"
-	.string "Here, I'll give you this.\n"
-	.string "Try it out.$"
+	.string "VYRAL: Here, take this and get\n"
+	.string "yourself cleaned up.\p"
+	.string "I don't want to be seen destroying\n"
+	.string "someone in such a sorry state.$"
 
 Route119_Text_BrendanExplainFly:
-	.string "VYRAL: Use FLY, and your POKéMON\n"
-	.string "instantly carries you to any town\l"
-	.string "you've already visited.\p"
-	.string "But you need the FORTREE GYM BADGE \n"
-	.string "to do that.\p"
-	.string "Anyway, I have to move along.$"
+	.string "VYRAL: I'm out to beat the next\n"
+	.string "GYM LEADER… apparently they are\l"
+	.string "quite formidable.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
 	.string "SCOTT: Hahahah!\n"
