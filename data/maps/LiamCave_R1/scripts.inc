@@ -6,7 +6,7 @@ LiamCave_R1_MapScripts::
 	.set TM_PSYCHIC_COINS, 3500
 	.set TM_FLAMETHROWER_COINS, 4000
 	.set TM_THUNDERBOLT_COINS, 4000
-	.set TM_ICE_BEAM_COINS, 4000
+	.set TM_DAZZLING_GLEAM_COINS, 4000
 	.set DOLL_COINS, 1000
 
 LiamCave_GameCorner_EventScript_NeedCoinCase::
@@ -33,13 +33,13 @@ LiamCave_GameCorner_EventScript_ChooseTMPrizeMessage::
 	goto LiamCave_GameCorner_EventScript_ChooseTMPrize
 
 LiamCave_GameCorner_EventScript_ChooseTMPrize::
-	multichoice 12, 0, MULTI_GAME_CORNER_TMS, FALSE
+	multichoice 12, 0, MULTI_LIAM_GAME_CORNER_TMS, FALSE
 	switch VAR_RESULT
 	case 0, LiamCave_GameCorner_EventScript_TMDoubleTeam
 	case 1, LiamCave_GameCorner_EventScript_TMPsychic
 	case 2, LiamCave_GameCorner_EventScript_TMFlamethrower
 	case 3, LiamCave_GameCorner_EventScript_TMThunderbolt
-	case 4, LiamCave_GameCorner_EventScript_TMIceBeam
+	case 4, LiamCave_GameCorner_EventScript_TMDazzlingGleam
 	case 5, LiamCave_GameCorner_EventScript_CancelTMSelect
 	goto LiamCave_GameCorner_EventScript_CancelTMSelect
 	end
@@ -53,7 +53,7 @@ LiamCave_GameCorner_EventScript_ConfirmTMPrize::
 	case 2, LiamCave_GameCorner_EventScript_BuyTMPsychic
 	case 3, LiamCave_GameCorner_EventScript_BuyTMFlamethrower
 	case 4, LiamCave_GameCorner_EventScript_BuyTMThunderbolt
-	case 5, LiamCave_GameCorner_EventScript_BuyTMIceBeam
+	case 5, LiamCave_GameCorner_EventScript_BuyTMDazzlingGleam
 	end
 
 LiamCave_GameCorner_Text_SoYourChoiceIsTheTMX:
@@ -112,13 +112,13 @@ LiamCave_GameCorner_EventScript_BuyTMThunderbolt::
 	goto LiamCave_GameCorner_EventScript_ReturnToChooseTMPrize
 	end
 
-LiamCave_GameCorner_EventScript_BuyTMIceBeam::
+LiamCave_GameCorner_EventScript_BuyTMDazzlingGleam::
 	checkcoins VAR_TEMP_2
-	goto_if_lt VAR_TEMP_2, TM_ICE_BEAM_COINS, LiamCave_GameCorner_EventScript_NotEnoughCoinsForTM
-	checkitemspace ITEM_TM_ICE_BEAM
+	goto_if_lt VAR_TEMP_2, TM_DAZZLING_GLEAM_COINS, LiamCave_GameCorner_EventScript_NotEnoughCoinsForTM
+	checkitemspace ITEM_TM_DAZZLING_GLEAM
 	goto_if_eq VAR_RESULT, FALSE, LiamCave_GameCorner_EventScript_NoRoomForTM
-	removecoins TM_ICE_BEAM_COINS
-	additem ITEM_TM_ICE_BEAM
+	removecoins TM_DAZZLING_GLEAM_COINS
+	additem ITEM_TM_DAZZLING_GLEAM
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox LiamCave_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -179,10 +179,10 @@ LiamCave_GameCorner_EventScript_TMThunderbolt::
 	setvar VAR_0x8004, ITEM_TM_THUNDERBOLT
 	goto LiamCave_GameCorner_EventScript_ConfirmTMPrize
 
-LiamCave_GameCorner_EventScript_TMIceBeam::
+LiamCave_GameCorner_EventScript_TMDazzlingGleam::
 	setvar VAR_TEMP_1, 5
-	bufferitemname STR_VAR_1, ITEM_TM_ICE_BEAM
-	setvar VAR_0x8004, ITEM_TM_ICE_BEAM
+	bufferitemname STR_VAR_1, ITEM_TM_DAZZLING_GLEAM
+	setvar VAR_0x8004, ITEM_TM_DAZZLING_GLEAM
 	goto LiamCave_GameCorner_EventScript_ConfirmTMPrize
 
 LiamCave_GameCorner_EventScript_SlotMachine0::

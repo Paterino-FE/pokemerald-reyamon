@@ -597,6 +597,7 @@ const u8 gText_TM29AndPrice[] = _("TM29{CLEAR_TO 0x48}3,500 COINS");
 const u8 gText_TM35AndPrice[] = _("TM35{CLEAR_TO 0x48}4,000 COINS");
 const u8 gText_TM24AndPrice[] = _("TM24{CLEAR_TO 0x48}4,000 COINS");
 const u8 gText_TM13AndPrice[] = _("TM13{CLEAR_TO 0x48}4,000 COINS");
+const u8 gText_TM51AndPrice[] = _("TM51{CLEAR_TO 0x48}4,000 COINS");
 const u8 gText_Cool[] = _("COOL");
 const u8 gText_Beauty[] = _("BEAUTY");
 const u8 gText_Cute[] = _("CUTE");
