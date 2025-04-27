@@ -279,7 +279,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "PROF. PAT: Amazing...\n"
 	.string "You did it, you defeated VYRAL!\p"
 	.string "Without your courageous actions,\n"
-	.string "all of Hoenn would have been enslaved,\l"
+	.string "all of Hoenn would have been enslaved\l"
 	.string "by this tyrannical dragon!\p"
 	.string "I had lived in fear of VYRAL for a\n"
 	.string "long time, but you never gave her\l"
