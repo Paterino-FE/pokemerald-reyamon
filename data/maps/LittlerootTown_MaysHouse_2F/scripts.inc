@@ -341,7 +341,7 @@ RivalsHouse_2F_Text_MayGettingReady:
 RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Oh, hey there, little Princess… you\n"
 	.string "finally made it, huh?\p"
-	.string "Well, I guessyou were always a slow\n"
+	.string "Well, I guess you were always a slow\n"
 	.string "one. Anyway, I assume you are here to\l"
 	.string "try and stop me from beating the\l"
 	.string "ELITE FOUR and becoming the CHAMPION\l"
