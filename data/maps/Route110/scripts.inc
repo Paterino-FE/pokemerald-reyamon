@@ -986,6 +986,6 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "Have a wonderful stream,\n"
 	.string "also could we get 5 gifted subs???\p"
 	.string "GIGACHAD.gif\p"
-	.string "Well, I had better get going.\n"
+	.string "Well, I should better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 

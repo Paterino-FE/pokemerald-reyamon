@@ -13294,7 +13294,7 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4935
 #line 4937
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
 #line 4936
             .lvl = 29,
             .nature = NATURE_HARDY,
@@ -16802,6 +16802,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_LEFTOVERS,
+            .isShiny = 1,
             .moves = {
 #line 6273
                 MOVE_FLAMETHROWER,
@@ -24812,7 +24813,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SAND_VEIL,
-            .moves = {MOVE_ROAR, MOVE_SWAGGER, MOVE_DUAL_CHOP, MOVE_SCARY_FACE}
+            .moves = {MOVE_SLASH, MOVE_SWAGGER, MOVE_DUAL_CHOP, MOVE_SCARY_FACE}
             },
             {
 #line 9378
@@ -24825,7 +24826,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_NATURAL_CURE,
-            .moves = {MOVE_HEAL_BELL, MOVE_SWAGGER, MOVE_DRAGON_BREATH, MOVE_ROAR}
+            .moves = {MOVE_HEAL_BELL, MOVE_SWAGGER, MOVE_DRAGON_BREATH, MOVE_DISARMING_VOICE}
             },
             {
 #line 9382
@@ -32704,6 +32705,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_SITRUS_BERRY,
+            .isShiny = 1,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
@@ -32778,6 +32780,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_SITRUS_BERRY,
+            .isShiny = 1,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
@@ -32852,6 +32855,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_SITRUS_BERRY,
+            .isShiny = 1,
             .moves = {MOVE_FLAME_BURST, MOVE_DRAGON_RAGE, MOVE_SCARY_FACE, MOVE_WING_ATTACK,},
             },
         },
