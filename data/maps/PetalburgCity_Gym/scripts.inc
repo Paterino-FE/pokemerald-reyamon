@@ -1184,12 +1184,14 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 	.string "You're LILYPAD, right?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-	.string "LILYPAD: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
-	.string "I thought I would be lonely by myself,\n"
-	.string "so I caught a POKéMON to keep\l"
-	.string "me company.\p"
-	.string "But we'd like to fight....$"
+	.string "LILYPAD: I'm going on a journey\n"
+	.string "with my PALS.\p"
+	.string "When I heard that {PLAYER} got her\n"
+	.string "very own Pokemon, I thought that it\l"
+	.string "would be great to have one for\l"
+	.string "myself, too.\p"
+	.string "But now that I caught one, we’d like\n"
+	.string "to fight…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
 	.string "ANGE: Hm. I see.$"
@@ -1214,9 +1216,8 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Next time, I will be stronger!\p"
 	.string "I promise I'll train really hard\n"
 	.string "so you won't be disappointed.\p"
-	.string "Oh! My mom's waiting for me,\n"
-	.string "so I have to go!\p"
-	.string "Bye, {PLAYER}!$"
+	.string "I really have to get going now, I\n"
+	.string "cannot make my pals wait any longer!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "ANGE: Now…\p"

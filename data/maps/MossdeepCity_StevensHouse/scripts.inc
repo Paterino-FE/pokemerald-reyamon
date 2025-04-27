@@ -151,31 +151,22 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "LILYPAD: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "LILYPAD: {PLAYER}...\p"
+	.string "This house is not really worthy of an\n"
+	.string "EMPRESS, but I am happy you’re here.\p"
+	.string "This is what I wanted to give you.\n"
+	.string "It allows your Pokemon to learn DIVE.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "LILYPAD: While you're using SURF, you\n"
-	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
-	.string "like it. You'll drop to the seafloor.\p"
-	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "LILYPAD: The waters around here have\n"
+	.string "some really deep and dark patches.\p"
+	.string "With DIVE, you can explore them.$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "LILYPAD: Apparently, there's an\n"
-	.string "underwater cavern between\l"
+	.string "LILYPAD: I heard that CAPT. STERN\n"
+	.string "found an underwater cavern between\l"
 	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "Isn’t that exciting?$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 	.string "{PLAYER} checked the POKé BALL.\p"

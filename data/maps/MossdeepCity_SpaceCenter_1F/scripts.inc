@@ -359,15 +359,14 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 	.string "LILYPAD: {PLAYER}{KUN}, have you read that\n"
-	.string "proclamation already?\p"
-	.string "Dragon Gang is coming after the rocket\n"
-	.string "fuel on this island.\p"
-	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
-	.string "I'll keep an eye on things for\n"
-	.string "a while longer.\p"
-	.string "In the meantime, why don't you go\n"
-	.string "check out the town?$"
+	.string "have you read that note?\p"
+	.string "DRAGON GANG is going after the rocket\n"
+	.string "fuel on this island!\p"
+	.string "We cannot allow them to do that,\n"
+	.string "they will surely use it for evil!\p"
+	.string "They have not started anything,\n"
+	.string "but if they do, we need to be ready\l"
+	.string "to stop them!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "Hey, me again. You know I thought\n"

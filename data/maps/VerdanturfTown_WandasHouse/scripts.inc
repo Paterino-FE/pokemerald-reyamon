@@ -83,59 +83,60 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 	end
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
-	.string "LILYPAD: I lost to you, {PLAYER}, but\n"
-	.string "I'm not feeling down anymore.\p"
-	.string "Because I have a new purpose in life.\n"
-	.string "Together with my RALTS, I'm going\l"
-	.string "to challenge POKéMON GYMS and become\l"
-	.string "a great TRAINER.\p"
-	.string "Please watch me, {PLAYER}.\n"
-	.string "I'm going to be stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "LILYPAD: Don’t worry, I am not\n"
+	.string "slacking off, I am just staying with\l"
+	.string "my PALS for a bit.\p"
+	.string "Together with my Dewott, I am going to\n"
+	.string "challenge all the GYMs and become a\l"
+	.string "great TRAINER, just like you.\p"
+	.string "I am no longer scared!\p"
+	.string "Just you wait,\n"
+	.string "{PLAYER}, I will get there.\p"
+	.string "And when I do, I will challenge\n"
+	.string "you again!$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
-	.string "LILYPAD: Please watch me, {PLAYER}.\n"
-	.string "I'm going to get stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "LILYPAD: Just you wait,\n"
+	.string "{PLAYER}, I will get there.\p"
+	.string "And when I do, I will challenge\n"
+	.string "you again!$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
-	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
+	.string "PAL: Oh! {PLAYER}{KUN}!\n"
 	.string "LILYPAD's next door.\p"
 	.string "But, boy, there's something I have to\n"
 	.string "tell you.\p"
-	.string "This natural environment is doing\n"
-	.string "wonders for LILYPAD's health.\p"
+	.string "This adventure is doing\n"
+	.string "wonders for LILYPAD's spirits.\p"
 	.string "Maybe it's not just the environment.\n"
 	.string "It could be POKéMON that are giving\l"
-	.string "the girl hope.$"
+	.string "the girl confidence.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
 	.string "LILYPAD's gone away…\n"
-	.string "She slipped off on his own…$"
+	.string "She slipped off on her own…$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-	.string "UNCLE: Is that right?\n"
+	.string "PAL: Is that right?\n"
 	.string "LILYPAD's gone away that far all by\l"
 	.string "herself…\p"
 	.string "Well, I have to give her credit--she\n"
-	.string "is my little brother's daughter.$"
+	.string "is the best Otter.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "WANDA: You are?\n"
 	.string "Oh, right, I get it!\p"
 	.string "You're the {PLAYER} who LILYPAD was\n"
 	.string "telling me about.\p"
-	.string "I'm LILYPAD's cousin.\n"
+	.string "I'm LILYPAD's PAL.\n"
 	.string "Glad to meet you!\p"
 	.string "I think LILYPAD's become a lot more\n"
-	.string "lively since she came here.$"
+	.string "confident since she came here.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "WANDA: Don't worry about LILYPAD.\n"
 	.string "She'll be just fine.\p"
-	.string "I know my little cousin, and she has\n"
+	.string "I know my little PAL, and she has\n"
 	.string "POKéMON with her, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
@@ -158,11 +159,11 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 	.string "If anything were to happen to LILYPAD,\n"
-	.string "I would never be able to look her\l"
-	.string "parents in PETALBURG in the eye…$"
+	.string "I would never be able to look our\l"
+	.string "PALS in PETALBURG in the eye…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
 	.string "LILYPAD was in EVER GRANDE?\p"
-	.string "Her parents in PETALBURG would be\n"
+	.string "Her PALS in PETALBURG would be\n"
 	.string "astonished to hear that!$"
 

@@ -285,25 +285,18 @@ Route128_Text_MaxieThisDefiesBelief:
 	.string "competitive pokemon.$"
 
 Route128_Text_StevenWhatIsHappening:
-	.string "LILYPAD: {PLAYER}{KUN}!\n"
-	.string "What is happening?$"
+	.string "LILYPAD: {PLAYER}!\n"
+	.string "This is terrible!$"
 
 Route128_Text_StevenWholeWorldWillDrown:
-	.string "This is terrible…\p"
-	.string "After the scorching heat wave ended,\n"
-	.string "this deluge began.\p"
-	.string "If this doesn't stop, all of HOENN…\n"
-	.string "No, the whole world will drown.\p"
-	.string "This huge rain cloud is spreading\n"
-	.string "from above SOOTOPOLIS…\p"
-	.string "What in the world is taking place there?\p"
-	.string "There's no point arguing here…\n"
-	.string "SOOTOPOLIS might provide answers…$"
+	.string "First the scorching heat, now this\n"
+	.string "deluge! If it goes on like this,\l"
+	.string "the whole world will drown.\p"
+	.string "You know that I love water, but I\n"
+	.string "cannot allow harm to come to others!\p"
+	.string "I want to help you stop this…$"
 
 Route128_Text_StevenImGoingToSootopolis:
-	.string "{PLAYER}{KUN}…\n"
-	.string "I don't know what you intend to do,\l"
-	.string "but don't do anything reckless.\p"
-	.string "Okay.\n"
-	.string "I'm going to SOOTOPOLIS.$"
+	.string "Maybe SOOTOPOLIS will provide answers.\p"
+	.string "I will go there right away$"
 

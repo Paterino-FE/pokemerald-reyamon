@@ -363,29 +363,20 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "LILYPAD: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "LILYPAD: {PLAYER}! I have to show\n"
+	.string "you something really interesting.\p"
+	.string "Are you ready for a battle?$"
 
 Route120_Text_StevenIllWaitHere:
-	.string "LILYPAD: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "LILYPAD: No, not a battle with me!\n"
+	.string "A battle with… you will see!$"
 
 Route120_Text_StevenReadyForBattle:
-	.string "LILYPAD: {PLAYER}{KUN}, are your POKéMON\n"
-	.string "ready for battle?$"
+	.string "Are you ready for a battle?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "LILYPAD: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+	.string "LILYPAD: Okay, {PLAYER},\n"
+	.string "let's go!$"
 
 Route120_Text_StevenUsedDevonScope:
 	.string "LILYPAD used the DEVON SCOPE.\p"
@@ -394,21 +385,15 @@ Route120_Text_StevenUsedDevonScope:
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "LILYPAD: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "LILYPAD: I uncovered this POKéMON\n"
+	.string "using a DEVON SCOPE.\p"
+	.string "There are probably others hiding\n"
+	.string "around here. You should take it.$"
 
 Route120_Text_StevenGoodbye:
-	.string "LILYPAD: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "LILYPAD: You are doing great!\p"
+	.string "Well, we’ll definitely meet\n"
+	.string "again, soon!$"
 
 Kecleon_Text_SomethingUnseeable:
 	.string "Something unseeable is in the way.$"

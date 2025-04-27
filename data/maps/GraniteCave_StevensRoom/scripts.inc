@@ -82,38 +82,33 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-	.string "My name is LILYPAD.\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
-	.string "Oh?\n"
-	.string "A LETTER for me?$"
+	.string "LILYPAD: Oh, hi {PLAYER}. I…\p"
+	.string "I was just exploring this cave…\n"
+	.string "Oh, you got a letter for me?$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-	.string "LILYPAD: Okay, thank you.\p"
-	.string "You went through all this trouble to\n"
-	.string "deliver that. I need to thank you.\p"
-	.string "Let me see…\n"
-	.string "I'll give you this TM.\p"
-	.string "It contains my favorite move,\n"
-	.string "STEEL WING.$"
+	.string "LILYPAD: Thank you for going through\n"
+	.string "all this trouble for me.\p"
+	.string "I want to give you something, too.\n"
+	.string "It’s not much, but I found this TM\l"
+	.string "here.\p"
+	.string "You can probably do much more with it.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-	.string "LILYPAD: Your POKéMON appear quite\n"
-	.string "capable.\p"
-	.string "If you keep training, you could even\n"
-	.string "become the CHAMPION of the POKéMON\l"
-	.string "LEAGUE one day. That's what I think.\p"
-	.string "I know, since we've gotten to know each\n"
-	.string "other, let's register one another in\l"
-	.string "our POKéNAVS.\p"
-	.string "… … … … … …$"
+	.string "LILYPAD: To be honest, I wanted to\n"
+	.string "explore this cave to find strong\l"
+	.string "POKéMON…\p"
+	.string "But then a MAKUHITA ran at me and I\n"
+	.string "got scared. So I ran all the way\l"
+	.string "here. Thank you for fighting it off!\p"
+	.string "… … … … $"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
-	.string "Registered STEVEN\n"
+	.string "Registered LILYPAD\n"
 	.string "in the POKéNAV.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-	.string "Now, I've got to hurry along.$"
+	.string "Now I’ll better hurry along.$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"

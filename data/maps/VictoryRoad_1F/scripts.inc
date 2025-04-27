@@ -159,24 +159,31 @@ VictoryRoad_1F_Text_Nurse:
 	.string "Let me heal them.$"
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-	.string "LILYPAD: Hi! {PLAYER}!\p"
-	.string "I bet you're surprised to see me here!\p"
-	.string "I made it all the way here, and it's\n"
-	.string "all thanks to you!\p"
-	.string "{PLAYER}, losing to you that time\n"
-	.string "made me stronger!\p"
-	.string "But I'm not going to lose anymore!\p"
-	.string "I'm going to win! For the POKéMON who\n"
-	.string "gave me courage and strength!\p"
-	.string "Okay… Here I come!$"
+	.string "LILYPAD: Hi! {PLAYER}, my best PAL!\p"
+	.string "Are you surprised that I made it here,\n"
+	.string "past all these amazing trainers?\p"
+	.string "I promised that I would make it, and\n"
+	.string "because I respect you so much,\l"
+	.string "I had to deliver on it.\p"
+	.string "I became strong because of you.\p"
+	.string "And I will put everything into\n"
+	.string "this fight.\p"
+	.string "This time, I will win!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
-	.string "Wow!\n"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "Even with all my efforts, you are\n"
+	.string "still so far ahead…\p"
+	.string "Maybe I got a bit ahead of myself\n"
+	.string "when I thought I had a chance.$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-	.string "LILYPAD: I couldn't beat you today,\n"
-	.string "{PLAYER}, but one of these days, I'll\l"
+	.string "LILYPAD: I am not sad that I lost.\p"
+	.string "After all, it just shows that you\n"
+	.string "are the true EMPRESS and that I was\l"
+	.string "right to look up to someone like you\l"
+	.string "all along.\p"
+	.string "But you should never stop working\n"
+	.string "hard… Because I will definitely\l"
 	.string "catch up to you!$"
 
 VictoryRoad_1F_Text_WallyIntro:

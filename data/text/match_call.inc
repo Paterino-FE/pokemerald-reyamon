@@ -2511,43 +2511,36 @@ MatchCall_Text_Brendan15::
 	.string "… … … … … Click!$"
 
 MatchCall_Text_Wally1::
-	.string "LILYPAD: Oh, {PLAYER}!\p"
-	.string "I've been getting healthier and\n"
-	.string "more physically fit.\p"
-	.string "I hope I can become a TRAINER like\n"
-	.string "you soon, {PLAYER}!$"
+	.string "LILYPAD: Hi, {PLAYER}!\p"
+	.string "Did you know that Otters have TWO\n"
+	.string "layers of fur?\p"
+	.string "One keeps away water and one\n"
+	.string "keeps us warm!$"
 
 MatchCall_Text_Wally2::
 	.string "LILYPAD: {PLAYER}, hello!\p"
-	.string "After RUSTURF TUNNEL went\n"
-	.string "through, WANDA's been very happy!$"
+	.string "Thanks for opening the RUSTURF TUNNEL.\n"
+	.string "Now PALs can freely move through it!$"
 
 MatchCall_Text_Wally3::
 	.string "LILYPAD: Oh, {PLAYER}!\p"
-	.string "I… I left my uncle's place in\n"
-	.string "VERDANTURF without telling anyone.\p"
-	.string "I wonder if he's furious with me…\p"
-	.string "{PLAYER}, you understand how\n"
-	.string "I feel, don't you?$"
+	.string "I… I started my journey from\n"
+	.string "VERDANTURF without telling my PALs.\p"
+	.string "I know they would have come with me,\n"
+	.string "but I need to do this by myself…\l"
+	.string "and with my POKéMON, of course!$"
 
 MatchCall_Text_Wally4::
 	.string "LILYPAD: {PLAYER}?\n"
-	.string "It's me, LILYPAD!\p"
-	.string "The world of TRAINERS is amazing!\p"
-	.string "When I have my POKéMON with me,\n"
-	.string "all sorts of people say hi!\p"
-	.string "It's as if everyone's getting\n"
-	.string "connected through POKéMON!$"
+	.string "It's me, LILY the PAD!\p"
+	.string "Did you know that the holes that\p"
+	.string "Otters live in are called holts?$"
 
 MatchCall_Text_Wally5::
 	.string "LILYPAD: {PLAYER}? It's awesome!\n"
-	.string "That RALTS we caught together?\l"
-	.string "It evolved, {PLAYER}!\p"
-	.string "Maybe I'm talented…\p"
-	.string "Oh, but I shouldn't get a big head\n"
-	.string "like that!\p"
-	.string "After all, it's the POKéMON that\n"
-	.string "should be praised!$"
+	.string "My Pokemon are just amazing!\l"
+	.string "I need to really work hard to be\l"
+	.string "worthy of them…$"
 
 MatchCall_Text_Wally6::
 	.string "… … … … … …\n"
@@ -2556,13 +2549,9 @@ MatchCall_Text_Wally6::
 	.string "the POKéNAV's service area…$"
 
 MatchCall_Text_Wally7::
-	.string "LILYPAD: Oh, {PLAYER}!\p"
-	.string "Before I met you, I hardly ever\n"
-	.string "left my house…\p"
-	.string "But now, I'm on an adventure with\n"
-	.string "my very own POKéMON…\p"
-	.string "{PLAYER}…\n"
-	.string "Thank you…$"
+	.string "LILYPAD: Hey {PLAYER}!\p"
+	.string "I just wanted to tell you that I\n"
+	.string "really appreciate you… I mean that!$"
 
 MatchCall_Text_Scott1::
 	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
@@ -2698,32 +2687,18 @@ MatchCall_Text_Norman9::
 
 MatchCall_Text_Steven1::
 	.string "LILYPAD: Hi, {PLAYER}{KUN}!\p"
-	.string "Have you been to MAUVILLE\n"
-	.string "already?\p"
-	.string "You should visit the BIKE SHOP\n"
-	.string "and get a MACH BIKE.\p"
-	.string "Then, try exploring the GRANITE\n"
-	.string "CAVE thoroughly.\p"
-	.string "You may make a new discovery\n"
-	.string "there.$"
+	.string "You should really go to MAUVILLE!\n"
+	.string "They got a great BIKE SHOP there.$"
 
 MatchCall_Text_Steven2::
-	.string "LILYPAD: Hi, {PLAYER}{KUN}!\p"
-	.string "I've met a lot of different\n"
-	.string "TRAINERS so far.\p"
-	.string "But you're one of a kind.\n"
-	.string "You're not like anyone else.$"
+	.string "LILYPAD: {PLAYER}?\p"
+	.string "You … … … … …\n"
+	.string "are really, really special to me!$"
 
 MatchCall_Text_Steven3::
-	.string "LILYPAD: Hi, {PLAYER}{KUN}!\p"
-	.string "When you're on an adventure with\n"
-	.string "your POKéMON, what do you think?\p"
-	.string "Do you consider them to be strong\n"
-	.string "partners?\p"
-	.string "Do you think of them as fun\n"
-	.string "companions?\p"
-	.string "Depending on how you think, your\n"
-	.string "adventure's significance changes.$"
+	.string "LILYPAD: Oh, {PLAYER}, who\n"
+	.string "do you prefer?\p"
+	.string "River Otters or Sea Otters?$"
 
 MatchCall_Text_Steven4::
 	.string "LILYPAD: Hello?\n"
@@ -2747,12 +2722,12 @@ MatchCall_Text_Steven6::
 	.string "the call…$"
 
 MatchCall_Text_Steven7::
-	.string "LILYPAD: {PLAYER}{KUN}… Congratulations\n"
-	.string "for entering the HALL OF FAME.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I hope we can meet again\n"
-	.string "somewhere!$"
+	.string "LILYPAD: {PLAYER}...\n"
+	.string "You really showed that evil VYRAL!\p"
+	.string "I would really like to meet you again\n"
+	.string "to congratulate you.\p"
+	.string "I’m at the METEOR FALLS right now,\n"
+	.string "do you want to come?$"
 
 MatchCall_Text_BirchRegisterCall:
 	.string "PROF. PAT: Oh, {PLAYER}{KUN}!\n"

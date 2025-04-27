@@ -442,9 +442,10 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
 	.string "What an adorably naive little rat.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-	.string "LILYPAD: Dragon Gang…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+	.string "LILYPAD: DRAGON GANG…\p"
+	.string "I don’t understand your plans, but I\n"
+	.string "will stop them nonetheless!\p"
+	.string "And I am not alone…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "LYRA: We will use the fuel to power a\n"
@@ -460,13 +461,11 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
 	.string "LILYPAD: {PLAYER}{KUN}!\n"
-	.string "You're going to help me?\p"
-	.string "Let's go into battle together!\n"
-	.string "Are you ready?$"
+	.string "I don’t think I can do this alone.\p"
+	.string "Are you ready to help me?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
-	.string "LILYPAD: Then, hurry!\n"
-	.string "Get ready quickly!$"
+	.string "LILYPAD: Well, then you need to hurry!$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
 	.string "All I wanted was to prove I’m not\n"
@@ -493,11 +492,10 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "important lessons to teach you.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-	.string "LILYPAD: Whew, that was too tense.\n"
-	.string "{PLAYER}{KUN}, thank you.\p"
-	.string "I have something to give you as\n"
-	.string "thanks for your support.\p"
-	.string "Please come see me at home\n"
-	.string "after this.\p"
-	.string "Oh, yes, I don't live in RUSTBORO CITY.\n"
-	.string "I live right here on this island.$"
+	.string "LILYPAD: Wow, it was amazing fighting\n"
+	.string "alongside you, {PLAYER}!\p"
+	.string "As a thanks for helping you, I want\n"
+	.string "to give you a gift.\p"
+	.string "Please come and visit me. I have a\n"
+	.string "small house on this island now!$"
+	

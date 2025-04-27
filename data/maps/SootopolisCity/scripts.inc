@@ -1645,48 +1645,49 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "And now they are smashing each other\n"
 	.string "with their uncontrollable energy…\p"
 	.string "…{PLAYER}{KUN}.\p"
-	.string "You being here now I'll take to mean\n"
-	.string "that you're prepared to become\l"
-	.string "involved in this crisis.\p"
-	.string "Well, then, there's someone that\n"
-	.string "I'd like you to meet.\p"
+	.string "You being here means that you are\n"
+	.string "prepared to go as far as you can\l"
+	.string "to help.\p"
+	.string "There is someone who was asking\n"
+	.string "for you.\p"
 	.string "Come with me, please.$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-	.string "LILYPAD: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
-	.string "you think POKéMON are to be feared?\p"
-	.string "But that's not true.\n"
-	.string "POKéMON are really more…\p"
-	.string "…Why am I asking you this?\n"
-	.string "You already know.$"
+	.string "LILYPAD: Listen, {PLAYER}.\p"
+	.string "Did you know that a group of Otters\n"
+	.string "is called a Romp?\p"
+	.string "Oh… you’re right, this is hardly the\n"
+	.string "time for Otter facts…$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-	.string "LILYPAD: Okay, here we are!\p"
-	.string "Inside here you'll find\n"
-	.string "VYRAL.\p"
-	.string "I think you have what's needed to\n"
-	.string "help him…$"
+	.string "LILYPAD: Here we go!\p"
+	.string "This is where EMILIA is waiting for\n"
+	.string "you. I think she knows something\l"
+	.string "that might help you.$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-	.string "LILYPAD: I think you have what's\n"
-	.string "needed to help him…$"
+	.string "LILYPAD: I think you need to go\n"
+	.string "and talk to her…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
 	.string "LILYPAD: The SKY PILLAR…\p"
-	.string "I've never been there.\n"
-	.string "I wonder where it could be?$"
+	.string "I have no clue where that might be.\n"
+	.string "But I am sure that you will find it!$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "LILYPAD: So that's RAYQUAZA…\p"
-	.string "It's incredible how the two rampaging\n"
-	.string "POKéMON would flee from it in fear…$"
+	.string "LILYPAD: To think that even those two\n"
+	.string "giant Pokemon ran when they saw\l"
+	.string "RAYQUAZA.\p"
+	.string "Don’t you think it would be GREAT for\n"
+	.string "your team?\p"
+	.string "You are definitely strong enough\n"
+	.string "to tame it!$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "LILYPAD: It looks like both LYRA and\n"
-	.string "HATZOOME have gone away somewhere.\p"
-	.string "Perhaps they've gone to MT. PYRE to\n"
-	.string "return those ORBS…$"
+	.string "LILYPAD: The dragon single mom and the\n"
+	.string "girl failure left.\p"
+	.string "Maybe it’s to return the stolen orbs\n"
+	.string "to MT. PYRE…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "EMILIA: My Lady?\n"

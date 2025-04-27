@@ -604,8 +604,8 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our LILYPAD gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
+	.string "PAL: Where has our LILYPAD gone?\p"
+	.string "We have to leave for our journey\n"
 	.string "very soon…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:

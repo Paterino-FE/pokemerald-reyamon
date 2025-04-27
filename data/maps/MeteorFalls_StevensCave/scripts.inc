@@ -29,31 +29,25 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 	end
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
-	.string "LILYPAD: Oh, wow, {PLAYER}{KUN}.\n"
-	.string "I'm amazed you knew where to find me.\p"
-	.string "Do you, uh…maybe think of me as\n"
-	.string "just a rock maniac?\p"
-	.string "No, that can't be right.\p"
-	.string "We battled alongside each other at\n"
-	.string "the SOOTOPOLIS SPACE CENTER.\p"
-	.string "You should have a very good idea\n"
-	.string "about how good I am.\p"
-	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
-	.string "a serious challenge, expect the worst!$"
+	.string "LILYPAD: Well, {PLAYER}.\n"
+	.string "You made it all the way here.\p"
+	.string "You know what that means. It’s the\n"
+	.string "final battle of the game!\p"
+	.string "There is nothing left to say.\p"
+	.string "Nothing except for:\p"
+	.string "Did you know that Otters have pockets?\n"
+	.string "We are folds of skin below our arms\l"
+	.string "where we can store our favorite rocks.$"
 
 MeteorFalls_StevensCave_Text_StevenDefeat:
-	.string "You…\n"
-	.string "I had no idea you'd become so strong…$"
+	.string "And again, I stood no chance against\n"
+	.string "you. If it wasn’t you I lost to,\l"
+	.string "I would be very frustrated by now.$"
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
-	.string "LILYPAD: Come to think of it, ever since\n"
-	.string "our paths first crossed in GRANITE\l"
-	.string "CAVE in DEWFORD, I had this feeling.\p"
-	.string "I thought that you would eventually\n"
-	.string "become the CHAMPION.\p"
-	.string "My predictions usually come true.\p"
-	.string "And where will you go from here?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Fufufu, even I couldn't tell you that.$"
+	.string "LILYPAD: Come to think of it, the game\n"
+	.string "has really run out of content now.\p"
+	.string "It is probably best if you turn it off\n"
+	.string "and touch some grass now.\p"
+	.string "I hope you enjoyed the journey!$"
 
