@@ -1956,13 +1956,13 @@ static u16 ReelTimeSpeed(void)
     u8 i = 0;
     u8 rval;
     u8 value;
-    if (sSlotMachine->netCoinLoss >= 300)
+    if (sSlotMachine->netCoinLoss >= 200)
         i = 4;
-    else if (sSlotMachine->netCoinLoss >= 250)
-        i = 3;
-    else if (sSlotMachine->netCoinLoss >= 200)
-        i = 2;
     else if (sSlotMachine->netCoinLoss >= 150)
+        i = 3;
+    else if (sSlotMachine->netCoinLoss >= 100)
+        i = 2;
+    else if (sSlotMachine->netCoinLoss >= 50)
         i = 1;
 
     rval = Random() % 100;
@@ -5498,15 +5498,15 @@ static const u16 sSlotMatchFlags[] = {
 };
 
 static const u16 sSlotPayouts[] = {
-    [MATCH_CHERRY]        = 2,
-    [MATCH_TOPBOT_CHERRY] = 4,
+    [MATCH_CHERRY]        = 4,
+    [MATCH_TOPBOT_CHERRY] = 8,
     [MATCH_REPLAY]        = 0,
-    [MATCH_LOTAD]         = 6,
-    [MATCH_AZURILL]       = 12,
-    [MATCH_POWER]         = 3,
-    [MATCH_MIXED_7]       = 90,
-    [MATCH_RED_7]         = 300,
-    [MATCH_BLUE_7]        = 300
+    [MATCH_LOTAD]         = 12,
+    [MATCH_AZURILL]       = 24,
+    [MATCH_POWER]         = 6,
+    [MATCH_MIXED_7]       = 180,
+    [MATCH_RED_7]         = 600,
+    [MATCH_BLUE_7]        = 600
 };
 
 static const s16 sDigitalDisplay_SpriteCoords[][2] = {
