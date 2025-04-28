@@ -11174,8 +11174,8 @@ const struct Item gItemsInfo[] =
         .price = 3000,
         .description = COMPOUND_STRING(
             "Damages opposing \n"
-            "Pokémon by emitting a\n"
-            "powerful flash."),
+            "Pokémon by emitting\n"
+            "a powerful flash."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11188,9 +11188,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM52"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "An energy-draining punch.\n"
-            "The user's HP is restored\n"
-            "by half the damage taken."),
+            "An energy-draining\n"
+            "punch. Restores HP\n"
+            "for damage."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11203,9 +11203,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM53"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "The user strikes the target\n"
-            "with tough punches as fast\n"
-            "as bullets. Goes first."),
+            "The user strikes\n"
+            "the target with\n"
+            "priority."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11218,9 +11218,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM54"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "Numerous coins are hurled\n"
-            "at the target to inflict\n"
-            "damage."),
+            "Numerous coins are\n"
+            "hurled at the\n"
+            "target. Ouch!"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
