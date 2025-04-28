@@ -55,7 +55,7 @@ VictoryRoad_B2F_Text_VitoDefeat:
 	.string "the line products!$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
-	.string "Reya you're the very best like\n"
+	.string "{PLAYER}, you're the very best like\n"
 	.string "no one ever was!\p"
 	.string "Please give LILYPAD a real good\n"
 	.string "snuggle from me <3.$"

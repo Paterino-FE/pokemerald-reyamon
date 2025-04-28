@@ -2294,17 +2294,10 @@ MatchCall_Text_Drake::
 
 MatchCall_Text_Wallace::
 	.string "VYRAL: Hello, {PLAYER}{KUN}.\n"
-	.string "Have you met LILYPAD?\p"
-	.string "She is…\n"
-	.string "Actually incredibly skilled.\p"
-	.string "However, she's an odd soul who\n"
-	.string "rarely battles.\p"
-	.string "Instead, she would rather look for\n"
-	.string "rare stones.\p"
-	.string "I'm sure she's digging in a cave or\n"
-	.string "a craggy mountain somewhere.\p"
-	.string "But what is a rare stone exactly?\n"
-	.string "All I can think of is a METEORITE…$"
+	.string "I HATE YOU!\p"
+	.string "… … … … … …\n"
+	.string "… … … … … Click!$"
+
 
 MatchCall_Text_MayRayquazaCall:
 	.string "… … … … … …\n"

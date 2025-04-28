@@ -1540,7 +1540,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "A TRAINER who has knowledge and\n"
 	.string "experience of many kinds of POKéMON…\p"
 	.string "If such a person were to appear, I was\n"
-	.string "instructed by VYRAL to lead that\l"
+	.string "instructed to lead that\l"
 	.string "TRAINER to this CAVE.$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
