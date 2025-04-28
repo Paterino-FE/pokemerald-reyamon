@@ -62,7 +62,7 @@ FortreeCity_Gym_EventScript_RioluWantsToJoin::
 	msgbox Fortree_Gym_Text_RioluWantsToJoin, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Fortree_Gym_EventScript_RioluRejected
 	closemessage
-	givemon SPECIES_RIOLU, 32, ITEM_SOOTHE_BELL
+	givemon SPECIES_RIOLU, 20, ITEM_SOOTHE_BELL, ITEM_LUXURY_BALL
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, FortreeCity_Gym_EventScript_ReceiveRioluParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, FortreeCity_Gym_EventScript_ReceiveRioluPC
 	release
