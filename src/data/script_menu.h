@@ -277,10 +277,10 @@ static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 
 static const struct MenuAction MultichoiceList_LiamGameCornerTMs[] =
 {
-    {gText_TM32AndPrice},
-    {gText_TM29AndPrice},
-    {gText_TM35AndPrice},
-    {gText_TM24AndPrice},
+    {gText_TM54AndPrice},
+    {gText_TM42AndPrice},
+    {gText_TM53AndPrice},
+    {gText_TM52AndPrice},
     {gText_TM51AndPrice},
     {gText_Exit},
 };

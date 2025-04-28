@@ -52,7 +52,10 @@
     F(SKILL_SWAP) \
     F(SNATCH) \
     F(OVERHEAT) \
-    F(DAZZLING_GLEAM) 
+    F(DAZZLING_GLEAM) \
+    F(DRAIN_PUNCH) \
+    F(BULLET_PUNCH) \
+    F(PAY_DAY)
 
 #define FOREACH_HM(F) \
     F(CUT) \

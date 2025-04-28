@@ -8,3 +8,4 @@ LiamCave_R3_EventScript_LiamCaveToEmpire::
 LiamCave_R3_Text_LiamCaveToEmpire:
 	.string "Pathway to Alskalys.\n"
 	.string "Region Braereath ahead!$"
+

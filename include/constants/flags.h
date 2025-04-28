@@ -1229,7 +1229,7 @@
 #define FLAG_HIDE_SLOWPOKE                                          0x497 // Unused Flag
 #define FLAG_ENABLE_PATERINO_STARTER                                0x498 // Unused Flag
 #define FLAG_HIDE_CHAMP_VYRAL                                       0x499 // Unused Flag
-#define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
+#define FLAG_HIDE_TRASH                                             0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
 #define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag
 #define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
