@@ -2190,14 +2190,8 @@ MatchCall_Text_Winona4::
 	.string "you never lost sight of your dream.$"
 
 MatchCall_Text_TateLiza1::
-	.string "TATE: Oh! You're…\n"
-	.string "LIZA: {PLAYER}!\p"
-	.string "TATE: We're in training again…\n"
-	.string "LIZA: So we can reopen our GYM!\p"
-	.string "TATE: When our GYM is ready…\n"
-	.string "LIZA: When our GYM is ready…\p"
-	.string "TATE: A mark'll appear by our name…\n"
-	.string "LIZA: On the MATCH CALL list.$"
+	.string "SKYWARD: {PLAYER}, I'm just\n"
+	.string "a Ditto!$"
 
 MatchCall_Text_TateLiza2::
 	.string "SKYWARD: {PLAYER}, I'm just\n"
