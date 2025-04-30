@@ -339,7 +339,7 @@ static const struct MatchCallWally sWallyMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
-    .desc = COMPOUND_STRING("{PKMN} LOVER"),
+    .desc = COMPOUND_STRING("BEST FRIEND"),
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };
@@ -576,7 +576,7 @@ static const struct MatchCallStructTrainer sWallaceMatchCallHeader =
     .mapSec = MAPSEC_EVER_GRANDE_CITY,
     .flag = FLAG_REGISTERED_WALLACE,
     .rematchTableIdx = REMATCH_WALLACE,
-    .desc = COMPOUND_STRING("CHAMPION"),
+    .desc = COMPOUND_STRING("KING"),
     .name = NULL,
     .textData = sWallaceTextScripts
 };
