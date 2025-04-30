@@ -14111,7 +14111,7 @@ const struct Item gItemsInfo[] =
         .name = _("Bits of trash"),
         .price = 50,
         .description = COMPOUND_STRING(
-            "Looks like a strinky\n"
+            "Looks like a stinky\n"
             "Clown might have\n"
             "lost this."),
             .pocket = POCKET_ITEMS,

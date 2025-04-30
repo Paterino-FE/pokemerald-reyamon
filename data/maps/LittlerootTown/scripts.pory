@@ -935,7 +935,7 @@ LittlerootTown_Text_ExplainRunningShoes:
 LittlerootTown_Text_EXPSHARE:
 	.string "EMILIA: As a last gift Lady {PLAYER}\n"
 	.string "I want to give you an EXP Share.\p"
-	.string "You can activiate the EXP in\n"
+	.string "You can activate the EXP in\n"
 	.string "your KEY-ITEMS tab in your inventory.\p"
 	.string "It's an EXP Share after all!$"
 
