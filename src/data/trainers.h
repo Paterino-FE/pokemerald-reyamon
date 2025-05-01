@@ -16762,6 +16762,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
             .friendship = 0,
+            .nickname = COMPOUND_STRING("DIRK"),
             .heldItem = ITEM_SOFT_SAND,
             .moves = {
 #line 6257
@@ -25210,6 +25211,7 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .nickname = COMPOUND_STRING("DIRK"),
             .ability = ABILITY_POISON_POINT,
             .moves = {MOVE_POISON_STING, MOVE_DOUBLE_KICK, MOVE_GROWL, MOVE_SCRATCH,},
             },
@@ -25351,11 +25353,12 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_SAND_ATTACK,},
+            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_ASSURANCE,},
             },
             {
 #line 9585
             .species = SPECIES_NIDORINA,
+            .nickname = COMPOUND_STRING("DIRK"),
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9587
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -25504,7 +25507,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_SAND_ATTACK,},
+            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_ASSURANCE,},
             },
             {
 #line 9640
@@ -25517,6 +25520,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_POISON_STING, MOVE_DOUBLE_KICK, MOVE_GROWL, MOVE_SCRATCH,},
             },
             {
@@ -28955,6 +28959,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_POISON_STING, MOVE_DOUBLE_KICK, MOVE_GROWL, MOVE_SCRATCH,},
             },
             {
@@ -29012,6 +29017,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_POISON_STING, MOVE_DOUBLE_KICK, MOVE_GROWL, MOVE_SCRATCH,},
             },
             {
@@ -29313,6 +29319,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_POISON_STING, MOVE_DOUBLE_KICK, MOVE_GROWL, MOVE_SCRATCH,},
             },
             {
@@ -32669,7 +32676,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 12267
-            .species = SPECIES_SLUGMA,
+            .species = SPECIES_KROKOROK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 12269
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -32692,6 +32699,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
             .friendship = 0,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_FRUSTRATION, MOVE_BODY_SLAM, MOVE_TOXIC, MOVE_BULLDOZE,},
             },
             {
@@ -32767,6 +32775,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
             .friendship = 0,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_FRUSTRATION, MOVE_BODY_SLAM, MOVE_TOXIC, MOVE_BULLDOZE,},
             },
             {
@@ -32842,6 +32851,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_POISON_POINT,
             .friendship = 0,
+            .nickname = COMPOUND_STRING("DIRK"),
             .moves = {MOVE_FRUSTRATION, MOVE_BODY_SLAM, MOVE_TOXIC, MOVE_BULLDOZE,},
             },
             {
