@@ -89,7 +89,7 @@ u8 *CopyItemName(u16 itemId, u8 *dst)
     return StringCopy(dst, ItemId_GetName(itemId));
 }
 
-const u8 sText_s[] =_("s");
+const u8 sText_s[] =_("S");
 
 u8 *CopyItemNameHandlePlural(u16 itemId, u8 *dst, u32 quantity)
 {
