@@ -25199,7 +25199,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
-            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_SAND_ATTACK,},
+            .moves = {MOVE_BITE, MOVE_SAND_TOMB, MOVE_TORMENT, MOVE_ASSURANCE,},
             },
             {
 #line 9530
