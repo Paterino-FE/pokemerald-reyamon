@@ -511,11 +511,11 @@ Route119_Text_Felixr2Intro:
 	.string "you a bit.$"
 
 Route119_Text_Felixr2WantToSolarBeam:
-	.string "Want me to teach your Pokemon\n"
+	.string "Want me to teach your POKéMON\n"
 	.string "SOLAR BEAM?$"
 
 Route119_Text_Felixr2_SolarbeamWhichMon:
-	.string "Which Pokemon should I teach\n"
+	.string "Which POKéMON should I teach\n"
 	.string "SOLAR BEAM to?$"
 
 Route119_Text_Felixr2Outro:
