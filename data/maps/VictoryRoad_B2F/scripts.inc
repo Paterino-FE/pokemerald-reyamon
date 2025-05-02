@@ -81,17 +81,17 @@ VictoryRoad_B2F_Text_CarolineIntro:
 	.string "truth and love!\p"
 	.string "To extend our reach to the\n"
 	.string "stars above!\p"
-	.string "Team Rocket blasts off at\n"
+	.string "TEAM ROCKET blasts off at\n"
 	.string "the speed of light!\p"
 	.string "Surrender now, or prepare to fight!$"
 
 VictoryRoad_B2F_Text_CarolineDefeat:
-	.string "Team Rocket Blasts Off Again!$"
+	.string "TEAM ROCKET Blasts Off Again!$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle:
 	.string "TEAM ROCKET is currently seeking\n"
 	.string "GRUNTs to help carry out our\l"
-	.string "dream to steal POKEMON.\p"
+	.string "dream to steal POKéMON.\p"
 	.string "Apply at our HEADQUARTERS please.$"
 
 VictoryRoad_B2F_Text_JulieIntro:
@@ -108,15 +108,15 @@ VictoryRoad_B2F_Text_JuliePostBattle:
 
 VictoryRoad_B2F_Text_FelixIntro:
 	.string "This time, I'll show YOU the\n"
-	.string "power of Solar Beam!$"
+	.string "power of SOLAR BEAM!$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
-	.string "My Solar Beam... \n"
+	.string "My SOLAR BEAM... \n"
 	.string "wasn't strong enough?\p"
 	.string "How could this be?$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
-	.string "I can't teach your Pokémon Solar Beam\n"
+	.string "I can't teach your POKéMON SOLAR BEAM\n"
 	.string "here, sorry. You need to go all the\l"
 	.string "way back for that.$"
 

@@ -84,7 +84,7 @@ VictoryRoad_B1F_Text_MichelleDefeat:
 
 VictoryRoad_B1F_Text_MichellePostBattle:
 	.string "You should join me on my upcoming\n"
-	.string "trip to Sinnoh. The travel and hotel\l"
+	.string "trip to SINNOH. The travel and hotel\l"
 	.string "are free!\p"
 	.string "All we have to do is sit through some\n"
 	.string "business pitch, but I won’t fall for\l"
@@ -95,7 +95,7 @@ VictoryRoad_B1F_Text_MitchellIntro:
 	.string "a rematch!$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
-	.string "Go become the Champion! Woweez$"
+	.string "Go become the CHAMPION! Woweez$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
 	.string "WOWEEZ$"
