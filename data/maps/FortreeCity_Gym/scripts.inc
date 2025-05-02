@@ -215,16 +215,16 @@ FortreeCity_Gym_EventScript_GymStatue::
 	end
 
 Fortree_Gym_Text_RioluNotInterested:
-	.string "Riolu seems to be a bit sceptical\n"
+	.string "RIOLU seems to be a bit sceptical\n"
 	.string "of you...$"
 
 Fortree_Gym_Text_RioluWantsToJoin:
-	.string "Riolu wants to join you on you\n"
+	.string "RIOLU wants to join you on you\n"
 	.string "on your adventure!\p"
 	.string "Do you accept it?$"
 
 Fortree_Gym_Text_RioluRejected:
-	.string "Riolu is saddened by your rejection.\n"
+	.string "RIOLU is saddened by your rejection.\n"
 	.string "How can you be so heartless?$"
 
 FortreeCity_Gym_Text_GymGuideAdvice:
@@ -243,18 +243,18 @@ FortreeCity_Gym_Text_GymGuidePostVictory:
 	.string "You've achieved liftoff!$"
 
 FortreeCity_Gym_Text_JaredIntro:
-	.string "My Pokemon and I are the bestest of\n"
+	.string "My POKéMON and I are the bestest of\n"
 	.string "friends and I'll never leave their\p" 
 	.string "side!$"
 
 
 FortreeCity_Gym_Text_JaredDefeat:
-	.string "Oh no, since you defeated my Pokemon,\n"
+	.string "Oh no, since you defeated my POKéMON,\n"
 	.string "they lost some of their\p"
 	.string "friendship value...$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
-	.string "Oh no, since you defeated my Pokemon,\n"
+	.string "Oh no, since you defeated my POKéMON,\n"
 	.string "they lost some of their\p"
 	.string "friendship value...$"
 
@@ -281,7 +281,7 @@ FortreeCity_Gym_Text_FlintPostBattle:
 	.string "Fun Fact No.1: Lemon trees can produce\n"
 	.string "up to 600lbs of lemons every year.\p"
 	.string "Fun Fact No.2: Lemon’s tree,\n"
-	.string "Sudowoodo, was brutally murdered by\l"
+	.string "SUDOWOODO, was brutally murdered by\l"
 	.string "Reya during the Nuzlocke.$"
 
 FortreeCity_Gym_Text_AshleyIntro:
@@ -304,7 +304,7 @@ FortreeCity_Gym_Text_HumbertoPostBattle:
 
 FortreeCity_Gym_Text_DariusIntro:
 	.string "We meet again, {PLAYER}! Have you\n"
-	.string "been making good use of Solar Beam?$"
+	.string "been making good use of SOLAR BEAM?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
 	.string "Oh man, you're better than I thought!$"
@@ -318,7 +318,7 @@ FortreeCity_Gym_Text_WinonaIntro:
 	.string "Why are you here?!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "To be honest, i didn't think\n"
+	.string "To be honest, I didn't think\n"
 	.string "you would make it this far, AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
@@ -341,7 +341,7 @@ FortreeCity_Gym_Text_RegisteredWinona:
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Leave now, before i start\n"
+	.string "Leave now, before I start\n"
 	.string "talking about Armenia!$"
 
 FortreeCity_Gym_Text_GymStatue:

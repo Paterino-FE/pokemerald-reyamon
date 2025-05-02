@@ -164,7 +164,7 @@ RustboroCity_Gym_Text_TommyDefeat:
 RustboroCity_Gym_Text_TommyPostBattle:
 	.string "TEAM ROCKET is currently seeking\n"
 	.string "GRUNTs to help carry out our\l"
-	.string "dream to steal POKEMON.\p"
+	.string "dream to steal POKéMON.\p"
 	.string "Apply at our HEADQUARTERS please.$"
 
 RustboroCity_Gym_Text_MarcIntro:

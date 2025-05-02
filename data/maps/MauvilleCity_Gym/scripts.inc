@@ -282,27 +282,27 @@ MauvilleCity_Gym_Text_KirkPostBattle:
 
 MauvilleCity_Gym_Text_ShawnIntro:
 	.string "I have a really talented friend\n"
-	.string "who lent me some pokemon.$"
+	.string "who lent me some POKéMON.$"
 
 MauvilleCity_Gym_Text_ShawnDefeat:
 	.string "Guess I'm not smart enough to\n"
 	.string "use them...$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle:
-	.string "My Rattata is a lot like other\n"
-	.string "Rattata.\p"
+	.string "My RATTATA is a lot like other\n"
+	.string "RATTATA.\p"
 	.string "You could say it's your average\n"
-	.string "Rattata.$"
+	.string "RATTATA.$"
 
 MauvilleCity_Gym_Text_BenIntro:
 	.string "Love the streams! Hope there\n"
 	.string "haven't been many self-destructs, yet.$"
 
 MauvilleCity_Gym_Text_BenDefeat:
-	.string "shelldude uses self-destruct.$"
+	.string "shelldude uses SELF-DESTRUCT.$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
-	.string "shelldude used self-destruct..$"
+	.string "shelldude used SELF-DESTRUCT..$"
 
 MauvilleCity_Gym_Text_VivianIntro:
 	.string "Have you seen Tigger somewhere?$"
@@ -331,7 +331,7 @@ MauvilleCity_Gym_Text_WattsonIntro:
 	.string "of the gym. Sadly for you this is\p"
 	.string "where your adventure ends.\n"
 	.string "Prepare to be crushed by my\p"
-	.string "Pokemon Plushie team!$"
+	.string "POKéMON Plushie team!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "MY PLUSHIES!!!!!!!!!!!!!\n"

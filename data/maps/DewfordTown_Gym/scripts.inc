@@ -365,7 +365,7 @@ DewfordTown_Gym_Text_BrendenPostBattle:
 	.string "All I found was fruit though...$"
 
 DewfordTown_Gym_Text_CristianIntro:
-	.string "I'll show you what my Pokemon are\n"
+	.string "I'll show you what my POKéMON are\n"
 	.string "truly really capable of.$"
 
 DewfordTown_Gym_Text_CristianDefeat:

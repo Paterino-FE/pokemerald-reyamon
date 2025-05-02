@@ -138,15 +138,15 @@ SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
 	.string "A trustworthy guy just sold me\n"
-	.string "amazing Pokemon! Wait, you CAUGHT yours?\p"
+	.string "amazing POKéMON! Wait, you CAUGHT yours?\p"
 	.string "What are you, poor?$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
 	.string "I saw it! You cheated! I saw you use\n"
-	.string "rare candies!$"
+	.string "RARE CANDIES!$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
-	.string "Don't ever talk to me or my Arbok again!$"
+	.string "Don't ever talk to me or my ARBOK again!$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaIntro:
 	.string "I can battle with really rare POKéMON\n"
