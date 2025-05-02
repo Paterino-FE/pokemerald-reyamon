@@ -48,6 +48,7 @@ static const u8 sCreditsText_Quattuor4[]                        = _("Quattuor4")
 static const u8 sCreditsText_FireFireFire[]                        = _("FireFireFire");
 static const u8 sCreditsText_DogMatical[]                        = _("DogMatical");
 static const u8 sCreditsText_Yogurcomics[]                        = _("Yogurcomics");
+static const u8 sCreditsText_Kaaaaaarp[]                        = _("Kaaaaaarp");
 static const u8 sCreditsText_Zhongbros[]                        = _("The Zhong Bros");
 static const u8 sCreditsText_EmeraldComposer[]                        = _("EmeraldComposer");
 static const u8 sCreditsText_TheReyaCommunity[]                        = _("The Reya community");
@@ -81,6 +82,7 @@ static const struct CreditsEntry sCreditsEntry_HeiSe                         = {
 static const struct CreditsEntry sCreditsEntry_Quattuor4                         = {12,  FALSE, sCreditsText_Quattuor4};
 static const struct CreditsEntry sCreditsEntry_FireFireFire                         = {12,  FALSE, sCreditsText_FireFireFire};
 static const struct CreditsEntry sCreditsEntry_DogMatical                         = {12,  FALSE, sCreditsText_DogMatical};
+static const struct CreditsEntry sCreditsEntry_Kaaaaaarp                         = {12,  FALSE, sCreditsText_Kaaaaaarp};
 static const struct CreditsEntry sCreditsEntry_Yogurcomics                        = {12,  FALSE, sCreditsText_Yogurcomics};
 static const struct CreditsEntry sCreditsEntry_Zhongbros                         = {12,  FALSE, sCreditsText_Zhongbros};
 static const struct CreditsEntry sCreditsEntry_EmeraldComposer                         = {12,  FALSE, sCreditsText_EmeraldComposer};
@@ -112,11 +114,12 @@ static const struct CreditsEntry *const sCreditsEntryPointerTable[PAGE_COUNT][EN
         _,
     },
     [PAGE_SPRITES] = {
-        _,
         &sCreditsEntry_Sprites,
         &sCreditsEntry_Paterino,
         &sCreditsEntry_DogMatical,
         &sCreditsEntry_Yogurcomics,
+        &sCreditsEntry_Kaaaaaarp,
+
     },
     [PAGE_BALANCE] = {
         &sCreditsEntry_GameBalance,
