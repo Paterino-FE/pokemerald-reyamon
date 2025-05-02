@@ -32194,7 +32194,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_VR_2] =
     {
 #line 12055
-        .trainerName = _("WALLY"),
+        .trainerName = _("LILYPAD"),
 #line 12056
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12057
@@ -32307,7 +32307,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_VR_3] =
     {
 #line 12105
-        .trainerName = _("WALLY"),
+        .trainerName = _("LILYPAD"),
 #line 12106
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12107
@@ -32420,7 +32420,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_VR_4] =
     {
 #line 12155
-        .trainerName = _("WALLY"),
+        .trainerName = _("LILYPAD"),
 #line 12156
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12157
@@ -32533,7 +32533,7 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLY_VR_5] =
     {
 #line 12205
-        .trainerName = _("WALLY"),
+        .trainerName = _("LILYPAD"),
 #line 12206
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12207
