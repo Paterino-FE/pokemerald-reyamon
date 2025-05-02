@@ -46,7 +46,7 @@ Route114_LanettesHouse_EventScript_PC::
 	end
 
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
-	.string "Forty: Oh Wow! {PLAYER}{KUN}!\p"
+	.string "FORTY: Oh Wow! {PLAYER}{KUN}!\p"
 	.string "You actually came!\n"
 	.string "... ... ... ... ... ... ... ...\p"
 	.string "This house is a cluttered mess!\p"
@@ -54,10 +54,10 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 	.string "In exchange I will give you this!$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
-	.string "TM13 contains Ice Beam!\p"
+	.string "TM13 contains ICE BEAM!\p"
 	.string "I did promise something really\n"
 	.string "cool, didn't I? Hehehehehe!\p"
-	.string "I might be a Dirkling, but I still\n"
+	.string "I might be a DIRKLING, but I still\n"
 	.string "support you!$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage1:
