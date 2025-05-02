@@ -143,7 +143,7 @@ SootopolisCity_Gym_B1F_Text_BethanyIntro:
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
 	.string "I saw it! You cheated! I saw you use\n"
-	.string "RARE CANDIES!$"
+	.string "COMMON CANDIES!$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
 	.string "Don't ever talk to me or my ARBOK again!$"
