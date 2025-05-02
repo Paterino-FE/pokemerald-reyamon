@@ -95,7 +95,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 	.string "Apply at our HEADQUARTERS please.$"
 
 VictoryRoad_B2F_Text_JulieIntro:
-	.string "Sorry Reya, but I'm team VYRAL\n"
+	.string "Sorry {PLAYER}, but I'm team VYRAL\n"
 	.string "until the end!$"
 
 VictoryRoad_B2F_Text_JulieDefeat:

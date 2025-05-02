@@ -309,7 +309,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 	.string "Why? It's a dream that never ends.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
-	.string "Those Dragon Gang thugs have their\n"
+	.string "Those DRAGON GANG thugs have their\n"
 	.string "sights set on our SPACE CENTER.\p"
 	.string "But we can't allow anything that minor\n"
 	.string "to interfere with our rocket launch!$"
@@ -325,13 +325,13 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 	.string "its meteor showers for a long time.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-	.string "Dragon Gang can't be allowed to steal\n"
+	.string "DRAGON GANG can't be allowed to steal\n"
 	.string "the rocket fuel.\p"
 	.string "Oh, by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-	.string "With Dragon Gang around, I guess\n"
+	.string "With DRAGON GANG around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
@@ -339,10 +339,10 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
 	.string "from space. Could it be true?$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-	.string "Tentacool Cruises should take care\n"
-	.string "of Dragon Gang!\p"
+	.string "TENTACOOL CRUISES should take care\n"
+	.string "of DRAGON GANG!\p"
 	.string "But if they did that,\n"
-	.string "Tentacool Cruises will\l"
+	.string "TENTACOOL CRUISES will\l"
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
@@ -353,7 +353,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "A giant chunk of metal bursts through\n"
 	.string "the skies and flies into space…\p"
-	.string "But Dragon Gang wants to spoil\n"
+	.string "But DRAGON GANG wants to spoil\n"
 	.string "that dream of mine!\p"
 	.string "I'm not having any of that!$"
 
@@ -432,4 +432,4 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "humans. We com take yur fool now\l"
 	.string "heeheehee. We stronk, you week.\p"
 	.string "All the shynees wil be ares!\n"
-	.string "My mummy told me!- Dragon Gang$"
+	.string "My mummy told me!- DRAGON GANG$"

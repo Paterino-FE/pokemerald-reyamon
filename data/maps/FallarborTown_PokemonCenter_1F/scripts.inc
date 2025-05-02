@@ -88,7 +88,7 @@ FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest:
 	step_end
 
 FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
-	.string "Forty: Oh, hi!\n"
+	.string "FORTY: Oh, hi!\n"
 	.string "Remember me from the first gym?\p"
 	.string "I was just fixing some bugs in\n"
 	.string "the code of the storage system.\p"

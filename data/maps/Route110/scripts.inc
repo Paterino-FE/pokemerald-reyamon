@@ -756,7 +756,7 @@ Route110_Text_MyFirstJobInAqua:
 	.string "Oh... you don’t want a timeshare...$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "Tentacool Cruises: We put the taco\n"
+	.string "TENTACOOL CRUISES: We put the taco\n"
 	.string "in Tentacool!$"
 
 Route110_Text_MayLetsBattle:
@@ -917,10 +917,10 @@ Route110_Text_CyclingRoadSign:
 	.string "SEASIDE CYCLING ROAD$"
 
 Route110_Text_AquaWasHere:
-	.string "“Tentacool Cruises was here!”\p"
+	.string "“TENTACOOL CRUISES was here!”\p"
 	.string "Someone painted that onto this sign,\n"
 	.string "but then someone else painted over it.\p"
-	.string "“Dragon Gang rules!” is what it\n"
+	.string "“DRAGON GANG rules!” is what it\n"
 	.string "says now.$"
 
 Route110_Text_Route103Sign:

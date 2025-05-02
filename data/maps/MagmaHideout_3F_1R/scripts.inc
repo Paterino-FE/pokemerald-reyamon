@@ -29,9 +29,9 @@ MagmaHideout_3F_1R_Text_Grunt16Intro:
 	.string "leader achieve her fantastic vision.\p"
 	.string "Shes’s given us dragons the first bit\n"
 	.string "of hope in at least three weeks.\p"
-	.string "I don’t care if you’re with Tentacool\n"
-	.string "Cruises or if you’re just some\l"
-	.string "stuffed up Empress.\p"
+	.string "I don’t care if you’re with TENTACOOL\n"
+	.string "CRUISES or if you’re just some\l"
+	.string "stuffed up EMPRESS.\p"
 	.string "No one interferes with my girlboss!$"
 
 MagmaHideout_3F_1R_Text_Grunt16Defeat:
@@ -40,8 +40,8 @@ MagmaHideout_3F_1R_Text_Grunt16Defeat:
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
 	.string "Listen to me.\n"
-	.string "Dragon Gang offers real change.\p"
-	.string "Tentacool cruises are just a bunch\n"
+	.string "DRAGON GANG offers real change.\p"
+	.string "TENTACOOL CRUISES are just a bunch\n"
 	.string "of fatcats gaming the system!\p"
 	.string "They don’t even have any tacos!$"
 

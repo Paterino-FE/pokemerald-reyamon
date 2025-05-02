@@ -127,8 +127,8 @@ SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
 	.string "I will have to wait...$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
-	.string "Is that Reya?! I need to say something\n"
-	.string "cool. Himabigfan$"
+	.string "Is that {PLAYER}?! I need to say\n"
+	.string "something cool. Himabigfan$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
 	.string "Thanks for the battle!$"

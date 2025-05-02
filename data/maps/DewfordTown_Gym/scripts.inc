@@ -343,7 +343,7 @@ DewfordTown_Gym_Text_LauraDefeat:
 	.string "You must've cheated, VAC Ban!$"
 
 DewfordTown_Gym_Text_LauraPostBattle:
-	.string "Quick chat, throw something at Reya!$"
+	.string "Quick chat, throw something at {PLAYER}!$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "I swear, he's not a slave!$"

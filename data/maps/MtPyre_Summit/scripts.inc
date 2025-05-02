@@ -430,7 +430,7 @@ MtPyre_Summit_EventScript_Grunt4::
 	end
 
 MtPyre_Summit_Text_Grunt1Intro:
-	.string "I can’t believe this Dragon Gang\n"
+	.string "I can’t believe this DRAGON GANG\n"
 	.string "is always ahead of us.\p"
 	.string "Are… are we bad at our jobs?$"
 
@@ -446,11 +446,11 @@ MtPyre_Summit_Text_Grunt2Intro:
 	.string "I’m out of my element with this new\n"
 	.string "assignment, but I think I can handle\l"
 	.string "this. However, I have to stop you,\l"
-	.string "Tentacool Cruise staff only.$"
+	.string "TENTACOOL CRUISES staff only.$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
 	.string "Hmmm…maybe you should deal with\n"
-	.string "Dragon Gang…$"
+	.string "DRAGON GANG…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
 	.string "I guess I let you pass now?\p"

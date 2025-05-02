@@ -586,14 +586,14 @@ LilycoveCity_Text_ImFromKanto:
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "Tentacool Cruises have been training\n"
+	.string "TENTACOOL CRUISES have been training\n"
 	.string "their WAILMER in the cove.\p"
 	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
-	.string "Someone punted Tentacrooks out of\n"
+	.string "Someone punted TENTACROOKS out of\n"
 	.string "the way for us!\p"
 	.string "That got the WAILMER out of the cove,\n"
 	.string "so we can get our boats out again.$"
@@ -602,8 +602,8 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "I was taking a relaxing snooze at the\n"
 	.string "seaside inn to the sound of waves…\p"
 	.string "When someone stole my POKéMON!\p"
-	.string "Who's the abductor? Dragon Gang?\n"
-	.string "Is it Tentacool Cruises?$"
+	.string "Who's the abductor? DRAGON GANG?\n"
+	.string "Is it TENTACOOL CRUISES?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
 	.string "My missing POKéMON…\n"
@@ -632,10 +632,10 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "Hm, you know of the peculiar cavern\n"
 	.string "in this cove?\p"
 	.string "That had been a natural formation,\n"
-	.string "but then that Tentacool lot came\l"
+	.string "but then that TENTACOOL lot came\l"
 	.string "along and made their renovations.\p"
 	.string "They call themselves\n"
-	.string "the “Tentacool Cruises”!\p"
+	.string "the “TENTACOOL CRUISES”!\p"
 	.string "But I have not seen any Tacos, it\n"
 	.string "doesn't make sense at all!$"
 
@@ -643,7 +643,7 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
-	.string "That Tentacool Cruises lot, they\n"
+	.string "That TENTACOOL CRUISES lot, they\n"
 	.string "must have gone away for good.$"
 
 LilycoveCity_Text_CitySign:

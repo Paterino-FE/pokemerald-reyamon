@@ -289,7 +289,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Save Keith and I’ll be right out!$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "HATZOOME: The Dragon Gang must have\n"
+	.string "HATZOOME: The DRAGON GANG must have\n"
 	.string "done something…\p"
 	.string "The Red Orb should have controlled\n"
 	.string "Kyogre…But…Why? Why is Kyogre doing\l"

@@ -259,7 +259,7 @@ LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
 	.string "Us dirklings will crush\n"
-	.string "the false empress!$"
+	.string "the false EMPRESS!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 	.string "Oh man, VYRAL's going to kill me!$"

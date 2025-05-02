@@ -20,7 +20,7 @@ SeafloorCavern_Room4_Text_Grunt3Defeat:
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
 	.string "Well how about this pitch:\p"
-	.string "Tentacool Cruises:\n"
+	.string "TENTACOOL CRUISES:\n"
 	.string "Wrap yourself in luxury!$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro:

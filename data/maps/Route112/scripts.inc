@@ -118,7 +118,7 @@ Route112_Text_YeahWeNeedMeteorite:
 	.string "She's crazy like that.$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, when I joined dragon gang,\n"
+	.string "Oh, when I joined DRAGON GANG,\n"
 	.string "I thought the leader would be Vy-$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:

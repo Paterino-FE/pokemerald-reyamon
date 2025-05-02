@@ -460,12 +460,12 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "I heard from a SAILOR buddy that\n"
-	.string "Tentacool Cruises set up shop in\l"
+	.string "TENTACOOL CRUISES set up shop in\l"
 	.string "LILYCOVE.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
 	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that Dragon Gang.\p"
+	.string "by that DRAGON GANG.\p"
 	.string "If you want to know what they're up to,\n"
 	.string "go visit the SPACE CENTER.$"
 

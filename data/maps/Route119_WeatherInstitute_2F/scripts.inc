@@ -225,7 +225,7 @@ Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
 	.string "really needs it!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro:
-	.string "Tentacool Cruises: We put the taco\n"
+	.string "TENTACOOL CRUISES: We put the taco\n"
 	.string "in tentacool!\p"
 	.string "I still don’t get this new slogan…\n"
 	.string "Cool is right there in the word.$"
@@ -272,7 +272,7 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "Sorry, but I've got some bad news!\p"
-	.string "A whole group of Dragon Gang goons\n"
+	.string "A whole group of DRAGON GANG goons\n"
 	.string "just passed the Weather Institute.\p"
 	.string "I think they were talking about\n"
 	.string "Mt. Pyre!$"
@@ -282,7 +282,7 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "Well I won't waste any more time on\n"
 	.string "this pipsqueak!\p"
 	.string "We have to hurry to Mt. Pyre, too!\n"
-	.string "Dragon Gang will face a true master!$"
+	.string "DRAGON GANG will face a true master!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
 	.string "Thanks!\n"

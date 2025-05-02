@@ -52,14 +52,14 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 	.string "What? What? Why are you here? No, our\n"
-	.string "spokeswoman isn’t here!\p"
+	.string "SPOKESWOMAN isn’t here!\p"
 	.string "… Where did she go?\n"
 	.string "How would I know?$"
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 	.string "What? What?\n"
-	.string "Are you a Dragon Gang grunt?\p"
-	.string "I hear that Dragon Gang is trying to\n"
+	.string "Are you a DRAGON GANG grunt?\p"
+	.string "I hear that DRAGON GANG is trying to\n"
 	.string "awaken an awesome POKéMON at their\l"
 	.string "HIDEOUT.\p"
 	.string "But where might their HIDEOUT be?$"
@@ -67,7 +67,7 @@ AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 AquaHideout_1F_Text_BossWentToJackASubmarine:
 	.string "Sorry? We’re not supposed to have\n"
 	.string "potential customers back here.\p"
-	.string "No, the spokeswoman isn’t here!\n"
+	.string "No, the SPOKESWOMAN isn’t here!\n"
 	.string "She said something about a submarine!\p"
 	.string "… Where did she go? Well, I really\n"
 	.string "can’t give you her personal info like\p"
@@ -75,7 +75,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 
 AquaHideout_1F_Text_BossIsOnRoute122:
 	.string "What? What? Why are you here? No, our\n"
-	.string "spokeswoman isn’t here! She was\p"
+	.string "SPOKESWOMAN isn’t here! She was\p"
 	.string "heading to Mt. Pyre or\n"
 	.string "something!\p"
 	.string "… Why did she go?\n"
@@ -83,14 +83,14 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 	.string "What? What?\n"
-	.string "Are you a Dragon Gang grunt?\p"
-	.string "I hear that Dragon Gang is after\n"
+	.string "Are you a DRAGON GANG grunt?\p"
+	.string "I hear that DRAGON GANG is after\n"
 	.string "an awesome POKéMON at MT. CHIMNEY.\p"
 	.string "But what is that POKéMON like?$"
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? Why are you here? No, our\n"
-	.string "spokeswoman isn’t here! She was\p"
+	.string "SPOKESWOMAN isn’t here! She was\p"
 	.string "heading to Slateport City or\n"
 	.string "something!\p"
 	.string "… Why did she go?\n"

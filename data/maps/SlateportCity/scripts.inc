@@ -1501,7 +1501,7 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "I'm sure I met you somewhere before.\p"
 	.string "Have I introduced myself to you?\n"
 	.string "If not, my name's SCOTT.\p"
-	.string "I just saw Tentacool Cruises run away\n"
+	.string "I just saw TENTACOOL CRUISES run away\n"
 	.string "from here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
 

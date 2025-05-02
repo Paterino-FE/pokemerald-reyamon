@@ -359,7 +359,7 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
 	.string "rockets.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-	.string "Why would Dragon Gang want to steal\n"
+	.string "Why would DRAGON GANG want to steal\n"
 	.string "our rocket fuel in the first place?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
@@ -369,7 +369,7 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "I can and will try!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If Dragon Gang takes the rocket fuel,\n"
+	.string "If DRAGON GANG takes the rocket fuel,\n"
 	.string "I won't be able to go to space!\p"
 	.string "They can't be allowed to get away\n"
 	.string "with such an outrage!$"
@@ -379,7 +379,7 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 	.string "space one day…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-	.string "Dragon Gang…\n"
+	.string "DRAGON GANG…\n"
 	.string "Do they want to go to space, too?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
@@ -457,7 +457,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "defeating Groudon, what a ridiculous\l"
 	.string "accusation.\p"
 	.string "I won’t be stopped by a Little\n"
-	.string "Empress and her little rat.$"
+	.string "EMPRESS and her little rat.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
 	.string "LILYPAD: {PLAYER}{KUN}!\n"
@@ -484,7 +484,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "And if HATZOOME uses the wrong orb on\n"
 	.string "that fish… then there will be nothing\l"
 	.string "I can do. I’m not.\n"
-	.string "I’m not strong enough. Reya. LILYPAD.$"
+	.string "I’m not strong enough. REYA. LILYPAD.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "We will take our leave of you for\n"

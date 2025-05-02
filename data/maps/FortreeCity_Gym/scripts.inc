@@ -259,7 +259,7 @@ FortreeCity_Gym_Text_JaredPostBattle:
 	.string "friendship value...$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-	.string "Hi Reya, meet my friends!$"
+	.string "Hi {PLAYER}, meet my friends!$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
 	.string "You're a pretty good trainer I guess...\n"
@@ -282,7 +282,7 @@ FortreeCity_Gym_Text_FlintPostBattle:
 	.string "up to 600lbs of lemons every year.\p"
 	.string "Fun Fact No.2: Lemon’s tree,\n"
 	.string "SUDOWOODO, was brutally murdered by\l"
-	.string "Reya during the Nuzlocke.$"
+	.string "{PLAYER} during the Nuzlocke.$"
 
 FortreeCity_Gym_Text_AshleyIntro:
 	.string "If not friend, why friend shaped?$"

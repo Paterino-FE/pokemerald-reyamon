@@ -45,6 +45,6 @@ Underwater_SeafloorCavern_Text_SubExplorer1:
 	.string "on the hull.\p"
 	.string "This is the submarine Tentacool\n"
 	.string "Cruises stole in SLATEPORT!\p"
-	.string "Tentacool Cruises must have gone\n"
+	.string "TENTACOOL CRUISES must have gone\n"
 	.string "ashore here.$"
 

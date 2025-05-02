@@ -12788,7 +12788,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A medal-like item in\n"
             "the same shape as\n"
-            "Dragon Gang's mark."),
+            "DRAGON GANG's mark."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,

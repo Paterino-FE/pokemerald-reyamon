@@ -558,13 +558,13 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 
 MtChimney_Text_MaxieIntro:
 	.string "LYRA: Hm? Ah yes.\n"
-	.string "The pitiful Empress Reya.\p"
+	.string "The pitiful EMPRESS {PLAYER}.\p"
 	.string "I've heard you've been giving\n"
 	.string "HATZOOME grief. Certainly an\l"
 	.string "opponent befitting your lack\l"
 	.string "of stature. Oh?\p"
 	.string "You mean to strike above your\l"
-	.string "station, little Empress?\p"
+	.string "station, little EMPRESS?\p"
 	.string "Bullying my real daughter (real)\n"
 	.string "wasn't enough for you.\p"
 	.string "Now you intend to interrupt our\n"
@@ -588,7 +588,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "Take the pathetic rock. I have an\n"
 	.string "even shinier one in my sight.\p"
 	.string "Next time I won’t be so forgiving,\n"
-	.string "little Empress. Sleep with one\l"
+	.string "little EMPRESS. Sleep with one\l"
 	.string "eye open.$"
 
 MtChimney_Text_TabithaIntro:
@@ -645,14 +645,14 @@ MtChimney_Text_MeteoritesPackAmazingPower:
 	.string "leader, so it's up to us.$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
-	.string "Dragon Gang: Timeshares? Dragons\n"
+	.string "DRAGON GANG: Timeshares? Dragons\n"
 	.string "don't share anything, especially\l"
 	.string "not time!$"
 
 MtChimney_Text_AquasNameSimilar:
-	.string "We're Dragon Gang! A tax-exempt\n"
+	.string "We're DRAGON GANG! A tax-exempt\n"
 	.string "charitable organization!\p"
-	.string "They're Tentacool Cruises!\n"
+	.string "They're TENTACOOL CRUISES!\n"
 	.string "They're just in it for money.$"
 
 MtChimney_Text_DouseThemInFire:
@@ -697,7 +697,7 @@ MtChimney_Text_ArchieThankYou:
 	.string "brochures. {PLAYER}, bye forever!$"
 
 MtChimney_Text_MagmaOutnumbersUs:
-	.string "Darn… Dragon Gang outnumbers us!\n"
+	.string "Darn… DRAGON GANG outnumbers us!\n"
 	.string "We can't keep up with them!$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
@@ -705,8 +705,8 @@ MtChimney_Text_LessHabitatForWaterPokemon:
 	.string "the cute lil' fish!$"
 
 MtChimney_Text_MagmasNameSimilar:
-	.string "We're Tentacool Cruises!\p"
-	.string "They're Dragon Gang!\p"
+	.string "We're TENTACOOL CRUISES!\p"
+	.string "They're DRAGON GANG!\p"
 	.string "They’re not even an actual\n"
 	.string "business!$"
 

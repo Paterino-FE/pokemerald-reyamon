@@ -223,7 +223,7 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 	.string "you know. It just really gets to you\l"
 	.string "sometimes, and before you know it,\l"
 	.string "you’ve almost caused an apocalypse.\p"
-	.string "Hey Reya? Kick VYRAL’s ass for me \n"
+	.string "Hey {PLAYER}? Kick VYRAL’s ass for me\n"
 	.string "when you see her. And thanks for that\l"
 	.string "whole saving the world thing I guess.$"
 
@@ -288,7 +288,7 @@ VictoryRoad_1F_Text_TheaIntro:
 
 VictoryRoad_1F_Text_TheaDefeat:
 	.string "THEA: I am genuinely ....\n"
-	.string "empressed!$"
+	.string "EMPRESSED!$"
 
 VictoryRoad_1F_Text_TheaPostBattle:
 	.string "THEA: Go away, you made\n"
@@ -297,7 +297,7 @@ VictoryRoad_1F_Text_TheaPostBattle:
 VictoryRoad_1F_Text_LumiIntro:
 	.string "LUMI: WE'RE BACK!\p"
 	.string "Wanna see photos of a drunken\n"
-	.string "NanamiBear scaring tourists?$"
+	.string "NANAMI BEAR scaring tourists?$"
 
 VictoryRoad_1F_Text_LumiDefeat:
 	.string "LUMI: I can't believe THEA threw\n"

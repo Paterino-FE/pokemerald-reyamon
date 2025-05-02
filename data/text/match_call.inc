@@ -2560,7 +2560,7 @@ MatchCall_Text_Scott4::
 	.string "SCOTT: Hi, {PLAYER}{KUN}!\p"
 	.string "I've been hearing about these odd\n"
 	.string "gangs being a nuisance.\p"
-	.string "Dragon Gang and Tentacool Cruises,\n"
+	.string "DRAGON GANG and TENTACOOL CRUISES,\n"
 	.string "I think they were.\p"
 	.string "I would think there'd be some\n"
 	.string "skilled TRAINERS among them.\p"

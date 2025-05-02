@@ -61,7 +61,7 @@ Route114_LanettesHouse_Text_OrganizeYourBoxes:
 	.string "support you!$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage1:
-	.string "It's Forty's research notes.\n"
+	.string "It's FORTY's research notes.\n"
 	.string "There's information about BOXES.\p"
 	.string "Design BOXES to hold 30 POKéMON each.\p"
 	.string "Each TRAINER should be able to store\n"

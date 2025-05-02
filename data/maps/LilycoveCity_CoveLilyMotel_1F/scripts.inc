@@ -86,7 +86,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
 	.string "Oh, sorry, sorry!\n"
 	.string "I was too involved in watching TV!\p"
-	.string "Since Tentacool Cruises came to town,\n"
+	.string "Since TENTACOOL CRUISES came to town,\n"
 	.string "the tourists have been staying away.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
@@ -105,7 +105,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
 	.string "Oh, sorry, sorry!\n"
 	.string "I was too involved in watching TV!\p"
 	.string "I heard that someone busted\n"
-	.string "the Tentacool Cruises HIDEOUT.\p"
+	.string "the TENTACOOL CRUISES HIDEOUT.\p"
 	.string "Thanks to that, we just booked\n"
 	.string "a reservation from a big group.\p"
 	.string "It was a company called… Uh…\n"

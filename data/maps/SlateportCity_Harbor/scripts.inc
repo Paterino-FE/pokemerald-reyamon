@@ -464,7 +464,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "CAPT. STERN: Why…\p"
-	.string "Why would Tentacool Cruises steal my\n"
+	.string "Why would TENTACOOL CRUISES steal my\n"
 	.string "SUBMARINE EXPLORER 1?\p"
 	.string "They can't be after the slumbering\n"
 	.string "POKéMON at the bottom of the sea…\p"
@@ -473,7 +473,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
-	.string "Okay… So Tentacool Cruises left\n"
+	.string "Okay… So TENTACOOL CRUISES left\n"
 	.string "before you could stop them…\p"
 	.string "Oh, no, don't blame yourself.\n"
 	.string "You're not responsible for this.\p"

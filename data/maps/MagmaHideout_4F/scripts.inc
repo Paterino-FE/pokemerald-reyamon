@@ -159,7 +159,7 @@ MagmaHideout_4F_Text_Grunt12PostBattle:
 	.string "If you have amazon prime you get a\n"
 	.string "free prime gaming sub once a month\l"
 	.string "to use on twitch dot television\l"
-	.string "forward slash LongLiveReya.\p"
+	.string "forward slash LONGLIVEREYA.\p"
 	.string "Use it now!$"
 
 MagmaHideout_4F_Text_Grunt13Intro:
@@ -206,7 +206,7 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 	.string "get a wonderful surprise.$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "Ah Little Empress. Why must you oppose\n"
+	.string "Ah Little EMPRESS. Why must you oppose\n"
 	.string "our great and noble goal of expanding\l"
 	.string "the land so we can distribute it more\l"
 	.string "equally amongst dragon kind.\p"
@@ -214,7 +214,7 @@ MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "shinies deep within its rocks.\p"
 	.string "Hahahaha. HAHAHAHAHAH\n"
 	.string "Enough of this degrading charade.\p"
-	.string "As you can plainly see, Groudon has\n"
+	.string "As you can plainly see, GROUDON has\n"
 	.string "been driven mad out of control.\p"
 	.string "Oh no you must say. How horrible,\n"
 	.string "won’t it cause a drought that will\l"
@@ -232,7 +232,7 @@ MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "She’s not more powerful than me. And\n"
 	.string "by defeating Groudon I’ll prove it.\p"
 	.string "I’m better than her. I’m better than\n"
-	.string "all of dragon gang.\p"
+	.string "all of DRAGON GANG.\p"
 	.string "I’M BETTER THAN YOU. I’M BETTER THAN\n"
 	.string "EVERYONE. I AM PERFECTION AND YOU WILL\l"
 	.string "FALL BEFORE ME! EN GARDE!$"
@@ -241,7 +241,7 @@ MagmaHideout_4F_Text_MaxieDefeat:
 	.string "Am I… not strong enough?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "If I can’t defeat you then Groudon…\p"
+	.string "If I can’t defeat you then GROUDON…\p"
 	.string "No. Don’t be ridiculous. THIS WASN’T\n"
 	.string "EVEN MY FINAL FORM. I’M STRONGER\l"
 	.string "THAN VYRAL. I’M THE BEST DRAGON.\p"

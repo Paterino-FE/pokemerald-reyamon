@@ -1210,7 +1210,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "LILYPAD: Yes, it was great!\n"
-	.string "Reya is so cool!\p"
+	.string "{PLAYER} is so cool!\p"
 	.string "{PLAYER}, I had a ton of fun\n"
 	.string "battling you!\p"
 	.string "Next time, I will be stronger!\p"
@@ -1498,13 +1498,13 @@ PetalburgCity_Gym_Text_JodyDefeat:
 	.string "3. Consult the Necronomicon...$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "Reya, you're the very best, like\n"
+	.string "{PLAYER}, you're the very best, like\n"
 	.string "no one ever was.\p"
 	.string "Please give LILYPAD\n"
 	.string "a real good snuggle from me <3$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-	.string "Reya, you're the very best, like\n"
+	.string "{PLAYER}, you're the very best, like\n"
 	.string "no one ever was.\p"
 	.string "Please give LILYPAD\n"
 	.string "a real good snuggle from me <3$"

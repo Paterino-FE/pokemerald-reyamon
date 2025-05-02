@@ -291,7 +291,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
 	.string "Who are you people?$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're from Tentacool Cruises!\p"
+	.string "We're from TENTACOOL CRUISES!\p"
 	.string "You might have heard of us!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
@@ -324,16 +324,16 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "I’m HATZOOME and I am the spokeswoman\n"
-	.string "of Tentacool Cruises new timeshare\l"
+	.string "of TENTACOOL CRUISES new timeshare\l"
 	.string "program!\p"
 	.string "But... why would you steal our\n"
 	.string "part... that's not very nice.\p"
-	.string "Are you with Dragon Gang?\p"
+	.string "Are you with DRAGON GANG?\p"
 	.string "No that isn't it, you're not\n"
 	.string "dressed correctly.\p"
 	.string "Well then, let me tell you about\n"
 	.string "our new seasonal offer!\p"
-	.string "Tentacool Cruises are not only giving\n"
+	.string "TENTACOOL CRUISES are not only giving\n"
 	.string "you their amazing low rates on prime\l"
 	.string "real estate on their amazing cruise\l"
 	.string "line, but each new timeshare also\l"

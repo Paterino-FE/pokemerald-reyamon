@@ -260,7 +260,7 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "HATZOOME: Oh hey, you’re the one\n"
-	.string "from Slateport! Remember?\p"
+	.string "from SLATEPORT! Remember?\p"
 	.string "I was that lovely trainer trying\n"
 	.string "to get you in on the ground floor\l"
 	.string "of this timeshare program.\p"
@@ -270,8 +270,8 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "Oh…you still don't. Well, you\n"
 	.string "probably just need to grab your\l"
 	.string "checkbook from home, I get it.\p"
-	.string "Just be careful around the Dragon\n"
-	.string "Gang. As you can see, they're always\l"
+	.string "Just be careful around the DRAGON\n"
+	.string "GANG. As you can see, they're always\l"
 	.string "doing reckless things to increase\l"
 	.string "their power.\p"
 	.string "Couldn't be me though, am I right?$"
@@ -283,7 +283,7 @@ MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
 	.string "HATZOOME: That’s a smart idea!\p"
 	.string "Well, I’ve got to go. You know,\n"
-	.string "Dragon Gang, Mt. Chimney, all that.$"
+	.string "DRAGON GANG, Mt. Chimney, all that.$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
 	.string "HATZOOME: {PLAYER}, we'll talk about\n"
@@ -294,19 +294,19 @@ MeteorFalls_1F_1R_Text_ArchieFarewell:
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
 	.string "I… I'm COZMO…\n"
 	.string "I'm a PROFESSOR…\p"
-	.string "Dragon Gang asked me to guide them\n"
+	.string "DRAGON GANG asked me to guide them\n"
 	.string "to METEOR FALLS…\p"
 	.string "But they tricked me.\n"
 	.string "They even took my METEORITE away…\p"
 	.string "And then another similar bunch,\n"
-	.string "Tentacool Cruises showed up.\p"
+	.string "TENTACOOL CRUISES showed up.\p"
 	.string "After that…\n"
 	.string "I don't understand any of it.\p"
-	.string "But that Dragon Gang…\p"
+	.string "But that DRAGON GANG…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
-	.string "PROF. COZMO: But that Dragon Gang…\p"
+	.string "PROF. COZMO: But that DRAGON GANG…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"

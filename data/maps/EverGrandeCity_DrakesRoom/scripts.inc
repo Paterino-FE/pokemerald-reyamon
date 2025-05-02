@@ -73,7 +73,7 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 EverGrandeCity_DrakesRoom_Text_Defeat:
 	.string "The Lioness will use all her\n"
 	.string "strength even when hunting a rabbit.\p"
-	.string "You showed your qualities today, Reya.\n"
+	.string "You showed your qualities today, REYA.\n"
 	.string "You are a remakable trainer and\l"
 	.string "person. Now stride onwards to face\l"
 	.string "your final challenge.$"
