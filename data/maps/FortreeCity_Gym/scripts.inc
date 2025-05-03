@@ -317,16 +317,16 @@ FortreeCity_Gym_Text_WinonaIntro:
 	.string "AAAAAAAAAAAH!\p"
 	.string "Why are you here?!....\p"
 	.string "No matter.... I hope you\n"
-	.string "are ready to face my perfectly\n"
-	.string "friendshaped team!\p"
+	.string "are ready to face my perfectly\l"
+	.string "friend-shaped team!\p"
 	.string "To Battle AYAYA!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Not bad little Lady :reyapat:\p"
+	.string "Not bad, little Lady :reyapat:\p"
 	.string "I hope you enjoy the rest of\n"
 	.string "your journey!\p"
 	.string "Take this TM with you, it lets you\n"
-	.string "use the power of Friendship to\n"
+	.string "use the power of Friendship to\l"
 	.string "your advantage AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
