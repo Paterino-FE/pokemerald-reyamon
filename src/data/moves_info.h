@@ -5844,7 +5844,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("SWEET SCENT"),
         .description = COMPOUND_STRING(
             "Allures the foe to reduce\n"
-            "evasiveness."),
+            "EVASIVENESS."),
         .effect = B_UPDATED_MOVE_DATA >= GEN_6 ? EFFECT_EVASION_DOWN_2 : EFFECT_EVASION_DOWN,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -8007,7 +8007,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("ODOR SLEUTH"),
         .description = COMPOUND_STRING(
             "Negates the foe's efforts\n"
-            "to heighten evasiveness."),
+            "to heighten EVASIVENESS."),
         .effect = EFFECT_FORESIGHT,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -9014,7 +9014,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("MIRACLE EYE"),
         .description = COMPOUND_STRING(
-            "Negate evasiveness and\n"
+            "Negate EVASIVENESS and\n"
             "DARK-type's immunities."),
         .effect = EFFECT_MIRACLE_EYE,
         .power = 0,
