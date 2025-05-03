@@ -315,11 +315,19 @@ FortreeCity_Gym_Text_DariusPostBattle:
 
 FortreeCity_Gym_Text_WinonaIntro:
 	.string "AAAAAAAAAAAH!\p"
-	.string "Why are you here?!$"
+	.string "Why are you here?!....\p"
+	.string "No matter.... I hope you\n"
+	.string "are ready to face my perfectly\n"
+	.string "friendshaped team!\p"
+	.string "To Battle AYAYA!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "To be honest, I didn't think\n"
-	.string "you would make it this far, AYAYA!$"
+	.string "Not bad little Lady :reyapat:\p"
+	.string "I hope you enjoy the rest of\n"
+	.string "your journey!\p"
+	.string "Take this TM with you, it lets you\n"
+	.string "use the power of Friendship to\n"
+	.string "your advantage AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the\n"

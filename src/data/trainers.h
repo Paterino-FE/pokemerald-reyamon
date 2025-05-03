@@ -13494,22 +13494,23 @@ F_TRAINER_FEMALE |
             },
             {
 #line 5011
-            .species = SPECIES_SAWSBUCK_AUTUMN,
+            .species = SPECIES_DRAGONAIR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5013
             .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
 #line 5012
             .lvl = 30,
-            .nature = NATURE_RELAXED,
+            .nature = NATURE_BASHFUL,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_SERENE_GRACE,
+            .ability = ABILITY_MARVEL_SCALE,
             .friendship = 255,
+            .heldItem = ITEM_EVIOLITE,
             .moves = {
 #line 5014
-                MOVE_HORN_LEECH,
-                MOVE_LEECH_SEED,
-                MOVE_GRASS_KNOT,
-                MOVE_FACADE,
+                MOVE_DRAGON_TAIL,
+                MOVE_DRAGON_DANCE,
+                MOVE_AQUA_TAIL,
+                MOVE_AQUA_JET,
             },
             },
             {
