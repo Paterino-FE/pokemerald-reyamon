@@ -326,7 +326,7 @@ FortreeCity_Gym_Text_WinonaDefeat:
 	.string "I hope you enjoy the rest of\n"
 	.string "your journey!\p"
 	.string "Take this TM with you, it lets you\n"
-	.string "use the power of Friendship to\l"
+	.string "use the power of friendship to\l"
 	.string "your advantage AYAYA!$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
