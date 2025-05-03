@@ -8345,7 +8345,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("MUDDY WATER"),
         .description = COMPOUND_STRING(
             "Attacks with muddy water.\n"
-            "May lower accuracy."),
+            "May lower ACCURACY."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,
         .type = TYPE_WATER,
@@ -10686,7 +10686,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("MUD BOMB"),
         .description = COMPOUND_STRING(
             "Throws a blob of mud to\n"
-            "damage and cut accuracy."),
+            "damage and cut ACCURACY."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_GROUND,
@@ -10761,7 +10761,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("MIRROR SHOT"),
         .description = COMPOUND_STRING(
             "Emits a flash of energy to\n"
-            "damage and cut accuracy."),
+            "damage and cut ACCURACY."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_STEEL,
@@ -10837,7 +10837,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("DEFOG"),
         .description = COMPOUND_STRING(
             "Removes obstacles and\n"
-            "lowers evasion."),
+            "lowers EVASION."),
         .effect = EFFECT_DEFOG,
         .power = 0,
         .type = TYPE_FLYING,
@@ -13334,7 +13334,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("LEAF TORNADO"),
         .description = COMPOUND_STRING(
             "Circles the foe with leaves\n"
-            "to damage and cut accuracy."),
+            "to damage and cut ACCURACY."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_GRASS,
@@ -13412,7 +13412,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("NIGHT DAZE"),
         .description = COMPOUND_STRING(
             "Looses a pitch-black shock\n"
-            "wave. May lower accuracy."),
+            "wave. May lower ACCURACY."),
         .effect = EFFECT_HIT,
         .power = 85,
         .type = TYPE_DARK,
