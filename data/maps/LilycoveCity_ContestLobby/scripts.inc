@@ -495,7 +495,11 @@ LilycoveCity_ContestLobby_EventScript_Fisherman::
 	end
 
 LilycoveCity_ContestLobby_EventScript_NinjaBoy::
-	msgbox LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily, MSGBOX_NPC
+	lock
+	faceplayer
+	playmoncry SPECIES_DEERLING, CRY_MODE_ENCOUNTER
+	waitmoncry
+	release
 	end
 
 LilycoveCity_ContestLobby_EventScript_ContestWinner1::
@@ -972,25 +976,48 @@ LilycoveCity_ContestLobby_Movement_LinkReceptionistFacePlayer:
 LilycoveCity_ContestLobby_EventScript_LittleGirl::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase
+	goto_if_set FLAG_TALKED_TO_THEA, LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase
 	msgbox LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase, MSGBOX_DEFAULT
+	setflag FLAG_TALKED_TO_THEA
 	release
 	end
 
 LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase::
 	msgbox LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries, MSGBOX_DEFAULT
+	fadescreen FADE_TO_WHITE
+	removeobject 25
+	removeobject 14
+	playse SE_EXIT
+	waitse
+	fadescreen FADE_FROM_WHITE
+	setflag FLAG_HIDE_THEA
 	release
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
-	.string "Yippee!\p"
-	.string "The lady at the reception counter\n"
-	.string "gave me a case for {POKEBLOCK}S!$"
+	.string "Oh hey there {PLAYER}, I didn't know\n"
+	.string "you were into contests!\p"
+	.string "I guess you were inspired by the power\n"
+	.string "of friendship displayed in my GYM.\p"
+	.string "NINETALES and I are three times\n"
+	.string "CHAMPIONS, you know?\p"
+	.string "But since I became a GYM LEADER, I've\n"
+	.string "only had time to compete casually.\p"
+	.string "Anyway, I just came by to sign up\n"
+	.string "this little guy for his first\l"
+	.string "competition, isn't he adorable?!\p"
+	.string "Oh, I am keeping you with all my\n"
+	.string "yapping, aren't I? Sorry!\p"
+	.string "I wish you the best of luck in the\n"
+	.string "competition and if you ever need tips\l"
+	.string "from a former CHAMPION, feel\l"
+	.string "free to visit!$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
-	.string "Make {POKEBLOCK}S and put them in there.\p"
-	.string "When you make a {POKEBLOCK}, everyone\n"
-	.string "has to put in a different BERRY.$"
+	.string "Good Luck!\p"
+	.string "I need to hurry back to my GYM, I left\n"
+	.string "FELIX in charge.\p"
+	.string "I believe in you!$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Congratulations!\p"
