@@ -17484,7 +17484,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("BODY PRESS"),
         .description = COMPOUND_STRING(
             "Does more damage the\n"
-            "higher the user's Def."),
+            "higher the user's DEF."),
         .effect = EFFECT_BODY_PRESS,
         .power = 80,
         .type = TYPE_FIGHTING,
