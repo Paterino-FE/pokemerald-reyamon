@@ -1617,12 +1617,12 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "time to start shopping around…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "HATZOOME: Kyogre!\n"
+	.string "HATZOOME: KYOGRE!\n"
 	.string "Look over here honey!\l"
 	.string "I got your favorite orb!\p"
 	.string "Remember you love red not blue!\n"
 	.string "Please calm down sweetie!\p"
-	.string "Kyogre! … pretty please...\n"
+	.string "KYOGRE! … pretty please...\n"
 	.string "with sprinkles on top…$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
@@ -1654,10 +1654,10 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "LILYPAD: Listen, {PLAYER}.\p"
-	.string "Did you know that a group of Otters\n"
-	.string "is called a Romp?\p"
+	.string "Did you know that a group of otters\n"
+	.string "is called a romp?\p"
 	.string "Oh… you’re right, this is hardly the\n"
-	.string "time for Otter facts…$"
+	.string "time for otter facts…$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "LILYPAD: Here we go!\p"

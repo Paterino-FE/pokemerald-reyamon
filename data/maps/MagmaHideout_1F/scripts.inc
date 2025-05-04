@@ -19,7 +19,7 @@ MagmaHideout_1F_EventScript_Grunt2::
 MagmaHideout_1F_Text_Grunt1Intro:
 	.string "Drat drat drat, I didn’t set the\n"
 	.string "password. It was foolproof too nobody\l"
-	.string "would have expected a girafarig to\l"
+	.string "would have expected a GIRAFARIG to\l"
 	.string "be called HORSE.$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
@@ -30,13 +30,13 @@ MagmaHideout_1F_Text_Grunt1Defeat:
 
 MagmaHideout_1F_Text_Grunt1PostBattle:
 	.string "Did you know she used to have a\n"
-	.string "Scyther called ‘giraffe’.\p"
+	.string "SCYTHER called ‘giraffe’.\p"
 	.string "Do you think it’s okay for her to\n"
 	.string "be let out of the house?$"
 
 MagmaHideout_1F_Text_Grunt2Intro:
 	.string "Our glorious leader told us to dig\n"
-	.string "into Mt. Chimney, so we dug and dug.\p"
+	.string "into MT. CHIMNEY, so we dug and dug.\p"
 	.string "I have no idea why but she says\n"
 	.string "she’s the smartest and who am I to\l"
 	.string "doubt her? What did we find?\p"

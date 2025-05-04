@@ -43,8 +43,8 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub::
 Underwater_SeafloorCavern_Text_SubExplorer1:
 	.string "“SUBMARINE EXPLORER 1” is painted\n"
 	.string "on the hull.\p"
-	.string "This is the submarine Tentacool\n"
-	.string "Cruises stole in SLATEPORT!\p"
+	.string "This is the submarine TENTACOOL\n"
+	.string "CRUISES stole in SLATEPORT!\p"
 	.string "TENTACOOL CRUISES must have gone\n"
 	.string "ashore here.$"
 

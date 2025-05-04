@@ -43,7 +43,7 @@ static const u8 sRevengeDescription[] = _(
     "if injured by the foe.");
 
 static const u8 sPluckDescription[] = _(
-    "Eats the foe's held Berry\n"
+    "Eats the foe's held BERRY\n"
     "gaining its effect.");
 
 static const u8 sHealingWishDescription[] = _(
@@ -9159,7 +9159,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("NATURAL GIFT"),
         .description = COMPOUND_STRING(
             "The effectiveness varies\n"
-            "with the held Berry."),
+            "with the held BERRY."),
         .effect = EFFECT_NATURAL_GIFT,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -12728,7 +12728,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("INCINERATE"),
         .description = COMPOUND_STRING(
-            "Burns up Berries and Gems\n"
+            "Burns up BERRIES and GEMS\n"
             "preventing their use."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 30,
@@ -13993,7 +13993,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("BELCH"),
         .description = COMPOUND_STRING(
             "Lets out a loud belch.\n"
-            "Must eat a Berry to use it."),
+            "Must eat a BERRY to use it."),
         .effect = EFFECT_BELCH,
         .power = 120,
         .type = TYPE_POISON,
@@ -17227,7 +17227,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("STUFF CHEEKS"),
         .description = COMPOUND_STRING(
-            "Consumes the user's Berry,\n"
+            "Consumes the user's BERRY,\n"
             "then sharply raises Def."),
         .effect = EFFECT_STUFF_CHEEKS,
         .power = 0,
@@ -17345,7 +17345,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("TEATIME"),
         .description = COMPOUND_STRING(
             "All POKéMON have teatime\n"
-            "and eat their Berries."),
+            "and eat their BERRIES."),
         .effect = EFFECT_TEATIME,
         .power = 0,
         .type = TYPE_NORMAL,

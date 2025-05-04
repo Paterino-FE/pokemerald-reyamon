@@ -458,7 +458,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "on a girl like this.\p"
 	.string "Regardless, I have to go take care\n"
 	.string "of some business but if you stop by\l"
-	.string "our place in Lilycove, you can still\l"
+	.string "our place in LILYCOVE, you can still\l"
 	.string "invest before the prices go up!\p"
 	.string "Bye forever!$"
 

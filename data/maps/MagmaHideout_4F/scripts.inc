@@ -134,7 +134,7 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see Groudon, too, but they\n"
+	.string "I want to see GROUDON, too, but they\n"
 	.string "won’t let me see even its tail…\p"
 	.string "It’s got me feeling really frustrated.\p"
 	.string "Oh, no!\n"
@@ -156,7 +156,7 @@ MagmaHideout_4F_Text_Grunt12Defeat:
 	.string "Chat am I cooked?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "If you have amazon prime you get a\n"
+	.string "If you have Amazon Prime you get a\n"
 	.string "free prime gaming sub once a month\l"
 	.string "to use on twitch dot television\l"
 	.string "forward slash LONGLIVEREYA.\p"
@@ -196,9 +196,9 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon:
 	.string "LYRA: GROUDON…\p"
 	.string "Nothing could awaken you from your\n"
 	.string "sleep. What a magnificently red\l"
-	.string "pokemon, perfect for controlling\l"
-	.string "with this obviously blue and not\l"
-	.string "red orb.$"
+	.string "POKéMON, perfect for controlling\l"
+	.string "with this obviously BLUE and not\l"
+	.string "RED ORB.$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 	.string "LYRA: Haha.. Hahahaha..HAHAHAHAHA.\p"
@@ -230,7 +230,7 @@ MagmaHideout_4F_Text_MaxieOhItWasYou:
 	.string "All of those are superficial and\n"
 	.string "worthless. She’s not smarter than me.\p"
 	.string "She’s not more powerful than me. And\n"
-	.string "by defeating Groudon I’ll prove it.\p"
+	.string "by defeating GROUDON I’ll prove it.\p"
 	.string "I’m better than her. I’m better than\n"
 	.string "all of DRAGON GANG.\p"
 	.string "I’M BETTER THAN YOU. I’M BETTER THAN\n"

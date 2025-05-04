@@ -71,7 +71,7 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
-	.string "Sorry, our spokeswoman needs some\n"
+	.string "Sorry, our SPOKESWOMAN needs some\n"
 	.string "data from here. I’d be happy to\l"
 	.string "take you outside to discuss a\l"
 	.string "timeshare though.$"
@@ -82,7 +82,7 @@ Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
 	.string "Are you sure I can't convince\n"
-	.string "you with a Pikachew?$"
+	.string "you with a PIKACHEW?$"
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro:
 	.string "Excuse me?\n"

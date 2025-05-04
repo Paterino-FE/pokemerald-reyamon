@@ -214,7 +214,7 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "You have proven yourself worthy.\n"
 	.string "This is the SANCTUARY badge.\p"
 	.string "With it you gain access to\n"
-	.string "the Elite 4 as well as to my\l"
+	.string "the ELITE FOUR as well as to my\l"
 	.string "Discord channel.\p"
 	.string "I hope we will battle again\n"
 	.string "one day when I'm stronger. But\p"

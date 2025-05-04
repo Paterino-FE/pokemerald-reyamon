@@ -225,7 +225,7 @@ JaggedPass_Text_EthanPostRematch:
 JaggedPass_Text_GruntIntro:
 	.string "Right, so the first part of the\n"
 	.string "password is the glorious leader's\l"
-	.string "Girafarig’s nickname, it's not even\l"
+	.string "GIRAFARIG’S nickname, it's not even\l"
 	.string "a horse what is she on?\p"
 	.string "Huh! I’m not suspicious, you are!\n"
 	.string "Go away!$"

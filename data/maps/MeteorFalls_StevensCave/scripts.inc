@@ -35,8 +35,8 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "final battle of the game!\p"
 	.string "There is nothing left to say.\p"
 	.string "Nothing except for:\p"
-	.string "Did you know that Otters have pockets?\n"
-	.string "We are folds of skin below our arms\l"
+	.string "Did you know that otters have pockets?\n"
+	.string "There are folds of skin below our arms\l"
 	.string "where we can store our favorite rocks.$"
 
 MeteorFalls_StevensCave_Text_StevenDefeat:

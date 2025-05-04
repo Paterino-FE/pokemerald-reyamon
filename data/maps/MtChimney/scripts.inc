@@ -549,10 +549,10 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the meteorite…\p"
+	.string "The power contained in the METEORITE…\p"
 	.string "By amplifying its power with this\n"
 	.string "machine I will feed the beast via\l"
-	.string "Mount Chimney.\p"
+	.string "MT. CHIMNEY.\p"
 	.string "Hehe, not even VYRAL would be smart\n"
 	.string "or strong enough for a plan lik-$"
 
@@ -628,7 +628,7 @@ MtChimney_Text_Grunt1Intro:
 
 MtChimney_Text_Grunt1Defeat:
 	.string "Oh what, just because we're dragons\n"
-	.string "you thought we'd all use dragon\l"
+	.string "you thought we'd all use DRAGON\l"
 	.string "pokemon. Wow.$"
 
 MtChimney_Text_Grunt1PostBattle:
@@ -640,7 +640,7 @@ MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
 	.string "exactly?$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "Dealing with you Tentacool Cruiseline\n"
+	.string "Dealing with you TENTACOOL CRUISELINE\n"
 	.string "whelps is beneath our glorious\l"
 	.string "leader, so it's up to us.$"
 
@@ -673,7 +673,7 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "These hooligans started harassing me!\n"
 	.string "I'm not sure they even care about our\l"
 	.string "timeshares! They're trying to inject\l"
-	.string "the stolen meteorite's power into\l"
+	.string "the stolen METEORITE's power into\l"
 	.string "the volcano, which would be really\l"
 	.string "bad for the timeshare program!$"
 

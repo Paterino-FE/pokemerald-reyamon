@@ -269,13 +269,13 @@ Route101_Text_HelpMe:
 	.string "H-help me!$"
 
 Route101_Text_PleaseHelp:
-	.string "My lady! I was given the task to\n"
+	.string "My Lady! I was given the task to\n"
 	.string "train you in the art of POKéMON\l"
 	.string "battles!\p"
 	.string "As a first step, please take one\n"
-	.string "of the Turtwigs from that bag.\p"
+	.string "of the TURTWIGS from that bag.\p"
 	.string "I will then face you with this\n"
-	.string "Zigzagoon that I just tamed.$"
+	.string "ZIGZAGOON that I just tamed.$"
 
 Route101_Text_DontLeaveMe:
 	.string "My lady!\p"
@@ -292,7 +292,7 @@ Route101_Text_YouSavedMe:
 	.string "You will not have any problems\n"
 	.string "going forward!\p"
 	.string "The one who provided me with these\n"
-	.string "Turtwigs is PROF. PATERINO.\p"
+	.string "TURTWIGS is PROF. PATERINO.\p"
 	.string "It would be most gracious of you if\n"
 	.string "you honoured him with your presence\l"
 	.string "in his LAB.$"

@@ -6,6 +6,6 @@ LiamCave_R3_EventScript_LiamCaveToEmpire::
 	end
 
 LiamCave_R3_Text_LiamCaveToEmpire:
-	.string "Pathway to Alskalys.\n"
-	.string "Region Braereath ahead!$"
+	.string "Pathway to ALSKALYS.\n"
+	.string "Region BRAEREATH ahead!$"
 

@@ -433,7 +433,7 @@ RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_GruntIntro:
-	.string "I seem to have mistaken this Wingull\n"
+	.string "I seem to have mistaken this WINGULL\n"
 	.string "for a stack of brochures...\p"
 	.string "I guess that’s why I need to get\n"
 	.string "glasses.\p"
@@ -444,11 +444,11 @@ RusturfTunnel_Text_GruntDefeat:
 
 RusturfTunnel_Text_GruntTakePackage:
 	.string "Well I guess you better take that\n"
-	.string "Wingull back, and I’ll go grab some\l"
+	.string "WINGULL back, and I’ll go grab some\l"
 	.string "more brochures from the office.\p"
 	.string "Remember to check us out!\p"
-	.string "Tencacool Cruises: We put the taco\n"
-	.string "in Tentacool!\p"
+	.string "TENCACOOL CRUISES: We put the taco\n"
+	.string "in TENTACOOL!\p"
 	.string "...who wrote this?$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:

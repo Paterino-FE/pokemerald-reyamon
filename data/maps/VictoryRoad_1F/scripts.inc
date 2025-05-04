@@ -161,7 +161,7 @@ VictoryRoad_1F_Text_Nurse:
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "LILYPAD: Hi! {PLAYER}, my best PAL!\p"
 	.string "Are you surprised that I made it here,\n"
-	.string "past all these amazing trainers?\p"
+	.string "past all these amazing TRAINERS?\p"
 	.string "I promised that I would make it, and\n"
 	.string "because I respect you so much,\l"
 	.string "I had to deliver on it.\p"

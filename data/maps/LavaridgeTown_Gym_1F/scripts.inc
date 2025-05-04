@@ -214,7 +214,7 @@ LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 	.string "You look really good! Kinda reminds me\n"
-	.string "of Rosuuri's drawings. That's weird.$"
+	.string "of ROSUURI's drawings. That's weird.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
 	.string "Okay, that was fun. But I'm gonna\n"

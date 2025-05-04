@@ -620,7 +620,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_GLUTTONY] =
     {
         .name = _("GLUTTONY"),
-        .description = COMPOUND_STRING("Eats Berries early."),
+        .description = COMPOUND_STRING("Eats BERRIES early."),
         .aiRating = 3,
     },
 
@@ -956,7 +956,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_UNNERVE] =
     {
         .name = _("UNNERVE"),
-        .description = COMPOUND_STRING("Foes can't eat Berries."),
+        .description = COMPOUND_STRING("Foes can't eat BERRIES."),
         .aiRating = 3,
     },
 
@@ -1044,7 +1044,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_HARVEST] =
     {
         .name = _("HARVEST"),
-        .description = COMPOUND_STRING("May recycle a used Berry."),
+        .description = COMPOUND_STRING("May recycle a used BERRY."),
         .aiRating = 5,
     },
 
@@ -1256,7 +1256,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_CHEEK_POUCH] =
     {
         .name = _("CHEEK POUCH"),
-        .description = COMPOUND_STRING("Eating Berries restores HP."),
+        .description = COMPOUND_STRING("Eating BERRIES restores HP."),
         .aiRating = 4,
     },
 
@@ -1874,7 +1874,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_RIPEN] =
     {
         .name = _("RIPEN"),
-        .description = COMPOUND_STRING("Doubles effect of Berries."),
+        .description = COMPOUND_STRING("Doubles effect of BERRIES."),
         .aiRating = 4,
     },
 

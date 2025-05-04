@@ -354,7 +354,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "stop me, little Princess.$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
-	.string "What?! want me to kiss you goodbye?\p"
+	.string "What?! Want me to kiss you goodbye?\p"
 	.string "Hurry up, you will need the\n"
 	.string "head start!$"
 

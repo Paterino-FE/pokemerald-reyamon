@@ -121,7 +121,7 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "LILYPAD's gone away that far all by\l"
 	.string "herself…\p"
 	.string "Well, I have to give her credit--she\n"
-	.string "is the best Otter.$"
+	.string "is the best otter.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "WANDA: You are?\n"

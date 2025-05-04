@@ -330,7 +330,7 @@ PetalburgWoods_Text_HaveYouSeenShroomish:
 PetalburgWoods_Text_IWasGoingToAmbushYou:         
 	.string "I’ve been trying to catch up to you\n"
 	.string "for miles, but I lost you in\l"
-	.string "Petalburg Woods.\p"
+	.string "PETALBURG WOODS.\p"
 	.string "I didn’t think I’d run into you\n"
 	.string "again, but here you are!$"
 
@@ -357,11 +357,11 @@ PetalburgWoods_Text_YoureKiddingMe:
 PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "I bet a strong trainer like you\n"
 	.string "would totally be interested in\l"
-	.string "hearing more about Tentacool\l"
-	.string "Cruiseline’s new timeshare program.\p"
+	.string "hearing more about TENTACOOL\l"
+	.string "CRUISELINE’S new timeshare program.\p"
 	.string "Oh shoot! That battle took longer\n"
 	.string "than I thought, I’m running late\l"
-	.string "for my meeting in Rustboro!$"
+	.string "for my meeting in RUSTBORO!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "Whew…\n"
@@ -372,7 +372,7 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that Tentacrook say\n"
+	.string "Didn't that TENTACROOK say\n"
 	.string "they were after something in\l"
 	.string "RUSTBORO, too?$"
 

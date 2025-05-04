@@ -278,11 +278,11 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 
 Route128_Text_MaxieThisDefiesBelief:
 	.string "LYRA: This defies belief…\p"
-	.string "Those super-ancient Pokémon…\p"
+	.string "Those super-ancient POKéMON…\p"
 	.string "Their power is unbelievable.\n"
 	.string "They’ve upset the very balance of\l"
 	.string "nature and more importantly,\l"
-	.string "competitive pokemon.$"
+	.string "competitive POKéMON.$"
 
 Route128_Text_StevenWhatIsHappening:
 	.string "LILYPAD: {PLAYER}!\n"

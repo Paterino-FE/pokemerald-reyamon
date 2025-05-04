@@ -1358,7 +1358,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string "HATZOOME: Heyyyyyy…\n"
-	.string "Captain Stern, right?\p"
+	.string "CAPTAIN STERN, right?\p"
 	.string "So, this is a little awkward, but\n"
 	.string "I’m just going to need that submarine\l"
 	.string "of yours.\p"

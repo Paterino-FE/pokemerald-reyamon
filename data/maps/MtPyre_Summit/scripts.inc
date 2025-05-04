@@ -491,7 +491,7 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "HATZOOME: LYRA beat me to it again,\n"
 	.string "but it doesn’t matter this time.\p"
-	.string "This Red Orb is all mine now…\n"
+	.string "This RED ORB is all mine now…\n"
 	.string "I, HATZOOME, can finally make my\l"
 	.string "money back!\p"
 	.string "Oh… I wasn’t supposed to say that\n"

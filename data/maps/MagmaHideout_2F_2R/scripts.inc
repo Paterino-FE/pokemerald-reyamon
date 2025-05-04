@@ -77,7 +77,7 @@ MagmaHideout_2F_2R_Text_Grunt8Defeat:
 
 MagmaHideout_2F_2R_Text_Grunt8PostBattle:
 	.string "Our glorious leader is kind of like\n"
-	.string "Edelgard, if Edelgard was a dangerous\l"
+	.string "EDELGARD, if EDELGARD was a dangerous\l"
 	.string "lunatic and not a misguided…\p"
 	.string "Oh sorry, we don’t need another 5\n"
 	.string "years of Three Houses discourse for\l"

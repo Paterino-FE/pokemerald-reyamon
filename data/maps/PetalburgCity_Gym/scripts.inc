@@ -1187,7 +1187,7 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "LILYPAD: I'm going on a journey\n"
 	.string "with my PALS.\p"
 	.string "When I heard that {PLAYER} got her\n"
-	.string "very own Pokemon, I thought that it\l"
+	.string "very own POKéMON, I thought that it\l"
 	.string "would be great to have one for\l"
 	.string "myself, too.\p"
 	.string "But now that I caught one, we’d like\n"
@@ -1390,19 +1390,19 @@ PetalburgCity_Gym_Text_RandallPostBadge:
 
 PetalburgCity_Gym_Text_ParkerIntro:
 	.string "You should drop off some of your\n"
-	.string " Pokemon at the Pokemon Center!$"
+	.string "POKéMON at the POKéMON CENTER!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
 	.string "I would never organize illegal\n"
-	.string "fights at the Pokemon Center...$"
+	.string "fights at the POKéMON CENTER...$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
 	.string "I would never organize illegal\n"
-	.string "fights at the Pokemon Center...$"
+	.string "fights at the POKéMON CENTER...$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
 	.string "I would never organize illegal\n"
-	.string "fights at the Pokemon Center...$"
+	.string "fights at the POKéMON CENTER...$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
 	.string "Its me, you! but a cat!$"

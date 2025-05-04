@@ -288,14 +288,14 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "EMILIA: See, lady {PLAYER}?\n"
+	.string "EMILIA: See, Lady {PLAYER}?\n"
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
-	.string "My lady, your chambers are upstairs.\n"
+	.string "My Lady, your chambers are upstairs.\n"
 	.string "Please see if they are to your liking!\p"
 	.string "The clock on the wall has not been\n"
 	.string "set, yet.$"
@@ -334,33 +334,33 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "paying her a visit.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "EMILIA: I will be waiting, my lady!$"
+	.string "EMILIA: I will be waiting, my Lady!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "EMILIA: Did you introduce yourself to\n"
 	.string "PROF. PAT?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "EMILIA: How is my lady faring?\n"
+	.string "EMILIA: How is my Lady faring?\n"
 	.string "You look exhausted.\p"
 	.string "It would be best if you rested.$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "EMILIA: I will be waiting, my lady!$"
+	.string "EMILIA: I will be waiting, my Lady!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
-	.string "EMILIA: My lady already has 5 badges?\p"
+	.string "EMILIA: My Lady already has 5 badges?\p"
 	.string "Please take this humble gift, then.$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
-	.string "Don't push yourself too hard, my lady.\n"
+	.string "Don't push yourself too hard, my Lady.\n"
 	.string "You can always come home.\p"
 	.string "Everyone believes in you!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "EMILIA: My lady acquired a POKéNAV?\n"
+	.string "EMILIA: My Lady acquired a POKéNAV?\n"
 	.string "It was gifted by the DEVON company?\p"
-	.string "Would my lady mind registering\n"
+	.string "Would my Lady mind registering\n"
 	.string "her loyal servant?\p"
 	.string "… … …$"
 

@@ -243,7 +243,7 @@ SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "HATZOOME: How was I supposed to know\n"
 	.string "the timeshares were a scam and the\l"
 	.string "cruise ship sucks!\p"
-	.string "But Kyogre can finally help me fix\n"
+	.string "But KYOGRE can finally help me fix\n"
 	.string "everything! I’ve failed plenty of\l"
 	.string "times leading up to this, but now\l"
 	.string "it’s my time to win!$"
@@ -267,7 +267,7 @@ SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 	.string "HATZOOME: What?!\p"
 	.string "I didn’t do that. I didn’t touch\n"
 	.string "anything. Why did the Red Orb…\p"
-	.string "Where’s Kyogre?$"
+	.string "Where’s KYOGRE?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
 	.string "HATZOOME: Uhhhhhh? Oh, it’s from an\n"
@@ -278,7 +278,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Oh…\n"
 	.string "It’s raining heavily? Finally!\p"
 	.string "I finally did something RIGHT!!!.\n"
-	.string "That’s why I did it! With Kyogre\l"
+	.string "That’s why I did it! With KYOGRE\l"
 	.string "flooding the world, this timeshare\l"
 	.string "might finally be worth something.\p"
 	.string "What?!\p"
@@ -291,8 +291,8 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 	.string "HATZOOME: The DRAGON GANG must have\n"
 	.string "done something…\p"
-	.string "The Red Orb should have controlled\n"
-	.string "Kyogre…But…Why? Why is Kyogre doing\l"
+	.string "The RED ORB should have controlled\n"
+	.string "Kyogre…But…Why? Why is KYOGRE doing\l"
 	.string "this?\p"
 	.string "Why?!$"
 
@@ -311,7 +311,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "You’re the ones that upset Groudon!\p"
 	.string "This has to be the right orb! You’re\n"
 	.string "just trying to trick me like always!\p"
-	.string "I just need to show Kyogre their Red\n"
+	.string "I just need to show KYOGRE their Red\n"
 	.string "Orb and everything will be fine again!\p"
 	.string "My timeshare won’t be worthless and\n"
 	.string "everything will be fine…$"

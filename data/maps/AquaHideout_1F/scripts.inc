@@ -76,7 +76,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 AquaHideout_1F_Text_BossIsOnRoute122:
 	.string "What? What? Why are you here? No, our\n"
 	.string "SPOKESWOMAN isn’t here! She was\p"
-	.string "heading to Mt. Pyre or\n"
+	.string "heading to MT. PYRE or\n"
 	.string "something!\p"
 	.string "… Why did she go?\n"
 	.string "How would I know?$"
@@ -91,7 +91,7 @@ AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? Why are you here? No, our\n"
 	.string "SPOKESWOMAN isn’t here! She was\p"
-	.string "heading to Slateport City or\n"
+	.string "heading to SLATEPORT CITY or\n"
 	.string "something!\p"
 	.string "… Why did she go?\n"
 	.string "How would I know?$"

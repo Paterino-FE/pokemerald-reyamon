@@ -552,7 +552,7 @@ LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "before the value skyrockets.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
-	.string "Great job Wailmer! That was such a\n"
+	.string "Great job WAILMER! That was such a\n"
 	.string "good leap!$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:

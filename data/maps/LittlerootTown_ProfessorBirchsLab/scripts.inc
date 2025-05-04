@@ -70,7 +70,7 @@ ProfessorBirchsLab_Text_Pokemon_Starter:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "PROF. PAT: Oh, hello, {PLAYER}?\n"
-	.string "Here is Pat!\p"
+	.string "Here is PAT!\p"
 	.string "I just wanted to inform you\n"
 	.string "that I have some HOENN starters\p"
 	.string "in my lab. Come over and get\n"
@@ -687,7 +687,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Ergo, he isn't here.\p"
 	.string "He is probably getting some softdrinks.\p"
 	.string "He is constantly entangeled in some kind\n"
-	.string "of work, either Fire Emblem or Pokemon\l"
+	.string "of work, either FIRE EMBLEM or POKéMON\l"
 	.string "related.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
@@ -700,14 +700,14 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "PROF. PAT has been studying ROM\n"
 	.string "hacking for POKéMON since january.\p"
 	.string "With the help of other community\n"
-	.string "members like Forty, Thea, Felix\l"
-	.string "and Kohaku, he was able to make this\l"
+	.string "members like FORTY, THEA, FELIX\l"
+	.string "and KOHAKU, he was able to make this\l"
 	.string "game happen!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "PROF. PAT: So, {PLAYER}{KUN}.\p"
 	.string "I've heard so much about you from\n"
-	.string "Emilia and stumbled upon your stream.\p"
+	.string "EMILIA and stumbled upon your stream.\p"
 	.string "I've heard that you don't have your\n"
 	.string "own POKéMON yet.\p"
 	.string "Oh, yes. You can have {STR_VAR_1}\n"
@@ -824,7 +824,7 @@ LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
 	.string "Better not mess around with it.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
-	.string "It's crammed with books on Yuri\n"
+	.string "It's crammed with books on yuri\n"
 	.string "romance and slice of life.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:

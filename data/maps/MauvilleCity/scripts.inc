@@ -479,7 +479,7 @@ MauvilleCity_Text_UncleYourePushingIt:
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "LILYPAD: It’s not really me who got\n"
-	.string "stronger, it’s my Dewott!$"
+	.string "stronger, it’s my DEWOTT!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
 	.string "LILYPAD: Oh! Hi, {PLAYER}!\p"

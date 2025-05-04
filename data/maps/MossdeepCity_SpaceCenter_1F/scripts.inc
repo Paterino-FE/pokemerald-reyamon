@@ -428,7 +428,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 	.string "glorious end…gloriously.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-	.string "To Spays senter peepill: Helo stinkee\n"
+	.string "To SPAYS SENTER peepill: Helo stinkee\n"
 	.string "humans. We com take yur fool now\l"
 	.string "heeheehee. We stronk, you week.\p"
 	.string "All the shynees wil be ares!\n"

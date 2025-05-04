@@ -211,7 +211,7 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 	end
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro:
-	.string "Apparently this place has some Pokemon\n"
+	.string "Apparently this place has some POKéMON\n"
 	.string "related to the weather.\p"
 	.string "Our supervisor told us it can\n"
 	.string "help us sell more timeshares!$"
@@ -220,13 +220,13 @@ Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
 	.string "C'mon… don't I deserve a win?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
-	.string "If this Pokémon can control the\n"
+	.string "If this POKéMON can control the\n"
 	.string "weather freely, then our company\l"
 	.string "really needs it!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro:
 	.string "TENTACOOL CRUISES: We put the taco\n"
-	.string "in tentacool!\p"
+	.string "in TENTACOOL!\p"
 	.string "I still don’t get this new slogan…\n"
 	.string "Cool is right there in the word.$"
 
@@ -273,7 +273,7 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "Sorry, but I've got some bad news!\p"
 	.string "A whole group of DRAGON GANG goons\n"
-	.string "just passed the Weather Institute.\p"
+	.string "just passed the WEATHER INSTITUTE.\p"
 	.string "I think they were talking about\n"
 	.string "Mt. Pyre!$"
 
@@ -281,7 +281,7 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "What?!\p"
 	.string "Well I won't waste any more time on\n"
 	.string "this pipsqueak!\p"
-	.string "We have to hurry to Mt. Pyre, too!\n"
+	.string "We have to hurry to MT. PYRE, too!\n"
 	.string "DRAGON GANG will face a true master!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:

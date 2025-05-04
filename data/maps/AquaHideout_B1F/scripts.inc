@@ -142,7 +142,7 @@ AquaHideout_B1F_Text_Grunt5Defeat:
 	.string "Well, I guess I’ll nap anyway…$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-	.string "Please don’t tell Steve about my nap.$"
+	.string "Please don’t tell STEVE about my nap.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
 	.string "Do you think my outfit is cool?\p"

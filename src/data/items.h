@@ -3288,7 +3288,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "accelerates the\n"
-            "growth of Berries."),
+            "growth of BERRIES."),
 #else
         .description = sGenericMulchDesc,
 #endif
@@ -3310,7 +3310,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "decelerates the\n"
-            "growth of Berries."),
+            "growth of BERRIES."),
 #else
         .description = sGenericMulchDesc,
 #endif
@@ -3332,7 +3332,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the life time\n"
-            "of Berry trees."),
+            "of BERRY trees."),
 #else
         .description = sGenericMulchDesc,
 #endif
@@ -3353,7 +3353,7 @@ const struct Item gItemsInfo[] =
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
-            "makes more Berries\n"
+            "makes more BERRIES\n"
             "regrow after fall."),
 #else
         .description = sGenericMulchDesc,
@@ -3376,7 +3376,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the number of\n"
-            "Berries harvested."),
+            "BERRIES harvested."),
 #else
         .description = sGenericMulchDesc,
 #endif
@@ -3398,7 +3398,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the chance of\n"
-            "Berry mutations."),
+            "BERRY mutations."),
 #else
         .description = sGenericMulchDesc,
 #endif
@@ -9145,7 +9145,7 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_UtilityUmbrella,
     },
 
-// Berries
+// BERRIES
 
     [ITEM_CHERI_BERRY] =
     {
@@ -11910,7 +11910,7 @@ const struct Item gItemsInfo[] =
         .importance = 1,
         .description = COMPOUND_STRING(
             "Raises the chance\n"
-            "of finding eggs\n"
+            "of finding EGGS\n"
             "at the daycare."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -12344,7 +12344,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A convenient\n"
             "container that\n"
-            "holds Berries."),
+            "holds BERRIES."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -12389,9 +12389,9 @@ const struct Item gItemsInfo[] =
         .name = _("POWDER JAR"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Stores Berry\n"
-            "Powder made using\n"
-            "a Berry Crusher."),
+            "Stores BERRY\n"
+            "POWDER made using\n"
+            "a BERRY CRUSHER."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -12406,7 +12406,7 @@ const struct Item gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
             "A tool used for\n"
-            "watering Berries\n"
+            "watering BERRIES\n"
             "and plants."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
