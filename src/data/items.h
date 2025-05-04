@@ -7484,7 +7484,7 @@ const struct Item gItemsInfo[] =
         .holdEffectParam = POWER_ITEM_BOOST,
         .description = COMPOUND_STRING(
             "A hold item that\n"
-            "promotes Def gain,\n"
+            "promotes DEF gain,\n"
             "but reduces SPEED."),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -8799,7 +8799,7 @@ const struct Item gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_EVIOLITE,
         .holdEffectParam = 50,
         .description = COMPOUND_STRING(
-            "Raises the Def and\n"
+            "Raises the DEF and\n"
             "SP. DEF of POKéMON\n"
             "that can evolve."),
         .pocket = POCKET_ITEMS,
