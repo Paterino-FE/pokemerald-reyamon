@@ -275,7 +275,7 @@ Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "A whole group of DRAGON GANG goons\n"
 	.string "just passed the WEATHER INSTITUTE.\p"
 	.string "I think they were talking about\n"
-	.string "Mt. Pyre!$"
+	.string "MT. PYRE!$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "What?!\p"

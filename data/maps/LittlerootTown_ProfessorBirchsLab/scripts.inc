@@ -70,7 +70,7 @@ ProfessorBirchsLab_Text_Pokemon_Starter:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "PROF. PAT: Oh, hello, {PLAYER}?\n"
-	.string "Here is PAT!\p"
+	.string "This is PAT!\p"
 	.string "I just wanted to inform you\n"
 	.string "that I have some HOENN starters\p"
 	.string "in my lab. Come over and get\n"

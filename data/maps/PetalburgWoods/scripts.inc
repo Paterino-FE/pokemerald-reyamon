@@ -358,7 +358,7 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "I bet a strong trainer like you\n"
 	.string "would totally be interested in\l"
 	.string "hearing more about TENTACOOL\l"
-	.string "CRUISELINE’S new timeshare program.\p"
+	.string "CRUISELINE’s new timeshare program.\p"
 	.string "Oh shoot! That battle took longer\n"
 	.string "than I thought, I’m running late\l"
 	.string "for my meeting in RUSTBORO!$"

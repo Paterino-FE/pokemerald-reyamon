@@ -173,7 +173,7 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Let's head over to Mt. Pyre!$"
+	.string "Let's head over to MT. PYRE!$"
 
 Route121_Text_AheadLoomsMtPyre:
 	.string "Ahead looms MT. PYRE…\p"

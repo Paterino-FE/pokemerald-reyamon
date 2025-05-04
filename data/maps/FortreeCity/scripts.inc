@@ -151,6 +151,6 @@ FortreeCity_Text_CitySign:
 FortreeCity_Text_GymSign:
 	.string "FORTREE CITY POKéMON GYM\n"
 	.string "LEADER: THEA\p"
-	.string "“The bird user taking flight into\n"
-	.string "the world.”$"
+	.string "“POKéMON-friend and\n"
+	.string "master COORDINATOR.”$"
 

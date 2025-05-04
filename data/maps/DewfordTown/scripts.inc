@@ -690,7 +690,7 @@ DewfordTown_Text_TownSign:
 DewfordTown_Text_GymSign:
 	.string "DEWFORD TOWN POKéMON GYM\n"
 	.string "LEADERS: HAMS&CLOR\l"
-	.string "“A big wave in fighting!”$"
+	.string "“A DENTIST and a CLOWN!”$"
 
 DewfordTown_Text_HallSign:
 	.string "DEWFORD HALL\n"

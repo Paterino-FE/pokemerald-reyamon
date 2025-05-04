@@ -1234,7 +1234,7 @@ RustboroCity_Text_DevonCorpSign:
 RustboroCity_Text_GymSign:
 	.string "RUSTBORO CITY POKéMON GYM\n"
 	.string "LEADER: ATSUI\p"
-	.string "“The ROCK-loving honors student!”$"
+	.string "“The LEWDS-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "DEVON CORP. BRANCH OFFICE\p"

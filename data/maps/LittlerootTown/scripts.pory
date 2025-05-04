@@ -895,7 +895,7 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "EMILIA: {PLAYER}, we're here, my lady!\p"
+	.string "EMILIA: {PLAYER}, we're here, my Lady!\p"
 	.string "I hope that the journey was not too\n"
 	.string "exhausting for your majesty.\p"
 	.string "This is LITTLEROOT TOWN.\p"
