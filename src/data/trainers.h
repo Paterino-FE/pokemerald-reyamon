@@ -1461,7 +1461,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 605
-            .species = SPECIES_RAICHU,
+            .species = SPECIES_RAICHU_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 607
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -1471,6 +1471,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_BIG_NUGGET,
             .nickname = COMPOUND_STRING("RAICHEW"),
+            .ability = ABILITY_SURGE_SURFER,
             .moves = {MOVE_NUZZLE, MOVE_SHOCK_WAVE, MOVE_FLASH, MOVE_PAY_DAY}
             },
             {
