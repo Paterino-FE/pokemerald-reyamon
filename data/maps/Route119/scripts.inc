@@ -506,7 +506,7 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_Felixr2Intro:
-	.string "Felixr2: Hey {PLAYER}! Up ahead is\n"
+	.string "FELIXR2: Hey {PLAYER}! Up ahead is\n"
 	.string "a lot of trouble, so I will help\l"
 	.string "you a bit.$"
 
