@@ -322,12 +322,7 @@ FortreeCity_Gym_Text_WinonaIntro:
 	.string "To Battle AYAYA!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Not bad, little Lady :reyapat:\p"
-	.string "I hope you enjoy the rest of\n"
-	.string "your journey!\p"
-	.string "Take this TM with you, it lets you\n"
-	.string "use the power of friendship to\l"
-	.string "your advantage AYAYA!$"
+	.string "Not bad, little Lady :reyapat:$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the\n"
@@ -336,7 +331,12 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "You have not just impressed me,\n"
 	.string "Riolu there also seems to have\l"
-	.string "taken a liking to you!$"
+	.string "taken a liking to you!\p"
+	.string "I hope you enjoy the rest of\n"
+	.string "your journey!\p"
+	.string "Take this TM with you, it lets you\n"
+	.string "use the power of friendship to\l"
+	.string "your advantage AYAYA!$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "TM27 contains RETURN.\p"
