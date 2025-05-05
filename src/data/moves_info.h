@@ -17899,7 +17899,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("OBSTRUCT"),
         .description = COMPOUND_STRING(
             "Protects itself, harshly\n"
-            "lowering Def on contact."),
+            "lowering DEF on contact."),
         .effect = EFFECT_PROTECT,
         .power = 0,
         .type = TYPE_DARK,

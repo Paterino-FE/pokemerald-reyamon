@@ -2035,4 +2035,4 @@ LittlerootTown_EventScript_PaterinoLAB::
 
 LittlerootTown_EventScript_PaterinoLAB_Text_0:
 # 1017 "data/maps/LittlerootTown/scripts.pory"
-	.string "Paterinos laboratory$"
+	.string "PATERINO's LABORATORY$"

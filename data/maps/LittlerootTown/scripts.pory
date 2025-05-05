@@ -1014,6 +1014,6 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 `
 script LittlerootTown_EventScript_PaterinoLAB {
     lockall
-    msgbox("Paterinos laboratory")
+    msgbox("PATERINO's LABORATORY")
     releaseall
 }
