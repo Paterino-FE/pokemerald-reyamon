@@ -756,8 +756,8 @@ Route110_Text_MyFirstJobInAqua:
 	.string "Oh... you don’t want a timeshare...$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "TENTACOOL CRUISES: We put the taco\n"
-	.string "in Tentacool!$"
+	.string "TENTACOOL CRUISES: We put the TACO\n"
+	.string "in TENTACOOL!$"
 
 Route110_Text_MayLetsBattle:
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"

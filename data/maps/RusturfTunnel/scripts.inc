@@ -447,7 +447,7 @@ RusturfTunnel_Text_GruntTakePackage:
 	.string "WINGULL back, and I’ll go grab some\l"
 	.string "more brochures from the office.\p"
 	.string "Remember to check us out!\p"
-	.string "TENCACOOL CRUISES: We put the taco\n"
+	.string "TENCACOOL CRUISES: We put the TACO\n"
 	.string "in TENTACOOL!\p"
 	.string "...who wrote this?$"
 
