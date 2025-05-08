@@ -27,7 +27,7 @@ MagmaHideout_3F_1R_Text_Grunt9PostBattle:
 MagmaHideout_3F_1R_Text_Grunt16Intro:
 	.string "We joined so we can help our glorious\n"
 	.string "leader achieve her fantastic vision.\p"
-	.string "Shes’s given us dragons the first bit\n"
+	.string "She’s given us dragons the first bit\n"
 	.string "of hope in at least three weeks.\p"
 	.string "I don’t care if you’re with TENTACOOL\n"
 	.string "CRUISES or if you’re just some\l"
