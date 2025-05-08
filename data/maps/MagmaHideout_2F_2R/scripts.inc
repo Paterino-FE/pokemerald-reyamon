@@ -33,7 +33,7 @@ MagmaHideout_2F_2R_Text_Grunt15Defeat:
 
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 	.string "All this digging was hard work but\n"
-	.string "I bet Vryal could have had it done\l"
+	.string "I bet VYRAL could have had it done\l"
 	.string "in minutes. I could have sat\p"
 	.string "and watched instead of being\n"
 	.string "yelled at by our glorious leader.$"
