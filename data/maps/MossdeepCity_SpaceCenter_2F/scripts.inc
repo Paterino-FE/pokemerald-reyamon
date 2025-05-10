@@ -420,7 +420,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
 	.string "If you defeat our glorious leader and\n"
-	.string "we call go to prison, please find a\l"
+	.string "we all go to prison, please find a\l"
 	.string "decent parent (real) for SVELTE.\p"
 	.string "She’s just a kid.$"
 
