@@ -483,7 +483,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "my real daughter (real) at risk…\p"
 	.string "And if HATZOOME uses the wrong orb on\n"
 	.string "that fish… then there will be nothing\l"
-	.string "I can do. I’m not.\n"
+	.string "I can do. I’m not.\l"
 	.string "I’m not strong enough. REYA. LILYPAD.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
