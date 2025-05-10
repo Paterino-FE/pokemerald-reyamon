@@ -454,7 +454,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "for us dragons of course.\p"
 	.string "I’m definitely not going to use it as\n"
 	.string "a weapon to prove my strength by\l"
-	.string "defeating Groudon, what a ridiculous\l"
+	.string "defeating GROUDON, what a ridiculous\l"
 	.string "accusation.\p"
 	.string "I won’t be stopped by a Little\n"
 	.string "EMPRESS and her little rat.$"
@@ -477,7 +477,7 @@ MossdeepCity_SpaceCenter_Text_TabithaDefeat:
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "LYRA: If I’ve failed to defeat you\n"
 	.string "this many times. Then I have no\l"
-	.string "chance of defeating Groudon.\p"
+	.string "chance of defeating GROUDON.\p"
 	.string "And now… it will rampage out of\n"
 	.string "control putting the world, including\l"
 	.string "my real daughter (real) at risk…\p"
