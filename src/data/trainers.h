@@ -12396,7 +12396,7 @@ F_TRAINER_FEMALE |
                 MOVE_SHADOW_BONE,
                 MOVE_FLARE_BLITZ,
                 MOVE_WILL_O_WISP,
-                MOVE_STOMPING_TANTRUM,
+                MOVE_STONE_EDGE,
             },
             },
             {
@@ -12415,7 +12415,7 @@ F_TRAINER_FEMALE |
                 MOVE_EXTREME_SPEED,
                 MOVE_FLARE_BLITZ,
                 MOVE_ROAR,
-                MOVE_CRUNCH,
+                MOVE_PLAY_ROUGH,
             },
             },
             {
@@ -12433,7 +12433,7 @@ F_TRAINER_FEMALE |
 #line 4625
                 MOVE_FLAMETHROWER,
                 MOVE_FOCUS_BLAST,
-                MOVE_QUICK_ATTACK,
+                MOVE_WILL_O_WISP,
                 MOVE_SMOKESCREEN,
             },
             },
@@ -12519,7 +12519,7 @@ F_TRAINER_FEMALE |
                 MOVE_NIGHT_SLASH,
                 MOVE_POISON_JAB,
                 MOVE_X_SCISSOR,
-                MOVE_HONE_CLAWS,
+                MOVE_ICE_SHARD,
             },
             },
             {
@@ -12596,7 +12596,7 @@ F_TRAINER_FEMALE |
                 MOVE_SUCKER_PUNCH,
                 MOVE_PSYCHO_CUT,
                 MOVE_SWORDS_DANCE,
-                MOVE_SHADOW_CLAW,
+                MOVE_ROCK_SLIDE,
             },
             },
             {
@@ -12698,8 +12698,8 @@ F_TRAINER_FEMALE |
 #line 4711
                 MOVE_AIR_SLASH,
                 MOVE_AURA_SPHERE,
-                MOVE_WATER_PULSE,
-                MOVE_SHOCK_WAVE,
+                MOVE_MOONBLAST,
+                MOVE_ENCORE,
             },
             },
             {
