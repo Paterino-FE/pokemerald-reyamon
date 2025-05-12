@@ -18,7 +18,11 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE07_GET, 42},
         {FLAG_BADGE08_GET, 46},
         {FLAG_BEATEN_VICTORY_ROAD, 50},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_BEATEN_ELITE_ARLECCHINO, 52},
+        {FLAG_BEATEN_ELITE_ASTARION, 53},
+        {FLAG_BEATEN_ELITE_CYNTHIA, 55},
+        {FLAG_BEATEN_ELITE_SATSUKI, 58},
+        {FLAG_IS_CHAMPION, 60},
     };
 
     u32 i;
