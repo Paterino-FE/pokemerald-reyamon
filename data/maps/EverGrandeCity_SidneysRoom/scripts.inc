@@ -66,7 +66,7 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 	.string "It is my pleasure to make your\n"
-	.string "acquaintance, {PLAYER}\p"
+	.string "acquaintance, {PLAYER}.\p"
 	.string "I have heard much of your\n"
 	.string "accomplishments.\p"
 	.string "I am The Knave, one of the\n"
