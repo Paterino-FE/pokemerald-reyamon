@@ -103,7 +103,7 @@ VictoryRoad_B1F_Text_MitchellPostBattle:
 VictoryRoad_B1F_Text_HalleIntro:
 	.string "Our battle has FOURever been in my\n"
 	.string "heart, I've been FOURgetting to\l"
-	.string "sleep out of excitement!"
+	.string "sleep out of excitement!$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
 	.string "I guess my defeat was FOURtold...$"
