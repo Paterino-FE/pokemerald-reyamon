@@ -240,7 +240,7 @@ VictoryRoad_1F_Text_AlbertDefeat:
 VictoryRoad_1F_Text_AlbertPostBattle:
 	.string "I lost the match, but I still\n"
 	.string "had fun giving it my all.\p"
-	.string "I don't often I get to enjoy\n"
+	.string "I don't often get to enjoy\n"
 	.string "a battle this heated.\p"
 	.string "Let's have another one like\n"
 	.string "this sometime!$"
