@@ -47,7 +47,7 @@ VictoryRoad_B1F_Text_SamuelIntro:
 	.string "to improve my team!$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "Aw man, atleast I'm still\n"
+	.string "Aw man, at least I'm still\n"
 	.string "a great Dirkling...$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
