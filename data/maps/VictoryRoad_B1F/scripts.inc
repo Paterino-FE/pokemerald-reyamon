@@ -72,7 +72,7 @@ VictoryRoad_B1F_Text_MichelleIntro:
 	.string "Guess what! I don’t have to pitch you\l"
 	.string "that stupid timeshare anymore!\p"
 	.string "I’m finally free! I even sold off\n"
-	.string "some of some of TENTACOOL CRUISES’\l"
+	.string "some of TENTACOOL CRUISES’\l"
 	.string "equipment to settle my debt!\p"
 	.string "Now I get to focus on Pokémon\n"
 	.string "contests again!\p"
