@@ -44315,7 +44315,6 @@ F_TRAINER_FEMALE |
             .lvl = 47,
             .nature = NATURE_HARDY,
 #line 16927
-            .isShiny = TRUE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_LIGHT_CLAY,
             .ability = ABILITY_SNOW_WARNING,
