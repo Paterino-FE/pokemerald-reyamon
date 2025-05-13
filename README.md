@@ -1,158 +1,103 @@
 ﻿# pokemerald-reyamon
 
- Here are some written guides, how to do edits on trainers and dialogue
+ Hello everyone,
 
-# How to edit Trainers:
-
-Important File Paths, where you can adjust or find necessary values
->src/data/trainers.h | The file where trainers will be adjusted, including their teams
->
->src/data/pokemon/species_info/gen_*_families | Here you can find every Pokemon. They are sorted by Gen
->
->src/data/abilities.h | Here you can find all abilities in the game
->
->src/data/pokemon/trainer_class_lookups.h | Here you can find all trainer classes or the trainer picture in the game
->
->include/constants/moves.h | here are all pokemon attack moves defined
-
-Lets look what the lines of a trainer mean and what possibilities we have:
-
- >This is a unique name, dont change at all cost
-
-    [TRAINER_PATERINO] = 
-    
- >Here you must change the name in "" to the actual trainer name. It can be "Paterino", "Bob" or "Dirkling". Anything
+ welcome to this GIT repo!
+ This is the ReyaMon offical repo, a game specifically made for LongLiveReya by the community.
  
-    {
-        .trainerName = _("PATERINO"), 
-        
- >Here the class of the trainer will be defined > Look into trainer_class_lookups.h
+ The newest Patch can be found here: https://github.com/Paterino-FE/pokemerald-reyamon/releases
  
-        .trainerClass = TRAINER_CLASS_RIVAL, 
-        
- >Here the picture/sprite of the trainer will be defined > Look into trainer_class_lookups.h
+ We wont provide the game as a .gba file, you would need a clean Pokemon Emerald rom file to patch over it.
+
+ Enjoy the game~
  
-        .trainerPic = TRAINER_PIC_WALLY, 
-        
- >Here the battle music can be adjusted, its recommened to leave it at base
- 
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE, 
-        
- >False = No double battle, True = This is a double battle
- 
-        .doubleBattle = FALSE, 
-        
- >Here the number pokemon in the trainers party are defined. They need to be the exact same to the number of pokemon he should have
- 
-        .partySize = 1, 
-        
- >The species of the Pokemon get defined here. Check src/data/pokemon/species_info/gen_*_families, if you dont find the right species ID
- 
-        .party = (const struct TrainerMon[])
-        {
-            {
-            .species = SPECIES_VULPIX, 
-            
- >Gender gets assigned here, either TRAINER_MON_MALE, TRAINER_MON_FEMALE or TRAINER_MON_RANDOM_GENDER
- 
-            .gender = TRAINER_MON_RANDOM_GENDER, 
-            
- >Held item can be inserted here. Only add this if the pokemon has a held item.
+ Paterino
 
-            .heldItem = ITEM_ORAN_BERRY,
- 
- >IVs can be adjusted here, leave them to what is already written inside there
- 
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0), 
-            
- >Level of the Pokemon
- 
-            .lvl = 5, 
-            
- >Pokemon Nature, it's exactly written as the nature. NATURE_MODEST = Modest
- 
-            .nature = NATURE_HARDY, 
-            
- >We dont use this. Leave it as it is
- 
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL, 
-            
- >This value sets a trainer pokemon to be shiny. Only insert this, if the community member specified that his pokemon is shiny
- 
-            .isShiny = 1, 
+# Link Download UPS Patcher
 
- >This sets the friendship value
- 
-            .friendship = 255, 
+ https://shorturl.at/vyGIl
 
- >This sets a nickname (needs the COMPOUND_STRING around it)
- 
-            .nickname = COMPOUND_STRING("Dragonite HM")
-            
->Here you can set the ability of the pokemon. They are usually written exactly how they are, but if you feel unsure, then check the pokemon in src/data/pokemon/species_info/gen_*_families
- 
-            .ability = ABILITY_DROUGHT, 
-            
- > .moves needs to be set to have a customized moveset, instead of a level up moveset. You find all defined moves in here include/constants/moves.h. There can only be 4 moves.
- 
-            .moves = { 
-                MOVE_POUND,
-                MOVE_GROWL,
-            },
-            },
-        },
-    },
+# How to UPS patch
 
->Here is an example how to insert a new Pokemon
+ Guide: https://shorturl.at/tJ9Kk
 
-Start from here
+# Credits
 
-            { 
-            .species = SPECIES_POOCHYENA,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 26,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_POUND,
-                MOVE_GROWL,
-            },
-            },
-            
-And End here
-You can copy this and use it as a blueprint. Adjust the values as written up there and you're good to go
+Project Lead -
+> Paterino
+> 
+> Theastraza
 
-# How to edit trainer dialogues
+Coding -
+> Paterino
+> 
+> Forty
 
-First and foremost, use this tool to check for textbox issues https://meejle.github.io/
+Spriting -
+> Paterino
+> 
+> DogMatical (https://x.com/_DOGMATICAL_)
+> 
+> Yogurcomics (https://www.fiverr.com/yogurcomics)
+> 
+> Kaaaaaarpa
 
-File Path: /data/maps/
+Game Balance -
+> Theastraza
+> 
+> Felixr2
+> 
+> Forty
+> 
+> Luminel
 
-1st. You check in what town the gym resides, as an example GYM 4 is in lavaridge town, so you got into the folder /data/maps/LavaridgeTown_GYM_** (It has multiple floors)
+Inserting Data -
+> Forty
+> 
+> Felixr2
+> 
+> MagicalKohaku
+> 
+> Paterino
 
-2nd. Open the scripts.inc file in that folder
+Story -
+> Forty
+> 
+> Theastraza
+> 
+> lyrakokomi
+> 
+> Hatzoome
 
-3rd. In there you have to locate the original trainer name and its intro/defeat/postbattle quote
+Top bug finder
+> lyrakokomi
 
-Here is an example with Gerald from the LavaridgeTown_Gym_1F file
+Play Tester -
+> lyrakokomi
+> 
+> agdaleks
+> 
+> forty
+> 
+> Felxir2
+> 
+> MagicalKohaku
+> 
+> Swordficsh
+> 
+> Heise
+> 
+> quattuor4
+> 
+> FireFireFire
 
->LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
+Cynthia Theme
+> The Zhong Bros
+> 
+> EmeraldComposer
 
-	.string "The temperature of magma is\n"
+"Intel gathering" on Reya
+> Theastraza
 
-	.string "392 degrees.\p"
-
-	.string "Your POKéMON beat me, so they should\n"
-
-	.string "easily survive in magma.$"
-
-The text "LavaridgeTown_Gym_1F_Text_GeraldPostBattle:" you dont alter at all, please always leave it as it is. This also goes for Postbattle and Intros text.
-
-For every sentence you have to start with ".string", please check out https://meejle.github.io/ how the text would interact with the textbox of emerald.
-
-The "\n" split the sentence in a textbox.
-
-The "\p" is a pause and will be used after every second sentence. This demands an input like A Button from the player to continue with dialogue.
-
-The "$" at the end declares the end of the dialogue. This has to be placed at the end of the last sentence.
+Special thanks
+> LongLiveReya Communits
