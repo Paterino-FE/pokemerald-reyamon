@@ -520,7 +520,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "The BLUE ORB and RED ORB taken by\n"
-	.string "those sinister men…\p"
+	.string "those sinister women…\p"
 	.string "They must never be apart…\n"
 	.string "I fear something terrible will happen…$"
 
