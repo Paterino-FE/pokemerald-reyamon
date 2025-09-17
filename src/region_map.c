@@ -276,6 +276,7 @@ static const union AnimCmd *const sRegionMapPlayerIconAnimTable[] =
 static const u8 sMapSecIdsOffMap[] =
 {
     MAPSEC_BIRTH_ISLAND,
+    MAPSEC_BIRTHDAY_ISLAND,
     MAPSEC_FARAWAY_ISLAND,
     MAPSEC_NAVEL_ROCK
 };

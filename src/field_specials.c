@@ -2580,6 +2580,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_NavelRock,
         gText_BirthIsland,
         gText_FarawayIsland,
+        gText_BirthdayIsland,
         gText_Exit
     },
     [SCROLL_MULTI_BATTLE_TENT_RULES] =

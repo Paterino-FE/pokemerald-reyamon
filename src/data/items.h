@@ -12564,6 +12564,22 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_MysticTicket,
     },
 
+    [ITEM_BIRTHDAY_TICKET] =
+    {
+        .name = _("BIRTHDAY INVITE"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A ticket required\n"
+            "to board the ship\n"
+            "to a special place."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_MysticTicket,
+        .iconPalette = gItemIconPalette_MysticTicket,
+    },
+
     [ITEM_AURORA_TICKET] =
     {
         .name = _("AURORA TICKET"),

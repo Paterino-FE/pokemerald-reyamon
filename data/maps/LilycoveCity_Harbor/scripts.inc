@@ -51,7 +51,8 @@ LilycoveCity_Harbor_EventScript_FerryRegularLocationSelect::
 	case 3, LilycoveCity_Harbor_EventScript_GoToNavelRock
 	case 4, LilycoveCity_Harbor_EventScript_GoToBirthIsland
 	case 5, LilycoveCity_Harbor_EventScript_GoToFarawayIsland
-	case 6, LilycoveCity_Harbor_EventScript_ExitSailSelect
+	case 6, LilycoveCity_Harbor_EventScript_GoToBirthdayIsland
+	case 7, LilycoveCity_Harbor_EventScript_ExitSailSelect
 	case MULTI_B_PRESSED, LilycoveCity_Harbor_EventScript_ExitSailSelect
 	end
 
@@ -79,6 +80,13 @@ LilycoveCity_Harbor_EventScript_GoToBirthIsland::
 LilycoveCity_Harbor_EventScript_GoToFarawayIsland::
 	call LilycoveCity_Harbor_EventScript_BoardFerry
 	warp MAP_FARAWAY_ISLAND_ENTRANCE, 13, 38
+	waitstate
+	release
+	end
+
+LilycoveCity_Harbor_EventScript_GoToBirthdayIsland::
+	call LilycoveCity_Harbor_EventScript_BoardFerry
+	warp MAP_BIRTHDAY_HARBOR, 8, 4
 	waitstate
 	release
 	end
@@ -140,6 +148,16 @@ LilycoveCity_Harbor_EventScript_GetMysticTicketState::
 	setvar VAR_TEMP_9, 1
 	goto_if_set FLAG_SHOWN_MYSTIC_TICKET, Common_EventScript_NopReturn
 	setvar VAR_TEMP_9, 2
+	return
+
+LilycoveCity_Harbor_EventScript_GetBirthdayTicketState::
+	setvar VAR_TEMP_A, 3
+	goto_if_unset FLAG_ENABLE_BIRTHDAY_ISLAND, Common_EventScript_NopReturn
+	checkitem ITEM_BIRTHDAY_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	setvar VAR_TEMP_A, 5
+	goto_if_set FLAG_SHOWN_BIRTHDAY_TICKET, Common_EventScript_NopReturn
+	setvar VAR_TEMP_A, 6
 	return
 
 LilycoveCity_Harbor_EventScript_GetFirstTimeShowingTicket::
@@ -265,6 +283,14 @@ LilycoveCity_Harbor_EventScript_GoToFarawayIslandFirstTime::
 	release
 	end
 
+LilycoveCity_Harbor_EventScript_GoToBirthdayFirstTime::
+	closemessage
+	call LilycoveCity_Harbor_EventScript_BoardFerryWithSailor
+	warp MAP_FARAWAY_ISLAND_ENTRANCE, 13, 38
+	waitstate
+	release
+	end
+
 LilycoveCity_Harbor_EventScript_MysticTicketFirstTime::
 	setflag FLAG_SHOWN_MYSTIC_TICKET
 	msgbox EventTicket_Text_ThatPass, MSGBOX_DEFAULT
@@ -297,7 +323,8 @@ LilycoveCity_Harbor_EventScript_MultipleEventTicketsFirstTime::
 	case 3, LilycoveCity_Harbor_EventScript_GoToNavelRockFirstTime
 	case 4, LilycoveCity_Harbor_EventScript_GoToBirthIslandFirstTime
 	case 5, LilycoveCity_Harbor_EventScript_GoToFarawayIslandFirstTime
-	case 6, LilycoveCity_Harbor_EventScript_ExitFirstTimeTicketSailSelect
+	case 6, LilycoveCity_Harbor_EventScript_GoToBirthdayFirstTime
+	case 7, LilycoveCity_Harbor_EventScript_ExitFirstTimeTicketSailSelect
 	case MULTI_B_PRESSED, LilycoveCity_Harbor_EventScript_ExitFirstTimeTicketSailSelect
 	release
 	end

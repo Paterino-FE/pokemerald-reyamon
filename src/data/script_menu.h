@@ -590,6 +590,7 @@ static const struct MenuAction MultichoiceList_UnusedSSTidal2[] =
 {
     {gText_SouthernIsland},
     {gText_FarawayIsland},
+    {gText_BirthdayIsland},
     {gText_Exit},
 };
 
@@ -597,6 +598,7 @@ static const struct MenuAction MultichoiceList_UnusedSSTidal3[] =
 {
     {gText_BirthIsland},
     {gText_FarawayIsland},
+    {gText_BirthdayIsland},
     {gText_Exit},
 };
 
@@ -605,6 +607,7 @@ static const struct MenuAction MultichoiceList_UnusedSSTidal4[] =
     {gText_SouthernIsland},
     {gText_BirthIsland},
     {gText_FarawayIsland},
+    {gText_BirthdayIsland},
     {gText_Exit},
 };
 
@@ -979,6 +982,7 @@ static const u8 *const sLilycoveSSTidalDestinations[SSTIDAL_SELECTION_COUNT] =
     [SSTIDAL_SELECTION_NAVEL_ROCK]      = gText_NavelRock,
     [SSTIDAL_SELECTION_BIRTH_ISLAND]    = gText_BirthIsland,
     [SSTIDAL_SELECTION_FARAWAY_ISLAND]  = gText_FarawayIsland,
+    [SSTIDAL_SELECTION_BIRTHDAY_ISLAND] = gText_BirthdayIsland,
     [SSTIDAL_SELECTION_EXIT]            = gText_Exit,
 };
 

@@ -4450,6 +4450,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/MagmaHideout_Sleep/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_Sleep/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_HARBOR",
+      "name": "Birthday_Harbor_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IslandHarbor",
+      "border_filepath": "data/layouts/Birthday_Harbor/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Harbor/map.bin"
     }
   ]
 }
