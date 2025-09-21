@@ -1160,3 +1160,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MagmaHideout_Sleep/scripts.inc"
 
 	.include "data/maps/Birthday_Harbor/scripts.inc"
+
+	.include "data/maps/SSLANNN_START/scripts.inc"
+
+	.include "data/maps/SSLANN_KITCHEN/scripts.inc"
+
+	.include "data/maps/SSLANNN_LOWER/scripts.inc"
+
+	.include "data/maps/SSLANNN_2F/scripts.inc"

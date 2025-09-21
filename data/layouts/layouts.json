@@ -4460,6 +4460,46 @@
       "secondary_tileset": "gTileset_IslandHarbor",
       "border_filepath": "data/layouts/Birthday_Harbor/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Harbor/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_START",
+      "name": "SSLANNN_START_Layout",
+      "width": 31,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_START/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_START/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANN_KITCHEN",
+      "name": "SSLANN_KITCHEN_Layout",
+      "width": 20,
+      "height": 14,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANN_KITCHEN/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANN_KITCHEN/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_LOWER",
+      "name": "SSLANNN_LOWER_Layout",
+      "width": 20,
+      "height": 7,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_LOWER/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_LOWER/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_2F",
+      "name": "SSLANNN_2F_Layout",
+      "width": 31,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_2F/map.bin"
     }
   ]
 }

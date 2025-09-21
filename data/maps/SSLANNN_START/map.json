@@ -1,0 +1,91 @@
+{
+  "id": "MAP_SSLANNN_START",
+  "name": "SSLANNN_START",
+  "layout": "LAYOUT_SSLANNN_START",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_START",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 26,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANNN_LOWER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_SSLANN_KITCHEN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
