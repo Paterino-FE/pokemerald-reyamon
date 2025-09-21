@@ -306,6 +306,8 @@ PlayersHouse_1F_Movement_MomReturnToSeatFemale:
 PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
+	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 7, PlayersHouse_1F_EventScript_TravelSafe
+	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 6, PlayersHouse_1F_EventScript_BirthdayIslandTicket
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 4, PlayersHouse_1F_EventScript_DontPushYourselfTooHard
 	goto_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, PlayersHouse_1F_EventScript_DontPushYourselfTooHard
 	goto_if_set FLAG_HAS_MATCH_CALL, PlayersHouse_1F_EventScript_TryRegisterMom
@@ -482,6 +484,37 @@ PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV::
 	closemessage
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 4
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4
+	releaseall
+	end
+
+PlayersHouse_1F_EventScript_TravelSafe::
+	lock
+	msgbox PlayersHouse_1F_Text_TravelSafe, MSGBOX_DEFAULT
+	release
+	end
+
+PlayersHouse_1F_EventScript_BirthdayIslandTicket::
+	lockall
+	msgbox PlayersHouse_1F_Text_LilypadWasAnImposter, MSGBOX_DEFAULT
+	giveitem ITEM_BIRTHDAY_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	msgbox PlayersHouse_1F_Text_ThisIsForBirthdayIsland, MSGBOX_DEFAULT
+	setflag FLAG_ENABLE_BIRTHDAY_ISLAND
+	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 7
+	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 7
+	releaseall
+	end
+
+PlayerHouse_EventScript_BirthdayCall::
+	lockall
+	pokenavcall PlayersHouse_Text_EmiliaComeQuick
+	waitmessage
+	closemessage
+	delay 30
+	setflag FLAG_EMILIA_CALLED_BIRTHDAY
+	setflag FLAG_HIDE_PLAYERS_HOUSE_DAD
+	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 6
+	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 6
 	releaseall
 	end
 

@@ -19,6 +19,7 @@ LilycoveCity_Harbor_EventScript_FerryAttendant::
 	call LilycoveCity_Harbor_EventScript_GetAuroraTicketState
 	call LilycoveCity_Harbor_EventScript_GetOldSeaMapState
 	call LilycoveCity_Harbor_EventScript_GetMysticTicketState
+	call LilycoveCity_Harbor_EventScript_GetBirthdayTicketState
 	call LilycoveCity_Harbor_EventScript_GetFirstTimeShowingTicket
 	call LilycoveCity_Harbor_EventScript_GetHasTicketsState
 	goto_if_eq VAR_TEMP_C, 2, LilycoveCity_Harbor_EventScript_OldSeaMapFirstTime
@@ -26,6 +27,7 @@ LilycoveCity_Harbor_EventScript_FerryAttendant::
 	goto_if_eq VAR_TEMP_B, 2, LilycoveCity_Harbor_EventScript_AuroraTicketFirstTime
 	goto_if_eq VAR_TEMP_B, 4, LilycoveCity_Harbor_EventScript_OldSeaMapFirstTime
 	goto_if_eq VAR_TEMP_B, 8, LilycoveCity_Harbor_EventScript_MysticTicketFirstTime
+	goto_if_eq VAR_TEMP_B, 16, LilycoveCity_Harbor_EventScript_BirthdayTicketFirstTime
 	goto_if_ne VAR_TEMP_B, 0, LilycoveCity_Harbor_EventScript_MultipleEventTicketsFirstTime
 	goto LilycoveCity_Harbor_EventScript_NoFirstTimeEventTickets
 	end
@@ -86,6 +88,7 @@ LilycoveCity_Harbor_EventScript_GoToFarawayIsland::
 
 LilycoveCity_Harbor_EventScript_GoToBirthdayIsland::
 	call LilycoveCity_Harbor_EventScript_BoardFerry
+	goto_if_unset FLAG_FINISHED_SSLANN, LilycoveCity_Harbor_EventScript_GoToSSLann
 	warp MAP_BIRTHDAY_HARBOR, 8, 4
 	waitstate
 	release
@@ -151,13 +154,13 @@ LilycoveCity_Harbor_EventScript_GetMysticTicketState::
 	return
 
 LilycoveCity_Harbor_EventScript_GetBirthdayTicketState::
-	setvar VAR_TEMP_A, 3
+	setvar VAR_TEMP_8, 0
 	goto_if_unset FLAG_ENABLE_BIRTHDAY_ISLAND, Common_EventScript_NopReturn
 	checkitem ITEM_BIRTHDAY_TICKET
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
-	setvar VAR_TEMP_A, 5
+	setvar VAR_TEMP_8, 1
 	goto_if_set FLAG_SHOWN_BIRTHDAY_TICKET, Common_EventScript_NopReturn
-	setvar VAR_TEMP_A, 6
+	setvar VAR_TEMP_8, 2
 	return
 
 LilycoveCity_Harbor_EventScript_GetFirstTimeShowingTicket::
@@ -166,6 +169,7 @@ LilycoveCity_Harbor_EventScript_GetFirstTimeShowingTicket::
 	call_if_eq VAR_TEMP_D, 2, LilycoveCity_Harbor_EventScript_SetFirstTimeShowingAuroraTicket
 	call_if_eq VAR_TEMP_C, 2, LilycoveCity_Harbor_EventScript_SetFirstTimeShowingOldSeaMap
 	call_if_eq VAR_TEMP_9, 2, LilycoveCity_Harbor_EventScript_SetFirstTimeShowingMysticTicket
+	call_if_eq VAR_TEMP_8, 2, LilycoveCity_Harbor_EventScript_SetFirstTimeShowingBirthdayTicket
 	return
 
 LilycoveCity_Harbor_EventScript_SetFirstTimeShowingEonTicket::
@@ -184,11 +188,16 @@ LilycoveCity_Harbor_EventScript_SetFirstTimeShowingMysticTicket::
 	addvar VAR_TEMP_B, 8
 	return
 
+LilycoveCity_Harbor_EventScript_SetFirstTimeShowingBirthdayTicket::
+	addvar VAR_TEMP_B, 16
+	return
+
 LilycoveCity_Harbor_EventScript_GetHasTicketsState::
 	setvar VAR_TEMP_A, 0
 	call_if_eq VAR_TEMP_E, 1, LilycoveCity_Harbor_EventScript_SetHasEonTicket
 	call_if_eq VAR_TEMP_D, 1, LilycoveCity_Harbor_EventScript_SetHasAuroraTicket
 	call_if_eq VAR_TEMP_C, 1, LilycoveCity_Harbor_EventScript_SetHasOldSeaMap
+	call_if_eq VAR_TEMP_8, 1, LilycoveCity_Harbor_EventScript_SetHasBirthdayTicket
 	call_if_eq VAR_TEMP_9, 1, LilycoveCity_Harbor_EventScript_SetHasMysticTicket
 	return
 
@@ -206,6 +215,10 @@ LilycoveCity_Harbor_EventScript_SetHasOldSeaMap::
 
 LilycoveCity_Harbor_EventScript_SetHasMysticTicket::
 	addvar VAR_TEMP_A, 8
+	return
+
+LilycoveCity_Harbor_EventScript_SetHasBirthdayTicket::
+	addvar VAR_TEMP_A, 16
 	return
 
 LilycoveCity_Harbor_EventScript_EonTicketFirstTime::
@@ -283,10 +296,17 @@ LilycoveCity_Harbor_EventScript_GoToFarawayIslandFirstTime::
 	release
 	end
 
+LilycoveCity_Harbor_EventScript_GoToSSLann::
+	warp MAP_SSLANNN_START, 26, 3
+	waitstate
+	release
+	end
+
 LilycoveCity_Harbor_EventScript_GoToBirthdayFirstTime::
 	closemessage
 	call LilycoveCity_Harbor_EventScript_BoardFerryWithSailor
-	warp MAP_FARAWAY_ISLAND_ENTRANCE, 13, 38
+	goto_if_unset FLAG_FINISHED_SSLANN, LilycoveCity_Harbor_EventScript_GoToSSLann
+	warp MAP_BIRTHDAY_HARBOR, 8, 4
 	waitstate
 	release
 	end
@@ -298,6 +318,15 @@ LilycoveCity_Harbor_EventScript_MysticTicketFirstTime::
 	call LilycoveCity_Harbor_EventScript_GetEventTicketSailor
 	msgbox EventTicket_Text_OddTicketGetOnBoard, MSGBOX_DEFAULT
 	goto LilycoveCity_Harbor_EventScript_GoToNavelRockFirstTime
+	end
+
+LilycoveCity_Harbor_EventScript_BirthdayTicketFirstTime::
+	setflag FLAG_SHOWN_BIRTHDAY_TICKET
+	msgbox EventTicket_Text_ThatPass, MSGBOX_DEFAULT
+	closemessage
+	call LilycoveCity_Harbor_EventScript_GetEventTicketSailor
+	msgbox EventTicket_Text_OddTicketGetOnBoard, MSGBOX_DEFAULT
+	goto LilycoveCity_Harbor_EventScript_GoToBirthdayFirstTime
 	end
 
 LilycoveCity_Harbor_EventScript_GoToNavelRockFirstTime::

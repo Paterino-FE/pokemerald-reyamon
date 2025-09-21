@@ -174,6 +174,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 	releaseall
 	end
 
+
 LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
@@ -286,6 +287,53 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	walk_up
 	walk_up
 	step_end
+
+PlayersHouse_1F_Text_LilypadWasAnImposter:
+	.string "EMILIA: My Lady {PLAYER}, you came!\p"	
+	.string "It is indeed bad news that I have\n"
+	.string "to deliver to you...\p"
+	.string "LILYPAD... ...\n"
+	.string "has been abducted!\p"
+	.string "And this happened quite some time ago!\p"
+	.string "It seems that LILYPAD never arrived\n"
+	.string "in HOENN at all, but was replaced\l"
+	.string "by an IMPOSTER!\p"
+	.string "One that looked EXACTLY like the\n"
+	.string "real LILYPAD that we all love!\p"
+	.string "... ... ...\p"
+	.string "My Lady, what are you saying?\n"
+	.string "You just TALKED to LILYPAD?\p"
+	.string "But you KNOW that LILYPAD does not\n"
+	.string "talk... Unless you knew that it was\l"
+	.string "am IMPOSTER all along!\p"
+	.string "And played along to see what the\n"
+	.string "IMPOSTER was planning...\p"
+	.string "Lady {PLAYER}, please take this!$"
+
+PlayersHouse_1F_Text_ThisIsForBirthdayIsland:
+	.string "My Lady, this BIRTHDAY INVITE will\n"
+	.string "get you to BIRTHDAY ISLAND!\p"
+	.string "This is where we think the IMPOSTER\n"
+	.string "has gone, and where the real LILYPAD\l"
+	.string "might be held.\p"
+	.string "Show the BIRTHDAY INVITE to the FERRY\n"
+	.string "ATTENDANT in LILYCOVE CITY!\p"
+	.string "The FERRY will then take you to\n"
+	.string "the ISLAND!$"
+
+PlayersHouse_1F_Text_TravelSafe:
+	.string "Lady {PLAYER}, please be careful!\n"
+	.string "We do not know what the IMPOSTER is\l"
+	.string "planning and who is behind this!$"
+
+PlayersHouse_Text_EmiliaComeQuick:
+	.string "EMILIA: My Lady {PLAYER}?\n"
+	.string "Something terrible has happened!\p"
+	.string "It is easier to explain in person,\n"
+	.string "so I humbly request your swift\l"
+	.string "return home to LITTLEROOT TOWN!\p"
+	.string "… … … … … …\n"
+	.string "… … … … … Click!$"
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
 	.string "EMILIA: See, Lady {PLAYER}?\n"

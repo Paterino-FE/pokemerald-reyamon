@@ -29,7 +29,7 @@ EventTicket_Text_OddTicketGetOnBoard:
 	.string "No one knows what awaits there…\p"
 	.string "The very thought excites my blood\n"
 	.string "as a sailing man!\p"
-	.string "Get on board, youngster!$"
+	.string "All aboard the SS LANNN!$"
 
 FarawayIsland_Entrance_Text_SailorReturn:
 	.string "CAPT. BRINEY can be so maddeningly\n"

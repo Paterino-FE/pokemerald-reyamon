@@ -485,6 +485,33 @@ bool32 ShouldDoPaterinoStarterCall(void)
     return TRUE;
 }
 
+
+bool32 ShouldDoEmiliaBirthdayCall(void)
+{
+    if (FlagGet(FLAG_DEFEATED_METEOR_FALLS_STEVEN) && 
+        FlagGet(FLAG_EMILIA_CALLED_BIRTHDAY) == FALSE)
+    {
+        switch (gMapHeader.mapType)
+        {
+        case MAP_TYPE_TOWN:
+        case MAP_TYPE_CITY:
+        case MAP_TYPE_ROUTE:
+        case MAP_TYPE_OCEAN_ROUTE:
+            if (++(*GetVarPointer(VAR_ROXANNE_CALL_STEP_COUNTER)) < 5)
+                return FALSE;
+            break;
+        default:
+            return FALSE;
+        }
+    }
+    else
+    {
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 bool32 ShouldDoRivalRayquazaCall(void)
 {
     if (FlagGet(FLAG_DEFEATED_MAGMA_SPACE_CENTER))

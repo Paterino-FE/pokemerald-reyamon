@@ -708,6 +708,11 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
             ScriptContext_SetupScript(LittlerootTown_ProfessorBirchsLab_EventScript_PokemonStarter);
             return TRUE;
         }
+        if (ShouldDoEmiliaBirthdayCall() == TRUE)
+        {
+            ScriptContext_SetupScript(PlayerHouse_EventScript_BirthdayCall);
+            return TRUE;
+        }
     }
 
     if (SafariZoneTakeStep() == TRUE)
