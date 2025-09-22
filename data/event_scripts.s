@@ -1168,3 +1168,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SSLANNN_LOWER/scripts.inc"
 
 	.include "data/maps/SSLANNN_2F/scripts.inc"
+
+	.include "data/maps/SSLANNN_OUTSIDE/scripts.inc"
+
+	.include "data/maps/SSLANNN_CAPTAINSOFFICE/scripts.inc"
+
+	.include "data/maps/SSLANNN_START_R1/scripts.inc"
+
+	.include "data/maps/SSLANNN_START_R2/scripts.inc"
+
+	.include "data/maps/SSLANNN_START_R3/scripts.inc"

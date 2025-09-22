@@ -4500,6 +4500,56 @@
       "secondary_tileset": "gTileset_Unused1",
       "border_filepath": "data/layouts/SSLANNN_2F/border.bin",
       "blockdata_filepath": "data/layouts/SSLANNN_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_OUTSIDE",
+      "name": "SSLANNN_OUTSIDE_Layout",
+      "width": 31,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_OUTSIDE/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_OUTSIDE/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_CAPTAINSOFFICE",
+      "name": "SSLANNN_CAPTAINSOFFICE_Layout",
+      "width": 13,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_CAPTAINSOFFICE/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_CAPTAINSOFFICE/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_START_R1",
+      "name": "SSLANNN_START_R1_Layout",
+      "width": 7,
+      "height": 9,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_START_R1/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_START_R1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_START_R2",
+      "name": "SSLANNN_START_R2_Layout",
+      "width": 7,
+      "height": 9,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_START_R2/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_START_R2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSLANNN_START_R3",
+      "name": "SSLANNN_START_R3_Layout",
+      "width": 7,
+      "height": 9,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/SSLANNN_START_R3/border.bin",
+      "blockdata_filepath": "data/layouts/SSLANNN_START_R3/map.bin"
     }
   ]
 }

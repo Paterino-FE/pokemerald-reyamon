@@ -2,7 +2,7 @@
   "id": "MAP_SSLANN_KITCHEN",
   "name": "SSLANN_KITCHEN",
   "layout": "LAYOUT_SSLANN_KITCHEN",
-  "music": "MUS_DUMMY",
+  "music": "MUS_KARAGOLSHIP",
   "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -4467,6 +4467,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_ENCOUNTER_GIRL) \
     X(MUS_ENCOUNTER_MALE) \
     X(MUS_ABANDONED_SHIP) \
+    X(MUS_KARAGOLSHIP) \
     X(MUS_FORTREE) \
     X(MUS_BIRCH_LAB) \
     X(MUS_B_TOWER_RS) \

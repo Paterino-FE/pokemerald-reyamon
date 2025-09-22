@@ -3588,6 +3588,7 @@ DefaultHash = '''C457C218'''
    '''mus_encounter_girl''',
    '''mus_encounter_male''',
    '''mus_abandoned_ship''',
+   '''mus_karagolship''',
    '''mus_fortree''',
    '''mus_birch_lab''',
    '''mus_b_tower_rs''',

@@ -1,0 +1,2 @@
+SSLANNN_CAPTAINSOFFICE_MapScripts::
+	.byte 0

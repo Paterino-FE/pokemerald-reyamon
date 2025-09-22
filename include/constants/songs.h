@@ -545,6 +545,7 @@
 #define PH_NURSE_SOLO               609
 #define MUS_CYNTHIA_BATTLE          610
 #define MUS_CYNTHIA_ENCOUNTER       611
+#define MUS_KARAGOLSHIP             612
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

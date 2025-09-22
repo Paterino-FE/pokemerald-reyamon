@@ -613,6 +613,7 @@ gSongTable::
 	song ph_nurse_solo, 2, 2
 	song mus_cynthia_battle, 0, 0
 	song mus_cynthia_encounter, 0, 0
+	song mus_karagolship, 0, 0
 
 	.align 2
 dummy_song_header:
