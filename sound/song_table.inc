@@ -614,6 +614,7 @@ gSongTable::
 	song mus_cynthia_battle, 0, 0
 	song mus_cynthia_encounter, 0, 0
 	song mus_karagolship, 0, 0
+	song mus_lovelyoasis, 0, 0
 
 	.align 2
 dummy_song_header:
