@@ -12,16 +12,11 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
+  "connections": 0,
+  "object_events": [
+
+  ],
   "warp_events": [
-    {
-      "x": 26,
-      "y": 2,
-      "elevation": 0,
-      "dest_map": "MAP_SSLANNN_START",
-      "dest_warp_id": "0"
-    },
     {
       "x": 22,
       "y": 8,
@@ -72,6 +67,18 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_SSLANNN_DOOR_STATE",
+      "var_value": "1",
+      "script": "SSLANNN_START_Door_Script"
+    }
+  ],
+  "bg_events": [
+
+  ]
 }
