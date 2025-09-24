@@ -1705,7 +1705,19 @@
     },
     {
       "id": "MAPSEC_BIRTHDAY_ISLAND",
-      "name": "BIRTHDAY ISLAND"
+      "name": "BIRTHDAY ISLAND",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SS_LANNN",
+      "name": "SS LANNN",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
     }
   ]
 }

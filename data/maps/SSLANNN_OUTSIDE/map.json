@@ -3,7 +3,7 @@
   "name": "SSLANNN_OUTSIDE",
   "layout": "LAYOUT_SSLANNN_OUTSIDE",
   "music": "MUS_KARAGOLSHIP",
-  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "region_map_section": "MAPSEC_SS_LANNN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_NONE",
