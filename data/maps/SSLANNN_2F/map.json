@@ -82,14 +82,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SSLANNN_2F_TrashBucket_Script"
-    },
-    {
-      "type": "sign",
-      "x": 28,
-      "y": 7,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "EventScript_EmptyTrashCan"
     }
   ]
 }
