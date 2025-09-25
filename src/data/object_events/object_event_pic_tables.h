@@ -170,15 +170,11 @@ static const struct SpriteFrameImage sPicTable_Hastings[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_Dirkling[] = {
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Dirkling, 2, 4, 2),
+    overworld_ascending_frames(gObjectEventPic_Dirkling, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Lilypal[] = {
+    overworld_ascending_frames(gObjectEventPic_Lilypal, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_Pouria[] = {
