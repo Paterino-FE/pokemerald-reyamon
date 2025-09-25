@@ -4550,6 +4550,16 @@
       "secondary_tileset": "gTileset_Unused1",
       "border_filepath": "data/layouts/SSLANNN_START_R3/border.bin",
       "blockdata_filepath": "data/layouts/SSLANNN_START_R3/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MAIN_VILLAGE",
+      "name": "Birthday_Main_Village_Layout",
+      "width": 33,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_birthdayisland",
+      "border_filepath": "data/layouts/Birthday_Main_Village/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Main_Village/map.bin"
     }
   ]
 }

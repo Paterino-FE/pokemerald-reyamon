@@ -1178,3 +1178,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SSLANNN_START_R2/scripts.inc"
 
 	.include "data/maps/SSLANNN_START_R3/scripts.inc"
+
+	.include "data/maps/Birthday_Main_Village/scripts.inc"
