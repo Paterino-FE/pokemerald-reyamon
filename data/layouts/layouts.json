@@ -4560,6 +4560,16 @@
       "secondary_tileset": "gTileset_birthdayisland",
       "border_filepath": "data/layouts/Birthday_Main_Village/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Main_Village/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_BEACH_START",
+      "name": "Birthday_Beach_Start_Layout",
+      "width": 40,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Birthday_Beach_Start/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Beach_Start/map.bin"
     }
   ]
 }

@@ -1,22 +1,22 @@
 {
-  "id": "MAP_BIRTHDAY_MAIN_VILLAGE",
-  "name": "Birthday_Main_Village",
-  "layout": "LAYOUT_BIRTHDAY_MAIN_VILLAGE",
-  "music": "MUS_LOVELYOASIS",
+  "id": "MAP_BIRTHDAY_BEACH_START",
+  "name": "Birthday_Beach_Start",
+  "layout": "LAYOUT_BIRTHDAY_BEACH_START",
+  "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_CITY",
-  "allow_cycling": true,
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_BIRTHDAY_BEACH_START",
-      "offset": -3,
-      "direction": "down"
+      "map": "MAP_BIRTHDAY_MAIN_VILLAGE",
+      "offset": 3,
+      "direction": "up"
     }
   ],
   "object_events": [],
