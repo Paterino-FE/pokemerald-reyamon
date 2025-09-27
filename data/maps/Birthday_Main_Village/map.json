@@ -20,7 +20,29 @@
     }
   ],
   "object_events": [],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_BEACH_START",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROSUURI_BAKERY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }

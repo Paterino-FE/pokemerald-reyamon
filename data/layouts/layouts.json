@@ -4457,7 +4457,7 @@
       "width": 17,
       "height": 13,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_IslandHarbor",
+      "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/Birthday_Harbor/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Harbor/map.bin"
     },
@@ -4557,7 +4557,7 @@
       "width": 33,
       "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_birthdayisland",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Birthday_Main_Village/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Main_Village/map.bin"
     },
@@ -4570,6 +4570,26 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Birthday_Beach_Start/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Beach_Start/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROSUURI_BAKERY",
+      "name": "Rosuuri_Bakery_Layout",
+      "width": 20,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Rosuuri_Bakery/border.bin",
+      "blockdata_filepath": "data/layouts/Rosuuri_Bakery/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_POKEMON_CENTER",
+      "name": "Birthday_PokemonCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Birthday_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_PokemonCenter/map.bin"
     }
   ]
 }

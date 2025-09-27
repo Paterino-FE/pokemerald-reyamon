@@ -7,7 +7,7 @@ SSLANNMUSICTEST::
 
 SSLANNN_START_Door_Script::
 	lock
-	warp MAP_BIRTHDAY_HARBOR, 8, 4
+	warp MAP_BIRTHDAY_HARBOR, 5, 10
 	waitstate
 	release
 	end

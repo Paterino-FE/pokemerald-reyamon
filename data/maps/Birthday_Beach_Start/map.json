@@ -20,7 +20,22 @@
     }
   ],
   "object_events": [],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_HARBOR",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_MAIN_VILLAGE",
+      "dest_warp_id": "0"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }

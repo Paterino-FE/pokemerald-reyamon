@@ -1182,3 +1182,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Main_Village/scripts.inc"
 
 	.include "data/maps/Birthday_Beach_Start/scripts.inc"
+
+	.include "data/maps/Rosuuri_Bakery/scripts.inc"
+
+	.include "data/maps/Birthday_PokemonCenter/scripts.inc"
