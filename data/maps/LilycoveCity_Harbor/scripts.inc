@@ -89,7 +89,7 @@ LilycoveCity_Harbor_EventScript_GoToFarawayIsland::
 LilycoveCity_Harbor_EventScript_GoToBirthdayIsland::
 	call LilycoveCity_Harbor_EventScript_BoardFerry
 	goto_if_unset FLAG_FINISHED_SSLANN, LilycoveCity_Harbor_EventScript_GoToSSLann
-	warp MAP_BIRTHDAY_HARBOR, 8, 4
+	warp MAP_BIRTHDAY_HARBOR, 5, 10
 	waitstate
 	release
 	end
@@ -306,7 +306,7 @@ LilycoveCity_Harbor_EventScript_GoToBirthdayFirstTime::
 	closemessage
 	call LilycoveCity_Harbor_EventScript_BoardFerryWithSailor
 	goto_if_unset FLAG_FINISHED_SSLANN, LilycoveCity_Harbor_EventScript_GoToSSLann
-	warp MAP_BIRTHDAY_HARBOR, 8, 4
+	warp MAP_BIRTHDAY_HARBOR, 5, 10
 	waitstate
 	release
 	end

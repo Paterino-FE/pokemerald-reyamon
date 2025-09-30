@@ -843,6 +843,7 @@ Movement_UnusedBoardFerry:
 
 Common_EventScript_FerryDepartIsland::
 	call_if_eq VAR_FACING, DIR_SOUTH, Ferry_EventScript_DepartIslandSouth
+	call_if_eq VAR_FACING, DIR_NORTH, Ferry_EventScript_DepartIslandNorth
 	call_if_eq VAR_FACING, DIR_WEST, Ferry_EventScript_DepartIslandWest
 	delay 30
 	hideobjectat OBJ_EVENT_ID_PLAYER, 0

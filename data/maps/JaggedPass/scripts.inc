@@ -101,8 +101,6 @@ JaggedPass_EventScript_Eric::
 
 JaggedPass_EventScript_Diana::
 	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_DianaRematch
 	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -110,19 +108,11 @@ JaggedPass_EventScript_Diana::
 JaggedPass_EventScript_RegisterDiana::
 	special PlayerFaceTrainerAfterBattle
 	msgbox JaggedPass_Text_DianaRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_DIANA_1
 	release
-	end
-
-JaggedPass_EventScript_DianaRematch::
-	trainerbattle_rematch TRAINER_DIANA_1, JaggedPass_Text_DianaRematchIntro, JaggedPass_Text_DianaRematchDefeat
-	msgbox JaggedPass_Text_DianaPostRematch, MSGBOX_AUTOCLOSE
 	end
 
 JaggedPass_EventScript_Ethan::
 	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, JaggedPass_EventScript_RegisterEthan
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_EthanRematch
 	msgbox JaggedPass_Text_EthanPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -130,13 +120,7 @@ JaggedPass_EventScript_Ethan::
 JaggedPass_EventScript_RegisterEthan::
 	special PlayerFaceTrainerAfterBattle
 	msgbox JaggedPass_Text_EthanRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_ETHAN_1
 	release
-	end
-
-JaggedPass_EventScript_EthanRematch::
-	trainerbattle_rematch TRAINER_ETHAN_1, JaggedPass_Text_EthanRematchIntro, JaggedPass_Text_EthanRematchDefeat
-	msgbox JaggedPass_Text_EthanPostRematch, MSGBOX_AUTOCLOSE
 	end
 
 JaggedPass_EventScript_Julio::
@@ -181,18 +165,6 @@ JaggedPass_Text_DianaRegister:
 	.string "Will you ever be back in this area?\n"
 	.string "If you do return, I'd like a rematch.$"
 
-JaggedPass_Text_DianaRematchIntro:
-	.string "Picnics are fun wherever you go.\n"
-	.string "Just like POKéMON!$"
-
-JaggedPass_Text_DianaRematchDefeat:
-	.string "I only lost because the ground is\n"
-	.string "too bumpy!$"
-
-JaggedPass_Text_DianaPostRematch:
-	.string "I'll forget about losing and just\n"
-	.string "enjoy this bumpy hike.$"
-
 JaggedPass_Text_EthanIntro:
 	.string "JAGGED PASS is hard to walk on.\n"
 	.string "It's a good place for training.$"
@@ -209,18 +181,6 @@ JaggedPass_Text_EthanRegister:
 	.string "When I get more used to this bumpiness,\n"
 	.string "I'll be sure to win!\p"
 	.string "Can you register me in your POKéNAV?$"
-
-JaggedPass_Text_EthanRematchIntro:
-	.string "I got used to this bumpiness.\n"
-	.string "I sing while I climb now.$"
-
-JaggedPass_Text_EthanRematchDefeat:
-	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
-
-JaggedPass_Text_EthanPostRematch:
-	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Right, so the first part of the\n"

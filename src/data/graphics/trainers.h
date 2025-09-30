@@ -292,8 +292,8 @@ const u32 gTrainerPalette_Dirkling[] = INCBIN_U32("graphics/trainers/palettes/di
 const u32 gTrainerFrontPic_Lilypal[] = INCBIN_U32("graphics/trainers/front_pics/lilypal.4bpp.lz");
 const u32 gTrainerPalette_Lilypal[] = INCBIN_U32("graphics/trainers/palettes/lilypal.gbapal.lz");
 
-const u32 gTrainerFrontPic_Rosuuri[] = INCBIN_U32("graphics/trainers/front_pics/Rosuuri.4bpp.lz");
-const u32 gTrainerPalette_Rosuuri[] = INCBIN_U32("graphics/trainers/palettes/Rosuuri.gbapal.lz");
+const u32 gTrainerFrontPic_Rosuuri[] = INCBIN_U32("graphics/trainers/front_pics/rosuuri.4bpp.lz");
+const u32 gTrainerPalette_Rosuuri[] = INCBIN_U32("graphics/trainers/palettes/rosuuri.gbapal.lz");
 
 const u32 gTrainerFrontPic_Emilia[] = INCBIN_U32("graphics/trainers/front_pics/emilia_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Emilia[] = INCBIN_U32("graphics/trainers/palettes/emilia_front_pic.gbapal.lz");

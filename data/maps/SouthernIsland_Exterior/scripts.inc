@@ -37,6 +37,12 @@ Ferry_EventScript_DepartIslandSouth::
 	waitmovement 0
 	return
 
+
+Ferry_EventScript_DepartIslandNorth::
+	applymovement OBJ_EVENT_ID_PLAYER, Ferry_Movement_DepartIslandBoardNorth
+	waitmovement 0
+	return
+
 Ferry_EventScript_DepartIslandWest::
 	applymovement OBJ_EVENT_ID_PLAYER, Ferry_Movement_DepartIslandBoardWest
 	waitmovement 0
@@ -44,6 +50,10 @@ Ferry_EventScript_DepartIslandWest::
 
 Ferry_Movement_DepartIslandBoardSouth:
 	walk_down
+	step_end
+
+Ferry_Movement_DepartIslandBoardNorth:
+	walk_up
 	step_end
 
 Ferry_Movement_DepartIslandBoardWest:
