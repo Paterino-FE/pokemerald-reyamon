@@ -140,6 +140,13 @@ static const struct HealLocation sHealLocationsPokemonCenter[HEAL_LOCATION_COUNT
         .map = MAP_NUM(BATTLE_FRONTIER_POKEMON_CENTER_1F),
         DEFAULT_POKEMON_CENTER_COORDS,
     },
+    [HEAL_LOCATION_BIRTHDAY_ISLAND_MAIN_VILLAGE - 1] =
+    {
+        .group = MAP_GROUP(BIRTHDAY_POKEMON_CENTER),
+        .map = MAP_NUM(BIRTHDAY_POKEMON_CENTER),
+        .x  = 6,
+        .y = 4,
+    },
 };
 
 #undef DEFAULT_POKEMON_CENTER_COORDS

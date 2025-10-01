@@ -161,6 +161,14 @@
       "respawn_npc": "LOCALID_PACIFIDLOG_NURSE"
     },
     {
+      "id": "HEAL_LOCATION_BIRTHDAY_ISLAND_MAIN_VILLAGE",
+      "map": "MAP_BIRTHDAY_MAIN_VILLAGE",
+      "x": 20,
+      "y": 16,
+      "respawn_map": "MAP_BIRTHDAY_POKEMON_CENTER",
+      "respawn_npc": "LOCALID_BIRTHDAY_NURSE"
+    },
+    {
       "id": "HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE",
       "map": "MAP_EVER_GRANDE_CITY",
       "x": 18,
