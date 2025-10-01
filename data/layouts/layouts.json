@@ -4590,6 +4590,16 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/Birthday_PokemonCenter/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_CAVE_PAST_R1",
+      "name": "Birthday_Cave_Past_R1_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Cave_Past_R1/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Cave_Past_R1/map.bin"
     }
   ]
 }

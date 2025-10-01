@@ -19,9 +19,7 @@
       "direction": "down"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 18,
@@ -43,12 +41,15 @@
       "elevation": 0,
       "dest_map": "MAP_BIRTHDAY_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_CAVE_PAST_R1",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }
