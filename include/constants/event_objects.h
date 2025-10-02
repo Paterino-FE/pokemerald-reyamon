@@ -250,11 +250,12 @@
 #define OBJ_EVENT_GFX_DIRKLING                   246
 #define OBJ_EVENT_GFX_LILYPAL                    247
 #define OBJ_EVENT_GFX_ROSUURI                    248
+#define OBJ_EVENT_GFX_PURGE                      249
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        249
+#define NUM_OBJ_EVENT_GFX                        250
 
 
 // These are dynamic object gfx ids.
@@ -407,6 +408,7 @@
 #define OBJ_EVENT_PAL_TAG_DIRKLING                0x1142
 #define OBJ_EVENT_PAL_TAG_LILYPAL                 0x1143
 #define OBJ_EVENT_PAL_TAG_ROSUURI                 0x1144
+#define OBJ_EVENT_PAL_TAG_PURGE                   0x1145
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

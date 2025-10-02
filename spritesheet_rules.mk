@@ -61,6 +61,9 @@ $(OBJEVENTGFXDIR)/people/lilypal.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/rosuuri.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/purge.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/hastings.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
