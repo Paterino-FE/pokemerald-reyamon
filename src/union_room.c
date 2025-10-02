@@ -3380,7 +3380,7 @@ static void Task_InitUnionRoom(u8 taskId)
 
 bool16 BufferUnionRoomPlayerName(void)
 {
-    return FALSE;
+    //return FALSE;
     if (!ShouldCheckForUnionRoom())
         return FALSE;
 

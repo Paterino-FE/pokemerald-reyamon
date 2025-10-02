@@ -4610,6 +4610,16 @@
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/Birthday_Cave_Past_R2/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Cave_Past_R2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_CAVE_PAST_R3",
+      "name": "Birthday_Cave_Past_R3_Layout",
+      "width": 22,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Cave_Past_R3/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Cave_Past_R3/map.bin"
     }
   ]
 }

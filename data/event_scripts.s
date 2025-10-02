@@ -1192,3 +1192,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Cave_Past_R1/scripts.inc"
 
 	.include "data/maps/Birthday_Cave_Past_R2/scripts.inc"
+
+	.include "data/maps/Birthday_Cave_Past_R3/scripts.inc"
