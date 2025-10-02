@@ -25,11 +25,14 @@ static const u32 sMugshotImg_Reya[] = INCBIN_U32("graphics/mugshots/reya.4bpp.lz
 static const u16 sMugshotPal_Reya[] = INCBIN_U16("graphics/mugshots/reya.gbapal");
 static const u32 sMugshotImg_Rosuuri[] = INCBIN_U32("graphics/mugshots/rosuuri.4bpp.lz");
 static const u16 sMugshotPal_Rosuuri[] = INCBIN_U16("graphics/mugshots/rosuuri.gbapal");
+static const u32 sMugshotImg_Wally[] = INCBIN_U32("graphics/mugshots/wally.4bpp.lz");
+static const u16 sMugshotPal_Wally[] = INCBIN_U16("graphics/mugshots/wally.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
     [MUGSHOT_REYA] = {.x = 16, .y = 0, .width = 64, .height = 64, .image = sMugshotImg_Reya, .palette = sMugshotPal_Reya},
     [MUGSHOT_ROSUURI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Rosuuri, .palette = sMugshotPal_Rosuuri},
+    [MUGSHOT_WALLY] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Wally, .palette = sMugshotPal_Wally},
 };
 
 

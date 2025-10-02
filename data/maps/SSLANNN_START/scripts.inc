@@ -1,5 +1,5 @@
 SSLANNN_START_TEST_TALK_MUGSHOT::
-	setvar VAR_0x8000, MUGSHOT_ROSUURI
+	setvar VAR_0x8000, MUGSHOT_WALLY
 	callnative DrawMugshot
 	lock
 	faceplayer
