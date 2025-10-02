@@ -2,6 +2,7 @@
 
 Birthday_PokemonCenter_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Birthday_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
 
 Birthday_PokemonCenter_1F_OnTransition:
