@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_BEACH_START",
   "name": "Birthday_Beach_Start",
   "layout": "LAYOUT_BIRTHDAY_BEACH_START",
-  "music": "MUS_DUMMY",
+  "music": "MUS_STEAMGARDENS",
   "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
