@@ -292,6 +292,9 @@ const u32 gTrainerPalette_Dirkling[] = INCBIN_U32("graphics/trainers/palettes/di
 const u32 gTrainerFrontPic_Lilypal[] = INCBIN_U32("graphics/trainers/front_pics/lilypal.4bpp.lz");
 const u32 gTrainerPalette_Lilypal[] = INCBIN_U32("graphics/trainers/palettes/lilypal.gbapal.lz");
 
+const u32 gTrainerFrontPic_Mable[] = INCBIN_U32("graphics/trainers/front_pics/mable.4bpp.lz");
+const u32 gTrainerPalette_Mable[] = INCBIN_U32("graphics/trainers/palettes/mable.gbapal.lz");
+
 const u32 gTrainerFrontPic_Rosuuri[] = INCBIN_U32("graphics/trainers/front_pics/rosuuri.4bpp.lz");
 const u32 gTrainerPalette_Rosuuri[] = INCBIN_U32("graphics/trainers/palettes/rosuuri.gbapal.lz");
 
@@ -440,6 +443,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_DIRKLING, gTrainerFrontPic_Dirkling, gTrainerPalette_Dirkling),
     TRAINER_SPRITE(TRAINER_PIC_LILYPAL, gTrainerFrontPic_Lilypal, gTrainerPalette_Lilypal),
     TRAINER_SPRITE(TRAINER_PIC_ROSUURI, gTrainerFrontPic_Rosuuri, gTrainerPalette_Rosuuri),
+    TRAINER_SPRITE(TRAINER_PIC_MABLE, gTrainerFrontPic_Mable, gTrainerPalette_Mable),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =
