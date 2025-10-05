@@ -4620,6 +4620,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Birthday_Cave_Past_R3/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Cave_Past_R3/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEV_MAP",
+      "name": "DevMap_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/DevMap/border.bin",
+      "blockdata_filepath": "data/layouts/DevMap/map.bin"
     }
   ]
 }

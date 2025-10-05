@@ -17,3 +17,37 @@ Birthday_PokemonCenter_1F_EventScript_Nurse::
 	release
 	end
 
+Birthday_Mart_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_WantSomeStuff
+	waitmessage
+	pokemart Birthday_Mart_Pokemart
+	msgbox gText_NeverSnitch, MSGBOX_DEFAULT
+	release
+	end
+
+.align 2
+Birthday_Mart_Pokemart:
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_HYPER_POTION
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_SHADOW_MAIL
+	.2byte ITEM_MOUTH_WASH
+	pokemartlistend
+
+gText_WantSomeStuff::
+	.string "Want some good drugs?\p"
+	.string "FLP can get you anything!$"
+
+gText_NeverSnitch:
+	.string "Don't snitch on me...\n"
+	.string "I'll know if you do.$"
+
+
