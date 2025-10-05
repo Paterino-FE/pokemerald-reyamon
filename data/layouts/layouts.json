@@ -4640,6 +4640,26 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Birthday_Mable_Lighthouse/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Mable_Lighthouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_ROUTE_1",
+      "name": "Birthday_Route_1_Layout",
+      "width": 60,
+      "height": 42,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Birthday_Route_1/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Route_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_ROUTE_2",
+      "name": "Birthday_Route_2_Layout",
+      "width": 60,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Birthday_Route_2/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Route_2/map.bin"
     }
   ]
 }

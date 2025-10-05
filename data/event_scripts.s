@@ -1198,3 +1198,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/DevMap/scripts.inc"
 
 	.include "data/maps/Birthday_Mable_Lighthouse/scripts.inc"
+
+	.include "data/maps/Birthday_Route_1/scripts.inc"
+
+	.include "data/maps/Birthday_Route_2/scripts.inc"

@@ -22,6 +22,11 @@
       "map": "MAP_BIRTHDAY_MABLE_LIGHTHOUSE",
       "offset": -6,
       "direction": "right"
+    },
+    {
+      "map": "MAP_BIRTHDAY_ROUTE_1",
+      "offset": -14,
+      "direction": "up"
     }
   ],
   "object_events": [],
