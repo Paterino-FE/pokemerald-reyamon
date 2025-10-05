@@ -1196,3 +1196,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Cave_Past_R3/scripts.inc"
 
 	.include "data/maps/DevMap/scripts.inc"
+
+	.include "data/maps/Birthday_Mable_Lighthouse/scripts.inc"

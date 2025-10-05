@@ -4630,6 +4630,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/DevMap/border.bin",
       "blockdata_filepath": "data/layouts/DevMap/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MABLE_LIGHTHOUSE",
+      "name": "Birthday_Mable_Lighthouse_Layout",
+      "width": 45,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Birthday_Mable_Lighthouse/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mable_Lighthouse/map.bin"
     }
   ]
 }

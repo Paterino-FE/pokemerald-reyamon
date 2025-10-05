@@ -1,0 +1,26 @@
+{
+  "id": "MAP_BIRTHDAY_MABLE_LIGHTHOUSE",
+  "name": "Birthday_Mable_Lighthouse",
+  "layout": "LAYOUT_BIRTHDAY_MABLE_LIGHTHOUSE",
+  "music": "MUS_STEAMGARDENS",
+  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_BIRTHDAY_MAIN_VILLAGE",
+      "offset": 6,
+      "direction": "left"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

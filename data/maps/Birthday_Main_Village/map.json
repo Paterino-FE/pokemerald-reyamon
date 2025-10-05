@@ -17,6 +17,11 @@
       "map": "MAP_BIRTHDAY_BEACH_START",
       "offset": -3,
       "direction": "down"
+    },
+    {
+      "map": "MAP_BIRTHDAY_MABLE_LIGHTHOUSE",
+      "offset": -6,
+      "direction": "right"
     }
   ],
   "object_events": [],
