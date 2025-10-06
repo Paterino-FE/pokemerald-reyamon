@@ -1,5 +1,5 @@
 SSLANNN_START_TEST_TALK_MUGSHOT::
-	setvar VAR_0x8000, MUGSHOT_LILYPAD
+	setvar VAR_0x8000, MUGSHOT_MABLEWOTT
 	callnative DrawMugshot
 	lock
 	faceplayer
@@ -8,7 +8,7 @@ SSLANNN_START_TEST_TALK_MUGSHOT::
 	end
 
 SomeText:
-.string "Hey Reya, I hope you are doing well!!!.$"
+.string "Look Mable, I got a knife!!!$"
 
 SSLANNN_START_MapScripts::
 	.byte 0

@@ -32,5 +32,6 @@
 #define MUGSHOT_FRIEREN     27
 #define MUGSHOT_REYABS      28
 #define MUGSHOT_ALEX        29
+#define MUGSHOT_MABLEWOTT   30
 
 #endif
