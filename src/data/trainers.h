@@ -28517,3 +28517,123 @@ F_TRAINER_FEMALE |
             },
         },
     },
+    [TRAINER_DDYLAN] =
+    {
+        .trainerName = _("DYLAN"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_NINJASK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SPEED_BOOST,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_PROTECT,
+                MOVE_SUBSTITUTE,
+                MOVE_BATON_PASS,
+                MOVE_SWORDS_DANCE
+                },
+            },
+            {
+            .species = SPECIES_SNORLAX,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_THICK_FAT,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHESTO_BERRY,
+            .moves = {
+                MOVE_SLEEP_TALK,
+                MOVE_REST,
+                MOVE_SUBSTITUTE,
+                MOVE_EARTHQUAKE
+                },
+            },
+            {
+            .species = SPECIES_MIMIKYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_DISGUISE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FLAME_ORB,
+            .moves = {
+                MOVE_PLAY_ROUGH,
+                MOVE_SHADOW_CLAW,
+                MOVE_WILL_O_WISP,
+                MOVE_TRICK
+                },
+            },
+        },
+    },
+    [TRAINER_KITTY] =
+    {
+        .trainerName = _("KITTY"),
+        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerPic = TRAINER_PIC_LILYPAL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_UMBREON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SYNCHRONIZE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_AIR_BALLOON,
+            .moves = {
+                MOVE_SNARL,
+                MOVE_TOXIC,
+                MOVE_MIMIC,
+                MOVE_CHARM
+                },
+            },
+            {
+            .species = SPECIES_SYLVEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_PIXILATE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_HYPER_VOICE,
+                MOVE_DAZZLING_GLEAM,
+                MOVE_PROTECT,
+                MOVE_HEAL_BELL
+                },
+            },
+            {
+            .species = SPECIES_MEOWSTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_COMPETITIVE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_TOXIC_ORB,
+            .moves = {
+                MOVE_PSYSHOCK,
+                MOVE_CALM_MIND,
+                MOVE_PROTECT,
+                MOVE_SIGNAL_BEAM
+                },
+            },
+        },
+    },
