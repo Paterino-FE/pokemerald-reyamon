@@ -1202,3 +1202,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Route_1/scripts.inc"
 
 	.include "data/maps/Birthday_Route_2/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_Peak/scripts.inc"

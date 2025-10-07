@@ -1613,6 +1613,28 @@ const u16 gTilesetPalettes_MysteryEventsHouse[][16] =
     INCBIN_U16("data/tilesets/secondary/mystery_events_house/palettes/15.gbapal"),
 };
 
+const u32 gTilesetTiles_SeafoamIslands[] = INCBIN_U32("data/tilesets/secondary/seafoam_islands/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_SeafoamIslands[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/seafoam_islands/palettes/15.gbapal"),
+};
+
 const u16 gTilesetPalettes_UnionRoom[][16] =
 {
     INCBIN_U16("data/tilesets/secondary/union_room/palettes/00.gbapal"),

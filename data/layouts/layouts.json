@@ -4660,6 +4660,16 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Birthday_Route_2/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Route_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_PEAK",
+      "name": "Birthday_Mountain_Future_Peak_Layout",
+      "width": 60,
+      "height": 100,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SeafoamIslands",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_Peak/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Peak/map.bin"
     }
   ]
 }
