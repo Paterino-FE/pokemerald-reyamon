@@ -552,8 +552,8 @@
 #define TRAINER_HALLE                       546
 #define TRAINER_GARRISON                    547
 #define TRAINER_LANNN                       548
-#define TRAINER_UNUSED_34                   549
-#define TRAINER_UNUSED_35                   550
+#define TRAINER_DDYLAN                      549
+#define TRAINER_KITTY                       550
 #define TRAINER_UNUSED_36                   551
 #define TRAINER_JACKSON_1                   552
 #define TRAINER_LORENZO                     553

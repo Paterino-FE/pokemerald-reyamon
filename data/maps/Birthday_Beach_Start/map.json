@@ -30,7 +30,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Dylan_EventScript",
       "flag": "0"
     },
     {
@@ -43,7 +43,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Kitty_EventScript",
       "flag": "0"
     },
     {
@@ -56,7 +56,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Dirkling1_EventScript",
       "flag": "0"
     },
     {
@@ -69,7 +69,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Dirkling3_EventScript",
       "flag": "0"
     },
     {
@@ -82,7 +82,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Dirkling2_EventScript",
       "flag": "0"
     },
     {
@@ -95,7 +95,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Lilypal1_EventScript",
       "flag": "0"
     },
     {
@@ -108,7 +108,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Lilypal3_EventScript",
       "flag": "0"
     },
     {
@@ -121,7 +121,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Lilypal2_EventScript",
       "flag": "0"
     },
     {
@@ -193,6 +193,10 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }
