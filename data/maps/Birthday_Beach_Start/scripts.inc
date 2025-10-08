@@ -66,6 +66,14 @@ Birthday_Beach_DylanKittyBattle_EventScript::
 	release
 	end
 
+Birthday_Beach_Astarion_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Beach_Astarion_Text, MSGBOX_DEFAULT
+	release
+	end
+
+
 Birthday_Beach_DylanKittyPreBattle_Text:
 	.string "DYLAN: Hey, can you NOT interrupt out\n"
 	.string "perfect date?!\p"
@@ -112,3 +120,14 @@ Birthday_Beach_Lilypal2_Text:
 Birthday_Beach_Lilypal3_Text:
 	.string "I wanted to fish on the other side,\n"
 	.string "but those DIRKLINGS chased me away...$"
+
+Birthday_Beach_Astarion_Text:
+	.string "You're wondering what you are\n"
+	.string "looking at?\p"
+	.string "Why, just a sunbathing vampire,\n"
+	.string "here to wish you a happy\l"
+	.string "birthday, darling! Much love!\p"
+	.string "Now would you kinda step out of the\n"
+	.string "sun, I'm trying to get a tan here.$"
+
+
