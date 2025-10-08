@@ -127,7 +127,7 @@ Birthday_Beach_Astarion_Text:
 	.string "Why, just a sunbathing vampire,\n"
 	.string "here to wish you a happy\l"
 	.string "birthday, darling! Much love!\p"
-	.string "Now would you kinda step out of the\n"
+	.string "Now would you kindly step out of the\n"
 	.string "sun, I'm trying to get a tan here.$"
 
 
