@@ -33,5 +33,14 @@
 #define MUGSHOT_REYABS      28
 #define MUGSHOT_ALEX        29
 #define MUGSHOT_MABLEWOTT   30
+#define MUGSHOT_ELLIE       31
+#define MUGSHOT_MABLE       32
+#define MUGSHOT_BO          33
+#define MUGSHOT_GRAPE       34
+#define MUGSHOT_PURGE       35
+#define MUGSHOT_OSHAWOTT    36
+#define MUGSHOT_SAMUROTT    37
+#define MUGSHOT_NEURO       38
+#define MUGSHOT_CHARJABUG   39
 
 #endif
