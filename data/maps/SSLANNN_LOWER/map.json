@@ -12,8 +12,10 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
+  "connections": 0,
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 17,
@@ -30,6 +32,49 @@
       "dest_warp_id": "5"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SSLANNN_DoorIsLocked_EventScript"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SSLANNN_DoorIsLocked_EventScript"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SSLANNN_DoorIsLocked_EventScript"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SSLANNN_DoorIsLocked_EventScript"
+    },
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 4,
+      "elevation": 0,
+      "item": "ITEM_ROCKY_HELMET",
+      "flag": "FLAG_HIDDEN_ITEM_SSLANNN_LOWER_ROCKY_HELMET"
+    }
+  ]
 }

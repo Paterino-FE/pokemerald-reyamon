@@ -38,6 +38,9 @@ SSLANNN_Start_Lilypal1_EventScript::
 	release
 	end
 
+SSLANNN_DoorIsLocked_EventScript::
+	msgbox SSLANNN_Text_DoorIsLocked, MSGBOX_SIGN
+	end
 
 SSLANNN_START_Dirkling1_Text:
 	.string "Don't worry! I will not use my\n"
@@ -52,3 +55,5 @@ SSLANNN_START_Lilypal1_Text:
 	.string "I will try to stay out of your way\l"
 	.string "and let you do the rescuing.$"
 
+SSLANNN_Text_DoorIsLocked:
+	.string "The door is locked.$"
