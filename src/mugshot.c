@@ -84,7 +84,7 @@ static const u16 sMugshotPal_Mablewott[] = INCBIN_U16("graphics/mugshots/mablewo
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
-    [MUGSHOT_REYADETAIL] = {.x = 16, .y = 0, .width = 64, .height = 64, .image = sMugshotImg_Reya, .palette = sMugshotPal_Reya},
+    [MUGSHOT_REYADETAIL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Reya, .palette = sMugshotPal_Reya},
     [MUGSHOT_ROSUURI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Rosuuri, .palette = sMugshotPal_Rosuuri},
     [MUGSHOT_LILYPAD] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lilypad, .palette = sMugshotPal_Lilypad},
     [MUGSHOT_VYRAL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Vyral, .palette = sMugshotPal_Vyral},
