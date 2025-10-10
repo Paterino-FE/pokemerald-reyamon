@@ -118,7 +118,8 @@
 #define TRAINER_PIC_LILYPAL               100
 #define TRAINER_PIC_ROSUURI               101
 #define TRAINER_PIC_MABLE                 102
-#define TRAINER_PIC_COUNT                 103
+#define TRAINER_PIC_GRAPE                 103
+#define TRAINER_PIC_COUNT                 104
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -368,7 +369,8 @@
 #define TRAINER_CLASS_EMILIA         0x46
 #define TRAINER_CLASS_LILYPAL        0x47
 #define TRAINER_CLASS_DIRKLING       0x48
-#define TRAINER_CLASS_COUNT          0x49
+#define TRAINER_CLASS_GRAPE          0x49
+#define TRAINER_CLASS_COUNT          0x50
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

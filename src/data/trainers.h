@@ -28709,7 +28709,7 @@ F_TRAINER_FEMALE |
     },
     [TRAINER_NIGELTASTIC] =
     {
-        .trainerName = _("NIGELTASTIC"),
+        .trainerName = _("NIGEL"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
         .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -28763,66 +28763,6 @@ F_TRAINER_FEMALE |
                 MOVE_EARTHQUAKE,
                 MOVE_STONE_EDGE,
                 MOVE_REST
-                },
-            },
-        },
-    },
-    [TRAINER_DDYLAN] =
-    {
-        .trainerName = _("DYLAN"),
-        .trainerClass = TRAINER_CLASS_DIRKLING,
-        .trainerPic = TRAINER_PIC_DIRKLING,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doubleBattle = FALSE,
-        .partySize = 3,
-        .party = (const struct TrainerMon[])
-        {
-            {
-            .species = SPECIES_NINJASK,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .ability = ABILITY_SPEED_BOOST,
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = ITEM_LEFTOVERS,
-            .moves = {
-                MOVE_PROTECT,
-                MOVE_SUBSTITUTE,
-                MOVE_BATON_PASS,
-                MOVE_SWORDS_DANCE
-                },
-            },
-            {
-            .species = SPECIES_SNORLAX,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .ability = ABILITY_THICK_FAT,
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = ITEM_CHESTO_BERRY,
-            .moves = {
-                MOVE_SLEEP_TALK,
-                MOVE_REST,
-                MOVE_SUBSTITUTE,
-                MOVE_EARTHQUAKE
-                },
-            },
-            {
-            .species = SPECIES_MIMIKYU,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .ability = ABILITY_DISGUISE,
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = ITEM_FLAME_ORB,
-            .moves = {
-                MOVE_PLAY_ROUGH,
-                MOVE_SHADOW_CLAW,
-                MOVE_WILL_O_WISP,
-                MOVE_TRICK
                 },
             },
         },
@@ -28889,7 +28829,7 @@ F_TRAINER_FEMALE |
     },
     [TRAINER_GLACIAL_RAVEN] =
     {
-        .trainerName = _("GLACIAL RAVEN"),
+        .trainerName = _("G. RAVEN"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
         .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,

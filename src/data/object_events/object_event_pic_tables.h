@@ -169,6 +169,18 @@ static const struct SpriteFrameImage sPicTable_Hastings[] = {
     overworld_ascending_frames(gObjectEventPic_Hastings, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_Grape[] = {
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Grape, 4, 4, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_Dirkling[] = {
     overworld_ascending_frames(gObjectEventPic_Dirkling, 2, 4),
 };

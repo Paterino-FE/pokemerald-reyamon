@@ -4624,8 +4624,8 @@
     {
       "id": "LAYOUT_DEV_MAP",
       "name": "DevMap_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 8,
+      "height": 8,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/DevMap/border.bin",

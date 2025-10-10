@@ -558,9 +558,9 @@
 #define TRAINER_JACKSON_1                   552
 #define TRAINER_LORENZO                     553
 #define TRAINER_SEBASTIAN                   554
-#define TRAINER_UNUSED_29                   555
-#define TRAINER_UNUSED_30                   556
-#define TRAINER_UNUSED_31                   557
+#define TRAINER_NIGELTASTIC                 555
+#define TRAINER_BANDANAT                    556
+#define TRAINER_GLACIAL_RAVEN               557
 #define TRAINER_UNUSED_32                   558
 #define TRAINER_CATHERINE_1                 559
 #define TRAINER_JENNA                       560
@@ -694,7 +694,7 @@
 #define TRAINER_UNUSED_5                    688
 #define TRAINER_UNUSED_6                    689
 #define TRAINER_UNUSED_77                   690
-#define TRAINER_UNUSED_88                   691
+#define TRAINER_QUATTUOR                    691
 #define TRAINER_LISA_AND_RAY                692
 #define TRAINER_CHRIS                       693
 #define TRAINER_DAWSON                      694
@@ -864,10 +864,6 @@
 #define TRAINER_WALLY_PETALBURG_GYM         859
 #define TRAINER_CLOR                        860
 #define TRAINER_EMILIA                      861
-#define TRAINER_QUATTUOR                    862
-#define TRAINER_NIGELTASTIC                 863
-#define TRAINER_BANDANAT                    864
-#define TRAINER_GLACIAL_RAVEN               865
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
