@@ -28845,7 +28845,7 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = BLACK_SLUDGE,
+            .heldItem = ITEM_BLACK_SLUDGE,
             .moves = {
                 MOVE_SWAGGER,
                 MOVE_THUNDER_WAVE,
@@ -28883,6 +28883,63 @@ F_TRAINER_FEMALE |
                 MOVE_AQUA_JET,
                 MOVE_SING,
                 MOVE_PLAY_ROUGH
+                },
+            },
+        },
+    },
+    [TRAINER_GLACIAL_RAVEN] =
+    {
+        .trainerName = _("GLACIAL RAVEN"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_BLAZIKEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_BLAZE,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_HI_JUMP_KICK,
+                MOVE_SWAGGER,
+                MOVE_EARTHQUAKE,
+                MOVE_BLAZE_KICK
+                },
+            },
+            {
+            .species = SPECIES_LUXRAY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_RIVALRY,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_ICE_FANG,
+                MOVE_CRUNCH,
+                MOVE_DOUBLE_TEAM,
+                MOVE_THUNDERBOLT
+                },
+            },
+            {
+            .species = SPECIES_HAXORUS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_UNNERVE,
+            .lvl = 60,
+            .nature = NATURE_HASTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_DRAGON_CLAW,
+                MOVE_EARTHQUAKE,
+                MOVE_GUILLOTINE,
+                MOVE_COUNTER
                 },
             },
         },
