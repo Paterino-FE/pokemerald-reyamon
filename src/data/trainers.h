@@ -28637,3 +28637,253 @@ F_TRAINER_FEMALE |
             },
         },
     },
+    [TRAINER_QUATTUOR] =
+    {
+        .trainerName = _("QUATTUOR"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 4,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_CHANDELURE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_FLAME_BODY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_FLAMETHROWER,
+                MOVE_SHADOW_BALL,
+                MOVE_SUBSTITUTE,
+                MOVE_TAUNT
+                },
+            },
+            {
+            .species = SPECIES_RHYPERIOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SOLID_ROCK,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_TAKE_DOWN,
+                MOVE_ROCK_TOMB,
+                MOVE_DRILL_RUN,
+                MOVE_IRON_DEFENSE
+                },
+            },
+            {
+            .species = SPECIES_KECLEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_COLOR_CHANGE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_ATTRACT,
+                MOVE_SUBSTITUTE
+                },
+            },
+            {
+            .species = SPECIES_HITMONLEE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SOLID_ROCK,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_TAKE_DOWN,
+                MOVE_ROCK_TOMB,
+                MOVE_DRILL_RUN,
+                MOVE_IRON_DEFENSE
+                },
+            },
+        },
+    },
+    [TRAINER_NIGELTASTIC] =
+    {
+        .trainerName = _("NIGELTASTIC"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_CHARMANDER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SOLAR_POWER,
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHARCOAL,
+            .moves = {
+                MOVE_SUNNY_DAY,
+                MOVE_FLAMETHROWER,
+                MOVE_BLAST_BURN,
+                MOVE_DRAGON_PULSE
+                },
+            },
+            {
+            .species = SPECIES_TOTODILE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SHEER_FORCE,
+            .lvl = 60,
+            .nature = NATURE_LONELY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LIFE_ORB,
+            .moves = {
+                MOVE_CRUNCH,
+                MOVE_WATERFALL,
+                MOVE_BODY_SLAM,
+                MOVE_ICE_PUNCH
+                },
+            },
+            {
+            .species = SPECIES_LARVITAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_GUTS,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FLAME_ORB,
+            .moves = {
+                MOVE_FACADE,
+                MOVE_EARTHQUAKE,
+                MOVE_STONE_EDGE,
+                MOVE_REST
+                },
+            },
+        },
+    },
+    [TRAINER_DDYLAN] =
+    {
+        .trainerName = _("DYLAN"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_NINJASK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SPEED_BOOST,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_PROTECT,
+                MOVE_SUBSTITUTE,
+                MOVE_BATON_PASS,
+                MOVE_SWORDS_DANCE
+                },
+            },
+            {
+            .species = SPECIES_SNORLAX,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_THICK_FAT,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHESTO_BERRY,
+            .moves = {
+                MOVE_SLEEP_TALK,
+                MOVE_REST,
+                MOVE_SUBSTITUTE,
+                MOVE_EARTHQUAKE
+                },
+            },
+            {
+            .species = SPECIES_MIMIKYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_DISGUISE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FLAME_ORB,
+            .moves = {
+                MOVE_PLAY_ROUGH,
+                MOVE_SHADOW_CLAW,
+                MOVE_WILL_O_WISP,
+                MOVE_TRICK
+                },
+            },
+        },
+    },
+    [TRAINER_BANDANAT] =
+    {
+        .trainerName = _("BANDANAT"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_ZIGZAGOON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_GLUTTONY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = BLACK_SLUDGE,
+            .moves = {
+                MOVE_SWAGGER,
+                MOVE_THUNDER_WAVE,
+                MOVE_TRICK,
+                MOVE_HEADBUTT
+                },
+            },
+            {
+            .species = SPECIES_WHIMSICOTT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_PRANKSTER,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_BIG_ROOT,
+            .moves = {
+                MOVE_TAILWIND,
+                MOVE_LEECH_SEED,
+                MOVE_GRASSY_TERRAIN,
+                MOVE_U_TURN
+                },
+            },
+            {
+            .species = SPECIES_AZUMARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_HUGE_POWER,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_AQUA_RING,
+                MOVE_AQUA_JET,
+                MOVE_SING,
+                MOVE_PLAY_ROUGH
+                },
+            },
+        },
+    },
