@@ -1204,3 +1204,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Route_2/scripts.inc"
 
 	.include "data/maps/Birthday_Mountain_Future_Peak/scripts.inc"
+
+	.include "data/maps/Birthday_Route_3/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_F1/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_Floors_to_peak/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_Chamber_F1/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_Chamber_Trial/scripts.inc"
+
+	.include "data/maps/Birthday_Mountain_Future_Chamber_Trial_Path/scripts.inc"
+
+	.include "data/maps/Birthday_Ellies_House/scripts.inc"
+
+	.include "data/maps/Birthday_Ellies_House_Bedroom/scripts.inc"

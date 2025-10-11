@@ -4670,6 +4670,86 @@
       "secondary_tileset": "gTileset_SeafoamIslands",
       "border_filepath": "data/layouts/Birthday_Mountain_Future_Peak/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Peak/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_ROUTE_3",
+      "name": "Birthday_Route_3_Layout",
+      "width": 60,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PokemonDayCare",
+      "border_filepath": "data/layouts/Birthday_Route_3/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Route_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_F1",
+      "name": "Birthday_Mountain_Future_F1_Layout",
+      "width": 40,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_F1/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_FLOORS_TO_PEAK",
+      "name": "Birthday_Mountain_Future_Floors_to_peak_Layout",
+      "width": 20,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_Floors_to_peak/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Floors_to_peak/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_CHAMBER_F1",
+      "name": "Birthday_Mountain_Future_Chamber_F1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SeafoamIslands",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_F1/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_CHAMBER_TRIAL",
+      "name": "Birthday_Mountain_Future_Chamber_Trial_Layout",
+      "width": 25,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_Trial/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_Trial/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_CHAMBER_TRIAL_PATH",
+      "name": "Birthday_Mountain_Future_Chamber_Trial_Path_Layout",
+      "width": 25,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_Trial_Path/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Mountain_Future_Chamber_Trial_Path/map.bin"
+    },
+    {
+      "id": "LAYOUT_Birthday_Ellies_House",
+      "name": "Birthday_Ellies_House_Layout",
+      "width": 13,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Birthday_Ellies_House/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Ellies_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_ELLIES_HOUSE_BEDROOM",
+      "name": "Birthday_Ellies_House_Bedroom_Layout",
+      "width": 10,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Birthday_Ellies_House_Bedroom/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Ellies_House_Bedroom/map.bin"
     }
   ]
 }

@@ -27,6 +27,13 @@
       "elevation": 0,
       "dest_map": "MAP_BIRTHDAY_CAVE_PAST_R1",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_Birthday_Ellies_House",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

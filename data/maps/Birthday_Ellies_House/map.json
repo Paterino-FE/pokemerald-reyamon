@@ -1,0 +1,42 @@
+{
+  "id": "MAP_Birthday_Ellies_House",
+  "name": "Birthday_Ellies_House",
+  "layout": "LAYOUT_Birthday_Ellies_House",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_ROUTE_2",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_ROUTE_2",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_ELLIES_HOUSE_BEDROOM",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
