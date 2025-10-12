@@ -35,7 +35,7 @@ Birthday_Mable_Lighthouse_Mablewott::
 	waitmovement 0
 	special RemoveCameraObject
 	delay 60
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_Mablewott_3, MSGBOX_SIGN, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_Mablewott_3, MSGBOX_SIGN, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	delay 20
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, Mable_Lighthouse_Movement_Mablewott_Event_5
@@ -45,7 +45,7 @@ Birthday_Mable_Lighthouse_Mablewott::
 	delay 20
 	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_Mablewott_4, MSGBOX_SIGN, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_Mablewott_4, MSGBOX_SIGN, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	applymovement LOCALID_MABLE, Mable_Lighthouse_Movement_Mablewott_Event_7
 	delay 60
 	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
@@ -123,12 +123,12 @@ Birthday_Mable_Lighthouse_TEXT_Mablewott_4:
 
 Mable_Lighthouse_EventScript_Mable::
 	goto_if_not_defeated TRAINER_MABLE, Mable_Lighthouse_EventScript_DoBattle
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_4, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_4, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	release
 	end
 
 Mable_Lighthouse_EventScript_DoBattle::
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_1, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_1, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
 	waitmoncry
 	applymovement LOCALID_OSHAWOTT_2, Mable_Lighthouse_Movement_Oshawott_Evolves
@@ -140,13 +140,13 @@ Mable_Lighthouse_EventScript_DoBattle::
 	addobject LOCALID_SAMUROTT
 	playmoncry SPECIES_SAMUROTT, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_2, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_2, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	trainerbattle_single TRAINER_MABLE, Birthday_Mable_Lighthouse_TEXT_MableFight_5, Birthday_Mable_Lighthouse_TEXT_MableFight_2, Mable_Lighthouse_EventScript_MableDefeated
 	release
 	end
 
 Mable_Lighthouse_EventScript_MableDefeated::
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_3, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_3, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	release
 	end
 

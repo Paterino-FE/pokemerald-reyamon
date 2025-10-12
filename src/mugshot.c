@@ -81,6 +81,10 @@ static const u32 sMugshotImg_Reyabs[] = INCBIN_U32("graphics/mugshots/may.4bpp.l
 static const u16 sMugshotPal_Reyabs[] = INCBIN_U16("graphics/mugshots/may.gbapal");
 static const u32 sMugshotImg_Mablewott[] = INCBIN_U32("graphics/mugshots/mablewott.4bpp.lz");
 static const u16 sMugshotPal_Mablewott[] = INCBIN_U16("graphics/mugshots/mablewott.gbapal");
+static const u32 sMugshotImg_Ellie[] = INCBIN_U32("graphics/mugshots/ellie.4bpp.lz");
+static const u16 sMugshotPal_Ellie[] = INCBIN_U16("graphics/mugshots/ellie.gbapal");
+static const u32 sMugshotImg_Mable[] = INCBIN_U32("graphics/mugshots/mable.4bpp.lz");
+static const u16 sMugshotPal_Mable[] = INCBIN_U16("graphics/mugshots/mable.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
@@ -114,6 +118,8 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_FRIEREN] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Frieren, .palette = sMugshotPal_Frieren},
     [MUGSHOT_REYABS] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Reyabs, .palette = sMugshotPal_Reyabs},
     [MUGSHOT_MABLEWOTT] = {.x = 6, .y = -1, .width = 128, .height = 128, .image = sMugshotImg_Mablewott, .palette = sMugshotPal_Mablewott},
+    [MUGSHOT_ELLIE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Ellie, .palette = sMugshotPal_Ellie},
+    [MUGSHOT_MABLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Mable, .palette = sMugshotPal_Mable},
 }; 
 
 
