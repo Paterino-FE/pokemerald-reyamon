@@ -1220,3 +1220,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Ellies_House/scripts.inc"
 
 	.include "data/maps/Birthday_Ellies_House_Bedroom/scripts.inc"
+
+	.include "data/maps/Birthday_Route_4/scripts.inc"
+
+	.include "data/maps/Birthday_Village_Present/scripts.inc"

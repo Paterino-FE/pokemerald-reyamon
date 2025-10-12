@@ -4750,6 +4750,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Birthday_Ellies_House_Bedroom/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Ellies_House_Bedroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_ROUTE_4",
+      "name": "Birthday_Route_4_Layout",
+      "width": 36,
+      "height": 45,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Birthday_Route_4/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Route_4/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_VILLAGE_PRESENT",
+      "name": "Birthday_Village_Present_Layout",
+      "width": 60,
+      "height": 51,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Birthday_Village_Present/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Village_Present/map.bin"
     }
   ]
 }
