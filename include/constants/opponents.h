@@ -567,7 +567,7 @@
 #define TRAINER_SOPHIA                      561
 #define TRAINER_MABLE                       562
 #define TRAINER_CIARAN                      563
-#define TRAINER_UNUSED_27                   564
+#define TRAINER_OCARINAOFME                 564
 #define TRAINER_UNUSED_28                   565
 #define TRAINER_JULIO                       566
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     567
