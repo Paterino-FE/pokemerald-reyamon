@@ -1171,9 +1171,9 @@
 #define FLAG_EMILIA_CALLED_BIRTHDAY                                 0x49D // Unused Flag
 #define FLAG_GOT_BIRTHDAY_TICKET                                    0x49E // Unused Flag
 #define FLAG_FINISHED_SSLANN                                        0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
+#define FLAG_HIDE_OSHAWOTT_1                                        0x4A0 // Unused Flag
+#define FLAG_HIDE_SAMUROTT                                          0x4A1 // Unused Flag
+#define FLAG_HIDE_OSHAWOTT_2                                        0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
