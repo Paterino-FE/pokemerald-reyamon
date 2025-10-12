@@ -73,6 +73,27 @@ Birthday_Beach_Astarion_EventScript::
 	release
 	end
 
+Birthday_Beach_NanamiBear_EventScript::
+	lock
+	faceplayer
+	playmoncry SPECIES_BEARTIC, CRY_MODE_ENCOUNTER
+	waitmoncry
+	release
+	end
+
+Birthday_Beach_Luminel_EventScript::
+	trainerbattle_single TRAINER_LUMI_BEACH, Birthday_Beach_Luminel_IntroText, Birthday_Beach_Luminel_DefeatText
+	msgbox Birthday_Beach_Luminel_PostBattleText, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Beach_Luminel_IntroText:
+	.string "Oh so fluffy!$"
+
+Birthday_Beach_Luminel_DefeatText:
+	.string "Oh so defeated!$"
+
+Birthday_Beach_Luminel_PostBattleText:
+	.string "Oh so post battle!$"
 
 Birthday_Beach_DylanKittyPreBattle_Text:
 	.string "DYLAN: Hey, can you NOT interrupt out\n"

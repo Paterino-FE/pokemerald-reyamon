@@ -31022,7 +31022,7 @@ F_TRAINER_FEMALE |
     },
     [TRAINER_ANTLEREDKEY] =
     {
-        .trainerName = _("ANTLEREDKY"),
+        .trainerName = _("ANTLERDKEY"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
         .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -31354,6 +31354,77 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
                 MOVE_SPLASH
+                },
+            },
+        },
+    },
+    [TRAINER_LUMI_BEACH] =
+    {
+        .trainerName = _("LUMINEL"),
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 4,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_RAICHU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_STATIC,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_THUNDER,
+                MOVE_NUZZLE,
+                MOVE_VOLT_SWITCH,
+                MOVE_LIGHT_SCREEN
+                },
+            },
+            {
+            .species = SPECIES_BEARTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SNOW_CLOAK,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHESTO_BERRY,
+            .nickname = COMPOUND_STRING("NANAMI BEAR"),
+            .moves = {
+                MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST 
+            },
+            },
+            {
+            .species = SPECIES_BEWEAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_FLUFFY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_HAMMER_ARM,
+                MOVE_BULK_UP,
+                MOVE_FACADE,
+                MOVE_ROCK_SLIDE
+                },
+            },
+            {
+            .species = SPECIES_BEWEAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_FLUFFY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_HAMMER_ARM,
+                MOVE_BULK_UP,
+                MOVE_FACADE,
+                MOVE_ROCK_SLIDE
                 },
             },
         },

@@ -138,42 +138,29 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRAWLY",
-      "x": 22,
-      "y": 19,
+      "graphics_id": "OBJ_EVENT_GFX_JUAN",
+      "x": 13,
+      "y": 15,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Beach_Luminel_EventScript",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRAWLY",
-      "x": 23,
-      "y": 19,
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(BEARTIC)",
+      "x": 16,
+      "y": 15,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_SPECIES(TRUBBISH)",
-      "x": 24,
-      "y": 19,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "DewfordTown_EventScript_TrubbishShop",
+      "script": "Birthday_Beach_NanamiBear_EventScript",
       "flag": "0"
     }
   ],
@@ -193,6 +180,10 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

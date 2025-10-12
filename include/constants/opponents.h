@@ -685,7 +685,7 @@
 #define TRAINER_TYRA_AND_IVY                679
 #define TRAINER_MEL_AND_PAUL                680
 #define TRAINER_JOHN_AND_JAY_1              681
-#define TRAINER_UNUSED_1                    682
+#define TRAINER_LUMI_BEACH                  682
 #define TRAINER_UNUSED_2                    683
 #define TRAINER_UNUSED_3                    684
 #define TRAINER_UNUSED_4                    685
