@@ -28884,3 +28884,206 @@ F_TRAINER_FEMALE |
             },
         },
     },
+    [TRAINER_ANTLEREDKEY] =
+    {
+        .trainerName = _("ANTLEREDKY"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_SAWSBUCK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CHLOROPHYLL,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_KINGS_ROCK,
+            .moves = {
+                MOVE_HORN_LEECH,
+                MOVE_AGILITY,
+                MOVE_SUNNY_DAY,
+                MOVE_BULLET_SEED
+                },
+            },
+            {
+            .species = SPECIES_KLEFKI,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_MAGICIAN,
+            .lvl = 60,
+            .nature = NATURE_RELAXED,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_EJECT_BUTTON,
+            .moves = {
+                MOVE_FAIRY_WIND,
+                MOVE_FLASH_CANNON,
+                MOVE_METAL_SOUND,
+                MOVE_FAIRY_LOCK
+                },
+            },
+            {
+            .species = SPECIES_PORYGON_Z,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_ADAPTABILITY,
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_WIKI_BERRY,
+            .moves = {
+                MOVE_PSYBEAM,
+                MOVE_SWIFT,
+                MOVE_TRI_ATTACK,
+                MOVE_RECYCLE
+                },
+            },
+        },
+    },
+    [TRAINER_ARCHONOFFOG] =
+    {
+        .trainerName = _("ARCHON"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_WHIMSICOTT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_PRANKSTER,
+            .lvl = 60,
+            .nature = NATURE_BOLD,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_ENCORE,
+                MOVE_LEECH_SEED,
+                MOVE_SUBSTITUTE,
+                MOVE_STUN_SPORE
+                },
+            },
+            {
+            .species = SPECIES_GLISCOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_POISON_HEAL,
+            .lvl = 60,
+            .nature = NATURE_JOLLY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_TOXIC_ORB,
+            .moves = {
+                MOVE_EARTHQUAKE,
+                MOVE_TOXIC,
+                MOVE_SUBSTITUTE,
+                MOVE_PROTECT
+                },
+            },
+            {
+            .species = SPECIES_KOMALA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_COMATOSE,
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_WIKI_BERRY,
+            .moves = {
+                MOVE_SLEEP_TALK,
+                MOVE_LAST_RESORT
+                },
+            },
+        },
+    },
+    [TRAINER_CIARAN] =
+    {
+        .trainerName = _("CIARAN_"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_LUXRAY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CHLOROPHYLL,
+            .lvl = 60,
+            .nature = NATURE_RELAXED,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_TERRAIN_EXTENDER,
+            .moves = {
+                MOVE_ELECTRIC_TERRAIN,
+                MOVE_VOLT_SWITCH,
+                },
+            },
+            {
+            .species = SPECIES_MAGNEZONE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_MAGICIAN,
+            .lvl = 60,
+            .nature = NATURE_QUIET,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_AIR_BALLOON,
+            .moves = {
+                MOVE_DISCHARGE,
+                MOVE_FLASH_CANNON,
+                MOVE_TRI_ATTACK,
+                MOVE_HIDDEN_POWER
+                },
+            },
+            {
+            .species = SPECIES_RAICHU_ALOLA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_ADAPTABILITY,
+            .lvl = 60,
+            .nature = NATURE_TIMID,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHOICE_SPECS,
+            .moves = {
+                MOVE_PSYBEAM,
+                MOVE_SWIFT,
+                MOVE_TRI_ATTACK,
+                MOVE_RECYCLE
+                },
+            },
+        },
+    },
+    [TRAINER_MABLE] =
+    {
+        .trainerName = _("MABLE"),
+        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerPic = TRAINER_PIC_MABLE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_SAMUROTT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SHELL_ARMOR,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_WATERFALL,
+                MOVE_MEGAHORN,
+                MOVE_ICE_BEAM,
+                MOVE_SWORDS_DANCE
+                },
+            },
+        },
+    },
