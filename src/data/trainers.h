@@ -31369,6 +31369,21 @@ F_TRAINER_FEMALE |
         .party = (const struct TrainerMon[])
         {
             {
+            .species = SPECIES_BEWEAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_FLUFFY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_HAMMER_ARM,
+                MOVE_BULK_UP,
+                MOVE_FACADE,
+                MOVE_ROCK_SLIDE
+                },
+            },
+            {
             .species = SPECIES_RAICHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -31380,7 +31395,7 @@ F_TRAINER_FEMALE |
                 MOVE_THUNDER,
                 MOVE_NUZZLE,
                 MOVE_VOLT_SWITCH,
-                MOVE_LIGHT_SCREEN
+                MOVE_SURF
                 },
             },
             {
@@ -31396,21 +31411,6 @@ F_TRAINER_FEMALE |
             .moves = {
                 MOVE_ICICLE_CRASH, MOVE_BRICK_BREAK, MOVE_STONE_EDGE, MOVE_REST 
             },
-            },
-            {
-            .species = SPECIES_BEWEAR,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .ability = ABILITY_FLUFFY,
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_HAMMER_ARM,
-                MOVE_BULK_UP,
-                MOVE_FACADE,
-                MOVE_ROCK_SLIDE
-                },
             },
             {
             .species = SPECIES_BEWEAR,

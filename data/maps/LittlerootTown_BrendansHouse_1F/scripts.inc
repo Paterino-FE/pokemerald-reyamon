@@ -313,9 +313,10 @@ PlayersHouse_1F_Text_LilypadWasAnImposter:
 PlayersHouse_1F_Text_ThisIsForBirthdayIsland:
 	.string "My Lady, this BIRTHDAY INVITE will\n"
 	.string "get you to BIRTHDAY ISLAND!\p"
-	.string "This is where we think the IMPOSTER\n"
-	.string "has gone, and where the real LILYPAD\l"
-	.string "might be held.\p"
+	.string "We found it among LILYPAD's\n"
+	.string "belongings. It might be a trap laid\l"
+	.string "by the IMPOSTER, but we have to try\l"
+	.stirng "to rescue LILYPAD anyway.\p"
 	.string "Show the BIRTHDAY INVITE to the FERRY\n"
 	.string "ATTENDANT in LILYCOVE CITY!\p"
 	.string "The FERRY will then take you to\n"

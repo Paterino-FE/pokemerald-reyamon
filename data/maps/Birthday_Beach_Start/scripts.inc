@@ -75,25 +75,51 @@ Birthday_Beach_Astarion_EventScript::
 
 Birthday_Beach_NanamiBear_EventScript::
 	lock
+	delay 32
+	msgbox Birthday_Beach_NanamiBear_Text, MSGBOX_DEFAULT
+	release
+	end
+
+
+Birthday_Beach_Luminel_Battle_EventScript::
+	msgbox_mugshot Birthday_Beach_Luminel_IntroText, MSGBOX_DEFAULT, MUGSHOT_LUMI, CLEAR_MUGSHOT
 	faceplayer
-	playmoncry SPECIES_BEARTIC, CRY_MODE_ENCOUNTER
-	waitmoncry
+	trainerbattle_single TRAINER_LUMI_BEACH, Birthday_Beach_Luminel_PreBattleText, Birthday_Beach_Luminel_DefeatText
 	release
 	end
 
 Birthday_Beach_Luminel_EventScript::
-	trainerbattle_single TRAINER_LUMI_BEACH, Birthday_Beach_Luminel_IntroText, Birthday_Beach_Luminel_DefeatText
+	lock
+	goto_if_not_defeated TRAINER_LUMI_BEACH, Birthday_Beach_Luminel_Battle_EventScript
 	msgbox Birthday_Beach_Luminel_PostBattleText, MSGBOX_AUTOCLOSE
+	release
 	end
 
+
+Birthday_Beach_NanamiBear_Text:
+	.string "NANAMI ignores you, his eyes\n"
+	.string "focused on a nearby DIRKLING.$"
+
 Birthday_Beach_Luminel_IntroText:
-	.string "Oh so fluffy!$"
+	.string "Fish...we need more fish.\n"
+	.string "GO NANAMI BEAR GO!\p"
+	.string "Use your bear powers! Eat that\n"
+	.string "DIRKLING! Now jump in the water!\p"
+	.string "WHO'S A GOOD BEAR!!!$"
+
+Birthday_Beach_Luminel_PreBattleText:
+	.string "Oh, hi again!\p"
+	.string "As you can see, we are fit again and\n"
+	.string "ready for our rematch.\p"
+	.string "Beware...\n"
+	.string "my new NORMAL/FIGHTING POKéMON!$"
 
 Birthday_Beach_Luminel_DefeatText:
-	.string "Oh so defeated!$"
+	.string "Hmm... Maybe I should've caught that\n"
+	.string "LUGIA instead of more Bears.$"
 
 Birthday_Beach_Luminel_PostBattleText:
-	.string "Oh so post battle!$"
+	.string "No... I made the right decision.$"
 
 Birthday_Beach_DylanKittyPreBattle_Text:
 	.string "DYLAN: Hey, can you NOT interrupt out\n"
