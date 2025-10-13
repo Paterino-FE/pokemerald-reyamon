@@ -27,6 +27,26 @@ Birthday_Mart_EventScript_Clerk::
 	release
 	end
 
+Birthday_PokemonCenter_1F_EventScript_MapLilypal::
+	lock
+	msgbox Birthday_PokemonCenter_1F_Text_MapLilypal, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_PokemonCenter_1F_EventScript_Lilypal1::
+	lock
+	faceplayer
+	msgbox Birthday_PokemonCenter_1F_Text_Lilypal1, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_PokemonCenter_1F_EventScript_Lilypal2::
+	lock
+	faceplayer
+	msgbox Birthday_PokemonCenter_1F_Text_Lilypal2, MSGBOX_DEFAULT
+	release
+	end
+
 .align 2
 Birthday_Mart_Pokemart:
 	.2byte ITEM_RARE_CANDY
@@ -50,4 +70,18 @@ gText_NeverSnitch:
 	.string "Don't snitch on me...\n"
 	.string "I'll know if you do.$"
 
+Birthday_PokemonCenter_1F_Text_Lilypal1:
+	.string "Have you been to ROSUURI's\n"
+	.string "BAKERY? I would go every\l"
+	.string "day if I could afford it!$"
 
+Birthday_PokemonCenter_1F_Text_Lilypal2:
+	.string "There are multiple paths in the\n"
+	.string "north of this village.\p"
+	.string "But I'm too scared to take any\n"
+	.string "of them!$"
+
+
+Birthday_PokemonCenter_1F_Text_MapLilypal:
+	.string "YEP! This MAP does not even have\n"
+	.string "BIRTHDAY ISLAND on it!$"
