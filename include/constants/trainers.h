@@ -371,7 +371,13 @@
 #define TRAINER_CLASS_LILYPAL        0x47
 #define TRAINER_CLASS_DIRKLING       0x48
 #define TRAINER_CLASS_GRAPE          0x49
-#define TRAINER_CLASS_COUNT          0x50
+#define TRAINER_CLASS_MABLE          0x50
+#define TRAINER_CLASS_ROSUURI        0x51
+#define TRAINER_CLASS_ELLIE          0x52
+#define TRAINER_CLASS_BO             0x53
+#define TRAINER_CLASS_PURGE          0x54
+#define TRAINER_CLASS_TSUNAMI        0x55
+#define TRAINER_CLASS_COUNT          0x56
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

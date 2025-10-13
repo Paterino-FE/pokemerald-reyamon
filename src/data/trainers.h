@@ -31199,7 +31199,7 @@ F_TRAINER_FEMALE |
     [TRAINER_MABLE] =
     {
         .trainerName = _("MABLE"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerClass = TRAINER_CLASS_MABLE,
         .trainerPic = TRAINER_PIC_MABLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .doubleBattle = FALSE,
@@ -31425,6 +31425,552 @@ F_TRAINER_FEMALE |
                 MOVE_BULK_UP,
                 MOVE_FACADE,
                 MOVE_ROCK_SLIDE
+                },
+            },
+        },
+    },
+    [TRAINER_ATSUI] =
+    {
+        .trainerName = _("ATSUI"),
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerPic = TRAINER_PIC_SALON_MAIDEN_ANABEL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_ZIGZAGOON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_QUICK_FEET,
+            .lvl = 60,
+            .nature = NATURE_NAUGHTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_BLACK_GLASSES,
+            .moves = {
+                MOVE_DIG,
+                MOVE_TOXIC,
+                MOVE_SWAGGER,
+                MOVE_FACADE
+                },
+            },
+            {
+            .species = SPECIES_KIRLIA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_TELEPATHY,
+            .lvl = 60,
+            .nature = NATURE_GENTLE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_DAZZLING_GLEAM,
+                MOVE_ATTRACT,
+                MOVE_SAFEGUARD,
+                MOVE_FACADE
+                },
+            },
+            {
+            .species = SPECIES_MIMIKYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_DISGUISE,
+            .lvl = 60,
+            .nature = NATURE_LONELY,
+            .heldItem = ITEM_TOXIC_ORB,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_COPYCAT,
+                MOVE_CURSE,
+                MOVE_FRUSTRATION,
+                MOVE_SELF_DESTRUCT
+                },
+            },
+        },
+    },
+    [TRAINER_DAVID8887] =
+    {
+        .trainerName = _("DAVID8887"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_TYRANITAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SAND_STREAM,
+            .lvl = 60,
+            .nature = NATURE_NAUGHTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHOPLE_BERRY,
+            .moves = {
+                MOVE_DIG,
+                MOVE_TOXIC,
+                MOVE_SWAGGER,
+                MOVE_FACADE
+                },
+            },
+            {
+            .species = SPECIES_ARON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_STURDY,
+            .lvl = 60,
+            .nature = NATURE_JOLLY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_BERRY_JUICE,
+            .moves = {
+                MOVE_ENDEAVOR,
+                },
+            },
+            {
+            .species = SPECIES_AMBIPOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_TECHNICIAN,
+            .lvl = 60,
+            .nature = NATURE_LONELY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_SILK_SCARF,
+            .moves = {
+                MOVE_FAKE_OUT,
+                MOVE_LAST_RESORT,
+                },
+            },
+        },
+    },
+    [TRAINER_SWORDFICSH] =
+    {
+        .trainerName = _("SWORDFICSH"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .partySize = 4,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_FARFETCHD,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_KEEN_EYE,
+            .moves = {MOVE_AIR_CUTTER, MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_SLASH},
+            .heldItem = ITEM_LEEK
+            },
+            {
+            .species = SPECIES_LAPRAS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_WATER_ABSORB,
+            .moves = {MOVE_FREEZE_DRY, MOVE_ZEN_HEADBUTT, MOVE_SHOCK_WAVE, MOVE_BUBBLE_BEAM}
+            },
+            {
+            .species = SPECIES_BEWEAR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLUFFY,
+            .moves = {MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ROAR},
+            .isShiny = 1
+            },
+            {
+            .species = SPECIES_LEAFEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLUFFY,
+            .moves = {MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_AERIAL_ACE, MOVE_GIGA_IMPACT},
+            },
+        },
+    },
+    [TRAINER_MAGICALKOHAKU] =
+    {
+        .trainerName = _("KOHAKU"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .items = { ITEM_FULL_RESTORE },
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_SYLVEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CUTE_CHARM,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_DRAINING_KISS, MOVE_SHADOW_BALL, MOVE_LIGHT_SCREEN, MOVE_SUNNY_DAY
+            },
+            },
+            {
+            .species = SPECIES_WHIMSICOTT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CHLOROPHYLL,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_DAZZLING_GLEAM, MOVE_SOLAR_BEAM, MOVE_LIGHT_SCREEN, MOVE_REST
+            },
+            },
+            {
+            .species = SPECIES_SUNFLORA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_JOLLY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SOLAR_POWER,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_SLUDGE_BOMB, MOVE_REST
+            },
+            },
+        },
+    },
+    [TRAINER_ROSUURI] =
+    {
+        .trainerName = _("ROSUURI"),
+        .trainerClass = TRAINER_CLASS_ROSUURI,
+        .trainerPic = TRAINER_PIC_ROSUURI,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_DACHSBUN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_WELL_BAKED_BODY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_SITRUS_BERRY,
+            .moves = {
+                MOVE_FIRE_FANG,
+                MOVE_CRUNCH,
+                MOVE_LICK
+                },
+            },
+            {
+            .species = SPECIES_SMEARGLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_OWN_TEMPO,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_SPACIAL_REND,
+                MOVE_HORN_LEECH,
+                MOVE_COIL,
+                MOVE_SING
+                },
+            },
+            {
+            .species = SPECIES_WIGGLYTUFF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CUTE_CHARM,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_SILK_SCARF,
+            .moves = {
+                MOVE_SELF_DESTRUCT
+                },
+            },
+            {
+            .species = SPECIES_LIEPARD,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_UNBURDEN,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_BERRY_JUICE,
+            .moves = {
+                MOVE_FAKE_OUT,
+                MOVE_FOUL_PLAY,
+                MOVE_SHADOW_CLAW,
+                MOVE_THIEF
+                },
+            },
+            {
+            .species = SPECIES_MAUSHOLD,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_FRIEND_GUARD,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_IRON_PLATE,
+            .moves = {
+                MOVE_FAKE_TEARS,
+                MOVE_IRON_HEAD,
+                MOVE_POPULATION_BOMB,
+                MOVE_HYPER_VOICE
+                },
+            },
+            {
+            .species = SPECIES_JELLICENT,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CURSED_BODY,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_IMPRISON,
+                MOVE_FACADE,
+                MOVE_RECOVER,
+                MOVE_ATTRACT
+                },
+            },
+        },
+    },
+    [TRAINER_GRAPE] =
+    {
+        .trainerName = _("GRAPE"),
+        .trainerClass = TRAINER_CLASS_GRAPE,
+        .trainerPic = TRAINER_PIC_GRAPE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_DRAGALGE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_ADAPTABILITY,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_WEAKNESS_POLICY,
+            .moves = {
+                MOVE_WATERFALL,
+                MOVE_MEGAHORN,
+                MOVE_ICE_BEAM,
+                MOVE_SWORDS_DANCE
+                },
+            },
+            {
+            .species = SPECIES_EELEKTROSS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_LEVITATE,
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_SITRUS_BERRY,
+            .moves = {
+                MOVE_COIL,
+                MOVE_THUNDER_WAVE,
+                MOVE_FLAMETHROWER,
+                MOVE_THUNDER
+                },
+            },
+            {
+            .species = SPECIES_GOODRA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_GOOEY,
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CHESTO_BERRY,
+            .moves = {
+                MOVE_TOXIC,
+                MOVE_SLUDGE_WAVE,
+                MOVE_REST,
+                MOVE_DRAGON_PULSE
+                },
+            },
+            {
+            .species = SPECIES_KOMMO_O,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_OVERCOAT,
+            .lvl = 60,
+            .nature = NATURE_NAIVE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_DRAIN_PUNCH,
+                MOVE_SUBSTITUTE,
+                MOVE_POISON_JAB,
+                MOVE_CLANGING_SCALES
+                },
+            },
+            {
+            .species = SPECIES_HAXORUS,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_RIVALRY,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_POISON_JAB,
+                MOVE_X_SCISSOR,
+                MOVE_DRAGON_DANCE,
+                MOVE_ROCK_SLIDE
+                },
+            },
+            {
+            .species = SPECIES_SALAZZLE,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CORROSION,
+            .lvl = 60,
+            .nature = NATURE_HASTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_EXPERT_BELT,
+            .moves = {
+                MOVE_SLUDGE_BOMB,
+                MOVE_WILL_O_WISP,
+                MOVE_PROTECT,
+                MOVE_DRAGON_TAIL
+                },
+            },
+        },
+    },
+    [TRAINER_ELLIE] =
+    {
+        .trainerName = _("ELLIE"),
+        .trainerClass = TRAINER_CLASS_ELLIE,
+        .trainerPic = TRAINER_PIC_GRAPE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = TRUE,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_ROTOM_MOW,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .ability = ABILITY_LEVITATE,
+            .lvl = 60,
+            .nature = NATURE_SASSY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CELL_BATTERY,
+            .isShiny = 1,
+            .nickname = COMPOUND_STRING("NEURO"),
+            .moves = {
+                MOVE_LEAF_STORM,
+                MOVE_ELECTROWEB,
+                MOVE_CHARGE_BEAM,
+                MOVE_SHOCK_WAVE
+                },
+            },
+            {
+            .species = SPECIES_CHARJABUG,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_BATTERY,
+            .lvl = 60,
+            .nature = NATURE_RELAXED,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CELL_BATTERY,
+            .nickname = COMPOUND_STRING("CODEBUG"),
+            .moves = {
+                MOVE_BUG_BITE,
+                MOVE_REST,
+                MOVE_SLEEP_TALK,
+                MOVE_FRUSTRATION
+                },
+            },
+            {
+            .species = SPECIES_PORYGON_Z,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_ANALYTIC,
+            .lvl = 60,
+            .nature = NATURE_HASTY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_AIR_BALLOON,
+            .moves = {
+                MOVE_DISCHARGE,
+                MOVE_DOUBLE_EDGE,
+                MOVE_SIGNAL_BEAM,
+                MOVE_TRICK_ROOM
+                },
+            },
+            {
+            .species = SPECIES_GENESECT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_DOWNLOAD,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_DOUSE_DRIVE,
+            .moves = {
+                MOVE_FRUSTRATION,
+                MOVE_DARK_PULSE,
+                MOVE_TOXIC,
+                MOVE_TECHNO_BLAST
+                },
+            },
+            {
+            .species = SPECIES_SCIZOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SWARM,
+            .lvl = 60,
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_CELL_BATTERY,
+            .moves = {
+                MOVE_BUG_BUZZ,
+                MOVE_BULLET_PUNCH,
+                MOVE_U_TURN,
+                MOVE_DETECT
+                },
+            },
+            {
+            .species = SPECIES_DEERLING_AUTUMN,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_SERENE_GRACE,
+            .lvl = 60,
+            .nature = NATURE_NAIVE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_EVIOLITE,
+            .nickname = COMPOUND_STRING("PHIPPS"),
+            .moves = {
+                MOVE_ENERGY_BALL,
+                MOVE_LIGHT_SCREEN,
+                MOVE_SUBSTITUTE,
+                MOVE_BATON_PASS
                 },
             },
         },
