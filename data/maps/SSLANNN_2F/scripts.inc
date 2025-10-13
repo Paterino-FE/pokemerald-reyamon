@@ -36,11 +36,21 @@ SSLANNN_2F_TrashBucket_Script::
 	release
 	end
 
+SSLANNN_2F_CirclesLilypal_EventScript::
+	lock
+	faceplayer
+	msgbox SSLANNN_2F_CirclesLilypal_Text, MSGBOX_DEFAULT
+	release
+	end
+
 SSLANNN_2F_Movement_JumpAway:
 	jump_down
 	face_up
 	delay_16
 	step_end
+
+SSLANNN_2F_CirclesLilypal_Text:	
+	.string "I'm on a BOAT! I'm on a BOAT!$"
 
 SSLANNN_2F_TrashDirkling1_Text:
 	.string "Go away, stupid EMPRESS!\n"

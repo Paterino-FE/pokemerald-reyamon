@@ -495,16 +495,10 @@ PlayersHouse_1F_EventScript_TravelSafe::
 
 PlayersHouse_1F_EventScript_BirthdayIslandTicket::
 	lockall
-	setvar VAR_0x8000, MUGSHOT_MABLEWOTT
-	callnative DrawMugshot
-	msgbox PlayersHouse_1F_Text_LilypadWasAnImposter, MSGBOX_DEFAULT
-	callnative ClearMugshot
+	msgbox_mugshot PlayersHouse_1F_Text_LilypadWasAnImposter, MSGBOX_DEFAULT, MUGSHOT_EMILIA, CLEAR_MUGSHOT
 	giveitem ITEM_BIRTHDAY_TICKET
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setvar VAR_0x8000, MUGSHOT_MABLEWOTT
-	callnative DrawMugshot
-	msgbox PlayersHouse_1F_Text_ThisIsForBirthdayIsland, MSGBOX_DEFAULT
-	callnative ClearMugshot
+	msgbox_mugshot PlayersHouse_1F_Text_ThisIsForBirthdayIsland, MSGBOX_DEFAULT, MUGSHOT_EMILIA, CLEAR_MUGSHOT
 	setflag FLAG_ENABLE_BIRTHDAY_ISLAND
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 7
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 7

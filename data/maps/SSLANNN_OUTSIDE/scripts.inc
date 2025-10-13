@@ -20,14 +20,14 @@ SSLANNN_OUTSIDE_Script_Lumi::
 	delay 64
 	fadeinbgm 1
 	faceplayer
-	msgbox SSLANNN_OUTSIDE_Text_AhEmpress, MSGBOX_DEFAULT
+	msgbox_mugshot SSLANNN_OUTSIDE_Text_AhEmpress, MSGBOX_DEFAULT, MUGSHOT_LUMI, CLEAR_MUGSHOT
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceDown
 	waitmovement 0
 	playmoncry SPECIES_BEARTIC, CRY_MODE_ENCOUNTER
 	msgbox SSLANNN_OUTSIDE_Text_ScratchesEar, MSGBOX_DEFAULT
 	waitmoncry
 	faceplayer 
-	msgbox SSLANNN_OUTSIDE_Text_ThatWillHaveToWait, MSGBOX_DEFAULT
+	msgbox_mugshot SSLANNN_OUTSIDE_Text_ThatWillHaveToWait, MSGBOX_DEFAULT, MUGSHOT_LUMI, CLEAR_MUGSHOT
 	setflag FLAG_TALKED_TO_LUMI_BOAT
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceLeft
 	waitmovement 0

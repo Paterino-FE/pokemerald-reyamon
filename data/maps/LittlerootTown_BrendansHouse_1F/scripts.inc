@@ -316,7 +316,7 @@ PlayersHouse_1F_Text_ThisIsForBirthdayIsland:
 	.string "We found it among LILYPAD's\n"
 	.string "belongings. It might be a trap laid\l"
 	.string "by the IMPOSTER, but we have to try\l"
-	.stirng "to rescue LILYPAD anyway.\p"
+	.string "to rescue LILYPAD anyway.\p"
 	.string "Show the BIRTHDAY INVITE to the FERRY\n"
 	.string "ATTENDANT in LILYCOVE CITY!\p"
 	.string "The FERRY will then take you to\n"
