@@ -70,6 +70,17 @@ static const struct MenuAction MultichoiceList_StatusInfo[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_MULTI_ROTOM_FORMS[] =
+{
+    {gText_RotomNormal},
+    {gText_RotomHeat},
+    {gText_RotomWash},
+    {gText_RotomFrost},
+    {gText_RotomFan},
+    {gText_RotomMow},
+    {gText_RotomCancel},
+};
+
 static const struct MenuAction MultichoiceList_BrineyOffDewford[] =
 {
     {gText_Dewford},
@@ -920,6 +931,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
+    [MULTI_ROTOM_FORMS]                = MULTICHOICE(MultichoiceList_MULTI_ROTOM_FORMS),
 };
 
 const u8 *const gStdStrings[] =
