@@ -32079,3 +32079,105 @@ F_TRAINER_FEMALE |
             },
         },
     },
+    [TRAINER_PAT_DOUBLE] =
+    {
+        .trainerName = _("PATERINO"),
+        .trainerClass = TRAINER_CLASS_RIVAL,
+        .trainerPic = TRAINER_PIC_WALLY,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_SKARMORY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_BOLD,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CUTE_CHARM,
+            .moves = {
+                MOVE_ROOST, MOVE_SPIKES, MOVE_WHIRLWIND, MOVE_IRON_HEAD
+            },
+            },
+            {
+            .species = SPECIES_KINGDRA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SWIFT_SWIM,
+            .moves = {
+                MOVE_HYDRO_PUMP, MOVE_DRACO_METEOR, MOVE_ICE_BEAM, MOVE_SCALD
+            },
+            },
+            {
+            .species = SPECIES_TYPHLOSION,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_BLAZE,
+            .heldItem = ITEM_UTILITY_UMBRELLA,
+            .moves = {
+                MOVE_ROCK_SLIDE, MOVE_DETECT, MOVE_FLAMETHROWER, MOVE_ERUPTION
+            },
+            },
+        },
+    },
+    [TRAINER_CONLAD_DOUBLE] =
+    {
+        .trainerName = _("CONLAD"),
+        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerPic = TRAINER_PIC_LILYPAL,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_PELIPPER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_BRAVE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DRIZZLE,
+            .heldItem = ITEM_DAMP_ROCK,
+            .moves = {
+                MOVE_TAILWIND, MOVE_DOUBLE_EDGE, MOVE_ICE_BEAM, MOVE_WHIRLPOOL
+            },
+            },
+            {
+            .species = SPECIES_LUDICOLO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_MODEST,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SWIFT_SWIM,
+            .moves = {
+                MOVE_HYDRO_PUMP, MOVE_GIGA_DRAIN, MOVE_ICE_BEAM, MOVE_FAKE_OUT
+            },
+            },
+            {
+            .species = SPECIES_MAGNEZONE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 60,
+            .nature = NATURE_TIMID,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ANALYTIC,
+            .moves = {
+                MOVE_THUNDER, MOVE_MAGNET_RISE, MOVE_FLASH_CANNON, MOVE_GYRO_BALL
+            },
+            },
+        },
+    },

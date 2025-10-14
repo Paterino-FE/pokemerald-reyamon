@@ -628,7 +628,7 @@
 #define TRAINER_ELLIE                       622
 #define TRAINER_GRUNT_UNUSED                623
 #define TRAINER_THEA_2                      624
-#define TRAINER_UNUSED_19                   625
+#define TRAINER_PAT_DOUBLE                  625
 #define TRAINER_BRICE                       626
 #define TRAINER_TRENT_1                     627
 #define TRAINER_LENNY                       628
@@ -639,7 +639,7 @@
 #define TRAINER_LUCAS_2                     633
 #define TRAINER_MIKE_1                      634
 #define TRAINER_MIKE_2                      635
-#define TRAINER_UNUSED_12                   636
+#define TRAINER_CONLAD_DOUBLE               636
 #define TRAINER_UNUSED_13                   637
 #define TRAINER_UNUSED_14                   638
 #define TRAINER_UNUSED_15                   639
