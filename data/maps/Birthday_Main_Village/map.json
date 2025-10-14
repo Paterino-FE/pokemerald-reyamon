@@ -3,7 +3,7 @@
   "name": "Birthday_Main_Village",
   "layout": "LAYOUT_BIRTHDAY_MAIN_VILLAGE",
   "music": "MUS_LOVELYOASIS",
-  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "region_map_section": "MAPSEC_BIRTHDAY_POND_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_CITY",
@@ -81,10 +81,6 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

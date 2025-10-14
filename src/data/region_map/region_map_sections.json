@@ -1712,6 +1712,86 @@
       "height": 1
     },
     {
+      "id": "MAPSEC_BIRTHDAY_ROUTE_1",
+      "name": "ROUTE 1",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_ROUTE_2",
+      "name": "ROUTE 2",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_ROUTE_3",
+      "name": "ROUTE 3",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_ROUTE_4",
+      "name": "ROUTE 4",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_POND_VILLAGE",
+      "name": "LILYPAD HAMLET",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_RUINED_VILLAGE",
+      "name": "RUINED VILLAGE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_DESTINED_MOUNTAIN",
+      "name": "DESTINED MOUNTAIN",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_OLD_CAVE",
+      "name": "OLD CAVE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_ROSUURI_BAKERY",
+      "name": "ROSUURI BAKERY",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_BIRTHDAY_LIGHTHOUSE",
+      "name": "LIGHTHOUSE",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
       "id": "MAPSEC_SS_LANNN",
       "name": "SS LANNN",
       "x": 0,

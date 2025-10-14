@@ -3,7 +3,7 @@
   "name": "Birthday_Mable_Lighthouse",
   "layout": "LAYOUT_BIRTHDAY_MABLE_LIGHTHOUSE",
   "music": "MUS_STEAMGARDENS",
-  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "region_map_section": "MAPSEC_BIRTHDAY_LIGHTHOUSE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",

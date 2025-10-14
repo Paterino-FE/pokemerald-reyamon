@@ -3,7 +3,7 @@
   "name": "Birthday_Route_2",
   "layout": "LAYOUT_BIRTHDAY_ROUTE_2",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "region_map_section": "MAPSEC_BIRTHDAY_ROUTE_2",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",

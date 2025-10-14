@@ -216,7 +216,17 @@
 #define MAPSEC_TRAINER_HILL                 0xD4
 #define MAPSEC_SS_LANNN                     0xD5
 #define MAPSEC_BIRTHDAY_ISLAND              0xD6
-#define MAPSEC_NONE                         0xD7
+#define MAPSEC_BIRTHDAY_ROUTE_1             0xD7
+#define MAPSEC_BIRTHDAY_ROUTE_2             0xD8
+#define MAPSEC_BIRTHDAY_ROUTE_3             0xD9
+#define MAPSEC_BIRTHDAY_ROUTE_4             0xDA
+#define MAPSEC_BIRTHDAY_POND_VILLAGE        0xDB
+#define MAPSEC_BIRTHDAY_RUINED_VILLAGE      0xDC
+#define MAPSEC_BIRTHDAY_DESTINED_MOUNTAIN   0xDD
+#define MAPSEC_BIRTHDAY_OLD_CAVE            0xDE
+#define MAPSEC_BIRTHDAY_ROSUURI_BAKERY      0xDF
+#define MAPSEC_BIRTHDAY_LIGHTHOUSE          0xE0
+#define MAPSEC_NONE                         0xE1
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE

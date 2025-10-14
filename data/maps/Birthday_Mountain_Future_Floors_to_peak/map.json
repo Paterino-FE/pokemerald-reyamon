@@ -3,7 +3,7 @@
   "name": "Birthday_Mountain_Future_Floors_to_peak",
   "layout": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_FLOORS_TO_PEAK",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
+  "region_map_section": "MAPSEC_BIRTHDAY_DESTINED_MOUNTAIN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
