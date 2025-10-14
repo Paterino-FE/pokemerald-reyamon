@@ -627,7 +627,7 @@
 #define TRAINER_JAMES_1                     621
 #define TRAINER_ELLIE                       622
 #define TRAINER_GRUNT_UNUSED                623
-#define TRAINER_UNUSED_18                   624
+#define TRAINER_THEA_2                      624
 #define TRAINER_UNUSED_19                   625
 #define TRAINER_BRICE                       626
 #define TRAINER_TRENT_1                     627
