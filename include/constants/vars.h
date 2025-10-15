@@ -270,7 +270,7 @@
 #define VAR_PATERINO_HOENN_STARTER                       0x40FA // Hoenn Starter by Pat
 #define VAR_SSLANNN_DOOR_STATE                           0x40FB // Unused Var
 #define VAR_MABLE_EVENT_EVOLVE_OSHAWOTT                  0x40FC // Unused Var
-#define VAR_UNUSED_0x40FD                                0x40FD // Unused Var
+#define VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW               0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
 
