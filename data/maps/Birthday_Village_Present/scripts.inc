@@ -77,13 +77,17 @@ Birthday_Village_Present_RockPaperScissorsLoop_EventScript::
 	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
 	waitstate
 	waitmoncry
+	resetweather
+	doweather
+	fadedefaultbgm
 	msgbox_mugshot Birthday_Village_Present_WonRockPaperScissors_Text, MSGBOX_DEFAULT, MUGSHOT_DIRKLING, CLEAR_MUGSHOT
 	setflag FLAG_WON_ROCKPAPERSCISSORS
-	fadedefaultbgm
 	release
 	end
 
 Birthday_Village_Present_DoRockPaperScissors_EventScript::
+	setweather WEATHER_DOWNPOUR
+	doweather
 	playbgm MUS_CYNTHIA_ENCOUNTER, FALSE
 	setvar VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 0
 	msgbox Birthday_Village_Present_RockPaperScissors_Text, MSGBOX_DEFAULT
