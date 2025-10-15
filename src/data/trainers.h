@@ -31813,7 +31813,7 @@ F_TRAINER_FEMALE |
                 },
             },
             {
-            .species = SPECIES_HARDY,
+            .species = SPECIES_HAXORUS,
             .gender = TRAINER_MON_FEMALE,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .ability = ABILITY_RIVALRY,
@@ -32181,7 +32181,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_STATIC,
             .moves = {
-                MOVE_THUNDERBLOT, MOVE_VOLT_SWITCH, MOVE_DRAGON_PULSE, MOVE_FOCUS_BLAST
+                MOVE_THUNDERBOLT, MOVE_VOLT_SWITCH, MOVE_DRAGON_PULSE, MOVE_FOCUS_BLAST
             },
             },
             {

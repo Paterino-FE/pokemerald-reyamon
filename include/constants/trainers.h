@@ -120,7 +120,9 @@
 #define TRAINER_PIC_MABLE                 102
 #define TRAINER_PIC_GRAPE                 103
 #define TRAINER_PIC_ELLIE                 104
-#define TRAINER_PIC_COUNT                 105
+#define TRAINER_PIC_TSUNAMI               105
+#define TRAINER_PIC_YOURAVGBO             106
+#define TRAINER_PIC_COUNT                 107
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

@@ -307,6 +307,12 @@ const u32 gTrainerPalette_Rosuuri[] = INCBIN_U32("graphics/trainers/palettes/ros
 const u32 gTrainerFrontPic_Purge[] = INCBIN_U32("graphics/trainers/front_pics/purge.4bpp.lz");
 const u32 gTrainerPalette_Purge[] = INCBIN_U32("graphics/trainers/palettes/purge.gbapal.lz");
 
+const u32 gTrainerFrontPic_Tsunami[] = INCBIN_U32("graphics/trainers/front_pics/tsunami.4bpp.lz");
+const u32 gTrainerPalette_Tsunami[] = INCBIN_U32("graphics/trainers/palettes/tsunami.gbapal.lz");
+
+const u32 gTrainerFrontPic_YourAvgBo[] = INCBIN_U32("graphics/trainers/front_pics/youravgbo.4bpp.lz");
+const u32 gTrainerPalette_YourAvgBo[] = INCBIN_U32("graphics/trainers/palettes/youravgbo.gbapal.lz");
+
 const u32 gTrainerFrontPic_Emilia[] = INCBIN_U32("graphics/trainers/front_pics/emilia_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Emilia[] = INCBIN_U32("graphics/trainers/palettes/emilia_front_pic.gbapal.lz");
 
@@ -452,6 +458,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_MABLE, gTrainerFrontPic_Mable, gTrainerPalette_Mable),
     TRAINER_SPRITE(TRAINER_PIC_GRAPE, gTrainerFrontPic_Grape, gTrainerPalette_Grape),
     TRAINER_SPRITE(TRAINER_PIC_ELLIE, gTrainerFrontPic_Ellie, gTrainerPalette_Ellie),
+    TRAINER_SPRITE(TRAINER_PIC_TSUNAMI, gTrainerFrontPic_Tsunami, gTrainerPalette_Tsunami),
+    TRAINER_SPRITE(TRAINER_PIC_YOURAVGBO, gTrainerFrontPic_YourAvgBo, gTrainerPalette_YourAvgBo),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

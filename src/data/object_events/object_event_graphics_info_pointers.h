@@ -250,6 +250,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Grape;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ellie;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rosuuri;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Purge;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tsunami;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YourAvgBo;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pouria;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
@@ -510,6 +512,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LILYPAL] =                  &gObjectEventGraphicsInfo_Lilypal,
     [OBJ_EVENT_GFX_ROSUURI] =                  &gObjectEventGraphicsInfo_Rosuuri,
     [OBJ_EVENT_GFX_PURGE] =                    &gObjectEventGraphicsInfo_Purge,
+    [OBJ_EVENT_GFX_TSUNAMI] =                  &gObjectEventGraphicsInfo_Tsunami,
+    [OBJ_EVENT_GFX_YOURAVGBO] =                &gObjectEventGraphicsInfo_YourAvgBo,
     [OBJ_EVENT_GFX_MABLE] =                    &gObjectEventGraphicsInfo_Mable,
     [OBJ_EVENT_GFX_GRAPE] =                    &gObjectEventGraphicsInfo_Grape,
     [OBJ_EVENT_GFX_ELLIE] =                    &gObjectEventGraphicsInfo_Ellie,

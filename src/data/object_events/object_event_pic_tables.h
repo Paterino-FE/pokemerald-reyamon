@@ -197,6 +197,14 @@ static const struct SpriteFrameImage sPicTable_Purge[] = {
     overworld_ascending_frames(gObjectEventPic_Purge, 2, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_Tsunami[] = {
+    overworld_ascending_frames(gObjectEventPic_Tsunami, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_YourAvgBo[] = {
+    overworld_ascending_frames(gObjectEventPic_YourAvgBo, 2, 4),
+};
+
 static const struct SpriteFrameImage sPicTable_Pouria[] = {
     overworld_ascending_frames(gObjectEventPic_Pouria, 2, 4),
 };
