@@ -45,7 +45,6 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 #include "constants/map_types.h"
-#include "rotom_catalog_common.h"
 
 
 static void SetUpItemUseCallback(u8);

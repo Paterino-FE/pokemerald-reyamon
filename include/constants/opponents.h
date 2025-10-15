@@ -640,13 +640,13 @@
 #define TRAINER_MIKE_1                      634
 #define TRAINER_MIKE_2                      635
 #define TRAINER_CONLAD_DOUBLE               636
-#define TRAINER_UNUSED_13                   637
-#define TRAINER_UNUSED_14                   638
-#define TRAINER_UNUSED_15                   639
+#define TRAINER_COLOURFUL                   637
+#define TRAINER_PEBBLE_HILL                 638
+#define TRAINER_LYRA                        639
 #define TRAINER_DEZ_AND_LUKE                640
 #define TRAINER_LEA_AND_JED                 641
 #define TRAINER_KIRA_AND_DAN_1              642
-#define TRAINER_UNUSED_7                    643
+#define TRAINER_SVELTE                      643
 #define TRAINER_UNUSED_8                    644
 #define TRAINER_UNUSED_9                    645
 #define TRAINER_UNUSED_10                   646
