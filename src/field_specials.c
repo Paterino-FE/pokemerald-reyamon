@@ -49,6 +49,7 @@
 #include "tv.h"
 #include "wallclock.h"
 #include "window.h"
+#include "rotom_form_change.h"
 #include "constants/battle_frontier.h"
 #include "constants/battle_pyramid.h"
 #include "constants/battle_tower.h"
