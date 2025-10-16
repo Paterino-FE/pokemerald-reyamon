@@ -1224,3 +1224,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Birthday_Route_4/scripts.inc"
 
 	.include "data/maps/Birthday_Village_Present/scripts.inc"
+
+	.include "data/maps/Birthday_Average_Bos_House/scripts.inc"
+
+	.include "data/maps/Birthday_Main_Village_House1/scripts.inc"

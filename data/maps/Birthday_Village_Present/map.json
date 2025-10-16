@@ -87,7 +87,13 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 34,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_BIRTHDAY_AVERAGE_BOS_HOUSE",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
     {
@@ -118,7 +124,5 @@
       "script": "Birthday_Village_Present_RockPaperScissorsDirklingApproach_EventScript"
     }
   ],
-  "bg_events": [
-
-  ]
+  "bg_events": []
 }

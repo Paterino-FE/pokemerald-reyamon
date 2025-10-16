@@ -4770,6 +4770,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Birthday_Village_Present/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Village_Present/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_AVERAGE_BOS_HOUSE",
+      "name": "Birthday_Average_Bos_House_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Birthday_Average_Bos_House/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Average_Bos_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MAIN_VILLAGE_HOUSE1",
+      "name": "Birthday_Main_Village_House1_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Birthday_Main_Village_House1/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Main_Village_House1/map.bin"
     }
   ]
 }
