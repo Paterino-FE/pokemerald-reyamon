@@ -1,2 +1,24 @@
 Birthday_Average_Bos_House_MapScripts::
 	.byte 0
+
+Birthday_Average_Bos_House_YourAvgBo_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_GLACIAL_RAVEN, Birthday_Average_Bos_House_YourAvgBoBattle_EventScript @Bo needs to be placed in instead of TRAINER_GLACIAL_RAVEN
+	msgbox Birthday_Average_Bos_House_YourAvgBo_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Average_Bos_House_YourAvgBoBattle_EventScript::
+	msgbox Birthday_Average_Bos_House_YourAvgBoPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_GLACIAL_RAVEN, Birthday_Average_Bos_House_YourAvgBoIntro_Text, Birthday_Average_Bos_House_YourAvgBoDefeat_Text @Bo needs to be placed in instead of TRAINER_GLACIAL_RAVEN
+	release
+	end
+
+Birthday_Average_Bos_House_YourAvgBoPreBattle_Text:
+
+Birthday_Average_Bos_House_YourAvgBoDefeat_Text:
+
+Birthday_Average_Bos_House_YourAvgBo_Text:
+
+Birthday_Average_Bos_House_YourAvgBoIntro_Text:

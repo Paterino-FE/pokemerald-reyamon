@@ -169,7 +169,54 @@ Birthday_Mable_Lighthouse_TEXT_MableFight_3:
 	.string "Post-Battle$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_4:
-	.string "Repeat$"
+	.string "Repeat Text$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_5:
-	.string "Intro$"
+	.string "Intro Text for the fight$"
+
+Birthday_Mable_Lighthouse_Lilypal1_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Mable_Lighthouse_Lilypal1_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Mable_Lighthouse_Lilypal1_Text:
+
+Birthday_Mable_Lighthouse_Lilypal2_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Mable_Lighthouse_Lilypal2_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Mable_Lighthouse_Lilypal2_Text:
+
+Birthday_Mable_Lighthouse_Lilypal3_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Mable_Lighthouse_Lilypal3_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Mable_Lighthouse_Lilypal3_Text:
+
+Birthday_Mable_Lighthouse_Oshawott1_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Mable_Lighthouse_Oshawott1_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Mable_Lighthouse_Oshawott1_Text:
+
+
+Birthday_Mable_Lighthouse_Oshawott2_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Mable_Lighthouse_Oshawott2_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Mable_Lighthouse_Oshawott2_Text:
+

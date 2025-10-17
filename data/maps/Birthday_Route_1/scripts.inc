@@ -1,2 +1,86 @@
 Birthday_Route_1_MapScripts::
 	.byte 0
+
+Birthday_Route_1_ArchonOfFog_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_ARCHONOFFOG, Birthday_Route_1_ArchonOfFogBattle_EventScript
+	msgbox Birthday_Route_1_ArchonOfFog_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_ArchonOfFogBattle_EventScript::
+	msgbox Birthday_Route_1_ArchonOfFogPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_ARCHONOFFOG, Birthday_Route_1_ArchonOfFogIntro_Text, Birthday_Route_1_ArchonOfFogDefeat_Text
+	release
+	end
+
+Birthday_Route_1_ArchonOfFogPreBattle_Text:
+
+Birthday_Route_1_ArchonOfFogDefeat_Text:
+
+Birthday_Route_1_ArchonOfFog_Text:
+
+Birthday_Route_1_ArchonOfFogIntro_Text:
+
+Birthday_Route_1_Nigeltastic_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticBattle_EventScript
+	msgbox Birthday_Route_1_Nigeltastic_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_NigeltasticBattle_EventScript::
+	msgbox Birthday_Route_1_NigeltasticPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticIntro_Text, Birthday_Route_1_NigeltasticDefeat_Text
+	release
+	end
+
+Birthday_Route_1_NigeltasticPreBattle_Text:
+
+Birthday_Route_1_NigeltasticDefeat_Text:
+
+Birthday_Route_1_Nigeltastic_Text:
+
+Birthday_Route_1_NigeltasticIntro_Text:
+
+Birthday_Route_1_Quattuor_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_QUATTUOR, Birthday_Route_1_QuattuorBattle_EventScript
+	msgbox Birthday_Route_1_Quattuor_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_QuattuorBattle_EventScript::
+	msgbox Birthday_Route_1_QuattuorPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_QUATTUOR, Birthday_Route_1_QuattuorIntro_Text, Birthday_Route_1_QuattuorDefeat_Text
+	release
+	end
+
+Birthday_Route_1_QuattuorPreBattle_Text:
+
+Birthday_Route_1_QuattuorDefeat_Text:
+
+Birthday_Route_1_Quattuor_Text:
+
+Birthday_Route_1_QuattuorIntro_Text:
+
+Birthday_Route_1_Sign1_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Route_1_Sign1_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_Sign1_Text:
+
+Birthday_Route_1_Sign2_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Route_1_Sign2_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_Sign2_Text:

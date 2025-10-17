@@ -1,2 +1,83 @@
 Birthday_Cave_Past_R1_MapScripts::
 	.byte 0
+
+Birthday_Cave_Past_R1_BandanaT_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_BANDANAT, Birthday_Cave_Past_R1_BandanaTBattle_EventScript
+	msgbox Birthday_Cave_Past_R1_BandanaT_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_BandanaTBattle_EventScript::
+	msgbox Birthday_Cave_Past_R1_BandanaTPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_BANDANAT, Birthday_Cave_Past_R1_BandanaTIntro_Text, Birthday_Cave_Past_R1_BandanaTDefeat_Text
+	release
+	end
+
+Birthday_Cave_Past_R1_BandanaTPreBattle_Text:
+
+Birthday_Cave_Past_R1_BandanaTDefeat_Text:
+
+Birthday_Cave_Past_R1_BandanaT_Text:
+
+Birthday_Cave_Past_R1_BandanaTIntro_Text:
+
+Birthday_Cave_Past_R1_DAVID8887_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_DAVID8887, Birthday_Cave_Past_R1_DAVID8887Battle_EventScript
+	msgbox Birthday_Cave_Past_R1_DAVID8887_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_DAVID8887Battle_EventScript::
+	msgbox Birthday_Cave_Past_R1_DAVID8887PreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_DAVID8887, Birthday_Cave_Past_R1_DAVID8887Intro_Text, Birthday_Cave_Past_R1_DAVID8887Defeat_Text
+	release
+	end
+
+Birthday_Cave_Past_R1_DAVID8887PreBattle_Text:
+
+Birthday_Cave_Past_R1_DAVID8887Defeat_Text:
+
+Birthday_Cave_Past_R1_DAVID8887_Text:
+
+Birthday_Cave_Past_R1_DAVID8887Intro_Text:
+
+Birthday_Cave_Past_R1_Sign1_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Cave_Past_R1_Sign1_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_Sign1_Text:
+
+Birthday_Cave_Past_R1_Sign2_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Cave_Past_R1_Sign2_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_Sign2_Text:
+
+Birthday_Cave_Past_R1_Sign3_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Cave_Past_R1_Sign3_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_Sign3_Text:
+
+Birthday_Cave_Past_R1_Sign4_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Cave_Past_R1_Sign4_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Cave_Past_R1_Sign4_Text:
+

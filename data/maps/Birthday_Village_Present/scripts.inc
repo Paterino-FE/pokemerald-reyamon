@@ -192,3 +192,25 @@ Birthday_Village_Present_ScissorsComment_Text:
 	.string "HAHAHA WEAK!\n"
 	.string "You got no chance against ME!$"
 
+
+Birthday_Village_Present_AntleredKey_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyBattle_EventScript
+	msgbox Birthday_Village_Present_AntleredKey_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_AntleredKeyBattle_EventScript::
+	msgbox Birthday_Village_Present_AntleredKeyPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyIntro_Text, Birthday_Village_Present_AntleredKeyDefeat_Text
+	release
+	end
+
+Birthday_Village_Present_AntleredKeyPreBattle_Text:
+
+Birthday_Village_Present_AntleredKeyDefeat_Text:
+
+Birthday_Village_Present_AntleredKey_Text:
+
+Birthday_Village_Present_AntleredKeyIntro_Text:

@@ -61,6 +61,9 @@ $(OBJEVENTGFXDIR)/people/ellie.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/grape.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/alex/walking.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/lilypal.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 

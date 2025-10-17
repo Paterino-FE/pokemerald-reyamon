@@ -30572,7 +30572,6 @@ F_TRAINER_FEMALE |
             },
         },
     },
-
     [TRAINER_EMILIA] =
     {
         .trainerName = _("EMILIA"),
@@ -30594,8 +30593,7 @@ F_TRAINER_FEMALE |
             },
         },
     },
-
-        [TRAINER_LANNN] =
+    [TRAINER_LANNN] =
     {
         .trainerName = _("LANNN"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
@@ -30770,8 +30768,7 @@ F_TRAINER_FEMALE |
             },
         },
     },
-
-        [TRAINER_QUATTUOR] =
+    [TRAINER_QUATTUOR] =
     {
         .trainerName = _("QUATTUOR"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
@@ -32360,6 +32357,33 @@ F_TRAINER_FEMALE |
             .moves = {
                 MOVE_ROCK_SLIDE, MOVE_THUNDER_WAVE, MOVE_MULTI_ATTACK, MOVE_IRON_HEAD
             },
+            },
+        },
+    },
+    [TRAINER_ALEX_2] =
+    {
+        .trainerName = _("ALEX"),
+        .trainerClass = TRAINER_CLASS_ALEX,
+        .trainerPic = TRAINER_PIC_ALEX,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = TRUE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_MILOTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CUTE_CHARM,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_MUDDY_WATER,
+                MOVE_DRAGON_TAIL,
+                MOVE_COIL,
+                MOVE_HYPNOSIS
+                },
             },
         },
     },

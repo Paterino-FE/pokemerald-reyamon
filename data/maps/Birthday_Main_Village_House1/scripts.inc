@@ -35,7 +35,9 @@ Birthday_Main_Village_House1_Atsui_EventScript::
 	lock
 	faceplayer
 	goto_if_unset FLAG_TALKED_TO_ATSUI, Birthday_Main_Village_House1_Atsui_Monologue
+	goto_if_not_defeated TRAINER_ATSUI, Birthday_Main_Village_House1_AtsuiBattle_EventScript
 	goto Birthday_Main_Village_House1_Atsui_Repeat
+	release
 	end
 
 Birthday_Main_Village_House1_Atsui_Monologue::
@@ -126,3 +128,15 @@ Birthday_Main_Village_House1_Atsui_Text10:
 
 Birthday_Main_Village_House1_Atsui_Text_TalkAgain:
 	.string "ATSUI: I'm Vanilla Ice Ice Baby!$"
+
+Birthday_Main_Village_House1_AtsuiBattle_EventScript::
+	msgbox Birthday_Main_Village_House1_AtsuiPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_ATSUI, Birthday_Main_Village_House1_AtsuiIntro_Text, Birthday_Main_Village_House1_AtsuiDefeat_Text
+	release
+	end
+
+Birthday_Main_Village_House1_AtsuiPreBattle_Text:
+
+Birthday_Main_Village_House1_AtsuiDefeat_Text:
+
+Birthday_Main_Village_House1_AtsuiIntro_Text:

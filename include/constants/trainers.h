@@ -122,7 +122,8 @@
 #define TRAINER_PIC_ELLIE                 104
 #define TRAINER_PIC_TSUNAMI               105
 #define TRAINER_PIC_YOURAVGBO             106
-#define TRAINER_PIC_COUNT                 107
+#define TRAINER_PIC_ALEX                  107
+#define TRAINER_PIC_COUNT                 108
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -379,7 +380,8 @@
 #define TRAINER_CLASS_BO             0x53
 #define TRAINER_CLASS_PURGE          0x54
 #define TRAINER_CLASS_TSUNAMI        0x55
-#define TRAINER_CLASS_COUNT          0x56
+#define TRAINER_CLASS_ALEX           0x56
+#define TRAINER_CLASS_COUNT          0x57
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

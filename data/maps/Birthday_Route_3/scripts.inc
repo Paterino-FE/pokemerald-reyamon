@@ -1,2 +1,46 @@
 Birthday_Route_3_MapScripts::
 	.byte 0
+
+Birthday_Route_3_Lyra_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_DDYLAN, Birthday_Route_3_LyraSvelteBattle_EventScript
+	msgbox Birthday_Route_3_LyraPostBattle_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_3_Svelte_EventScript::
+	lock 
+	faceplayer
+	goto_if_not_defeated TRAINER_DDYLAN, Birthday_Route_3_LyraSvelteBattle_EventScript
+	msgbox Birthday_Route_3_SveltePostBattle_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_3_LyraSvelteBattle_EventScript::
+	msgbox Birthday_Route_3_LyraPreBattle_Text, MSGBOX_DEFAULT
+	msgbox Birthday_Route_3_SveltePreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_two_trainers TRAINER_LYRA, Birthday_Route_3_LyraDefeat_Text, TRAINER_SVELTE, Birthday_Route_3_SvelteDefeat_Text
+	release
+	end
+
+Birthday_Route_3_LyraPostBattle_Text:
+
+Birthday_Route_3_SveltePostBattle_Text:
+
+Birthday_Route_3_LyraPreBattle_Text:
+
+Birthday_Route_3_SveltePreBattle_Text:
+
+Birthday_Route_3_LyraDefeat_Text:
+
+Birthday_Route_3_SvelteDefeat_Text:
+
+Birthday_Route_3_Groudon_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Route_3_Groudon_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_3_Groudon_Text:

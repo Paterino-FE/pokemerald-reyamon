@@ -59,3 +59,24 @@ Birthday_Ellies_House_RotomNotInParty_Text:
     .string "ROTOM is not in your party!$"
 
 
+Birthday_Ellies_House_Ellie_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_ELLIE, Birthday_Ellies_House_EllieBattle_EventScript
+	msgbox Birthday_Ellies_House_Ellie_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Ellies_House_EllieBattle_EventScript::
+	msgbox Birthday_Ellies_House_ElliePreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_ELLIE, Birthday_Ellies_House_EllieIntro_Text, Birthday_Ellies_House_EllieDefeat_Text
+	release
+	end
+
+Birthday_Ellies_House_ElliePreBattle_Text:
+
+Birthday_Ellies_House_EllieDefeat_Text:
+
+Birthday_Ellies_House_Ellie_Text:
+
+Birthday_Ellies_House_EllieIntro_Text:

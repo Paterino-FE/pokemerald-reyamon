@@ -1,2 +1,47 @@
 Birthday_Route_4_MapScripts::
 	.byte 0
+
+Birthday_Route_4_OcarinaOfMe_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_OCARINAOFME, Birthday_Route_4_OcarinaOfMeBattle_EventScript
+	msgbox Birthday_Route_4_OcarinaOfMe_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_4_OcarinaOfMeBattle_EventScript::
+	msgbox Birthday_Route_4_OcarinaOfMePreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_OCARINAOFME, Birthday_Route_4_OcarinaOfMeIntro_Text, Birthday_Route_4_OcarinaOfMeDefeat_Text
+	release
+	end
+
+Birthday_Route_4_OcarinaOfMePreBattle_Text:
+
+Birthday_Route_4_OcarinaOfMeDefeat_Text:
+
+Birthday_Route_4_OcarinaOfMe_Text:
+
+Birthday_Route_4_OcarinaOfMeIntro_Text:
+
+
+Birthday_Route_4_Tsunami_EventScript::
+	lock
+	faceplayer
+	goto_if_not_defeated TRAINER_OCARINAOFME, Birthday_Route_4_TsunamiBattle_EventScript @TSUNAMI needs to be placed in instead of TRAINER_OCARINAOFME
+	msgbox Birthday_Route_4_Tsunami_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_4_TsunamiBattle_EventScript::
+	msgbox Birthday_Route_4_TsunamiPreBattle_Text, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_OCARINAOFME, Birthday_Route_4_TsunamiIntro_Text, Birthday_Route_4_TsunamiDefeat_Text @TSUNAMI needs to be placed in instead of TRAINER_OCARINAOFME
+	release
+	end
+
+Birthday_Route_4_TsunamiPreBattle_Text:
+
+Birthday_Route_4_TsunamiDefeat_Text:
+
+Birthday_Route_4_Tsunami_Text:
+
+Birthday_Route_4_TsunamiIntro_Text:

@@ -647,7 +647,7 @@
 #define TRAINER_LEA_AND_JED                 641
 #define TRAINER_KIRA_AND_DAN_1              642
 #define TRAINER_SVELTE                      643
-#define TRAINER_UNUSED_8                    644
+#define TRAINER_ALEX_2                      644
 #define TRAINER_UNUSED_9                    645
 #define TRAINER_UNUSED_10                   646
 #define TRAINER_JOHANNA                     647

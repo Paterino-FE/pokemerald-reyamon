@@ -1384,16 +1384,8 @@ static const struct SpriteFrameImage sPicTable_PoochyenaOld[] = {
     overworld_ascending_frames(gObjectEventPic_PoochyenaOld, 4, 4),
 };
 
-static const struct SpriteFrameImage sPicTable_LugiaOld[] = {
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 1),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 1),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 0),
-    overworld_frame(gObjectEventPic_LugiaOld, 4, 4, 1),
+static const struct SpriteFrameImage sPicTable_Alex[] = {
+    overworld_ascending_frames(gObjectEventPic_Alex, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_HoOhOld[] = {
