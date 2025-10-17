@@ -136,7 +136,10 @@ Birthday_Main_Village_House1_AtsuiBattle_EventScript::
 	end
 
 Birthday_Main_Village_House1_AtsuiPreBattle_Text:
+	.string "Crazy$"
 
 Birthday_Main_Village_House1_AtsuiDefeat_Text:
+	.string "Crazy$"
 
 Birthday_Main_Village_House1_AtsuiIntro_Text:
+	.string "Crazy$"
