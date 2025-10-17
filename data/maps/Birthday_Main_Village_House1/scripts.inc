@@ -95,11 +95,11 @@ Birthday_Main_Village_House1_Atsui_Text4:
 
 Birthday_Main_Village_House1_Atsui_Text5:
 	.string "Thank you for picking me up from the\n"
-	.string "trashpile and putting me on a\l"
+	.string "trash pile and putting me on a\l"
 	.string "pedestal. You are the bestest boss,\l"
-	.string "the bestest British person and the\l"
+	.string "the bestest british person, and the\l"
 	.string "bestest white haired woman person\l"
-	.string "(maybe not)  that I have ever met.$"
+	.string "(maybe not) that I have ever met.$"
 
 Birthday_Main_Village_House1_Atsui_Text6:
 	.string "Dances to Boombastic by Shaggy.$"
