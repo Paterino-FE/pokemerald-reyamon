@@ -244,7 +244,7 @@ Birthday_Mable_Lighthouse_TEXT_MableFight_2:
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_3:
 	.string "It would be our honor to have one\n"
-	.string "of our OSHAWOTT join you.\p"
+	.string "of our OSHAWOTT join you.$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_AcceptOshawott:
 	.string "Will you accept this companion on\n"
@@ -273,6 +273,7 @@ Birthday_Mable_Lighthouse_Lilypal1_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Lilypal1_Text:
+	.string "placeholder$"
 
 Birthday_Mable_Lighthouse_Lilypal2_EventScript::
 	lock
@@ -282,6 +283,7 @@ Birthday_Mable_Lighthouse_Lilypal2_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Lilypal2_Text:
+	.string "placeholder$"
 
 Birthday_Mable_Lighthouse_Lilypal3_EventScript::
 	lock
@@ -291,6 +293,7 @@ Birthday_Mable_Lighthouse_Lilypal3_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Lilypal3_Text:
+	.string "placeholder$"
 
 Birthday_Mable_Lighthouse_Oshawott1_EventScript::
 	lock
@@ -300,7 +303,7 @@ Birthday_Mable_Lighthouse_Oshawott1_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Oshawott1_Text:
-
+	.string "placeholder$"
 
 Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	lock
@@ -310,4 +313,5 @@ Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Oshawott2_Text:
+	.string "placeholder$"
 
