@@ -147,8 +147,68 @@ Mable_Lighthouse_EventScript_DoBattle::
 
 Mable_Lighthouse_EventScript_MableDefeated::
 	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_3, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
+	msgbox Birthday_Mable_Lighthouse_TEXT_MableFight_AcceptOshawott, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, Mable_Lighthouse_EventScript_MableNoOshawott
+	case YES, Mable_Lighthouse_EventScript_MableGiveOshawott
 	release
 	end
+
+Mable_Lighthouse_EventScript_MableGiveOshawott::
+	msgbox Mable_Lighthouse_TEXT_MableGiveOshawott, MSGBOX_DEFAULT
+	givemon SPECIES_OSHAWOTT, 5, ITEM_EXPERT_BELT, ITEM_LUXURY_BALL
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Mable_Lighthouse_EventScript_ReceiveOshawottParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Mable_Lighthouse_EventScript_ReceiveOshawottPC
+	release
+	end
+
+Mable_Lighthouse_EventScript_ReceiveOshawottParty::
+	call Mable_Lighthouse_EventScript_ReceiveOshawottFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	release
+	end
+
+Mable_Lighthouse_EventScript_ReceiveOshawottPC::
+	call Mable_Lighthouse_EventScript_ReceiveOshawottFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Mable_Lighthouse_EventScript_SendOshawottToPC
+	call Common_EventScript_NameReceivedBoxMon
+	call Mable_Lighthouse_EventScript_SendOshawottToPC
+	end
+
+Mable_Lighthouse_EventScript_SendOshawottToPC::
+	call Common_EventScript_TransferredToPC
+	release
+	end
+
+Mable_Lighthouse_EventScript_ReceiveOshawottFanfare::
+	playfanfare MUS_OBTAIN_ITEM
+	message FortreeCity_Gym_Text_PlayerReceivedOshawott
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_OSHAWOTT
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_OSHAWOTT
+	return
+
+FortreeCity_Gym_Text_PlayerReceivedOshawott:
+	.string "{PLAYER} received OSHAWOTT!$"
+
+Mable_Lighthouse_EventScript_MableNoOshawott::
+	msgbox Mable_Lighthouse_TEXT_MableNoOshawott, MSGBOX_DEFAULT
+	release
+	end
+
+Mable_Lighthouse_TEXT_MableGiveOshawott:
+	.string "Then it shall be yours.\n"
+	.string "Raise it well, {PLAYER}, and it will\l"
+	.string "grow strong at your side.$"
+
+Mable_Lighthouse_TEXT_MableNoOshawott:
+	.string "I understand. When the time is right,\n"
+	.string "return to me… and an OSHAWOTT will\l"
+	.string "be waiting.$"
 
 Mable_Lighthouse_Movement_Oshawott_Evolves:
 	jump_in_place_left
@@ -157,22 +217,53 @@ Mable_Lighthouse_Movement_Oshawott_Evolves:
 	step_end
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_1_1:
-	.string "Pre-Battle$"
+	.string "Welcome, traveler. I am Mable,\n"
+	.string "the keeper of this lighthouse.\p"
+	.string "The light guides sailors home,\n"
+	.string "but it also shines on those strong\l"
+	.string "enough to face the storm.\p"
+	.string "I have dedicated my life to raising\n"
+	.string "OSHAWOTTS.\p"
+	.string "They are not just partners, they\n"
+	.string "are my family.\p"
+	.string "With strength and guidance, my\n"
+	.string "OSHAWOTTS grow into proud SAMUROTTS,\l"
+	.string "guardians of land and sea.\p"
+	.string "This one has grown with me since the\n"
+	.string "beginning.\p"
+	.string "Today, it is ready to stand at my\n"
+	.string "side as a SAMUROTT.$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_1_2:
-	.string "Oshawott Evolves$"
+	.string "OSHAWOTT Evolves!$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_2:
-	.string "Defeat$"
+	.string "I gave everything I had, yet you\n"
+	.string "endured. {PLAYER}, your strength\l"
+	.string "withstands even the fiercest storm!$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_3:
-	.string "Post-Battle$"
+	.string "It would be our honor to have one\n"
+	.string "of our OSHAWOTT join you.\p"
+
+Birthday_Mable_Lighthouse_TEXT_MableFight_AcceptOshawott:
+	.string "Will you accept this companion on\n"
+	.string "your journey?$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_4:
-	.string "Repeat Text$"
+	.string "As the sea is endless, so is my work.\p"
+	.string "There will always be OSHAWOTTS here,\n"
+	.string "waiting for those brave enough to earn\l"
+	.string "their place.$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_5:
-	.string "Intro Text for the fight$"
+	.string "If you can defeat me, you will earn\n"
+	.string "more than my respect.\p"
+	.string "You will prove that you are worthy\n"
+	.string "of taking one of my OSHAWOTTS on\l"
+	.string "your journey.\p"
+	.string "Now… Let us see if you can weather\n"
+	.string "the tide!$"
 
 Birthday_Mable_Lighthouse_Lilypal1_EventScript::
 	lock

@@ -110,3 +110,4 @@ Birthday_Rosuuri_Bakery_Dirkling2_EventScript::
 
 Birthday_Rosuuri_Bakery_Dirkling2_Text:
 	.string "placeholder$"
+
