@@ -28561,7 +28561,7 @@ F_TRAINER_FEMALE |
             },
             { 
             .species = SPECIES_SYLVEON,
-            .nickname = COMPOUND_STRING("SYLVADO")
+            .nickname = COMPOUND_STRING("SYLVADO"),
             .gender = TRAINER_MON_MALE,
             .iv = TRAINER_PARTY_IVS(12, 12, 9, 12, 10, 9),
             .lvl = 29,

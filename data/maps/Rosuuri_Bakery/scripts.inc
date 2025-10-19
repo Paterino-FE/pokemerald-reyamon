@@ -28,7 +28,7 @@ Birthday_Rosuuri_Bakery_Agdaleks_EventScript::
 	lock
 	faceplayer
 	goto_if_unset FLAG_TALKED_TO_AGDALEKS, Birthday_Rosuuri_Bakery_AgdaleksGive_EventScript
-	msgbox Birthday_Rosuuri_Bakery_Agdaleks_Text, MSGBOX_DEFAULT
+	msgbox Birthday_Rosuuri_Bakery_AgdaleksRepeat_Text, MSGBOX_DEFAULT
 	release
 	end
 
