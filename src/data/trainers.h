@@ -31756,10 +31756,10 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-                MOVE_WATERFALL,
-                MOVE_MEGAHORN,
-                MOVE_ICE_BEAM,
-                MOVE_SWORDS_DANCE
+                MOVE_GUNK_SHOT,
+                MOVE_ACID_ARMOR,
+                MOVE_OUTRAGE,
+                MOVE_TOXIC_SPIKES
                 },
             },
             {
