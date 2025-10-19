@@ -172,7 +172,7 @@
 #define VAR_PETALBURG_WOODS_STATE                        0x4098
 #define VAR_LILYCOVE_CONTEST_LOBBY_STATE                 0x4099
 #define VAR_RUSTURF_TUNNEL_STATE                         0x409A
-#define VAR_UNUSED_0x409B                                0x409B // Unused Var
+#define VAR_GRAPE_EVENT                                  0x409B // Unused Var
 #define VAR_ELITE_4_STATE                                0x409C
 #define VAR_UNUSED_0x409D                                0x409D // Unused Var
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
@@ -236,8 +236,8 @@
 #define VAR_SOOTOPOLIS_WALLACE_STATE                     0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE                         0x40DA
-#define VAR_UNUSED_0x40DB                                0x40DB // Unused Var
-#define VAR_UNUSED_0x40DC                                0x40DC // Unused Var
+#define VAR_BIRTHDAY_ENDING                              0x40DB // Unused Var
+#define VAR_BIRTHDAY_HIDE_PAST                           0x40DC // Unused Var
 #define VAR_GIFT_PICHU_SLOT                              0x40DD
 #define VAR_GIFT_UNUSED_1                                0x40DE // Var is written to, but never read
 #define VAR_GIFT_UNUSED_2                                0x40DF // Var is written to, but never read
@@ -271,8 +271,8 @@
 #define VAR_SSLANNN_DOOR_STATE                           0x40FB // Unused Var
 #define VAR_MABLE_EVENT_EVOLVE_OSHAWOTT                  0x40FC // Unused Var
 #define VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW               0x40FD // Unused Var
-#define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
-#define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
+#define VAR_BIRTHDAY_HIDE_FUTURE                         0x40FE // Unused Var
+#define VAR_BIRTHDAY_HIDE_PRESENT                        0x40FF // Unused Var
 
 #define VARS_END                                         0x40FF
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)

@@ -1,7 +1,7 @@
+.set LOCALID_ALEX, 16
+
 Birthday_Cave_Past_R3_MapScripts::
 	.byte 0
-
-
 
 Birthday_Cave_Past_R3_BOULDER::
 	msgbox_mugshot Birthday_Cave_Past_R3_TEXT_BOULDER, MSGBOX_SIGN, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
@@ -44,17 +44,28 @@ Birthday_Cave_Past_R3_Alex_EventScript::
 
 Birthday_Cave_Past_R3_AlexBattle_EventScript::
 	msgbox Birthday_Cave_Past_R3_AlexPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexIntro_Text, Birthday_Cave_Past_R3_AlexDefeat_Text
+	@trainerbattle_single TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexIntro_Text, Birthday_Cave_Past_R3_AlexDefeat_Text
+	setvar VAR_BIRTHDAY_HIDE_FUTURE, 1
+	setvar VAR_BIRTHDAY_HIDE_PAST, 2
+	fadescreen FADE_TO_BLACK
+	setflag FLAG_HIDE_ALEX
+	removeobject LOCALID_ALEX
+	delay 16
+	fadescreen FADE_FROM_BLACK
 	release
 	end
 
 Birthday_Cave_Past_R3_AlexPreBattle_Text:
+	.string "PreBattle.$"
 
 Birthday_Cave_Past_R3_AlexDefeat_Text:
+	.string "Defeat.$"
 
 Birthday_Cave_Past_R3_Alex_Text:
+	.string "Standard Text.$"
 
 Birthday_Cave_Past_R3_AlexIntro_Text:
+	.string "Intro.$"
 
 
 Birthday_Cave_Past_R3_Sign1_EventScript::
