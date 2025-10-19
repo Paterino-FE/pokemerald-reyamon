@@ -196,21 +196,23 @@ Birthday_Village_Present_ScissorsComment_Text:
 Birthday_Village_Present_AntleredKey_EventScript::
 	lock
 	faceplayer
-	goto_if_not_defeated TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyBattle_EventScript
+	trainerbattle_single TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyIntro_Text, Birthday_Village_Present_AntleredKeyDefeat_Text
 	msgbox Birthday_Village_Present_AntleredKey_Text, MSGBOX_DEFAULT
 	release
 	end
 
-Birthday_Village_Present_AntleredKeyBattle_EventScript::
-	msgbox Birthday_Village_Present_AntleredKeyPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyIntro_Text, Birthday_Village_Present_AntleredKeyDefeat_Text
-	release
-	end
-
-Birthday_Village_Present_AntleredKeyPreBattle_Text:
-
 Birthday_Village_Present_AntleredKeyDefeat_Text:
+	.string "I hope my antlered POKéMON and key\n"
+	.string "POKéMON didn't leave you with too\l"
+	.string "many bruises...$"
 
 Birthday_Village_Present_AntleredKey_Text:
+	.string "... Wait, YOU were {PLAYER}!?\n"
+	.string "Well, now this is a bit awkward...\p"
+	.string "Happy birthday streamer! I've loved\n"
+	.string "being part of this community for at\l"
+	.string "least a month now :D!$"
 
 Birthday_Village_Present_AntleredKeyIntro_Text:
+	.string "I heard someone cool was coming by...\n"
+	.string "Have you seen her around here yet?$"

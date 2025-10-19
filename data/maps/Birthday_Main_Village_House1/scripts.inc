@@ -35,7 +35,6 @@ Birthday_Main_Village_House1_Atsui_EventScript::
 	lock
 	faceplayer
 	goto_if_unset FLAG_TALKED_TO_ATSUI, Birthday_Main_Village_House1_Atsui_Monologue
-	goto_if_not_defeated TRAINER_ATSUI, Birthday_Main_Village_House1_AtsuiBattle_EventScript
 	goto Birthday_Main_Village_House1_Atsui_Repeat
 	release
 	end
@@ -62,6 +61,7 @@ Birthday_Main_Village_House1_Atsui_Monologue::
 	msgbox Birthday_Main_Village_House1_Atsui_Text10, MSGBOX_AUTOCLOSE
 	waitmovement 0
 	setflag FLAG_TALKED_TO_ATSUI
+	trainerbattle_single TRAINER_ATSUI, Birthday_Main_Village_House1_AtsuiIntro_Text, Birthday_Main_Village_House1_AtsuiDefeat_Text
 	release
 	end
 
@@ -129,17 +129,12 @@ Birthday_Main_Village_House1_Atsui_Text10:
 Birthday_Main_Village_House1_Atsui_Text_TalkAgain:
 	.string "ATSUI: I'm Vanilla Ice Ice Baby!$"
 
-Birthday_Main_Village_House1_AtsuiBattle_EventScript::
-	msgbox Birthday_Main_Village_House1_AtsuiPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_ATSUI, Birthday_Main_Village_House1_AtsuiIntro_Text, Birthday_Main_Village_House1_AtsuiDefeat_Text
-	release
-	end
-
-Birthday_Main_Village_House1_AtsuiPreBattle_Text:
-	.string "Crazy$"
-
 Birthday_Main_Village_House1_AtsuiDefeat_Text:
-	.string "Crazy$"
+	.string "Dammit, still can't beat you.\n"
+	.string "Whatever, still have more tinder\l"
+	.string "swipes than you.$"
 
 Birthday_Main_Village_House1_AtsuiIntro_Text:
-	.string "Crazy$"
+	.string "This is for all the minor edits you\n"
+	.string "made me do at 3 am!\p"
+	.string "Time to rumble!$"

@@ -648,8 +648,8 @@
 #define TRAINER_KIRA_AND_DAN_1              642
 #define TRAINER_SVELTE                      643
 #define TRAINER_ALEX_2                      644
-#define TRAINER_UNUSED_9                    645
-#define TRAINER_UNUSED_10                   646
+#define TRAINER_PURGE                       645
+#define TRAINER_TSUNAMI                     646
 #define TRAINER_JOHANNA                     647
 #define TRAINER_GERALD                      648
 #define TRAINER_VIVIAN                      649

@@ -32373,11 +32373,67 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_ALEX,
         .trainerPic = TRAINER_PIC_ALEX,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
         .partySize = 1,
         .party = (const struct TrainerMon[])
         {
             {
+            .species = SPECIES_MILOTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CUTE_CHARM,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_MUDDY_WATER,
+                MOVE_DRAGON_TAIL,
+                MOVE_COIL,
+                MOVE_HYPNOSIS
+                },
+            },
+        },
+    },
+
+    [TRAINER_PURGE] =
+    {
+        .trainerName = _("PURGE"),
+        .trainerClass = TRAINER_CLASS_PURGE,
+        .trainerPic = TRAINER_PIC_PURGE, 
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[]) 
+        {
+            {// PLACEHOLDER
+            .species = SPECIES_MILOTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .ability = ABILITY_CUTE_CHARM,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+                MOVE_MUDDY_WATER,
+                MOVE_DRAGON_TAIL,
+                MOVE_COIL,
+                MOVE_HYPNOSIS
+                },
+            },
+        },
+    },
+
+    [TRAINER_TSUNAMI] =
+    {
+        .trainerName = _("TSUNAMI"),
+        .trainerClass = TRAINER_CLASS_TSUNAMI,
+        .trainerPic = TRAINER_PIC_TSUNAMI,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[]) 
+        {
+            {// PLACEHOLDER
             .species = SPECIES_MILOTIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),

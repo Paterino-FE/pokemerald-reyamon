@@ -93,8 +93,8 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 2,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "Birthday_Village_Present_AntleredKey_EventScript",
       "flag": "0"
     }
@@ -137,5 +137,7 @@
       "script": "Birthday_Village_Present_RockPaperScissorsDirklingApproach_EventScript"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+
+  ]
 }

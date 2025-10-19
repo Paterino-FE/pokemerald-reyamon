@@ -53,85 +53,77 @@ Birthday_Route_1_Hide_Present::
 	return
 
 Birthday_Route_1_ArchonOfFog_EventScript::
-	lock
-	faceplayer
-	goto_if_not_defeated TRAINER_ARCHONOFFOG, Birthday_Route_1_ArchonOfFogBattle_EventScript
+	trainerbattle_single TRAINER_ARCHONOFFOG, Birthday_Route_1_ArchonOfFogIntro_Text, Birthday_Route_1_ArchonOfFogDefeat_Text
 	msgbox Birthday_Route_1_ArchonOfFog_Text, MSGBOX_DEFAULT
 	release
 	end
 
-Birthday_Route_1_ArchonOfFogBattle_EventScript::
-	msgbox Birthday_Route_1_ArchonOfFogPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_ARCHONOFFOG, Birthday_Route_1_ArchonOfFogIntro_Text, Birthday_Route_1_ArchonOfFogDefeat_Text
-	release
-	end
-
-Birthday_Route_1_ArchonOfFogPreBattle_Text:
-
 Birthday_Route_1_ArchonOfFogDefeat_Text:
+	.string "...This better make part of a video,\n"
+	.string "your EDITOR owes me money...$"
 
 Birthday_Route_1_ArchonOfFog_Text:
+	.string "You know what I said...$"
 
 Birthday_Route_1_ArchonOfFogIntro_Text:
+	.string "Hey, you. I need to fight you so you\n"
+	.string "have more content to make, you need\l"
+	.string "to make more videos!$"
 
 Birthday_Route_1_Nigeltastic_EventScript::
-	lock
-	faceplayer
-	goto_if_not_defeated TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticBattle_EventScript
+	trainerbattle_single TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticIntro_Text, Birthday_Route_1_NigeltasticDefeat_Text
 	msgbox Birthday_Route_1_Nigeltastic_Text, MSGBOX_DEFAULT
 	release
 	end
 
-Birthday_Route_1_NigeltasticBattle_EventScript::
-	msgbox Birthday_Route_1_NigeltasticPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticIntro_Text, Birthday_Route_1_NigeltasticDefeat_Text
-	release
-	end
-
-Birthday_Route_1_NigeltasticPreBattle_Text:
-
 Birthday_Route_1_NigeltasticDefeat_Text:
+	.string "Well, maybe I'm VYRAL's second\n"
+	.string "strongest DIRKLING...$"
 
 Birthday_Route_1_Nigeltastic_Text:
+	.string "Happy Birthday {PLAYER}!\n"
+	.string "Hope you have a nice day :)$"
 
 Birthday_Route_1_NigeltasticIntro_Text:
+	.string "Prepare to face the wrath of VYRAL's\n"
+	.string "strongest DIRKLING!$"
 
 Birthday_Route_1_Quattuor_EventScript::
 	lock
 	faceplayer
-	goto_if_not_defeated TRAINER_QUATTUOR, Birthday_Route_1_QuattuorBattle_EventScript
+	trainerbattle_single TRAINER_QUATTUOR, Birthday_Route_1_QuattuorIntro_Text, Birthday_Route_1_QuattuorDefeat_Text
 	msgbox Birthday_Route_1_Quattuor_Text, MSGBOX_DEFAULT
 	release
 	end
 
-Birthday_Route_1_QuattuorBattle_EventScript::
-	msgbox Birthday_Route_1_QuattuorPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_QUATTUOR, Birthday_Route_1_QuattuorIntro_Text, Birthday_Route_1_QuattuorDefeat_Text
-	release
-	end
-
-Birthday_Route_1_QuattuorPreBattle_Text:
+Birthday_Route_1_QuattuorIntro_Text:
+	.string "That is fantastic! Four incredible\n"
+	.string "POKéMON in a team!\p"
+	.string "S-say that again...\n"
+	.string "(He says to himself)$"
 
 Birthday_Route_1_QuattuorDefeat_Text:
+	.string "That was quite a thing.$"
 
 Birthday_Route_1_Quattuor_Text:
-
-Birthday_Route_1_QuattuorIntro_Text:
+	.string "Bop bop bop lin lin.$"
 
 Birthday_Route_1_Sign1_EventScript::
 	lock
-	faceplayer
 	msgbox Birthday_Route_1_Sign1_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Route_1_Sign1_Text:
+	.string "$"
 
 Birthday_Route_1_Sign2_EventScript::
 	lock
-	faceplayer
 	msgbox Birthday_Route_1_Sign2_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Route_1_Sign2_Text:
+	.string "$"
+
+
