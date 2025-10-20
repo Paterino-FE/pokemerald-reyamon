@@ -3366,6 +3366,7 @@ extern const u16 gObjectEventPal_Rosuuri[];
 extern const u16 gObjectEventPal_Purge[];
 extern const u16 gObjectEventPal_Tsunami[];
 extern const u16 gObjectEventPal_YourAvgBo[];
+extern const u16 gObjectEventPal_VyralDoll[];
 extern const u16 gObjectEventPal_Grape[];
 extern const u16 gObjectEventPal_Ellie[];
 extern const u16 gObjectEventPal_Alex[];

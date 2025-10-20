@@ -1450,5 +1450,18 @@ const struct Decoration gDecorations[] =
         .price = 10000,
         .description = DecorDesc_REGISTEEL_DOLL,
         .tiles = DecorGfx_REGISTEEL_DOLL,
+    },
+
+    [DECOR_VYRAL_DOLL] =
+    {
+        .id = DECOR_VYRAL_DOLL,
+        .name = _("VYRAL DOLL"),
+        .permission = DECORPERM_SPRITE,
+        .shape = DECORSHAPE_1x2,
+        .category = DECORCAT_DOLL,
+        .price = 10000,
+        .description = DecorDesc_VYRAL_DOLL,
+        .tiles = DecorGfx_VYRAL_DOLL,
     }
+
 };

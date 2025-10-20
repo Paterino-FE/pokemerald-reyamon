@@ -34,12 +34,21 @@ Birthday_Rosuuri_Bakery_Agdaleks_EventScript::
 
 Birthday_Rosuuri_Bakery_AgdaleksGive_EventScript::
 	msgbox Birthday_Rosuuri_Bakery_Agdaleks_Text, MSGBOX_DEFAULT
-	giveitem ITEM_POKESHI_DOLL
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	givedecoration DECOR_VYRAL_DOLL
+	goto_if_eq VAR_RESULT, FALSE, Birthday_Rosuuri_Bakery_AgdaleksComeBackLater_EventScript
 	msgbox Birthday_Rosuuri_Bakery_Agdaleks2_Text, MSGBOX_DEFAULT
 	setflag FLAG_TALKED_TO_AGDALEKS
 	release
 	end
+
+Birthday_Rosuuri_Bakery_AgdaleksComeBackLater_EventScript::
+	msgbox Birthday_Rosuuri_Bakery_AgdaleksComeBackLater_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Rosuuri_Bakery_AgdaleksComeBackLater_Text:
+	.string "Make some space for DECORATIONS and\n"
+	.string "come back!$"
 
 Birthday_Rosuuri_Bakery_Agdaleks_Text:
 	.string "Oh hi {PLAYER}! Haven't seen you in a\n"

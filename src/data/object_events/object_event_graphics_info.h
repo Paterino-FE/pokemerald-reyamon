@@ -1786,7 +1786,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPikachuDoll 
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
+    .paletteTag = OBJ_EVENT_PAL_TAG_VYRALDOLL,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 128,
     .width = 16,

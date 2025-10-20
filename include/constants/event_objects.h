@@ -419,6 +419,7 @@
 #define OBJ_EVENT_PAL_TAG_ELLIE                   0x1148
 #define OBJ_EVENT_PAL_TAG_TSUNAMI                 0x1149
 #define OBJ_EVENT_PAL_TAG_YOURAVGBO               0x114A
+#define OBJ_EVENT_PAL_TAG_VYRALDOLL               0x114B
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla
