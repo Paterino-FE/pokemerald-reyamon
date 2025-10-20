@@ -32065,8 +32065,8 @@ F_TRAINER_FEMALE |
     [TRAINER_PAT_DOUBLE] =
     {
         .trainerName = _("PATERINO"),
-        .trainerClass = TRAINER_CLASS_RIVAL,
-        .trainerPic = TRAINER_PIC_WALLY,
+        .trainerClass = TRAINER_CLASS_PAT,
+        .trainerPic = TRAINER_PIC_BIRCH,
         .encounterMusic_gender = 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,

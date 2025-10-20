@@ -270,9 +270,7 @@
       "flag": "FLAG_HIDE_PRESENT"
     }
   ],
-  "warp_events": [
-
-  ],
+  "warp_events": [],
   "coord_events": [
     {
       "type": "trigger",

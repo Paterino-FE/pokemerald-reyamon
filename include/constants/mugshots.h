@@ -43,5 +43,6 @@
 #define MUGSHOT_NEURO       38
 #define MUGSHOT_CHARJABUG   39
 #define MUGSHOT_BOWALL      40
+#define MUGSHOT_PATERINO    41
 
 #endif

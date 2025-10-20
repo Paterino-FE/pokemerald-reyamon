@@ -4790,6 +4790,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Birthday_Main_Village_House1/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Main_Village_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MAIN_VILLAHE_HOUSE2",
+      "name": "Birthday_Main_Villahe_House2_Layout",
+      "width": 8,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Birthday_Main_Villahe_House2/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Main_Villahe_House2/map.bin"
     }
   ]
 }

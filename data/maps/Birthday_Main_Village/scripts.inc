@@ -16,6 +16,8 @@ Birthday_Main_Village_Hide_Setup::
 	call_if_eq VAR_BIRTHDAY_HIDE_PRESENT, 1, Birthday_Main_Village_Hide_Emilia_1
 	call_if_eq VAR_BIRTHDAY_HIDE_PRESENT, 4, Birthday_Main_Village_Hide_Emilia_4
 	call_if_eq VAR_BIRTHDAY_ENDING, 1, Birthday_Main_Village_Hide_Snorlax_1
+	release
+	end
 
 Birthday_Main_Village_EventScript_Trigger_End::
 	release
@@ -99,6 +101,7 @@ Birthday_Main_Village_After_Past_Thea_2::
 	lock
 	faceplayer
 	msgbox_mugshot Birthday_Main_Village_After_Past_Thea_Text, MSGBOX_DEFAULT, MUGSHOT_THEA, CLEAR_MUGSHOT
+	setvar VAR_BIRTHDAY_HIDE_PAST, 1
 	release
 	end
 

@@ -1,8 +1,27 @@
 .set LOCALID_DIRKLING_RPS, 5
+.set LOCALID_PAT, 7
+.set LOCALID_CON, 8
 
 Birthday_Village_Present_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Birthday_Village_Present_Hide_Pat_Con_Setup
 	.byte 0
 
+Birthday_Village_Present_Hide_Pat_Con_Setup::
+	call_if_eq VAR_BIRTHDAY_HIDE_PAT_CONLAD, 0, Birthday_Village_Present_Hide_Pat_Con_0_Script
+	call_if_eq VAR_BIRTHDAY_HIDE_PAT_CONLAD, 1, Birthday_Village_Present_Hide_Pat_Con_1_Script
+	return
+
+Birthday_Village_Present_Hide_Pat_Con_0_Script::
+	setflag	FLAG_HIDE_PAT_CONLAD
+	removeobject LOCALID_PAT
+	removeobject LOCALID_CON
+	return
+
+Birthday_Village_Present_Hide_Pat_Con_1_Script::
+	setflag	FLAG_HIDE_PAT_CONLAD
+	removeobject LOCALID_PAT
+	removeobject LOCALID_CON
+	return
 
 Birthday_Village_Present_Rock_EventScript::
 	setvar VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 0
@@ -216,3 +235,80 @@ Birthday_Village_Present_AntleredKey_Text:
 Birthday_Village_Present_AntleredKeyIntro_Text:
 	.string "I heard someone cool was coming by...\n"
 	.string "Have you seen her around here yet?$"
+
+
+Birthday_Village_Present_Fight_Against_Pat_Conlad_Script::
+	clearflag FLAG_HIDE_PAT_CONLAD
+	opendoor 12, 15
+	waitdooranim
+	addobject LOCALID_PAT
+	applymovement LOCALID_PAT, Birthday_Village_Present_Movement_House
+	waitmovement 0
+	opendoor 12, 15
+	waitdooranim
+	addobject LOCALID_CON
+	applymovement LOCALID_PAT, Birthday_Village_Present_Movement_Fight_Pat
+	applymovement LOCALID_CON, Birthday_Village_Present_Movement_Fight_Con
+	waitmovement 0
+	msgbox_mugshot Birthday_Village_Present_Pat_PreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_PATERINO, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Village_Present_Con_PreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
+	trainerbattle_two_trainers TRAINER_CONLAD_DOUBLE, Birthday_Village_Present_Con_Defeat_Text, TRAINER_PAT_DOUBLE, Birthday_Village_Present_Pat_Defeat_Text
+	setvar VAR_BIRTHDAY_HIDE_PAT_CONLAD, 1
+	release
+	end
+
+Birthday_Village_Present_Movement_House:
+	walk_down
+	step_end
+
+Birthday_Village_Present_Movement_Fight_Pat:
+	walk_down
+	walk_left
+	walk_left
+	face_down
+	step_end
+
+Birthday_Village_Present_Movement_Fight_Con:
+	walk_down
+	walk_down
+	walk_left
+	face_down
+	step_end
+
+Birthday_Village_Present_Pat_PreBattle_Text:
+.string "Reya... a storm is brewing and that\n"
+.string "on your birthday, yikes.$"
+
+Birthday_Village_Present_Con_PreBattle_Text:
+.string "I hate to RAIN on your parade, but\n" 
+.string "it's time for a battle.$"
+
+Birthday_Village_Present_Pat_Defeat_Text:
+.string "Happy Birthday Reya! This was a\n" 
+.string "splendid display of skill.$"
+
+Birthday_Village_Present_Con_Defeat_Text:
+.string "I guess I was out of my DEPTH.$"
+
+Birthday_Village_Present_Pat_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Village_Present_Pat_PostBattle_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Con_EventScript::
+	lock 
+	faceplayer
+	msgbox Birthday_Village_Present_Con_PostBattle_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Pat_PostBattle_Text:
+.string "I hope you're having fun! Take your time\n"
+.string "and enjoy your life. You know you have\p"
+.string "a lot of support behind your back.$"
+
+Birthday_Village_Present_Con_PostBattle_Text:
+.string "I tried to transcribe Happy Birthday\n"
+.string "into the rom, but I wish it to you now.$"
