@@ -837,8 +837,8 @@
 #define TRAINER_UNUSED_16                   831
 #define TRAINER_UNUSED_17                   832
 #define TRAINER_UNUSED_18                   833
-#define TRAINER_UNUSED_19                   834
-#define TRAINER_UNUSED_20                   835
+#define TRAINER_FELIXR                      834
+#define TRAINER_FORTY                       835
 #define TRAINER_SAWYER_2                    836
 #define TRAINER_SAWYER_3                    837
 #define TRAINER_SAWYER_4                    838

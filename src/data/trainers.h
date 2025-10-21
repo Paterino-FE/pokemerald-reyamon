@@ -29706,8 +29706,6 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    
-    #line 16915
     [TRAINER_THEA] =
     {
         .trainerName = _("THEA"),
@@ -32289,6 +32287,106 @@ F_TRAINER_FEMALE |
             .ability = ABILITY_FLASH_FIRE,
             .moves = {
                 MOVE_FIRE_BLAST, MOVE_FLAME_CHARGE, MOVE_FLASH_CANNON, MOVE_MAGMA_STORM
+            },
+            },
+        },
+    },
+    [TRAINER_FELIXR] =
+    {
+        .trainerName = _("FELIXR"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_TOGEKISS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SERENE_GRACE,
+            .moves = {
+                MOVE_DAZZLING_GLEAM, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY, MOVE_MORNING_SUN
+            },
+            },
+            {
+            .species = SPECIES_LURANTIS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_LEAF_GUARD,
+            .moves = {
+                MOVE_SOLAR_BLADE, MOVE_X_SCISSOR, MOVE_WORRY_SEED, MOVE_SYNTHESIS
+            },
+            },
+            {
+            .species = SPECIES_BUTTERFREE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_ASSAULT_VEST,
+            .ability = ABILITY_COMPOUND_EYES,
+            .moves = {
+                MOVE_SOLAR_BEAM
+            },
+            },
+        },
+    },
+    [TRAINER_FORTY] =
+    {
+        .trainerName = _("FORTY"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .doubleBattle = FALSE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_CHARIZARD,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SOLAR_POWER,
+            .moves = {
+                MOVE_AIR_SLASH, MOVE_FLAMETHROWER, MOVE_ROCK_SLIDE, MOVE_DRAGON_PULSE
+            },
+            },
+            {
+            .species = SPECIES_NINETALES,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DROUGHT,
+            .heldItem = ITEM_HEAT_ROCK,
+            .moves = {
+                MOVE_CALM_MIND, MOVE_WEATHER_BALL, MOVE_EXTRASENSORY, MOVE_FLAMETHROWER
+            },
+            },
+            {
+            .species = SPECIES_EXEGGUTOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CHLOROPHYLL,
+            .moves = {
+                MOVE_ENERGY_BALL, MOVE_LEECH_SEED, MOVE_REFLECT, MOVE_SLEEP_POWDER
             },
             },
         },
