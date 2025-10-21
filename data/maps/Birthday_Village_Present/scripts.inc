@@ -213,8 +213,6 @@ Birthday_Village_Present_ScissorsComment_Text:
 
 
 Birthday_Village_Present_AntleredKey_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_ANTLEREDKEY, Birthday_Village_Present_AntleredKeyIntro_Text, Birthday_Village_Present_AntleredKeyDefeat_Text
 	msgbox Birthday_Village_Present_AntleredKey_Text, MSGBOX_DEFAULT
 	release
@@ -314,103 +312,102 @@ Birthday_Village_Present_Con_PostBattle_Text:
 .string "into the rom, but I wish it to you now.$"
 
 Birthday_Village_Present_Dirkling1_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING1_PRESENT, Birthday_Village_Present_Dirkling1Intro_Text, Birthday_Village_Present_Dirkling1Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling1_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling1Defeat_Text:
-	.string "Defeat$"
+	.string "You still can't have any!$"
 
 Birthday_Village_Present_Dirkling1_Text:
-	.string "Talk$"
+	.string "You really ROCK, {PLAYER}!$"
 
 Birthday_Village_Present_Dirkling1Intro_Text:
-	.string "Battle Intro$"
+	.string "Check out my ROCKS!\n"
+	.string "The ones i didn't eat at least!$"
 
 Birthday_Village_Present_Dirkling2_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING2_PRESENT, Birthday_Village_Present_Dirkling2Intro_Text, Birthday_Village_Present_Dirkling2Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling2_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling2Defeat_Text:
-	.string "Defeat$"
+	.string "Yes, we DIRKLINGS love EMILIA, too!$"
 
 Birthday_Village_Present_Dirkling2_Text:
-	.string "Talk$"
+	.string "We all bet on MET!$"
 
 Birthday_Village_Present_Dirkling2Intro_Text:
-	.string "Battle Intro$"
+	.string "Let us pray together to our three\n"
+	.string "DEITIES! FOR VYRAL!$"
 
 Birthday_Village_Present_Dirkling3_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING3_PRESENT, Birthday_Village_Present_Dirkling3Intro_Text, Birthday_Village_Present_Dirkling3Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling3_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling3Defeat_Text:
-	.string "Defeat$"
+	.string "It's only after we've lost everything\n"
+	.string "that we're free to do anything.$"
 
 Birthday_Village_Present_Dirkling3_Text:
-	.string "Talk$"
+	.string "Our great depression is our lives.$"
 
 Birthday_Village_Present_Dirkling3Intro_Text:
-	.string "Battle Intro$"
+	.string "The first rule of this fight is:\n"
+	.string "You don't talk about this fight,\l"
+	.string "should you beat me!$"
 
 Birthday_Village_Present_Dirkling4_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING4_PRESENT, Birthday_Village_Present_Dirkling4Intro_Text, Birthday_Village_Present_Dirkling4Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling4_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling4Defeat_Text:
-	.string "Defeat$"
+	.string "Welp, back to fishing.$"
 
 Birthday_Village_Present_Dirkling4_Text:
-	.string "Talk$"
+	.string "Fishing is almost as fun as watching\n"
+	.string "{PLAYER}'s streams!$"
 
 Birthday_Village_Present_Dirkling4Intro_Text:
-	.string "Battle Intro$"
+	.string "I've been fishing since DOMINION\n"
+	.string "EPISODE 1!$"
 
 Birthday_Village_Present_Dirkling5_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING5_PRESENT, Birthday_Village_Present_Dirkling5Intro_Text, Birthday_Village_Present_Dirkling5Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling5_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling5Defeat_Text:
-	.string "Defeat$"
+	.string "I will PSN myself because of this\n"
+	.string "shameful loss.$"
 
 Birthday_Village_Present_Dirkling5_Text:
-	.string "Talk$"
+	.string "These puns make me want to disappear\n"
+	.string "into the VOID. And I haven't even\l"
+	.string "said anything about poor SFE!$"
 
 Birthday_Village_Present_Dirkling5Intro_Text:
-	.string "Battle Intro$"
+	.string "Have we MET before? No? Are you SJUre?$"
 
 Birthday_Village_Present_Dirkling6_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_DIRKLING6_PRESENT, Birthday_Village_Present_Dirkling6Intro_Text, Birthday_Village_Present_Dirkling6Defeat_Text
 	msgbox Birthday_Village_Present_Dirkling6_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Village_Present_Dirkling6Defeat_Text:
-	.string "Defeat$"
+	.string "I knew I shoulda brought MEEPO...$"
 
 Birthday_Village_Present_Dirkling6_Text:
-	.string "Talk$"
+	.string "One MEEP, two MEEP, time to sleep!$"
 
 Birthday_Village_Present_Dirkling6Intro_Text:
-	.string "Battle Intro$"
+	.string "I got all your favorite HEROES to\n"
+	.string "beat you with!$"

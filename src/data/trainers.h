@@ -32651,8 +32651,8 @@ F_TRAINER_FEMALE |
     [TRAINER_DIRKLING1_PRESENT] =
     {
         .trainerName = _("ROCKS"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -32666,9 +32666,9 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_STURDY,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_SHELL_SMASH, MOVE_POWER_SPLIT, MOVE_ROLLOUT, MOVE_INFESTATION
             },
             },
             {
@@ -32678,9 +32678,9 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_STURDY,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_ROCK_POLISH, MOVE_EARTHQUAKE, MOVE_ROLLOUT, MOVE_EXPLOSION
             },
             },
             {
@@ -32690,21 +32690,21 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_FLAME_BODY,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_SMOG, MOVE_LAVA_PLUME, MOVE_ROLLOUT, MOVE_ROCK_SLIDE
             },
             },
             {
             .species = SPECIES_LILEEP,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .iv = TRAINER_PARTY_IVS(31,30,30,31,31,31),
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_STORM_DRAIN,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_BRINE, MOVE_HIDDEN_POWER, MOVE_SLUDGE_BOMB, MOVE_ANCIENT_POWER
             },
             },
         },
@@ -32712,24 +32712,24 @@ F_TRAINER_FEMALE |
     [TRAINER_DIRKLING2_PRESENT] =
     {
         .trainerName = _("ICONS"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 4,
+        .partySize = 3,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_NIDOKING,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+            .gender = TRAINER_MON_FEMALE,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_SHEER_FORCE,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_SLUDGE_WAVE, MOVE_EARTH_POWER, MOVE_ICE_BEAM, MOVE_TAUNT
             },
             },
             {
@@ -32739,9 +32739,9 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_SHADOW_TAG,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CALM_MIND, MOVE_PSYSHOCK
             },
             },
             {
@@ -32751,9 +32751,9 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_ROUGH_SKIN,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_STONE_EDGE, MOVE_IRON_TAIL
             },
             },
         },
@@ -32761,8 +32761,8 @@ F_TRAINER_FEMALE |
     [TRAINER_DIRKLING3_PRESENT] =
     {
         .trainerName = _("DURDEN"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -32822,8 +32822,8 @@ F_TRAINER_FEMALE |
     [TRAINER_DIRKLING4_PRESENT] =
     {
         .trainerName = _("FISHIES"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -32883,25 +32883,39 @@ F_TRAINER_FEMALE |
     [TRAINER_DIRKLING5_PRESENT] =
     {
         .trainerName = _("HONSES"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_CLASS_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 4,
+        .partySize = 6,
         .party = (const struct TrainerMon[])
         {
             {
-            .species = SPECIES_PSYDUCK,
+            .species = SPECIES_ARBOK,
+            .nickname = COMPOUND_STRING("PSN"),
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_HEAT_ROCK,
+            .ability = ABILITY_INTIMIDATE,
+            .moves = {
+                MOVE_GLARE, MOVE_POISON_FANG, MOVE_SUNNY_DAY
+            },
+            },
+            {
+            .species = SPECIES_GIRAFARIG,
             .nickname = COMPOUND_STRING("SFE"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_SAP_SIPPER,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_PSYCHIC, MOVE_STOMP, MOVE_BULLDOZE
             },
             },
             {
@@ -32912,9 +32926,9 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_FLAME_BODY,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_FLARE_BLITZ, MOVE_WILD_CHARGE, MOVE_BOUNCE, MOVE_STOMP
             },
             },
             {
@@ -32925,44 +32939,44 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_OWN_TEMPO,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_ATTRACT, MOVE_REST, MOVE_HYDRO_PUMP, MOVE_SOLAR_BEAM
             },
             },
             {
-            .species = SPECIES_SEVIPER,
-            .nickname = COMPOUND_STRING("PSN"),
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
-            .moves = {
-                MOVE_SPLASH,
-            },
-            },
-            {
-            .species = SPECIES_GABITE,
+            .species = SPECIES_GARCHOMP,
             .nickname = COMPOUND_STRING("MET"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_TRUANT,
+            .ability = ABILITY_ROUGH_SKIN,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_DRACO_METEOR,
+            },
+            },
+            {
+            .species = SPECIES_SPIRITOMB,
+            .nickname = COMPOUND_STRING("VOID"),
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INFILTRATOR,
+            .moves = {
+                MOVE_SUCKER_PUNCH, MOVE_DARK_PULSE, MOVE_OMINOUS_WIND
             },
             },
         },
     },
     [TRAINER_DIRKLING6_PRESENT] =
     {
-        .trainerName = _("MEEPO"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerName = _("DOTA"),
+        .trainerClass = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -32971,6 +32985,7 @@ F_TRAINER_FEMALE |
         {
             {
             .species = SPECIES_URSARING,
+            .nickname = COMPOUND_STRING("URSA"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
@@ -32978,11 +32993,12 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_GUTS,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_ROCK_TOMB, MOVE_SUPERPOWER, MOVE_FURY_SWIPES, MOVE_HONE_CLAWS
             },
             },
             {
             .species = SPECIES_GLISCOR,
+            .nickname = COMPOUND_STRING("SAND KING"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
@@ -32990,11 +33006,12 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SAND_VEIL,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_DIG, MOVE_SANDSTORM, MOVE_POISON_STING, MOVE_EARTHQUAKE
             },
             },
             {
             .species = SPECIES_BISHARP,
+            .nickname = COMPOUND_STRING("LEGION COMM"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
@@ -33002,11 +33019,12 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_PRESSURE,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_FOCUS_BLAST, MOVE_POWER_UP_PUNCH, MOVE_REVENGE, MOVE_TAUNT
             },
             },
             {
             .species = SPECIES_HEATRAN,
+            .nickname = COMPOUND_STRING("SNAPFIRE"),
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
@@ -33014,7 +33032,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_FLASH_FIRE,
             .moves = {
-                MOVE_SPLASH,
+                MOVE_FIRE_BLAST, MOVE_FLAME_CHARGE, MOVE_FLASH_CANNON, MOVE_MAGMA_STORM
             },
             },
         },
