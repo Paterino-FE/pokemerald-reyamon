@@ -21,18 +21,40 @@ Birthday_Cave_Past_R3_Thea_EventScript::
 	end
 
 Birthday_Cave_Past_R3_TheaBattle_EventScript::
-	msgbox Birthday_Cave_Past_R3_TheaPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_THEA_2, Birthday_Cave_Past_R3_TheaIntro_Text, Birthday_Cave_Past_R3_TheaDefeat_Text
+	trainerbattle_double TRAINER_THEA_2, Birthday_Cave_Past_R3_TheaIntro_Text, Birthday_Cave_Past_R3_TheaDefeat_Text, Birthday_Cave_Past_R3_TheaNotEnoughMon_Text
 	release
 	end
 
-Birthday_Cave_Past_R3_TheaPreBattle_Text:
+Birthday_Cave_Past_R3_TheaNotEnoughMon_Text:
+	.string "If you want to battle, return with\n"
+	.string "more POKéMON!$"
 
 Birthday_Cave_Past_R3_TheaDefeat_Text:
+	.string "Aww shucks, i lost again.\n"
+	.string "I still had a lot of fun though.\p"
+	.string "I will take a break now, the next\n"
+	.string "room looks like some sort of maniac\l"
+	.string "designed it.\p"
+	.string "I will need my full strength and\n"
+	.string "all my wits to best it!$"
 
 Birthday_Cave_Past_R3_Thea_Text:
+	.string "Wait a second....\n"
+	.string "None of my Pokemon know Strength!\p"
+	.string "How did i move those rocks.....\n"
+	.string "Ah, best not to think about it too\n"
+	.string "hard AYAYA$"
 
 Birthday_Cave_Past_R3_TheaIntro_Text:
+	.string "Oh, Hey! You made it!\p"
+	.string "I thought getting here was a little\n"
+	.string "easy, so I decided to move some ROCKS\l"
+	.string "around, you know, make it more of\l"
+	.string "a challenge.\p"
+	.string "I hope I didn't cause too much\n"
+	.string "trouble. Anyway, let's battle,\l"
+	.string "I have some new friends I want\l"
+	.string "to show off!$"
 
 Birthday_Cave_Past_R3_Alex_EventScript::
 	lock
