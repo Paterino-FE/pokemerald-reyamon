@@ -32585,7 +32585,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = true,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32654,7 +32654,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = false,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32715,7 +32715,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = false,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32764,7 +32764,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = false,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32825,7 +32825,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = false,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32886,7 +32886,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = true,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -32964,7 +32964,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doubleBattle = false,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
