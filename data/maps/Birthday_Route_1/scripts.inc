@@ -108,6 +108,26 @@ Birthday_Route_1_QuattuorDefeat_Text:
 Birthday_Route_1_Quattuor_Text:
 	.string "Bop bop bop lin lin.$"
 
+Birthday_Route_1_UmaTrainer_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_TREINA_SAN, Birthday_Route_1_UmaTrainerIntro_Text, Birthday_Route_1_UmaTrainerDefeat_Text
+	msgbox Birthday_Route_1_UmaTrainer_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_UmaTrainerIntro_Text:
+	.string "A challenge? I'll have you know we\n"
+	.string "won the Triple Crown, all you will\p"
+	.string "have is a triple frown!\p"
+	.string "Heh, Rudolph would've loved that one.$$"
+
+Birthday_Route_1_UmaTrainerDefeat_Text:
+	.string "You are lucky we didn't fight on DIRT!$"
+
+Birthday_Route_1_UmaTrainer_Text:
+	.string "Guess I lost... my... debut$"
+
 Birthday_Route_1_Sign1_EventScript::
 	lock
 	msgbox Birthday_Route_1_Sign1_Text, MSGBOX_DEFAULT
