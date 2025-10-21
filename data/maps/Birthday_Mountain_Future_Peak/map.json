@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_MOUNTAIN_FUTURE_PEAK",
   "name": "Birthday_Mountain_Future_Peak",
   "layout": "LAYOUT_BIRTHDAY_MOUNTAIN_FUTURE_PEAK",
-  "music": "MUS_DUMMY",
+  "music": "MUS_MT_PYRE_EXTERIOR",
   "region_map_section": "MAPSEC_BIRTHDAY_DESTINED_MOUNTAIN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

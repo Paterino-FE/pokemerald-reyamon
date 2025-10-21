@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_ELLIES_HOUSE",
   "name": "Birthday_Ellies_House",
   "layout": "LAYOUT_Birthday_Ellies_House",
-  "music": "MUS_DUMMY",
+  "music": "MUS_VERDANTURF",
   "region_map_section": "MAPSEC_BIRTHDAY_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

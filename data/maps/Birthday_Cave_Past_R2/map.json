@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_CAVE_PAST_R2",
   "name": "Birthday_Cave_Past_R2",
   "layout": "LAYOUT_BIRTHDAY_CAVE_PAST_R2",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_BIRTHDAY_OLD_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

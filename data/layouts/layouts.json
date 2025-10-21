@@ -4800,6 +4800,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Birthday_Main_Villahe_House2/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Main_Villahe_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_VILLAGE_PRESENT_TRIAL",
+      "name": "Birthday_Village_Present_Trial_Layout",
+      "width": 45,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Birthday_Village_Present_Trial/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Village_Present_Trial/map.bin"
     }
   ]
 }

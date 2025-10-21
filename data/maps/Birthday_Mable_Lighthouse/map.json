@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_MABLE_LIGHTHOUSE",
   "name": "Birthday_Mable_Lighthouse",
   "layout": "LAYOUT_BIRTHDAY_MABLE_LIGHTHOUSE",
-  "music": "MUS_STEAMGARDENS",
+  "music": "MUS_DEWFORD",
   "region_map_section": "MAPSEC_BIRTHDAY_LIGHTHOUSE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -312,3 +312,105 @@ Birthday_Village_Present_Pat_PostBattle_Text:
 Birthday_Village_Present_Con_PostBattle_Text:
 .string "I tried to transcribe Happy Birthday\n"
 .string "into the rom, but I wish it to you now.$"
+
+Birthday_Village_Present_Dirkling1_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING1_PRESENT, Birthday_Village_Present_Dirkling1Intro_Text, Birthday_Village_Present_Dirkling1Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling1_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling1Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling1_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling1Intro_Text:
+	.string "Battle Intro$"
+
+Birthday_Village_Present_Dirkling2_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING2_PRESENT, Birthday_Village_Present_Dirkling2Intro_Text, Birthday_Village_Present_Dirkling2Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling2_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling2Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling2_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling2Intro_Text:
+	.string "Battle Intro$"
+
+Birthday_Village_Present_Dirkling3_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING3_PRESENT, Birthday_Village_Present_Dirkling3Intro_Text, Birthday_Village_Present_Dirkling3Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling3_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling3Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling3_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling3Intro_Text:
+	.string "Battle Intro$"
+
+Birthday_Village_Present_Dirkling4_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING4_PRESENT, Birthday_Village_Present_Dirkling4Intro_Text, Birthday_Village_Present_Dirkling4Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling4_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling4Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling4_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling4Intro_Text:
+	.string "Battle Intro$"
+
+Birthday_Village_Present_Dirkling5_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING5_PRESENT, Birthday_Village_Present_Dirkling5Intro_Text, Birthday_Village_Present_Dirkling5Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling5_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling5Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling5_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling5Intro_Text:
+	.string "Battle Intro$"
+
+Birthday_Village_Present_Dirkling6_EventScript::
+	lock
+	faceplayer
+	trainerbattle_single TRAINER_DIRKLING6_PRESENT, Birthday_Village_Present_Dirkling6Intro_Text, Birthday_Village_Present_Dirkling6Defeat_Text
+	msgbox Birthday_Village_Present_Dirkling6_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Village_Present_Dirkling6Defeat_Text:
+	.string "Defeat$"
+
+Birthday_Village_Present_Dirkling6_Text:
+	.string "Talk$"
+
+Birthday_Village_Present_Dirkling6Intro_Text:
+	.string "Battle Intro$"

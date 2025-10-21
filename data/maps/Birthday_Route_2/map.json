@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_ROUTE_2",
   "name": "Birthday_Route_2",
   "layout": "LAYOUT_BIRTHDAY_ROUTE_2",
-  "music": "MUS_DUMMY",
+  "music": "MUS_RG_ROUTE11",
   "region_map_section": "MAPSEC_BIRTHDAY_ROUTE_2",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -50,10 +50,6 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

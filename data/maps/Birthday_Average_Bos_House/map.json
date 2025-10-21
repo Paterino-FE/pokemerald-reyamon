@@ -2,7 +2,7 @@
   "id": "MAP_BIRTHDAY_AVERAGE_BOS_HOUSE",
   "name": "Birthday_Average_Bos_House",
   "layout": "LAYOUT_BIRTHDAY_AVERAGE_BOS_HOUSE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_BIRCH_LAB",
   "region_map_section": "MAPSEC_BIRTHDAY_RUINED_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

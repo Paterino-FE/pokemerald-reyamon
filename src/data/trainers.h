@@ -18386,33 +18386,6 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_MAY_ROUTE_103_MUDKIP] =
-    {
-        .trainerName = _("VYRAL"),
-        .trainerClass = TRAINER_CLASS_RIVAL,
-        .trainerPic = TRAINER_PIC_MAY,
-        .encounterMusic_gender = 
-F_TRAINER_FEMALE | 
-            TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
-        .party = (const struct TrainerMon[])
-        {
-            {
-            .species = SPECIES_CHARMANDER,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 5,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_POUND,
-                MOVE_GROWL,
-            },
-            },
-        },
-    },
     [TRAINER_MAY_ROUTE_110_MUDKIP] =
     {
         .trainerName = _("VYRAL"),
@@ -32611,8 +32584,7 @@ F_TRAINER_FEMALE |
         .trainerName = _("TREINA-SAN"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = true,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32676,13 +32648,12 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_DRIKLING1_PRESENT] =
+    [TRAINER_DIRKLING1_PRESENT] =
     {
         .trainerName = _("ROCKS"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = false,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32738,13 +32709,12 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_DRIKLING2_PRESENT] =
+    [TRAINER_DIRKLING2_PRESENT] =
     {
         .trainerName = _("ICONS"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = false,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32788,13 +32758,12 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_DRIKLING3_PRESENT] =
+    [TRAINER_DIRKLING3_PRESENT] =
     {
         .trainerName = _("DURDEN"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = false,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32809,7 +32778,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
             .moves = {
-                MOVE_FAKE_OUT, MOVE_FLARE_BLITZ, MOVE_KNOCK_OFF, MOVE_EARTH_QUAKE,
+                MOVE_FAKE_OUT, MOVE_FLARE_BLITZ, MOVE_KNOCK_OFF, MOVE_EARTHQUAKE,
             },
             },
             {
@@ -32833,7 +32802,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_ILLUSION,
             .moves = {
-                MOVE_MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_FOCUS_BLAST, MOVE_EXTRASENSORY,
+                MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_FOCUS_BLAST, MOVE_EXTRASENSORY,
             },
             },
             {
@@ -32845,18 +32814,17 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_PRESSURE,
             .moves = {
-                MOVE_MOVE_ICICLE_CRASH, MOVE_ICE_SHARD, MOVE_PURSUIT, MOVE_LOW_SWEEP,
+                MOVE_ICICLE_CRASH, MOVE_ICE_SHARD, MOVE_PURSUIT, MOVE_LOW_SWEEP,
             },
             },
         },
     },
-    [TRAINER_DRIKLING4_PRESENT] =
+    [TRAINER_DIRKLING4_PRESENT] =
     {
         .trainerName = _("FISHIES"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = false,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32912,13 +32880,12 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_DRIKLING5_PRESENT] =
+    [TRAINER_DIRKLING5_PRESENT] =
     {
         .trainerName = _("HONSES"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = true,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
@@ -32991,13 +32958,12 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_DRIKLING6_PRESENT] =
+    [TRAINER_DIRKLING6_PRESENT] =
     {
         .trainerName = _("MEEPO"),
         .trainerClass = TRAINER_CLASS_LILYPAL,
         .trainerPic = TRAINER_PIC_LILYPAL,
-        .encounterMusic_gender = 
-            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = false,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
