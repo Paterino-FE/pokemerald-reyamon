@@ -32138,7 +32138,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("HONSES"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
-        .trainerPic = TRAINER_CLASS_DIRKLING,
+        .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,

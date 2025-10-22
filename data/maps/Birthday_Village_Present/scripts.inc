@@ -26,7 +26,7 @@ Birthday_Village_Present_Hide_Pat_Con_1_Script::
 Birthday_Village_Present_Rock_EventScript::
 	setvar VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 0
 	delay 16
-	msgbox Birthday_Village_Present_Rock_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Village_Present_Rock_Text, MSGBOX_DEFAULT, MUGSHOT_ROCK, CLEAR_MUGSHOT
 	playse SE_FAILURE
 	waitse
 	msgbox_mugshot Birthday_Village_Present_RockComment_Text, MSGBOX_DEFAULT, MUGSHOT_DIRKLING, CLEAR_MUGSHOT
@@ -62,7 +62,7 @@ Birthday_Village_Present_PaperAdd_EventScript::
 Birthday_Village_Present_Paper_EventScript::
 	addvar VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 1
 	delay 16
-	msgbox Birthday_Village_Present_Paper_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Village_Present_Paper_Text, MSGBOX_DEFAULT, MUGSHOT_PAPER, CLEAR_MUGSHOT
 	call_if_lt VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 5, Birthday_Village_Present_PaperAdd_EventScript
 	goto Birthday_Village_Present_RockPaperScissorsLoop_EventScript
 	end
@@ -70,7 +70,7 @@ Birthday_Village_Present_Paper_EventScript::
 Birthday_Village_Present_Scissors_EventScript::
 	setvar VAR_ROCK_PAPER_SCISSORS_WON_IN_ROW, 0
 	delay 16
-	msgbox Birthday_Village_Present_Scissors_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Village_Present_Scissors_Text, MSGBOX_DEFAULT, MUGSHOT_SCISSORS, CLEAR_MUGSHOT
 	playse SE_FAILURE
 	waitse
 	msgbox_mugshot Birthday_Village_Present_ScissorsComment_Text, MSGBOX_DEFAULT, MUGSHOT_DIRKLING, CLEAR_MUGSHOT

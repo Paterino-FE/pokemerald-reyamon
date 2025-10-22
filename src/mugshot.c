@@ -89,6 +89,12 @@ static const u32 sMugshotImg_BoWall[] = INCBIN_U32("graphics/mugshots/bowall.4bp
 static const u16 sMugshotPal_BoWall[] = INCBIN_U16("graphics/mugshots/bowall.gbapal");
 static const u32 sMugshotImg_Paterino[] = INCBIN_U32("graphics/mugshots/paterino.4bpp.lz");
 static const u16 sMugshotPal_Paterino[] = INCBIN_U16("graphics/mugshots/paterino.gbapal");
+static const u32 sMugshotImg_Rock[] = INCBIN_U32("graphics/mugshots/fistrps.4bpp.lz");
+static const u16 sMugshotPal_Rock[] = INCBIN_U16("graphics/mugshots/fistrps.gbapal");
+static const u32 sMugshotImg_Paper[] = INCBIN_U32("graphics/mugshots/paperrps.4bpp.lz");
+static const u16 sMugshotPal_Paper[] = INCBIN_U16("graphics/mugshots/paperrps.gbapal");
+static const u32 sMugshotImg_Scissors[] = INCBIN_U32("graphics/mugshots/scissorrps.4bpp.lz");
+static const u16 sMugshotPal_Scissors[] = INCBIN_U16("graphics/mugshots/scissorrps.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
@@ -126,6 +132,9 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_MABLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Mable, .palette = sMugshotPal_Mable},
     [MUGSHOT_BOWALL] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_BoWall, .palette = sMugshotPal_BoWall},
     [MUGSHOT_PATERINO] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Paterino, .palette = sMugshotPal_Paterino},
+    [MUGSHOT_ROCK] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Rock, .palette = sMugshotPal_Rock},
+    [MUGSHOT_PAPER] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Paper, .palette = sMugshotPal_Paper},
+    [MUGSHOT_SCISSORS] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Scissors, .palette = sMugshotPal_Scissors},
 }; 
 
 

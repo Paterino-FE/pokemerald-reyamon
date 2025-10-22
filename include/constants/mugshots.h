@@ -44,5 +44,8 @@
 #define MUGSHOT_CHARJABUG   39
 #define MUGSHOT_BOWALL      40
 #define MUGSHOT_PATERINO    41
+#define MUGSHOT_ROCK        42
+#define MUGSHOT_PAPER       43
+#define MUGSHOT_SCISSORS    44
 
 #endif
