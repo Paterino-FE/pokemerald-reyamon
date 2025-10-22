@@ -53,20 +53,25 @@ Birthday_Mountain_Future_Floors_to_peak_ColourfulPostBattle_Text:
 	.string "wait put that GUN away!$"
 
 Birthday_Mountain_Future_Floors_to_peak_PebbleHillPostBattle_Text:
-	.string "PEBBLEPAD HILL: ...$"
+	.string "PEBBLEPAD HILL: Happy birthday, REYA!\p"
+	.string "And pardon my friend's utter\n"
+	.string "gibberish, even I don't know what\l"
+	.string "he's going on about.$"
 
 Birthday_Mountain_Future_Floors_to_peak_ColourfulPreBattle_Text:
 	.string "COLOURFUL: We've finally MET in the\n"
 	.string "arena! Prepare to be sent to the VOiD!$"
 
 Birthday_Mountain_Future_Floors_to_peak_PebbleHillPreBattle_Text:
-	.string "PEBBLEPAD HILL: ...$"
+	.string "PEBBLEPAD HILL: And make it double!..\n"
+	.string "Oh, c'mon man, we practiced this.$"
 
 Birthday_Mountain_Future_Floors_to_peak_ColourfulDefeat_Text:
 	.string "COLOURFUL: GUNned down...$"
 
 Birthday_Mountain_Future_Floors_to_peak_PebbleHillDefeat_Text:
-	.string "PEBBLEPAD HILL: ...$"
+	.string "PEBBLEPAD HILL: Man, we got ROCKED\n"
+	.string "in that battle.$"
 
 
 
