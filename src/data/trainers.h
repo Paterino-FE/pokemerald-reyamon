@@ -32293,7 +32293,7 @@ F_TRAINER_FEMALE |
     },
     [TRAINER_FELIXR] =
     {
-        .trainerName = _("FELIXR"),
+        .trainerName = _("FELIX"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
         .trainerPic = TRAINER_PIC_DIRKLING,
         .encounterMusic_gender = 
@@ -32387,6 +32387,274 @@ F_TRAINER_FEMALE |
             .ability = ABILITY_CHLOROPHYLL,
             .moves = {
                 MOVE_ENERGY_BALL, MOVE_LEECH_SEED, MOVE_REFLECT, MOVE_SLEEP_POWDER
+            },
+            },
+        },
+    },
+    [TRAINER_KING_VYRAL] =
+    {
+        .trainerName = _("VYRAL"),
+        .trainerClass = TRAINER_CLASS_KING_VYRAL,
+        .trainerPic = TRAINER_PIC_BRENDAN,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_NIDOQUEEN,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHEER_FORCE,
+            .moves = {
+                MOVE_EARTHQUAKE, MOVE_ICE_PUNCH, MOVE_TOXIC, MOVE_THUNDERBOLT
+            },
+            },
+            {
+            .species = SPECIES_CHARIZARD,
+            .gender = TRAINER_MON_FEMALE,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_BLAZE,
+            .isShiny = 1,
+            .moves = {
+                MOVE_FLAMETHROWER, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE, MOVE_AIR_SLASH
+            },
+            },
+            {
+            .species = SPECIES_KROOKODILE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INTIMIDATE,
+            .moves = {
+                MOVE_EARTHQUAKE, MOVE_FOUL_PLAY, MOVE_GRASS_KNOT, MOVE_SHADOW_CLAW
+            },
+            },
+            {
+            .species = SPECIES_GYARADOS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INTIMIDATE,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_OUTRAGE, MOVE_WATERFALL, MOVE_FLAIL, MOVE_DRAGON_DANCE
+            },
+            },
+            {
+            .species = SPECIES_KINGAMBIT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SUPREME_OVERLORD,
+            .heldItem = ITEM_CHOPLE_BERRY,
+            .moves = {
+                MOVE_IRON_HEAD, MOVE_SUCKER_PUNCH, MOVE_NIGHT_SLASH, MOVE_SWORDS_DANCE
+            },
+            },
+            {
+            .species = SPECIES_RAYQUAZA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_AIR_LOCK,
+            .heldItem = ITEM_WHITE_HERB,
+            .moves = {
+                MOVE_DRAGON_ASCENT, MOVE_DRACO_METEOR, MOVE_EXTREME_SPEED, MOVE_OVERHEAT
+            },
+            },
+        },
+    },
+    [TRAINER_AMOGUSPAD] =
+    {
+        .trainerName = _("AMOGUSPAD"),
+        .trainerClass = TRAINER_CLASS_IMPOSTOR,
+        .trainerPic = TRAINER_PIC_WALLY,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_MIMIKYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DISGUISE,
+            .heldItem = ITEM_LIFE_ORB,
+            .moves = {
+                MOVE_PHANTOM_FORCE, MOVE_PLAY_ROUGH, MOVE_MIMIC, MOVE_COPYCAT
+            },
+            },
+            {
+            .species = SPECIES_ZOROARK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ILLUSION,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_FLAMETHROWER, MOVE_NIGHT_DAZE, MOVE_U_TURN, MOVE_PSYCHIC
+            },
+            },
+            {
+            .species = SPECIES_DITTO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_IMPOSTER,
+            .heldItem = ITEM_CHOICE_SCARF,
+            .moves = {
+                MOVE_TRANSFORM
+            },
+            },
+            {
+            .species = SPECIES_SUDOWOODO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_STURDY,
+            .heldItem = ITEM_ROCK_GEM,
+            .moves = {
+                MOVE_HEAD_SMASH, MOVE_MIMIC, MOVE_FLAIL, MOVE_COPYCAT
+            },
+            },
+            {
+            .species = SPECIES_MAWILE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SHEER_FORCE,
+            .heldItem = ITEM_CHOICE_BAND,
+            .moves = {
+                MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH
+            },
+            },
+            {
+            .species = SPECIES_AMOONGUSS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_EFFECT_SPORE,
+            .heldItem = ITEM_ROCKY_HELMET,
+            .moves = {
+                MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SPORE, MOVE_SYNTHESIS
+            },
+            },
+        },
+    },
+    [TRAINER_BO] =
+    {
+        .trainerName = _("BO"),
+        .trainerClass = TRAINER_CLASS_BO,
+        .trainerPic = TRAINER_PIC_YOURAVGBO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 6,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_SYLVEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_PIXILATE,
+            .moves = {
+                MOVE_HYPER_VOICE, MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_QUICK_ATTACK
+            },
+            },
+            {
+            .species = SPECIES_CLEFABLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_MAGIC_GUARD,
+            .heldItem = ITEM_SITRUS_BERRY,
+            .moves = {
+                MOVE_METRONOME, MOVE_CHARM, MOVE_HELPING_HAND, MOVE_FOLLOW_ME
+            },
+            },
+            {
+            .species = SPECIES_SLOWBRO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_OWN_TEMPO,
+            .heldItem = ITEM_LEFTOVERS,
+            .moves = {
+                MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_SCALD, MOVE_SLACK_OFF
+            },
+            },
+            {
+            .species = SPECIES_WIGGLYTUFF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_COMPETITIVE,
+            .moves = {
+                MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_ICE_BEAM, MOVE_HYPER_VOICE
+            },
+            },
+            {
+            .species = SPECIES_BLISSEY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_SERENE_GRACE,
+            .moves = {
+                MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_HELPING_HAND, MOVE_HEAL_PULSE
+            },
+            },
+            {
+            .species = SPECIES_AUDINO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_HEALER,
+            .heldItem = ITEM_LIGHT_CLAY,
+            .moves = {
+                MOVE_HYPER_VOICE, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_HELPING_HAND
             },
             },
         },

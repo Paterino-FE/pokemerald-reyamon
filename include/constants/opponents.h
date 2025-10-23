@@ -819,9 +819,9 @@
 #define TRAINER_ANDRES_3                    813
 #define TRAINER_ANDRES_4                    814
 #define TRAINER_ANDRES_5                    815
-#define TRAINER_UNUSED_1                    816
-#define TRAINER_UNUSED_2                    817
-#define TRAINER_UNUSED_3                    818
+#define TRAINER_KING_VYRAL                  816
+#define TRAINER_AMOGUSPAD                   817
+#define TRAINER_BO                          818
 #define TRAINER_UNUSED_4                    819
 #define TRAINER_UNUSED_5                    820
 #define TRAINER_UNUSED_6                    821

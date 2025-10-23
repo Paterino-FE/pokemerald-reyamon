@@ -384,7 +384,9 @@
 #define TRAINER_CLASS_TSUNAMI        0x55
 #define TRAINER_CLASS_ALEX           0x56
 #define TRAINER_CLASS_PAT            0x57
-#define TRAINER_CLASS_COUNT          0x58
+#define TRAINER_CLASS_KING_VYRAL     0x58
+#define TRAINER_CLASS_IMPOSTOR       0x59
+#define TRAINER_CLASS_COUNT          0x60
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
