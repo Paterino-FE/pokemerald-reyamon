@@ -41,6 +41,7 @@ Birthday_Cave_Past_R1_Sign1_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign1_Text:
+	.string "placeholder$"
 
 Birthday_Cave_Past_R1_Sign2_EventScript::
 	lock
@@ -49,6 +50,7 @@ Birthday_Cave_Past_R1_Sign2_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign2_Text:
+	.string "placeholder$"
 
 Birthday_Cave_Past_R1_Sign3_EventScript::
 	lock
@@ -57,6 +59,7 @@ Birthday_Cave_Past_R1_Sign3_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign3_Text:
+	.string "placeholder$"
 
 Birthday_Cave_Past_R1_Sign4_EventScript::
 	lock
@@ -65,4 +68,5 @@ Birthday_Cave_Past_R1_Sign4_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign4_Text:
+	.string "placeholder$"
 
