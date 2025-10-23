@@ -6,6 +6,39 @@ Birthday_Village_Present_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Birthday_Village_Present_Hide_Pat_Con_Setup
 	.byte 0
 
+
+Birthday_Village_Present_DirklingUpDown1_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Village_Present_DirklingUpDown1_Text, MSGBOX_AUTOCLOSE
+	release
+	end
+
+Birthday_Village_Present_DirklingUpDown2_EventScript::
+	lock
+	faceplayer
+	msgbox Birthday_Village_Present_DirklingUpDown2_Text, MSGBOX_AUTOCLOSE
+	release
+	end
+
+Birthday_Village_Present_DirklingsKissing_EventScript::
+	lock
+	playmoncry SPECIES_LICKILICKY, CRY_MODE_ENCOUNTER
+	waitmoncry
+	msgbox Birthday_Village_Present_DirklingsKissing_Text, MSGBOX_AUTOCLOSE
+	release
+	end
+
+.string Birthday_Village_Present_DirklingsKissing_Text:
+	.string "Mwah mwah mwah mwah!$"
+
+Birthday_Village_Present_DirklingUpDown1_Text:
+	.string "placeholder$"
+
+Birthday_Village_Present_DirklingUpDown2_Text:
+	.string "placeholder$"
+
+
 Birthday_Village_Present_Hide_Pat_Con_Setup::
 	call_if_eq VAR_BIRTHDAY_HIDE_PAT_CONLAD, 0, Birthday_Village_Present_Hide_Pat_Con_0_Script
 	call_if_eq VAR_BIRTHDAY_HIDE_PAT_CONLAD, 1, Birthday_Village_Present_Hide_Pat_Con_1_Script

@@ -192,6 +192,21 @@ Mable_Lighthouse_EventScript_ReceiveOshawottFanfare::
 	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_OSHAWOTT
 	return
 
+Birthday_Lighthouse_OshawottTalk::
+	faceplayer
+	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
+	waitmoncry
+	release
+	end
+
+
+Birthday_Lighthouse_SamurottTalk::
+	faceplayer
+	playmoncry SPECIES_SAMUROTT, CRY_MODE_ENCOUNTER
+	waitmoncry
+	release
+	end
+
 FortreeCity_Gym_Text_PlayerReceivedOshawott:
 	.string "{PLAYER} received OSHAWOTT!$"
 

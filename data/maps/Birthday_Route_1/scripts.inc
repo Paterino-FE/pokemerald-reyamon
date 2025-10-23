@@ -122,9 +122,18 @@ Birthday_Route1_DirklingsNorth_EventScript::
 	release
 	end
 
+Birthday_Route1_LilypalsWest_EventScript::
+	lock
+	msgbox Birthday_Route_1_WhatAreTheyDoing_Text, MSGBOX_DEFAULT
+	release
+	end
+
 Birthday_Route_1_WeLikeRocks_Text:
 	.string "ROCKS! ROCKS!\n"
 	.string "WE LIKE ROCKS!$"
+
+Birthday_Route_1_WhatAreTheyDoing_Text:
+	.string "What are they doing over there...$"
 
 Birthday_Route_1_UmaTrainerIntro_Text:
 	.string "A challenge? I'll have you know we\n"
@@ -145,7 +154,7 @@ Birthday_Route_1_Sign1_EventScript::
 	end
 
 Birthday_Route_1_Sign1_Text:
-	.string "$"
+	.string "placeholder$"
 
 Birthday_Route_1_Sign2_EventScript::
 	lock
@@ -154,6 +163,6 @@ Birthday_Route_1_Sign2_EventScript::
 	end
 
 Birthday_Route_1_Sign2_Text:
-	.string "$"
+	.string "playerholder$"
 
 

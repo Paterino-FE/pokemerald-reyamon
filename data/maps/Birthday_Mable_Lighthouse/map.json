@@ -108,7 +108,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Lighthouse_OshawottTalk",
       "flag": "FLAG_HIDE_OSHAWOTT_2"
     },
     {
@@ -134,11 +134,13 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Lighthouse_SamurottTalk",
       "flag": "FLAG_HIDE_SAMUROTT"
     }
   ],
-  "warp_events": [],
+  "warp_events": [
+
+  ],
   "coord_events": [
     {
       "type": "trigger",
@@ -159,5 +161,7 @@
       "script": "Birthday_Mable_Lighthouse_HIDE_SAMUROTT_2"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+
+  ]
 }

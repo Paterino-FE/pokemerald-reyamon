@@ -9,6 +9,14 @@ Birthday_Route_4_OcarinaOfMe_EventScript::
 	release
 	end
 
+
+Birthday_Route_4_Sign1_EventScript::
+	msgbox Birthday_Route_3_Sign1_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Route_4_Sign1_Text:
+	.string "placeholder$"
+
 Birthday_Route_4_OcarinaOfMeDefeat_Text:
 	.string "I caught a DRAGALGE!\n"
 	.string "Happy birthday {PLAYER}!\p"

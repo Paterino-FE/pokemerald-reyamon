@@ -65,6 +65,27 @@ Birthday_Route_3_LyraSvelteBattle3N_EventScript::
 	release
 	end 
 
+Birthday_Route_3_Sign1_EventScript::
+	msgbox Birthday_Route_3_Sign1_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Route_3_Sign2_EventScript::
+	msgbox Birthday_Route_3_Sign2_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Route_3_Sign3_EventScript::
+	msgbox Birthday_Route_3_Sign3_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Route_3_Sign1_Text:
+	.string "placeholder$"
+
+Birthday_Route_3_Sign2_Text:
+	.string "placeholder$"
+
+Birthday_Route_3_Sign3_Text:
+	.string "placeholder$"
+
 Birthday_Route_3_LyraPostBattle_Text:
 	.string "Oh well, this is embarrassing.\n"
 	.string "Happy birthday again I guess!\p"
@@ -175,4 +196,5 @@ Birthday_Route_3_Groudon_Text:
 	.string "has a balloon tied around its wrist.\p"
 	.string "There is writing on it:\n"
 	.string "WOOF WOOF!$"
+
 

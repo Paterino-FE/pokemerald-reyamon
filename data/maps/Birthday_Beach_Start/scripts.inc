@@ -95,6 +95,12 @@ Birthday_Beach_Luminel_EventScript::
 	release
 	end
 
+Birthday_Bach_Sign1_EventScript::
+	msgbox Birthday_Bach_Sign1_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Bach_Sign1_Text:
+	.string "placeholder$"
 
 Birthday_Beach_NanamiBear_Text:
 	.string "NANAMI ignores you, his eyes\n"
