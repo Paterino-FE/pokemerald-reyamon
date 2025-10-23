@@ -31600,24 +31600,99 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_ALEX,
         .trainerPic = TRAINER_PIC_ALEX,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .items = {
+            ITEM_POTION, 
+            ITEM_SUPER_POTION, 
+            ITEM_HYPER_POTION, 
+            ITEM_MAX_POTION, 
+            ITEM_FULL_HEAL, 
+            ITEM_FULL_RESTORE, 
+            ITEM_FULL_RESTORE,
+            ITEM_REVIVE, 
+            ITEM_MAX_REVIVE, 
+            ITEM_RAGE_CANDY_BAR,
+            ITEM_SODA_POP
+        }
         .doubleBattle = FALSE,
-        .partySize = 1,
+        .partySize = 6,
         .party = (const struct TrainerMon[])
         {
             {
-            .species = SPECIES_MILOTIC,
+            .species = SPECIES_LUCARIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .ability = ABILITY_CUTE_CHARM,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DISGUISE,
+            .heldItem = ITEM_LIFE_ORB,
             .moves = {
-                MOVE_MUDDY_WATER,
-                MOVE_DRAGON_TAIL,
-                MOVE_COIL,
-                MOVE_HYPNOSIS
-                },
+                MOVE_CLOSE_COMBAT, MOVE_METEOR_MASH, MOVE_ICE_PUNCH, MOVE_EXTREME_SPEED
+            },
+            },
+            {
+            .species = SPECIES_GARCHOMP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_ROUGH_SKIN,
+            .heldItem = ITEM_YACHE_BERRY,
+            .moves = {
+                MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_POISON_JAVE, MOVE_STONE_EDGE
+            },
+            },
+            {
+            .species = SPECIES_PANGORO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_IRON_FIST,
+            .heldItem = ITEM_ASSAULT_VEST,
+            .moves = {
+                MOVE_SUPERPOWER, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_BULLET_PUNCH
+            },
+            },
+            {
+            .species = SPECIES_POLITOED,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DRIZZLE,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_PERISH_SONG, MOVE_HYPNOSIS, MOVE_ENCORE, MOVE_METRONOME
+            },
+            },
+            {
+            .species = SPECIES_HAXORUS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_MOLD_BREAKER,
+            .heldItem = ITEM_LOADED_DICE,
+            .moves = {
+                MOVE_SHADOW_CLAW, MOVE_SCALE_SHOT, MOVE_BREAKING_SWIPE, MOVE_DRAGON_DANCE
+            },
+            },
+            {
+            .species = SPECIES_LUXRAY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0,0,0,0,0,0),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_INTIMIDATE,
+            .moves = {
+                MOVE_WILD_CHARGE, MOVE_VOLT_SWITCH, MOVE_ICE_FANG, MOVE_THUNDER_WAVE
+            },
             },
         },
     },
