@@ -8,7 +8,7 @@ Birthday_Route_2_Swordficsh_EventScript::
 	end
 
 Birthday_Route_2_SwordficshDefeat_Text:
-	.string "Drat. Happy Birthday Reya!!!\n"
+	.string "Drat. Happy Birthday REYA!!!\n"
 	.string "Your creativity and work is genuinely\l"
 	.string "inspiring! Woweez$"		
 
