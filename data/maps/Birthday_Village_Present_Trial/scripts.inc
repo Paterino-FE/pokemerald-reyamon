@@ -57,6 +57,14 @@ Birthday_Village_Present_Trial_Essence_EventScript::
 	release
 	end
 
+Birthday_Village_Present_Trial_Sign1_EventScript::
+	msgbox Birthday_Village_Present_Trial_Sign1_Text, MSGBOX_SIGN
+	release
+	end
+
+Birthday_Village_Present_Trial_Sign1_Text:
+	.string "placeholder$"
+
 Birthday_Village_Present_Trial_ImposterLilypadPreBattle_Text:
 	.string "You know, after falling for my disguise,\n" 
 	.string "I might have underestimated you, after\p" 
