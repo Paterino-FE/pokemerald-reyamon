@@ -29,7 +29,7 @@ Birthday_Village_Present_DirklingsKissing_EventScript::
 	release
 	end
 
-.string Birthday_Village_Present_DirklingsKissing_Text:
+Birthday_Village_Present_DirklingsKissing_Text:
 	.string "Mwah mwah mwah mwah!$"
 
 Birthday_Village_Present_DirklingUpDown1_Text:
