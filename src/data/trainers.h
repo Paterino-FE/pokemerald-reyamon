@@ -31600,7 +31600,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_ALEX,
         .trainerPic = TRAINER_PIC_ALEX,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .items = { ITEM_SODA_POP , ITEM_REVIVE , ITEM_FULL_RESTORE , ITEM_FULL_RESTORE },
+        .items = { ITEM_SODA_POP , ITEM_MAX_REVIVE , ITEM_FULL_RESTORE , ITEM_FULL_RESTORE },
         .doubleBattle = FALSE,
         .partySize = 6,
         .party = (const struct TrainerMon[])

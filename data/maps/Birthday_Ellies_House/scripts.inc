@@ -125,12 +125,61 @@ Birthday_Ellies_House_EllieBattle_EventScript1::
     applymovement LOCALID_NEURO_1, Birthday_Ellies_House_NeuroMovement1
 	msgbox_mugshot Birthday_Ellies_House_ElliePreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
     waitmovement 0
+    msgbox_mugshot Birthday_Ellies_House_EllieIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+    goto Birthday_Ellies_House_EllieActualBattle_EventScript
+	release
+	end
+
+Birthday_Ellies_House_EllieBattle_EventScript2::
+	lock
+	special StorePlayerCoordsInVars
+    special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, Birthday_Ellies_House_CamMovement1
+	waitmovement 0
+	special RemoveCameraObject
+    applymovement LOCALID_ELLIE, Birthday_Ellies_House_EllieMovement1
+    applymovement LOCALID_CODEBUG, Birthday_Ellies_House_EllieMovement1
+    waitmovement 0
+	msgbox_mugshot Birthday_Ellies_House_EllieWarnsNeuro, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Ellies_House_NeuroGives0Fucks, MSGBOX_DEFAULT, MUGSHOT_NEURO, CLEAR_MUGSHOT
+    special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, Birthday_Ellies_House_CamMovement2
+	waitmovement 0
+	special RemoveCameraObject
+    applymovement LOCALID_NEURO_1, Birthday_Ellies_House_NeuroMovement2
+	msgbox_mugshot Birthday_Ellies_House_ElliePreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+    waitmovement 0
+    msgbox_mugshot Birthday_Ellies_House_EllieIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+    goto Birthday_Ellies_House_EllieActualBattle_EventScript
+	release
+	end
+
+Birthday_Ellies_House_EllieBattle_EventScript3::
+	lock
+	special StorePlayerCoordsInVars
+    special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, Birthday_Ellies_House_CamMovement1
+	waitmovement 0
+	special RemoveCameraObject
+    applymovement LOCALID_ELLIE, Birthday_Ellies_House_EllieMovement1
+    applymovement LOCALID_CODEBUG, Birthday_Ellies_House_EllieMovement1
+    waitmovement 0
+	msgbox_mugshot Birthday_Ellies_House_EllieWarnsNeuro, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Ellies_House_NeuroGives0Fucks, MSGBOX_DEFAULT, MUGSHOT_NEURO, CLEAR_MUGSHOT
+    special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA, Birthday_Ellies_House_CamMovement2
+	waitmovement 0
+	special RemoveCameraObject
+    applymovement LOCALID_NEURO_1, Birthday_Ellies_House_NeuroMovement3
+	msgbox_mugshot Birthday_Ellies_House_ElliePreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
+    waitmovement 0
+    msgbox_mugshot Birthday_Ellies_House_EllieIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ELLIE, CLEAR_MUGSHOT
     goto Birthday_Ellies_House_EllieActualBattle_EventScript
 	release
 	end
 
 Birthday_Ellies_House_EllieActualBattle_EventScript::
-	trainerbattle_single TRAINER_ELLIE, Birthday_Ellies_House_EllieIntro_Text, Birthday_Ellies_House_EllieDefeat_Text
+	trainerbattle_no_intro TRAINER_ELLIE, Birthday_Ellies_House_EllieDefeat_Text
     goto Birthday_Ellies_House_EllieEND_EventScript
 	release
 	end
@@ -196,6 +245,22 @@ Birthday_Ellies_House_NeuroMovement1:
     walk_fast_left
     walk_fast_left
     walk_fast_left
+    walk_fast_down
+    emote_exclamation_mark
+    step_end
+
+Birthday_Ellies_House_NeuroMovement2:
+    walk_fast_left
+    walk_fast_left
+    walk_fast_left
+    walk_fast_down
+    emote_exclamation_mark
+    step_end
+
+Birthday_Ellies_House_NeuroMovement3:
+    walk_fast_left
+    walk_fast_left
+    walk_fast_down
     walk_fast_down
     emote_exclamation_mark
     step_end

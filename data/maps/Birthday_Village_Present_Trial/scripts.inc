@@ -21,14 +21,21 @@ Birthday_Village_Present_Trial_ImposterLilypad_EventScript::
 	waitmovement 0
 	faceplayer
 	msgbox_mugshot Birthday_Village_Present_Trial_ImposterLilypadPreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAD, CLEAR_MUGSHOT
-	trainerbattle_single TRAINER_AMOGUSPAD, Birthday_Village_Present_Trial_ImposterLilypadIntro_Text, Birthday_Village_Present_Trial_ImposterLilypadDefeat1_Text
+	msgbox_mugshot Birthday_Village_Present_Trial_ImposterLilypadIntro_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAD, CLEAR_MUGSHOT
+	trainerbattle_no_intro TRAINER_AMOGUSPAD, Birthday_Village_Present_Trial_ImposterLilypadDefeat1_Text
+	goto Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript
+	release
+	end
+
+Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript::
 	setvar VAR_BIRTHDAY_ENDING, 1
 	msgbox_mugshot Birthday_Village_Present_Trial_ImposterLilypadDefeat2_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAD, CLEAR_MUGSHOT
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_IMPOSTERPAL
 	removeobject LOCALID_IMPOSTERPAL
 	fadescreen FADE_FROM_BLACK
-	setweather WEATHER_NONE
+	delay 60
+	setweather WEATHER_SUNNY
 	doweather
 	goto Birthday_Village_Present_Trial_Essence_EventScript
 	release
@@ -37,10 +44,10 @@ Birthday_Village_Present_Trial_ImposterLilypad_EventScript::
 Birthday_Village_Present_Trial_Essence_EventScript::
 	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine1_Text, MSGBOX_DEFAULT, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
 	fadescreen FADE_TO_BLACK
-	delay 20
+	delay 60
 	clearflag FLAG_HIDE_LILYPAD_TRIAL
 	fadescreen FADE_FROM_BLACK
-	delay 20
+	delay 60
 	addobject LOCALID_LILYPAD
 	applymovement LOCALID_LILYPAD, Birthday_Village_Present_Trial_Lilypad_Movement1
 	playmoncry SPECIES_PIKACHU, CRY_MODE_ENCOUNTER
@@ -78,7 +85,7 @@ Birthday_Village_Present_Trial_ImposterLilypadDefeat2_Text:
 	.string "AAAAAAAAAAAAAAAAAAAH$"
 
 Birthday_Village_Present_Trial_ImposterLilypadIntro_Text:
-	.string "PRERISH!$"
+	.string "PERISH!$"
 
 Birthday_Village_Present_Trial_EssenceCombine1_Text:
 	.string "The essences combine!$"

@@ -95,6 +95,20 @@ static const u32 sMugshotImg_Paper[] = INCBIN_U32("graphics/mugshots/paperrps.4b
 static const u16 sMugshotPal_Paper[] = INCBIN_U16("graphics/mugshots/paperrps.gbapal");
 static const u32 sMugshotImg_Scissors[] = INCBIN_U32("graphics/mugshots/scissorrps.4bpp.lz");
 static const u16 sMugshotPal_Scissors[] = INCBIN_U16("graphics/mugshots/scissorrps.gbapal");
+static const u32 sMugshotImg_Oshawott[] = INCBIN_U32("graphics/mugshots/oshawott.4bpp.lz");
+static const u16 sMugshotPal_Oshawott[] = INCBIN_U16("graphics/mugshots/oshawott.gbapal");
+static const u32 sMugshotImg_NeuroMow[] = INCBIN_U32("graphics/mugshots/neuromow.4bpp.lz");
+static const u16 sMugshotPal_NeuroMow[] = INCBIN_U16("graphics/mugshots/neuromow.gbapal");
+static const u32 sMugshotImg_Samurott[] = INCBIN_U32("graphics/mugshots/samurott.4bpp.lz");
+static const u16 sMugshotPal_Samurott[] = INCBIN_U16("graphics/mugshots/samurott.gbapal");
+static const u32 sMugshotImg_Charjabug[] = INCBIN_U32("graphics/mugshots/charjabug.4bpp.lz");
+static const u16 sMugshotPal_Charjabug[] = INCBIN_U16("graphics/mugshots/charjabug.gbapal");
+static const u32 sMugshotImg_Groudon[] = INCBIN_U32("graphics/mugshots/groudon.4bpp.lz");
+static const u16 sMugshotPal_Groudon[] = INCBIN_U16("graphics/mugshots/groudon.gbapal");
+static const u32 sMugshotImg_Beartic[] = INCBIN_U32("graphics/mugshots/beartic.4bpp.lz");
+static const u16 sMugshotPal_Beartic[] = INCBIN_U16("graphics/mugshots/beartic.gbapal");
+static const u32 sMugshotImg_Alex[] = INCBIN_U32("graphics/mugshots/alex.4bpp.lz");
+static const u16 sMugshotPal_Alex[] = INCBIN_U16("graphics/mugshots/alex.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
@@ -135,6 +149,13 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_ROCK] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Rock, .palette = sMugshotPal_Rock},
     [MUGSHOT_PAPER] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Paper, .palette = sMugshotPal_Paper},
     [MUGSHOT_SCISSORS] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Scissors, .palette = sMugshotPal_Scissors},
+    [MUGSHOT_OSHAWOTT] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Oshawott, .palette = sMugshotPal_Oshawott},
+    [MUGSHOT_SAMUROTT] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Samurott, .palette = sMugshotPal_Samurott},
+    [MUGSHOT_NEURO] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_NeuroMow, .palette = sMugshotPal_NeuroMow},
+    [MUGSHOT_CHARJABUG] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Charjabug, .palette = sMugshotPal_Charjabug},
+    [MUGSHOT_GROUDON] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Groudon, .palette = sMugshotPal_Groudon},
+    [MUGSHOT_BEARTIC] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Beartic, .palette = sMugshotPal_Beartic},
+    [MUGSHOT_ALEX] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Alex, .palette = sMugshotPal_Alex},
 }; 
 
 

@@ -47,5 +47,7 @@
 #define MUGSHOT_ROCK        42
 #define MUGSHOT_PAPER       43
 #define MUGSHOT_SCISSORS    44
+#define MUGSHOT_GROUDON     45
+#define MUGSHOT_BEARTIC     46
 
 #endif

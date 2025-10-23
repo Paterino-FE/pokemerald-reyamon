@@ -65,17 +65,24 @@ Birthday_Cave_Past_R3_Alex_EventScript::
 	end
 
 Birthday_Cave_Past_R3_AlexBattle_EventScript::
-	msgbox Birthday_Cave_Past_R3_AlexPreBattle_Text, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexIntro_Text, Birthday_Cave_Past_R3_AlexDefeat_Text
+	msgbox_mugshot Birthday_Cave_Past_R3_AlexPreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Cave_Past_R3_AlexIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
+	trainerbattle_no_intro TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexDefeat_Text
+	goto Birthday_Cave_Past_R3_AlexEnd_EventScript
+	release
+	end
+
+Birthday_Cave_Past_R3_AlexEnd_EventScript::
 	setvar VAR_BIRTHDAY_HIDE_FUTURE, 1
 	setvar VAR_BIRTHDAY_HIDE_PAST, 2
+	delay 60
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_ALEX
 	removeobject LOCALID_ALEX
 	delay 16
 	fadescreen FADE_FROM_BLACK
-	release
-	end
+	delay 60
+	return
 
 Birthday_Cave_Past_R3_AlexPreBattle_Text:
 	.string "PreBattle.$"
@@ -98,3 +105,4 @@ Birthday_Cave_Past_R3_Sign1_EventScript::
 	end
 
 Birthday_Cave_Past_R3_Sign1_Text:
+	.string "Placeholder.$"
