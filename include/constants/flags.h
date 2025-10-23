@@ -1186,11 +1186,11 @@
 #define FLAG_HIDE_EMILIA_HAMLET                                     0x4AC // Unused Flag
 #define FLAG_TALKED_TO_AGDALEKS                                     0x4AD // Unused Flag
 #define FLAG_HIDE_PAT_CONLAD                                        0x4AE // Unused Flag
-#define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
-#define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
-#define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
-#define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
-#define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag
+#define FLAG_HIDE_IMPOSTERPAL                                       0x4AF // Unused Flag
+#define FLAG_HIDE_LILYPAD_TRIAL                                     0x4B0 // Unused Flag
+#define FLAG_HIDE_APPLIANCE                                         0x4B1 // Unused Flag
+#define FLAG_HIDE_NEURO1                                            0x4B2 // Unused Flag
+#define FLAG_HIDE_NEURO2                                            0x4B3 // Unused Flag
 #define FLAG_UNUSED_0x4B4                                           0x4B4 // Unused Flag
 #define FLAG_UNUSED_0x4B5                                           0x4B5 // Unused Flag
 #define FLAG_UNUSED_0x4B6                                           0x4B6 // Unused Flag

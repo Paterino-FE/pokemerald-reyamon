@@ -126,6 +126,7 @@
 #define MULTI_LIAM_GAME_CORNER_TMS         115
 #define MULTI_ROTOM_FORMS                  116
 #define MULTI_ROCK_PAPER_SCISSORS          117
+#define MULTI_GO_WITH_LILYPAD              118
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

@@ -88,6 +88,12 @@ static const struct MenuAction MultichoiceList_ROCK_PAPER_SCISSORS[] =
     {gText_Scissors},
 };
 
+static const struct MenuAction MultichoiceList_MULTI_GO_WITH_LILYPAD[] =
+{
+    {gText_Yes},
+    {gText_No},
+};
+
 static const struct MenuAction MultichoiceList_BrineyOffDewford[] =
 {
     {gText_Dewford},
@@ -940,6 +946,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_BERRY_PLOT]                 = MULTICHOICE(MultichoiceList_BerryPlot),
     [MULTI_ROTOM_FORMS]                = MULTICHOICE(MultichoiceList_MULTI_ROTOM_FORMS),
     [MULTI_ROCK_PAPER_SCISSORS]        = MULTICHOICE(MultichoiceList_ROCK_PAPER_SCISSORS),
+    [MULTI_GO_WITH_LILYPAD]            = MULTICHOICE(MultichoiceList_MULTI_GO_WITH_LILYPAD),
 };
 
 const u8 *const gStdStrings[] =

@@ -4810,6 +4810,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Birthday_Village_Present_Trial/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Village_Present_Trial/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRTHDAY_MAIN_VILLAGE_HOUSE_END",
+      "name": "Birthday_Main_Village_HouseEnd_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Birthday_Main_Village_HouseEnd/border.bin",
+      "blockdata_filepath": "data/layouts/Birthday_Main_Village_HouseEnd/map.bin"
     }
   ]
 }

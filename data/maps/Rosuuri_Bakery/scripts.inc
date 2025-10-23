@@ -5,7 +5,7 @@ Birthday_Rosuuri_Bakery_Rosuuri_EventScript::
 	lock
 	faceplayer
 	goto_if_not_defeated TRAINER_ROSUURI, Birthday_Rosuuri_Bakery_RosuuriBattle_EventScript
-	msgbox Birthday_Rosuuri_Bakery_Rosuuri_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Rosuuri_Bakery_Rosuuri_Text, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
 	release
 	end
 
