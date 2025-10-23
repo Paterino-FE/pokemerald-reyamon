@@ -66,7 +66,7 @@ Birthday_Main_Village_Hide_Snorlax_1::
 Birthday_Main_Village_After_Past_Pat::
 	lock
 	faceplayer
-	msgbox_mugshot Birthday_Main_Village_After_Past_Pat_Text, MSGBOX_DEFAULT, MUGSHOT_ARLE, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_After_Past_Pat_Text, MSGBOX_DEFAULT, MUGSHOT_PATERINO, CLEAR_MUGSHOT
 	setvar VAR_BIRTHDAY_HIDE_FUTURE, 2
 	setflag FLAG_HIDE_FUTURE
 	release
