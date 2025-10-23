@@ -289,6 +289,12 @@ const u32 gTrainerPalette_Blaine[] = INCBIN_U32("graphics/trainers/palettes/blai
 const u32 gTrainerFrontPic_Dirkling[] = INCBIN_U32("graphics/trainers/front_pics/dirkling.4bpp.lz");
 const u32 gTrainerPalette_Dirkling[] = INCBIN_U32("graphics/trainers/palettes/dirkling.gbapal.lz");
 
+const u32 gTrainerFrontPic_AntleredKey[] = INCBIN_U32("graphics/trainers/front_pics/antleredkey.4bpp.lz");
+const u32 gTrainerPalette_AntleredKey[] = INCBIN_U32("graphics/trainers/palettes/antleredkey.gbapal.lz");
+
+const u32 gTrainerFrontPic_ImposterPal[] = INCBIN_U32("graphics/trainers/front_pics/imposterpal.4bpp.lz");
+const u32 gTrainerPalette_ImposterPal[] = INCBIN_U32("graphics/trainers/palettes/imposterpal.gbapal.lz");
+
 const u32 gTrainerFrontPic_Lilypal[] = INCBIN_U32("graphics/trainers/front_pics/lilypal.4bpp.lz");
 const u32 gTrainerPalette_Lilypal[] = INCBIN_U32("graphics/trainers/palettes/lilypal.gbapal.lz");
 
@@ -459,6 +465,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_BLAINE, gTrainerFrontPic_Blaine, gTrainerPalette_Blaine),
     TRAINER_SPRITE(TRAINER_PIC_EMILIA, gTrainerFrontPic_Emilia, gTrainerPalette_Emilia),
     TRAINER_SPRITE(TRAINER_PIC_DIRKLING, gTrainerFrontPic_Dirkling, gTrainerPalette_Dirkling),
+    TRAINER_SPRITE(TRAINER_PIC_IMPOSTERPAL, gTrainerFrontPic_ImposterPal, gTrainerPalette_ImposterPal),
+    TRAINER_SPRITE(TRAINER_PIC_ANTLEREDKEY, gTrainerFrontPic_AntleredKey, gTrainerPalette_AntleredKey),
     TRAINER_SPRITE(TRAINER_PIC_LILYPAL, gTrainerFrontPic_Lilypal, gTrainerPalette_Lilypal),
     TRAINER_SPRITE(TRAINER_PIC_ROSUURI, gTrainerFrontPic_Rosuuri, gTrainerPalette_Rosuuri),
     TRAINER_SPRITE(TRAINER_PIC_MABLE, gTrainerFrontPic_Mable, gTrainerPalette_Mable),

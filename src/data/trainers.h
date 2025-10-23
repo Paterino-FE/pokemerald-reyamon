@@ -28568,7 +28568,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("LILYPAD"),
         .trainerClass = TRAINER_CLASS_RIVAL,
-        .trainerPic = TRAINER_PIC_WALLY,
+        .trainerPic = TRAINER_PIC_IMPOSTERPAL,
         .encounterMusic_gender = 
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
@@ -30245,7 +30245,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("ANTLERDKEY"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
-        .trainerPic = TRAINER_PIC_DIRKLING,
+        .trainerPic = TRAINER_PIC_ANTLEREDKEY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .doubleBattle = FALSE,
         .partySize = 3,
