@@ -31600,19 +31600,7 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_ALEX,
         .trainerPic = TRAINER_PIC_ALEX,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .items = {
-            ITEM_POTION, 
-            ITEM_SUPER_POTION, 
-            ITEM_HYPER_POTION, 
-            ITEM_MAX_POTION, 
-            ITEM_FULL_HEAL, 
-            ITEM_FULL_RESTORE, 
-            ITEM_FULL_RESTORE,
-            ITEM_REVIVE, 
-            ITEM_MAX_REVIVE, 
-            ITEM_RAGE_CANDY_BAR,
-            ITEM_SODA_POP
-        }
+        .items = { ITEM_SODA_POP , ITEM_REVIVE , ITEM_FULL_RESTORE , ITEM_FULL_RESTORE },
         .doubleBattle = FALSE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -31640,7 +31628,7 @@ F_TRAINER_FEMALE |
             .ability = ABILITY_ROUGH_SKIN,
             .heldItem = ITEM_YACHE_BERRY,
             .moves = {
-                MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_POISON_JAVE, MOVE_STONE_EDGE
+                MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_POISON_JAB, MOVE_STONE_EDGE
             },
             },
             {
