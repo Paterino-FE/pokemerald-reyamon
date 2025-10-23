@@ -116,6 +116,16 @@ Birthday_Route_1_UmaTrainer_EventScript::
 	release
 	end
 
+Birthday_Route1_DirklingsNorth_EventScript::
+	lock
+	msgbox Birthday_Route_1_WeLikeRocks_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_1_WeLikeRocks_Text:
+	.string "ROCKS! ROCKS!\n"
+	.string "WE LIKE ROCKS!$"
+
 Birthday_Route_1_UmaTrainerIntro_Text:
 	.string "A challenge? I'll have you know we\n"
 	.string "won the Triple Crown, all you will\p"

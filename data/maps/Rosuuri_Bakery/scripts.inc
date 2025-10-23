@@ -78,7 +78,9 @@ Birthday_Rosuuri_Bakery_Lilypal1_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_Lilypal1_Text:
-	.string "placeholder$"
+	.string "Sure, go ahead!\n"
+	.string "I still haven't decided on\l"
+	.string "what I want...$"
 
 Birthday_Rosuuri_Bakery_Lilypal2_EventScript::
 	lock
@@ -88,7 +90,12 @@ Birthday_Rosuuri_Bakery_Lilypal2_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_Lilypal2_Text:
-	.string "placeholder$"
+	.string "A spoonful of sugar, that is all\n"
+	.string "it takes!\p"
+	.string "It changes bread and water into\n"
+	.string "tea and cakes!\p"
+	.string "I do really like bread and water,\n"
+	.string "though!$"
 
 Birthday_Rosuuri_Bakery_Lilypal3_EventScript::
 	lock
@@ -98,7 +105,7 @@ Birthday_Rosuuri_Bakery_Lilypal3_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_Lilypal3_Text:
-	.string "placeholder$"
+	.string "Stressed is Desserts spelled backward!$"
 
 Birthday_Rosuuri_Bakery_Dirkling1_EventScript::
 	lock
@@ -108,7 +115,10 @@ Birthday_Rosuuri_Bakery_Dirkling1_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_Dirkling1_Text:
-	.string "placeholder$"
+	.string "We LOVE the goods that ROSUURI bakes!\p"
+	.string "If only they were a bit harder,\n"
+	.string "and maybe a bit rounder, and \l"
+	.string "perhaps a bit more grey...$"
 
 Birthday_Rosuuri_Bakery_Dirkling2_EventScript::
 	lock
@@ -118,5 +128,7 @@ Birthday_Rosuuri_Bakery_Dirkling2_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_Dirkling2_Text:
-	.string "placeholder$"
+	.string "I ordered pain,\n"
+	.string "but all i got was french bread.\p"
+	.string "Good bread, though.$"
 
