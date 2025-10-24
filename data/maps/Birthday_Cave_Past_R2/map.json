@@ -12,10 +12,9 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
-      "local_id": "LOCALID_GRAPE",
       "graphics_id": "OBJ_EVENT_GFX_GRAPE",
       "x": 8,
       "y": 18,
@@ -26,7 +25,8 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Cave_Past_R2_Grape_EventScript",
-      "flag": "0"
+      "flag": "0",
+      "local_id": "LOCALID_GRAPE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
@@ -95,5 +95,30 @@
       "script": "Birthday_Cave_Past_R2_Grape_AttackScript"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 33,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Birthday_Cave_Past_R2_Sign1_EventScript"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 19,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Birthday_Cave_Past_R2_Sign2_EventScript"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Birthday_Cave_Past_R2_Sign3_EventScript"
+    }
+  ]
 }

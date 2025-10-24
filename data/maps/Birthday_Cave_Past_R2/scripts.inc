@@ -3,6 +3,28 @@
 Birthday_Cave_Past_R2_MapScripts::
 	.byte 0
 
+
+Birthday_Cave_Past_R2_Sign1_EventScript::
+	msgbox Birthday_Cave_Past_R2_Sign1_Text, MSGBOX_SIGN
+	end
+
+Birthday_Cave_Past_R2_Sign1_Text:
+	.string "placeholder$"
+
+Birthday_Cave_Past_R2_Sign2_EventScript::
+	msgbox Birthday_Cave_Past_R2_Sign2Text, MSGBOX_SIGN
+	end
+
+Birthday_Cave_Past_R2_Sign2_Text:
+	.string "placeholder$"
+
+Birthday_Cave_Past_R2_Sign3_EventScript::
+	msgbox Birthday_Cave_Past_R2_Sign3_Text, MSGBOX_SIGN
+	end
+
+Birthday_Cave_Past_R2_Sign3_Text:
+	.string "placeholder$"
+
 Birthday_Cave_Past_R2_Grape_AttackScript::
 	applymovement LOCALID_GRAPE, Birthday_Cave_Past_R2_Grape_Movement_1
 	waitmovement 0

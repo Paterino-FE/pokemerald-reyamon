@@ -162,6 +162,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": -2,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Mable_Lighthouse_EventScript_Sign1_EventScript"
+    }
   ]
 }
