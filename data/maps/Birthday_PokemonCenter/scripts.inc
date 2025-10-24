@@ -76,8 +76,8 @@ Birthday_PokemonCenter_1F_Text_Lilypal1:
 	.string "day if I could afford it!$"
 
 Birthday_PokemonCenter_1F_Text_Lilypal2:
-	.string "There are multiple paths in the\n"
-	.string "north of this village.\p"
+	.string "There are multiple paths north\n"
+	.string "of this village.\p"
 	.string "But I'm too scared to take any\n"
 	.string "of them!$"
 

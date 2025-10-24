@@ -20,7 +20,7 @@ Birthday_Mountain_Future_Peak_Sign1_Text:
 	.string "Some nice reward.\p"
 	.string "Well, sometimes, our expectations are\n"
 	.string "betrayed by the cruel reality that our\l"
-	.string "path lead us into a dead end.$"
+	.string "path led us into a dead end.$"
 
 Birthday_Mountain_Future_Peak_PurgeIntro_Text:
 	.string "Hah! You won't find any McDonalds fry\n"

@@ -109,8 +109,6 @@ Birthday_Route_1_Quattuor_Text:
 	.string "Bop bop bop lin lin.$"
 
 Birthday_Route_1_UmaTrainer_EventScript::
-	lock
-	faceplayer
 	trainerbattle_single TRAINER_TREINA_SAN, Birthday_Route_1_UmaTrainerIntro_Text, Birthday_Route_1_UmaTrainerDefeat_Text
 	msgbox Birthday_Route_1_UmaTrainer_Text, MSGBOX_DEFAULT
 	release

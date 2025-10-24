@@ -42,7 +42,7 @@ Birthday_Cave_Past_R3_Thea_Text:
 	.string "Wait a second....\n"
 	.string "None of my Pokemon know Strength!\p"
 	.string "How did i move those rocks.....\n"
-	.string "Ah, best not to think about it too\n"
+	.string "Ah, best not to think about it too\l"
 	.string "hard AYAYA$"
 
 Birthday_Cave_Past_R3_TheaIntro_Text:

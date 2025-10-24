@@ -435,12 +435,9 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "Better get going!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "RUNNING SHOES.\p"
-	.string "“Press the B Button to run while\n"
-	.string "wearing your RUNNING SHOES.\p"
-	.string "“Lace up your RUNNING SHOES and hit\n"
-	.string "the road running!”$"
+	.string "It's the instruction booklet for\n"
+	.string "a FRIDGE.\p"
+	.string "Not going to read it!$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "ANGE: Hm?\p"

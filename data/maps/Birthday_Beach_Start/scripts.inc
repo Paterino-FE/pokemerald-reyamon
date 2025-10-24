@@ -128,7 +128,7 @@ Birthday_Beach_Luminel_PostBattleText:
 	.string "No... I made the right decision.$"
 
 Birthday_Beach_DylanKittyPreBattle_Text:
-	.string "DYLAN: Hey, can you NOT interrupt out\n"
+	.string "DYLAN: Hey, can you NOT interrupt our\n"
 	.string "perfect date?!\p"
 	.string "KITTY: DYLAN has really worked hard\n"
 	.string "on this date.$"

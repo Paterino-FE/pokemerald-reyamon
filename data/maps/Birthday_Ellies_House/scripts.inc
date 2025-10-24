@@ -205,12 +205,12 @@ Birthday_Ellies_House_EllieWarnsNeuro:
 Birthday_Ellies_House_NeuroGives0Fucks:
     .string "WROOM WROOM! I can't hear\n"
     .string "you, while I am exceeding\p"
-    .string "speedlimits beyond human\n"
+    .string "speed limits beyond human\n"
     .string "comprehension!\p"
     .string "Look! A prefect test subject!$"
 
 Birthday_Ellies_House_ElliePreBattle_Text:
-    .string "REYA WATCHOUT!$"
+    .string "REYA, WATCH OUT!$"
 
 Birthday_Ellies_House_EllieSorry_Text:
     .string "Are you alright Reya?!\n"

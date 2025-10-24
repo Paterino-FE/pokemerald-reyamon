@@ -8,14 +8,15 @@ Birthday_Mountain_Future_Floors_to_peak_GlacialRaven_EventScript::
 	end
 
 Birthday_Mountain_Future_Floors_to_peak_GlacialRavenDefeat_Text:
-	.string "Sorry, I was busy reading yuri,\n"
-	.string "are you ready to start?...\p"
-	.string "What do you mean, it's already over?$"
+	.string "Sorry I was busy gambling for horses,\n"
+	.string "are you ready to start?\p"
+	.string "...What do you mean it's already over?$"
 
 Birthday_Mountain_Future_Floors_to_peak_GlacialRaven_Text:
-	.string "Hmm, maybe being nice increases my\n"
-	.string "chance of getting DirkCool.\p"
-	.string "HAPPY BIRTHDAY REYA!!!$"
+	.string "I'm going to let you in on a little\n"
+	.string "secret, some of us DIRKLINGS think\l"
+	.string "you're actually pretty cool.\p"
+	.string "Happy birthday!$"
 
 Birthday_Mountain_Future_Floors_to_peak_GlacialRavenIntro_Text:
 	.string "Oh hey {PLAYER}, Happy birthda-\p"
@@ -47,7 +48,7 @@ Birthday_Mountain_Future_Floors_to_peak_ColourfulPebbleHillBattle_EventScript::
 
 Birthday_Mountain_Future_Floors_to_peak_ColourfulPostBattle_Text:
 	.string "COLOURFUL: We may have just MET, but\n"
-	.string "just SOJU know, I hope your birthday\l"
+	.string "just SJU know, I hope your birthday\l"
 	.string "is full of SUN while you enjoy your\l"
 	.string "favourite VODs and FLaPjacks...\l"
 	.string "wait put that GUN away!$"

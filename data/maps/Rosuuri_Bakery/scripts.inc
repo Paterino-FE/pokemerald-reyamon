@@ -129,6 +129,6 @@ Birthday_Rosuuri_Bakery_Dirkling2_EventScript::
 
 Birthday_Rosuuri_Bakery_Dirkling2_Text:
 	.string "I ordered pain,\n"
-	.string "but all i got was french bread.\p"
+	.string "but all I got was french bread.\p"
 	.string "Good bread, though.$"
 
