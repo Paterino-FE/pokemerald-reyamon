@@ -122,6 +122,7 @@ Birthday_Mable_Lighthouse_TEXT_Mablewott_4:
 	.string "She got a knife!$"
 
 Mable_Lighthouse_EventScript_Mable::
+	faceplayer
 	goto_if_not_defeated TRAINER_MABLE, Mable_Lighthouse_EventScript_DoBattle
 	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_4, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
 	release
