@@ -309,7 +309,13 @@ const u32 gTrainerPalette_Rosuuri[] = INCBIN_U32("graphics/trainers/palettes/ros
 
 const u32 gTrainerFrontPic_Purge[] = INCBIN_U32("graphics/trainers/front_pics/purge.4bpp.lz");
 const u32 gTrainerPalette_Purge[] = INCBIN_U32("graphics/trainers/palettes/purge.gbapal.lz");
+// Key's mess
+const u32 gTrainerFrontPic_AntleredKey[] = INCBIN_U32("graphics/trainers/front_pics/antleredkey.4bpp.lz");
+const u32 gTrainerPalette_AntleredKey[] = INCBIN_U32("graphics/trainers/palettes/antleredkey.gbapal.lz");
 
+const u32 gTrainerFrontPic_ImposterPal[] = INCBIN_U32("graphics/trainers/front_pics/imposterpal.4bpp.lz");
+const u32 gTrainerPalette_ImposterPal[] = INCBIN_U32("graphics/trainers/palettes/imposterpal.gbapal.lz");
+// end Key's mess
 const u32 gTrainerFrontPic_Birch[] = INCBIN_U32("graphics/trainers/front_pics/birch.4bpp.lz");
 const u32 gTrainerPalette_Birch[] = INCBIN_U32("graphics/trainers/palettes/birch.gbapal.lz");
 
@@ -469,6 +475,10 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_ALEX, gTrainerFrontPic_Alex, gTrainerPalette_Alex),
     TRAINER_SPRITE(TRAINER_PIC_PURGE, gTrainerFrontPic_Purge, gTrainerPalette_Purge),
     TRAINER_SPRITE(TRAINER_PIC_BIRCH, gTrainerFrontPic_Birch, gTrainerPalette_Birch),
+// Key's mess
+    TRAINER_SPRITE(TRAINER_PIC_ANTLEREDKEY, gTrainerFrontPic_AntleredKey, gTrainerPalette_AntleredKey),
+    TRAINER_SPRITE(TRAINER_PIC_IMPOSTERPAL, gTrainerFrontPic_ImposterPal, gTrainerPalette_ImposterPal),
+// end Key's mess
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

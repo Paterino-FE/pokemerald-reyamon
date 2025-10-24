@@ -30245,7 +30245,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("ANTLERDKEY"),
         .trainerClass = TRAINER_CLASS_DIRKLING,
-        .trainerPic = TRAINER_PIC_DIRKLING,
+        .trainerPic = TRAINER_PIC_ANTLEREDKEY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .doubleBattle = FALSE,
         .partySize = 3,
@@ -32547,7 +32547,7 @@ F_TRAINER_FEMALE |
     {
         .trainerName = _("AMOGUSPAD"),
         .trainerClass = TRAINER_CLASS_IMPOSTOR,
-        .trainerPic = TRAINER_PIC_WALLY,
+        .trainerPic = TRAINER_PIC_IMPOSTERPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
