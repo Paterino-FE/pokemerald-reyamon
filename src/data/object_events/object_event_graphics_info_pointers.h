@@ -253,6 +253,11 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Purge;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tsunami;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YourAvgBo;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pouria;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NeuroFan;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NeuroMow;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NeuroOven;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NeuroFridge;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NeuroWash;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -517,6 +522,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MABLE] =                    &gObjectEventGraphicsInfo_Mable,
     [OBJ_EVENT_GFX_GRAPE] =                    &gObjectEventGraphicsInfo_Grape,
     [OBJ_EVENT_GFX_ELLIE] =                    &gObjectEventGraphicsInfo_Ellie,
+    [OBJ_EVENT_GFX_NEUROFAN] =                 &gObjectEventGraphicsInfo_NeuroFan,
+    [OBJ_EVENT_GFX_NEUROMOW] =                 &gObjectEventGraphicsInfo_NeuroMow,
+    [OBJ_EVENT_GFX_NEUROOVEN] =                &gObjectEventGraphicsInfo_NeuroOven,
+    [OBJ_EVENT_GFX_NEUROFRIDGE] =              &gObjectEventGraphicsInfo_NeuroFridge,
+    [OBJ_EVENT_GFX_NEUROWASH] =                &gObjectEventGraphicsInfo_NeuroWash,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

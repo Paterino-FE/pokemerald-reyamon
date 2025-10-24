@@ -125,9 +125,7 @@
 #define TRAINER_PIC_ALEX                  107
 #define TRAINER_PIC_PURGE                 108
 #define TRAINER_PIC_BIRCH                 109
-#define TRAINER_PIC_ANTLEREDKEY           110
-#define TRAINER_PIC_IMPOSTERPAL           111
-#define TRAINER_PIC_COUNT                 111
+#define TRAINER_PIC_COUNT                 109
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

@@ -3370,6 +3370,11 @@ extern const u16 gObjectEventPal_VyralDoll[];
 extern const u16 gObjectEventPal_Grape[];
 extern const u16 gObjectEventPal_Ellie[];
 extern const u16 gObjectEventPal_Alex[];
+extern const u16 gObjectEventPal_NeuroWash[];
+extern const u16 gObjectEventPal_NeuroFridge[];
+extern const u16 gObjectEventPal_NeuroOven[];
+extern const u16 gObjectEventPal_NeuroMow[];
+extern const u16 gObjectEventPal_NeuroFan[];
 
 // Mail
 extern const u16 gMailPalette_Orange[];

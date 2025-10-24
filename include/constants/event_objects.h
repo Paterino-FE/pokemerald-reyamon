@@ -256,11 +256,16 @@
 #define OBJ_EVENT_GFX_ELLIE                      252
 #define OBJ_EVENT_GFX_TSUNAMI                    253
 #define OBJ_EVENT_GFX_YOURAVGBO                  254
+#define OBJ_EVENT_GFX_NEUROFAN                   255
+#define OBJ_EVENT_GFX_NEUROMOW                   256
+#define OBJ_EVENT_GFX_NEUROOVEN                  257
+#define OBJ_EVENT_GFX_NEUROFRIDGE                258
+#define OBJ_EVENT_GFX_NEUROWASH                  259
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        255
+#define NUM_OBJ_EVENT_GFX                        260
 
 
 // These are dynamic object gfx ids.
@@ -420,6 +425,11 @@
 #define OBJ_EVENT_PAL_TAG_TSUNAMI                 0x1149
 #define OBJ_EVENT_PAL_TAG_YOURAVGBO               0x114A
 #define OBJ_EVENT_PAL_TAG_VYRALDOLL               0x114B
+#define OBJ_EVENT_PAL_TAG_NEUROFAN                0x114C
+#define OBJ_EVENT_PAL_TAG_NEUROWASH               0x114D
+#define OBJ_EVENT_PAL_TAG_NEUROFRIDGE             0x114E
+#define OBJ_EVENT_PAL_TAG_NEUROOVEN               0x114F
+#define OBJ_EVENT_PAL_TAG_NEUROMOW                0x116B
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

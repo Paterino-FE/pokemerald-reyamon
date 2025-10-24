@@ -103,6 +103,7 @@ Birthday_Ellies_House_Ellie_EventScript::
 	lock
 	faceplayer
 	msgbox Birthday_Ellies_House_Ellie_Text, MSGBOX_DEFAULT
+    setvar VAR_ELLIE_HOUSE_HIDE, 2
 	release
 	end
 

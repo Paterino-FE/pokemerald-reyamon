@@ -4475,7 +4475,7 @@
       "id": "LAYOUT_SSLANN_KITCHEN",
       "name": "SSLANN_KITCHEN_Layout",
       "width": 20,
-      "height": 14,
+      "height": 15,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Unused1",
       "border_filepath": "data/layouts/SSLANN_KITCHEN/border.bin",
