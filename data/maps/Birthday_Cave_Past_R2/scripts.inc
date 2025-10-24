@@ -12,7 +12,7 @@ Birthday_Cave_Past_R2_Sign1_Text:
 	.string "placeholder$"
 
 Birthday_Cave_Past_R2_Sign2_EventScript::
-	msgbox Birthday_Cave_Past_R2_Sign2Text, MSGBOX_SIGN
+	msgbox Birthday_Cave_Past_R2_Sign2_Text, MSGBOX_SIGN
 	end
 
 Birthday_Cave_Past_R2_Sign2_Text:
