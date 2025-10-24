@@ -1,5 +1,11 @@
 Birthday_Cave_Past_R1_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, Birthday_Cave_Past_R1_OnResume
 	.byte 0
+
+Birthday_Cave_Past_R1_OnResume:
+	setescapewarp MAP_BIRTHDAY_ROUTE_2, 45, 20
+	end
+
 
 Birthday_Cave_Past_R1_BandanaT_EventScript::
 	trainerbattle_single TRAINER_BANDANAT, Birthday_Cave_Past_R1_BandanaTIntro_Text, Birthday_Cave_Past_R1_BandanaTDefeat_Text
