@@ -63,6 +63,14 @@ Birthday_Main_Village_Hide_Snorlax_1::
 	setflag	FLAG_HIDE_SNORLAX
 	return
 
+Birthday_Main_Village_Snorlax_EventScript::
+	lock
+	playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+	waitmoncry
+	msgbox Birthday_Main_Village_Snorlax_Text, MSGBOX_DEFAULT
+	release
+	end
+
 Birthday_Main_Village_After_Past_Pat::
 	lock
 	faceplayer
@@ -71,6 +79,9 @@ Birthday_Main_Village_After_Past_Pat::
 	setflag FLAG_HIDE_FUTURE
 	release
 	end
+
+Birthday_Main_Village_Snorlax_Text:
+	.string "None shall pass!$"
 
 Birthday_Main_Village_After_Past_Pat_Text:
 	.string "Path to the future is free.$"
