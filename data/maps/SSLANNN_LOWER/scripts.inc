@@ -109,18 +109,27 @@ SSLANNN_LOWER_Felixr_EventScript::
 	end
 
 SSLANNN_LOWER_FelixFortyPreBattle_Text:
-	.string "placeholder$"
+	.string "FELIX: You were drawn here like a\n"
+	.string "moth to a flame!\p"
+	.string "FORTY: Tremble before my terrifyingly\n"
+	.string "toasty triple torment!\p"
+	.string "Also, give me your wallet.$"
 
 SSLANNN_LOWER_FelixrDefeat_Text:
-	.string "FELIXR: placeholder$"
+	.string "FELIX: Wait, I'm the one using\n"
+	.string "BUTTERFREE, so I would be the\l"
+	.string "moth here...$"
 
 SSLANNN_LOWER_FortyDefeat_Text:
-	.string "FORTY: placeholder$"
+	.string "FORTY: Better to burn out than\n"
+	.string "fade away...$"
 
 SSLANNN_LOWER_FelixrRepeat_Text:
-	.string "FELIXR: placeholder$"
+	.string "FELIX: ...is BUTTERFREE even a moth?$"
 
 SSLANNN_LOWER_FortyRepeat_Text:
-	.string "FORTY: placeholder$"
+	.string "FORTY: Alright, you can keep your\n"
+	.string "wallet. Also, I wish you a very\l"
+	.string "joyous birthday, REYA!$"
 
 
