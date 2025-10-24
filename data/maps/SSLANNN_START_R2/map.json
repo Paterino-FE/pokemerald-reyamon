@@ -17,7 +17,7 @@
   "warp_events": [
     {
       "x": 3,
-      "y": 2,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_SSLANNN_START",
       "dest_warp_id": "1"
