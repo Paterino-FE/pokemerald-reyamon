@@ -30519,8 +30519,8 @@ F_TRAINER_FEMALE |
     [TRAINER_OCARINAOFME] =
     {
         .trainerName = _("OCARINA"),
-        .trainerClass = TRAINER_CLASS_DIRKLING,
-        .trainerPic = TRAINER_PIC_DIRKLING,
+        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerPic = TRAINER_PIC_LILYPAL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .doubleBattle = FALSE,
         .partySize = 3,
