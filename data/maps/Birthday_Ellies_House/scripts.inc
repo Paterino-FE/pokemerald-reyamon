@@ -207,7 +207,7 @@ Birthday_Ellies_House_NeuroGives0Fucks:
     .string "you, while I am exceeding\p"
     .string "speed limits beyond human\n"
     .string "comprehension!\p"
-    .string "Look! A prefect test subject!$"
+    .string "Look! A perfect test subject!$"
 
 Birthday_Ellies_House_ElliePreBattle_Text:
     .string "REYA, WATCH OUT!$"
