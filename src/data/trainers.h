@@ -31929,7 +31929,7 @@ F_TRAINER_FEMALE |
             .lvl = 60,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_INTIMIDATE,
+            .ability = ABILITY_STAMINA,
             .heldItem = ITEM_SITRUS_BERRY,
             .moves = {
                 MOVE_HIGH_HORSEPOWER, MOVE_HEAVY_SLAM, MOVE_LOW_KICK,
