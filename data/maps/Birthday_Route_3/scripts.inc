@@ -184,7 +184,6 @@ Birthday_Route_3_SvelteDefeat_Text:
 
 Birthday_Route_3_Groudon_EventScript::
 	lock
-	faceplayer
 	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
 	waitmoncry
 	msgbox Birthday_Route_3_Groudon_Text, MSGBOX_DEFAULT
