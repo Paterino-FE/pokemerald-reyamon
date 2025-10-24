@@ -58,6 +58,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Route_3_Groudon_EventScript",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
+      "x": 50,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 6,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "Birthday_Route_3_Nigeltastic_EventScript",
+      "flag": "0"
     }
   ],
   "warp_events": [

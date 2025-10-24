@@ -70,24 +70,6 @@ Birthday_Route_1_ArchonOfFogIntro_Text:
 	.string "have more content to make, you need\l"
 	.string "to make more videos!$"
 
-Birthday_Route_1_Nigeltastic_EventScript::
-	trainerbattle_single TRAINER_NIGELTASTIC, Birthday_Route_1_NigeltasticIntro_Text, Birthday_Route_1_NigeltasticDefeat_Text
-	msgbox Birthday_Route_1_Nigeltastic_Text, MSGBOX_DEFAULT
-	release
-	end
-
-Birthday_Route_1_NigeltasticDefeat_Text:
-	.string "Well, maybe I'm VYRAL's second\n"
-	.string "strongest DIRKLING...$"
-
-Birthday_Route_1_Nigeltastic_Text:
-	.string "Happy Birthday {PLAYER}!\n"
-	.string "Hope you have a nice day :)$"
-
-Birthday_Route_1_NigeltasticIntro_Text:
-	.string "Prepare to face the wrath of VYRAL's\n"
-	.string "strongest DIRKLING!$"
-
 Birthday_Route_1_Quattuor_EventScript::
 	lock
 	faceplayer

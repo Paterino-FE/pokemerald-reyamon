@@ -1,6 +1,30 @@
 Birthday_Route_3_MapScripts::
 	.byte 0
 
+
+
+
+Birthday_Route_3_Nigeltastic_EventScript::
+	trainerbattle_single TRAINER_NIGELTASTIC, Birthday_Route_3_NigeltasticIntro_Text, Birthday_Route_3_NigeltasticDefeat_Text
+	msgbox Birthday_Route_3_Nigeltastic_Text, MSGBOX_DEFAULT
+	release
+	end
+
+Birthday_Route_3_NigeltasticDefeat_Text:
+	.string "Well, maybe I'm VYRAL's second\n"
+	.string "strongest DIRKLING...$"
+
+Birthday_Route_3_Nigeltastic_Text:
+	.string "Happy Birthday {PLAYER}!\n"
+	.string "Hope you have a nice day :)$"
+
+Birthday_Route_3_NigeltasticIntro_Text:
+	.string "Prepare to face the wrath of VYRAL's\n"
+	.string "strongest DIRKLING!$"
+
+
+
+
 Birthday_Route_3_Lyra_EventScript::
 	lock
 	faceplayer
