@@ -358,7 +358,7 @@ Birthday_Village_Present_Dirkling1_Text:
 
 Birthday_Village_Present_Dirkling1Intro_Text:
 	.string "Check out my ROCKS!\n"
-	.string "The ones i didn't eat at least!$"
+	.string "The ones I didn't eat at least!$"
 
 Birthday_Village_Present_Dirkling2_EventScript::
 	trainerbattle_single TRAINER_DIRKLING2_PRESENT, Birthday_Village_Present_Dirkling2Intro_Text, Birthday_Village_Present_Dirkling2Defeat_Text
