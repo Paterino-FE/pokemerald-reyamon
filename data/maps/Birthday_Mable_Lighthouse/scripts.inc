@@ -324,22 +324,52 @@ Birthday_Mable_Lighthouse_TEXT_MableFight_5:
 Birthday_Mable_Lighthouse_Lilypal1_EventScript::
 	lock
 	faceplayer
+	goto_if_unset FLAG_TALKED_LIGHTHOUSE_FLEETPAL, Birthday_Mable_Lighthouse_Lilypal1First_EventScript
 	msgbox Birthday_Mable_Lighthouse_Lilypal1_Text, MSGBOX_DEFAULT
 	release
 	end
 
+Birthday_Mable_Lighthouse_Lilypal1First_EventScript::
+	msgbox Birthday_Mable_Lighthouse_Lilypal1First_Text, MSGBOX_DEFAULT
+	setflag FLAG_TALKED_LIGHTHOUSE_FLEETPAL
+	release
+	end
+
+Birthday_Mable_Lighthouse_Lilypal1First_Text:
+	.string "The OSHAWOTTS have been helping us\n"
+	.string "build a fishing fleet.\p"
+	.string "Soon the DIRKLINGS won't stand\n"
+	.string "a chance!$"
+
 Birthday_Mable_Lighthouse_Lilypal1_Text:
-	.string "placeholder$"
+	.string "The friendly LILYPAL in the POKéMON\n"
+	.string "CENTER sold us some medicine and now\l"
+	.string "we've been building boats for 96\l"
+	.string "hours straight.\p"
+	.string "Isn't that weird hahahaha.$"
 
 Birthday_Mable_Lighthouse_Lilypal2_EventScript::
 	lock
 	faceplayer
+	goto_if_unset FLAG_TALKED_LIGHTHOUSE_LAZYPAL, Birthday_Mable_Lighthouse_Lilypal2First_EventScript
 	msgbox Birthday_Mable_Lighthouse_Lilypal2_Text, MSGBOX_DEFAULT
 	release
 	end
 
+Birthday_Mable_Lighthouse_Lilypal2First_EventScript::
+	msgbox Birthday_Mable_Lighthouse_Lilypal2First_Text, MSGBOX_DEFAULT
+	setflag FLAG_TALKED_LIGHTHOUSE_LAZYPAL
+	release
+	end
+
 Birthday_Mable_Lighthouse_Lilypal2_Text:
-	.string "placeholder$"
+	.string "DOMINION attack? What's that?\n"
+	.string "VYRAL? Who's VYRAL?$"
+
+Birthday_Mable_Lighthouse_Lilypal2First_Text:
+	.string "Did you ever play this cool fishing\n"
+	.string "game called DOMINION?\p"
+	.string "You get all sorts of fish. FOR FREE!!$"
 
 Birthday_Mable_Lighthouse_Lilypal3_EventScript::
 	lock
@@ -349,17 +379,19 @@ Birthday_Mable_Lighthouse_Lilypal3_EventScript::
 	end
 
 Birthday_Mable_Lighthouse_Lilypal3_Text:
-	.string "placeholder$"
+	.string "So...tired..but...must...hit...\n"
+	.string "10000....steps$"
 
 Birthday_Mable_Lighthouse_Oshawott1_EventScript::
 	lock
-	faceplayer
 	msgbox Birthday_Mable_Lighthouse_Oshawott1_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Mable_Lighthouse_Oshawott1_Text:
-	.string "placeholder$"
+	.string "OSHAWOTT is driving in nails to a\n"
+	.string "rhythm.\p"
+	.string "O-sha O-sha O-sha O-sha-wott.$"
 
 Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	lock
