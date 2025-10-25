@@ -38,6 +38,10 @@ Birthday_Cave_Past_R2_Grape_EventScript::
 	faceplayer
 	goto_if_not_defeated TRAINER_GRAPE, Birthday_Cave_Past_R2_GrapeBattle_EventScript
 	msgbox Birthday_Cave_Past_R2_Grape_Text, MSGBOX_DEFAULT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	release
 	end
 
