@@ -5,6 +5,42 @@ SSLANNN_2F_MapScripts::
 	.byte 0
 
 
+SSLANNN_2F_HatzoomeFirst_EventScript::
+	msgbox_mugshot SSLANNN_2F_Hatzoome_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	setflag FLAG_TALKED_HATZOOME_LANNN
+	release
+	end
+
+SSLANNN_2F_Hatzoome_EventScript::
+	lock
+	faceplayer
+	goto_if_unset FLAG_TALKED_HATZOOME_LANNN, SSLANNN_2F_HatzoomeFirst_EventScript
+	msgbox_mugshot SSLANNN_2F_HatzoomeRepeat_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	release
+	end
+
+SSLANNN_2F_Hatzoome_Text:
+	.string "Oh hey there {PLAYER}, fancy seeing\n"
+	.string "you here!\p"
+	.string "I don't know if you'd believe it but\n"
+	.string "I've been out of trouble since we\l"
+	.string "last saw each other.\p"
+	.string "I even got a job!\p"
+	.string "They only needed me to put down\n"
+	.string "100,000¥ to buy into the company and\l"
+	.string "now they gave me all these special\l"
+	.string "crystals that can help heal you with\l"
+	.string "their aura!\p"
+	.string "... wha... what do you mean that\n"
+	.string "sounds like a pyramid scheme?\p"
+	.string "I think I would know if I got roped\n"
+	.string "into another scam...$"
+
+SSLANNN_2F_HatzoomeRepeat_Text:
+	.string "It's not a scam...\p"
+	.string "They had a powerpoint and\n"
+	.string "everything...$"
+
 SSLANNN_2F_TrashDirkling1_Script::
 	lock
 	faceplayer 
