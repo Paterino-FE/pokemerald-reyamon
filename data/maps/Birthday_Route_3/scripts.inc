@@ -108,7 +108,8 @@ Birthday_Route_3_Sign2_Text:
 	.string "placeholder$"
 
 Birthday_Route_3_Sign3_Text:
-	.string "placeholder$"
+	.string "'A dead end leading to giant rock\n"
+	.string "is its own reward.' -DIRKFUCIUS$"
 
 Birthday_Route_3_LyraPostBattle_Text:
 	.string "Oh well, this is embarrassing.\n"
