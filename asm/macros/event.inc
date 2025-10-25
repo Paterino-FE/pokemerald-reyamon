@@ -2443,7 +2443,7 @@
 	.macro msgbox_mugshot msgText:req, msgType:req, mugshot:req, clear=CLEAR_MUGSHOT
 	setvar VAR_0x8000, \mugshot
 	callnative DrawMugshot
-	msgbox \msgText, \msgType
+	msgbox \msgText, MSGBOX_AUTOCLOSE
 	.if \clear == CLEAR_MUGSHOT
 		callnative ClearMugshot
 	.endif

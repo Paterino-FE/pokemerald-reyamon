@@ -36,7 +36,6 @@ Birthday_Average_Bos_House_YourAvgBo_EventScript2::
 	end
 
 Birthday_Average_Bos_House_YourAvgBoBattle_EventScript::
-	msgbox_mugshot Birthday_Average_Bos_House_YourAvgBoPreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_BO, CLEAR_MUGSHOT
 	msgbox_mugshot Birthday_Average_Bos_House_YourAvgBoIntro_Text, MSGBOX_DEFAULT, MUGSHOT_BO, CLEAR_MUGSHOT
 	trainerbattle_no_intro TRAINER_BO, Birthday_Average_Bos_House_YourAvgBoDefeat_Text
 	setvar VAR_BO_EVENT, 2
@@ -66,17 +65,15 @@ Birthday_Average_Bos_House_YourAvgBoAfterBattle_EventScript::
 Birthday_Average_Bos_House_YourAvgBoMeet_Text:
 	.string "Hey Reya, lets watch the paint dry!$"
 
-Birthday_Average_Bos_House_YourAvgBoPreBattle_Text:
-	.string "PreBattle$"
-
 Birthday_Average_Bos_House_YourAvgBoDefeat_Text:
-	.string "Defeat$"
+	.string "Damn my bad.$"
 
 Birthday_Average_Bos_House_YourAvgBo_Text:
-	.string "After Battle Repeat Text$"
+	.string "Alright, alright! I didn't mean it!$"
 
 Birthday_Average_Bos_House_YourAvgBoIntro_Text:
-	.string "Intro$"
+	.string "Hopefully you're better at battling\n"
+	.string "POKéMON than you are at getting women.$"
 
 Birthday_Average_Bos_House_WALLSTARE_Text:
 	.string "Damn, this looks like a content farm.$"
