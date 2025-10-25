@@ -78,6 +78,7 @@ Birthday_Cave_Past_R3_AlexEnd_EventScript::
 	delay 60
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_ALEX
+	setflag FLAG_BEAT_ALEX
 	removeobject LOCALID_ALEX
 	delay 16
 	fadescreen FADE_FROM_BLACK

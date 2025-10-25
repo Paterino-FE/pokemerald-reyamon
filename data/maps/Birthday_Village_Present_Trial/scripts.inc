@@ -32,6 +32,7 @@ Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript::
 	msgbox_mugshot Birthday_Village_Present_Trial_ImposterLilypadDefeat2_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAD, CLEAR_MUGSHOT
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_IMPOSTERPAL
+	setflag FLAG_BEAT_IMPOSTERPAD
 	removeobject LOCALID_IMPOSTERPAL
 	fadescreen FADE_FROM_BLACK
 	delay 60
