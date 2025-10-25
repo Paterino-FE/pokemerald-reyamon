@@ -4555,7 +4555,7 @@
       "id": "LAYOUT_BIRTHDAY_MAIN_VILLAGE",
       "name": "Birthday_Main_Village_Layout",
       "width": 33,
-      "height": 40,
+      "height": 47,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Birthday_Main_Village/border.bin",

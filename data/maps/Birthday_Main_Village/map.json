@@ -57,6 +57,7 @@
       "flag": "FLAG_HIDE_SNORLAX"
     },
     {
+      "local_id": "LOCALID_PAT",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
       "x": 18,
       "y": 24,
@@ -67,10 +68,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Main_Village_After_Past_Pat",
-      "flag": "FLAG_HIDE_PAT_HAMLET",
-      "local_id": "LOCALID_PAT"
+      "flag": "FLAG_HIDE_PAT_HAMLET"
     },
     {
+      "local_id": "LOCALID_EMI",
       "graphics_id": "OBJ_EVENT_GFX_MOM",
       "x": 20,
       "y": 25,
@@ -81,10 +82,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Main_Village_After_Future_Emilia",
-      "flag": "FLAG_HIDE_EMILIA_HAMLET",
-      "local_id": "LOCALID_EMI"
+      "flag": "FLAG_HIDE_EMILIA_HAMLET"
     },
     {
+      "local_id": "LOCALID_THEA",
       "graphics_id": "OBJ_EVENT_GFX_WINONA",
       "x": 19,
       "y": 22,
@@ -95,8 +96,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Main_Village_After_Past_Thea_2",
-      "flag": "FLAG_HIDE_THEA_HAMLET",
-      "local_id": "LOCALID_THEA"
+      "flag": "FLAG_HIDE_THEA_HAMLET"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
@@ -128,7 +128,7 @@
   "warp_events": [
     {
       "x": 18,
-      "y": 34,
+      "y": 39,
       "elevation": 0,
       "dest_map": "MAP_BIRTHDAY_BEACH_START",
       "dest_warp_id": "1"
@@ -173,7 +173,7 @@
     {
       "type": "trigger",
       "x": 18,
-      "y": 33,
+      "y": 38,
       "elevation": 0,
       "var": "VAR_BIRTHDAY_ENDING",
       "var_value": "0",
