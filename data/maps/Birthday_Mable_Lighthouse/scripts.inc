@@ -397,10 +397,12 @@ Birthday_Mable_Lighthouse_Oshawott1_Text:
 Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	lock
 	faceplayer
+	playmoncry SPECIES_OSHAWOTT
+	waitmoncry
 	msgbox Birthday_Mable_Lighthouse_Oshawott2_Text, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Mable_Lighthouse_Oshawott2_Text:
-	.string "placeholder$"
+	.string "OSHAWOTT: OSHAWOTT$"
 
