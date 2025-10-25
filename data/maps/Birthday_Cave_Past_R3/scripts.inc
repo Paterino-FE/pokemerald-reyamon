@@ -60,14 +60,14 @@ Birthday_Cave_Past_R3_Alex_EventScript::
 	lock
 	faceplayer
 	goto_if_not_defeated TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexBattle_EventScript
-	msgbox Birthday_Cave_Past_R3_Alex_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Cave_Past_R3_Alex_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
 	release
 	end
 
 Birthday_Cave_Past_R3_AlexBattle_EventScript::
-	msgbox_mugshot Birthday_Cave_Past_R3_AlexPreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
 	msgbox_mugshot Birthday_Cave_Past_R3_AlexIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
 	trainerbattle_no_intro TRAINER_ALEX_2, Birthday_Cave_Past_R3_AlexDefeat_Text
+	msgbox_mugshot Birthday_Cave_Past_R3_Alex_Text, MSGBOX_DEFAULT, MUGSHOT_ALEX, CLEAR_MUGSHOT
 	goto Birthday_Cave_Past_R3_AlexEnd_EventScript
 	release
 	end
@@ -83,19 +83,36 @@ Birthday_Cave_Past_R3_AlexEnd_EventScript::
 	delay 16
 	fadescreen FADE_FROM_BLACK
 	delay 60
+	msgbox_mugshot Birthday_Cave_Past_R3_WowIWasCool_Text, MSGBOX_AUTOCLOSE, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
+	msgbox Birthday_Cave_Past_R3_ReturnQuestion_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Birthday_Cave_Past_R3_ReturnToVillage_EventScript
 	return
 
-Birthday_Cave_Past_R3_AlexPreBattle_Text:
-	.string "PreBattle.$"
+Birthday_Cave_Past_R3_WowIWasCool_Text:
+	.string "Wow, I was really cool even back then!\p"
+	.string "I should probably return to the\n"
+	.string "village now...$"
+
+Birthday_Cave_Past_R3_ReturnQuestion_Text:
+	.string "Return to LILYPAD HAMLET now?$"
+
+Birthday_Cave_Past_R3_ReturnToVillage_EventScript::
+	warp MAP_BIRTHDAY_MAIN_VILLAGE, 18, 34
+	waitstate
+	end
 
 Birthday_Cave_Past_R3_AlexDefeat_Text:
-	.string "Defeat.$"
+	.string "WOW YOU ARE SO LUCKY. NICE LUCK NOOB.\n"
+	.string "KYS KYS KYS!$"
 
 Birthday_Cave_Past_R3_Alex_Text:
-	.string "Standard Text.$"
+	.string "I meant keep yourself save of course.$"
 
 Birthday_Cave_Past_R3_AlexIntro_Text:
-	.string "Intro.$"
+	.string "Who's this loser? Is this low\n"
+	.string "priority?\p"
+	.string "I guess I have to defeat you to\n"
+	.string "become a pro gamer!$"
 
 
 Birthday_Cave_Past_R3_Sign1_EventScript::

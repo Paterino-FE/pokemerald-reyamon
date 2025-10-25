@@ -27,8 +27,28 @@ Birthday_Mountain_Future_Chamber_Trial_VyralBattle_EventScript::
 	removeobject LOCALID_VYRAL
 	delay 16
 	fadescreen FADE_FROM_BLACK
+	msgbox_mugshot Birthday_Mountain_Future_Chamber_Trial_SheGotWhatSheDeserved_Text, MSGBOX_AUTOCLOSE, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
+	msgbox Birthday_Mountain_Future_Chamber_Trial_ReturnQuestion_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Birthday_Mountain_Future_Chamber_Trial_ReturnToVillage_EventScript
 	release
 	end
+
+
+Birthday_Mountain_Future_Chamber_Trial_ReturnToVillage_EventScript::
+	warp MAP_BIRTHDAY_MAIN_VILLAGE, 18, 34
+	waitstate
+	end
+
+Birthday_Mountain_Future_Chamber_Trial_SheGotWhatSheDeserved_Text:
+	.string "She got what she deserved!\p"
+	.string "There is no way I would ever\n"
+	.string "lose to her!\p"
+	.string "Better go back to prepare for\n"
+	.string "the last trial...$"
+
+Birthday_Mountain_Future_Chamber_Trial_ReturnQuestion_Text:
+	.string "Return to LILYPAD HAMLET now?$"
+
 
 Birthday_Mountain_Future_Chamber_Trial_VyralPreBattle_Text:
 	.string "How did you get out of the dungeons?\n"
