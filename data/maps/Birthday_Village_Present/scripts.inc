@@ -7,6 +7,34 @@ Birthday_Village_Present_MapScripts::
 	.byte 0
 
 
+Birthday_Village_Present_HatzoomeFirst_EventScript::
+	msgbox_mugshot Birthday_Village_Present_Hatzoome_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	setflag FLAG_TALKED_HATZOOME_PRESENT
+	release
+	end
+
+Birthday_Village_Present_Hatzoome_EventScript::
+	lock
+	faceplayer
+	goto_if_unset FLAG_TALKED_HATZOOME_PRESENT, Birthday_Village_Present_HatzoomeFirst_EventScript
+	msgbox_mugshot Birthday_Village_Present_HatzoomeRepeat_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Village_Present_Hatzoome_Text:
+	.string "They... they ate them all...\p"
+	.string "Every crystal was just like popcorn\n"
+	.string "to those DIRKLINGS.\p"
+	.string "They didn't even pay for them...\n"
+	.string "they just came in and ate...\l"
+	.string "every...\l"
+	.string "single...\l"
+	.string "piece...$"
+
+Birthday_Village_Present_HatzoomeRepeat_Text:
+	.string "...\n"
+	.string "I took out a loan for those crystals.$"
+
 Birthday_Village_Present_DirklingUpDown1_EventScript::
 	lock
 	faceplayer

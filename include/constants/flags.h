@@ -1246,7 +1246,7 @@
 #define FLAG_UNUSED_0x4E8                                           0x4E8 // Unused Flag
 #define FLAG_GIVEN_AIR_BALLOON                                      0x4E9 // Unused Flag
 #define FLAG_TALKED_HATZOOME_LANNN                                  0x4EA // Unused Flag
-#define FLAG_UNUSED_0x4EB                                           0x4EB // Unused Flag
+#define FLAG_TALKED_HATZOOME_PRESENT                                0x4EB // Unused Flag
 #define FLAG_UNUSED_0x4EC                                           0x4EC // Unused Flag
 #define FLAG_UNUSED_0x4ED                                           0x4ED // Unused Flag
 #define FLAG_UNUSED_0x4EE                                           0x4EE // Unused Flag
