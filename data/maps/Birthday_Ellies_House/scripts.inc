@@ -64,6 +64,7 @@ Birthday_Ellies_House_BaseRotom::
     setvar VAR_0x8004, 0
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
 
 Birthday_Ellies_House_HeatRotom::
@@ -74,6 +75,7 @@ Birthday_Ellies_House_HeatRotom::
     setvar VAR_0x8004, 1
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
 
 Birthday_Ellies_House_WashRotom::
@@ -84,6 +86,7 @@ Birthday_Ellies_House_WashRotom::
     setvar VAR_0x8004, 2
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
 
 Birthday_Ellies_House_FrostRotom::
@@ -94,6 +97,7 @@ Birthday_Ellies_House_FrostRotom::
     setvar VAR_0x8004, 3
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
     
 Birthday_Ellies_House_FanRotom::
@@ -104,6 +108,7 @@ Birthday_Ellies_House_FanRotom::
     setvar VAR_0x8004, 4
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
     
 Birthday_Ellies_House_MowRotom::
@@ -114,6 +119,7 @@ Birthday_Ellies_House_MowRotom::
     setvar VAR_0x8004, 5
 	special TryChangeRotomForm
     callnative UpdateFollowingPokemon
+    release
     end
 
 Birthday_Ellies_House_RotomNotInParty_Text:
