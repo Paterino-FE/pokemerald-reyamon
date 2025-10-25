@@ -397,7 +397,7 @@ Birthday_Mable_Lighthouse_Oshawott1_Text:
 Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	lock
 	faceplayer
-	playmoncry SPECIES_OSHAWOTT
+	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
 	waitmoncry
 	msgbox Birthday_Mable_Lighthouse_Oshawott2_Text, MSGBOX_DEFAULT
 	release

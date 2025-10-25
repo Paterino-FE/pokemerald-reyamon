@@ -173,6 +173,10 @@ Birthday_Main_Village_After_Past_Thea_1::
 	faceplayer
 	msgbox_mugshot Birthday_Main_Village_After_Past_Thea_Text, MSGBOX_DEFAULT, MUGSHOT_THEA, CLEAR_MUGSHOT
 	setvar VAR_BIRTHDAY_HIDE_PAST, 1
+	applymovement LOCALID_THEA, Birthday_Main_Village_TheaLeaves_Movement
+	waitmovement 0
+	removeobject LOCALID_THEA
+	setflag FLAG_HIDE_THEA_HAMLET
 	release
 	end
 
@@ -181,11 +185,46 @@ Birthday_Main_Village_After_Past_Thea_2::
 	faceplayer
 	msgbox_mugshot Birthday_Main_Village_After_Past_Thea_Text, MSGBOX_DEFAULT, MUGSHOT_THEA, CLEAR_MUGSHOT
 	setvar VAR_BIRTHDAY_HIDE_PAST, 1
+	applymovement LOCALID_THEA, Birthday_Main_Village_TheaLeaves_Movement
+	waitmovement 0
+	removeobject LOCALID_THEA
+	setflag FLAG_HIDE_THEA_HAMLET
 	release
 	end
 
 Birthday_Main_Village_After_Past_Thea_Text:
-	.string "You must go to Route 1. To the East!$"
+	.string "Oh hey there!\p"
+	.string "Funny how we keep running into each\n"
+	.string "other. Me?\p"
+	.string "I'm on vacation you see, being a GYM\n"
+	.string "LEADER is hard hard work!\p"
+	.string "Sometimes I dont even have time to get\n"
+	.string "a nap in, so I closed down the GYM\l"
+	.string "and here I am.\p"
+	.string "Oh, yeah, before I forget, there was\n"
+	.string "this very cute MAID lady called EMILIA\l"
+	.string "that mentioned something about\l"
+	.string "an OTTER?\p"
+	.string "She told me to tell you that someone\n"
+	.string "named LILY....or PAD had their essence\l"
+	.string "split up into 3 parts.\p"
+	.string "Isn't that crazy?\p"
+	.string "Ive seen a lot over the years but that\n"
+	.string "seems a little extreme dont you think?\p"
+	.string "Anyway, apparently there is a CAVE to\n"
+	.string "the NORTH EAST where you can commune\l"
+	.string "with spirits of the past!\p"
+	.string "The MAID lady said that you should\l"
+	.string "look there first. Actually...\p"
+	.string "That sounds like a good adventure, I\n"
+	.string "might just head there myself.\p"
+	.string "Oh, before I go, would you happen to\n"
+	.string "have that EMILIA girl's phone number?\p"
+	.string "No? What do you mean noone except you\n"
+	.string "is allowed to have YURI?\p"
+	.string "I dont even know who this YURI guy is.\p"
+	.string "Fine!\n"
+	.string "I'm off to scout the CAVE!$"
 
 Birthday_Main_Village_After_Past_Movement:
 	walk_down
@@ -194,6 +233,17 @@ Birthday_Main_Village_After_Past_Movement:
 	walk_left
 	walk_down
 	step_end
+
+Birthday_Main_Village_TheaLeaves_Movement:
+	walk_up
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	walk_up
+	walk_up
+	step_end
+
 
 
 Birthday_Main_Village_BeautifulOshawott_EventScript::
@@ -205,3 +255,5 @@ Birthday_Main_Village_BeautifulOshawott_EventScript::
 
 Birthday_Main_Village_BeautifulOshawott_Text:
 	.string "I wish I had hair like that!$"
+
+
