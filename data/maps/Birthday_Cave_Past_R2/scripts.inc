@@ -112,7 +112,10 @@ Birthday_Cave_Past_R2_Oldman2_EventScript::
 	end
 
 Birthday_Cave_Past_R2_Oldman2_Text:
-	.string "placeholder$"
+	.string "DENDI is my favorite midlaner.\n"
+	.string "Does he still play?\p"
+	.string "I used to watch you play with\l"
+	.string "SINGSING.$"
 
 Birthday_Cave_Past_R2_Oldwoman1_EventScript::
 	lock
