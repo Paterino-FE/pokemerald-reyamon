@@ -9,7 +9,7 @@ Birthday_Mountain_Future_Peak_Sign1_EventScript::
 
 Birthday_Mountain_Future_Peak_Purge_EventScript::
 	trainerbattle_single TRAINER_PURGE, Birthday_Mountain_Future_Peak_PurgeIntro_Text, Birthday_Mountain_Future_Peak_PurgeDefeat_Text
-	msgbox Birthday_Mountain_Future_Peak_PurgePostBattle_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mountain_Future_Peak_PurgePostBattle_Text, MSGBOX_DEFAULT, MUGSHOT_PURGE, CLEAR_MUGSHOT
 	release
 	end
 

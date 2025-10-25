@@ -38,7 +38,7 @@ Birthday_Route_4_OcarinaOfMeIntro_Text:
 
 Birthday_Route_4_Tsunami_EventScript::
 	trainerbattle_single TRAINER_TSUNAMI, Birthday_Route_4_TsunamiIntro_Text, Birthday_Route_4_TsunamiDefeat_Text @TSUNAMI needs to be placed in instead of TRAINER_OCARINAOFME
-	msgbox Birthday_Route_4_Tsunami_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Route_4_Tsunami_Text, MSGBOX_DEFAULT, MUGSHOT_TSUNAMI, CLEAR_MUGSHOT
 	release
 	end
 
