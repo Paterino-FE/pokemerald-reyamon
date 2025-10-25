@@ -6,6 +6,12 @@ Birthday_Village_Present_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Birthday_Village_Present_Hide_Pat_Con_Setup
 	.byte 0
 
+Birthday_Village_Present_Sign1_EventScript::
+	msgbox Birthday_Village_Present_Sign1_Text, MSGBOX_SIGN
+	end
+
+Birthday_Village_Present_Sign1_Text:
+	.string "YOURAVGBO's house$"
 
 Birthday_Village_Present_HatzoomeFirst_EventScript::
 	msgbox_mugshot Birthday_Village_Present_Hatzoome_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT

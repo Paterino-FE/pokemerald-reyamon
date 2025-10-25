@@ -59,6 +59,10 @@ Birthday_Average_Bos_House_YourAvgBoStart_EventScript::
 
 Birthday_Average_Bos_House_YourAvgBoAfterBattle_EventScript::
 	msgbox_mugshot Birthday_Average_Bos_House_YourAvgBo_Text, MSGBOX_DEFAULT, MUGSHOT_BO, CLEAR_MUGSHOT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	release
 	end
 
@@ -69,7 +73,8 @@ Birthday_Average_Bos_House_YourAvgBoDefeat_Text:
 	.string "Damn my bad.$"
 
 Birthday_Average_Bos_House_YourAvgBo_Text:
-	.string "Alright, alright! I didn't mean it!$"
+	.string "Watching paint dry is so\n"
+	.string "so refreshing!$"
 
 Birthday_Average_Bos_House_YourAvgBoIntro_Text:
 	.string "Hopefully you're better at battling\n"
