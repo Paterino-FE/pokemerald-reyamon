@@ -51,9 +51,10 @@ Birthday_Rosuuri_Bakery_AgdaleksComeBackLater_Text:
 	.string "come back!$"
 
 Birthday_Rosuuri_Bakery_Agdaleks_Text:
-	.string "Oh hi {PLAYER}! Haven't seen you in a\n"
-	.string "few months. Bet you have been busy\l"
-	.string "being CHAMPION and working on cool\l"
+	.string "AGDALEKS: Oh hi {PLAYER}!\p"
+	.string "Haven't seen you in a few months.\n"
+	.string "Bet you have been busy being\l"
+	.string "CHAMPION and working on cool\l"
 	.string "team ideas.\p"
 	.string "I heard it was your birthday!\n"
 	.string "I actually have something for you.\p"
