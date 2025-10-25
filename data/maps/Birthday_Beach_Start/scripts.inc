@@ -100,7 +100,8 @@ Birthday_Bach_Sign1_EventScript::
 	end
 
 Birthday_Bach_Sign1_Text:
-	.string "placeholder$"
+	.string "Buy beautiful TIMESHARES on this\n"
+	.string "ISLAND!$"
 
 Birthday_Beach_NanamiBear_Text:
 	.string "NANAMI ignores you, his eyes\n"

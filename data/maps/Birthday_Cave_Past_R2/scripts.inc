@@ -9,21 +9,30 @@ Birthday_Cave_Past_R2_Sign1_EventScript::
 	end
 
 Birthday_Cave_Past_R2_Sign1_Text:
-	.string "placeholder$"
+	.string "This text is an ancient tale about a\n"
+	.string "young EMPRESS that has to fight an\l"
+	.string "evil DRAGON KING!\p"
+	.string "After a convoluted middle section,\n
+	.string "it ends with kissing.$"
 
 Birthday_Cave_Past_R2_Sign2_EventScript::
 	msgbox Birthday_Cave_Past_R2_Sign2_Text, MSGBOX_SIGN
 	end
 
 Birthday_Cave_Past_R2_Sign2_Text:
-	.string "placeholder$"
+	.string "'Here may be found the last words of\n"
+	.string "JOSEPH OF ARIMANTHEA.\p"
+	.string "She who is valiant and pure of spirit\n"
+	.string "may find the Holy Grail in the Castle\l"
+	.string "of aaarrrrggh'\p"
+	.string "Must have died while carving it...$"
 
 Birthday_Cave_Past_R2_Sign3_EventScript::
 	msgbox Birthday_Cave_Past_R2_Sign3_Text, MSGBOX_SIGN
 	end
 
 Birthday_Cave_Past_R2_Sign3_Text:
-	.string "placeholder$"
+	.string "I can't read that!$"
 
 Birthday_Cave_Past_R2_Grape_AttackScript::
 	applymovement LOCALID_GRAPE, Birthday_Cave_Past_R2_Grape_Movement_1

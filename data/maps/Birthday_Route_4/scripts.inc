@@ -15,7 +15,8 @@ Birthday_Route_4_Sign1_EventScript::
 	end
 
 Birthday_Route_4_Sign1_Text:
-	.string "placeholder$"
+	.string "Someone vandalized this sign!\p"
+	.string "'DOWN WITH THE FALSE EMPRESS!'$"
 
 Birthday_Route_4_OcarinaOfMeDefeat_Text:
 	.string "I caught a DRAGALGE!\n"

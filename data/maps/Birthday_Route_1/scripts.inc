@@ -134,7 +134,7 @@ Birthday_Route_1_Sign1_EventScript::
 	end
 
 Birthday_Route_1_Sign1_Text:
-	.string "placeholder$"
+	.string "GROUDON was here.$"
 
 Birthday_Route_1_Sign2_EventScript::
 	lock

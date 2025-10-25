@@ -63,7 +63,9 @@ Birthday_Village_Present_Trial_Sign1_EventScript::
 	end
 
 Birthday_Village_Present_Trial_Sign1_Text:
-	.string "placeholder$"
+	.string "'We cannot change the past, but we\n"
+	.string "can still ruin the present!'\p"
+	.string "That is very deep...$"
 
 Birthday_Village_Present_Trial_ImposterLilypadPreBattle_Text:
 	.string "You know, after falling for my disguise,\n" 

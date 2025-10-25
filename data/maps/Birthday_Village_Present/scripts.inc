@@ -67,11 +67,12 @@ Birthday_Village_Present_DirklingsKissing_Text:
 	.string "Mwah mwah mwah mwah!$"
 
 Birthday_Village_Present_DirklingUpDown1_Text:
-	.string "placeholder$"
+	.string "Oh yes, the others are raiding, but\n"
+	.string "I am just chilling here...$"
 
 Birthday_Village_Present_DirklingUpDown2_Text:
-	.string "placeholder$"
-
+	.string "I think I ate a shiny rock too many...\p"
+	.string "Made that weird woman over there cry!$"
 
 Birthday_Village_Present_Hide_Pat_Con_Setup::
 	call_if_eq VAR_BIRTHDAY_HIDE_PAT_CONLAD, 0, Birthday_Village_Present_Hide_Pat_Con_0_Script
