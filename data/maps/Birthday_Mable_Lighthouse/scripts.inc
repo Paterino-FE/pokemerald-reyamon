@@ -50,12 +50,24 @@ Birthday_Mable_Lighthouse_Mablewott::
 	delay 60
 	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
 	waitmoncry
-	applymovement LOCALID_OSHAWOTT_1, Mable_Lighthouse_Movement_Mablewott_Event_3
+	getplayerxy VAR_TEMP_2, VAR_TEMP_3
+	call_if_eq VAR_TEMP_2, 21, Mable_Lighthouse_Movement_Mablewott_Event_RunAwayAlt
+	call_if_ne VAR_TEMP_2, 21, Mable_Lighthouse_Movement_Mablewott_Event_RunAway
 	waitmovement 0
 	removeobject LOCALID_OSHAWOTT_1
 	setflag FLAG_HIDE_OSHAWOTT_1
 	releaseall
 	end
+
+Mable_Lighthouse_Movement_Mablewott_Event_RunAway:
+	applymovement LOCALID_OSHAWOTT_1, Mable_Lighthouse_Movement_Mablewott_Event_3
+	waitmovement 0
+	return 
+
+Mable_Lighthouse_Movement_Mablewott_Event_RunAwayAlt:
+	applymovement LOCALID_OSHAWOTT_1, Mable_Lighthouse_Movement_Mablewott_Event_3_Alt
+	waitmovement 0
+	return 
 
 Mable_Lighthouse_Movement_Mablewott_Event_1:
 	walk_slow_right
@@ -91,6 +103,27 @@ Mable_Lighthouse_Movement_Mablewott_Event_3:
 	walk_fast_left
 	walk_fast_left
 	step_end
+
+Mable_Lighthouse_Movement_Mablewott_Event_3_Alt:
+	jump_in_place_left
+	jump_in_place_left
+	jump_in_place_left
+	walk_fast_down
+	walk_fast_left
+	walk_fast_left
+	walk_fast_up
+	walk_fast_left
+	walk_fast_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_down
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
+
 
 Mable_Lighthouse_Movement_Mablewott_Event_5:
 	walk_diag_southwest
