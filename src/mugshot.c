@@ -59,6 +59,8 @@ static const u32 sMugshotImg_Tsunami[] = INCBIN_U32("graphics/mugshots/tsunami.4
 static const u16 sMugshotPal_Tsunami[] = INCBIN_U16("graphics/mugshots/tsunami.gbapal");
 static const u32 sMugshotImg_Bo[] = INCBIN_U32("graphics/mugshots/youravgbo.4bpp.lz");
 static const u16 sMugshotPal_Bo[] = INCBIN_U16("graphics/mugshots/youravgbo.gbapal");
+//static const u32 sMugshotImg_Grape[] = INCBIN_U32("graphics/mugshots/grape.4bpp.lz");
+//static const u16 sMugshotPal_Grape[] = INCBIN_U16("graphics/mugshots/grape.gbapal");
 static const u32 sMugshotImg_Arle[] = INCBIN_U32("graphics/mugshots/elite_four_sidney.4bpp.lz");
 static const u16 sMugshotPal_Arle[] = INCBIN_U16("graphics/mugshots/elite_four_sidney.gbapal");
 static const u32 sMugshotImg_Astarion[] = INCBIN_U32("graphics/mugshots/elite_four_phoebe.4bpp.lz");
@@ -131,7 +133,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_HAMS] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Hams, .palette = sMugshotPal_Hams},
     [MUGSHOT_CLOR] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Clor, .palette = sMugshotPal_Clor},
     [MUGSHOT_DALEK] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Dalek, .palette = sMugshotPal_Dalek},
-    [MUGSHOT_GABE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Gabe, .palette = sMugshotPal_Gabe},
+    //[MUGSHOT_GABE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Gabe, .palette = sMugshotPal_Gabe},
     [MUGSHOT_ANGE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Ange, .palette = sMugshotPal_Ange},
     [MUGSHOT_THEA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Thea, .palette = sMugshotPal_Thea},
     [MUGSHOT_SKYWARD] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Skyward, .palette = sMugshotPal_Skyward},
@@ -139,6 +141,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_PURGE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Purge, .palette = sMugshotPal_Purge},
     [MUGSHOT_TSUNAMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Tsunami, .palette = sMugshotPal_Tsunami},
     [MUGSHOT_BO] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Bo, .palette = sMugshotPal_Bo},
+    [MUGSHOT_GRAPE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Grape, .palette = sMugshotPal_Grape},
     [MUGSHOT_ARLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Arle, .palette = sMugshotPal_Arle},
     [MUGSHOT_ASTARION] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Astarion, .palette = sMugshotPal_Astarion},
     [MUGSHOT_CYNTHIA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Cynthia, .palette = sMugshotPal_Cynthia},

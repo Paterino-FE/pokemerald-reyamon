@@ -2,11 +2,11 @@
   "id": "MAP_BIRTHDAY_MAIN_VILLAGE_HOUSE_END",
   "name": "Birthday_Main_Village_HouseEnd",
   "layout": "LAYOUT_BIRTHDAY_MAIN_VILLAGE_HOUSE_END",
-  "music": "MUS_DUMMY",
+  "music": "MUS_CREDITS",
   "region_map_section": "MAPSEC_BIRTHDAY_POND_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Paterino_EventScript",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Lilypad_EventScript",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Forty_EventScript",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Thea_EventScript",
       "flag": "0"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Luminel_EventScript",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Tsunami_EventScript",
       "flag": "0"
     },
     {
@@ -102,7 +102,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Rosuuri_EventScript",
       "flag": "0"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Mable_EventScript",
       "flag": "0"
     },
     {
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Grape_EventScript",
       "flag": "0"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Purge_EventScript",
       "flag": "0"
     },
     {
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Bo_EventScript",
       "flag": "0"
     },
     {
@@ -167,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Birthday_Main_Village_HouseEnd_Ellie_EventScript",
       "flag": "0"
     }
   ],
