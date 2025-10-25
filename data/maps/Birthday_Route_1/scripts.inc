@@ -143,6 +143,6 @@ Birthday_Route_1_Sign2_EventScript::
 	end
 
 Birthday_Route_1_Sign2_Text:
-	.string "playerholder$"
+	.string "LIVE, LAUGH, LOVE!$"
 
 

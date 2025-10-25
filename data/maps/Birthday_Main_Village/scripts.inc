@@ -175,7 +175,7 @@ Birthday_Main_Village_After_Future_Emilia_Text:
 	.string "being attacked by DIRKLINGS and a\l"
 	.string "talking OTTER!\p"
 	.string "You should hurry there, LILYPAD's\n"
-	.string "final Essence should be with the\l"
+	.string "final essence should be with the\l"
 	.string "IMPOSTER.$"
 
 Birthday_Main_Village_After_Past_Thea_1::
