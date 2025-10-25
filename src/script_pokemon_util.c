@@ -372,6 +372,12 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, u16 species, u8 level, u
     }
     CalculateMonStats(&mon);
 
+    if(species == SPECIES_ROTOM_MOW){
+        u8 nickname[POKEMON_NAME_LENGTH + 1];
+        StringCopy(nickname, COMPOUND_STRING("NEURO"));
+        SetMonData(&mon, MON_DATA_NICKNAME, nickname);
+    }
+
     // moves
     for (i = 0; i < MAX_MON_MOVES; i++)
     {

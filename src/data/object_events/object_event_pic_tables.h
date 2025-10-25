@@ -182,27 +182,11 @@ static const struct SpriteFrameImage sPicTable_Dirkling[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_NeuroFan[] = {
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroFan, 2, 4, 2),
+    overworld_ascending_frames(gObjectEventPic_NeuroFan, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_NeuroMow[] = {
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroMow, 2, 4, 2),
+    overworld_ascending_frames(gObjectEventPic_NeuroMow, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_NeuroFridge[] = {
@@ -210,27 +194,11 @@ static const struct SpriteFrameImage sPicTable_NeuroFridge[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_NeuroOven[] = {
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroOven, 2, 4, 2),
+    overworld_ascending_frames(gObjectEventPic_NeuroOven, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_NeuroWash[] = {
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 0),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 1),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 2),
-    overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 2),
+    overworld_ascending_frames(gObjectEventPic_NeuroWash, 2, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_Lilypal[] = {

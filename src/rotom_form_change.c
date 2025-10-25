@@ -6,6 +6,7 @@
 #include "string_util.h"
 #include "event_data.h"
 #include "pokedex.h"
+#include "sound.h"
 #include "constants/moves.h"
 
 static const u16 sRotomFormChangeMoves[5] =
@@ -83,6 +84,7 @@ static void ApplyRotomFormChange(struct Pokemon *mon, u16 newSpecies)
 
     GetSetPokedexFlag(SpeciesToNationalPokedexNum(newSpecies), FLAG_SET_SEEN);
     GetSetPokedexFlag(SpeciesToNationalPokedexNum(newSpecies), FLAG_SET_CAUGHT);
+    PlayCry_ByMode(newSpecies, 0, CRY_MODE_NORMAL);
 }
 
 /**
@@ -121,5 +123,6 @@ bool8 TryChangeRotomForm(void)
         return FALSE;
 
     ApplyRotomFormChange(rotom, newSpecies);
+
     return TRUE;
 }
