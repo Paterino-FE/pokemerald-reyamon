@@ -17,8 +17,18 @@ SSLANNMUSICTEST::
 	playbgm MUS_KARAGOLSHIP, FALSE
 	end
 
+SSLANNN_START_DoYouWantToExit_Text:
+	.string "Do you want to continue?\n"
+	.string "You will NOT be able to go back!$"
+
+SSLANNN_START_Cancel_Script::
+	release
+	end
+
 SSLANNN_START_Door_Script::
 	lock
+	msgbox SSLANNN_START_DoYouWantToExit_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SSLANNN_START_Cancel_Script
 	warp MAP_BIRTHDAY_HARBOR, 5, 10
 	waitstate
 	release
