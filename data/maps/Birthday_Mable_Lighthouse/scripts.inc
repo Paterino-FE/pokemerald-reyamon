@@ -190,7 +190,7 @@ Mable_Lighthouse_EventScript_MableDefeated::
 
 Mable_Lighthouse_EventScript_MableGiveOshawott::
 	msgbox Mable_Lighthouse_TEXT_MableGiveOshawott, MSGBOX_DEFAULT
-	givemon SPECIES_OSHAWOTT, 5, ITEM_EXPERT_BELT, ITEM_LUXURY_BALL
+	givemon SPECIES_OSHAWOTT, 60, ITEM_EXPERT_BELT, ITEM_LUXURY_BALL
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Mable_Lighthouse_EventScript_ReceiveOshawottParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Mable_Lighthouse_EventScript_ReceiveOshawottPC
 	release
