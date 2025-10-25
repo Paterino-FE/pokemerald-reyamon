@@ -31304,6 +31304,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_SKARMORY,
             .gender = TRAINER_MON_RANDOM_GENDER,
+            .nickname = COMPOUND_STRING("PANZAERON"),
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 88,
             .nature = NATURE_BOLD,
@@ -31316,6 +31317,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_KINGDRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
+            .nickname = COMPOUND_STRING("SEEDRAKING"),
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 88,
             .nature = NATURE_MODEST,
@@ -31328,6 +31330,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_TYPHLOSION,
             .gender = TRAINER_MON_RANDOM_GENDER,
+            .nickname = COMPOUND_STRING("TORNUPTO"),
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
             .lvl = 89,
             .nature = NATURE_MODEST,
