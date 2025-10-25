@@ -4614,7 +4614,7 @@
     {
       "id": "LAYOUT_BIRTHDAY_CAVE_PAST_R3",
       "name": "Birthday_Cave_Past_R3_Layout",
-      "width": 36,
+      "width": 42,
       "height": 82,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
