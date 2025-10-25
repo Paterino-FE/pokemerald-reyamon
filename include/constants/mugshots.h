@@ -49,5 +49,6 @@
 #define MUGSHOT_SCISSORS    44
 #define MUGSHOT_GROUDON     45
 #define MUGSHOT_BEARTIC     46
+#define MUGSHOT_DIRKKISS    47
 
 #endif

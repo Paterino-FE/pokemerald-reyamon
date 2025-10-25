@@ -59,7 +59,7 @@ Birthday_Village_Present_DirklingsKissing_EventScript::
 	lock
 	playmoncry SPECIES_LICKILICKY, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox Birthday_Village_Present_DirklingsKissing_Text, MSGBOX_AUTOCLOSE
+	msgbox_mugshot Birthday_Village_Present_DirklingsKissing_Text, MSGBOX_AUTOCLOSE, MUGSHOT_DIRKKISS, CLEAR_MUGSHOT
 	release
 	end
 
