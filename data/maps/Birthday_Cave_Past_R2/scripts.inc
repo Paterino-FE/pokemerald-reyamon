@@ -117,7 +117,7 @@ Birthday_Cave_Past_R2_Oldman2_EventScript::
 Birthday_Cave_Past_R2_Oldman2_Text:
 	.string "DENDI is my favorite midlaner.\n"
 	.string "Does he still play?\p"
-	.string "I used to watch you play with\l"
+	.string "I used to watch you play with\n"
 	.string "SINGSING.$"
 
 Birthday_Cave_Past_R2_Oldwoman1_EventScript::
