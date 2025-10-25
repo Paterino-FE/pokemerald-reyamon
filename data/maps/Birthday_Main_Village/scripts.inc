@@ -84,6 +84,59 @@ Birthday_Main_Village_Sign1_EventScript::
 	msgbox Birthday_Main_Village_Sign1_Text, MSGBOX_SIGN
 	end
 
+
+Birthday_Main_Village_HatzoomeFirst_Text:
+	.string "Oh hey, {PLAYER}. These\n"
+	.string "LILYPALS are the absolute sweetest!\p"
+	.string "Did you know that people will try and\n"
+	.string "scam you into getting insurance for\l"
+	.string "products that needn't be insured?!?\p"
+	.string "Well neither did I, but the LILYPALS\n"
+	.string "pointed out that most of my contract\l"
+	.string "is a scam!\p"
+	.string "Lucky for me though, apparently the\n"
+	.string "only thing it does insure me for is a\l"
+	.string "mass consumption of my inventory!\p"
+	.string "The LILYPALS just got me my deposit\n"
+	.string "back and a 100 percent profit!\p"
+	.string "They even offered to manage my\n"
+	.string "finances as I'm 'lacking self-\l"
+	.string "preservation skills', whatever that's\l"
+	.string "supposed to mean.$"
+
+Birthday_Main_Village_Hatzoome_Text:
+	.string "I wonder if the LILYPALS would let me\n"
+	.string "buy an EEVEELUTIONS Cafe with the\l"
+	.string "money...?$"
+
+Birthday_Main_Village_HatzoomePal_Text:
+	.string "We have no clue how this woman has\n"
+	.string "survived until this point.\p"
+	.string "She says she's a 'doctor' but we can't\n"
+	.string "fathom any academic institution\l"
+	.string "signing off on that.$"
+
+Birthday_Main_Village_HatzoomeFirst_EventScript::
+	setflag FLAG_TALKED_HATZOOME_ENDING
+	msgbox_mugshot Birthday_Main_Village_HatzoomeFirst_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Main_Village_Hatzoome_EventScript::
+	lock
+	faceplayer
+	goto_if_unset FLAG_TALKED_HATZOOME_ENDING, Birthday_Main_Village_HatzoomeFirst_EventScript
+	msgbox_mugshot Birthday_Main_Village_Hatzoome_Text, MSGBOX_AUTOCLOSE, MUGSHOT_HATZOOME, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Main_Village_HatzoomePal_EventScript::
+	lock
+	faceplayer
+	msgbox_mugshot Birthday_Main_Village_HatzoomePal_Text, MSGBOX_AUTOCLOSE, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
+	release
+	end
+
 Birthday_Main_Village_Sign1_Text:
 	.string "ROSUURI's bakery -\n"
 	.string "come right in!$"

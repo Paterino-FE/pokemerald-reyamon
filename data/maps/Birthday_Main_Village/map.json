@@ -97,6 +97,32 @@
       "script": "Birthday_Main_Village_After_Past_Thea_2",
       "flag": "FLAG_HIDE_THEA_HAMLET",
       "local_id": "LOCALID_THEA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "x": 18,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Birthday_Main_Village_Hatzoome_EventScript",
+      "flag": "FLAG_HIDE_HATZOOME_ENDING"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LILYPAL",
+      "x": 19,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Birthday_Main_Village_HatzoomePal_EventScript",
+      "flag": "FLAG_HIDE_HATZOOME_ENDING"
     }
   ],
   "warp_events": [
