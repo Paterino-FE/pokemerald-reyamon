@@ -56,6 +56,7 @@ Birthday_Mable_Lighthouse_Mablewott::
 	waitmovement 0
 	removeobject LOCALID_OSHAWOTT_1
 	setflag FLAG_HIDE_OSHAWOTT_1
+	clearflag FLAG_HIDE_VILLAGE_OSHAWOTT
 	releaseall
 	end
 

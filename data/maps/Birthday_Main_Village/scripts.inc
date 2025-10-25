@@ -2,6 +2,7 @@
 .set LOCALID_PAT, 3
 .set LOCALID_SNORLAX, 2
 .set LOCALID_THEA, 5
+.set LOCALID_OSHAWOTT_1, 8
 
 Birthday_Main_Village_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Birthday_Main_Village_Hide_Setup
@@ -16,8 +17,14 @@ Birthday_Main_Village_Hide_Setup::
 	call_if_eq VAR_BIRTHDAY_HIDE_PRESENT, 1, Birthday_Main_Village_Hide_Emilia_1
 	call_if_eq VAR_BIRTHDAY_HIDE_PRESENT, 4, Birthday_Main_Village_Hide_Emilia_4
 	call_if_eq VAR_BIRTHDAY_ENDING, 1, Birthday_Main_Village_Hide_Snorlax_1
+	call_if_unset FLAG_HIDE_OSHAWOTT_1, Birthday_Main_Village_Hide_Oshawott_1
 	release
 	end
+
+Birthday_Main_Village_Hide_Oshawott_1::
+	setflag FLAG_HIDE_VILLAGE_OSHAWOTT
+	removeobject LOCALID_OSHAWOTT_1
+	return
 
 Birthday_Main_Village_EventScript_Trigger_End::
 	release
@@ -187,3 +194,14 @@ Birthday_Main_Village_After_Past_Movement:
 	walk_left
 	walk_down
 	step_end
+
+
+Birthday_Main_Village_BeautifulOshawott_EventScript::
+	lock
+	faceplayer
+	msgbox_mugshot Birthday_Main_Village_BeautifulOshawott_Text, MSGBOX_AUTOCLOSE, MUGSHOT_MABLEWOTT, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Main_Village_BeautifulOshawott_Text:
+	.string "I wish I had hair like that!$"
