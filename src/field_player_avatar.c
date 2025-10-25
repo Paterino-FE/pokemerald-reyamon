@@ -791,7 +791,8 @@ static bool8 TryPushBoulder(s16 x, s16 y, u8 direction)
             y = gObjectEvents[objectEventId].currentCoords.y;
             MoveCoords(direction, &x, &y);
             if (GetCollisionAtCoords(&gObjectEvents[objectEventId], x, y, direction) == COLLISION_NONE
-             && MetatileBehavior_IsNonAnimDoor(MapGridGetMetatileBehaviorAt(x, y)) == FALSE)
+             && MetatileBehavior_IsNonAnimDoor(MapGridGetMetatileBehaviorAt(x, y)) == FALSE
+             && MetatileBehavior_IsStrRockable(MapGridGetMetatileBehaviorAt(x, y)) == TRUE)
             {
                 StartStrengthAnim(objectEventId, direction);
                 return TRUE;
