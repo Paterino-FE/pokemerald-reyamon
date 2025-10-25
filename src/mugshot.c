@@ -53,6 +53,10 @@ static const u32 sMugshotImg_Skyward[] = INCBIN_U32("graphics/mugshots/leader_ta
 static const u16 sMugshotPal_Skyward[] = INCBIN_U16("graphics/mugshots/leader_tate_and_liza.gbapal");
 static const u32 sMugshotImg_Lumi[] = INCBIN_U32("graphics/mugshots/leader_juan.4bpp.lz");
 static const u16 sMugshotPal_Lumi[] = INCBIN_U16("graphics/mugshots/leader_juan.gbapal");
+static const u32 sMugshotImg_Purge[] = INCBIN_U32("graphics/mugshots/purge.4bpp.lz");
+static const u16 sMugshotPal_Purge[] = INCBIN_U16("graphics/mugshots/purge.gbapal");
+static const u32 sMugshotImg_Tsunami[] = INCBIN_U32("graphics/mugshots/tsunami.4bpp.lz");
+static const u16 sMugshotPal_Tsunami[] = INCBIN_U16("graphics/mugshots/tsunami.gbapal");
 static const u32 sMugshotImg_Arle[] = INCBIN_U32("graphics/mugshots/elite_four_sidney.4bpp.lz");
 static const u16 sMugshotPal_Arle[] = INCBIN_U16("graphics/mugshots/elite_four_sidney.gbapal");
 static const u32 sMugshotImg_Astarion[] = INCBIN_U32("graphics/mugshots/elite_four_phoebe.4bpp.lz");
@@ -130,6 +134,8 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_THEA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Thea, .palette = sMugshotPal_Thea},
     [MUGSHOT_SKYWARD] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Skyward, .palette = sMugshotPal_Skyward},
     [MUGSHOT_LUMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lumi, .palette = sMugshotPal_Lumi},
+    [MUGSHOT_PURGE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Purge, .palette = sMugshotPal_Purge},
+    [MUGSHOT_TSUNAMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Tsunami, .palette = sMugshotPal_Tsunami},
     [MUGSHOT_ARLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Arle, .palette = sMugshotPal_Arle},
     [MUGSHOT_ASTARION] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Astarion, .palette = sMugshotPal_Astarion},
     [MUGSHOT_CYNTHIA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Cynthia, .palette = sMugshotPal_Cynthia},
@@ -144,7 +150,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_FRIEREN] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Frieren, .palette = sMugshotPal_Frieren},
     [MUGSHOT_REYABS] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Reyabs, .palette = sMugshotPal_Reyabs},
     [MUGSHOT_MABLEWOTT] = {.x = 6, .y = -1, .width = 128, .height = 128, .image = sMugshotImg_Mablewott, .palette = sMugshotPal_Mablewott},
-    [MUGSHOT_ELLIE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Ellie, .palette = sMugshotPal_Ellie},
+    [MUGSHOT_ELLIE] = {.x = 20, .y = 6, .width = 64, .height = 80, .image = sMugshotImg_Ellie, .palette = sMugshotPal_Ellie},
     [MUGSHOT_MABLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Mable, .palette = sMugshotPal_Mable},
     [MUGSHOT_BOWALL] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_BoWall, .palette = sMugshotPal_BoWall},
     [MUGSHOT_DIRKKISS] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_DirkKiss, .palette = sMugshotPal_DirkKiss},
