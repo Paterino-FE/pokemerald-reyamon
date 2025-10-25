@@ -12,7 +12,7 @@ Birthday_Cave_Past_R2_Sign1_Text:
 	.string "This text is an ancient tale about a\n"
 	.string "young EMPRESS that has to fight an\l"
 	.string "evil DRAGON KING!\p"
-	.string "After a convoluted middle section,\n
+	.string "After a convoluted middle section,\n"
 	.string "it ends with kissing.$"
 
 Birthday_Cave_Past_R2_Sign2_EventScript::
