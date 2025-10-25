@@ -57,6 +57,8 @@ static const u32 sMugshotImg_Purge[] = INCBIN_U32("graphics/mugshots/purge.4bpp.
 static const u16 sMugshotPal_Purge[] = INCBIN_U16("graphics/mugshots/purge.gbapal");
 static const u32 sMugshotImg_Tsunami[] = INCBIN_U32("graphics/mugshots/tsunami.4bpp.lz");
 static const u16 sMugshotPal_Tsunami[] = INCBIN_U16("graphics/mugshots/tsunami.gbapal");
+static const u32 sMugshotImg_Bo[] = INCBIN_U32("graphics/mugshots/youravgbo.4bpp.lz");
+static const u16 sMugshotPal_Bo[] = INCBIN_U16("graphics/mugshots/youravgbo.gbapal");
 static const u32 sMugshotImg_Arle[] = INCBIN_U32("graphics/mugshots/elite_four_sidney.4bpp.lz");
 static const u16 sMugshotPal_Arle[] = INCBIN_U16("graphics/mugshots/elite_four_sidney.gbapal");
 static const u32 sMugshotImg_Astarion[] = INCBIN_U32("graphics/mugshots/elite_four_phoebe.4bpp.lz");
@@ -136,6 +138,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_LUMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lumi, .palette = sMugshotPal_Lumi},
     [MUGSHOT_PURGE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Purge, .palette = sMugshotPal_Purge},
     [MUGSHOT_TSUNAMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Tsunami, .palette = sMugshotPal_Tsunami},
+    [MUGSHOT_BO] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Bo, .palette = sMugshotPal_Bo},
     [MUGSHOT_ARLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Arle, .palette = sMugshotPal_Arle},
     [MUGSHOT_ASTARION] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Astarion, .palette = sMugshotPal_Astarion},
     [MUGSHOT_CYNTHIA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Cynthia, .palette = sMugshotPal_Cynthia},
