@@ -15,8 +15,9 @@ Birthday_Route_4_Sign1_EventScript::
 	end
 
 Birthday_Route_4_Sign1_Text:
-	.string "Someone vandalized this sign!\p"
-	.string "'DOWN WITH THE FALSE EMPRESS!'$"
+	.string "'A mind at peace lifts both arms in\n"
+	.string "joy, while one with doubt holds one\l"
+	.string "back.' - DIRKFUCIUS$"
 
 Birthday_Route_4_OcarinaOfMeDefeat_Text:
 	.string "I caught a DRAGALGE!\n"
