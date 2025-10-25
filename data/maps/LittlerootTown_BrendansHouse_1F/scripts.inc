@@ -325,7 +325,9 @@ PlayersHouse_1F_Text_ThisIsForBirthdayIsland:
 PlayersHouse_1F_Text_TravelSafe:
 	.string "Lady {PLAYER}, please be careful!\n"
 	.string "We do not know what the IMPOSTER is\l"
-	.string "planning and who is behind this!$"
+	.string "planning and who is behind this!\p"
+	.string "Still, we have to rescue LILYPAD,\n"
+	.string "so, off to LILYCOVE CITY...$"
 
 PlayersHouse_Text_EmiliaComeQuick:
 	.string "EMILIA: My Lady {PLAYER}?\n"
