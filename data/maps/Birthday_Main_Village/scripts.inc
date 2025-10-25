@@ -164,7 +164,19 @@ Birthday_Main_Village_After_Future_Emilia::
 	end
 
 Birthday_Main_Village_After_Future_Emilia_Text:
-	.string "Path to the present is free.$"
+	.string "EMILIA: EMPRESS!\n"
+	.string "Excellent work on retrieving the\n"
+	.string "second part of LILYPAD's essence.\p"
+	.string "I'm afraid this isn't the end of our\n"
+	.string "troubles, though.\p"
+	.string "A messenger arrived just before you\n"
+	.string "came back, notifying us that the\l"
+	.string "village of WUFFING to the NORTH is\l"
+	.string "being attacked by DIRKLINGS and a\l"
+	.string "talking OTTER!\p"
+	.string "You should hurry there, LILYPAD's\n"
+	.string "final Essence should be with the\l"
+	.string "IMPOSTER.$"
 
 Birthday_Main_Village_After_Past_Thea_1::
 	lock
@@ -193,7 +205,7 @@ Birthday_Main_Village_After_Past_Thea_2::
 	end
 
 Birthday_Main_Village_After_Past_Thea_Text:
-	.string "Oh hey there!\p"
+	.string "THEA: Oh hey there!\p"
 	.string "Funny how we keep running into each\n"
 	.string "other. Me?\p"
 	.string "I'm on vacation you see, being a GYM\n"
@@ -243,8 +255,6 @@ Birthday_Main_Village_TheaLeaves_Movement:
 	walk_up
 	walk_up
 	step_end
-
-
 
 Birthday_Main_Village_BeautifulOshawott_EventScript::
 	lock
