@@ -80,6 +80,14 @@ Birthday_Main_Village_After_Past_Pat::
 	release
 	end
 
+Birthday_Main_Village_Sign1_EventScript::
+	msgbox Birthday_Main_Village_Sign1_Text, MSGBOX_SIGN
+	end
+
+Birthday_Main_Village_Sign1_Text:
+	.string "ROSUURI's bakery -\n"
+	.string "come right in!$"
+
 Birthday_Main_Village_Snorlax_Text:
 	.string "None shall pass!$"
 
