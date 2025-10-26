@@ -164,7 +164,7 @@ Birthday_Main_Village_After_Future_Emilia::
 	end
 
 Birthday_Main_Village_After_Future_Emilia_Text:
-	.string "EMILIA: EMPRESS!\n"
+	.string "EMILIA: EMPRESS!\p"
 	.string "Excellent work on retrieving the\n"
 	.string "second part of LILYPAD's essence.\p"
 	.string "I'm afraid this isn't the end of our\n"

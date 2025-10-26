@@ -286,7 +286,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Birthday_Cave_Past_R1_Sign4_EventScript"
     }
   ]
 }

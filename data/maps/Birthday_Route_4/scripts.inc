@@ -11,7 +11,7 @@ Birthday_Route_4_OcarinaOfMe_EventScript::
 
 
 Birthday_Route_4_Sign1_EventScript::
-	msgbox Birthday_Route_3_Sign1_Text, MSGBOX_AUTOCLOSE
+	msgbox Birthday_Route_4_Sign1_Text, MSGBOX_AUTOCLOSE
 	end
 
 Birthday_Route_4_Sign1_Text:

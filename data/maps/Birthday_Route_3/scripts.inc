@@ -102,7 +102,7 @@ Birthday_Route_3_Sign3_EventScript::
 	end
 
 Birthday_Route_3_Sign1_Text:
-	.string "dead sign actually in route 1$"
+	.string "GROUDON was here.$"
 
 Birthday_Route_3_Sign2_Text:
 	.string "placeholder$"

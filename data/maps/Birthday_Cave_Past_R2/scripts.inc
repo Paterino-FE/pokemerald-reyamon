@@ -102,7 +102,7 @@ Birthday_Cave_Past_R2_Oldman1_EventScript::
 	end
 
 Birthday_Cave_Past_R2_Oldman1_Text:
-	.string "I really like this new emote that you\n$"
+	.string "I really like this new emote that you\n"
 	.string "added to your channel!\l"
 	.string "Toucans are hilarious!\n"
 	.string "le Toucan has arrived hahaha!$"
@@ -128,7 +128,7 @@ Birthday_Cave_Past_R2_Oldwoman1_EventScript::
 	end
 
 Birthday_Cave_Past_R2_Oldwoman1_Text:
-	.string "Damn, that new DOTA Digest is\n$"
+	.string "Damn, that new DOTA Digest is\n"
 	.string "really funny!$"
 
 

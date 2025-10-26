@@ -67,7 +67,8 @@ Birthday_Average_Bos_House_YourAvgBoAfterBattle_EventScript::
 	end
 
 Birthday_Average_Bos_House_YourAvgBoMeet_Text:
-	.string "Hey Reya, lets watch the paint dry!$"
+	.string "Hey Reya, lets watch the paint dry!\n"
+	.string "We can sit over there at the table.$"
 
 Birthday_Average_Bos_House_YourAvgBoDefeat_Text:
 	.string "Damn my bad.$"

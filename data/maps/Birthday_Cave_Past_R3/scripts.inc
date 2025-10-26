@@ -41,7 +41,7 @@ Birthday_Cave_Past_R3_TheaDefeat_Text:
 Birthday_Cave_Past_R3_Thea_Text:
 	.string "Wait a second....\n"
 	.string "None of my Pokemon know Strength!\p"
-	.string "How did i move those rocks.....\n"
+	.string "How did I move those rocks.....\n"
 	.string "Ah, best not to think about it too\l"
 	.string "hard AYAYA$"
 
@@ -106,7 +106,7 @@ Birthday_Cave_Past_R3_AlexDefeat_Text:
 	.string "KYS KYS KYS!$"
 
 Birthday_Cave_Past_R3_Alex_Text:
-	.string "I meant keep yourself save of course.$"
+	.string "I meant keep yourself safe of course.$"
 
 Birthday_Cave_Past_R3_AlexIntro_Text:
 	.string "Who's this loser? Is this low\n"
