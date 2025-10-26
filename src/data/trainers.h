@@ -30654,7 +30654,7 @@ F_TRAINER_FEMALE |
             },
         },
     },
-    [TRAINER_ATSUI] = //unused
+    [TRAINER_ATSUI] =
     {
         .trainerName = _("ATSUI"),
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -30668,9 +30668,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_ZIGZAGOON,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
             .ability = ABILITY_QUICK_FEET,
-            .lvl = 60,
+            .lvl = 61,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .heldItem = ITEM_BLACK_GLASSES,
@@ -30684,9 +30684,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_KIRLIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
             .ability = ABILITY_TELEPATHY,
-            .lvl = 60,
+            .lvl = 61,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -30699,9 +30699,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_MIMIKYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
             .ability = ABILITY_DISGUISE,
-            .lvl = 60,
+            .lvl = 61,
             .nature = NATURE_HARDY,
             .heldItem = ITEM_TOXIC_ORB,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
