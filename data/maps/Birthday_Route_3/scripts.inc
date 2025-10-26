@@ -105,7 +105,9 @@ Birthday_Route_3_Sign1_Text:
 	.string "GROUDON was here.$"
 
 Birthday_Route_3_Sign2_Text:
-	.string "placeholder$"
+	.string "Nobody knows what the FUTURE holds\n"
+	.string "but with PALLIANCE insurance, you\l"
+	.string "are prepared for everything!\p"
 
 Birthday_Route_3_Sign3_Text:
 	.string "'A dead end leading to giant rock\n"
