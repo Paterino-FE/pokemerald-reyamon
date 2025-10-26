@@ -140,7 +140,7 @@ Birthday_Ellies_House_NeuroHi_EventScript::
     end
 
 Birthday_Ellies_House_NeuroHi_Text:
-    .string "NEURO: Sorry for calling you intruder!$"
+    .string "NEURO: Sorry for calling you an intruder!$"
 
 Birthday_Ellies_House_Ellie_EventScript::
 	lock
