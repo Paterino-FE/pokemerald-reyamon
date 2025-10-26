@@ -233,10 +233,10 @@ Birthday_Main_Village_After_Past_Thea_Text:
 	.string "might just head there myself.\p"
 	.string "Oh, before I go, would you happen to\n"
 	.string "have that EMILIA girl's phone number?\p"
-	.string "No? What do you mean noone except you\n"
-	.string "is allowed to have YURI?\p"
-	.string "I dont even know who this YURI guy is.\p"
-	.string "Fine!\n"
+	.string "No? What do you mean no one except\n"
+	.string "you is allowed to have YURI?\p"
+	.string "I don't even know who this YURI\n"
+	.string "guy is. Fine!\p"
 	.string "I'm off to scout the CAVE!$"
 
 Birthday_Main_Village_After_Past_Movement:
