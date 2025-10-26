@@ -103,6 +103,13 @@ Birthday_Bach_Sign1_Text:
 	.string "Buy beautiful TIMESHARES on this\n"
 	.string "ISLAND!$"
 
+Birthday_Bach_Sign2_EventScript::
+	msgbox Birthday_Bach_Sign2_Text, MSGBOX_AUTOCLOSE
+	end
+
+Birthday_Bach_Sign2_Text:
+	.string "Harbor of BIRTHDAY ISLAND$"
+
 Birthday_Beach_NanamiBear_Text:
 	.string "NANAMI ignores you, his eyes\n"
 	.string "focused on a nearby DIRKLING.$"
