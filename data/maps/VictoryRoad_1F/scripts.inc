@@ -208,7 +208,7 @@ VictoryRoad_1F_Text_EdgarIntro:
 	.string "honorific or title here.\p"
 	.string "Whomst I have definitely never met\n"
 	.string "before. I hope you are having a\l"
-	.string "wonderful day. I am Joan Mcdonalds.\p"
+	.string "wonderful day. I am Joan McDonald's.\p"
 	.string "Not a former eco terrorist in hiding.\p"
 	.string "and this is your remote McDonald’s\n"
 	.string "pitstop. Can I take your order today?\p"

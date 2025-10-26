@@ -23,7 +23,7 @@ Birthday_Mountain_Future_Peak_Sign1_Text:
 	.string "path led us into a dead end.$"
 
 Birthday_Mountain_Future_Peak_PurgeIntro_Text:
-	.string "Hah! You won't find any McDonalds fry\n"
+	.string "Hah! You won't find any McDonald's fry\n"
 	.string "looking POKéMON in my squad. You'll\l"
 	.string "see after I defeat you that they don't\l"
 	.string "make them like they used to!\p"
