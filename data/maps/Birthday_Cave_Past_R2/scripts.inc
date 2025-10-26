@@ -37,7 +37,6 @@ Birthday_Cave_Past_R2_Sign3_Text:
 Birthday_Cave_Past_R2_Grape_AttackScript::
 	applymovement LOCALID_GRAPE, Birthday_Cave_Past_R2_Grape_Movement_1
 	waitmovement 0
-	setvar VAR_GRAPE_EVENT, 1
 	goto Birthday_Cave_Past_R2_Grape_EventScript
 	release
 	end
@@ -47,6 +46,7 @@ Birthday_Cave_Past_R2_Grape_EventScript::
 	faceplayer
 	goto_if_not_defeated TRAINER_GRAPE, Birthday_Cave_Past_R2_GrapeBattle_EventScript
 	msgbox Birthday_Cave_Past_R2_Grape_Text, MSGBOX_DEFAULT
+	setvar VAR_GRAPE_EVENT, 1
 	playfanfare MUS_HEAL
 	waitfanfare
 	special HealPlayerParty
