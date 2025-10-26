@@ -29850,7 +29850,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_DHELMISE,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),,
+            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
             .ability = ABILITY_STEELWORKER,
             .lvl = 60,
             .nature = NATURE_HARDY,
@@ -29893,7 +29893,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_NINJASK,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),,
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
             .ability = ABILITY_SPEED_BOOST,
             .lvl = 60,
             .nature = NATURE_HARDY,
@@ -30161,7 +30161,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_WHIMSICOTT,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20)),
+            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
             .ability = ABILITY_PRANKSTER,
             .lvl = 65,
             .nature = NATURE_HARDY,
@@ -30176,7 +30176,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_AZUMARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20)),
+            .iv = TRAINER_PARTY_IVS(20, 20, 20, 20, 20, 20),
             .ability = ABILITY_HUGE_POWER,
             .lvl = 65,
             .nature = NATURE_HARDY,
