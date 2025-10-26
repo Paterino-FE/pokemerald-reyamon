@@ -169,6 +169,7 @@ Birthday_Main_Village_HouseEnd_Ellie_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Ellie_Text:
-	.string "ellie$"
+	.string "ELLIE: Happy birthday REYA!!\n"
+	.string "I'm so glad I know you!$"
 
 
