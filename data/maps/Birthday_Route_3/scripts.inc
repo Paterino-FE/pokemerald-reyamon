@@ -107,7 +107,7 @@ Birthday_Route_3_Sign1_Text:
 Birthday_Route_3_Sign2_Text:
 	.string "Nobody knows what the FUTURE holds\n"
 	.string "but with PALLIANCE insurance, you\l"
-	.string "are prepared for everything!\p"
+	.string "are prepared for everything!$"
 
 Birthday_Route_3_Sign3_Text:
 	.string "'A dead end leading to giant rock\n"
