@@ -30,7 +30,7 @@ Birthday_Cave_Past_R3_TheaNotEnoughMon_Text:
 	.string "more POKéMON!$"
 
 Birthday_Cave_Past_R3_TheaDefeat_Text:
-	.string "Aww shucks, i lost again.\n"
+	.string "Aww shucks, I lost again.\n"
 	.string "I still had a lot of fun though.\p"
 	.string "I will take a break now, the next\n"
 	.string "room looks like some sort of maniac\l"
