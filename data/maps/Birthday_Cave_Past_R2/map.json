@@ -12,9 +12,10 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
+      "local_id": "LOCALID_GRAPE",
       "graphics_id": "OBJ_EVENT_GFX_GRAPE",
       "x": 8,
       "y": 18,
@@ -25,8 +26,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Cave_Past_R2_Grape_EventScript",
-      "flag": "0",
-      "local_id": "LOCALID_GRAPE"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
