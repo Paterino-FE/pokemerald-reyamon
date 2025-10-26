@@ -152,7 +152,28 @@ Birthday_Main_Village_Snorlax_Text:
 	.string "None shall pass!$"
 
 Birthday_Main_Village_After_Past_Pat_Text:
-	.string "Path to the future is free.$"
+	.string "Welcome back, {PLAYER}!\p"
+	.string "I hope you've been enjoying\n"
+	.string "the Island special so far.\p"
+	.string "Why am I here, you ask?\n"
+	.string "Well, I'm here to guide you.\p"
+	.string "As THEA mentioned, you'll need to\n"
+	.string "overcome all three trials to save LILYPAD!\p"
+	.string "The next challenge won't be easy...\n"
+	.string "Tread carefully, or you might slip.\p"
+	.string "But don't worry, {PLAYER}.\p"
+	.string "Everyone on the team worked hard\n"
+	.string "to make sure everything's fair.\p"
+	.string "Anyway, head toward ROUTE 1. The path to\n"
+	.string "MOUNT AUGURY should be open now.\p"
+	.string "Travellers from all over the world visit\n"
+	.string "MOUNT AUGURY because they say it can\p"
+	.string "reveal fleeting glimpses of the future.\p"
+	.string "Perhaps you'll find a clue waiting\n"
+	.string "at the mountain's peak.\p"
+	.string "Best of luck, {PLAYER}. I'll be here\n"
+	.string "if you need me.\p"
+	.string "Please... save LILYPAD...$"
 
 Birthday_Main_Village_After_Future_Emilia::
 	lock
