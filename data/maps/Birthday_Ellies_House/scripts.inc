@@ -48,7 +48,7 @@ Birthday_Ellies_House_Text_DoYouWantToChange:
     .string "Do you want NEURO to change form?$"
 
 Birthday_Ellies_House_Text_NoChange:
-    .string "Nothing happens.$"
+    .string "Nothing happened.$"
 
 Birthday_Ellies_House_EventScript_NoChange::
     msgbox Birthday_Ellies_House_Text_NoChange, MSGBOX_AUTOCLOSE
@@ -62,7 +62,8 @@ Birthday_Ellies_House_BaseRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 0
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end
@@ -73,7 +74,8 @@ Birthday_Ellies_House_HeatRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 1
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end
@@ -84,7 +86,8 @@ Birthday_Ellies_House_WashRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 2
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end
@@ -95,7 +98,8 @@ Birthday_Ellies_House_FrostRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 3
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end
@@ -106,7 +110,8 @@ Birthday_Ellies_House_FanRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 4
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end
@@ -117,7 +122,8 @@ Birthday_Ellies_House_MowRotom::
     msgbox Birthday_Ellies_House_Text_DoYouWantToChange, MSGBOX_YESNO
     goto_if_eq VAR_RESULT, NO, Birthday_Ellies_House_EventScript_NoChange
     setvar VAR_0x8004, 5
-	special TryChangeRotomForm
+	specialvar VAR_RESULT, TryChangeRotomForm
+    goto_if_eq VAR_RESULT, FALSE, Birthday_Ellies_House_EventScript_NoChange
     callnative UpdateFollowingPokemon
     release
     end

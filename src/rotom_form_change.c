@@ -51,13 +51,11 @@ bool8 IsRotomInParty(void)
     return GetRotomPartyIndex() != PARTY_SIZE;
 }
 
-static void ApplyRotomFormChange(struct Pokemon *mon, u16 newSpecies)
+static bool8 ApplyRotomFormChange(struct Pokemon *mon, u16 newSpecies)
 {
     u16 oldSpecies = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, NULL);
     if (oldSpecies == newSpecies)
-        return;
-
-    
+        return FALSE;
     SetMonData(mon, MON_DATA_SPECIES, &newSpecies);
     CalculateMonStats(mon);
     EvolutionRenameMon(mon, oldSpecies, newSpecies);
@@ -85,6 +83,7 @@ static void ApplyRotomFormChange(struct Pokemon *mon, u16 newSpecies)
     GetSetPokedexFlag(SpeciesToNationalPokedexNum(newSpecies), FLAG_SET_SEEN);
     GetSetPokedexFlag(SpeciesToNationalPokedexNum(newSpecies), FLAG_SET_CAUGHT);
     PlayCry_ByMode(newSpecies, 0, CRY_MODE_NORMAL);
+    return TRUE;
 }
 
 /**
@@ -122,7 +121,5 @@ bool8 TryChangeRotomForm(void)
     if (!IsRotomSpecies(GetMonData(rotom, MON_DATA_SPECIES_OR_EGG, NULL)))
         return FALSE;
 
-    ApplyRotomFormChange(rotom, newSpecies);
-
-    return TRUE;
+    return ApplyRotomFormChange(rotom, newSpecies);
 }
