@@ -103,7 +103,7 @@ Birthday_Cave_Past_R2_Oldman1_EventScript::
 
 Birthday_Cave_Past_R2_Oldman1_Text:
 	.string "I really like this new emote that you\n"
-	.string "added to your channel!\l"
+	.string "added to your channel!\p"
 	.string "Toucans are hilarious!\n"
 	.string "le Toucan has arrived hahaha!$"
 
