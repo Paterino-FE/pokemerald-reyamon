@@ -223,7 +223,7 @@ Birthday_Main_Village_After_Past_Thea_Text:
 	.string "Isn't that crazy?\p"
 	.string "I've seen a lot over the years,\n"
 	.string "but that seems a little extreme,\l"
-	.string "dont you think?\p"
+	.string "don't you think?\p"
 	.string "Anyway, apparently there is a CAVE to\n"
 	.string "the NORTH EAST where you can commune\l"
 	.string "with spirits of the past!\p"
