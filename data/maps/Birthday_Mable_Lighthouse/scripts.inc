@@ -244,13 +244,6 @@ Birthday_Lighthouse_SamurottTalk::
 	release
 	end
 
-Mable_Lighthouse_EventScript_Sign1_EventScript::
-	msgbox Mable_Lighthouse_EventScript_Sign1_Text, MSGBOX_SIGN
-	end
-
-Mable_Lighthouse_EventScript_Sign1_Text:
-	.string "Path to the LIGHTHOUSE!$"
-
 FortreeCity_Gym_Text_PlayerReceivedOshawott:
 	.string "{PLAYER} received OSHAWOTT!$"
 

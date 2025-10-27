@@ -92,6 +92,13 @@ Birthday_Main_Village_Sign1_EventScript::
 	msgbox Birthday_Main_Village_Sign1_Text, MSGBOX_SIGN
 	end
 
+Mable_Lighthouse_EventScript_Sign1_EventScript::
+	msgbox Mable_Lighthouse_EventScript_Sign1_Text, MSGBOX_SIGN
+	end
+
+Mable_Lighthouse_EventScript_Sign1_Text:
+	.string "Path to the LIGHTHOUSE!$"
+
 
 Birthday_Main_Village_HatzoomeFirst_Text:
 	.string "Oh hey, {PLAYER}. These\n"

@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_GYM",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_YOURAVGBO",
@@ -64,7 +64,5 @@
       "script": "Birthday_Average_Bos_House_YourAvgBo_EventScript1"
     }
   ],
-  "bg_events": [
-
-  ]
+  "bg_events": []
 }
