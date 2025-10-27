@@ -31046,8 +31046,8 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_KOMMO_O,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .ev = TRAINER_PARTY_EVS(0,252,0,252,0,0),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 0, 17, 31),
+            .ev = TRAINER_PARTY_EVS(0,252,0,0,0,0),
             .ability = ABILITY_OVERCOAT,
             .lvl = 67,
             .nature = NATURE_HARDY,
