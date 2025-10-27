@@ -47,7 +47,8 @@ Birthday_Cave_Past_R1_Sign1_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign1_Text:
-	.string "placeholder$"
+	.string "Once the world was consumed by\n"
+	.string "rage and filtered all chat messages.$"
 
 Birthday_Cave_Past_R1_Sign2_EventScript::
 	lock
@@ -56,7 +57,10 @@ Birthday_Cave_Past_R1_Sign2_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign2_Text:
-	.string "placeholder$"
+	.string "Moves that increase stats or\n"
+	.string "have status effects?\p"
+	.string "Not on my watch, we only\n"
+	.string "care about big numbers!$"
 
 Birthday_Cave_Past_R1_Sign3_EventScript::
 	lock
@@ -65,7 +69,9 @@ Birthday_Cave_Past_R1_Sign3_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign3_Text:
-	.string "placeholder$"
+	.string "Should POKéMON add more types?\n"
+	.string "A fairy type? How ridiculous.\p"
+	.string "That would never happen.$"
 
 Birthday_Cave_Past_R1_Sign4_EventScript::
 	lock
@@ -74,5 +80,7 @@ Birthday_Cave_Past_R1_Sign4_EventScript::
 	end
 
 Birthday_Cave_Past_R1_Sign4_Text:
-	.string "placeholder$"
-
+	.string "If you don't send this message\n"
+	.string "to ten of your friends in a minute...\p"
+	.string "You will be cursed for\n"
+	.string "all eternity!!!$"
