@@ -99,6 +99,16 @@ Birthday_Main_Village_HouseEnd_Purge_EventScript::
 Birthday_Main_Village_HouseEnd_Purge_Text:
 	.string "purge$"
 
+Birthday_Main_Village_HouseEnd_Emilia_EventScript::
+	lock
+	faceplayer
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Main_Village_HouseEnd_Emilia_Text:
+	.string "Credits part 1$"
+
 Birthday_Main_Village_HouseEnd_Rosuuri_EventScript::
 	lock
 	faceplayer
@@ -107,7 +117,8 @@ Birthday_Main_Village_HouseEnd_Rosuuri_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Rosuuri_Text:
-	.string "rosuuri$"
+	.string "Happy birthday, REYA!\n"
+	.string "I'm so proud of you...!$"
 
 Birthday_Main_Village_HouseEnd_Luminel_EventScript::
 	lock
