@@ -16,7 +16,11 @@ Birthday_Cave_Past_R3_Thea_EventScript::
 	lock
 	faceplayer
 	goto_if_not_defeated TRAINER_THEA_2, Birthday_Cave_Past_R3_TheaBattle_EventScript
-	msgbox Birthday_Cave_Past_R3_Thea_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Cave_Past_R3_Thea_Text, MSGBOX_DEFAULT, MUGSHOT_THEA, CLEAR_MUGSHOT
+	playfanfare MUS_HEAL
+	waitfanfare
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	release
 	end
 

@@ -132,7 +132,13 @@ Birthday_Main_Village_HouseEnd_Luminel_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Luminel_Text:
-	.string "luminel$"
+	.string "I can't believe I finally got to meet\n"
+	.string "LILYPAD! She's so precious, otters\l"
+	.string "are kind of like little aquatic\l"
+	.string "bears really.\p"
+	.string "It was rough not having anything to\n"
+	.string "spend my channel points on since she\l"
+	.string "disappeared. Oh and HAPPY BIRTHDAY!!$"
 
 Birthday_Main_Village_HouseEnd_Thea_EventScript::
 	lock
@@ -142,7 +148,16 @@ Birthday_Main_Village_HouseEnd_Thea_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Thea_Text:
-	.string "thea$"
+	.string "Mhm...thith cake is delishssh....\n"
+	.string "I hop thers more. Gulp\p"
+	.string "Aaaaah, better.\p"
+	.string "Oh, its your birthday right?!\n"
+	.string "HAPPY BIRTHDAY!!!\p"
+	.string "I hope you had fun on your adventure!\n"
+	.string "I tried my very best to keep everyone\l"
+	.string "in check :3.\p"
+	.string "Ok enough talking, more cake!\n"
+	.string "NOMNOMNOM$"
 
 Birthday_Main_Village_HouseEnd_Forty_EventScript::
 	lock
