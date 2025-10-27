@@ -127,4 +127,6 @@ Birthday_Cave_Past_R3_Sign1_EventScript::
 	end
 
 Birthday_Cave_Past_R3_Sign1_Text:
-	.string "Placeholder.$"
+	.string "This is a placeholder\n"
+	.string "\l"
+	.string "Ha, just kidding!$"
