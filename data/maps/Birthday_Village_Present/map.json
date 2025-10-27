@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Village_Present_DirklingUpDown1_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -49,7 +49,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Birthday_Village_Present_DirklingUpDown2_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -88,7 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Birthday_Village_Present_RockPaperScissorsDirkling_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -140,7 +140,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Birthday_Village_Present_Dirkling1_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -153,7 +153,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "7",
       "script": "Birthday_Village_Present_Dirkling2_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -166,7 +166,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "7",
       "script": "Birthday_Village_Present_Dirkling3_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -179,7 +179,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Birthday_Village_Present_Dirkling5_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -192,7 +192,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Birthday_Village_Present_Dirkling6_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DIRKLING",
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
       "script": "Birthday_Village_Present_Dirkling4_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
@@ -218,7 +218,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Birthday_Village_Present_Hatzoome_EventScript",
-      "flag": "0"
+      "flag": "FLAG_BEAT_IMPOSTERPAD"
     }
   ],
   "warp_events": [
