@@ -31544,9 +31544,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_INCINEROAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(28, 28, 28, 28, 28, 28),
+            .iv = TRAINER_PARTY_IVS(28, 28, 28, 0, 28, 28),
             .lvl = 73,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_QUIET,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_INTIMIDATE,
             .moves = {
