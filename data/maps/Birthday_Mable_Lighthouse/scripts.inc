@@ -175,8 +175,10 @@ Mable_Lighthouse_EventScript_DoBattle::
 	addobject LOCALID_SAMUROTT
 	playmoncry SPECIES_SAMUROTT, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_2, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
-	trainerbattle_single TRAINER_MABLE, Birthday_Mable_Lighthouse_TEXT_MableFight_5, Birthday_Mable_Lighthouse_TEXT_MableFight_2, Mable_Lighthouse_EventScript_MableDefeated
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_1_2, MSGBOX_DEFAULT, MUGSHOT_SAMUROTT, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Mable_Lighthouse_TEXT_MableFight_5, MSGBOX_DEFAULT, MUGSHOT_MABLE, CLEAR_MUGSHOT
+	trainerbattle_no_intro TRAINER_MABLE, Birthday_Mable_Lighthouse_TEXT_MableFight_2 
+	goto Mable_Lighthouse_EventScript_MableDefeated
 	release
 	end
 
@@ -292,7 +294,7 @@ Birthday_Mable_Lighthouse_TEXT_MableFight_1_1:
 	.string "side as a SAMUROTT.$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_1_2:
-	.string "OSHAWOTT Evolves!$"
+	.string "OSHAWOTT EVOLVED!!!$"
 
 Birthday_Mable_Lighthouse_TEXT_MableFight_2:
 	.string "I gave everything I had, yet you\n"
@@ -326,12 +328,12 @@ Birthday_Mable_Lighthouse_Lilypal1_EventScript::
 	lock
 	faceplayer
 	goto_if_unset FLAG_TALKED_LIGHTHOUSE_FLEETPAL, Birthday_Mable_Lighthouse_Lilypal1First_EventScript
-	msgbox Birthday_Mable_Lighthouse_Lilypal1_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Lilypal1_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
 	release
 	end
 
 Birthday_Mable_Lighthouse_Lilypal1First_EventScript::
-	msgbox Birthday_Mable_Lighthouse_Lilypal1First_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Lilypal1First_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
 	setflag FLAG_TALKED_LIGHTHOUSE_FLEETPAL
 	release
 	end
@@ -353,12 +355,12 @@ Birthday_Mable_Lighthouse_Lilypal2_EventScript::
 	lock
 	faceplayer
 	goto_if_unset FLAG_TALKED_LIGHTHOUSE_LAZYPAL, Birthday_Mable_Lighthouse_Lilypal2First_EventScript
-	msgbox Birthday_Mable_Lighthouse_Lilypal2_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Lilypal2_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
 	release
 	end
 
 Birthday_Mable_Lighthouse_Lilypal2First_EventScript::
-	msgbox Birthday_Mable_Lighthouse_Lilypal2First_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Lilypal2First_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
 	setflag FLAG_TALKED_LIGHTHOUSE_LAZYPAL
 	release
 	end
@@ -375,7 +377,7 @@ Birthday_Mable_Lighthouse_Lilypal2First_Text:
 Birthday_Mable_Lighthouse_Lilypal3_EventScript::
 	lock
 	faceplayer
-	msgbox Birthday_Mable_Lighthouse_Lilypal3_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Lilypal3_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
 	release
 	end
 
@@ -385,7 +387,7 @@ Birthday_Mable_Lighthouse_Lilypal3_Text:
 
 Birthday_Mable_Lighthouse_Oshawott1_EventScript::
 	lock
-	msgbox Birthday_Mable_Lighthouse_Oshawott1_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Oshawott1_Text, MSGBOX_DEFAULT, MUGSHOT_OSHAWOTT, CLEAR_MUGSHOT
 	release
 	end
 
@@ -399,7 +401,7 @@ Birthday_Mable_Lighthouse_Oshawott2_EventScript::
 	faceplayer
 	playmoncry SPECIES_OSHAWOTT, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox Birthday_Mable_Lighthouse_Oshawott2_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Mable_Lighthouse_Oshawott2_Text, MSGBOX_DEFAULT, MUGSHOT_OSHAWOTT, CLEAR_MUGSHOT
 	release
 	end
 

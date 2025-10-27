@@ -30451,7 +30451,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_LANTURN,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 80, 0, 0),
+            .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 80, 0),
             .ability = ABILITY_VOLT_ABSORB,
             .lvl = 62,
             .nature = NATURE_RASH,
