@@ -29891,6 +29891,22 @@ F_TRAINER_FEMALE |
         .party = (const struct TrainerMon[])
         {
             {
+            .species = SPECIES_MIMIKYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
+            .ability = ABILITY_DISGUISE,
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_FLAME_ORB,
+            .moves = {
+                MOVE_PLAY_ROUGH,
+                MOVE_SHADOW_CLAW,
+                MOVE_WILL_O_WISP,
+                MOVE_TRICK
+                },
+            },
+            {
             .species = SPECIES_NINJASK,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
@@ -29919,22 +29935,6 @@ F_TRAINER_FEMALE |
                 MOVE_REST,
                 MOVE_YAWN,
                 MOVE_EARTHQUAKE
-                },
-            },
-            {
-            .species = SPECIES_MIMIKYU,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
-            .ability = ABILITY_DISGUISE,
-            .lvl = 60,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .heldItem = ITEM_FLAME_ORB,
-            .moves = {
-                MOVE_PLAY_ROUGH,
-                MOVE_SHADOW_CLAW,
-                MOVE_WILL_O_WISP,
-                MOVE_TRICK
                 },
             },
         },
@@ -30451,9 +30451,10 @@ F_TRAINER_FEMALE |
             .species = SPECIES_LANTURN,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 80, 0, 0),
             .ability = ABILITY_VOLT_ABSORB,
             .lvl = 62,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_RASH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
                 MOVE_THUNDERBOLT,
@@ -30465,7 +30466,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_KINGDRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 20),
             .ability = ABILITY_SWIFT_SWIM,
             .lvl = 62,
             .nature = NATURE_HARDY,
@@ -30480,7 +30481,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_PELIPPER,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 20),
             .ability = ABILITY_DRIZZLE,
             .lvl = 62,
             .nature = NATURE_HARDY,
@@ -30496,7 +30497,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_TENTACRUEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 20),
             .ability = ABILITY_RAIN_DISH,
             .lvl = 62,
             .nature = NATURE_HARDY,
@@ -30512,7 +30513,7 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_WALREIN,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 20),
             .ability = ABILITY_THICK_FAT,
             .lvl = 62,
             .nature = NATURE_HARDY,
@@ -31029,8 +31030,8 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_GOODRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .ev = TRAINER_PARTY_EVS(248,0,0,0,252,8),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 0, 31),
+            .ev = TRAINER_PARTY_EVS(248,0,0,0,0,8),
             .ability = ABILITY_GOOEY,
             .lvl = 69,
             .nature = NATURE_HARDY,
@@ -31047,9 +31048,9 @@ F_TRAINER_FEMALE |
             .species = SPECIES_KOMMO_O,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .ev = TRAINER_PARTY_EVS(0,252,0,252,4,0),
+            .ev = TRAINER_PARTY_EVS(0,252,0,252,0,0),
             .ability = ABILITY_OVERCOAT,
-            .lvl = 68,
+            .lvl = 67,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -31531,9 +31532,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_GROUDON,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(28, 28, 28, 28, 28, 28),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
             .lvl = 72,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_RASH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_DROUGHT,
             .moves = {
@@ -32074,7 +32075,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_SHEER_FORCE,
             .moves = {
-                MOVE_SLUDGE_WAVE, MOVE_EARTH_POWER, MOVE_ICE_BEAM, MOVE_TAUNT
+                MOVE_SLUDGE_WAVE, MOVE_EARTH_POWER, MOVE_FLAMETHROWER, MOVE_TAUNT
             },
             },
             {
