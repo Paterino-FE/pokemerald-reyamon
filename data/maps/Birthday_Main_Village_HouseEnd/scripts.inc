@@ -14,7 +14,32 @@ Birthday_Main_Village_HouseEnd_Paterino_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Paterino_Text:
-	.string "paterino$"
+	.string "Once more, a Happy Birthday to you!!\p"
+	.string "We kinda have worked again on a fun\n"
+	.string "project behind your back, hehe.\p"
+	.string "Everyone did so splendidly, right?!\p"
+	.string "I can't say enough how great it is to\n"
+	.string "work with everyone who was involved.\p"
+	.string "Maybe there will be something similar\n"
+	.string "in the future, but who knows?\p"
+	.string "I sincerely hope this experience\n"
+	.string "showed you how much everyone\p"
+	.string "actually adores you and your streams.\p"
+	.string "Even if you feel tired or stressed,\n"
+	.string "don't forget that you have a lot of\p"
+	.string "loyal fans and friends beside you at\n"
+	.string "every step now and in the future.\p"
+	.string "The path you chose isn't easy, but\n"
+	.string "isn't life itself a challenge?\p"
+	.string "Another year has passed, and this\n"
+	.string "is the second year that we know\p"
+	.string "each other.\p"
+	.string "Let's see how many years it might\n"
+	.string "become!\p"
+	.string "Stay cool, Reya, and on this special\n"
+	.string "day I hope you have a fantastic time\p"
+	.string "with your dearest people in your life.$"
+
 
 Birthday_Main_Village_HouseEnd_Lilypad_EventScript::
 	lock
