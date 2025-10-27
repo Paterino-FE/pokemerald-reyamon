@@ -95,11 +95,11 @@ Birthday_Beach_Luminel_EventScript::
 	release
 	end
 
-Birthday_Beach_Sign1_EventScript::
+Birthday_Bach_Sign1_EventScript::
 	msgbox Birthday_Bach_Sign1_Text, MSGBOX_AUTOCLOSE
 	end
 
-Birthday_Beach_Sign1_Text:
+Birthday_Bach_Sign1_Text:
 	.string "Buy beautiful TIMESHARES on this\n"
 	.string "ISLAND!$"
 
