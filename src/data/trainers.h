@@ -30951,7 +30951,7 @@ F_TRAINER_FEMALE |
                 },
             },
             {
-            .species = SPECIES_MAUSHOLD,
+            .species = SPECIES_MAUSHOLD_FOUR,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
             .ability = ABILITY_FRIEND_GUARD,
