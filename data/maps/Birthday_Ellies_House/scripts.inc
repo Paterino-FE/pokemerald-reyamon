@@ -270,9 +270,9 @@ Birthday_Ellies_House_CamMovement1:
 	step_end
 
 Birthday_Ellies_House_CamMovement2:
-	walk_slow_left
-	walk_slow_left
-	walk_slow_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 Birthday_Ellies_House_EllieMovement1:
