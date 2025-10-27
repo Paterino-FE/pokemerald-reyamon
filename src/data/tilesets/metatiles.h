@@ -118,6 +118,9 @@ const u16 gMetatileAttributes_Underwater[] = INCBIN_U16("data/tilesets/secondary
 const u16 gMetatiles_GenericBuilding[] = INCBIN_U16("data/tilesets/secondary/generic_building/metatiles.bin");
 const u16 gMetatileAttributes_GenericBuilding[] = INCBIN_U16("data/tilesets/secondary/generic_building/metatile_attributes.bin");
 
+const u16 gMetatiles_GenericBuilding2[] = INCBIN_U16("data/tilesets/secondary/generic_building2/metatiles.bin");
+const u16 gMetatileAttributes_GenericBuilding2[] = INCBIN_U16("data/tilesets/secondary/generic_building2/metatile_attributes.bin");
+
 const u16 gMetatiles_MauvilleGameCorner[] = INCBIN_U16("data/tilesets/secondary/mauville_game_corner/metatiles.bin");
 const u16 gMetatileAttributes_MauvilleGameCorner[] = INCBIN_U16("data/tilesets/secondary/mauville_game_corner/metatile_attributes.bin");
 

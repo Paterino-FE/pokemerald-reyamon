@@ -18,6 +18,7 @@ Birthday_Main_Village_Hide_Setup::
 	call_if_eq VAR_BIRTHDAY_HIDE_PRESENT, 4, Birthday_Main_Village_Hide_Emilia_4
 	call_if_eq VAR_BIRTHDAY_ENDING, 1, Birthday_Main_Village_Hide_Snorlax_1
 	call_if_unset FLAG_HIDE_OSHAWOTT_1, Birthday_Main_Village_Hide_Oshawott_1
+	clearflag FLAG_TEMP_HIDE_FOLLOWER
 	release
 	end
 

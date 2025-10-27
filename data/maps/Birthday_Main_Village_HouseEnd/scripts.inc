@@ -1,6 +1,10 @@
 Birthday_Main_Village_HouseEnd_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Birthday_Main_Village_HouseEnd_Setup
 	.byte 0
 
+Birthday_Main_Village_HouseEnd_Setup::
+	setflag FLAG_TEMP_HIDE_FOLLOWER
+	end
 
 Birthday_Main_Village_HouseEnd_Paterino_EventScript::
 	lock

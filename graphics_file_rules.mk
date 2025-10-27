@@ -154,6 +154,9 @@ $(TILESETGFXDIR)/secondary/underwater/tiles.4bpp: %.4bpp: %.png
 $(TILESETGFXDIR)/secondary/generic_building/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 509 -Wnum_tiles
 
+$(TILESETGFXDIR)/secondary/generic_building2/tiles.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 509 -Wnum_tiles
+
 $(TILESETGFXDIR)/secondary/mauville_game_corner/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 469 -Wnum_tiles
 

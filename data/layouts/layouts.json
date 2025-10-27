@@ -4554,7 +4554,7 @@
     {
       "id": "LAYOUT_BIRTHDAY_MAIN_VILLAGE",
       "name": "Birthday_Main_Village_Layout",
-      "width": 33,
+      "width": 34,
       "height": 47,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
@@ -4817,7 +4817,7 @@
       "width": 15,
       "height": 10,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_GenericBuilding2",
       "border_filepath": "data/layouts/Birthday_Main_Village_HouseEnd/border.bin",
       "blockdata_filepath": "data/layouts/Birthday_Main_Village_HouseEnd/map.bin"
     }
