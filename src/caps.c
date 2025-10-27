@@ -20,8 +20,8 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BEATEN_VICTORY_ROAD, 50},
         {FLAG_IS_CHAMPION, 60},
         {FLAG_BEAT_ALEX, 71},
-        {FLAG_BEAT_VYRAL, 80},
-        {FLAG_BEAT_IMPOSTERPAD, 90},
+        {FLAG_BEAT_VYRAL, 78},
+        {FLAG_BEAT_IMPOSTERPAD, 88},
     };
 
     u32 i;
