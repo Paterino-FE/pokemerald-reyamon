@@ -28,11 +28,13 @@ Birthday_Main_Villahe_House2_Dogmatical_IntroText:
 	.string "but now it's time to battle!$"
 
 Birthday_Main_Villahe_House2_Dogmatical_DefeatText:
-	.string "'Why no mega allowed, T-T'$"
+	.string "I'd win, if I got the time to do a\n"
+	.string "correct battle sprite for myself,\p"
+	.string "maybe next time?$"
 
 Birthday_Main_Villahe_House2_Dogmatical_AfterText:
 	.string "Yes that was me, the artist who\n"
-	.string "animated the wiggle tail of Vyral.$"
+	.string "animated the wiggle tail for VYRAL.$"
 
 Birthday_Main_Villahe_House2_Mawile_Text:
 	.string "A sticky note sticks on her head.\p"
