@@ -45,7 +45,7 @@ Birthday_Cave_Past_R2_Grape_EventScript::
 	lock
 	faceplayer
 	goto_if_not_defeated TRAINER_GRAPE, Birthday_Cave_Past_R2_GrapeBattle_EventScript
-	msgbox Birthday_Cave_Past_R2_Grape_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Cave_Past_R2_Grape_Text, MSGBOX_DEFAULT, MUGSHOT_GRAPE, CLEAR_MUGSHOT
 	setvar VAR_GRAPE_EVENT, 1
 	playfanfare MUS_HEAL
 	waitfanfare
@@ -55,7 +55,8 @@ Birthday_Cave_Past_R2_Grape_EventScript::
 	end
 
 Birthday_Cave_Past_R2_GrapeBattle_EventScript::
-	trainerbattle_single TRAINER_GRAPE, Birthday_Cave_Past_R2_GrapeIntro_Text, Birthday_Cave_Past_R2_GrapeDefeat_Text
+	msgbox_mugshot Birthday_Cave_Past_R2_GrapeIntro_Text, MSGBOX_DEFAULT, MUGSHOT_GRAPE, CLEAR_MUGSHOT
+	trainerbattle_no_intro TRAINER_GRAPE, Birthday_Cave_Past_R2_GrapeDefeat_Text
 	release
 	end
 
