@@ -116,7 +116,8 @@ Birthday_Main_Village_HouseEnd_Tsunami_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Tsunami_Text:
-	.string "tsunami$"
+	.string "Happy birthday!\n"
+	.string "Your community's too good to you!$"
 
 Birthday_Main_Village_HouseEnd_Purge_EventScript::
 	lock
@@ -126,7 +127,7 @@ Birthday_Main_Village_HouseEnd_Purge_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Purge_Text:
-	.string "purge$"
+	.string "Happy birthday!$"
 
 Birthday_Main_Village_HouseEnd_Emilia_EventScript::
 	lock
@@ -210,11 +211,35 @@ Birthday_Main_Village_HouseEnd_Bo_EventScript::
 	lock
 	faceplayer
 	msgbox_mugshot Birthday_Main_Village_HouseEnd_Bo_Text, MSGBOX_AUTOCLOSE, MUGSHOT_BO, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Bo2_Text, MSGBOX_AUTOCLOSE, MUGSHOT_BO, CLEAR_MUGSHOT
 	release
 	end
 
 Birthday_Main_Village_HouseEnd_Bo_Text:
-	.string "bo$"
+	.string "Congratulations on making it through;\n"
+	.string "it took you long enough.\p"
+	.string "But besides the congratulations,\n"
+	.string "thank you for being my friend.\p"
+	.string "Well, one of my best friends.\p"
+	.string "Which I'm sure will annoy you in\n"
+	.string "some way that you're not the ONE best\l"
+	.string "friend, but take what you can get.\p"
+	.string "I hope you know how much you inspire\n"
+	.string "me to continue my own journey.\p"
+	.string "The time and effort you put into\n"
+	.string "whatever project you've chosen to work\l"
+	.string "on never cease to surprise me.\p"
+	.string "You are a beautiful, skilled, and\n"
+	.string "wonderful friend, and I'm happy to be\l"
+	.string "the 'butler' for such a perfect Empress.$"
+
+Birthday_Main_Village_HouseEnd_Bo2_Text:
+	.string "Thank you for always being there for\n"
+	.string "me. I think you're the best thing this\l"
+	.string "fucked up year has given me,\l"
+	.string "and without your constant laughter and\l"
+	.string "support, I'd honestly be lost.\p"
+	.string "I love you.$"
 
 Birthday_Main_Village_HouseEnd_Ellie_EventScript::
 	lock
