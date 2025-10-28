@@ -59,7 +59,7 @@ Birthday_Main_Village_HouseEnd_Grape_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Grape_Text:
-	.string "grape$"
+	.string "Happy birthday, GAO!$"
 
 Birthday_Main_Village_HouseEnd_Mable_EventScript::
 	lock
@@ -147,8 +147,7 @@ Birthday_Main_Village_HouseEnd_Rosuuri_EventScript::
 	end
 
 Birthday_Main_Village_HouseEnd_Rosuuri_Text:
-	.string "Happy birthday, REYA!\n"
-	.string "I'm so proud of you...!$"
+	.string "Happy birthday, REYA!$"
 
 Birthday_Main_Village_HouseEnd_Luminel_EventScript::
 	lock
