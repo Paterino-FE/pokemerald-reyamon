@@ -10,7 +10,8 @@ Birthday_Rosuuri_Bakery_Rosuuri_EventScript::
 	end
 
 Birthday_Rosuuri_Bakery_RosuuriBattle_EventScript::
-	trainerbattle_single TRAINER_ROSUURI, Birthday_Rosuuri_Bakery_RosuuriIntro_Text, Birthday_Rosuuri_Bakery_RosuuriDefeat_Text
+	msgbox_mugshot Birthday_Rosuuri_Bakery_RosuuriIntro_Text, MSGBOX_DEFAULT, MUGSHOT_ROSUURI, CLEAR_MUGSHOT
+	trainerbattle_no_intro TRAINER_ROSUURI, Birthday_Rosuuri_Bakery_RosuuriDefeat_Text
 	release
 	end
 

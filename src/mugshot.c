@@ -123,7 +123,7 @@ static const u16 sMugshotPal_Alex[] = INCBIN_U16("graphics/mugshots/alex.gbapal"
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
     [MUGSHOT_REYADETAIL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Reya, .palette = sMugshotPal_Reya},
-    [MUGSHOT_ROSUURI] = {.x = 20, .y = 6, .width = 64, .height = 69, .image = sMugshotImg_Rosuuri, .palette = sMugshotPal_Rosuuri},
+    [MUGSHOT_ROSUURI] = {.x = 20, .y = 6, .width = 80, .height = 80, .image = sMugshotImg_Rosuuri, .palette = sMugshotPal_Rosuuri},
     [MUGSHOT_LILYPAD] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lilypad, .palette = sMugshotPal_Lilypad},
     [MUGSHOT_VYRAL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Vyral, .palette = sMugshotPal_Vyral},
     [MUGSHOT_LILYPAL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lilypal, .palette = sMugshotPal_Lilypal},
@@ -141,7 +141,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_PURGE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Purge, .palette = sMugshotPal_Purge},
     [MUGSHOT_TSUNAMI] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Tsunami, .palette = sMugshotPal_Tsunami},
     [MUGSHOT_BO] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Bo, .palette = sMugshotPal_Bo},
-    [MUGSHOT_GRAPE] = {.x = 16, .y = 6, .width = 80, .height = 96, .image = sMugshotImg_Grape, .palette = sMugshotPal_Grape},
+    [MUGSHOT_GRAPE] = {.x = 20, .y = 6, .width = 96, .height = 80, .image = sMugshotImg_Grape, .palette = sMugshotPal_Grape},
     [MUGSHOT_ARLE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Arle, .palette = sMugshotPal_Arle},
     [MUGSHOT_ASTARION] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Astarion, .palette = sMugshotPal_Astarion},
     [MUGSHOT_CYNTHIA] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Cynthia, .palette = sMugshotPal_Cynthia},
