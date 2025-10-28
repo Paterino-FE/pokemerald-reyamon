@@ -6,12 +6,12 @@ Birthday_Main_Villahe_House2_DogmaticalEvent::
 	lock
 	faceplayer
 	goto_if_not_defeated TRAINER_DOGMATICAL, Birthday_Main_Villahe_House2_Dogmatical_Battle_EventScript
-	msgbox_mugshot Birthday_Main_Villahe_House2_Dogmatical_AfterText, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
+	msgbox Birthday_Main_Villahe_House2_Dogmatical_AfterText, MSGBOX_DEFAULT
 	release
 	end
 
 Birthday_Main_Villahe_House2_Dogmatical_Battle_EventScript::
-	msgbox_mugshot Birthday_Main_Villahe_House2_Dogmatical_IntroText, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
+	msgbox Birthday_Main_Villahe_House2_Dogmatical_IntroText, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_DOGMATICAL, Birthday_Main_Villahe_House2_Dogmatical_DefeatText
 	release
 	end

@@ -76,6 +76,9 @@ $(OBJEVENTGFXDIR)/people/purge.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/tsunami.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/dogmatical.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/youravgbo.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 

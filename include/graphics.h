@@ -3375,6 +3375,7 @@ extern const u16 gObjectEventPal_NeuroFridge[];
 extern const u16 gObjectEventPal_NeuroOven[];
 extern const u16 gObjectEventPal_NeuroMow[];
 extern const u16 gObjectEventPal_NeuroFan[];
+extern const u16 gObjectEventPal_Dogmatical[];
 
 // Mail
 extern const u16 gMailPalette_Orange[];

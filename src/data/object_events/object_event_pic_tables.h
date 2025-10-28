@@ -241,6 +241,18 @@ static const struct SpriteFrameImage sPicTable_NeuroWash[] = {
     overworld_frame(gObjectEventPic_NeuroWash, 2, 4, 2),
 };
 
+static const struct SpriteFrameImage sPicTable_Dogmatical[] = {
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Dogmatical, 2, 4, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_Lilypal[] = {
     overworld_ascending_frames(gObjectEventPic_Lilypal, 2, 4),
 };
