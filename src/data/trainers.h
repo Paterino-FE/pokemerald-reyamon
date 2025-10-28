@@ -31232,6 +31232,22 @@ F_TRAINER_FEMALE |
                 },
             },
             {
+            .species = SPECIES_ALTARIA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .ability = ABILITY_NATURAL_CURE,
+            .lvl = 68,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .heldItem = ITEM_SITRUS_BERRY,
+            .moves = {
+                MOVE_DRAGON_CLAW,
+                MOVE_COTTON_GUARD,
+                MOVE_BRAVE_BIRD,
+                MOVE_DRAGON_DANCE
+                },
+            },
+            {
             .species = SPECIES_NINETALES_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -31275,21 +31291,6 @@ F_TRAINER_FEMALE |
                 MOVE_DRAINING_KISS,
                 MOVE_ICE_BEAM,
                 MOVE_ENCORE
-                },
-            },
-            {
-            .species = SPECIES_SAWSBUCK_AUTUMN,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .ability = ABILITY_SERENE_GRACE,
-            .lvl = 68,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-                MOVE_HORN_LEECH,
-                MOVE_PLAY_ROUGH,
-                MOVE_BODY_SLAM,
-                MOVE_WILD_CHARGE
                 },
             },
             {
@@ -31631,6 +31632,19 @@ F_TRAINER_FEMALE |
         .party = (const struct TrainerMon[])
         {
             {
+            .species = SPECIES_POLITOED,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .lvl = 70,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_DRIZZLE,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_PERISH_SONG, MOVE_HYPNOSIS, MOVE_ENCORE, MOVE_METRONOME
+            },
+            },
+            {
             .species = SPECIES_LUCARIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -31667,19 +31681,6 @@ F_TRAINER_FEMALE |
             .heldItem = ITEM_ASSAULT_VEST,
             .moves = {
                 MOVE_SUPERPOWER, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_BULLET_PUNCH
-            },
-            },
-            {
-            .species = SPECIES_POLITOED,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-            .lvl = 70,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .ability = ABILITY_DRIZZLE,
-            .heldItem = ITEM_FOCUS_SASH,
-            .moves = {
-                MOVE_PERISH_SONG, MOVE_HYPNOSIS, MOVE_ENCORE, MOVE_METRONOME
             },
             },
             {
