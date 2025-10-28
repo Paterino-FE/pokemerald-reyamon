@@ -32758,8 +32758,8 @@ F_TRAINER_FEMALE |
     [TRAINER_DOGMATICAL] =
     {
         .trainerName = _("DOGMATICAL"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_ARTIST,
+        .trainerPic = TRAINER_PIC_DOGMATICAL,
         .encounterMusic_gender = 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
