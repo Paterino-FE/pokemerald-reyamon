@@ -334,6 +334,7 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_TSUNAMI] = { _("TALENT"), 15 },
     [TRAINER_CLASS_KING_VYRAL] = { _("KING"), 20, BALL_LUXURY },
     [TRAINER_CLASS_IMPOSTOR] = { _("SUS"), 20 },
+    [TRAINER_CLASS_ARTIST] = { _("ARTIST"), 10},
     [TRAINER_CLASS_PAT] = { _("PROJECTLEAD"), 15 },
     [TRAINER_CLASS_EXPERT] = { _("EXPERT"), 10 },
     [TRAINER_CLASS_AQUA_ADMIN] = { _("TENTACOOL"), 10 },

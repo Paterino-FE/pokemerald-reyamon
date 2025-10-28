@@ -31295,10 +31295,10 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_MILOTIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 0, 31, 31),
             .ability = ABILITY_CUTE_CHARM,
             .lvl = 69,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
                 MOVE_MUDDY_WATER,
@@ -31685,9 +31685,9 @@ F_TRAINER_FEMALE |
             {
             .species = SPECIES_HAXORUS,
             .gender = TRAINER_MON_RANDOM_GENDER,
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 0, 31, 31),
             .lvl = 70,
-            .nature = NATURE_HARDY,
+            .nature = NATURE_QUIET,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .ability = ABILITY_MOLD_BREAKER,
             .heldItem = ITEM_LOADED_DICE,
@@ -32750,6 +32750,57 @@ F_TRAINER_FEMALE |
             .heldItem = ITEM_LIGHT_CLAY,
             .moves = {
                 MOVE_HYPER_VOICE, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_HELPING_HAND
+            },
+            },
+        },
+    },
+    [TRAINER_DOGMATICAL] =
+    {
+        .trainerName = _("DOGMATICAL"),
+        .trainerClass = TRAINER_CLASS_LILYPAL,
+        .trainerPic = TRAINER_PIC_LILYPAL,
+        .encounterMusic_gender = 
+            TRAINER_ENCOUNTER_MUSIC_COOL,
+        .doubleBattle = FALSE,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+            .species = SPECIES_MILOTIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 14),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_MARVEL_SCALE,
+            .moves = {
+                MOVE_SCALD, MOVE_DAZZLING_GLEAM, MOVE_AQUA_RING, MOVE_DRAGON_TAIL
+            },
+            },
+            {
+            .species = SPECIES_SERPERIOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_CONTRARY,
+            .heldItem = ITEM_FOCUS_SASH,
+            .moves = {
+                MOVE_HIDDEN_POWER, MOVE_LEAF_STORM, MOVE_GLARE, MOVE_DRAGON_PULSE
+            },
+            },
+            {
+            .species = SPECIES_VOLCARONA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
+            .lvl = 60,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .ability = ABILITY_FLAME_BODY,
+            .moves = {
+                MOVE_QUIVER_DANCE, MOVE_GIGA_DRAIN, MOVE_FLAMETHROWER, MOVE_BUG_BUZZ
             },
             },
         },
