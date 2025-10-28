@@ -132,12 +132,133 @@ Birthday_Main_Village_HouseEnd_Purge_Text:
 Birthday_Main_Village_HouseEnd_Emilia_EventScript::
 	lock
 	faceplayer
-	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox Birthday_Main_Village_HouseEnd_EmiliaDoYouWant_Text, MSGBOX_YESNO
+	closemessage
+	goto_if_eq VAR_RESULT, NO, Birthday_Main_Village_HouseEnd_EmiliaAnotherTime_EventScript
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia1_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia2_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia3_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia4_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia5_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia6_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia7_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_Emilia8_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
 	release
 	end
 
-Birthday_Main_Village_HouseEnd_Emilia_Text:
-	.string "Credits part 1$"
+Birthday_Main_Village_HouseEnd_EmiliaAnotherTime_EventScript::
+	msgbox_mugshot Birthday_Main_Village_HouseEnd_EmiliaAnotherTime_Text, MSGBOX_AUTOCLOSE, MUGSHOT_EMILIA, CLEAR_MUGSHOT
+	release
+	end
+
+Birthday_Main_Village_HouseEnd_EmiliaDoYouWant_Text:
+	.string "LADY REYA, shall I read the CREDITS\n"
+	.string "to you?$"
+
+Birthday_Main_Village_HouseEnd_EmiliaAnotherTime_Text:
+	.string "Well, another time, then.$"
+
+Birthday_Main_Village_HouseEnd_Emilia1_Text:
+	.string "Once the decision had been made to\n"
+	.string "develop another REYAMON game, a call\l"
+	.string "for contributions was made in AUGUST.\p"
+	.string "However, proper development did not\n"
+	.string "begin until the end of SEPTEMBER.\p"
+	.string "By that point, we knew that things had\n"
+	.string "to go fast and smoothly for everything\l"
+	.string "to be finished in time.$"
+ 
+ Birthday_Main_Village_HouseEnd_Emilia2_Text:
+	.string "So this is when THEA started writing\n"
+	.string "the concept and the story, taking\l"
+	.string "feedback and ideas from the community\l"
+	.string "as was fit.\p"
+	.string "This was then used by PATERINO as a\n"
+	.string "basis to create the maps for the world\l"
+	.string "where the adventure would take place.\p"
+	.string "For this, THEA and LUMINEL designed\n"
+	.string "several of the vexing puzzles.$"
+
+ Birthday_Main_Village_HouseEnd_Emilia3_Text:
+	.string "AGDALEKS, ANTLEREDKEY, FELIX, and THEA\n"
+	.string "reached out to several of REYA's\l"
+	.string "friends outside the community to kindly\l"
+	.string "ask for their contributions, and of\l"
+	.string "course, they agreed.$"
+
+ Birthday_Main_Village_HouseEnd_Emilia4_Text:
+	.string "Naturally, this meant that a lot of\n"
+	.string "sprites had to be created to make the\l"
+	.string "journey immersive and exciting.\p"
+	.string "Great artwork was delivered by\n"
+	.string "DOGMATICAL, YOGURCOMICS, ANTLEREDKEY,\l"
+	.string "and PATERINO.\p"
+	.string "CONLAD even made custom music for\n"
+	.string "this game!$"
+
+ Birthday_Main_Village_HouseEnd_Emilia5_Text:
+	.string "As the mapping had progressed, it was\n"
+	.string "time to fill the world with life. This\l"
+	.string "included inserting all the trainers and\l"
+	.string "their teams, which was mostly done by\l"
+	.string "FELIX, as well as their event scripts\l"
+	.string "and dialogues, which was done by\l"
+	.string "FORTY. On top of this, there were\l"
+	.string "several small events that we wanted\l"
+	.string "to happen across the island.\p"
+	.string "For these, scripting work was done\n"
+	.string "by PATERINO and FORTY.\p"
+	.string "BANDANAT, DYLAN, FELIX, FORTY,\n"
+	.string "LUMINEL, NIGELTASTIC, and others\l"
+	.string "contributed cute and funny ideas for\l"
+	.string "different parts of the world and story.$"
+
+ Birthday_Main_Village_HouseEnd_Emilia6_Text:
+	.string "Time passed quickly, and the 24th of\n"
+	.string "OCTOBER came, which is when the first\l"
+	.string "playable version, a rough cut with\l"
+	.string "many pieces of content still missing,\l"
+	.string "was released for testing.\p"
+	.string "Thankfully, we had many thorough\n"
+	.string "testers, such as\l"
+	.string "FELIX, GLACIALRAVEN, LYRA, LUMINEL,\l"
+	.string "NIGELTASTIC, and SWORDFICSH, who not\l"
+	.string "only left no rock unturned to find\l"
+	.string "weird bugs on the map but also played\l"
+	.string "through the game several times to do\l"
+	.string "so.\p"
+	.string "This was a very busy time for\n"
+	.string "PATERINO and FORTY, trying to fix all\l"
+	.string "the possible problems while continuing\l"
+	.string "the completion of the story and\l"
+	.string "inserting the rest of the content.$"
+
+ Birthday_Main_Village_HouseEnd_Emilia7_Text:
+	.string "When the bugs became fewer, the tes-\n"
+	.string "ters turned to questions of balance.\p"
+	.string "This is when FELIX and THEA listened\n"
+	.string "to a lot of feedback and made\l"
+	.string "balancing decisions to ensure a\l"
+	.string "challenging, fair, and, most\l"
+	.string "importantly, fun game.\p"
+	.string "This necessitated several rounds of\n"
+	.string "testing and rebalancing. Things moved\l"
+	.string "very quickly, with last-minute\l"
+	.string "additions of sprites, events, and\l"
+	.string "dialogue submissions from friends.\p"
+	.string "And in the end, it actually all came\n"
+	.string "together, and we were able to finish\l"
+	.string "the game in time, in a state that we\l"
+	.string "can be very happy with.$"
+	
+ Birthday_Main_Village_HouseEnd_Emilia8_Text:
+	.string "We want to say THANK YOU to every\n"
+	.string "person that contributed! Even if you\l"
+	.string "think it was just a small thing that\l"
+	.string "you did, it was a building block in a\l"
+	.string "big project that was created in a very\l"
+	.string "short time!$"
+
 
 Birthday_Main_Village_HouseEnd_Rosuuri_EventScript::
 	lock
