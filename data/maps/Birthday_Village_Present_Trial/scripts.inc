@@ -36,24 +36,52 @@ Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript::
 	removeobject LOCALID_IMPOSTERPAL
 	fadescreen FADE_FROM_BLACK
 	delay 60
-	setweather WEATHER_SUNNY
-	doweather
 	goto Birthday_Village_Present_Trial_Essence_EventScript
 	release
 	end
 
 Birthday_Village_Present_Trial_Essence_EventScript::
 	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine1_Text, MSGBOX_DEFAULT, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
-	fadescreen FADE_TO_BLACK
-	delay 60
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine2_Text, MSGBOX_DEFAULT, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
+	msgbox Birthday_Village_Present_Trial_EssenceCombine3_Text, MSGBOX_DEFAULT
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine4_Text, MSGBOX_DEFAULT, MUGSHOT_ESSENCE, CLEAR_MUGSHOT
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	setweather WEATHER_SUNNY
+	doweather
+	playse SE_M_DETECT
+	dofieldeffectsparkle 38, 12, 0
+	waitfieldeffect FLDEFF_SPARKLE
+	closemessage
+	playfanfare MUS_AWAKEN_LEGEND
+	playse SE_ORB
+	special DoOrbEffect
+	delay 150
 	clearflag FLAG_HIDE_LILYPAD_TRIAL
-	fadescreen FADE_FROM_BLACK
-	delay 60
+	waitstate
+	delay 150
 	addobject LOCALID_LILYPAD
+	special FadeOutOrbEffect
+	waitstate
+	delay 60
 	applymovement LOCALID_LILYPAD, Birthday_Village_Present_Trial_Lilypad_Movement1
 	playmoncry SPECIES_PIKACHU, CRY_MODE_ENCOUNTER
 	waitmoncry
-	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine2_Text, MSGBOX_DEFAULT, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Village_Present_Trial_EssenceCombine5_Text, MSGBOX_DEFAULT, MUGSHOT_REYADETAIL, CLEAR_MUGSHOT
 	waitmovement 0
 	release
 	end
@@ -99,9 +127,20 @@ Birthday_Village_Present_Trial_ImposterLilypadIntro_Text:
 	.string "PERISH!$"
 
 Birthday_Village_Present_Trial_EssenceCombine1_Text:
-	.string "The essences combine!$"
+	.string "Where is LILYPAD? I thought I would\n"
+	.string "free her, if I complete all trials...$"
 
 Birthday_Village_Present_Trial_EssenceCombine2_Text:
+	.string "Mh... What is happening?$"
+
+Birthday_Village_Present_Trial_EssenceCombine3_Text:
+	.string "You feel how the mysterious\n"
+	.string "energy inside you is manifesting...$"
+
+Birthday_Village_Present_Trial_EssenceCombine4_Text:
+	.string "The essences are coming forth!$"
+
+Birthday_Village_Present_Trial_EssenceCombine5_Text:
 	.string "Lilypad!!!$"
 
 Birthday_Village_Present_Trial_ImposterLilypad_Movement1:
@@ -109,6 +148,8 @@ Birthday_Village_Present_Trial_ImposterLilypad_Movement1:
 	step_end
 
 Birthday_Village_Present_Trial_Lilypad_Movement1:
+	walk_down
+	walk_down
 	emote_question_mark
 	step_end
 

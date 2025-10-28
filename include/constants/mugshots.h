@@ -51,5 +51,6 @@
 #define MUGSHOT_BEARTIC     46
 #define MUGSHOT_DIRKKISS    47
 #define MUGSHOT_TSUNAMI     48
+#define MUGSHOT_ESSENCE     49
 
 #endif
