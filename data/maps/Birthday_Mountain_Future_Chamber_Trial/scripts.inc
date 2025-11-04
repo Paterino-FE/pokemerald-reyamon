@@ -23,7 +23,6 @@ Birthday_Mountain_Future_Chamber_Trial_VyralBattle_EventScript::
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_VYRAL
 	setflag FLAG_BEAT_VYRAL
-	clearflag FLAG_HIDE_HATZOOME_ENDING
 	removeobject LOCALID_VYRAL
 	delay 16
 	fadescreen FADE_FROM_BLACK

@@ -33,6 +33,7 @@ Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript::
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_IMPOSTERPAL
 	setflag FLAG_BEAT_IMPOSTERPAD
+	clearflag FLAG_HIDE_HATZOOME_ENDING
 	removeobject LOCALID_IMPOSTERPAL
 	fadescreen FADE_FROM_BLACK
 	delay 60
