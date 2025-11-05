@@ -29,6 +29,7 @@ Birthday_Village_Present_Trial_ImposterLilypad_EventScript::
 
 Birthday_Village_Present_Trial_ImposterLilypadEnd_EventScript::
 	setvar VAR_BIRTHDAY_ENDING, 1
+	setvar VAR_BIRTHDAY_HIDE_PRESENT, 4
 	msgbox_mugshot Birthday_Village_Present_Trial_ImposterLilypadDefeat2_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAD, CLEAR_MUGSHOT
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_IMPOSTERPAL
