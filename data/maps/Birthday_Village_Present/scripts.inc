@@ -317,7 +317,7 @@ Birthday_Village_Present_Fight_Against_Pat_Conlad_Script::
 	applymovement LOCALID_CON, Birthday_Village_Present_Movement_Fight_Con
 	waitmovement 0
 	msgbox_mugshot Birthday_Village_Present_Pat_PreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_PATERINO, CLEAR_MUGSHOT
-	msgbox_mugshot Birthday_Village_Present_Con_PreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_LILYPAL, CLEAR_MUGSHOT
+	msgbox_mugshot Birthday_Village_Present_Con_PreBattle_Text, MSGBOX_DEFAULT, MUGSHOT_CONLAD, CLEAR_MUGSHOT
 	trainerbattle_two_trainers TRAINER_CONLAD_DOUBLE, Birthday_Village_Present_Con_Defeat_Text, TRAINER_PAT_DOUBLE, Birthday_Village_Present_Pat_Defeat_Text
 	setvar VAR_BIRTHDAY_HIDE_PAT_CONLAD, 1
 	release
@@ -359,14 +359,14 @@ Birthday_Village_Present_Con_Defeat_Text:
 Birthday_Village_Present_Pat_EventScript::
 	lock
 	faceplayer
-	msgbox Birthday_Village_Present_Pat_PostBattle_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Village_Present_Pat_PostBattle_Text, MSGBOX_DEFAULT, MUGSHOT_PATERINO, CLEAR_MUGSHOT
 	release
 	end
 
 Birthday_Village_Present_Con_EventScript::
 	lock 
 	faceplayer
-	msgbox Birthday_Village_Present_Con_PostBattle_Text, MSGBOX_DEFAULT
+	msgbox_mugshot Birthday_Village_Present_Con_PostBattle_Text, MSGBOX_DEFAULT, MUGSHOT_CONLAD, CLEAR_MUGSHOT
 	release
 	end
 

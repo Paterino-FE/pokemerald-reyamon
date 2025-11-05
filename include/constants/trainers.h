@@ -130,7 +130,8 @@
 #define TRAINER_PIC_IMPOSTERPAL           111
 #define TRAINER_PIC_DOGMATICAL            112
 // end Key's mess
-#define TRAINER_PIC_COUNT                 112
+#define TRAINER_PIC_CONLAD                113
+#define TRAINER_PIC_COUNT                 114
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -392,7 +393,8 @@
 #define TRAINER_CLASS_KING_VYRAL     0x58
 #define TRAINER_CLASS_IMPOSTOR       0x59
 #define TRAINER_CLASS_ARTIST         0x60
-#define TRAINER_CLASS_COUNT          0x61
+#define TRAINER_CLASS_CONLAD         0x61
+#define TRAINER_CLASS_COUNT          0x62
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

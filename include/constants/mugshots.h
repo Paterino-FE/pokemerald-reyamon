@@ -52,5 +52,6 @@
 #define MUGSHOT_DIRKKISS    47
 #define MUGSHOT_TSUNAMI     48
 #define MUGSHOT_ESSENCE     49
+#define MUGSHOT_CONLAD      50
 
 #endif

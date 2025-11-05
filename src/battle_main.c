@@ -326,6 +326,7 @@ const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
     [TRAINER_CLASS_LILYPAL] = { _("LILYPAL"), 10 },
     [TRAINER_CLASS_MABLE] = { _("CAPABLE"), 15, BALL_DIVE },
     [TRAINER_CLASS_GRAPE] = { _("RIVAL"), 15 },
+    [TRAINER_CLASS_CONLAD] = { _("MUSICIAN"), 15 },
     [TRAINER_CLASS_ALEX] = { _("CHAMPION"), 15 },
     [TRAINER_CLASS_ELLIE] = { _("ENGINEER"), 15 },
     [TRAINER_CLASS_BO] = { _("AVERAGE"), 5 },

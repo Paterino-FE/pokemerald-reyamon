@@ -121,6 +121,8 @@ static const u32 sMugshotImg_Alex[] = INCBIN_U32("graphics/mugshots/alex.4bpp.lz
 static const u16 sMugshotPal_Alex[] = INCBIN_U16("graphics/mugshots/alex.gbapal");
 static const u32 sMugshotImg_Essence[] = INCBIN_U32("graphics/mugshots/reyalink.4bpp.lz");
 static const u16 sMugshotPal_Essence[] = INCBIN_U16("graphics/mugshots/reyalink.gbapal");
+static const u32 sMugshotImg_Conlad[] = INCBIN_U32("graphics/mugshots/conlad.4bpp.lz");
+static const u16 sMugshotPal_Conlad[] = INCBIN_U16("graphics/mugshots/conlad.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
@@ -174,6 +176,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_BEARTIC] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Beartic, .palette = sMugshotPal_Beartic},
     [MUGSHOT_ALEX] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Alex, .palette = sMugshotPal_Alex},
     [MUGSHOT_ESSENCE] = {.x = 3, .y = 0, .width = 192, .height = 128, .image = sMugshotImg_Essence, .palette = sMugshotPal_Essence},
+    [MUGSHOT_CONLAD] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Conlad, .palette = sMugshotPal_Conlad},
 }; 
 
 

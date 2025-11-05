@@ -31367,8 +31367,8 @@ F_TRAINER_FEMALE |
     [TRAINER_CONLAD_DOUBLE] =
     {
         .trainerName = _("CONLAD"),
-        .trainerClass = TRAINER_CLASS_LILYPAL,
-        .trainerPic = TRAINER_PIC_LILYPAL,
+        .trainerClass = TRAINER_CLASS_CONLAD,
+        .trainerPic = TRAINER_PIC_CONLAD,
         .encounterMusic_gender = 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .doubleBattle = FALSE,
