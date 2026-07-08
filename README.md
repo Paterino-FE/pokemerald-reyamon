@@ -100,4 +100,4 @@ Cynthia Theme
 > Theastraza
 
 Special thanks
-> LongLiveReya Communits
+> LongLiveReya Community
